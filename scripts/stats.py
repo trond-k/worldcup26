@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+"""Compute aggregate market-value statistics and write docs/stats.md.
+
+Usage: python3 scripts/stats.py
+"""
+
+import os
+
+from common import DOCS_DIR, GROUP_LETTERS, fmt_eur, load_all_teams, load_tournament
+
+
+def squad_value(team):
+    return sum(p.get("market_value_eur", 0) for p in team.get("squad", []))
+
+
+def main():
+    teams = load_all_teams()
+    tournament = load_tournament()
+
+    if not teams:
+        print("No team data found; skipping stats.")
+        return
+
+    lines = ["# Market Value Statistics", ""]
+    lines.append(f"_Based on {len(teams)} teams with data._")
+    lines.append("")
+
+    # --- most valuable squads ---
+    lines.append("## Most valuable squads")
+    lines.append("")
+    lines.append("| Rank | Team | Group | Squad value |")
+    lines.append("|------|------|-------|-------------|")
+    ranked = sorted(teams, key=squad_value, reverse=True)
+    for i, t in enumerate(ranked, start=1):
+        lines.append(f"| {i} | {t['name']} | {t.get('group','')} | {fmt_eur(squad_value(t))} |")
+    lines.append("")
+
+    # --- value by group ---
+    lines.append("## Total value by group")
+    lines.append("")
+    lines.append("| Group | Teams | Total value |")
+    lines.append("|-------|-------|-------------|")
+    by_group = {}
+    for t in teams:
+        by_group.setdefault(t.get("group"), []).append(t)
+    for letter in GROUP_LETTERS:
+        grp = by_group.get(letter, [])
+        if grp:
+            total = sum(squad_value(t) for t in grp)
+            lines.append(f"| {letter} | {len(grp)} | {fmt_eur(total)} |")
+    lines.append("")
+
+    # --- top players ---
+    players = []
+    for t in teams:
+        for p in t.get("squad", []):
+            players.append((p, t))
+    players.sort(key=lambda pt: pt[0].get("market_value_eur", 0), reverse=True)
+
+    lines.append("## Top 25 most valuable players")
+    lines.append("")
+    lines.append("| Rank | Player | Team | Club | Market value |")
+    lines.append("|------|--------|------|------|--------------|")
+    for i, (p, t) in enumerate(players[:25], start=1):
+        lines.append(
+            f"| {i} | {p.get('name','')} | {t['name']} | {p.get('club','')} | "
+            f"{fmt_eur(p.get('market_value_eur', 0))} |"
+        )
+    lines.append("")
+
+    # --- summary numbers ---
+    total_all = sum(squad_value(t) for t in teams)
+    n_players = len(players)
+    avg_player = total_all // n_players if n_players else 0
+    lines.append("## Summary")
+    lines.append("")
+    lines.append(f"- Total market value of all squads: **{fmt_eur(total_all)}**")
+    lines.append(f"- Players counted: **{n_players}**")
+    lines.append(f"- Average player value: **{fmt_eur(avg_player)}**")
+    lines.append("")
+
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    with open(os.path.join(DOCS_DIR, "stats.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines))
+    print(f"Wrote docs/stats.md ({len(teams)} teams, {n_players} players).")
+
+
+if __name__ == "__main__":
+    main()

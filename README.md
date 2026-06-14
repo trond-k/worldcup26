@@ -1,0 +1,83 @@
+# World Cup 2026 — Teams, Groups & Players
+
+A structured dataset of the **2026 FIFA World Cup** (hosted by Canada, Mexico and
+the United States): all 48 qualified teams organized into the 12 groups (A–L),
+with a full 26-player squad for each team listing **position**, **club** and
+**assumed market value**.
+
+> ⚠️ **Data accuracy:** Squads, clubs and market values are compiled from public
+> web sources (FIFA, ESPN, Wikipedia, Transfermarkt-style market valuations) and
+> are **best-effort**. Market values are expressed in euros following the
+> Transfermarkt convention. Verify against a primary source before relying on
+> this data, and see *Contributing* below to submit corrections.
+
+## Layout
+
+```
+data/
+  tournament.json      # hosts, dates, format, and the group → team index
+  teams/<slug>.json    # one file per team: metadata + 26-man squad (source of truth)
+schema/
+  tournament.schema.json
+  team.schema.json     # JSON Schema describing a team file
+docs/                  # GENERATED — do not edit by hand (run the scripts)
+  README.md            # browsable index of all groups
+  group-a.md … group-l.md
+  stats.md             # market-value rankings and totals
+scripts/
+  validate.py          # structural validation (CI-friendly, exits non-zero on error)
+  generate_markdown.py # regenerate docs/ from the JSON
+  stats.py             # compute aggregate market-value stats → docs/stats.md
+  common.py            # shared helpers
+```
+
+## Data model
+
+Each `data/teams/<slug>.json` file:
+
+```json
+{
+  "name": "Argentina",
+  "slug": "argentina",
+  "confederation": "CONMEBOL",
+  "group": "J",
+  "fifa_ranking": 1,
+  "coach": "Lionel Scaloni",
+  "squad": [
+    {
+      "name": "Lionel Messi",
+      "position": "FW",
+      "club": "Inter Miami",
+      "club_country": "USA",
+      "age": 38,
+      "market_value_eur": 18000000
+    }
+  ]
+}
+```
+
+- `position` is one of `GK`, `DF`, `MF`, `FW`.
+- `market_value_eur` is a non-negative integer (euros).
+- `squad` must contain exactly 26 players.
+
+## Usage
+
+All scripts use only the Python 3 standard library (no dependencies):
+
+```bash
+python3 scripts/validate.py            # check every file is well-formed
+python3 scripts/generate_markdown.py   # rebuild docs/ from the JSON
+python3 scripts/stats.py               # rebuild docs/stats.md
+```
+
+Start browsing at [docs/README.md](docs/README.md).
+
+## Contributing
+
+The JSON files under `data/` are the source of truth — edit those, never the
+generated files in `docs/`. After editing:
+
+1. Run `python3 scripts/validate.py` and fix any reported errors.
+2. Run `python3 scripts/generate_markdown.py` and `python3 scripts/stats.py` to
+   refresh the generated docs.
+3. Commit both the data change and the regenerated docs.

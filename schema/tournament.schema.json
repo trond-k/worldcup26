@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tournament.schema.json",
+  "title": "World Cup 2026 Tournament",
+  "type": "object",
+  "required": ["name", "hosts", "groups"],
+  "properties": {
+    "name": { "type": "string" },
+    "edition": { "type": "integer" },
+    "hosts": { "type": "array", "items": { "type": "string" } },
+    "start_date": { "type": "string" },
+    "end_date": { "type": "string" },
+    "format": { "type": "string" },
+    "currency": { "type": "string" },
+    "data_disclaimer": { "type": "string" },
+    "draw": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string" },
+        "location": { "type": "string" }
+      }
+    },
+    "groups": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-L]$": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

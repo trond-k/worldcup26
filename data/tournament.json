@@ -1,0 +1,28 @@
+{
+  "name": "2026 FIFA World Cup",
+  "edition": 23,
+  "hosts": ["Canada", "Mexico", "United States"],
+  "start_date": "2026-06-11",
+  "end_date": "2026-07-19",
+  "format": "48 teams, 12 groups of 4. Top two of each group plus the eight best third-placed teams advance to a 32-team knockout round.",
+  "currency": "EUR",
+  "data_disclaimer": "Squads, clubs and market values are gathered from public web sources and are best-effort. Verify against a primary source before relying on them.",
+  "draw": {
+    "date": "2025-12-05",
+    "location": "Kennedy Center, Washington, D.C."
+  },
+  "groups": {
+    "A": ["mexico", "south-africa", "south-korea", "czechia"],
+    "B": ["canada", "bosnia-herzegovina", "qatar", "switzerland"],
+    "C": ["brazil", "morocco", "haiti", "scotland"],
+    "D": ["usa", "paraguay", "australia", "turkiye"],
+    "E": ["germany", "curacao", "cote-divoire", "ecuador"],
+    "F": ["netherlands", "japan", "sweden", "tunisia"],
+    "G": ["belgium", "egypt", "iran", "new-zealand"],
+    "H": ["spain", "cabo-verde", "saudi-arabia", "uruguay"],
+    "I": ["france", "senegal", "iraq", "norway"],
+    "J": ["argentina", "algeria", "austria", "jordan"],
+    "K": ["portugal", "dr-congo", "uzbekistan", "colombia"],
+    "L": ["england", "croatia", "ghana", "panama"]
+  }
+}

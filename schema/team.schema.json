@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "team.schema.json",
+  "title": "World Cup 2026 Team",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "slug", "confederation", "group", "squad"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "confederation": {
+      "type": "string",
+      "enum": ["AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA"]
+    },
+    "group": { "type": "string", "pattern": "^[A-L]$" },
+    "fifa_ranking": { "type": ["integer", "null"], "minimum": 1 },
+    "coach": { "type": ["string", "null"] },
+    "squad": {
+      "type": "array",
+      "minItems": 26,
+      "maxItems": 26,
+      "items": { "$ref": "#/definitions/player" }
+    }
+  },
+  "definitions": {
+    "player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "position", "club", "market_value_eur"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "position": { "type": "string", "enum": ["GK", "DF", "MF", "FW"] },
+        "club": { "type": "string", "minLength": 1 },
+        "club_country": { "type": ["string", "null"] },
+        "age": { "type": ["integer", "null"], "minimum": 15, "maximum": 50 },
+        "market_value_eur": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}
