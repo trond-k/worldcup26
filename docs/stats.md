@@ -1,6 +1,6 @@
 # Market Value Statistics
 
-_Based on 46 teams with data._
+_Based on 48 teams with data._
 
 ## Most valuable squads
 
@@ -39,26 +39,28 @@ _Based on 46 teams with data._
 | 31 | Egypt | G | €175.5m |
 | 32 | DR Congo | K | €167.6m |
 | 33 | Paraguay | D | €152.4m |
-| 34 | Tunisia | F | €100.5m |
-| 35 | Australia | D | €82.5m |
-| 36 | Saudi Arabia | H | €82.0m |
-| 37 | Uzbekistan | K | €66.1m |
-| 38 | Haiti | C | €56.2m |
-| 39 | Cabo Verde | H | €55.1m |
-| 40 | New Zealand | G | €47.5m |
-| 41 | South Africa | A | €41.9m |
-| 42 | Curaçao | E | €37.4m |
-| 43 | Panama | L | €35.3m |
-| 44 | IR Iran | G | €30.8m |
-| 45 | Iraq | I | €28.1m |
-| 46 | Jordan | J | €20.0m |
+| 34 | Bosnia and Herzegovina | B | €122.8m |
+| 35 | Tunisia | F | €100.5m |
+| 36 | Australia | D | €82.5m |
+| 37 | Saudi Arabia | H | €82.0m |
+| 38 | Uzbekistan | K | €66.1m |
+| 39 | Haiti | C | €56.2m |
+| 40 | Cabo Verde | H | €55.1m |
+| 41 | New Zealand | G | €47.5m |
+| 42 | South Africa | A | €41.9m |
+| 43 | Qatar | B | €39.4m |
+| 44 | Curaçao | E | €37.4m |
+| 45 | Panama | L | €35.3m |
+| 46 | IR Iran | G | €30.8m |
+| 47 | Iraq | I | €28.1m |
+| 48 | Jordan | J | €20.0m |
 
 ## Total value by group
 
 | Group | Teams | Total value |
 |-------|-------|-------------|
 | A | 4 | €621.2m |
-| B | 2 | €578.1m |
+| B | 4 | €740.3m |
 | C | 4 | €1516.5m |
 | D | 4 | €1133.4m |
 | E | 4 | €1851.4m |
@@ -102,6 +104,6 @@ _Based on 46 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€17660.3m**
-- Players counted: **1196**
-- Average player value: **€14.8m**
+- Total market value of all squads: **€17822.5m**
+- Players counted: **1248**
+- Average player value: **€14.3m**

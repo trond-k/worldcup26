@@ -4,8 +4,8 @@
 |------|---------------|-------------|
 | Switzerland | UEFA | €314.1m |
 | Canada | CONCACAF | €264.0m |
-
-_Pending data: bosnia-herzegovina, qatar_
+| Bosnia and Herzegovina | UEFA | €122.8m |
+| Qatar | AFC | €39.4m |
 
 ### Canada
 
@@ -39,6 +39,72 @@ _Pending data: bosnia-herzegovina, qatar_
 | 24 | Promise David | FW | Union Saint-Gilloise (Belgium) | €12.0m |
 | 25 | Tani Oluwaseyi | FW | Villarreal (Spain) | €8.0m |
 | 26 | Cyle Larin | FW | RCD Mallorca (Spain) | €6.0m |
+
+### Bosnia and Herzegovina
+
+**Confederation:** UEFA · **FIFA ranking:** 64 · **Coach:** Sergej Barbarez · **Squad value:** €122.8m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Nikola Vasilj | GK | FC St. Pauli (Germany) | €5.0m |
+| 2 | Martin Zlomislić | GK | HNK Rijeka (Croatia) | €1.5m |
+| 3 | Osman Hadžikić | GK | Slaven Belupo (Croatia) | €800k |
+| 4 | Amar Dedić | DF | Benfica (Portugal) | €16.0m |
+| 5 | Tarik Muharemović | DF | Sassuolo (Italy) | €8.0m |
+| 6 | Sead Kolašinac | DF | Atalanta (Italy) | €5.0m |
+| 7 | Nihad Mujakić | DF | Gaziantep FK (Turkey) | €3.0m |
+| 8 | Nidal Čelik | DF | RC Lens (France) | €3.0m |
+| 9 | Nikola Katić | DF | Schalke 04 (Germany) | €2.5m |
+| 10 | Stjepan Radeljić | DF | HNK Rijeka (Croatia) | €2.5m |
+| 11 | Dennis Hadžikadunić | DF | Sampdoria (Italy) | €2.0m |
+| 12 | Benjamin Tahirović | MF | Brøndby IF (Denmark) | €6.0m |
+| 13 | Armin Gigović | MF | BSC Young Boys (Switzerland) | €5.0m |
+| 14 | Amir Hadžiahmetović | MF | Hull City (England) | €4.0m |
+| 15 | Ivan Šunjić | MF | Pafos FC (Cyprus) | €3.0m |
+| 16 | Amar Memić | MF | Viktoria Plzeň (Czech Republic) | €2.5m |
+| 17 | Dženis Burnić | MF | Karlsruher SC (Germany) | €2.0m |
+| 18 | Ivan Bašić | MF | FC Astana (Kazakhstan) | €1.5m |
+| 19 | Ermin Mahmić | MF | Slovan Liberec (Czech Republic) | €1.5m |
+| 20 | Ermedin Demirović | FW | VfB Stuttgart (Germany) | €22.0m |
+| 21 | Esmir Bajraktarević | FW | PSV Eindhoven (Netherlands) | €9.0m |
+| 22 | Kerim Alajbegović | FW | RB Salzburg (Austria) | €7.0m |
+| 23 | Haris Tabaković | FW | Borussia Mönchengladbach (Germany) | €5.0m |
+| 24 | Samed Baždar | FW | Jagiellonia Białystok (Poland) | €2.5m |
+| 25 | Jovo Lukić | FW | Universitatea Cluj (Romania) | €1.5m |
+| 26 | Edin Džeko | FW | Schalke 04 (Germany) | €1.0m |
+
+### Qatar
+
+**Confederation:** AFC · **FIFA ranking:** 57 · **Coach:** Julen Lopetegui · **Squad value:** €39.4m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Meshaal Barsham | GK | Al-Sadd (Qatar) | €2.0m |
+| 2 | Mahmoud Abunada | GK | Al-Rayyan (Qatar) | €700k |
+| 3 | Salah Zakaria | GK | Al-Duhail (Qatar) | €700k |
+| 4 | Homam Ahmed | DF | Cultural Leonesa (Spain) | €1.5m |
+| 5 | Ayoub Al-Alawi | DF | Al-Gharafa (Qatar) | €1.2m |
+| 6 | Sultan Al-Brake | DF | Al-Duhail (Qatar) | €1.2m |
+| 7 | Al-Hashmi Al-Hussain | DF | Al-Arabi (Qatar) | €1.0m |
+| 8 | Pedro Miguel | DF | Al-Sadd (Qatar) | €800k |
+| 9 | Lucas Mendes | DF | Al-Wakrah (Qatar) | €800k |
+| 10 | Issa Lai | DF | Al-Arabi (Qatar) | €800k |
+| 11 | Boualem Khoukhi | DF | Al-Sadd (Qatar) | €700k |
+| 12 | Jassem Gaber | MF | Al-Rayyan (Qatar) | €1.5m |
+| 13 | Ahmed Fathi | MF | Al-Arabi (Qatar) | €1.5m |
+| 14 | Assim Madibo | MF | Al-Wakrah (Qatar) | €1.2m |
+| 15 | Mohammed Al-Mannai | MF | Al-Shamal (Qatar) | €1.0m |
+| 16 | Karim Boudiaf | MF | Al-Duhail (Qatar) | €500k |
+| 17 | Abdulaziz Hatem | MF | Al-Rayyan (Qatar) | €500k |
+| 18 | Akram Afif | FW | Al-Sadd (Qatar) | €8.0m |
+| 19 | Almoez Ali | FW | Al-Duhail (Qatar) | €5.0m |
+| 20 | Edmilson Junior | FW | Al-Duhail (Qatar) | €2.5m |
+| 21 | Tahsin Mohammed | FW | Al-Duhail (Qatar) | €1.5m |
+| 22 | Yusuf Abdurisag | FW | Al-Wakrah (Qatar) | €1.2m |
+| 23 | Ahmed Alaa | FW | Al-Rayyan (Qatar) | €1.2m |
+| 24 | Ahmed Al-Ganehi | FW | Al-Gharafa (Qatar) | €1.0m |
+| 25 | Hassan Al-Haydos | FW | Al-Sadd (Qatar) | €700k |
+| 26 | Mohammed Muntari | FW | Al-Gharafa (Qatar) | €700k |
 
 ### Switzerland
 
