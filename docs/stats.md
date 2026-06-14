@@ -1,6 +1,6 @@
 # Market Value Statistics
 
-_Based on 43 teams with data._
+_Based on 44 teams with data._
 
 ## Most valuable squads
 
@@ -49,6 +49,7 @@ _Based on 43 teams with data._
 | 41 | Panama | L | €35.3m |
 | 42 | IR Iran | G | €30.8m |
 | 43 | Iraq | I | €28.1m |
+| 44 | Jordan | J | €20.0m |
 
 ## Total value by group
 
@@ -63,7 +64,7 @@ _Based on 43 teams with data._
 | G | 4 | €821.8m |
 | H | 4 | €2044.6m |
 | I | 4 | €2360.1m |
-| J | 3 | €1330.9m |
+| J | 4 | €1350.9m |
 | K | 4 | €1542.8m |
 | L | 4 | €2047.9m |
 
@@ -99,6 +100,6 @@ _Based on 43 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€17339.0m**
-- Players counted: **1118**
-- Average player value: **€15.5m**
+- Total market value of all squads: **€17359.0m**
+- Players counted: **1144**
+- Average player value: **€15.2m**

@@ -15,7 +15,7 @@
 | [G](group-g.md) | Belgium, Egypt, IR Iran, New Zealand |
 | [H](group-h.md) | Spain, Cabo Verde, Saudi Arabia, Uruguay |
 | [I](group-i.md) | France, Senegal, Iraq, Norway |
-| [J](group-j.md) | Argentina, Algeria, Austria, _jordan_ |
+| [J](group-j.md) | Argentina, Algeria, Austria, Jordan |
 | [K](group-k.md) | Portugal, DR Congo, Uzbekistan, Colombia |
 | [L](group-l.md) | England, Croatia, Ghana, Panama |
 

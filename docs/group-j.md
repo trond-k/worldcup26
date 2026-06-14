@@ -5,8 +5,7 @@
 | Argentina | CONMEBOL | €811.0m |
 | Austria | UEFA | €266.0m |
 | Algeria | CAF | €253.9m |
-
-_Pending data: jordan_
+| Jordan | AFC | €20.0m |
 
 ### Argentina
 
@@ -106,3 +105,36 @@ _Pending data: jordan_
 | 24 | Michael Gregoritsch | FW | FC Augsburg (Germany) | €4.0m |
 | 25 | Saša Kalajdžić | FW | LASK (Austria) | €2.5m |
 | 26 | Marko Arnautović | FW | Red Star Belgrade (Serbia) | €1.5m |
+
+### Jordan
+
+**Confederation:** AFC · **FIFA ranking:** 63 · **Coach:** Jamal Sellami · **Squad value:** €20.0m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Yazeed Abulaila | GK | Al-Hussein (Jordan) | €300k |
+| 2 | Abdallah Al-Fakhouri | GK | Al-Wehdat (Jordan) | €250k |
+| 3 | Noureddin Bani Attiah | GK | Al-Faisaly (Jordan) | €200k |
+| 4 | Yazan Al-Arab | DF | FC Seoul (South Korea) | €700k |
+| 5 | Mohammad Abualnadi | DF | Selangor (Malaysia) | €500k |
+| 6 | Abdallah Nasib | DF | Al-Zawraa (Iraq) | €400k |
+| 7 | Saed Al-Rosan | DF | Al-Hussein (Jordan) | €350k |
+| 8 | Saleem Obaid | DF | Al-Hussein (Jordan) | €350k |
+| 9 | Husam Abu Dahab | DF | Al-Hussein (Jordan) | €300k |
+| 10 | Mohannad Abu Taha | DF | Al-Quwa Al-Jawiya (Iraq) | €300k |
+| 11 | Ehsan Haddad | DF | Al-Hussein (Jordan) | €300k |
+| 12 | Mohammad Abu Hasheesh | DF | Al-Karma (Jordan) | €250k |
+| 13 | Anas Badawi | DF | Al-Faisaly (Jordan) | €250k |
+| 14 | Nizar Al-Rashdan | MF | Al-Wakrah (Qatar) | €600k |
+| 15 | Noor Al-Rawabdeh | MF | Selangor (Malaysia) | €500k |
+| 16 | Amer Jamous | MF | Al-Zawraa (Iraq) | €400k |
+| 17 | Mohammad Al-Dawoud | MF | Al-Wehdat (Jordan) | €350k |
+| 18 | Ibrahim Saadeh | MF | Al-Karma (Jordan) | €300k |
+| 19 | Rajaei Ayed | MF | Al-Hussein (Jordan) | €300k |
+| 20 | Mousa Al-Tamari | FW | Rennes (France) | €9.0m |
+| 21 | Ali Olwan | FW | Al-Sailiya (Qatar) | €1.2m |
+| 22 | Odeh Al-Fakhouri | FW | Pyramids (Egypt) | €800k |
+| 23 | Mohammad Abu Zrayq | FW | Raja Casablanca (Morocco) | €700k |
+| 24 | Ibrahim Sabra | FW | Lokomotiva Zagreb (Croatia) | €600k |
+| 25 | Mahmoud Al-Mardi | FW | Al-Hussein (Jordan) | €400k |
+| 26 | Ali Azaizeh | FW | Al-Shabab (Jordan) | €400k |
