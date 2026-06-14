@@ -6,17 +6,17 @@
 
 | Group | Teams |
 |-------|-------|
-| [A](group-a.md) | Mexico, South Africa, _south-korea_, _czechia_ |
+| [A](group-a.md) | Mexico, South Africa, South Korea, Czechia |
 | [B](group-b.md) | _canada_, _bosnia-herzegovina_, _qatar_, Switzerland |
-| [C](group-c.md) | Brazil, Morocco, Haiti, _scotland_ |
+| [C](group-c.md) | Brazil, Morocco, Haiti, Scotland |
 | [D](group-d.md) | United States, Paraguay, Australia, Türkiye |
-| [E](group-e.md) | _germany_, _curacao_, _cote-divoire_, _ecuador_ |
-| [F](group-f.md) | _netherlands_, _japan_, _sweden_, _tunisia_ |
-| [G](group-g.md) | _belgium_, _egypt_, _iran_, _new-zealand_ |
-| [H](group-h.md) | _spain_, _cabo-verde_, _saudi-arabia_, _uruguay_ |
-| [I](group-i.md) | _france_, _senegal_, _iraq_, _norway_ |
-| [J](group-j.md) | _argentina_, _algeria_, _austria_, _jordan_ |
-| [K](group-k.md) | _portugal_, _dr-congo_, _uzbekistan_, _colombia_ |
-| [L](group-l.md) | _england_, _croatia_, _ghana_, _panama_ |
+| [E](group-e.md) | Germany, _curacao_, _cote-divoire_, Ecuador |
+| [F](group-f.md) | Netherlands, Japan, Sweden, Tunisia |
+| [G](group-g.md) | Belgium, Egypt, IR Iran, New Zealand |
+| [H](group-h.md) | Spain, Cabo Verde, Saudi Arabia, Uruguay |
+| [I](group-i.md) | France, Senegal, Iraq, Norway |
+| [J](group-j.md) | Argentina, Algeria, Austria, _jordan_ |
+| [K](group-k.md) | Portugal, DR Congo, Uzbekistan, Colombia |
+| [L](group-l.md) | England, Croatia, Ghana, Panama |
 
 See [stats.md](stats.md) for aggregate market-value rankings.

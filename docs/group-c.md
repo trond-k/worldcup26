@@ -4,9 +4,8 @@
 |------|---------------|-------------|
 | Brazil | CONMEBOL | €855.0m |
 | Morocco | CAF | €379.0m |
+| Scotland | UEFA | €226.3m |
 | Haiti | CONCACAF | €56.2m |
-
-_Pending data: scotland_
 
 ### Brazil
 
@@ -106,3 +105,36 @@ _Pending data: scotland_
 | 24 | Ruben Providence | FW | Almere City (Netherlands) | €1.2m |
 | 25 | Yassin Fortuné | FW | Vizela (Portugal) | €700k |
 | 26 | Duckens Nazon | FW | Esteghlal (Iran) | €500k |
+
+### Scotland
+
+**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Steve Clarke · **Squad value:** €226.3m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Angus Gunn | GK | Nottingham Forest (England) | €7.0m |
+| 2 | Liam Kelly | GK | Rangers (Scotland) | €1.5m |
+| 3 | Craig Gordon | GK | Heart of Midlothian (Scotland) | €300k |
+| 4 | Andy Robertson | DF | Liverpool (England) | €18.0m |
+| 5 | Kieran Tierney | DF | Celtic (Scotland) | €14.0m |
+| 6 | Aaron Hickey | DF | Brentford (England) | €12.0m |
+| 7 | Nathan Patterson | DF | Everton (England) | €10.0m |
+| 8 | Jack Hendry | DF | Al-Ettifaq (Saudi Arabia) | €6.0m |
+| 9 | John Souttar | DF | Rangers (Scotland) | €4.0m |
+| 10 | Scott McKenna | DF | Las Palmas (Spain) | €3.5m |
+| 11 | Dominic Hyam | DF | Blackburn Rovers (England) | €3.0m |
+| 12 | Anthony Ralston | DF | Celtic (Scotland) | €3.0m |
+| 13 | Grant Hanley | DF | Birmingham City (England) | €1.0m |
+| 14 | Scott McTominay | MF | Napoli (Italy) | €45.0m |
+| 15 | Lewis Ferguson | MF | Bologna (Italy) | €22.0m |
+| 16 | John McGinn | MF | Aston Villa (England) | €18.0m |
+| 17 | Ben Gannon-Doak | MF | Bournemouth (England) | €15.0m |
+| 18 | Ryan Christie | MF | Bournemouth (England) | €8.0m |
+| 19 | Tyler Fletcher | MF | Manchester United (England) | €5.0m |
+| 20 | Kenny McLean | MF | Norwich City (England) | €2.0m |
+| 21 | Findlay Curtis | MF | Kilmarnock (Scotland) | €2.0m |
+| 22 | Che Adams | FW | Torino (Italy) | €8.0m |
+| 23 | Ross Stewart | FW | Southampton (England) | €5.0m |
+| 24 | George Hirst | FW | Ipswich Town (England) | €5.0m |
+| 25 | Lyndon Dykes | FW | Birmingham City (England) | €4.0m |
+| 26 | Lawrence Shankland | FW | Heart of Midlothian (Scotland) | €4.0m |

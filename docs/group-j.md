@@ -1,3 +1,108 @@
 # Group J
 
-_Pending data: argentina, algeria, austria, jordan_
+| Team | Confederation | Squad value |
+|------|---------------|-------------|
+| Argentina | CONMEBOL | €811.0m |
+| Austria | UEFA | €266.0m |
+| Algeria | CAF | €253.9m |
+
+_Pending data: jordan_
+
+### Argentina
+
+**Confederation:** CONMEBOL · **FIFA ranking:** 1 · **Coach:** Lionel Scaloni · **Squad value:** €811.0m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Emiliano Martínez | GK | Aston Villa (England) | €22.0m |
+| 2 | Gerónimo Rulli | GK | Marseille (France) | €6.0m |
+| 3 | Juan Musso | GK | Atlético Madrid (Spain) | €5.0m |
+| 4 | Cristian Romero | DF | Tottenham Hotspur (England) | €55.0m |
+| 5 | Lisandro Martínez | DF | Manchester United (England) | €40.0m |
+| 6 | Marcos Senesi | DF | Bournemouth (England) | €30.0m |
+| 7 | Facundo Medina | DF | Marseille (France) | €22.0m |
+| 8 | Nahuel Molina | DF | Atlético Madrid (Spain) | €18.0m |
+| 9 | Gonzalo Montiel | DF | River Plate (Argentina) | €8.0m |
+| 10 | Nicolás Tagliafico | DF | Lyon (France) | €6.0m |
+| 11 | Nicolás Otamendi | DF | Benfica (Portugal) | €2.0m |
+| 12 | Alexis Mac Allister | MF | Liverpool (England) | €80.0m |
+| 13 | Enzo Fernández | MF | Chelsea (England) | €70.0m |
+| 14 | Exequiel Palacios | MF | Bayer Leverkusen (Germany) | €35.0m |
+| 15 | Giovani Lo Celso | MF | Real Betis (Spain) | €18.0m |
+| 16 | Valentín Barco | MF | Strasbourg (France) | €18.0m |
+| 17 | Rodrigo De Paul | MF | Inter Miami (United States) | €12.0m |
+| 18 | Leandro Paredes | MF | Boca Juniors (Argentina) | €6.0m |
+| 19 | Lautaro Martínez | FW | Inter Milan (Italy) | €90.0m |
+| 20 | Julián Álvarez | FW | Atlético Madrid (Spain) | €90.0m |
+| 21 | Nico Paz | FW | Como (Italy) | €45.0m |
+| 22 | Thiago Almada | FW | Atlético Madrid (Spain) | €35.0m |
+| 23 | Giuliano Simeone | FW | Atlético Madrid (Spain) | €30.0m |
+| 24 | Nicolás González | FW | Atlético Madrid (Spain) | €28.0m |
+| 25 | José Manuel López | FW | Palmeiras (Brazil) | €22.0m |
+| 26 | Lionel Messi | FW | Inter Miami (United States) | €18.0m |
+
+### Algeria
+
+**Confederation:** CAF · **FIFA ranking:** 28 · **Coach:** Vladimir Petković · **Squad value:** €253.9m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Luca Zidane | GK | Granada (Spain) | €2.0m |
+| 2 | Oussama Benbot | GK | USM Alger (Algeria) | €800k |
+| 3 | Melvin Mastil | GK | Stade Nyonnais (Switzerland) | €400k |
+| 4 | Rayan Aït-Nouri | DF | Manchester City (England) | €50.0m |
+| 5 | Ramy Bensebaini | DF | Borussia Dortmund (Germany) | €15.0m |
+| 6 | Jaouen Hadjam | DF | Young Boys (Switzerland) | €7.0m |
+| 7 | Rafik Belghali | DF | Hellas Verona (Italy) | €4.0m |
+| 8 | Mohamed Amine Tougai | DF | Espérance de Tunis (Tunisia) | €3.5m |
+| 9 | Samir Chergui | DF | Paris FC (France) | €3.0m |
+| 10 | Aïssa Mandi | DF | Lille (France) | €3.0m |
+| 11 | Achraf Abada | DF | USM Alger (Algeria) | €1.5m |
+| 12 | Zinedine Belaid | DF | JS Kabylie (Algeria) | €1.2m |
+| 13 | Ibrahim Maza | MF | Bayer Leverkusen (Germany) | €20.0m |
+| 14 | Farès Chaïbi | MF | Eintracht Frankfurt (Germany) | €18.0m |
+| 15 | Houssem Aouar | MF | Al-Ittihad (Saudi Arabia) | €14.0m |
+| 16 | Hicham Boudaoui | MF | Nice (France) | €12.0m |
+| 17 | Ramiz Zerrouki | MF | Twente (Netherlands) | €7.0m |
+| 18 | Nabil Bentaleb | MF | Lille (France) | €6.0m |
+| 19 | Yassine Titraoui | MF | Charleroi (Belgium) | €3.0m |
+| 20 | Amine Gouiri | FW | Marseille (France) | €30.0m |
+| 21 | Mohamed Amine Amoura | FW | VfL Wolfsburg (Germany) | €25.0m |
+| 22 | Anis Hadj Moussa | FW | Feyenoord (Netherlands) | €12.0m |
+| 23 | Riyad Mahrez | FW | Al-Ahli (Saudi Arabia) | €8.0m |
+| 24 | Farès Ghedjemis | FW | Frosinone (Italy) | €3.0m |
+| 25 | Nadir Benbouali | FW | Győri ETO (Hungary) | €2.5m |
+| 26 | Adil Boulbina | FW | Al-Duhail (Qatar) | €2.0m |
+
+### Austria
+
+**Confederation:** UEFA · **FIFA ranking:** 24 · **Coach:** Ralf Rangnick · **Squad value:** €266.0m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Alexander Schlager | GK | Red Bull Salzburg (Austria) | €4.0m |
+| 2 | Patrick Pentz | GK | Brøndby (Denmark) | €2.5m |
+| 3 | Florian Wiegele | GK | Viktoria Plzeň (Czech Republic) | €1.0m |
+| 4 | Kevin Danso | DF | Tottenham Hotspur (England) | €25.0m |
+| 5 | Philipp Lienhart | DF | SC Freiburg (Germany) | €12.0m |
+| 6 | Alexander Prass | DF | TSG Hoffenheim (Germany) | €12.0m |
+| 7 | Marco Friedl | DF | Werder Bremen (Germany) | €10.0m |
+| 8 | David Alaba | DF | Real Madrid (Spain) | €8.0m |
+| 9 | Stefan Posch | DF | Mainz 05 (Germany) | €7.0m |
+| 10 | David Affengruber | DF | Elche (Spain) | €6.0m |
+| 11 | Phillipp Mwene | DF | Mainz 05 (Germany) | €3.0m |
+| 12 | Michael Svoboda | DF | Venezia (Italy) | €2.5m |
+| 13 | Christoph Baumgartner | MF | RB Leipzig (Germany) | €25.0m |
+| 14 | Xaver Schlager | MF | RB Leipzig (Germany) | €22.0m |
+| 15 | Konrad Laimer | MF | Bayern Munich (Germany) | €22.0m |
+| 16 | Nicolas Seiwald | MF | RB Leipzig (Germany) | €20.0m |
+| 17 | Paul Wanner | MF | PSV Eindhoven (Netherlands) | €20.0m |
+| 18 | Carney Chukwuemeka | MF | Borussia Dortmund (Germany) | €18.0m |
+| 19 | Marcel Sabitzer | MF | Borussia Dortmund (Germany) | €14.0m |
+| 20 | Patrick Wimmer | MF | VfL Wolfsburg (Germany) | €10.0m |
+| 21 | Romano Schmid | MF | Werder Bremen (Germany) | €9.0m |
+| 22 | Florian Grillitsch | MF | Braga (Portugal) | €4.0m |
+| 23 | Alessandro Schöpf | MF | Wolfsberger AC (Austria) | €1.0m |
+| 24 | Michael Gregoritsch | FW | FC Augsburg (Germany) | €4.0m |
+| 25 | Saša Kalajdžić | FW | LASK (Austria) | €2.5m |
+| 26 | Marko Arnautović | FW | Red Star Belgrade (Serbia) | €1.5m |

@@ -1,63 +1,103 @@
 # Market Value Statistics
 
-_Based on 10 teams with data._
+_Based on 42 teams with data._
 
 ## Most valuable squads
 
 | Rank | Team | Group | Squad value |
 |------|------|-------|-------------|
-| 1 | Brazil | C | €855.0m |
-| 2 | Türkiye | D | €465.0m |
-| 3 | United States | D | €433.5m |
-| 4 | Morocco | C | €379.0m |
-| 5 | Switzerland | B | €314.1m |
-| 6 | Mexico | A | €197.2m |
-| 7 | Paraguay | D | €152.4m |
-| 8 | Australia | D | €82.5m |
-| 9 | Haiti | C | €56.2m |
-| 10 | South Africa | A | €41.9m |
+| 1 | England | L | €1404.0m |
+| 2 | Spain | H | €1400.0m |
+| 3 | France | I | €1351.0m |
+| 4 | Portugal | K | €970.0m |
+| 5 | Germany | E | €952.0m |
+| 6 | Brazil | C | €855.0m |
+| 7 | Netherlands | F | €816.0m |
+| 8 | Argentina | J | €811.0m |
+| 9 | Belgium | G | €568.0m |
+| 10 | Norway | I | €567.0m |
+| 11 | Sweden | F | €523.6m |
+| 12 | Uruguay | H | €507.5m |
+| 13 | Türkiye | D | €465.0m |
+| 14 | United States | D | €433.5m |
+| 15 | Ecuador | E | €416.0m |
+| 16 | Senegal | I | €414.0m |
+| 17 | Croatia | L | €396.0m |
+| 18 | Morocco | C | €379.0m |
+| 19 | Japan | F | €351.5m |
+| 20 | Colombia | K | €339.1m |
+| 21 | Switzerland | B | €314.1m |
+| 22 | Austria | J | €266.0m |
+| 23 | Algeria | J | €253.9m |
+| 24 | Scotland | C | €226.3m |
+| 25 | Ghana | L | €212.6m |
+| 26 | Mexico | A | €197.2m |
+| 27 | South Korea | A | €195.4m |
+| 28 | Czechia | A | €186.8m |
+| 29 | Egypt | G | €175.5m |
+| 30 | DR Congo | K | €167.6m |
+| 31 | Paraguay | D | €152.4m |
+| 32 | Tunisia | F | €100.5m |
+| 33 | Australia | D | €82.5m |
+| 34 | Saudi Arabia | H | €82.0m |
+| 35 | Uzbekistan | K | €66.1m |
+| 36 | Haiti | C | €56.2m |
+| 37 | Cabo Verde | H | €55.1m |
+| 38 | New Zealand | G | €47.5m |
+| 39 | South Africa | A | €41.9m |
+| 40 | Panama | L | €35.3m |
+| 41 | IR Iran | G | €30.8m |
+| 42 | Iraq | I | €28.1m |
 
 ## Total value by group
 
 | Group | Teams | Total value |
 |-------|-------|-------------|
-| A | 2 | €239.1m |
+| A | 4 | €621.2m |
 | B | 1 | €314.1m |
-| C | 3 | €1290.2m |
+| C | 4 | €1516.5m |
 | D | 4 | €1133.4m |
+| E | 2 | €1368.0m |
+| F | 4 | €1791.6m |
+| G | 4 | €821.8m |
+| H | 4 | €2044.6m |
+| I | 4 | €2360.1m |
+| J | 3 | €1330.9m |
+| K | 4 | €1542.8m |
+| L | 4 | €2047.9m |
 
 ## Top 25 most valuable players
 
 | Rank | Player | Team | Club | Market value |
 |------|--------|------|------|--------------|
-| 1 | Vinícius Júnior | Brazil | Real Madrid | €170.0m |
-| 2 | Raphinha | Brazil | Barcelona | €90.0m |
-| 3 | Kenan Yıldız | Türkiye | Juventus | €75.0m |
-| 4 | Bruno Guimarães | Brazil | Newcastle United | €70.0m |
-| 5 | Arda Güler | Türkiye | Real Madrid | €70.0m |
-| 6 | Gabriel Magalhães | Brazil | Arsenal | €65.0m |
-| 7 | Achraf Hakimi | Morocco | Paris Saint-Germain | €65.0m |
-| 8 | Christian Pulisic | United States | AC Milan | €60.0m |
-| 9 | Gabriel Martinelli | Brazil | Arsenal | €50.0m |
-| 10 | Bremer | Brazil | Juventus | €45.0m |
-| 11 | Matheus Cunha | Brazil | Manchester United | €45.0m |
-| 12 | Brahim Díaz | Morocco | Real Madrid | €45.0m |
-| 13 | Dan Ndoye | Switzerland | Nottingham Forest | €40.0m |
-| 14 | Éderson | Brazil | Atalanta | €40.0m |
-| 15 | Endrick | Brazil | Olympique Lyonnais | €40.0m |
-| 16 | Antonee Robinson | United States | Fulham | €40.0m |
-| 17 | Gregor Kobel | Switzerland | Borussia Dortmund | €38.0m |
-| 18 | Chris Richards | United States | Crystal Palace | €35.0m |
-| 19 | Malik Tillman | United States | Bayer Leverkusen | €35.0m |
-| 20 | Folarin Balogun | United States | AS Monaco | €35.0m |
-| 21 | Denis Zakaria | Switzerland | AS Monaco | €30.0m |
-| 22 | Ardon Jashari | Switzerland | AC Milan | €30.0m |
-| 23 | Lucas Paquetá | Brazil | Flamengo | €30.0m |
-| 24 | Luiz Henrique | Brazil | Zenit Saint Petersburg | €30.0m |
-| 25 | Rayan | Brazil | AFC Bournemouth | €30.0m |
+| 1 | Lamine Yamal | Spain | Barcelona | €200.0m |
+| 2 | Kylian Mbappé | France | Real Madrid | €180.0m |
+| 3 | Erling Haaland | Norway | Manchester City | €180.0m |
+| 4 | Jude Bellingham | England | Real Madrid | €180.0m |
+| 5 | Vinícius Júnior | Brazil | Real Madrid | €170.0m |
+| 6 | Florian Wirtz | Germany | Liverpool | €140.0m |
+| 7 | Pedri | Spain | Barcelona | €140.0m |
+| 8 | Bukayo Saka | England | Arsenal | €140.0m |
+| 9 | Jamal Musiala | Germany | Bayern Munich | €130.0m |
+| 10 | Alexander Isak | Sweden | Liverpool | €120.0m |
+| 11 | Federico Valverde | Uruguay | Real Madrid | €120.0m |
+| 12 | Declan Rice | England | Arsenal | €120.0m |
+| 13 | Moisés Caicedo | Ecuador | Chelsea | €110.0m |
+| 14 | Rodri | Spain | Manchester City | €110.0m |
+| 15 | Raphinha | Brazil | Barcelona | €90.0m |
+| 16 | Viktor Gyokeres | Sweden | Arsenal | €90.0m |
+| 17 | Ousmane Dembélé | France | Paris Saint-Germain | €90.0m |
+| 18 | Michael Olise | France | Bayern Munich | €90.0m |
+| 19 | Désiré Doué | France | Paris Saint-Germain | €90.0m |
+| 20 | Lautaro Martínez | Argentina | Inter Milan | €90.0m |
+| 21 | Julián Álvarez | Argentina | Atlético Madrid | €90.0m |
+| 22 | Vitinha | Portugal | Paris Saint-Germain | €90.0m |
+| 23 | Harry Kane | England | Bayern Munich | €90.0m |
+| 24 | Ryan Gravenberch | Netherlands | Liverpool | €80.0m |
+| 25 | Pau Cubarsí | Spain | Barcelona | €80.0m |
 
 ## Summary
 
-- Total market value of all squads: **€2976.8m**
-- Players counted: **260**
-- Average player value: **€11.4m**
+- Total market value of all squads: **€16893.0m**
+- Players counted: **1092**
+- Average player value: **€15.5m**

@@ -3,9 +3,9 @@
 | Team | Confederation | Squad value |
 |------|---------------|-------------|
 | Mexico | CONCACAF | €197.2m |
+| South Korea | AFC | €195.4m |
+| Czechia | UEFA | €186.8m |
 | South Africa | CAF | €41.9m |
-
-_Pending data: south-korea, czechia_
 
 ### Mexico
 
@@ -72,3 +72,69 @@ _Pending data: south-korea, czechia_
 | 24 | Tshepang Moremi | FW | Orlando Pirates (South Africa) | €1.0m |
 | 25 | Thapelo Maseko | FW | AEL Limassol (Cyprus) | €750k |
 | 26 | Themba Zwane | FW | Mamelodi Sundowns (South Africa) | €400k |
+
+### South Korea
+
+**Confederation:** AFC · **FIFA ranking:** 23 · **Coach:** Hong Myung-bo · **Squad value:** €195.4m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Song Bum-keun | GK | Jeonbuk Hyundai Motors (South Korea) | €2.0m |
+| 2 | Jo Hyeon-woo | GK | Ulsan HD (South Korea) | €1.5m |
+| 3 | Kim Seung-gyu | GK | FC Tokyo (Japan) | €500k |
+| 4 | Kim Min-jae | DF | Bayern Munich (Germany) | €40.0m |
+| 5 | Seol Young-woo | DF | Crvena zvezda (Serbia) | €3.5m |
+| 6 | Lee Han-beom | DF | FC Midtjylland (Denmark) | €3.0m |
+| 7 | Cho Yu-min | DF | Sharjah FC (United Arab Emirates) | €2.5m |
+| 8 | Lee Tae-seok | DF | Austria Wien (Austria) | €2.5m |
+| 9 | Kim Tae-hyeon | DF | Kashima Antlers (Japan) | €2.0m |
+| 10 | Lee Gi-hyuk | DF | Gangwon FC (South Korea) | €1.5m |
+| 11 | Park Jin-seob | DF | Zhejiang FC (China) | €1.2m |
+| 12 | Kim Moon-hwan | DF | Daejeon Hana Citizen (South Korea) | €1.2m |
+| 13 | Lee Kang-in | MF | Paris Saint-Germain (France) | €45.0m |
+| 14 | Hwang In-beom | MF | Feyenoord (Netherlands) | €10.0m |
+| 15 | Jens Castrop | MF | Borussia Mönchengladbach (Germany) | €8.0m |
+| 16 | Bae Jun-ho | MF | Stoke City (England) | €8.0m |
+| 17 | Lee Jae-sung | MF | Mainz 05 (Germany) | €5.0m |
+| 18 | Yang Hyun-jun | MF | Celtic (Scotland) | €5.0m |
+| 19 | Paik Seung-ho | MF | Birmingham City (England) | €4.0m |
+| 20 | Eom Ji-sung | MF | Swansea City (Wales) | €3.0m |
+| 21 | Lee Dong-gyeong | MF | Ulsan HD (South Korea) | €2.5m |
+| 22 | Kim Jin-gyu | MF | Jeonbuk Hyundai Motors (South Korea) | €1.5m |
+| 23 | Hwang Hee-chan | FW | Wolverhampton Wanderers (England) | €15.0m |
+| 24 | Son Heung-min | FW | Los Angeles FC (United States) | €12.0m |
+| 25 | Oh Hyeon-gyu | FW | Beşiktaş (Turkey) | €9.0m |
+| 26 | Cho Gue-sung | FW | FC Midtjylland (Denmark) | €6.0m |
+
+### Czechia
+
+**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Miroslav Koubek · **Squad value:** €186.8m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Matěj Kovář | GK | PSV Eindhoven (Netherlands) | €9.0m |
+| 2 | Jindřich Staněk | GK | Slavia Prague (Czechia) | €6.0m |
+| 3 | Lukáš Horníček | GK | Braga (Portugal) | €3.0m |
+| 4 | Ladislav Krejčí | DF | Wolverhampton Wanderers (England) | €25.0m |
+| 5 | Robin Hranáč | DF | Hoffenheim (Germany) | €8.0m |
+| 6 | David Zima | DF | Slavia Prague (Czechia) | €6.0m |
+| 7 | David Jurásek | DF | Slavia Prague (Czechia) | €6.0m |
+| 8 | David Douděra | DF | Slavia Prague (Czechia) | €4.0m |
+| 9 | Štěpán Chaloupek | DF | Slavia Prague (Czechia) | €3.5m |
+| 10 | Tomáš Holeš | DF | Slavia Prague (Czechia) | €3.0m |
+| 11 | Vladimír Coufal | DF | Hoffenheim (Germany) | €2.5m |
+| 12 | Jaroslav Zelený | DF | Slavia Prague (Czechia) | €1.5m |
+| 13 | Pavel Šulc | MF | Lyon (France) | €15.0m |
+| 14 | Tomáš Souček | MF | West Ham United (England) | €12.0m |
+| 15 | Lukáš Provod | MF | Slavia Prague (Czechia) | €7.0m |
+| 16 | Michal Sadílek | MF | Slavia Prague (Czechia) | €4.0m |
+| 17 | Lukáš Červ | MF | Viktoria Plzeň (Czechia) | €4.0m |
+| 18 | Denis Višinský | MF | Viktoria Plzeň (Czechia) | €3.5m |
+| 19 | Hugo Sochůrek | MF | Sparta Prague (Czechia) | €2.5m |
+| 20 | Alexandr Sojka | MF | Viktoria Plzeň (Czechia) | €2.0m |
+| 21 | Vladimír Darida | MF | Hradec Králové (Czechia) | €800k |
+| 22 | Patrik Schick | FW | Bayer Leverkusen (Germany) | €30.0m |
+| 23 | Adam Hložek | FW | Hoffenheim (Germany) | €18.0m |
+| 24 | Jan Kuchta | FW | Sparta Prague (Czechia) | €4.0m |
+| 25 | Mojmír Chytil | FW | Slavia Prague (Czechia) | €3.5m |
+| 26 | Tomáš Chorý | FW | Slavia Prague (Czechia) | €3.0m |
