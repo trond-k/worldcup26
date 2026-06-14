@@ -5,8 +5,7 @@
 | Germany | UEFA | €952.0m |
 | Côte d'Ivoire | CAF | €446.0m |
 | Ecuador | CONMEBOL | €416.0m |
-
-_Pending data: curacao_
+| Curaçao | CONCACAF | €37.4m |
 
 ### Germany
 
@@ -40,6 +39,39 @@ _Pending data: curacao_
 | 24 | Deniz Undav | FW | VfB Stuttgart (Germany) | €30.0m |
 | 25 | Maximilian Beier | FW | Borussia Dortmund (Germany) | €30.0m |
 | 26 | Jamie Leweling | FW | VfB Stuttgart (Germany) | €18.0m |
+
+### Curaçao
+
+**Confederation:** CONCACAF · **FIFA ranking:** 82 · **Coach:** Dick Advocaat · **Squad value:** €37.4m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Trevor Doornbusch | GK | VVV-Venlo (Netherlands) | €500k |
+| 2 | Eloy Room | GK | Miami FC (United States) | €300k |
+| 3 | Tyrick Bodak | GK | Telstar (Netherlands) | €300k |
+| 4 | Armando Obispo | DF | PSV Eindhoven (Netherlands) | €4.0m |
+| 5 | Shurandy Sambo | DF | Sparta Rotterdam (Netherlands) | €2.5m |
+| 6 | Riechedly Bazoer | DF | Konyaspor (Turkey) | €2.5m |
+| 7 | Sherel Floranus | DF | PEC Zwolle (Netherlands) | €1.5m |
+| 8 | Deveron Fonville | DF | NEC Nijmegen (Netherlands) | €1.5m |
+| 9 | Joshua Brenet | DF | Kayserispor (Turkey) | €1.5m |
+| 10 | Juriën Gaari | DF | Abha Club (Saudi Arabia) | €1.0m |
+| 11 | Roshon van Eijma | DF | RKC Waalwijk (Netherlands) | €800k |
+| 12 | Livano Comenencia | MF | FC Zürich (Switzerland) | €2.5m |
+| 13 | Juninho Bacuna | MF | FC Volendam (Netherlands) | €2.0m |
+| 14 | Ar'jany Martha | MF | Rotherham United (England) | €1.0m |
+| 15 | Tyrese Noslin | MF | Telstar (Netherlands) | €800k |
+| 16 | Kevin Felida | MF | FC Den Bosch (Netherlands) | €700k |
+| 17 | Godfried Roemeratoe | MF | RKC Waalwijk (Netherlands) | €700k |
+| 18 | Leandro Bacuna | MF | Iğdır FK (Turkey) | €500k |
+| 19 | Sontje Hansen | FW | Middlesbrough (England) | €5.0m |
+| 20 | Tahith Chong | FW | Sheffield United (England) | €4.0m |
+| 21 | Jearl Margaritha | FW | SK Beveren (Belgium) | €800k |
+| 22 | Kenji Gorre | FW | Maccabi Haifa (Israel) | €700k |
+| 23 | Jurgen Locadia | FW | Miami FC (United States) | €700k |
+| 24 | Jeremy Antonisse | FW | AE Kifisia (Greece) | €700k |
+| 25 | Brandley Kuwas | FW | FC Volendam (Netherlands) | €500k |
+| 26 | Gervane Kastaneer | FW | Terengganu FC (Malaysia) | €400k |
 
 ### Côte d'Ivoire
 

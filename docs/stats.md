@@ -1,6 +1,6 @@
 # Market Value Statistics
 
-_Based on 44 teams with data._
+_Based on 45 teams with data._
 
 ## Most valuable squads
 
@@ -46,10 +46,11 @@ _Based on 44 teams with data._
 | 38 | Cabo Verde | H | €55.1m |
 | 39 | New Zealand | G | €47.5m |
 | 40 | South Africa | A | €41.9m |
-| 41 | Panama | L | €35.3m |
-| 42 | IR Iran | G | €30.8m |
-| 43 | Iraq | I | €28.1m |
-| 44 | Jordan | J | €20.0m |
+| 41 | Curaçao | E | €37.4m |
+| 42 | Panama | L | €35.3m |
+| 43 | IR Iran | G | €30.8m |
+| 44 | Iraq | I | €28.1m |
+| 45 | Jordan | J | €20.0m |
 
 ## Total value by group
 
@@ -59,7 +60,7 @@ _Based on 44 teams with data._
 | B | 1 | €314.1m |
 | C | 4 | €1516.5m |
 | D | 4 | €1133.4m |
-| E | 3 | €1814.0m |
+| E | 4 | €1851.4m |
 | F | 4 | €1791.6m |
 | G | 4 | €821.8m |
 | H | 4 | €2044.6m |
@@ -100,6 +101,6 @@ _Based on 44 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€17359.0m**
-- Players counted: **1144**
-- Average player value: **€15.2m**
+- Total market value of all squads: **€17396.3m**
+- Players counted: **1170**
+- Average player value: **€14.9m**
