@@ -72,6 +72,30 @@ python3 scripts/stats.py               # rebuild docs/stats.md
 
 Start browsing at [docs/README.md](docs/README.md).
 
+## Data sources & accuracy
+
+Squad membership, clubs, coaches and groups were gathered from live web research
+against the official squad announcements (late May / early June 2026), cross-
+checked across FIFA, ESPN, federation announcements, Wikipedia and other
+outlets. These fields are well-corroborated.
+
+The `market_value_eur` and `age` fields are **Transfermarkt-style estimates**,
+not values read directly from a structured source. An attempt was made to pull
+exact figures programmatically, but the build environment enforces a **network
+egress allowlist** that blocked every candidate source — Transfermarkt, the
+community Transfermarkt APIs, and Wikipedia/Wikidata all returned `HTTP 403`
+through both direct HTTP requests and the fetch tooling. The only working web
+channel was keyword search, which returns result snippets rather than full pages
+or JSON. Values were therefore assembled from search summaries plus knowledge of
+each player and are accurate in scale/ballpark but not authoritative; the least
+certain are lower-profile players from domestic leagues (e.g. parts of the
+Tunisia, Jordan, Qatar and Cabo Verde squads).
+
+To refresh these fields with exact data in future, add the relevant data-source
+hosts to the environment's network egress allowlist, then fetch values in bulk
+and overwrite only `market_value_eur` / `age` — `validate.py` already enforces
+the required format, so the squad lists can stay untouched.
+
 ## Contributing
 
 The JSON files under `data/` are the source of truth — edit those, never the
