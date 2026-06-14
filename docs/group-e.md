@@ -3,9 +3,10 @@
 | Team | Confederation | Squad value |
 |------|---------------|-------------|
 | Germany | UEFA | €952.0m |
+| Côte d'Ivoire | CAF | €446.0m |
 | Ecuador | CONMEBOL | €416.0m |
 
-_Pending data: curacao, cote-divoire_
+_Pending data: curacao_
 
 ### Germany
 
@@ -39,6 +40,39 @@ _Pending data: curacao, cote-divoire_
 | 24 | Deniz Undav | FW | VfB Stuttgart (Germany) | €30.0m |
 | 25 | Maximilian Beier | FW | Borussia Dortmund (Germany) | €30.0m |
 | 26 | Jamie Leweling | FW | VfB Stuttgart (Germany) | €18.0m |
+
+### Côte d'Ivoire
+
+**Confederation:** CAF · **FIFA ranking:** 33 · **Coach:** Emerse Faé · **Squad value:** €446.0m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Yahia Fofana | GK | Çaykur Rizespor (Turkey) | €6.0m |
+| 2 | Alban Lafont | GK | Panathinaikos (Greece) | €5.0m |
+| 3 | Mohamed Koné | GK | Royal Charleroi (Belgium) | €1.5m |
+| 4 | Evan Ndicka | DF | AS Roma (Italy) | €35.0m |
+| 5 | Ousmane Diomandé | DF | Sporting CP (Portugal) | €35.0m |
+| 6 | Wilfried Singo | DF | Galatasaray (Turkey) | €30.0m |
+| 7 | Odilon Kossounou | DF | Atalanta (Italy) | €25.0m |
+| 8 | Emmanuel Agbadou | DF | Wolverhampton Wanderers (England) | €22.0m |
+| 9 | Guéla Doué | DF | RC Strasbourg (France) | €18.0m |
+| 10 | Clément Akpa | DF | AJ Auxerre (France) | €4.0m |
+| 11 | Ghislain Konan | DF | Gil Vicente (Portugal) | €2.5m |
+| 12 | Franck Kessié | MF | Al-Ahli (Saudi Arabia) | €22.0m |
+| 13 | Ibrahim Sangaré | MF | Nottingham Forest (England) | €22.0m |
+| 14 | Seko Fofana | MF | FC Porto (Portugal) | €12.0m |
+| 15 | Christ Inao Oulaï | MF | Trabzonspor (Turkey) | €9.0m |
+| 16 | Parfait Guiagon | MF | Royal Charleroi (Belgium) | €4.0m |
+| 17 | Jean-Michaël Seri | MF | NK Maribor (Slovenia) | €1.0m |
+| 18 | Amad Diallo | FW | Manchester United (England) | €45.0m |
+| 19 | Simon Adingra | FW | AS Monaco (France) | €30.0m |
+| 20 | Evann Guessand | FW | Aston Villa (England) | €28.0m |
+| 21 | Ange-Yoan Bonny | FW | Inter Milan (Italy) | €25.0m |
+| 22 | Yan Diomandé | FW | RB Leipzig (Germany) | €20.0m |
+| 23 | Elye Wahi | FW | Eintracht Frankfurt (Germany) | €18.0m |
+| 24 | Nicolas Pépé | FW | Villarreal (Spain) | €12.0m |
+| 25 | Bazoumana Touré | FW | Red Bull Salzburg (Austria) | €8.0m |
+| 26 | Oumar Diakité | FW | Cercle Brugge (Belgium) | €6.0m |
 
 ### Ecuador
 

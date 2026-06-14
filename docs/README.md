@@ -10,7 +10,7 @@
 | [B](group-b.md) | _canada_, _bosnia-herzegovina_, _qatar_, Switzerland |
 | [C](group-c.md) | Brazil, Morocco, Haiti, Scotland |
 | [D](group-d.md) | United States, Paraguay, Australia, Türkiye |
-| [E](group-e.md) | Germany, _curacao_, _cote-divoire_, Ecuador |
+| [E](group-e.md) | Germany, _curacao_, Côte d'Ivoire, Ecuador |
 | [F](group-f.md) | Netherlands, Japan, Sweden, Tunisia |
 | [G](group-g.md) | Belgium, Egypt, IR Iran, New Zealand |
 | [H](group-h.md) | Spain, Cabo Verde, Saudi Arabia, Uruguay |

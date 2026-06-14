@@ -1,6 +1,6 @@
 # Market Value Statistics
 
-_Based on 42 teams with data._
+_Based on 43 teams with data._
 
 ## Most valuable squads
 
@@ -19,35 +19,36 @@ _Based on 42 teams with data._
 | 11 | Sweden | F | €523.6m |
 | 12 | Uruguay | H | €507.5m |
 | 13 | Türkiye | D | €465.0m |
-| 14 | United States | D | €433.5m |
-| 15 | Ecuador | E | €416.0m |
-| 16 | Senegal | I | €414.0m |
-| 17 | Croatia | L | €396.0m |
-| 18 | Morocco | C | €379.0m |
-| 19 | Japan | F | €351.5m |
-| 20 | Colombia | K | €339.1m |
-| 21 | Switzerland | B | €314.1m |
-| 22 | Austria | J | €266.0m |
-| 23 | Algeria | J | €253.9m |
-| 24 | Scotland | C | €226.3m |
-| 25 | Ghana | L | €212.6m |
-| 26 | Mexico | A | €197.2m |
-| 27 | South Korea | A | €195.4m |
-| 28 | Czechia | A | €186.8m |
-| 29 | Egypt | G | €175.5m |
-| 30 | DR Congo | K | €167.6m |
-| 31 | Paraguay | D | €152.4m |
-| 32 | Tunisia | F | €100.5m |
-| 33 | Australia | D | €82.5m |
-| 34 | Saudi Arabia | H | €82.0m |
-| 35 | Uzbekistan | K | €66.1m |
-| 36 | Haiti | C | €56.2m |
-| 37 | Cabo Verde | H | €55.1m |
-| 38 | New Zealand | G | €47.5m |
-| 39 | South Africa | A | €41.9m |
-| 40 | Panama | L | €35.3m |
-| 41 | IR Iran | G | €30.8m |
-| 42 | Iraq | I | €28.1m |
+| 14 | Côte d'Ivoire | E | €446.0m |
+| 15 | United States | D | €433.5m |
+| 16 | Ecuador | E | €416.0m |
+| 17 | Senegal | I | €414.0m |
+| 18 | Croatia | L | €396.0m |
+| 19 | Morocco | C | €379.0m |
+| 20 | Japan | F | €351.5m |
+| 21 | Colombia | K | €339.1m |
+| 22 | Switzerland | B | €314.1m |
+| 23 | Austria | J | €266.0m |
+| 24 | Algeria | J | €253.9m |
+| 25 | Scotland | C | €226.3m |
+| 26 | Ghana | L | €212.6m |
+| 27 | Mexico | A | €197.2m |
+| 28 | South Korea | A | €195.4m |
+| 29 | Czechia | A | €186.8m |
+| 30 | Egypt | G | €175.5m |
+| 31 | DR Congo | K | €167.6m |
+| 32 | Paraguay | D | €152.4m |
+| 33 | Tunisia | F | €100.5m |
+| 34 | Australia | D | €82.5m |
+| 35 | Saudi Arabia | H | €82.0m |
+| 36 | Uzbekistan | K | €66.1m |
+| 37 | Haiti | C | €56.2m |
+| 38 | Cabo Verde | H | €55.1m |
+| 39 | New Zealand | G | €47.5m |
+| 40 | South Africa | A | €41.9m |
+| 41 | Panama | L | €35.3m |
+| 42 | IR Iran | G | €30.8m |
+| 43 | Iraq | I | €28.1m |
 
 ## Total value by group
 
@@ -57,7 +58,7 @@ _Based on 42 teams with data._
 | B | 1 | €314.1m |
 | C | 4 | €1516.5m |
 | D | 4 | €1133.4m |
-| E | 2 | €1368.0m |
+| E | 3 | €1814.0m |
 | F | 4 | €1791.6m |
 | G | 4 | €821.8m |
 | H | 4 | €2044.6m |
@@ -98,6 +99,6 @@ _Based on 42 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€16893.0m**
-- Players counted: **1092**
+- Total market value of all squads: **€17339.0m**
+- Players counted: **1118**
 - Average player value: **€15.5m**
