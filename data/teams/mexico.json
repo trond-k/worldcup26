@@ -1,0 +1,218 @@
+{
+  "name": "Mexico",
+  "slug": "mexico",
+  "confederation": "CONCACAF",
+  "group": "A",
+  "fifa_ranking": 14,
+  "coach": "Javier Aguirre",
+  "squad": [
+    {
+      "name": "Raúl Rangel",
+      "position": "GK",
+      "club": "Guadalajara",
+      "club_country": "Mexico",
+      "age": 25,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Carlos Acevedo",
+      "position": "GK",
+      "club": "Santos Laguna",
+      "club_country": "Mexico",
+      "age": 29,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "position": "GK",
+      "club": "AEL Limassol",
+      "club_country": "Cyprus",
+      "age": 40,
+      "market_value_eur": 200000
+    },
+    {
+      "name": "Johan Vásquez",
+      "position": "DF",
+      "club": "Genoa",
+      "club_country": "Italy",
+      "age": 27,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "César Montes",
+      "position": "DF",
+      "club": "Lokomotiv Moscow",
+      "club_country": "Russia",
+      "age": 29,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Israel Reyes",
+      "position": "DF",
+      "club": "Club América",
+      "club_country": "Mexico",
+      "age": 25,
+      "market_value_eur": 7000000
+    },
+    {
+      "name": "Jesús Gallardo",
+      "position": "DF",
+      "club": "Toluca",
+      "club_country": "Mexico",
+      "age": 31,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Jorge Sánchez",
+      "position": "DF",
+      "club": "PAOK",
+      "club_country": "Greece",
+      "age": 28,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Mateo Chávez",
+      "position": "DF",
+      "club": "AZ Alkmaar",
+      "club_country": "Netherlands",
+      "age": 21,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Edson Álvarez",
+      "position": "MF",
+      "club": "Fenerbahçe",
+      "club_country": "Turkey",
+      "age": 28,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Luis Romo",
+      "position": "MF",
+      "club": "Guadalajara",
+      "club_country": "Mexico",
+      "age": 30,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Erik Lira",
+      "position": "MF",
+      "club": "Cruz Azul",
+      "club_country": "Mexico",
+      "age": 25,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Obed Vargas",
+      "position": "MF",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 20,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Brian Gutiérrez",
+      "position": "MF",
+      "club": "Guadalajara",
+      "club_country": "Mexico",
+      "age": 22,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Luis Chávez",
+      "position": "MF",
+      "club": "Dynamo Moscow",
+      "club_country": "Russia",
+      "age": 29,
+      "market_value_eur": 7000000
+    },
+    {
+      "name": "Orbelín Pineda",
+      "position": "MF",
+      "club": "AEK Athens",
+      "club_country": "Greece",
+      "age": 30,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Álvaro Fidalgo",
+      "position": "MF",
+      "club": "Club América",
+      "club_country": "Mexico",
+      "age": 28,
+      "market_value_eur": 9000000
+    },
+    {
+      "name": "Gilberto Mora",
+      "position": "MF",
+      "club": "Club Tijuana",
+      "club_country": "Mexico",
+      "age": 17,
+      "market_value_eur": 10000000
+    },
+    {
+      "name": "Santiago Giménez",
+      "position": "FW",
+      "club": "AC Milan",
+      "club_country": "Italy",
+      "age": 25,
+      "market_value_eur": 28000000
+    },
+    {
+      "name": "Raúl Jiménez",
+      "position": "FW",
+      "club": "Fulham",
+      "club_country": "England",
+      "age": 35,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "César Huerta",
+      "position": "FW",
+      "club": "Anderlecht",
+      "club_country": "Belgium",
+      "age": 25,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Roberto Alvarado",
+      "position": "FW",
+      "club": "Guadalajara",
+      "club_country": "Mexico",
+      "age": 27,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Alexis Vega",
+      "position": "FW",
+      "club": "Toluca",
+      "club_country": "Mexico",
+      "age": 28,
+      "market_value_eur": 7000000
+    },
+    {
+      "name": "Julián Quiñones",
+      "position": "FW",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 29,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Armando González",
+      "position": "FW",
+      "club": "Guadalajara",
+      "club_country": "Mexico",
+      "age": 22,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Guillermo Martínez",
+      "position": "FW",
+      "club": "UNAM Pumas",
+      "club_country": "Mexico",
+      "age": 30,
+      "market_value_eur": 2500000
+    }
+  ]
+}
