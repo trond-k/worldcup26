@@ -6,8 +6,8 @@
 
 | Group | Teams |
 |-------|-------|
-| [A](group-a.md) | Mexico, _south-africa_, _south-korea_, _czechia_ |
-| [B](group-b.md) | _canada_, _bosnia-herzegovina_, _qatar_, _switzerland_ |
+| [A](group-a.md) | Mexico, South Africa, _south-korea_, _czechia_ |
+| [B](group-b.md) | _canada_, _bosnia-herzegovina_, _qatar_, Switzerland |
 | [C](group-c.md) | Brazil, Morocco, Haiti, _scotland_ |
 | [D](group-d.md) | United States, Paraguay, Australia, Türkiye |
 | [E](group-e.md) | _germany_, _curacao_, _cote-divoire_, _ecuador_ |

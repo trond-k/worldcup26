@@ -3,8 +3,9 @@
 | Team | Confederation | Squad value |
 |------|---------------|-------------|
 | Mexico | CONCACAF | €197.2m |
+| South Africa | CAF | €41.9m |
 
-_Pending data: south-africa, south-korea, czechia_
+_Pending data: south-korea, czechia_
 
 ### Mexico
 
@@ -38,3 +39,36 @@ _Pending data: south-africa, south-korea, czechia_
 | 24 | Raúl Jiménez | FW | Fulham (England) | €5.0m |
 | 25 | Armando González | FW | Guadalajara (Mexico) | €5.0m |
 | 26 | Guillermo Martínez | FW | UNAM Pumas (Mexico) | €2.5m |
+
+### South Africa
+
+**Confederation:** CAF · **FIFA ranking:** 60 · **Coach:** Hugo Broos · **Squad value:** €41.9m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Ronwen Williams | GK | Mamelodi Sundowns (South Africa) | €900k |
+| 2 | Sipho Chaine | GK | Orlando Pirates (South Africa) | €500k |
+| 3 | Ricardo Goss | GK | Siwelele FC (South Africa) | €350k |
+| 4 | Samukele Kabini | DF | Molde FK (Norway) | €2.0m |
+| 5 | Olwethu Makhanya | DF | Philadelphia Union (United States) | €2.0m |
+| 6 | Mbekezeli Mbokazi | DF | Chicago Fire (United States) | €2.0m |
+| 7 | Ime Okon | DF | Hannover 96 (Germany) | €1.9m |
+| 8 | Nkosinathi Sibisi | DF | Orlando Pirates (South Africa) | €1.6m |
+| 9 | Khuliso Mudau | DF | Mamelodi Sundowns (South Africa) | €1.2m |
+| 10 | Aubrey Modiba | DF | Mamelodi Sundowns (South Africa) | €1.0m |
+| 11 | Thabang Matuludi | DF | Polokwane City (South Africa) | €900k |
+| 12 | Kamogelo Sebelebele | DF | Orlando Pirates (South Africa) | €850k |
+| 13 | Khulumani Ndamane | DF | Mamelodi Sundowns (South Africa) | €800k |
+| 14 | Bradley Cross | DF | Kaizer Chiefs (South Africa) | €600k |
+| 15 | Teboho Mokoena | MF | Mamelodi Sundowns (South Africa) | €2.5m |
+| 16 | Thalente Mbatha | MF | Orlando Pirates (South Africa) | €2.0m |
+| 17 | Jayden Adams | MF | Mamelodi Sundowns (South Africa) | €1.8m |
+| 18 | Sphephelo Sithole | MF | CD Tondela (Portugal) | €600k |
+| 19 | Lyle Foster | FW | Burnley (England) | €8.0m |
+| 20 | Iqraam Rayners | FW | Mamelodi Sundowns (South Africa) | €2.8m |
+| 21 | Oswin Appollis | FW | Orlando Pirates (South Africa) | €2.0m |
+| 22 | Relebohile Mofokeng | FW | Orlando Pirates (South Africa) | €2.0m |
+| 23 | Evidence Makgopa | FW | Orlando Pirates (South Africa) | €1.4m |
+| 24 | Tshepang Moremi | FW | Orlando Pirates (South Africa) | €1.0m |
+| 25 | Thapelo Maseko | FW | AEL Limassol (Cyprus) | €750k |
+| 26 | Themba Zwane | FW | Mamelodi Sundowns (South Africa) | €400k |
