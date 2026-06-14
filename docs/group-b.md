@@ -3,8 +3,42 @@
 | Team | Confederation | Squad value |
 |------|---------------|-------------|
 | Switzerland | UEFA | €314.1m |
+| Canada | CONCACAF | €264.0m |
 
-_Pending data: canada, bosnia-herzegovina, qatar_
+_Pending data: bosnia-herzegovina, qatar_
+
+### Canada
+
+**Confederation:** CONCACAF · **FIFA ranking:** 30 · **Coach:** Jesse Marsch · **Squad value:** €264.0m
+
+| # | Player | Pos | Club | Market value |
+|---|--------|-----|------|--------------|
+| 1 | Dayne St. Clair | GK | Inter Miami (United States) | €7.0m |
+| 2 | Maxime Crépeau | GK | Orlando City (United States) | €2.0m |
+| 3 | Owen Goodman | GK | Crystal Palace (England) | €2.0m |
+| 4 | Alphonso Davies | DF | Bayern Munich (Germany) | €55.0m |
+| 5 | Moïse Bombito | DF | OGC Nice (France) | €18.0m |
+| 6 | Alistair Johnston | DF | Celtic (Scotland) | €15.0m |
+| 7 | Derek Cornelius | DF | Olympique de Marseille (France) | €7.0m |
+| 8 | Niko Sigur | DF | Hajduk Split (Croatia) | €5.0m |
+| 9 | Alfie Jones | DF | Middlesbrough (England) | €5.0m |
+| 10 | Luc de Fougerolles | DF | Fulham (England) | €3.0m |
+| 11 | Joel Waterman | DF | Chicago Fire (United States) | €2.0m |
+| 12 | Richie Laryea | DF | Toronto FC (Canada) | €2.0m |
+| 13 | Stephen Eustáquio | MF | FC Porto (Portugal) | €18.0m |
+| 14 | Tajon Buchanan | MF | Villarreal (Spain) | €12.0m |
+| 15 | Ismaël Koné | MF | Sassuolo (Italy) | €10.0m |
+| 16 | Liam Millar | MF | Hull City (England) | €6.0m |
+| 17 | Jacob Shaffelburg | MF | Los Angeles FC (United States) | €5.0m |
+| 18 | Nathan Saliba | MF | Anderlecht (Belgium) | €5.0m |
+| 19 | Mathieu Choinière | MF | Los Angeles FC (United States) | €4.0m |
+| 20 | Ali Ahmed | MF | Norwich City (England) | €4.0m |
+| 21 | Marcelo Flores | MF | Tigres UANL (Mexico) | €4.0m |
+| 22 | Jonathan Osorio | MF | Toronto FC (Canada) | €2.0m |
+| 23 | Jonathan David | FW | Juventus (Italy) | €45.0m |
+| 24 | Promise David | FW | Union Saint-Gilloise (Belgium) | €12.0m |
+| 25 | Tani Oluwaseyi | FW | Villarreal (Spain) | €8.0m |
+| 26 | Cyle Larin | FW | RCD Mallorca (Spain) | €6.0m |
 
 ### Switzerland
 

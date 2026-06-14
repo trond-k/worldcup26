@@ -1,6 +1,6 @@
 # Market Value Statistics
 
-_Based on 45 teams with data._
+_Based on 46 teams with data._
 
 ## Most valuable squads
 
@@ -29,35 +29,36 @@ _Based on 45 teams with data._
 | 21 | Colombia | K | €339.1m |
 | 22 | Switzerland | B | €314.1m |
 | 23 | Austria | J | €266.0m |
-| 24 | Algeria | J | €253.9m |
-| 25 | Scotland | C | €226.3m |
-| 26 | Ghana | L | €212.6m |
-| 27 | Mexico | A | €197.2m |
-| 28 | South Korea | A | €195.4m |
-| 29 | Czechia | A | €186.8m |
-| 30 | Egypt | G | €175.5m |
-| 31 | DR Congo | K | €167.6m |
-| 32 | Paraguay | D | €152.4m |
-| 33 | Tunisia | F | €100.5m |
-| 34 | Australia | D | €82.5m |
-| 35 | Saudi Arabia | H | €82.0m |
-| 36 | Uzbekistan | K | €66.1m |
-| 37 | Haiti | C | €56.2m |
-| 38 | Cabo Verde | H | €55.1m |
-| 39 | New Zealand | G | €47.5m |
-| 40 | South Africa | A | €41.9m |
-| 41 | Curaçao | E | €37.4m |
-| 42 | Panama | L | €35.3m |
-| 43 | IR Iran | G | €30.8m |
-| 44 | Iraq | I | €28.1m |
-| 45 | Jordan | J | €20.0m |
+| 24 | Canada | B | €264.0m |
+| 25 | Algeria | J | €253.9m |
+| 26 | Scotland | C | €226.3m |
+| 27 | Ghana | L | €212.6m |
+| 28 | Mexico | A | €197.2m |
+| 29 | South Korea | A | €195.4m |
+| 30 | Czechia | A | €186.8m |
+| 31 | Egypt | G | €175.5m |
+| 32 | DR Congo | K | €167.6m |
+| 33 | Paraguay | D | €152.4m |
+| 34 | Tunisia | F | €100.5m |
+| 35 | Australia | D | €82.5m |
+| 36 | Saudi Arabia | H | €82.0m |
+| 37 | Uzbekistan | K | €66.1m |
+| 38 | Haiti | C | €56.2m |
+| 39 | Cabo Verde | H | €55.1m |
+| 40 | New Zealand | G | €47.5m |
+| 41 | South Africa | A | €41.9m |
+| 42 | Curaçao | E | €37.4m |
+| 43 | Panama | L | €35.3m |
+| 44 | IR Iran | G | €30.8m |
+| 45 | Iraq | I | €28.1m |
+| 46 | Jordan | J | €20.0m |
 
 ## Total value by group
 
 | Group | Teams | Total value |
 |-------|-------|-------------|
 | A | 4 | €621.2m |
-| B | 1 | €314.1m |
+| B | 2 | €578.1m |
 | C | 4 | €1516.5m |
 | D | 4 | €1133.4m |
 | E | 4 | €1851.4m |
@@ -101,6 +102,6 @@ _Based on 45 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€17396.3m**
-- Players counted: **1170**
-- Average player value: **€14.9m**
+- Total market value of all squads: **€17660.3m**
+- Players counted: **1196**
+- Average player value: **€14.8m**
