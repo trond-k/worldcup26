@@ -9,7 +9,7 @@
 
 ### Spain
 
-**Confederation:** UEFA · **FIFA ranking:** 2 · **Coach:** Luis de la Fuente · **Squad value:** €1400.0m · **GNP:** $1.71T (2024) · **GNP per capita:** $33,410
+**Confederation:** UEFA · **FIFA ranking:** 2 · **Coach:** Luis de la Fuente · **Squad value:** €1400.0m · **GNP:** $1.71T (2024) · **GNP per capita:** $33,410 · **Population:** 48,800,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Cabo Verde
 
-**Confederation:** CAF · **FIFA ranking:** 67 · **Coach:** Pedro Brito (Bubista) · **Squad value:** €55.1m · **GNP:** $2.7B (2024) · **GNP per capita:** $5,000
+**Confederation:** CAF · **FIFA ranking:** 67 · **Coach:** Pedro Brito (Bubista) · **Squad value:** €55.1m · **GNP:** $2.7B (2024) · **GNP per capita:** $5,000 · **Population:** 525,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Saudi Arabia
 
-**Confederation:** AFC · **FIFA ranking:** 61 · **Coach:** Georgios Donis · **Squad value:** €82.0m · **GNP:** $1.24T (2024) · **GNP per capita:** $35,570
+**Confederation:** AFC · **FIFA ranking:** 61 · **Coach:** Georgios Donis · **Squad value:** €82.0m · **GNP:** $1.24T (2024) · **GNP per capita:** $35,570 · **Population:** 33,300,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Uruguay
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 16 · **Coach:** Marcelo Bielsa · **Squad value:** €507.5m · **GNP:** $75.7B (2024) · **GNP per capita:** $21,580
+**Confederation:** CONMEBOL · **FIFA ranking:** 16 · **Coach:** Marcelo Bielsa · **Squad value:** €507.5m · **GNP:** $75.7B (2024) · **GNP per capita:** $21,580 · **Population:** 3,420,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

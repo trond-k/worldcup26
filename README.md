@@ -74,6 +74,11 @@ Each `data/teams/<slug>.json` file:
   separate World Bank entry, so they use UK ONS regional GDP-based estimates
   (flagged in commit history); `gnp_*` may be `null` if unavailable. See
   `docs/stats.md` for the economy rankings.
+- `population` / `population_year` are the country's total population (World Bank
+  estimates, mostly 2024; ONS mid-2023 for England and Scotland; latest available
+  year for Curaçao). These socio-economic fields (GNP, GNP per capita, population)
+  alongside `fifa_ranking` and squad market value are intended as inputs to a
+  favourite/underdog estimate for matches.
 
 Each `data/results/<date>.json` file holds the matches played (or scheduled) on
 that date:

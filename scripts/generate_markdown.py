@@ -55,6 +55,8 @@ def render_team(team):
         meta.append(f"**GNP:** {fmt_usd(team['gnp_usd'])}{yr}")
     if team.get("gnp_per_capita_usd") is not None:
         meta.append(f"**GNP per capita:** {fmt_usd(team['gnp_per_capita_usd'])}")
+    if team.get("population") is not None:
+        meta.append(f"**Population:** {team['population']:,}")
     lines.append(" · ".join(meta))
     lines.append("")
     lines.append("| # | Player | Pos | Club | Market value |")

@@ -9,7 +9,7 @@
 
 ### Brazil
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 5 · **Coach:** Carlo Ancelotti · **Squad value:** €855.0m · **GNP:** $2.11T (2024) · **GNP per capita:** $9,950
+**Confederation:** CONMEBOL · **FIFA ranking:** 5 · **Coach:** Carlo Ancelotti · **Squad value:** €855.0m · **GNP:** $2.11T (2024) · **GNP per capita:** $9,950 · **Population:** 212,583,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Morocco
 
-**Confederation:** CAF · **FIFA ranking:** 12 · **Coach:** Mohamed Ouahbi · **Squad value:** €379.0m · **GNP:** $158.2B (2024) · **GNP per capita:** $3,840
+**Confederation:** CAF · **FIFA ranking:** 12 · **Coach:** Mohamed Ouahbi · **Squad value:** €379.0m · **GNP:** $158.2B (2024) · **GNP per capita:** $3,840 · **Population:** 37,840,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Haiti
 
-**Confederation:** CONCACAF · **FIFA ranking:** 84 · **Coach:** Sébastien Migné · **Squad value:** €56.2m · **GNP:** $25.2B (2024) · **GNP per capita:** $1,760
+**Confederation:** CONCACAF · **FIFA ranking:** 84 · **Coach:** Sébastien Migné · **Squad value:** €56.2m · **GNP:** $25.2B (2024) · **GNP per capita:** $1,760 · **Population:** 11,900,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Scotland
 
-**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Steve Clarke · **Squad value:** €226.3m · **GNP:** $285.5B (2024) · **GNP per capita:** $51,557
+**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Steve Clarke · **Squad value:** €226.3m · **GNP:** $285.5B (2024) · **GNP per capita:** $51,557 · **Population:** 5,490,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

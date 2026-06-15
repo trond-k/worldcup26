@@ -9,7 +9,7 @@
 
 ### Belgium
 
-**Confederation:** UEFA · **FIFA ranking:** 9 · **Coach:** Rudi Garcia · **Squad value:** €568.0m · **GNP:** $675.9B (2024) · **GNP per capita:** $54,840
+**Confederation:** UEFA · **FIFA ranking:** 9 · **Coach:** Rudi Garcia · **Squad value:** €568.0m · **GNP:** $675.9B (2024) · **GNP per capita:** $54,840 · **Population:** 11,850,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Egypt
 
-**Confederation:** CAF · **FIFA ranking:** 29 · **Coach:** Hossam Hassan · **Squad value:** €175.5m · **GNP:** $371.5B (2024) · **GNP per capita:** $3,510
+**Confederation:** CAF · **FIFA ranking:** 29 · **Coach:** Hossam Hassan · **Squad value:** €175.5m · **GNP:** $371.5B (2024) · **GNP per capita:** $3,510 · **Population:** 114,500,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### IR Iran
 
-**Confederation:** AFC · **FIFA ranking:** 21 · **Coach:** Amir Ghalenoei · **Squad value:** €30.8m · **GNP:** $426.4B (2024) · **GNP per capita:** $4,660
+**Confederation:** AFC · **FIFA ranking:** 21 · **Coach:** Amir Ghalenoei · **Squad value:** €30.8m · **GNP:** $426.4B (2024) · **GNP per capita:** $4,660 · **Population:** 89,200,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### New Zealand
 
-**Confederation:** OFC · **FIFA ranking:** 85 · **Coach:** Darren Bazeley · **Squad value:** €47.5m · **GNP:** $251.1B (2024) · **GNP per capita:** $46,280
+**Confederation:** OFC · **FIFA ranking:** 85 · **Coach:** Darren Bazeley · **Squad value:** €47.5m · **GNP:** $251.1B (2024) · **GNP per capita:** $46,280 · **Population:** 5,250,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

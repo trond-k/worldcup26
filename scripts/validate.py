@@ -242,9 +242,13 @@ def _validate_team(slug, expected_group, team, errors):
         v = team.get(fld)
         if v is not None and (not isinstance(v, int) or isinstance(v, bool) or v < 0):
             err(f"{fld} must be a non-negative integer or null, got {v!r}")
-    gy = team.get("gnp_year")
-    if gy is not None and (not isinstance(gy, int) or gy < 2010 or gy > 2026):
-        err(f"gnp_year must be an integer 2010-2026 or null, got {gy!r}")
+    pop = team.get("population")
+    if pop is not None and (not isinstance(pop, int) or isinstance(pop, bool) or pop < 0):
+        err(f"population must be a non-negative integer or null, got {pop!r}")
+    for yf in ("gnp_year", "population_year"):
+        yv = team.get(yf)
+        if yv is not None and (not isinstance(yv, int) or yv < 2010 or yv > 2026):
+            err(f"{yf} must be an integer 2010-2026 or null, got {yv!r}")
 
     squad = team.get("squad", [])
     if len(squad) != SQUAD_SIZE:
