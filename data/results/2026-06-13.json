@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-13",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "qatar",
+      "away": "switzerland",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Boualem Khoukhi's late goal earned Qatar a draw against a dominant Switzerland."
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "brazil",
+      "away": "morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Brazil and Morocco battled to a 1-1 draw on Brazil's tournament entry."
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "matchday": 1,
+      "home": "scotland",
+      "away": "haiti",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "completed",
+      "venue": null,
+      "note": "John McGinn's 28th-minute goal gave Scotland victory on their World Cup return."
+    }
+  ]
+}

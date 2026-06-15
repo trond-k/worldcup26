@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-11",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "mexico",
+      "away": "south-africa",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "Estadio Azteca, Mexico City",
+      "note": "Tournament opener; goals from Julián Quiñones and Raúl Jiménez. South Africa finished with nine men after three red cards."
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "south-korea",
+      "away": "czechia",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "completed",
+      "venue": "Estadio Akron, Guadalajara",
+      "note": "South Korea came from 0-1 down; Hwang In-beom equalised and substitute Oh Hyeon-gyu struck the late winner."
+    }
+  ]
+}

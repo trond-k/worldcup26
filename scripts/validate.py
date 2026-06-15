@@ -13,6 +13,7 @@ import sys
 from common import (
     GROUP_LETTERS,
     POSITIONS,
+    RESULTS_DIR,
     TEAMS_DIR,
     load_tournament,
     team_path,
@@ -21,6 +22,11 @@ from common import (
 
 CONFEDERATIONS = {"AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA"}
 SQUAD_SIZE = 26
+STAGES = {
+    "group", "round-of-32", "round-of-16", "quarter-final",
+    "semi-final", "third-place", "final",
+}
+RESULT_STATUSES = {"completed", "scheduled"}
 
 
 def validate():
@@ -65,7 +71,53 @@ def validate():
                 continue
             _validate_team(slug, letter, load_json(path), errors)
 
+    # --- results validation ---
+    _validate_results(set(all_slugs), groups, errors, warnings)
+
     return errors, warnings
+
+
+def _validate_results(valid_slugs, groups, errors, warnings):
+    if not os.path.isdir(RESULTS_DIR):
+        return
+    for fname in sorted(f for f in os.listdir(RESULTS_DIR) if f.endswith(".json")):
+        day = load_json(os.path.join(RESULTS_DIR, fname))
+        date = day.get("date")
+        if not date or fname != f"{date}.json":
+            warnings.append(f"results/{fname}: filename does not match its date field '{date}'")
+        for i, m in enumerate(day.get("matches", [])):
+            tag = f"results/{fname} match #{i + 1}"
+
+            def err(msg):
+                errors.append(f"{tag}: {msg}")
+
+            if m.get("stage") not in STAGES:
+                err(f"invalid stage '{m.get('stage')}'")
+            status = m.get("status")
+            if status not in RESULT_STATUSES:
+                err(f"invalid status '{status}'")
+            for side in ("home", "away"):
+                slug = m.get(side)
+                if slug not in valid_slugs:
+                    err(f"{side} team '{slug}' is not a known team slug")
+            if m.get("home") == m.get("away"):
+                err("home and away teams are identical")
+            grp = m.get("group")
+            if m.get("stage") == "group":
+                if grp not in GROUP_LETTERS:
+                    err(f"group match has invalid group '{grp}'")
+                else:
+                    for side in ("home", "away"):
+                        slug = m.get(side)
+                        if slug in valid_slugs and slug not in groups.get(grp, []):
+                            err(f"{side} team '{slug}' is not in group {grp}")
+            for fld in ("home_score", "away_score"):
+                sc = m.get(fld)
+                if status == "completed":
+                    if not isinstance(sc, int) or isinstance(sc, bool) or sc < 0:
+                        err(f"completed match needs non-negative integer {fld}, got {sc!r}")
+                elif sc is not None:
+                    err(f"scheduled match should have null {fld}, got {sc!r}")
 
 
 def _validate_team(slug, expected_group, team, errors):
@@ -119,8 +171,16 @@ def main():
         1 for letter in GROUP_LETTERS for slug in tournament["groups"].get(letter, [])
         if os.path.exists(team_path(slug))
     )
+    n_result_files = 0
+    n_matches = 0
+    if os.path.isdir(RESULTS_DIR):
+        for fname in os.listdir(RESULTS_DIR):
+            if fname.endswith(".json"):
+                n_result_files += 1
+                n_matches += len(load_json(os.path.join(RESULTS_DIR, fname)).get("matches", []))
     print(
-        f"\nChecked {n_teams}/48 team files. "
+        f"\nChecked {n_teams}/48 team files and {n_matches} matches "
+        f"across {n_result_files} result file(s). "
         f"{len(errors)} error(s), {len(warnings)} warning(s)."
     )
     sys.exit(1 if errors else 0)

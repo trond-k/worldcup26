@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-15",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "spain",
+      "away": "cabo-verde",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": null,
+      "note": "Group H opener."
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "belgium",
+      "away": "egypt",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": null,
+      "note": "Group G opener."
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home": "saudi-arabia",
+      "away": "uruguay",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": null,
+      "note": "Group H opener."
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "matchday": 1,
+      "home": "iran",
+      "away": "new-zealand",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": null,
+      "note": "Group G opener."
+    }
+  ]
+}

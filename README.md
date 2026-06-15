@@ -17,17 +17,21 @@ with a full 26-player squad for each team listing **position**, **club** and
 data/
   tournament.json      # hosts, dates, format, and the group → team index
   teams/<slug>.json    # one file per team: metadata + 26-man squad (source of truth)
+  results/<date>.json  # one file per matchday date: match results (source of truth)
 schema/
   tournament.schema.json
   team.schema.json     # JSON Schema describing a team file
+  results.schema.json  # JSON Schema describing a results file
 docs/                  # GENERATED — do not edit by hand (run the scripts)
   README.md            # browsable index of all groups
   group-a.md … group-l.md
   stats.md             # market-value rankings and totals
+  results.md           # match results and live group standings
 scripts/
   validate.py          # structural validation (CI-friendly, exits non-zero on error)
   generate_markdown.py # regenerate docs/ from the JSON
   stats.py             # compute aggregate market-value stats → docs/stats.md
+  generate_results.py  # results + computed standings → docs/results.md
   common.py            # shared helpers
 ```
 
@@ -60,6 +64,33 @@ Each `data/teams/<slug>.json` file:
 - `market_value_eur` is a non-negative integer (euros).
 - `squad` must contain exactly 26 players.
 
+Each `data/results/<date>.json` file holds the matches played (or scheduled) on
+that date:
+
+```json
+{
+  "date": "2026-06-11",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "home": "mexico",
+      "away": "south-africa",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "Estadio Azteca, Mexico City",
+      "note": "Tournament opener."
+    }
+  ]
+}
+```
+
+- `home` / `away` reference team slugs; group matches must use teams from that group.
+- `status` is `completed` (integer scores) or `scheduled` (null scores).
+- Group standings in `docs/results.md` are computed from completed matches.
+
 ## Usage
 
 All scripts use only the Python 3 standard library (no dependencies):
@@ -68,6 +99,7 @@ All scripts use only the Python 3 standard library (no dependencies):
 python3 scripts/validate.py            # check every file is well-formed
 python3 scripts/generate_markdown.py   # rebuild docs/ from the JSON
 python3 scripts/stats.py               # rebuild docs/stats.md
+python3 scripts/generate_results.py    # rebuild docs/results.md (results + standings)
 ```
 
 Start browsing at [docs/README.md](docs/README.md).
@@ -102,6 +134,10 @@ The JSON files under `data/` are the source of truth — edit those, never the
 generated files in `docs/`. After editing:
 
 1. Run `python3 scripts/validate.py` and fix any reported errors.
-2. Run `python3 scripts/generate_markdown.py` and `python3 scripts/stats.py` to
-   refresh the generated docs.
+2. Run `python3 scripts/generate_markdown.py`, `python3 scripts/stats.py` and
+   `python3 scripts/generate_results.py` to refresh the generated docs.
 3. Commit both the data change and the regenerated docs.
+
+To add new match results, edit (or create) the relevant `data/results/<date>.json`
+file — set `status` to `completed` and fill in the integer scores — then
+regenerate the docs. Standings update automatically.

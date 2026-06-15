@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-12",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "B",
+      "matchday": 1,
+      "home": "canada",
+      "away": "bosnia-herzegovina",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Canada and Bosnia and Herzegovina shared the points in their Group B opener."
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "usa",
+      "away": "paraguay",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Co-hosts USA opened their campaign with a comfortable win over Paraguay."
+    }
+  ]
+}

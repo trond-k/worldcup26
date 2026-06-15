@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-14",
+  "matches": [
+    {
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "australia",
+      "away": "turkiye",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "BC Place, Vancouver",
+      "note": "Goals from Nestory Irankunda and Connor Metcalfe spoiled Türkiye's first World Cup appearance in 24 years."
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "germany",
+      "away": "curacao",
+      "home_score": 7,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Germany ran riot against World Cup debutants Curaçao."
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "matchday": 1,
+      "home": "cote-divoire",
+      "away": "ecuador",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Amad Diallo struck in the 90th minute to win it for Côte d'Ivoire."
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "netherlands",
+      "away": "japan",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "completed",
+      "venue": "AT&T Stadium, Dallas",
+      "note": "Japan twice came from behind, with Daichi Kamada equalising in the 89th minute."
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home": "sweden",
+      "away": "tunisia",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "completed",
+      "venue": null,
+      "note": "Yasin Ayari scored twice; Mattias Svanberg netted 13 seconds after coming on."
+    }
+  ]
+}

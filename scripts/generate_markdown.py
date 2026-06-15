@@ -104,7 +104,8 @@ def render_index(tournament):
                 names.append(f"_{s}_")
         lines.append(f"| [{letter}](group-{letter.lower()}.md) | {', '.join(names)} |")
     lines.append("")
-    lines.append("See [stats.md](stats.md) for aggregate market-value rankings.")
+    lines.append("See [stats.md](stats.md) for aggregate market-value rankings, "
+                 "and [results.md](results.md) for match results and live standings.")
     lines.append("")
     return "\n".join(lines)
 
