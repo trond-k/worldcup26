@@ -11,6 +11,12 @@
   --thead: #f4f6f8;
   --zebra: #fafbfc;
   --maxw: 56rem;
+  /* Screen-optimized serif stack — no web fonts, no network request.
+     Charter (macOS/iOS) → Sitka/Cambria (Windows) → Georgia (universal). */
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, "Iowan Old Style",
+           Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,8 +39,9 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-        Arial, sans-serif;
+  font: 17px/1.65 var(--serif);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -88,7 +95,12 @@ dl.meta dd { margin: 0; }
 
 /* Tables */
 .table-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
-table { border-collapse: collapse; width: 100%; font-size: 0.94rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.94rem;
+  font-variant-numeric: tabular-nums;
+}
 th, td {
   text-align: left;
   padding: 0.4rem 0.7rem;
