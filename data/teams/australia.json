@@ -17,7 +17,7 @@
       "club": "Lens",
       "club_country": "France",
       "age": 34,
-      "market_value_eur": 1500000
+      "market_value_eur": 1800000
     },
     {
       "name": "Paul Izzo",
@@ -25,7 +25,7 @@
       "club": "Aberdeen",
       "club_country": "Scotland",
       "age": 31,
-      "market_value_eur": 700000
+      "market_value_eur": 500000
     },
     {
       "name": "Patrick Beach",
@@ -33,7 +33,7 @@
       "club": "Western United",
       "club_country": "Australia",
       "age": 26,
-      "market_value_eur": 500000
+      "market_value_eur": 1000000
     },
     {
       "name": "Milos Degenek",
@@ -41,7 +41,7 @@
       "club": "Al-Taawoun",
       "club_country": "Saudi Arabia",
       "age": 31,
-      "market_value_eur": 1500000
+      "market_value_eur": 450000
     },
     {
       "name": "Alessandro Circati",
@@ -57,7 +57,7 @@
       "club": "Borussia Mönchengladbach",
       "club_country": "Germany",
       "age": 24,
-      "market_value_eur": 2000000
+      "market_value_eur": 600000
     },
     {
       "name": "Jordan Bos",
@@ -73,7 +73,7 @@
       "club": "Melbourne Victory",
       "club_country": "Australia",
       "age": 32,
-      "market_value_eur": 500000
+      "market_value_eur": 350000
     },
     {
       "name": "Kai Trewin",
@@ -81,7 +81,7 @@
       "club": "Melbourne City",
       "club_country": "Australia",
       "age": 24,
-      "market_value_eur": 700000
+      "market_value_eur": 1800000
     },
     {
       "name": "Aziz Behich",
@@ -105,7 +105,7 @@
       "club": "Ipswich Town",
       "club_country": "England",
       "age": 30,
-      "market_value_eur": 5000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Mathew Leckie",
@@ -129,7 +129,7 @@
       "club": "NAC Breda",
       "club_country": "Netherlands",
       "age": 29,
-      "market_value_eur": 2000000
+      "market_value_eur": 600000
     },
     {
       "name": "Awer Mabil",
@@ -137,7 +137,7 @@
       "club": "Grasshopper",
       "club_country": "Switzerland",
       "age": 30,
-      "market_value_eur": 2500000
+      "market_value_eur": 500000
     },
     {
       "name": "Aiden O'Neill",
@@ -145,7 +145,7 @@
       "club": "Standard Liège",
       "club_country": "Belgium",
       "age": 27,
-      "market_value_eur": 3500000
+      "market_value_eur": 3000000
     },
     {
       "name": "Cameron Devlin",
@@ -153,7 +153,7 @@
       "club": "Hearts",
       "club_country": "Scotland",
       "age": 27,
-      "market_value_eur": 1500000
+      "market_value_eur": 2000000
     },
     {
       "name": "Jackson Irvine",
@@ -201,7 +201,7 @@
       "club": "Central Coast Mariners",
       "club_country": "Australia",
       "age": 21,
-      "market_value_eur": 800000
+      "market_value_eur": 1200000
     },
     {
       "name": "Lucas Herrington",
@@ -209,7 +209,7 @@
       "club": "Adelaide United",
       "club_country": "Australia",
       "age": 18,
-      "market_value_eur": 1000000
+      "market_value_eur": 4500000
     },
     {
       "name": "Tete Yengi",
@@ -217,7 +217,7 @@
       "club": "Ipswich Town",
       "club_country": "England",
       "age": 25,
-      "market_value_eur": 1000000
+      "market_value_eur": 450000
     }
   ]
 }

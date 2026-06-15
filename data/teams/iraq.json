@@ -17,31 +17,31 @@
       "club": "Al-Zawraa",
       "club_country": "Iraq",
       "age": 35,
-      "market_value_eur": 400000
+      "market_value_eur": 250000
     },
     {
       "name": "Fahad Talib",
       "position": "GK",
       "club": "Al-Talaba",
       "club_country": "Iraq",
-      "age": 30,
-      "market_value_eur": 300000
+      "age": 31,
+      "market_value_eur": 375000
     },
     {
       "name": "Ahmed Basil",
       "position": "GK",
       "club": "Al-Shorta",
       "club_country": "Iraq",
-      "age": 27,
-      "market_value_eur": 300000
+      "age": 29,
+      "market_value_eur": 450000
     },
     {
       "name": "Merchas Doski",
       "position": "DF",
       "club": "Viktoria Plzeň",
       "club_country": "Czech Republic",
-      "age": 24,
-      "market_value_eur": 2000000
+      "age": 26,
+      "market_value_eur": 1700000
     },
     {
       "name": "Hussein Ali",
@@ -49,7 +49,7 @@
       "club": "Pogoń Szczecin",
       "club_country": "Poland",
       "age": 24,
-      "market_value_eur": 1500000
+      "market_value_eur": 400000
     },
     {
       "name": "Rebin Sulaka",
@@ -57,7 +57,7 @@
       "club": "Port",
       "club_country": "Thailand",
       "age": 34,
-      "market_value_eur": 300000
+      "market_value_eur": 100000
     },
     {
       "name": "Akam Hashim",
@@ -65,14 +65,14 @@
       "club": "Al-Zawraa",
       "club_country": "Iraq",
       "age": 27,
-      "market_value_eur": 400000
+      "market_value_eur": 700000
     },
     {
       "name": "Zaid Tahseen",
       "position": "DF",
       "club": "Pakhtakor",
       "club_country": "Uzbekistan",
-      "age": 26,
+      "age": 25,
       "market_value_eur": 600000
     },
     {
@@ -80,16 +80,16 @@
       "position": "DF",
       "club": "Al-Shorta",
       "club_country": "Iraq",
-      "age": 24,
-      "market_value_eur": 500000
+      "age": 25,
+      "market_value_eur": 350000
     },
     {
       "name": "Zaid Ismail",
       "position": "DF",
       "club": "Al-Talaba",
       "club_country": "Iraq",
-      "age": 25,
-      "market_value_eur": 400000
+      "age": 24,
+      "market_value_eur": 500000
     },
     {
       "name": "Frans Putros",
@@ -97,7 +97,7 @@
       "club": "Persib Bandung",
       "club_country": "Indonesia",
       "age": 32,
-      "market_value_eur": 300000
+      "market_value_eur": 325000
     },
     {
       "name": "Manaf Younis",
@@ -105,7 +105,7 @@
       "club": "Al-Quwa Al-Jawiya",
       "club_country": "Iraq",
       "age": 26,
-      "market_value_eur": 400000
+      "market_value_eur": 300000
     },
     {
       "name": "Amir Al-Ammari",
@@ -113,7 +113,7 @@
       "club": "Cracovia",
       "club_country": "Poland",
       "age": 28,
-      "market_value_eur": 1800000
+      "market_value_eur": 1000000
     },
     {
       "name": "Zidane Iqbal",
@@ -121,7 +121,7 @@
       "club": "Utrecht",
       "club_country": "Netherlands",
       "age": 23,
-      "market_value_eur": 3000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Kevin Yakob",
@@ -129,23 +129,23 @@
       "club": "Aarhus",
       "club_country": "Denmark",
       "age": 25,
-      "market_value_eur": 1500000
+      "market_value_eur": 850000
     },
     {
       "name": "Aimar Sher",
       "position": "MF",
       "club": "Sarpsborg 08",
       "club_country": "Norway",
-      "age": 24,
-      "market_value_eur": 1200000
+      "age": 23,
+      "market_value_eur": 1500000
     },
     {
       "name": "Ibrahim Bayesh",
       "position": "MF",
       "club": "Al-Dhafra",
       "club_country": "United Arab Emirates",
-      "age": 28,
-      "market_value_eur": 600000
+      "age": 26,
+      "market_value_eur": 800000
     },
     {
       "name": "Ahmed Qasem",
@@ -153,23 +153,23 @@
       "club": "Nashville SC",
       "club_country": "United States",
       "age": 22,
-      "market_value_eur": 2500000
+      "market_value_eur": 3500000
     },
     {
       "name": "Youssef Amyn",
       "position": "MF",
       "club": "AEK Larnaca",
       "club_country": "Cyprus",
-      "age": 23,
-      "market_value_eur": 1500000
+      "age": 22,
+      "market_value_eur": 550000
     },
     {
       "name": "Marko Farji",
       "position": "MF",
       "club": "Venezia",
       "club_country": "Italy",
-      "age": 23,
-      "market_value_eur": 800000
+      "age": 22,
+      "market_value_eur": 1700000
     },
     {
       "name": "Ali Jasim",
@@ -177,7 +177,7 @@
       "club": "Al-Najma",
       "club_country": "Saudi Arabia",
       "age": 22,
-      "market_value_eur": 2000000
+      "market_value_eur": 500000
     },
     {
       "name": "Ali Al-Hamadi",
@@ -185,7 +185,7 @@
       "club": "Ipswich Town",
       "club_country": "England",
       "age": 24,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Aymen Hussein",
@@ -193,15 +193,15 @@
       "club": "Al-Karma",
       "club_country": "Iraq",
       "age": 30,
-      "market_value_eur": 700000
+      "market_value_eur": 400000
     },
     {
       "name": "Mohanad Ali",
       "position": "FW",
       "club": "Dibba Al-Fujairah",
       "club_country": "United Arab Emirates",
-      "age": 26,
-      "market_value_eur": 1000000
+      "age": 25,
+      "market_value_eur": 1200000
     },
     {
       "name": "Ali Yousef",
@@ -217,7 +217,7 @@
       "club": "Al-Quwa Al-Jawiya",
       "club_country": "Iraq",
       "age": 24,
-      "market_value_eur": 500000
+      "market_value_eur": 450000
     }
   ]
 }

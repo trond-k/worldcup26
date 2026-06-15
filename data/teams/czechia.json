@@ -16,16 +16,16 @@
       "position": "GK",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 29,
-      "market_value_eur": 6000000
+      "age": 30,
+      "market_value_eur": 2000000
     },
     {
       "name": "Matěj Kovář",
       "position": "GK",
       "club": "PSV Eindhoven",
       "club_country": "Netherlands",
-      "age": 25,
-      "market_value_eur": 9000000
+      "age": 26,
+      "market_value_eur": 8000000
     },
     {
       "name": "Lukáš Horníček",
@@ -33,7 +33,7 @@
       "club": "Braga",
       "club_country": "Portugal",
       "age": 23,
-      "market_value_eur": 3000000
+      "market_value_eur": 18000000
     },
     {
       "name": "Vladimír Coufal",
@@ -49,15 +49,15 @@
       "club": "Wolverhampton Wanderers",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 25000000
+      "market_value_eur": 22000000
     },
     {
       "name": "Robin Hranáč",
       "position": "DF",
       "club": "Hoffenheim",
       "club_country": "Germany",
-      "age": 25,
-      "market_value_eur": 8000000
+      "age": 26,
+      "market_value_eur": 10000000
     },
     {
       "name": "David Zima",
@@ -65,15 +65,15 @@
       "club": "Slavia Prague",
       "club_country": "Czechia",
       "age": 25,
-      "market_value_eur": 6000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Tomáš Holeš",
       "position": "DF",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 32,
-      "market_value_eur": 3000000
+      "age": 33,
+      "market_value_eur": 1000000
     },
     {
       "name": "David Jurásek",
@@ -81,23 +81,23 @@
       "club": "Slavia Prague",
       "club_country": "Czechia",
       "age": 25,
-      "market_value_eur": 6000000
+      "market_value_eur": 5000000
     },
     {
       "name": "David Douděra",
       "position": "DF",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 27,
-      "market_value_eur": 4000000
+      "age": 28,
+      "market_value_eur": 3500000
     },
     {
       "name": "Štěpán Chaloupek",
       "position": "DF",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 22,
-      "market_value_eur": 3500000
+      "age": 23,
+      "market_value_eur": 10000000
     },
     {
       "name": "Jaroslav Zelený",
@@ -105,7 +105,7 @@
       "club": "Slavia Prague",
       "club_country": "Czechia",
       "age": 33,
-      "market_value_eur": 1500000
+      "market_value_eur": 600000
     },
     {
       "name": "Tomáš Souček",
@@ -113,7 +113,7 @@
       "club": "West Ham United",
       "club_country": "England",
       "age": 31,
-      "market_value_eur": 12000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Lukáš Provod",
@@ -121,7 +121,7 @@
       "club": "Slavia Prague",
       "club_country": "Czechia",
       "age": 29,
-      "market_value_eur": 7000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Pavel Šulc",
@@ -129,23 +129,23 @@
       "club": "Lyon",
       "club_country": "France",
       "age": 25,
-      "market_value_eur": 15000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Michal Sadílek",
       "position": "MF",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 26,
-      "market_value_eur": 4000000
+      "age": 27,
+      "market_value_eur": 8000000
     },
     {
       "name": "Lukáš Červ",
       "position": "MF",
       "club": "Viktoria Plzeň",
       "club_country": "Czechia",
-      "age": 24,
-      "market_value_eur": 4000000
+      "age": 25,
+      "market_value_eur": 6000000
     },
     {
       "name": "Vladimír Darida",
@@ -153,31 +153,31 @@
       "club": "Hradec Králové",
       "club_country": "Czechia",
       "age": 35,
-      "market_value_eur": 800000
+      "market_value_eur": 375000
     },
     {
       "name": "Denis Višinský",
       "position": "MF",
       "club": "Viktoria Plzeň",
       "club_country": "Czechia",
-      "age": 24,
-      "market_value_eur": 3500000
+      "age": 23,
+      "market_value_eur": 3000000
     },
     {
       "name": "Hugo Sochůrek",
       "position": "MF",
       "club": "Sparta Prague",
       "club_country": "Czechia",
-      "age": 22,
-      "market_value_eur": 2500000
+      "age": 18,
+      "market_value_eur": 3500000
     },
     {
       "name": "Alexandr Sojka",
       "position": "MF",
       "club": "Viktoria Plzeň",
       "club_country": "Czechia",
-      "age": 22,
-      "market_value_eur": 2000000
+      "age": 23,
+      "market_value_eur": 2300000
     },
     {
       "name": "Patrik Schick",
@@ -185,7 +185,7 @@
       "club": "Bayer Leverkusen",
       "club_country": "Germany",
       "age": 30,
-      "market_value_eur": 30000000
+      "market_value_eur": 18000000
     },
     {
       "name": "Adam Hložek",
@@ -193,23 +193,23 @@
       "club": "Hoffenheim",
       "club_country": "Germany",
       "age": 23,
-      "market_value_eur": 18000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Tomáš Chorý",
       "position": "FW",
       "club": "Slavia Prague",
       "club_country": "Czechia",
-      "age": 30,
-      "market_value_eur": 3000000
+      "age": 31,
+      "market_value_eur": 2700000
     },
     {
       "name": "Jan Kuchta",
       "position": "FW",
       "club": "Sparta Prague",
       "club_country": "Czechia",
-      "age": 28,
-      "market_value_eur": 4000000
+      "age": 29,
+      "market_value_eur": 2700000
     },
     {
       "name": "Mojmír Chytil",
@@ -217,7 +217,7 @@
       "club": "Slavia Prague",
       "club_country": "Czechia",
       "age": 27,
-      "market_value_eur": 3500000
+      "market_value_eur": 4000000
     }
   ]
 }

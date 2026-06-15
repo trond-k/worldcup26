@@ -6,71 +6,71 @@ _Based on 48 teams with data._
 
 | Rank | Team | Group | Squad value |
 |------|------|-------|-------------|
-| 1 | England | L | €1404.0m |
-| 2 | Spain | H | €1400.0m |
-| 3 | France | I | €1351.0m |
-| 4 | Portugal | K | €970.0m |
-| 5 | Germany | E | €952.0m |
-| 6 | Brazil | C | €855.0m |
-| 7 | Netherlands | F | €816.0m |
-| 8 | Argentina | J | €811.0m |
+| 1 | France | I | €1523.0m |
+| 2 | England | L | €1363.2m |
+| 3 | Spain | H | €1222.8m |
+| 4 | Portugal | K | €1005.5m |
+| 5 | Germany | E | €947.0m |
+| 6 | Brazil | C | €898.2m |
+| 7 | Argentina | J | €807.5m |
+| 8 | Netherlands | F | €754.2m |
 | 9 | Norway | I | €589.9m |
-| 10 | Belgium | G | €568.0m |
-| 11 | Sweden | F | €523.6m |
-| 12 | Uruguay | H | €507.5m |
-| 13 | Türkiye | D | €465.0m |
-| 14 | Côte d'Ivoire | E | €446.0m |
-| 15 | United States | D | €433.5m |
-| 16 | Ecuador | E | €416.0m |
-| 17 | Senegal | I | €414.0m |
-| 18 | Croatia | L | €396.0m |
-| 19 | Morocco | C | €379.0m |
-| 20 | Japan | F | €351.5m |
-| 21 | Colombia | K | €339.1m |
-| 22 | Switzerland | B | €314.1m |
-| 23 | Austria | J | €266.0m |
-| 24 | Canada | B | €264.0m |
-| 25 | Algeria | J | €253.9m |
-| 26 | Scotland | C | €226.3m |
-| 27 | Ghana | L | €212.6m |
-| 28 | Mexico | A | €197.2m |
-| 29 | South Korea | A | €195.4m |
-| 30 | Czechia | A | €186.8m |
-| 31 | Egypt | G | €175.5m |
-| 32 | DR Congo | K | €167.6m |
-| 33 | Paraguay | D | €152.4m |
-| 34 | Bosnia and Herzegovina | B | €122.8m |
-| 35 | Tunisia | F | €100.5m |
-| 36 | Australia | D | €82.5m |
-| 37 | Saudi Arabia | H | €82.0m |
-| 38 | Uzbekistan | K | €66.1m |
-| 39 | Haiti | C | €56.2m |
-| 40 | Cabo Verde | H | €55.1m |
-| 41 | New Zealand | G | €47.5m |
-| 42 | South Africa | A | €41.9m |
-| 43 | Qatar | B | €39.4m |
-| 44 | Curaçao | E | €37.4m |
-| 45 | Panama | L | €35.3m |
-| 46 | IR Iran | G | €30.8m |
-| 47 | Iraq | I | €28.1m |
-| 48 | Jordan | J | €20.0m |
+| 10 | Belgium | G | €547.5m |
+| 11 | Côte d'Ivoire | E | €528.0m |
+| 12 | Senegal | I | €478.1m |
+| 13 | Türkiye | D | €473.7m |
+| 14 | Morocco | C | €441.6m |
+| 15 | Sweden | F | €435.8m |
+| 16 | Croatia | L | €387.3m |
+| 17 | United States | D | €385.6m |
+| 18 | Ecuador | E | €368.7m |
+| 19 | Uruguay | H | €360.3m |
+| 20 | Switzerland | B | €332.5m |
+| 21 | Colombia | K | €302.4m |
+| 22 | Austria | J | €282.2m |
+| 23 | Algeria | J | €263.1m |
+| 24 | Japan | F | €261.3m |
+| 25 | Ghana | L | €230.3m |
+| 26 | Canada | B | €201.2m |
+| 27 | Mexico | A | €191.8m |
+| 28 | Czechia | A | €188.2m |
+| 29 | Scotland | C | €170.2m |
+| 30 | Paraguay | D | €153.7m |
+| 31 | Bosnia and Herzegovina | B | €151.3m |
+| 32 | DR Congo | K | €143.9m |
+| 33 | South Korea | A | €140.2m |
+| 34 | Egypt | G | €116.3m |
+| 35 | Uzbekistan | K | €83.5m |
+| 36 | Australia | D | €77.5m |
+| 37 | Tunisia | F | €59.9m |
+| 38 | Cabo Verde | H | €54.5m |
+| 39 | Haiti | C | €54.4m |
+| 40 | South Africa | A | €49.2m |
+| 41 | Saudi Arabia | H | €44.8m |
+| 42 | Panama | L | €34.6m |
+| 43 | New Zealand | G | €32.6m |
+| 44 | IR Iran | G | €31.9m |
+| 45 | Curaçao | E | €25.8m |
+| 46 | Qatar | B | €24.1m |
+| 47 | Iraq | I | €21.6m |
+| 48 | Jordan | J | €19.9m |
 
 ## Total value by group
 
 | Group | Teams | Total value |
 |-------|-------|-------------|
-| A | 4 | €621.2m |
-| B | 4 | €740.3m |
-| C | 4 | €1516.5m |
-| D | 4 | €1133.4m |
-| E | 4 | €1851.4m |
-| F | 4 | €1791.6m |
-| G | 4 | €821.8m |
-| H | 4 | €2044.6m |
-| I | 4 | €2383.0m |
-| J | 4 | €1350.9m |
-| K | 4 | €1542.8m |
-| L | 4 | €2047.9m |
+| A | 4 | €569.5m |
+| B | 4 | €709.1m |
+| C | 4 | €1564.4m |
+| D | 4 | €1090.5m |
+| E | 4 | €1869.5m |
+| F | 4 | €1511.2m |
+| G | 4 | €728.3m |
+| H | 4 | €1682.4m |
+| I | 4 | €2612.6m |
+| J | 4 | €1372.7m |
+| K | 4 | €1535.3m |
+| L | 4 | €2015.5m |
 
 ## Top 25 most valuable players
 
@@ -79,34 +79,34 @@ _Based on 48 teams with data._
 | 1 | Lamine Yamal | Spain | Barcelona | €200.0m |
 | 2 | Erling Haaland | Norway | Manchester City | €200.0m |
 | 3 | Kylian Mbappé | France | Real Madrid | €180.0m |
-| 4 | Jude Bellingham | England | Real Madrid | €180.0m |
-| 5 | Vinícius Júnior | Brazil | Real Madrid | €170.0m |
-| 6 | Florian Wirtz | Germany | Liverpool | €140.0m |
-| 7 | Pedri | Spain | Barcelona | €140.0m |
-| 8 | Bukayo Saka | England | Arsenal | €140.0m |
-| 9 | Jamal Musiala | Germany | Bayern Munich | €130.0m |
-| 10 | Alexander Isak | Sweden | Liverpool | €120.0m |
-| 11 | Federico Valverde | Uruguay | Real Madrid | €120.0m |
-| 12 | Declan Rice | England | Arsenal | €120.0m |
-| 13 | Moisés Caicedo | Ecuador | Chelsea | €110.0m |
-| 14 | Rodri | Spain | Manchester City | €110.0m |
-| 15 | Raphinha | Brazil | Barcelona | €90.0m |
-| 16 | Viktor Gyokeres | Sweden | Arsenal | €90.0m |
-| 17 | Ousmane Dembélé | France | Paris Saint-Germain | €90.0m |
-| 18 | Michael Olise | France | Bayern Munich | €90.0m |
-| 19 | Désiré Doué | France | Paris Saint-Germain | €90.0m |
-| 20 | Lautaro Martínez | Argentina | Inter Milan | €90.0m |
-| 21 | Julián Álvarez | Argentina | Atlético Madrid | €90.0m |
-| 22 | Vitinha | Portugal | Paris Saint-Germain | €90.0m |
-| 23 | Harry Kane | England | Bayern Munich | €90.0m |
-| 24 | Ryan Gravenberch | Netherlands | Liverpool | €80.0m |
-| 25 | Pau Cubarsí | Spain | Barcelona | €80.0m |
+| 4 | Pedri | Spain | Barcelona | €150.0m |
+| 5 | Michael Olise | France | Bayern Munich | €150.0m |
+| 6 | Vinícius Júnior | Brazil | Real Madrid | €140.0m |
+| 7 | Vitinha | Portugal | Paris Saint-Germain | €140.0m |
+| 8 | João Neves | Portugal | Paris Saint-Germain | €140.0m |
+| 9 | Jude Bellingham | England | Real Madrid | €130.0m |
+| 10 | Désiré Doué | France | Paris Saint-Germain | €120.0m |
+| 11 | Declan Rice | England | Arsenal | €120.0m |
+| 12 | Bukayo Saka | England | Arsenal | €110.0m |
+| 13 | Florian Wirtz | Germany | Liverpool | €100.0m |
+| 14 | Jamal Musiala | Germany | Bayern Munich | €100.0m |
+| 15 | Moisés Caicedo | Ecuador | Chelsea | €100.0m |
+| 16 | William Saliba | France | Arsenal | €100.0m |
+| 17 | Ousmane Dembélé | France | Paris Saint-Germain | €100.0m |
+| 18 | Julián Álvarez | Argentina | Atlético Madrid | €100.0m |
+| 19 | Arda Güler | Türkiye | Real Madrid | €90.0m |
+| 20 | Aleksandar Pavlovic | Germany | Bayern Munich | €90.0m |
+| 21 | Yan Diomandé | Côte d'Ivoire | RB Leipzig | €90.0m |
+| 22 | Federico Valverde | Uruguay | Real Madrid | €90.0m |
+| 23 | Rayan Cherki | France | Manchester City | €90.0m |
+| 24 | Enzo Fernández | Argentina | Chelsea | €90.0m |
+| 25 | Morgan Rogers | England | Aston Villa | €90.0m |
 
 ## Summary
 
-- Total market value of all squads: **€17845.5m**
+- Total market value of all squads: **€17260.8m**
 - Players counted: **1248**
-- Average player value: **€14.3m**
+- Average player value: **€13.8m**
 
 ## Economy (GNP)
 

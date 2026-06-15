@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "Navbahor",
       "club_country": "Uzbekistan",
-      "age": 28,
-      "market_value_eur": 700000
+      "age": 35,
+      "market_value_eur": 500000
     },
     {
       "name": "Abduvohid Nematov",
@@ -32,8 +32,8 @@
       "position": "GK",
       "club": "Neftchi",
       "club_country": "Uzbekistan",
-      "age": 27,
-      "market_value_eur": 350000
+      "age": 30,
+      "market_value_eur": 500000
     },
     {
       "name": "Abdukodir Khusanov",
@@ -41,7 +41,7 @@
       "club": "Manchester City",
       "club_country": "England",
       "age": 22,
-      "market_value_eur": 40000000
+      "market_value_eur": 50000000
     },
     {
       "name": "Rustam Ashurmatov",
@@ -49,15 +49,15 @@
       "club": "Esteghlal",
       "club_country": "Iran",
       "age": 29,
-      "market_value_eur": 900000
+      "market_value_eur": 750000
     },
     {
       "name": "Farrukh Sayfiev",
       "position": "DF",
       "club": "Neftchi",
       "club_country": "Uzbekistan",
-      "age": 28,
-      "market_value_eur": 500000
+      "age": 35,
+      "market_value_eur": 225000
     },
     {
       "name": "Khojiakbar Alijonov",
@@ -73,30 +73,30 @@
       "club": "Nasaf",
       "club_country": "Uzbekistan",
       "age": 28,
-      "market_value_eur": 500000
+      "market_value_eur": 1200000
     },
     {
       "name": "Umar Eshmurodov",
       "position": "DF",
       "club": "Nasaf",
       "club_country": "Uzbekistan",
-      "age": 25,
-      "market_value_eur": 500000
+      "age": 33,
+      "market_value_eur": 450000
     },
     {
       "name": "Abdulla Abdullaev",
       "position": "DF",
       "club": "Dibba Al-Fujairah",
       "club_country": "United Arab Emirates",
-      "age": 26,
-      "market_value_eur": 400000
+      "age": 28,
+      "market_value_eur": 500000
     },
     {
       "name": "Bekhruz Karimov",
       "position": "DF",
       "club": "Surkhon",
       "club_country": "Uzbekistan",
-      "age": 25,
+      "age": 18,
       "market_value_eur": 350000
     },
     {
@@ -104,8 +104,8 @@
       "position": "DF",
       "club": "Dinamo Samarqand",
       "club_country": "Uzbekistan",
-      "age": 24,
-      "market_value_eur": 400000
+      "age": 22,
+      "market_value_eur": 600000
     },
     {
       "name": "Avazbek Ulmasaliev",
@@ -113,7 +113,7 @@
       "club": "AGMK",
       "club_country": "Uzbekistan",
       "age": 24,
-      "market_value_eur": 400000
+      "market_value_eur": 500000
     },
     {
       "name": "Otabek Shukurov",
@@ -121,7 +121,7 @@
       "club": "Bani Yas",
       "club_country": "United Arab Emirates",
       "age": 29,
-      "market_value_eur": 1000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Jaloliddin Masharipov",
@@ -129,7 +129,7 @@
       "club": "Esteghlal",
       "club_country": "Iran",
       "age": 32,
-      "market_value_eur": 800000
+      "market_value_eur": 1000000
     },
     {
       "name": "Odiljon Hamrobekov",
@@ -145,15 +145,15 @@
       "club": "Persepolis",
       "club_country": "Iran",
       "age": 25,
-      "market_value_eur": 1200000
+      "market_value_eur": 2000000
     },
     {
       "name": "Jamshid Iskanderov",
       "position": "MF",
       "club": "Neftchi",
       "club_country": "Uzbekistan",
-      "age": 31,
-      "market_value_eur": 500000
+      "age": 32,
+      "market_value_eur": 1000000
     },
     {
       "name": "Dostonbek Khamdamov",
@@ -161,7 +161,7 @@
       "club": "Pakhtakor",
       "club_country": "Uzbekistan",
       "age": 29,
-      "market_value_eur": 800000
+      "market_value_eur": 900000
     },
     {
       "name": "Abbosbek Fayzullaev",
@@ -169,15 +169,15 @@
       "club": "Istanbul Basaksehir",
       "club_country": "Turkey",
       "age": 22,
-      "market_value_eur": 6000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Akmal Mozgovoy",
       "position": "MF",
       "club": "Pakhtakor",
       "club_country": "Uzbekistan",
-      "age": 24,
-      "market_value_eur": 700000
+      "age": 27,
+      "market_value_eur": 1400000
     },
     {
       "name": "Azizjon Ganiev",
@@ -185,7 +185,7 @@
       "club": "Al Bataeh",
       "club_country": "United Arab Emirates",
       "age": 30,
-      "market_value_eur": 500000
+      "market_value_eur": 2000000
     },
     {
       "name": "Sherzod Esanov",
@@ -193,23 +193,23 @@
       "club": "Bukhara",
       "club_country": "Uzbekistan",
       "age": 25,
-      "market_value_eur": 500000
+      "market_value_eur": 450000
     },
     {
       "name": "Eldor Shomurodov",
       "position": "FW",
       "club": "Istanbul Basaksehir",
       "club_country": "Turkey",
-      "age": 31,
-      "market_value_eur": 6000000
+      "age": 30,
+      "market_value_eur": 7000000
     },
     {
       "name": "Igor Sergeev",
       "position": "FW",
       "club": "Persepolis",
       "club_country": "Iran",
-      "age": 32,
-      "market_value_eur": 600000
+      "age": 33,
+      "market_value_eur": 1200000
     },
     {
       "name": "Azizbek Amonov",

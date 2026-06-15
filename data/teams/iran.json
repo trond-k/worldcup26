@@ -17,7 +17,7 @@
       "club": "Tractor",
       "club_country": "Iran",
       "age": 33,
-      "market_value_eur": 600000
+      "market_value_eur": 650000
     },
     {
       "name": "Hossein Hosseini",
@@ -32,7 +32,7 @@
       "position": "GK",
       "club": "Persepolis",
       "club_country": "Iran",
-      "age": 30,
+      "age": 31,
       "market_value_eur": 700000
     },
     {
@@ -41,15 +41,15 @@
       "club": "Esteghlal",
       "club_country": "Iran",
       "age": 27,
-      "market_value_eur": 700000
+      "market_value_eur": 800000
     },
     {
       "name": "Ehsan Hajsafi",
       "position": "DF",
       "club": "Sepahan",
       "club_country": "Iran",
-      "age": 35,
-      "market_value_eur": 400000
+      "age": 36,
+      "market_value_eur": 250000
     },
     {
       "name": "Shojae Khalilzadeh",
@@ -65,47 +65,47 @@
       "club": "Persepolis",
       "club_country": "Iran",
       "age": 32,
-      "market_value_eur": 600000
+      "market_value_eur": 900000
     },
     {
       "name": "Hossein Kanaanizadegan",
       "position": "DF",
       "club": "Persepolis",
       "club_country": "Iran",
-      "age": 31,
-      "market_value_eur": 800000
+      "age": 32,
+      "market_value_eur": 1600000
     },
     {
       "name": "Aria Yousefi",
       "position": "DF",
       "club": "Sepahan",
       "club_country": "Iran",
-      "age": 22,
-      "market_value_eur": 700000
+      "age": 24,
+      "market_value_eur": 1500000
     },
     {
       "name": "Ali Nemati",
       "position": "DF",
       "club": "Foolad",
       "club_country": "Iran",
-      "age": 28,
-      "market_value_eur": 500000
+      "age": 30,
+      "market_value_eur": 550000
     },
     {
       "name": "Ramin Rezaeian",
       "position": "DF",
       "club": "Foolad",
       "club_country": "Iran",
-      "age": 35,
-      "market_value_eur": 400000
+      "age": 36,
+      "market_value_eur": 250000
     },
     {
       "name": "Danial Eiri",
       "position": "DF",
       "club": "Malavan",
       "club_country": "Iran",
-      "age": 24,
-      "market_value_eur": 500000
+      "age": 22,
+      "market_value_eur": 1000000
     },
     {
       "name": "Rouzbeh Cheshmi",
@@ -113,7 +113,7 @@
       "club": "Esteghlal",
       "club_country": "Iran",
       "age": 32,
-      "market_value_eur": 500000
+      "market_value_eur": 450000
     },
     {
       "name": "Saeid Ezatolahi",
@@ -129,15 +129,15 @@
       "club": "Al-Kalba",
       "club_country": "United Arab Emirates",
       "age": 32,
-      "market_value_eur": 1000000
+      "market_value_eur": 1200000
     },
     {
       "name": "Mohammad Ghorbani",
       "position": "MF",
       "club": "Al-Wahda",
       "club_country": "United Arab Emirates",
-      "age": 26,
-      "market_value_eur": 1500000
+      "age": 25,
+      "market_value_eur": 1200000
     },
     {
       "name": "Alireza Jahanbakhsh",
@@ -145,7 +145,7 @@
       "club": "Dender",
       "club_country": "Belgium",
       "age": 32,
-      "market_value_eur": 1500000
+      "market_value_eur": 500000
     },
     {
       "name": "Mohammad Mohebi",
@@ -160,8 +160,8 @@
       "position": "MF",
       "club": "Esteghlal",
       "club_country": "Iran",
-      "age": 23,
-      "market_value_eur": 900000
+      "age": 20,
+      "market_value_eur": 1200000
     },
     {
       "name": "Mehdi Torabi",
@@ -169,7 +169,7 @@
       "club": "Tractor",
       "club_country": "Iran",
       "age": 31,
-      "market_value_eur": 600000
+      "market_value_eur": 1200000
     },
     {
       "name": "Ali Alipour",
@@ -177,15 +177,15 @@
       "club": "Persepolis",
       "club_country": "Iran",
       "age": 30,
-      "market_value_eur": 700000
+      "market_value_eur": 1700000
     },
     {
       "name": "Dennis Dargahi",
       "position": "FW",
       "club": "Standard Liege",
       "club_country": "Belgium",
-      "age": 20,
-      "market_value_eur": 1500000
+      "age": 29,
+      "market_value_eur": 2000000
     },
     {
       "name": "Amirhossein Hosseinzadeh",
@@ -193,7 +193,7 @@
       "club": "Tractor",
       "club_country": "Iran",
       "age": 25,
-      "market_value_eur": 1200000
+      "market_value_eur": 2200000
     },
     {
       "name": "Mehdi Taremi",
@@ -201,7 +201,7 @@
       "club": "Olympiacos",
       "club_country": "Greece",
       "age": 33,
-      "market_value_eur": 8000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Shahriyar Moghanlou",
@@ -217,7 +217,7 @@
       "club": "Al-Nasr",
       "club_country": "United Arab Emirates",
       "age": 27,
-      "market_value_eur": 2000000
+      "market_value_eur": 4500000
     }
   ]
 }

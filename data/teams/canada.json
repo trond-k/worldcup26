@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "Inter Miami",
       "club_country": "United States",
-      "age": 28,
-      "market_value_eur": 7000000
+      "age": 29,
+      "market_value_eur": 3500000
     },
     {
       "name": "Maxime Crépeau",
@@ -25,7 +25,7 @@
       "club": "Orlando City",
       "club_country": "United States",
       "age": 32,
-      "market_value_eur": 2000000
+      "market_value_eur": 1800000
     },
     {
       "name": "Owen Goodman",
@@ -33,7 +33,7 @@
       "club": "Crystal Palace",
       "club_country": "England",
       "age": 22,
-      "market_value_eur": 2000000
+      "market_value_eur": 550000
     },
     {
       "name": "Alphonso Davies",
@@ -41,7 +41,7 @@
       "club": "Bayern Munich",
       "club_country": "Germany",
       "age": 25,
-      "market_value_eur": 55000000
+      "market_value_eur": 40000000
     },
     {
       "name": "Alistair Johnston",
@@ -49,7 +49,7 @@
       "club": "Celtic",
       "club_country": "Scotland",
       "age": 27,
-      "market_value_eur": 15000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Moïse Bombito",
@@ -57,7 +57,7 @@
       "club": "OGC Nice",
       "club_country": "France",
       "age": 26,
-      "market_value_eur": 18000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Derek Cornelius",
@@ -65,14 +65,14 @@
       "club": "Olympique de Marseille",
       "club_country": "France",
       "age": 28,
-      "market_value_eur": 7000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Joel Waterman",
       "position": "DF",
       "club": "Chicago Fire",
       "club_country": "United States",
-      "age": 29,
+      "age": 30,
       "market_value_eur": 2000000
     },
     {
@@ -80,8 +80,8 @@
       "position": "DF",
       "club": "Hajduk Split",
       "club_country": "Croatia",
-      "age": 23,
-      "market_value_eur": 5000000
+      "age": 22,
+      "market_value_eur": 4000000
     },
     {
       "name": "Alfie Jones",
@@ -89,7 +89,7 @@
       "club": "Middlesbrough",
       "club_country": "England",
       "age": 28,
-      "market_value_eur": 5000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Richie Laryea",
@@ -97,7 +97,7 @@
       "club": "Toronto FC",
       "club_country": "Canada",
       "age": 31,
-      "market_value_eur": 2000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Luc de Fougerolles",
@@ -105,7 +105,7 @@
       "club": "Fulham",
       "club_country": "England",
       "age": 20,
-      "market_value_eur": 3000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Stephen Eustáquio",
@@ -113,7 +113,7 @@
       "club": "FC Porto",
       "club_country": "Portugal",
       "age": 29,
-      "market_value_eur": 18000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Ismaël Koné",
@@ -121,7 +121,7 @@
       "club": "Sassuolo",
       "club_country": "Italy",
       "age": 23,
-      "market_value_eur": 10000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Tajon Buchanan",
@@ -137,15 +137,15 @@
       "club": "Los Angeles FC",
       "club_country": "United States",
       "age": 27,
-      "market_value_eur": 4000000
+      "market_value_eur": 800000
     },
     {
       "name": "Jonathan Osorio",
       "position": "MF",
       "club": "Toronto FC",
       "club_country": "Canada",
-      "age": 33,
-      "market_value_eur": 2000000
+      "age": 34,
+      "market_value_eur": 1000000
     },
     {
       "name": "Liam Millar",
@@ -153,7 +153,7 @@
       "club": "Hull City",
       "club_country": "England",
       "age": 26,
-      "market_value_eur": 6000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Jacob Shaffelburg",
@@ -161,7 +161,7 @@
       "club": "Los Angeles FC",
       "club_country": "United States",
       "age": 26,
-      "market_value_eur": 5000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Nathan Saliba",
@@ -169,7 +169,7 @@
       "club": "Anderlecht",
       "club_country": "Belgium",
       "age": 22,
-      "market_value_eur": 5000000
+      "market_value_eur": 7500000
     },
     {
       "name": "Ali Ahmed",
@@ -177,7 +177,7 @@
       "club": "Norwich City",
       "club_country": "England",
       "age": 25,
-      "market_value_eur": 4000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Marcelo Flores",
@@ -185,7 +185,7 @@
       "club": "Tigres UANL",
       "club_country": "Mexico",
       "age": 22,
-      "market_value_eur": 4000000
+      "market_value_eur": 4500000
     },
     {
       "name": "Jonathan David",
@@ -193,7 +193,7 @@
       "club": "Juventus",
       "club_country": "Italy",
       "age": 26,
-      "market_value_eur": 45000000
+      "market_value_eur": 30000000
     },
     {
       "name": "Cyle Larin",
@@ -201,23 +201,23 @@
       "club": "RCD Mallorca",
       "club_country": "Spain",
       "age": 30,
-      "market_value_eur": 6000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Tani Oluwaseyi",
       "position": "FW",
       "club": "Villarreal",
       "club_country": "Spain",
-      "age": 25,
-      "market_value_eur": 8000000
+      "age": 26,
+      "market_value_eur": 7000000
     },
     {
       "name": "Promise David",
       "position": "FW",
       "club": "Union Saint-Gilloise",
       "club_country": "Belgium",
-      "age": 25,
-      "market_value_eur": 12000000
+      "age": 24,
+      "market_value_eur": 17000000
     }
   ]
 }

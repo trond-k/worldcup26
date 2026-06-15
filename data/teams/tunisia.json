@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "CS Sfaxien",
       "club_country": "Tunisia",
-      "age": 28,
-      "market_value_eur": 2000000
+      "age": 29,
+      "market_value_eur": 800000
     },
     {
       "name": "Bechir Ben Said",
@@ -25,7 +25,7 @@
       "club": "US Monastir",
       "club_country": "Tunisia",
       "age": 31,
-      "market_value_eur": 800000
+      "market_value_eur": 600000
     },
     {
       "name": "Noureddine Farhati",
@@ -41,7 +41,7 @@
       "club": "Al-Ittifaq",
       "club_country": "Saudi Arabia",
       "age": 27,
-      "market_value_eur": 7000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Dylan Bronn",
@@ -49,7 +49,7 @@
       "club": "Servette",
       "club_country": "Switzerland",
       "age": 30,
-      "market_value_eur": 2500000
+      "market_value_eur": 600000
     },
     {
       "name": "Ali Abdi",
@@ -57,7 +57,7 @@
       "club": "OGC Nice",
       "club_country": "France",
       "age": 32,
-      "market_value_eur": 6000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Ali Maaloul",
@@ -65,7 +65,7 @@
       "club": "Al Ahly",
       "club_country": "Egypt",
       "age": 35,
-      "market_value_eur": 1500000
+      "market_value_eur": 175000
     },
     {
       "name": "Omar Rekik",
@@ -73,7 +73,7 @@
       "club": "Sparta Rotterdam",
       "club_country": "Netherlands",
       "age": 24,
-      "market_value_eur": 3000000
+      "market_value_eur": 500000
     },
     {
       "name": "Alaa Ghram",
@@ -89,7 +89,7 @@
       "club": "Angers",
       "club_country": "France",
       "age": 27,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Mortadha Ben Ouanes",
@@ -97,7 +97,7 @@
       "club": "Yverdon-Sport",
       "club_country": "Switzerland",
       "age": 30,
-      "market_value_eur": 1200000
+      "market_value_eur": 1500000
     },
     {
       "name": "Ellyes Skhiri",
@@ -105,7 +105,7 @@
       "club": "Eintracht Frankfurt",
       "club_country": "Germany",
       "age": 31,
-      "market_value_eur": 12000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Aissa Laidouni",
@@ -113,7 +113,7 @@
       "club": "Wolfsburg",
       "club_country": "Germany",
       "age": 29,
-      "market_value_eur": 7000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Rani Khedira",
@@ -121,7 +121,7 @@
       "club": "Union Berlin",
       "club_country": "Germany",
       "age": 32,
-      "market_value_eur": 4000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Hannibal Mejbri",
@@ -129,7 +129,7 @@
       "club": "Burnley",
       "club_country": "England",
       "age": 23,
-      "market_value_eur": 10000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Elias Achouri",
@@ -137,7 +137,7 @@
       "club": "FC Copenhagen",
       "club_country": "Denmark",
       "age": 27,
-      "market_value_eur": 9000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Ferjani Sassi",
@@ -145,7 +145,7 @@
       "club": "Al-Duhail",
       "club_country": "Qatar",
       "age": 33,
-      "market_value_eur": 1500000
+      "market_value_eur": 900000
     },
     {
       "name": "Mohamed Ali Ben Romdhane",
@@ -153,7 +153,7 @@
       "club": "Ferencvaros",
       "club_country": "Hungary",
       "age": 26,
-      "market_value_eur": 5000000
+      "market_value_eur": 900000
     },
     {
       "name": "Rayan Elloumi",
@@ -161,7 +161,7 @@
       "club": "Paris FC",
       "club_country": "France",
       "age": 18,
-      "market_value_eur": 3000000
+      "market_value_eur": 800000
     },
     {
       "name": "Youssef Msakni",
@@ -169,7 +169,7 @@
       "club": "Al-Arabi",
       "club_country": "Qatar",
       "age": 35,
-      "market_value_eur": 1000000
+      "market_value_eur": 200000
     },
     {
       "name": "Naim Sliti",
@@ -177,15 +177,15 @@
       "club": "Al-Ettifaq",
       "club_country": "Saudi Arabia",
       "age": 33,
-      "market_value_eur": 2500000
+      "market_value_eur": 1500000
     },
     {
       "name": "Seifeddine Jaziri",
       "position": "FW",
       "club": "Zamalek",
       "club_country": "Egypt",
-      "age": 32,
-      "market_value_eur": 2000000
+      "age": 33,
+      "market_value_eur": 150000
     },
     {
       "name": "Elias Saad",
@@ -193,7 +193,7 @@
       "club": "FC St. Pauli",
       "club_country": "Germany",
       "age": 25,
-      "market_value_eur": 6000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Firas Chaouat",
@@ -201,7 +201,7 @@
       "club": "Esperance de Tunis",
       "club_country": "Tunisia",
       "age": 27,
-      "market_value_eur": 1800000
+      "market_value_eur": 1200000
     },
     {
       "name": "Hazem Mastouri",
@@ -209,7 +209,7 @@
       "club": "US Monastir",
       "club_country": "Tunisia",
       "age": 24,
-      "market_value_eur": 1500000
+      "market_value_eur": 900000
     },
     {
       "name": "Yan Gboho",

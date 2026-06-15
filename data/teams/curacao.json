@@ -17,7 +17,7 @@
       "club": "Miami FC",
       "club_country": "United States",
       "age": 37,
-      "market_value_eur": 300000
+      "market_value_eur": 150000
     },
     {
       "name": "Trevor Doornbusch",
@@ -25,7 +25,7 @@
       "club": "VVV-Venlo",
       "club_country": "Netherlands",
       "age": 26,
-      "market_value_eur": 500000
+      "market_value_eur": 50000
     },
     {
       "name": "Tyrick Bodak",
@@ -33,7 +33,7 @@
       "club": "Telstar",
       "club_country": "Netherlands",
       "age": 24,
-      "market_value_eur": 300000
+      "market_value_eur": 25000
     },
     {
       "name": "Shurandy Sambo",
@@ -41,7 +41,7 @@
       "club": "Sparta Rotterdam",
       "club_country": "Netherlands",
       "age": 24,
-      "market_value_eur": 2500000
+      "market_value_eur": 1300000
     },
     {
       "name": "Sherel Floranus",
@@ -49,14 +49,14 @@
       "club": "PEC Zwolle",
       "club_country": "Netherlands",
       "age": 27,
-      "market_value_eur": 1500000
+      "market_value_eur": 800000
     },
     {
       "name": "Deveron Fonville",
       "position": "DF",
       "club": "NEC Nijmegen",
       "club_country": "Netherlands",
-      "age": 26,
+      "age": 23,
       "market_value_eur": 1500000
     },
     {
@@ -73,7 +73,7 @@
       "club": "Kayserispor",
       "club_country": "Turkey",
       "age": 32,
-      "market_value_eur": 1500000
+      "market_value_eur": 1000000
     },
     {
       "name": "Riechedly Bazoer",
@@ -81,23 +81,23 @@
       "club": "Konyaspor",
       "club_country": "Turkey",
       "age": 29,
-      "market_value_eur": 2500000
+      "market_value_eur": 1500000
     },
     {
       "name": "Juriën Gaari",
       "position": "DF",
       "club": "Abha Club",
       "club_country": "Saudi Arabia",
-      "age": 28,
-      "market_value_eur": 1000000
+      "age": 32,
+      "market_value_eur": 350000
     },
     {
       "name": "Roshon van Eijma",
       "position": "DF",
       "club": "RKC Waalwijk",
       "club_country": "Netherlands",
-      "age": 26,
-      "market_value_eur": 800000
+      "age": 28,
+      "market_value_eur": 375000
     },
     {
       "name": "Leandro Bacuna",
@@ -105,7 +105,7 @@
       "club": "Iğdır FK",
       "club_country": "Turkey",
       "age": 34,
-      "market_value_eur": 500000
+      "market_value_eur": 250000
     },
     {
       "name": "Juninho Bacuna",
@@ -113,7 +113,7 @@
       "club": "FC Volendam",
       "club_country": "Netherlands",
       "age": 28,
-      "market_value_eur": 2000000
+      "market_value_eur": 1700000
     },
     {
       "name": "Livano Comenencia",
@@ -121,15 +121,15 @@
       "club": "FC Zürich",
       "club_country": "Switzerland",
       "age": 22,
-      "market_value_eur": 2500000
+      "market_value_eur": 500000
     },
     {
       "name": "Kevin Felida",
       "position": "MF",
       "club": "FC Den Bosch",
       "club_country": "Netherlands",
-      "age": 25,
-      "market_value_eur": 700000
+      "age": 26,
+      "market_value_eur": 400000
     },
     {
       "name": "Ar'jany Martha",
@@ -137,7 +137,7 @@
       "club": "Rotherham United",
       "club_country": "England",
       "age": 22,
-      "market_value_eur": 1000000
+      "market_value_eur": 700000
     },
     {
       "name": "Tyrese Noslin",
@@ -145,15 +145,15 @@
       "club": "Telstar",
       "club_country": "Netherlands",
       "age": 23,
-      "market_value_eur": 800000
+      "market_value_eur": 750000
     },
     {
       "name": "Godfried Roemeratoe",
       "position": "MF",
       "club": "RKC Waalwijk",
       "club_country": "Netherlands",
-      "age": 30,
-      "market_value_eur": 700000
+      "age": 26,
+      "market_value_eur": 350000
     },
     {
       "name": "Tahith Chong",
@@ -161,15 +161,15 @@
       "club": "Sheffield United",
       "club_country": "England",
       "age": 26,
-      "market_value_eur": 4000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Sontje Hansen",
       "position": "FW",
       "club": "Middlesbrough",
       "club_country": "England",
-      "age": 23,
-      "market_value_eur": 5000000
+      "age": 24,
+      "market_value_eur": 3500000
     },
     {
       "name": "Kenji Gorre",
@@ -177,7 +177,7 @@
       "club": "Maccabi Haifa",
       "club_country": "Israel",
       "age": 31,
-      "market_value_eur": 700000
+      "market_value_eur": 600000
     },
     {
       "name": "Jurgen Locadia",
@@ -185,23 +185,23 @@
       "club": "Miami FC",
       "club_country": "United States",
       "age": 32,
-      "market_value_eur": 700000
+      "market_value_eur": 200000
     },
     {
       "name": "Jearl Margaritha",
       "position": "FW",
       "club": "SK Beveren",
       "club_country": "Belgium",
-      "age": 29,
-      "market_value_eur": 800000
+      "age": 26,
+      "market_value_eur": 1000000
     },
     {
       "name": "Gervane Kastaneer",
       "position": "FW",
       "club": "Terengganu FC",
       "club_country": "Malaysia",
-      "age": 29,
-      "market_value_eur": 400000
+      "age": 30,
+      "market_value_eur": 225000
     },
     {
       "name": "Brandley Kuwas",
@@ -209,15 +209,15 @@
       "club": "FC Volendam",
       "club_country": "Netherlands",
       "age": 33,
-      "market_value_eur": 500000
+      "market_value_eur": 250000
     },
     {
       "name": "Jeremy Antonisse",
       "position": "FW",
       "club": "AE Kifisia",
       "club_country": "Greece",
-      "age": 23,
-      "market_value_eur": 700000
+      "age": 24,
+      "market_value_eur": 800000
     }
   ]
 }

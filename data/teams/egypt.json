@@ -17,7 +17,7 @@
       "club": "Al Ahly",
       "club_country": "Egypt",
       "age": 37,
-      "market_value_eur": 1000000
+      "market_value_eur": 500000
     },
     {
       "name": "Mostafa Shobeir",
@@ -41,15 +41,15 @@
       "club": "Al Ahly",
       "club_country": "Egypt",
       "age": 30,
-      "market_value_eur": 2000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Tarek Alaa",
       "position": "DF",
       "club": "ZED FC",
       "club_country": "Egypt",
-      "age": 28,
-      "market_value_eur": 1500000
+      "age": 24,
+      "market_value_eur": 250000
     },
     {
       "name": "Rami Rabia",
@@ -57,23 +57,23 @@
       "club": "Al Ain",
       "club_country": "United Arab Emirates",
       "age": 31,
-      "market_value_eur": 1500000
+      "market_value_eur": 600000
     },
     {
       "name": "Yasser Ibrahim",
       "position": "DF",
       "club": "Al Ahly",
       "club_country": "Egypt",
-      "age": 31,
-      "market_value_eur": 2500000
+      "age": 33,
+      "market_value_eur": 275000
     },
     {
       "name": "Hossam Abdelmaguid",
       "position": "DF",
       "club": "Zamalek",
       "club_country": "Egypt",
-      "age": 28,
-      "market_value_eur": 1800000
+      "age": 25,
+      "market_value_eur": 2000000
     },
     {
       "name": "Mohamed Abdelmonem",
@@ -81,7 +81,7 @@
       "club": "Nice",
       "club_country": "France",
       "age": 27,
-      "market_value_eur": 8000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Ahmed Fattouh",
@@ -96,8 +96,8 @@
       "position": "DF",
       "club": "Pyramids FC",
       "club_country": "Egypt",
-      "age": 29,
-      "market_value_eur": 1500000
+      "age": 30,
+      "market_value_eur": 700000
     },
     {
       "name": "Ahmed Hegazi",
@@ -105,7 +105,7 @@
       "club": "Al Ittihad",
       "club_country": "Saudi Arabia",
       "age": 35,
-      "market_value_eur": 1000000
+      "market_value_eur": 900000
     },
     {
       "name": "Marwan Attia",
@@ -120,24 +120,24 @@
       "position": "MF",
       "club": "Pyramids FC",
       "club_country": "Egypt",
-      "age": 26,
-      "market_value_eur": 2500000
+      "age": 30,
+      "market_value_eur": 3000000
     },
     {
       "name": "Nabil Emad",
       "position": "MF",
       "club": "Al-Najma",
       "club_country": "Saudi Arabia",
-      "age": 22,
-      "market_value_eur": 1500000
+      "age": 30,
+      "market_value_eur": 1000000
     },
     {
       "name": "Mahmoud Saber",
       "position": "MF",
       "club": "ZED FC",
       "club_country": "Egypt",
-      "age": 23,
-      "market_value_eur": 2000000
+      "age": 24,
+      "market_value_eur": 1500000
     },
     {
       "name": "Ahmed Sayed Zizo",
@@ -152,40 +152,40 @@
       "position": "MF",
       "club": "Al Ahly",
       "club_country": "Egypt",
-      "age": 27,
-      "market_value_eur": 6000000
+      "age": 28,
+      "market_value_eur": 4000000
     },
     {
       "name": "Mostafa Ziko",
       "position": "MF",
       "club": "Pyramids FC",
       "club_country": "Egypt",
-      "age": 24,
-      "market_value_eur": 2000000
+      "age": 29,
+      "market_value_eur": 1800000
     },
     {
       "name": "Ibrahim Adel",
       "position": "MF",
       "club": "FC Nordsjaelland",
       "club_country": "Denmark",
-      "age": 24,
-      "market_value_eur": 4000000
+      "age": 25,
+      "market_value_eur": 2500000
     },
     {
       "name": "Haitham Hassan",
       "position": "MF",
       "club": "Real Oviedo",
       "club_country": "Spain",
-      "age": 23,
-      "market_value_eur": 3000000
+      "age": 24,
+      "market_value_eur": 3500000
     },
     {
       "name": "Mohamed Salah",
       "position": "FW",
       "club": "Liverpool",
       "club_country": "England",
-      "age": 33,
-      "market_value_eur": 40000000
+      "age": 34,
+      "market_value_eur": 22000000
     },
     {
       "name": "Omar Marmoush",
@@ -193,7 +193,7 @@
       "club": "Manchester City",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 75000000
+      "market_value_eur": 50000000
     },
     {
       "name": "Mahmoud Trezeguet",
@@ -208,8 +208,8 @@
       "position": "FW",
       "club": "Enppi",
       "club_country": "Egypt",
-      "age": 24,
-      "market_value_eur": 1200000
+      "age": 23,
+      "market_value_eur": 250000
     },
     {
       "name": "Hamza Abdelkareem",

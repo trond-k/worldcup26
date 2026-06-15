@@ -16,7 +16,7 @@
       "position": "GK",
       "club": "Al-Hussein",
       "club_country": "Jordan",
-      "age": 31,
+      "age": 33,
       "market_value_eur": 300000
     },
     {
@@ -24,7 +24,7 @@
       "position": "GK",
       "club": "Al-Wehdat",
       "club_country": "Jordan",
-      "age": 28,
+      "age": 26,
       "market_value_eur": 250000
     },
     {
@@ -32,23 +32,23 @@
       "position": "GK",
       "club": "Al-Faisaly",
       "club_country": "Jordan",
-      "age": 29,
-      "market_value_eur": 200000
+      "age": 33,
+      "market_value_eur": 250000
     },
     {
       "name": "Yazan Al-Arab",
       "position": "DF",
       "club": "FC Seoul",
       "club_country": "South Korea",
-      "age": 28,
-      "market_value_eur": 700000
+      "age": 30,
+      "market_value_eur": 1000000
     },
     {
       "name": "Abdallah Nasib",
       "position": "DF",
       "club": "Al-Zawraa",
       "club_country": "Iraq",
-      "age": 27,
+      "age": 32,
       "market_value_eur": 400000
     },
     {
@@ -65,39 +65,39 @@
       "club": "Al-Hussein",
       "club_country": "Jordan",
       "age": 26,
-      "market_value_eur": 300000
+      "market_value_eur": 350000
     },
     {
       "name": "Mohammad Abualnadi",
       "position": "DF",
       "club": "Selangor",
       "club_country": "Malaysia",
-      "age": 27,
-      "market_value_eur": 500000
+      "age": 25,
+      "market_value_eur": 350000
     },
     {
       "name": "Saleem Obaid",
       "position": "DF",
       "club": "Al-Hussein",
       "club_country": "Jordan",
-      "age": 25,
-      "market_value_eur": 350000
+      "age": 34,
+      "market_value_eur": 100000
     },
     {
       "name": "Mohammad Abu Hasheesh",
       "position": "DF",
       "club": "Al-Karma",
       "club_country": "Jordan",
-      "age": 24,
-      "market_value_eur": 250000
+      "age": 31,
+      "market_value_eur": 400000
     },
     {
       "name": "Mohannad Abu Taha",
       "position": "DF",
       "club": "Al-Quwa Al-Jawiya",
       "club_country": "Iraq",
-      "age": 27,
-      "market_value_eur": 300000
+      "age": 23,
+      "market_value_eur": 550000
     },
     {
       "name": "Ehsan Haddad",
@@ -112,8 +112,8 @@
       "position": "DF",
       "club": "Al-Faisaly",
       "club_country": "Jordan",
-      "age": 26,
-      "market_value_eur": 250000
+      "age": 28,
+      "market_value_eur": 200000
     },
     {
       "name": "Nizar Al-Rashdan",
@@ -128,15 +128,15 @@
       "position": "MF",
       "club": "Al-Zawraa",
       "club_country": "Iraq",
-      "age": 27,
-      "market_value_eur": 400000
+      "age": 23,
+      "market_value_eur": 500000
     },
     {
       "name": "Noor Al-Rawabdeh",
       "position": "MF",
       "club": "Selangor",
       "club_country": "Malaysia",
-      "age": 25,
+      "age": 29,
       "market_value_eur": 500000
     },
     {
@@ -145,31 +145,31 @@
       "club": "Al-Karma",
       "club_country": "Jordan",
       "age": 26,
-      "market_value_eur": 300000
+      "market_value_eur": 500000
     },
     {
       "name": "Rajaei Ayed",
       "position": "MF",
       "club": "Al-Hussein",
       "club_country": "Jordan",
-      "age": 27,
-      "market_value_eur": 300000
+      "age": 32,
+      "market_value_eur": 325000
     },
     {
       "name": "Mohammad Al-Dawoud",
       "position": "MF",
       "club": "Al-Wehdat",
       "club_country": "Jordan",
-      "age": 25,
-      "market_value_eur": 350000
+      "age": 33,
+      "market_value_eur": 150000
     },
     {
       "name": "Mahmoud Al-Mardi",
       "position": "FW",
       "club": "Al-Hussein",
       "club_country": "Jordan",
-      "age": 26,
-      "market_value_eur": 400000
+      "age": 32,
+      "market_value_eur": 350000
     },
     {
       "name": "Odeh Al-Fakhouri",
@@ -192,7 +192,7 @@
       "position": "FW",
       "club": "Raja Casablanca",
       "club_country": "Morocco",
-      "age": 26,
+      "age": 28,
       "market_value_eur": 700000
     },
     {
@@ -200,8 +200,8 @@
       "position": "FW",
       "club": "Al-Shabab",
       "club_country": "Jordan",
-      "age": 27,
-      "market_value_eur": 400000
+      "age": 22,
+      "market_value_eur": 325000
     },
     {
       "name": "Ali Olwan",
@@ -209,15 +209,15 @@
       "club": "Al-Sailiya",
       "club_country": "Qatar",
       "age": 26,
-      "market_value_eur": 1200000
+      "market_value_eur": 800000
     },
     {
       "name": "Ibrahim Sabra",
       "position": "FW",
       "club": "Lokomotiva Zagreb",
       "club_country": "Croatia",
-      "age": 24,
-      "market_value_eur": 600000
+      "age": 20,
+      "market_value_eur": 500000
     }
   ]
 }

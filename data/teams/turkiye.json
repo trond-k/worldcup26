@@ -17,7 +17,7 @@
       "club": "Manchester United",
       "club_country": "England",
       "age": 28,
-      "market_value_eur": 9000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Mert Günok",
@@ -25,7 +25,7 @@
       "club": "Fenerbahçe",
       "club_country": "Türkiye",
       "age": 37,
-      "market_value_eur": 2000000
+      "market_value_eur": 500000
     },
     {
       "name": "Uğurcan Çakır",
@@ -33,7 +33,7 @@
       "club": "Galatasaray",
       "club_country": "Türkiye",
       "age": 30,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Merih Demiral",
@@ -41,7 +41,7 @@
       "club": "Al-Ahli",
       "club_country": "Saudi Arabia",
       "age": 28,
-      "market_value_eur": 15000000
+      "market_value_eur": 12000000
     },
     {
       "name": "Çağlar Söyüncü",
@@ -49,7 +49,7 @@
       "club": "Fenerbahçe",
       "club_country": "Türkiye",
       "age": 30,
-      "market_value_eur": 8000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Ozan Kabak",
@@ -57,7 +57,7 @@
       "club": "TSG Hoffenheim",
       "club_country": "Germany",
       "age": 26,
-      "market_value_eur": 14000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Abdülkerim Bardakcı",
@@ -65,7 +65,7 @@
       "club": "Galatasaray",
       "club_country": "Türkiye",
       "age": 31,
-      "market_value_eur": 7000000
+      "market_value_eur": 6500000
     },
     {
       "name": "Samet Akaydın",
@@ -73,7 +73,7 @@
       "club": "Çaykur Rizespor",
       "club_country": "Türkiye",
       "age": 32,
-      "market_value_eur": 3000000
+      "market_value_eur": 1200000
     },
     {
       "name": "Zeki Çelik",
@@ -81,7 +81,7 @@
       "club": "AS Roma",
       "club_country": "Italy",
       "age": 29,
-      "market_value_eur": 9000000
+      "market_value_eur": 14000000
     },
     {
       "name": "Mert Müldür",
@@ -89,7 +89,7 @@
       "club": "Fenerbahçe",
       "club_country": "Türkiye",
       "age": 27,
-      "market_value_eur": 8000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Ferdi Kadıoğlu",
@@ -97,7 +97,7 @@
       "club": "Brighton & Hove Albion",
       "club_country": "England",
       "age": 26,
-      "market_value_eur": 22000000
+      "market_value_eur": 35000000
     },
     {
       "name": "Eren Elmalı",
@@ -105,7 +105,7 @@
       "club": "Galatasaray",
       "club_country": "Türkiye",
       "age": 25,
-      "market_value_eur": 9000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Hakan Çalhanoğlu",
@@ -113,15 +113,15 @@
       "club": "Inter Milan",
       "club_country": "Italy",
       "age": 32,
-      "market_value_eur": 30000000
+      "market_value_eur": 16000000
     },
     {
       "name": "İsmail Yüksek",
       "position": "MF",
       "club": "Fenerbahçe",
       "club_country": "Türkiye",
-      "age": 26,
-      "market_value_eur": 14000000
+      "age": 27,
+      "market_value_eur": 15000000
     },
     {
       "name": "Kaan Ayhan",
@@ -129,7 +129,7 @@
       "club": "Galatasaray",
       "club_country": "Türkiye",
       "age": 31,
-      "market_value_eur": 4000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Orkun Kökçü",
@@ -137,7 +137,7 @@
       "club": "Beşiktaş",
       "club_country": "Türkiye",
       "age": 25,
-      "market_value_eur": 22000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Salih Özcan",
@@ -145,7 +145,7 @@
       "club": "Borussia Dortmund",
       "club_country": "Germany",
       "age": 28,
-      "market_value_eur": 10000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Arda Güler",
@@ -153,7 +153,7 @@
       "club": "Real Madrid",
       "club_country": "Spain",
       "age": 21,
-      "market_value_eur": 70000000
+      "market_value_eur": 90000000
     },
     {
       "name": "İrfan Can Kahveci",
@@ -161,7 +161,7 @@
       "club": "Kasımpaşa",
       "club_country": "Türkiye",
       "age": 30,
-      "market_value_eur": 5000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Kenan Yıldız",
@@ -177,7 +177,7 @@
       "club": "Fenerbahçe",
       "club_country": "Türkiye",
       "age": 27,
-      "market_value_eur": 25000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Barış Alper Yılmaz",
@@ -185,7 +185,7 @@
       "club": "Galatasaray",
       "club_country": "Türkiye",
       "age": 26,
-      "market_value_eur": 25000000
+      "market_value_eur": 30000000
     },
     {
       "name": "Yunus Akgün",
@@ -208,8 +208,8 @@
       "position": "FW",
       "club": "FC Porto",
       "club_country": "Portugal",
-      "age": 20,
-      "market_value_eur": 8000000
+      "age": 21,
+      "market_value_eur": 5000000
     },
     {
       "name": "Can Uzun",
@@ -217,7 +217,7 @@
       "club": "Eintracht Frankfurt",
       "club_country": "Germany",
       "age": 20,
-      "market_value_eur": 28000000
+      "market_value_eur": 45000000
     }
   ]
 }

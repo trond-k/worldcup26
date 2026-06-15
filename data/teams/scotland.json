@@ -17,7 +17,7 @@
       "club": "Nottingham Forest",
       "club_country": "England",
       "age": 30,
-      "market_value_eur": 7000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Craig Gordon",
@@ -25,7 +25,7 @@
       "club": "Heart of Midlothian",
       "club_country": "Scotland",
       "age": 43,
-      "market_value_eur": 300000
+      "market_value_eur": 50000
     },
     {
       "name": "Liam Kelly",
@@ -33,7 +33,7 @@
       "club": "Rangers",
       "club_country": "Scotland",
       "age": 30,
-      "market_value_eur": 1500000
+      "market_value_eur": 800000
     },
     {
       "name": "Aaron Hickey",
@@ -41,7 +41,7 @@
       "club": "Brentford",
       "club_country": "England",
       "age": 24,
-      "market_value_eur": 12000000
+      "market_value_eur": 16000000
     },
     {
       "name": "Andy Robertson",
@@ -49,7 +49,7 @@
       "club": "Liverpool",
       "club_country": "England",
       "age": 32,
-      "market_value_eur": 18000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Grant Hanley",
@@ -57,7 +57,7 @@
       "club": "Birmingham City",
       "club_country": "England",
       "age": 34,
-      "market_value_eur": 1000000
+      "market_value_eur": 200000
     },
     {
       "name": "Kieran Tierney",
@@ -65,7 +65,7 @@
       "club": "Celtic",
       "club_country": "Scotland",
       "age": 29,
-      "market_value_eur": 14000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Jack Hendry",
@@ -73,7 +73,7 @@
       "club": "Al-Ettifaq",
       "club_country": "Saudi Arabia",
       "age": 31,
-      "market_value_eur": 6000000
+      "market_value_eur": 2500000
     },
     {
       "name": "John Souttar",
@@ -81,7 +81,7 @@
       "club": "Rangers",
       "club_country": "Scotland",
       "age": 29,
-      "market_value_eur": 4000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Dominic Hyam",
@@ -89,7 +89,7 @@
       "club": "Blackburn Rovers",
       "club_country": "England",
       "age": 30,
-      "market_value_eur": 3000000
+      "market_value_eur": 2000000
     },
     {
       "name": "Nathan Patterson",
@@ -105,7 +105,7 @@
       "club": "Celtic",
       "club_country": "Scotland",
       "age": 27,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Scott McKenna",
@@ -113,7 +113,7 @@
       "club": "Las Palmas",
       "club_country": "Spain",
       "age": 29,
-      "market_value_eur": 3500000
+      "market_value_eur": 4000000
     },
     {
       "name": "Scott McTominay",
@@ -121,7 +121,7 @@
       "club": "Napoli",
       "club_country": "Italy",
       "age": 29,
-      "market_value_eur": 45000000
+      "market_value_eur": 40000000
     },
     {
       "name": "John McGinn",
@@ -129,15 +129,15 @@
       "club": "Aston Villa",
       "club_country": "England",
       "age": 31,
-      "market_value_eur": 18000000
+      "market_value_eur": 13000000
     },
     {
       "name": "Tyler Fletcher",
       "position": "MF",
       "club": "Manchester United",
       "club_country": "England",
-      "age": 18,
-      "market_value_eur": 5000000
+      "age": 19,
+      "market_value_eur": 1500000
     },
     {
       "name": "Ryan Christie",
@@ -161,7 +161,7 @@
       "club": "Bologna",
       "club_country": "Italy",
       "age": 26,
-      "market_value_eur": 22000000
+      "market_value_eur": 14000000
     },
     {
       "name": "Kenny McLean",
@@ -169,7 +169,7 @@
       "club": "Norwich City",
       "club_country": "England",
       "age": 34,
-      "market_value_eur": 2000000
+      "market_value_eur": 400000
     },
     {
       "name": "Findlay Curtis",
@@ -185,7 +185,7 @@
       "club": "Birmingham City",
       "club_country": "England",
       "age": 30,
-      "market_value_eur": 4000000
+      "market_value_eur": 800000
     },
     {
       "name": "Che Adams",
@@ -193,7 +193,7 @@
       "club": "Torino",
       "club_country": "Italy",
       "age": 29,
-      "market_value_eur": 8000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Ross Stewart",
@@ -201,7 +201,7 @@
       "club": "Southampton",
       "club_country": "England",
       "age": 29,
-      "market_value_eur": 5000000
+      "market_value_eur": 2500000
     },
     {
       "name": "George Hirst",
@@ -209,7 +209,7 @@
       "club": "Ipswich Town",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 5000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Lawrence Shankland",
@@ -217,7 +217,7 @@
       "club": "Heart of Midlothian",
       "club_country": "Scotland",
       "age": 30,
-      "market_value_eur": 4000000
+      "market_value_eur": 3000000
     }
   ]
 }

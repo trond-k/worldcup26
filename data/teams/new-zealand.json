@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "Millwall",
       "club_country": "England",
-      "age": 33,
-      "market_value_eur": 800000
+      "age": 32,
+      "market_value_eur": 1000000
     },
     {
       "name": "Alex Paulsen",
@@ -25,7 +25,7 @@
       "club": "Lechia Gdansk",
       "club_country": "Poland",
       "age": 23,
-      "market_value_eur": 2000000
+      "market_value_eur": 500000
     },
     {
       "name": "Michael Woud",
@@ -41,7 +41,7 @@
       "club": "Nottingham Forest",
       "club_country": "England",
       "age": 21,
-      "market_value_eur": 8000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Michael Boxall",
@@ -49,7 +49,7 @@
       "club": "Minnesota United",
       "club_country": "United States",
       "age": 37,
-      "market_value_eur": 400000
+      "market_value_eur": 150000
     },
     {
       "name": "Liberato Cacace",
@@ -57,15 +57,15 @@
       "club": "Wrexham",
       "club_country": "Wales",
       "age": 25,
-      "market_value_eur": 6000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Francis De Vries",
       "position": "DF",
       "club": "Auckland FC",
       "club_country": "New Zealand",
-      "age": 33,
-      "market_value_eur": 300000
+      "age": 31,
+      "market_value_eur": 600000
     },
     {
       "name": "Callan Elliot",
@@ -73,23 +73,23 @@
       "club": "Auckland FC",
       "club_country": "New Zealand",
       "age": 26,
-      "market_value_eur": 350000
+      "market_value_eur": 450000
     },
     {
       "name": "Tim Payne",
       "position": "DF",
       "club": "Wellington Phoenix",
       "club_country": "New Zealand",
-      "age": 31,
-      "market_value_eur": 300000
+      "age": 32,
+      "market_value_eur": 350000
     },
     {
       "name": "Nando Pijnaker",
       "position": "DF",
       "club": "Auckland FC",
       "club_country": "New Zealand",
-      "age": 26,
-      "market_value_eur": 600000
+      "age": 27,
+      "market_value_eur": 400000
     },
     {
       "name": "Tommy Smith",
@@ -97,7 +97,7 @@
       "club": "Braintree Town",
       "club_country": "England",
       "age": 36,
-      "market_value_eur": 150000
+      "market_value_eur": 50000
     },
     {
       "name": "Finn Surman",
@@ -105,15 +105,15 @@
       "club": "Portland Timbers",
       "club_country": "United States",
       "age": 22,
-      "market_value_eur": 1500000
+      "market_value_eur": 1800000
     },
     {
       "name": "Joe Bell",
       "position": "MF",
       "club": "Viking",
       "club_country": "Norway",
-      "age": 26,
-      "market_value_eur": 2000000
+      "age": 27,
+      "market_value_eur": 3500000
     },
     {
       "name": "Matt Garbett",
@@ -121,7 +121,7 @@
       "club": "Peterborough United",
       "club_country": "England",
       "age": 24,
-      "market_value_eur": 1500000
+      "market_value_eur": 450000
     },
     {
       "name": "Marko Stamenic",
@@ -137,15 +137,15 @@
       "club": "Wellington Phoenix",
       "club_country": "New Zealand",
       "age": 27,
-      "market_value_eur": 700000
+      "market_value_eur": 500000
     },
     {
       "name": "Alex Rufer",
       "position": "MF",
       "club": "Wellington Phoenix",
       "club_country": "New Zealand",
-      "age": 29,
-      "market_value_eur": 500000
+      "age": 30,
+      "market_value_eur": 600000
     },
     {
       "name": "Ryan Thomas",
@@ -153,7 +153,7 @@
       "club": "PEC Zwolle",
       "club_country": "Netherlands",
       "age": 31,
-      "market_value_eur": 800000
+      "market_value_eur": 650000
     },
     {
       "name": "Chris Wood",
@@ -161,7 +161,7 @@
       "club": "Nottingham Forest",
       "club_country": "England",
       "age": 34,
-      "market_value_eur": 12000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Eli Just",
@@ -177,15 +177,15 @@
       "club": "Western Sydney Wanderers",
       "club_country": "Australia",
       "age": 36,
-      "market_value_eur": 250000
+      "market_value_eur": 300000
     },
     {
       "name": "Ben Waine",
       "position": "FW",
       "club": "Port Vale",
       "club_country": "England",
-      "age": 24,
-      "market_value_eur": 700000
+      "age": 25,
+      "market_value_eur": 400000
     },
     {
       "name": "Ben Old",
@@ -193,31 +193,31 @@
       "club": "Saint-Etienne",
       "club_country": "France",
       "age": 23,
-      "market_value_eur": 2500000
+      "market_value_eur": 1800000
     },
     {
       "name": "Callum McCowatt",
       "position": "FW",
       "club": "Silkeborg IF",
       "club_country": "Denmark",
-      "age": 24,
-      "market_value_eur": 1200000
+      "age": 27,
+      "market_value_eur": 2500000
     },
     {
       "name": "Jesse Randall",
       "position": "FW",
       "club": "Auckland FC",
       "club_country": "New Zealand",
-      "age": 24,
-      "market_value_eur": 400000
+      "age": 23,
+      "market_value_eur": 900000
     },
     {
       "name": "Lachlan Bayliss",
       "position": "FW",
       "club": "Newcastle Jets",
       "club_country": "Australia",
-      "age": 22,
-      "market_value_eur": 300000
+      "age": 23,
+      "market_value_eur": 550000
     }
   ]
 }

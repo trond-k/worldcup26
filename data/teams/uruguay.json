@@ -17,7 +17,7 @@
       "club": "Internacional",
       "club_country": "Brazil",
       "age": 33,
-      "market_value_eur": 4000000
+      "market_value_eur": 1800000
     },
     {
       "name": "Fernando Muslera",
@@ -25,7 +25,7 @@
       "club": "Galatasaray",
       "club_country": "Turkey",
       "age": 39,
-      "market_value_eur": 1000000
+      "market_value_eur": 700000
     },
     {
       "name": "Santiago Mele",
@@ -33,7 +33,7 @@
       "club": "Junior",
       "club_country": "Colombia",
       "age": 28,
-      "market_value_eur": 2500000
+      "market_value_eur": 2000000
     },
     {
       "name": "Guillermo Varela",
@@ -41,7 +41,7 @@
       "club": "Flamengo",
       "club_country": "Brazil",
       "age": 33,
-      "market_value_eur": 4000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Ronald Araújo",
@@ -49,7 +49,7 @@
       "club": "Barcelona",
       "club_country": "Spain",
       "age": 27,
-      "market_value_eur": 55000000
+      "market_value_eur": 20000000
     },
     {
       "name": "José María Giménez",
@@ -57,7 +57,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 31,
-      "market_value_eur": 20000000
+      "market_value_eur": 9000000
     },
     {
       "name": "Santiago Bueno",
@@ -65,7 +65,7 @@
       "club": "Wolverhampton Wanderers",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 14000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Sebastián Cáceres",
@@ -73,7 +73,7 @@
       "club": "Club América",
       "club_country": "Mexico",
       "age": 26,
-      "market_value_eur": 9000000
+      "market_value_eur": 4500000
     },
     {
       "name": "Mathías Olivera",
@@ -81,15 +81,15 @@
       "club": "Napoli",
       "club_country": "Italy",
       "age": 28,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Joaquín Piquerez",
       "position": "DF",
       "club": "Palmeiras",
       "club_country": "Brazil",
-      "age": 28,
-      "market_value_eur": 18000000
+      "age": 27,
+      "market_value_eur": 12000000
     },
     {
       "name": "Matías Viña",
@@ -97,7 +97,7 @@
       "club": "Flamengo",
       "club_country": "Brazil",
       "age": 28,
-      "market_value_eur": 7000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Manuel Ugarte",
@@ -105,7 +105,7 @@
       "club": "Manchester United",
       "club_country": "England",
       "age": 25,
-      "market_value_eur": 35000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Emiliano Martínez",
@@ -113,7 +113,7 @@
       "club": "Palmeiras",
       "club_country": "Brazil",
       "age": 26,
-      "market_value_eur": 12000000
+      "market_value_eur": 6500000
     },
     {
       "name": "Rodrigo Bentancur",
@@ -121,7 +121,7 @@
       "club": "Tottenham Hotspur",
       "club_country": "England",
       "age": 28,
-      "market_value_eur": 30000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Federico Valverde",
@@ -129,7 +129,7 @@
       "club": "Real Madrid",
       "club_country": "Spain",
       "age": 27,
-      "market_value_eur": 120000000
+      "market_value_eur": 90000000
     },
     {
       "name": "Agustín Canobbio",
@@ -144,16 +144,16 @@
       "position": "MF",
       "club": "Flamengo",
       "club_country": "Brazil",
-      "age": 31,
-      "market_value_eur": 18000000
+      "age": 32,
+      "market_value_eur": 14000000
     },
     {
       "name": "Nicolás de la Cruz",
       "position": "MF",
       "club": "Flamengo",
       "club_country": "Brazil",
-      "age": 28,
-      "market_value_eur": 16000000
+      "age": 29,
+      "market_value_eur": 8000000
     },
     {
       "name": "Rodrigo Zalazar",
@@ -161,7 +161,7 @@
       "club": "Braga",
       "club_country": "Portugal",
       "age": 26,
-      "market_value_eur": 10000000
+      "market_value_eur": 30000000
     },
     {
       "name": "Facundo Pellistri",
@@ -169,23 +169,23 @@
       "club": "Panathinaikos",
       "club_country": "Greece",
       "age": 24,
-      "market_value_eur": 8000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Maximiliano Araújo",
       "position": "MF",
       "club": "Sporting CP",
       "club_country": "Portugal",
-      "age": 25,
-      "market_value_eur": 14000000
+      "age": 26,
+      "market_value_eur": 35000000
     },
     {
       "name": "Brian Rodríguez",
       "position": "MF",
       "club": "Club América",
       "club_country": "Mexico",
-      "age": 25,
-      "market_value_eur": 12000000
+      "age": 26,
+      "market_value_eur": 8000000
     },
     {
       "name": "Rodrigo Aguirre",
@@ -193,7 +193,7 @@
       "club": "Club América",
       "club_country": "Mexico",
       "age": 31,
-      "market_value_eur": 6000000
+      "market_value_eur": 2300000
     },
     {
       "name": "Federico Viñas",
@@ -209,7 +209,7 @@
       "club": "Al-Hilal",
       "club_country": "Saudi Arabia",
       "age": 26,
-      "market_value_eur": 55000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Cristian Olivera",
@@ -217,7 +217,7 @@
       "club": "Los Angeles FC",
       "club_country": "United States",
       "age": 24,
-      "market_value_eur": 7000000
+      "market_value_eur": 5000000
     }
   ]
 }

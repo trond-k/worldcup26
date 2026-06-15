@@ -17,7 +17,7 @@
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
       "age": 34,
-      "market_value_eur": 900000
+      "market_value_eur": 800000
     },
     {
       "name": "Sipho Chaine",
@@ -25,7 +25,7 @@
       "club": "Orlando Pirates",
       "club_country": "South Africa",
       "age": 29,
-      "market_value_eur": 500000
+      "market_value_eur": 1600000
     },
     {
       "name": "Ricardo Goss",
@@ -57,7 +57,7 @@
       "club": "Hannover 96",
       "club_country": "Germany",
       "age": 22,
-      "market_value_eur": 1900000
+      "market_value_eur": 2000000
     },
     {
       "name": "Khulumani Ndamane",
@@ -65,7 +65,7 @@
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
       "age": 22,
-      "market_value_eur": 800000
+      "market_value_eur": 1200000
     },
     {
       "name": "Aubrey Modiba",
@@ -73,7 +73,7 @@
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
       "age": 30,
-      "market_value_eur": 1000000
+      "market_value_eur": 1800000
     },
     {
       "name": "Samukele Kabini",
@@ -81,7 +81,7 @@
       "club": "Molde FK",
       "club_country": "Norway",
       "age": 22,
-      "market_value_eur": 2000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Thabang Matuludi",
@@ -89,7 +89,7 @@
       "club": "Polokwane City",
       "club_country": "South Africa",
       "age": 27,
-      "market_value_eur": 900000
+      "market_value_eur": 1200000
     },
     {
       "name": "Olwethu Makhanya",
@@ -105,7 +105,7 @@
       "club": "Orlando Pirates",
       "club_country": "South Africa",
       "age": 23,
-      "market_value_eur": 850000
+      "market_value_eur": 1200000
     },
     {
       "name": "Bradley Cross",
@@ -113,7 +113,7 @@
       "club": "Kaizer Chiefs",
       "club_country": "South Africa",
       "age": 25,
-      "market_value_eur": 600000
+      "market_value_eur": 1000000
     },
     {
       "name": "Mbekezeli Mbokazi",
@@ -121,7 +121,7 @@
       "club": "Chicago Fire",
       "club_country": "United States",
       "age": 20,
-      "market_value_eur": 2000000
+      "market_value_eur": 3500000
     },
     {
       "name": "Teboho Mokoena",
@@ -129,14 +129,14 @@
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
       "age": 29,
-      "market_value_eur": 2500000
+      "market_value_eur": 2800000
     },
     {
       "name": "Thalente Mbatha",
       "position": "MF",
       "club": "Orlando Pirates",
       "club_country": "South Africa",
-      "age": 25,
+      "age": 26,
       "market_value_eur": 2000000
     },
     {
@@ -152,7 +152,7 @@
       "position": "MF",
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
-      "age": 24,
+      "age": 25,
       "market_value_eur": 1800000
     },
     {
@@ -161,7 +161,7 @@
       "club": "Orlando Pirates",
       "club_country": "South Africa",
       "age": 24,
-      "market_value_eur": 2000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Iqraam Rayners",
@@ -177,7 +177,7 @@
       "club": "Orlando Pirates",
       "club_country": "South Africa",
       "age": 25,
-      "market_value_eur": 1000000
+      "market_value_eur": 1400000
     },
     {
       "name": "Relebohile Mofokeng",
@@ -185,7 +185,7 @@
       "club": "Orlando Pirates",
       "club_country": "South Africa",
       "age": 21,
-      "market_value_eur": 2000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Evidence Makgopa",
@@ -201,7 +201,7 @@
       "club": "Mamelodi Sundowns",
       "club_country": "South Africa",
       "age": 36,
-      "market_value_eur": 400000
+      "market_value_eur": 250000
     },
     {
       "name": "Lyle Foster",

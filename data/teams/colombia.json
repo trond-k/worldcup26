@@ -17,7 +17,7 @@
       "club": "Atlas",
       "club_country": "Mexico",
       "age": 37,
-      "market_value_eur": 1500000
+      "market_value_eur": 450000
     },
     {
       "name": "David Ospina",
@@ -25,23 +25,23 @@
       "club": "Atlético Nacional",
       "club_country": "Colombia",
       "age": 37,
-      "market_value_eur": 600000
+      "market_value_eur": 100000
     },
     {
       "name": "Álvaro Montero",
       "position": "GK",
       "club": "Vélez Sarsfield",
       "club_country": "Argentina",
-      "age": 30,
-      "market_value_eur": 3000000
+      "age": 31,
+      "market_value_eur": 2500000
     },
     {
       "name": "Daniel Muñoz",
       "position": "DF",
       "club": "Crystal Palace",
       "club_country": "England",
-      "age": 29,
-      "market_value_eur": 30000000
+      "age": 30,
+      "market_value_eur": 22000000
     },
     {
       "name": "Santiago Arias",
@@ -49,15 +49,15 @@
       "club": "EC Bahia",
       "club_country": "Brazil",
       "age": 34,
-      "market_value_eur": 1500000
+      "market_value_eur": 1200000
     },
     {
       "name": "Davinson Sánchez",
       "position": "DF",
       "club": "Galatasaray",
       "club_country": "Turkey",
-      "age": 29,
-      "market_value_eur": 18000000
+      "age": 30,
+      "market_value_eur": 16000000
     },
     {
       "name": "Jhon Lucumí",
@@ -65,7 +65,7 @@
       "club": "Bologna",
       "club_country": "Italy",
       "age": 27,
-      "market_value_eur": 28000000
+      "market_value_eur": 22000000
     },
     {
       "name": "Yerry Mina",
@@ -73,7 +73,7 @@
       "club": "Cagliari",
       "club_country": "Italy",
       "age": 31,
-      "market_value_eur": 4000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Willer Ditta",
@@ -81,7 +81,7 @@
       "club": "Cruz Azul",
       "club_country": "Mexico",
       "age": 28,
-      "market_value_eur": 5000000
+      "market_value_eur": 5500000
     },
     {
       "name": "Deiver Machado",
@@ -89,7 +89,7 @@
       "club": "FC Nantes",
       "club_country": "France",
       "age": 32,
-      "market_value_eur": 4000000
+      "market_value_eur": 1800000
     },
     {
       "name": "Johan Mojica",
@@ -97,7 +97,7 @@
       "club": "RCD Mallorca",
       "club_country": "Spain",
       "age": 33,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Gustavo Puerta",
@@ -105,7 +105,7 @@
       "club": "Racing Club",
       "club_country": "Argentina",
       "age": 22,
-      "market_value_eur": 6000000
+      "market_value_eur": 10000000
     },
     {
       "name": "James Rodríguez",
@@ -113,7 +113,7 @@
       "club": "Minnesota United",
       "club_country": "United States",
       "age": 34,
-      "market_value_eur": 4000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Jefferson Lerma",
@@ -121,7 +121,7 @@
       "club": "Crystal Palace",
       "club_country": "England",
       "age": 31,
-      "market_value_eur": 14000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Jhon Arias",
@@ -129,7 +129,7 @@
       "club": "Wolverhampton Wanderers",
       "club_country": "England",
       "age": 28,
-      "market_value_eur": 22000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Jorge Carrascal",
@@ -137,7 +137,7 @@
       "club": "Dynamo Moscow",
       "club_country": "Russia",
       "age": 28,
-      "market_value_eur": 12000000
+      "market_value_eur": 13000000
     },
     {
       "name": "Juan Fernando Quintero",
@@ -145,15 +145,15 @@
       "club": "Racing Club",
       "club_country": "Argentina",
       "age": 33,
-      "market_value_eur": 4000000
+      "market_value_eur": 1800000
     },
     {
       "name": "Richard Ríos",
       "position": "MF",
       "club": "Benfica",
       "club_country": "Portugal",
-      "age": 25,
-      "market_value_eur": 30000000
+      "age": 26,
+      "market_value_eur": 25000000
     },
     {
       "name": "Kevin Castaño",
@@ -161,15 +161,15 @@
       "club": "Krasnodar",
       "club_country": "Russia",
       "age": 25,
-      "market_value_eur": 10000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Jaminton Campaz",
       "position": "MF",
       "club": "Rosario Central",
       "club_country": "Argentina",
-      "age": 25,
-      "market_value_eur": 5000000
+      "age": 26,
+      "market_value_eur": 5500000
     },
     {
       "name": "Juan Portilla",
@@ -177,7 +177,7 @@
       "club": "Talleres",
       "club_country": "Argentina",
       "age": 27,
-      "market_value_eur": 3500000
+      "market_value_eur": 5000000
     },
     {
       "name": "Luis Díaz",
@@ -185,7 +185,7 @@
       "club": "Bayern Munich",
       "club_country": "Germany",
       "age": 29,
-      "market_value_eur": 75000000
+      "market_value_eur": 70000000
     },
     {
       "name": "Luis Suárez",
@@ -200,8 +200,8 @@
       "position": "FW",
       "club": "Krasnodar",
       "club_country": "Russia",
-      "age": 32,
-      "market_value_eur": 8000000
+      "age": 33,
+      "market_value_eur": 10000000
     },
     {
       "name": "Carlos Gómez",
@@ -209,7 +209,7 @@
       "club": "Internacional",
       "club_country": "Brazil",
       "age": 22,
-      "market_value_eur": 8000000
+      "market_value_eur": 11000000
     },
     {
       "name": "Juan Camilo Hernández",
@@ -217,7 +217,7 @@
       "club": "Columbus Crew",
       "club_country": "United States",
       "age": 26,
-      "market_value_eur": 9000000
+      "market_value_eur": 18000000
     }
   ]
 }

@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "GD Chaves",
       "club_country": "Portugal",
-      "age": 39,
-      "market_value_eur": 500000
+      "age": 40,
+      "market_value_eur": 50000
     },
     {
       "name": "Márcio Rosa",
@@ -25,7 +25,7 @@
       "club": "Rio Ave",
       "club_country": "Portugal",
       "age": 30,
-      "market_value_eur": 600000
+      "market_value_eur": 350000
     },
     {
       "name": "CJ dos Santos",
@@ -41,30 +41,30 @@
       "club": "Columbus Crew",
       "club_country": "United States",
       "age": 31,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Wágner Pina",
       "position": "DF",
       "club": "Trabzonspor",
       "club_country": "Turkey",
-      "age": 25,
-      "market_value_eur": 2500000
+      "age": 23,
+      "market_value_eur": 11000000
     },
     {
       "name": "João Paulo Fernandes",
       "position": "DF",
       "club": "FCSB",
       "club_country": "Romania",
-      "age": 29,
-      "market_value_eur": 2000000
+      "age": 28,
+      "market_value_eur": 900000
     },
     {
       "name": "Sidny Lopes Cabral",
       "position": "DF",
       "club": "Benfica",
       "club_country": "Portugal",
-      "age": 22,
+      "age": 23,
       "market_value_eur": 4000000
     },
     {
@@ -73,7 +73,7 @@
       "club": "Villarreal",
       "club_country": "Spain",
       "age": 25,
-      "market_value_eur": 12000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Roberto Lopes",
@@ -81,31 +81,31 @@
       "club": "Shamrock Rovers",
       "club_country": "Ireland",
       "age": 33,
-      "market_value_eur": 500000
+      "market_value_eur": 250000
     },
     {
       "name": "Kelvin Pires",
       "position": "DF",
       "club": "SJK Seinäjoki",
       "club_country": "Finland",
-      "age": 24,
-      "market_value_eur": 700000
+      "age": 26,
+      "market_value_eur": 400000
     },
     {
       "name": "Stopira",
       "position": "DF",
       "club": "Torreense",
       "club_country": "Portugal",
-      "age": 37,
-      "market_value_eur": 300000
+      "age": 38,
+      "market_value_eur": 50000
     },
     {
       "name": "Diney Borges",
       "position": "DF",
       "club": "Al-Bataeh",
       "club_country": "United Arab Emirates",
-      "age": 28,
-      "market_value_eur": 800000
+      "age": 31,
+      "market_value_eur": 900000
     },
     {
       "name": "Jamiro Monteiro",
@@ -113,7 +113,7 @@
       "club": "PEC Zwolle",
       "club_country": "Netherlands",
       "age": 32,
-      "market_value_eur": 2000000
+      "market_value_eur": 650000
     },
     {
       "name": "Telmo Arcanjo",
@@ -121,39 +121,39 @@
       "club": "Vitória de Guimarães",
       "club_country": "Portugal",
       "age": 24,
-      "market_value_eur": 4000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Yannick Semedo",
       "position": "MF",
       "club": "Farense",
       "club_country": "Portugal",
-      "age": 24,
-      "market_value_eur": 2000000
+      "age": 30,
+      "market_value_eur": 250000
     },
     {
       "name": "Laros Duarte",
       "position": "MF",
       "club": "Puskás Akadémia",
       "club_country": "Hungary",
-      "age": 28,
-      "market_value_eur": 1500000
+      "age": 29,
+      "market_value_eur": 1000000
     },
     {
       "name": "Deroy Duarte",
       "position": "MF",
       "club": "Ludogorets Razgrad",
       "club_country": "Bulgaria",
-      "age": 27,
-      "market_value_eur": 2500000
+      "age": 26,
+      "market_value_eur": 1800000
     },
     {
       "name": "Kevin Pina",
       "position": "MF",
       "club": "Krasnodar",
       "club_country": "Russia",
-      "age": 26,
-      "market_value_eur": 3500000
+      "age": 29,
+      "market_value_eur": 5000000
     },
     {
       "name": "Ryan Mendes",
@@ -161,15 +161,15 @@
       "club": "Iğdır FK",
       "club_country": "Turkey",
       "age": 36,
-      "market_value_eur": 500000
+      "market_value_eur": 200000
     },
     {
       "name": "Willy Semedo",
       "position": "FW",
       "club": "Omonia",
       "club_country": "Cyprus",
-      "age": 33,
-      "market_value_eur": 700000
+      "age": 32,
+      "market_value_eur": 1000000
     },
     {
       "name": "Garry Rodrigues",
@@ -177,47 +177,47 @@
       "club": "Apollon Limassol",
       "club_country": "Cyprus",
       "age": 35,
-      "market_value_eur": 500000
+      "market_value_eur": 300000
     },
     {
       "name": "Jovane Cabral",
       "position": "FW",
       "club": "Estrela Amadora",
       "club_country": "Portugal",
-      "age": 27,
-      "market_value_eur": 2500000
+      "age": 28,
+      "market_value_eur": 1000000
     },
     {
       "name": "Nuno Da Costa",
       "position": "FW",
       "club": "İstanbul Başakşehir",
       "club_country": "Turkey",
-      "age": 34,
-      "market_value_eur": 1000000
+      "age": 35,
+      "market_value_eur": 400000
     },
     {
       "name": "Dailon Livramento",
       "position": "FW",
       "club": "Casa Pia",
       "club_country": "Portugal",
-      "age": 26,
-      "market_value_eur": 3000000
+      "age": 25,
+      "market_value_eur": 800000
     },
     {
       "name": "Gilson Benchimol",
       "position": "FW",
       "club": "Akron Tolyatti",
       "club_country": "Russia",
-      "age": 23,
-      "market_value_eur": 2000000
+      "age": 24,
+      "market_value_eur": 1200000
     },
     {
       "name": "Hélio Varela",
       "position": "FW",
       "club": "Maccabi Tel Aviv",
       "club_country": "Israel",
-      "age": 30,
-      "market_value_eur": 1500000
+      "age": 24,
+      "market_value_eur": 2500000
     }
   ]
 }

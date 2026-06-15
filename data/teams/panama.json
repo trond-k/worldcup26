@@ -17,15 +17,15 @@
       "club": "Al-Fayha",
       "club_country": "Saudi Arabia",
       "age": 31,
-      "market_value_eur": 1200000
+      "market_value_eur": 700000
     },
     {
       "name": "Luis Mejia",
       "position": "GK",
       "club": "Club Nacional",
       "club_country": "Uruguay",
-      "age": 34,
-      "market_value_eur": 500000
+      "age": 35,
+      "market_value_eur": 150000
     },
     {
       "name": "Cesar Samudio",
@@ -33,23 +33,23 @@
       "club": "CD Marathon",
       "club_country": "Honduras",
       "age": 32,
-      "market_value_eur": 400000
+      "market_value_eur": 250000
     },
     {
       "name": "Cesar Blackman",
       "position": "DF",
       "club": "Slovan Bratislava",
       "club_country": "Slovakia",
-      "age": 27,
-      "market_value_eur": 1500000
+      "age": 28,
+      "market_value_eur": 2500000
     },
     {
       "name": "Jorge Gutierrez",
       "position": "DF",
       "club": "Deportivo La Guaira",
       "club_country": "Venezuela",
-      "age": 26,
-      "market_value_eur": 600000
+      "age": 27,
+      "market_value_eur": 800000
     },
     {
       "name": "Amir Murillo",
@@ -57,15 +57,15 @@
       "club": "Besiktas",
       "club_country": "Turkey",
       "age": 30,
-      "market_value_eur": 3500000
+      "market_value_eur": 7000000
     },
     {
       "name": "Fidel Escobar",
       "position": "DF",
       "club": "Deportivo Saprissa",
       "club_country": "Costa Rica",
-      "age": 30,
-      "market_value_eur": 700000
+      "age": 31,
+      "market_value_eur": 350000
     },
     {
       "name": "Andres Andrade",
@@ -73,7 +73,7 @@
       "club": "LASK",
       "club_country": "Austria",
       "age": 27,
-      "market_value_eur": 2000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Edgardo Farina",
@@ -81,14 +81,14 @@
       "club": "Pari Nizhniy Novgorod",
       "club_country": "Russia",
       "age": 24,
-      "market_value_eur": 1000000
+      "market_value_eur": 900000
     },
     {
       "name": "Jose Cordoba",
       "position": "DF",
       "club": "Norwich City",
       "club_country": "England",
-      "age": 24,
+      "age": 25,
       "market_value_eur": 5000000
     },
     {
@@ -96,8 +96,8 @@
       "position": "DF",
       "club": "CD Plaza Amador",
       "club_country": "Panama",
-      "age": 34,
-      "market_value_eur": 300000
+      "age": 35,
+      "market_value_eur": 50000
     },
     {
       "name": "Jiovani Ramos",
@@ -113,7 +113,7 @@
       "club": "Turan Tovuz",
       "club_country": "Azerbaijan",
       "age": 32,
-      "market_value_eur": 400000
+      "market_value_eur": 175000
     },
     {
       "name": "Anibal Godoy",
@@ -121,7 +121,7 @@
       "club": "San Diego FC",
       "club_country": "United States",
       "age": 36,
-      "market_value_eur": 600000
+      "market_value_eur": 100000
     },
     {
       "name": "Adalberto Carrasquilla",
@@ -137,15 +137,15 @@
       "club": "Minnesota United",
       "club_country": "United States",
       "age": 26,
-      "market_value_eur": 3000000
+      "market_value_eur": 600000
     },
     {
       "name": "Cristian Martinez",
       "position": "MF",
       "club": "Ironi Kiryat Shmona",
       "club_country": "Israel",
-      "age": 30,
-      "market_value_eur": 700000
+      "age": 29,
+      "market_value_eur": 800000
     },
     {
       "name": "Jose Luis Rodriguez",
@@ -153,15 +153,15 @@
       "club": "FC Juarez",
       "club_country": "Mexico",
       "age": 27,
-      "market_value_eur": 1500000
+      "market_value_eur": 2500000
     },
     {
       "name": "Cesar Yanis",
       "position": "MF",
       "club": "CD Cobresal",
       "club_country": "Chile",
-      "age": 29,
-      "market_value_eur": 500000
+      "age": 30,
+      "market_value_eur": 400000
     },
     {
       "name": "Yoel Barcenas",
@@ -169,55 +169,55 @@
       "club": "Mazatlan",
       "club_country": "Mexico",
       "age": 32,
-      "market_value_eur": 1000000
+      "market_value_eur": 650000
     },
     {
       "name": "Alberto Quintero",
       "position": "MF",
       "club": "CD Plaza Amador",
       "club_country": "Panama",
-      "age": 37,
-      "market_value_eur": 200000
+      "age": 38,
+      "market_value_eur": 75000
     },
     {
       "name": "Azarias Londono",
       "position": "MF",
       "club": "Universidad Catolica",
       "club_country": "Chile",
-      "age": 27,
-      "market_value_eur": 800000
+      "age": 24,
+      "market_value_eur": 1000000
     },
     {
       "name": "Ismael Diaz",
       "position": "FW",
       "club": "Club Leon",
       "club_country": "Mexico",
-      "age": 28,
-      "market_value_eur": 3000000
+      "age": 29,
+      "market_value_eur": 1800000
     },
     {
       "name": "Cecilio Waterman",
       "position": "FW",
       "club": "Universidad de Concepcion",
       "club_country": "Chile",
-      "age": 34,
-      "market_value_eur": 400000
+      "age": 35,
+      "market_value_eur": 250000
     },
     {
       "name": "Jose Fajardo",
       "position": "FW",
       "club": "Universidad Catolica",
       "club_country": "Chile",
-      "age": 30,
-      "market_value_eur": 1200000
+      "age": 32,
+      "market_value_eur": 550000
     },
     {
       "name": "Tomas Rodriguez",
       "position": "FW",
       "club": "Deportivo Saprissa",
       "club_country": "Costa Rica",
-      "age": 23,
-      "market_value_eur": 800000
+      "age": 27,
+      "market_value_eur": 1000000
     }
   ]
 }

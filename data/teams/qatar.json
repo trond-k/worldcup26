@@ -17,23 +17,23 @@
       "club": "Al-Sadd",
       "club_country": "Qatar",
       "age": 28,
-      "market_value_eur": 2000000
+      "market_value_eur": 700000
     },
     {
       "name": "Mahmoud Abunada",
       "position": "GK",
       "club": "Al-Rayyan",
       "club_country": "Qatar",
-      "age": 25,
-      "market_value_eur": 700000
+      "age": 26,
+      "market_value_eur": 400000
     },
     {
       "name": "Salah Zakaria",
       "position": "GK",
       "club": "Al-Duhail",
       "club_country": "Qatar",
-      "age": 24,
-      "market_value_eur": 700000
+      "age": 27,
+      "market_value_eur": 400000
     },
     {
       "name": "Pedro Miguel",
@@ -49,7 +49,7 @@
       "club": "Al-Sadd",
       "club_country": "Qatar",
       "age": 35,
-      "market_value_eur": 700000
+      "market_value_eur": 200000
     },
     {
       "name": "Ayoub Al-Alawi",
@@ -64,32 +64,32 @@
       "position": "DF",
       "club": "Al-Arabi",
       "club_country": "Qatar",
-      "age": 25,
-      "market_value_eur": 1000000
+      "age": 22,
+      "market_value_eur": 250000
     },
     {
       "name": "Sultan Al-Brake",
       "position": "DF",
       "club": "Al-Duhail",
       "club_country": "Qatar",
-      "age": 28,
-      "market_value_eur": 1200000
+      "age": 30,
+      "market_value_eur": 300000
     },
     {
       "name": "Lucas Mendes",
       "position": "DF",
       "club": "Al-Wakrah",
       "club_country": "Qatar",
-      "age": 33,
-      "market_value_eur": 800000
+      "age": 35,
+      "market_value_eur": 350000
     },
     {
       "name": "Homam Ahmed",
       "position": "DF",
       "club": "Cultural Leonesa",
       "club_country": "Spain",
-      "age": 27,
-      "market_value_eur": 1500000
+      "age": 26,
+      "market_value_eur": 500000
     },
     {
       "name": "Issa Lai",
@@ -105,7 +105,7 @@
       "club": "Al-Wakrah",
       "club_country": "Qatar",
       "age": 29,
-      "market_value_eur": 1200000
+      "market_value_eur": 350000
     },
     {
       "name": "Karim Boudiaf",
@@ -113,7 +113,7 @@
       "club": "Al-Duhail",
       "club_country": "Qatar",
       "age": 35,
-      "market_value_eur": 500000
+      "market_value_eur": 175000
     },
     {
       "name": "Abdulaziz Hatem",
@@ -121,7 +121,7 @@
       "club": "Al-Rayyan",
       "club_country": "Qatar",
       "age": 35,
-      "market_value_eur": 500000
+      "market_value_eur": 250000
     },
     {
       "name": "Jassem Gaber",
@@ -129,7 +129,7 @@
       "club": "Al-Rayyan",
       "club_country": "Qatar",
       "age": 24,
-      "market_value_eur": 1500000
+      "market_value_eur": 500000
     },
     {
       "name": "Mohammed Al-Mannai",
@@ -161,7 +161,7 @@
       "club": "Al-Duhail",
       "club_country": "Qatar",
       "age": 29,
-      "market_value_eur": 5000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Edmilson Junior",
@@ -169,7 +169,7 @@
       "club": "Al-Duhail",
       "club_country": "Qatar",
       "age": 31,
-      "market_value_eur": 2500000
+      "market_value_eur": 1800000
     },
     {
       "name": "Hassan Al-Haydos",
@@ -184,8 +184,8 @@
       "position": "FW",
       "club": "Al-Wakrah",
       "club_country": "Qatar",
-      "age": 27,
-      "market_value_eur": 1200000
+      "age": 26,
+      "market_value_eur": 275000
     },
     {
       "name": "Mohammed Muntari",
@@ -193,23 +193,23 @@
       "club": "Al-Gharafa",
       "club_country": "Qatar",
       "age": 32,
-      "market_value_eur": 700000
+      "market_value_eur": 200000
     },
     {
       "name": "Tahsin Mohammed",
       "position": "FW",
       "club": "Al-Duhail",
       "club_country": "Qatar",
-      "age": 23,
-      "market_value_eur": 1500000
+      "age": 19,
+      "market_value_eur": 200000
     },
     {
       "name": "Ahmed Alaa",
       "position": "FW",
       "club": "Al-Rayyan",
       "club_country": "Qatar",
-      "age": 26,
-      "market_value_eur": 1200000
+      "age": 33,
+      "market_value_eur": 300000
     },
     {
       "name": "Ahmed Al-Ganehi",
@@ -217,7 +217,7 @@
       "club": "Al-Gharafa",
       "club_country": "Qatar",
       "age": 25,
-      "market_value_eur": 1000000
+      "market_value_eur": 500000
     }
   ]
 }
