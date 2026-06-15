@@ -49,6 +49,9 @@ Each `data/teams/<slug>.json` file:
   "group": "J",
   "fifa_ranking": 1,
   "coach": "Lionel Scaloni",
+  "gnp_usd": 640000000000,
+  "gnp_per_capita_usd": 13900,
+  "gnp_year": 2024,
   "squad": [
     {
       "name": "Lionel Messi",
@@ -65,6 +68,12 @@ Each `data/teams/<slug>.json` file:
 - `position` is one of `GK`, `DF`, `MF`, `FW`.
 - `market_value_eur` is a non-negative integer (euros).
 - `squad` must contain exactly 26 players.
+- `gnp_usd` / `gnp_per_capita_usd` are the country's Gross National Product
+  (World Bank GNI — total and per-capita Atlas method — in current US dollars,
+  integers), with `gnp_year` the data year. England and Scotland have no
+  separate World Bank entry, so they use UK ONS regional GDP-based estimates
+  (flagged in commit history); `gnp_*` may be `null` if unavailable. See
+  `docs/stats.md` for the economy rankings.
 
 Each `data/results/<date>.json` file holds the matches played (or scheduled) on
 that date:

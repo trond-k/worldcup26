@@ -17,6 +17,7 @@ from common import (
     GROUP_LETTERS,
     POSITION_ORDER,
     fmt_eur,
+    fmt_usd,
     load_team,
     load_tournament,
     team_path,
@@ -49,6 +50,11 @@ def render_team(team):
     if team.get("coach"):
         meta.append(f"**Coach:** {team['coach']}")
     meta.append(f"**Squad value:** {fmt_eur(squad_value(team))}")
+    if team.get("gnp_usd") is not None:
+        yr = f" ({team['gnp_year']})" if team.get("gnp_year") else ""
+        meta.append(f"**GNP:** {fmt_usd(team['gnp_usd'])}{yr}")
+    if team.get("gnp_per_capita_usd") is not None:
+        meta.append(f"**GNP per capita:** {fmt_usd(team['gnp_per_capita_usd'])}")
     lines.append(" · ".join(meta))
     lines.append("")
     lines.append("| # | Player | Pos | Club | Market value |")

@@ -132,3 +132,16 @@ def fmt_eur(value):
     if value >= 1_000:
         return f"€{value / 1_000:.0f}k"
     return f"€{value}"
+
+
+def fmt_usd(value):
+    """Format an integer US$ amount as e.g. $1.4T / $27.5B / $850M / $11,000."""
+    if value is None:
+        return "—"
+    if value >= 1_000_000_000_000:
+        return f"${value / 1_000_000_000_000:.2f}T"
+    if value >= 1_000_000_000:
+        return f"${value / 1_000_000_000:.1f}B"
+    if value >= 1_000_000:
+        return f"${value / 1_000_000:.0f}M"
+    return f"${value:,}"

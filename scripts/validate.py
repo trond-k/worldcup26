@@ -238,6 +238,14 @@ def _validate_team(slug, expected_group, team, errors):
     if team.get("group") != expected_group:
         err(f"group '{team.get('group')}' does not match tournament group '{expected_group}'")
 
+    for fld in ("gnp_usd", "gnp_per_capita_usd"):
+        v = team.get(fld)
+        if v is not None and (not isinstance(v, int) or isinstance(v, bool) or v < 0):
+            err(f"{fld} must be a non-negative integer or null, got {v!r}")
+    gy = team.get("gnp_year")
+    if gy is not None and (not isinstance(gy, int) or gy < 2010 or gy > 2026):
+        err(f"gnp_year must be an integer 2010-2026 or null, got {gy!r}")
+
     squad = team.get("squad", [])
     if len(squad) != SQUAD_SIZE:
         err(f"squad has {len(squad)} players, expected {SQUAD_SIZE}")

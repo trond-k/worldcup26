@@ -15,6 +15,9 @@
     "group": { "type": "string", "pattern": "^[A-L]$" },
     "fifa_ranking": { "type": ["integer", "null"], "minimum": 1 },
     "coach": { "type": ["string", "null"] },
+    "gnp_usd": { "type": ["integer", "null"], "minimum": 0, "description": "Gross National Income (World Bank, current US$), the modern equivalent of GNP" },
+    "gnp_per_capita_usd": { "type": ["integer", "null"], "minimum": 0, "description": "GNI per capita (World Bank Atlas method, current US$)" },
+    "gnp_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026 },
     "squad": {
       "type": "array",
       "minItems": 26,

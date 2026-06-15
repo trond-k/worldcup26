@@ -6,7 +6,14 @@ Usage: python3 scripts/stats.py
 
 import os
 
-from common import DOCS_DIR, GROUP_LETTERS, fmt_eur, load_all_teams, load_tournament
+from common import (
+    DOCS_DIR,
+    GROUP_LETTERS,
+    fmt_eur,
+    fmt_usd,
+    load_all_teams,
+    load_tournament,
+)
 
 
 def squad_value(team):
@@ -78,6 +85,37 @@ def main():
     lines.append(f"- Players counted: **{n_players}**")
     lines.append(f"- Average player value: **{fmt_eur(avg_player)}**")
     lines.append("")
+
+    # --- economy (GNP) rankings ---
+    econ = [t for t in teams if t.get("gnp_usd") is not None]
+    if econ:
+        lines.append("## Economy (GNP)")
+        lines.append("")
+        lines.append("_Gross National Product (World Bank GNI). See README for sources and caveats._")
+        lines.append("")
+
+        lines.append("### By total GNP")
+        lines.append("")
+        lines.append("| Rank | Team | Group | GNP | Year |")
+        lines.append("|------|------|-------|-----|------|")
+        for i, t in enumerate(sorted(econ, key=lambda x: x["gnp_usd"], reverse=True), 1):
+            lines.append(
+                f"| {i} | {t['name']} | {t.get('group','')} | "
+                f"{fmt_usd(t['gnp_usd'])} | {t.get('gnp_year','')} |"
+            )
+        lines.append("")
+
+        pc = [t for t in econ if t.get("gnp_per_capita_usd") is not None]
+        lines.append("### By GNP per capita")
+        lines.append("")
+        lines.append("| Rank | Team | Group | GNP per capita | Year |")
+        lines.append("|------|------|-------|----------------|------|")
+        for i, t in enumerate(sorted(pc, key=lambda x: x["gnp_per_capita_usd"], reverse=True), 1):
+            lines.append(
+                f"| {i} | {t['name']} | {t.get('group','')} | "
+                f"{fmt_usd(t['gnp_per_capita_usd'])} | {t.get('gnp_year','')} |"
+            )
+        lines.append("")
 
     os.makedirs(DOCS_DIR, exist_ok=True)
     with open(os.path.join(DOCS_DIR, "stats.md"), "w", encoding="utf-8") as fh:
