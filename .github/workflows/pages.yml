@@ -2,7 +2,7 @@ name: Deploy site to GitHub Pages
 
 on:
   push:
-    branches: [claude/world-cup-teams-players-chmyxe]
+    branches: [main]
   workflow_dispatch:
   # Rebuild daily so the home page's "today's matches" tracks the real date.
   # GitHub cron is UTC and runs on a best-effort schedule.
