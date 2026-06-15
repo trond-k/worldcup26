@@ -5,32 +5,217 @@
   "group": "A",
   "fifa_ranking": 23,
   "coach": "Hong Myung-bo",
+  "gnp_usd": 1902000000000,
+  "gnp_per_capita_usd": 36750,
+  "gnp_year": 2024,
   "squad": [
-    { "name": "Jo Hyeon-woo", "position": "GK", "club": "Ulsan HD", "club_country": "South Korea", "age": 34, "market_value_eur": 1500000 },
-    { "name": "Kim Seung-gyu", "position": "GK", "club": "FC Tokyo", "club_country": "Japan", "age": 35, "market_value_eur": 500000 },
-    { "name": "Song Bum-keun", "position": "GK", "club": "Jeonbuk Hyundai Motors", "club_country": "South Korea", "age": 28, "market_value_eur": 2000000 },
-    { "name": "Kim Min-jae", "position": "DF", "club": "Bayern Munich", "club_country": "Germany", "age": 29, "market_value_eur": 40000000 },
-    { "name": "Cho Yu-min", "position": "DF", "club": "Sharjah FC", "club_country": "United Arab Emirates", "age": 29, "market_value_eur": 2500000 },
-    { "name": "Lee Han-beom", "position": "DF", "club": "FC Midtjylland", "club_country": "Denmark", "age": 27, "market_value_eur": 3000000 },
-    { "name": "Kim Tae-hyeon", "position": "DF", "club": "Kashima Antlers", "club_country": "Japan", "age": 24, "market_value_eur": 2000000 },
-    { "name": "Park Jin-seob", "position": "DF", "club": "Zhejiang FC", "club_country": "China", "age": 30, "market_value_eur": 1200000 },
-    { "name": "Lee Tae-seok", "position": "DF", "club": "Austria Wien", "club_country": "Austria", "age": 23, "market_value_eur": 2500000 },
-    { "name": "Seol Young-woo", "position": "DF", "club": "Crvena zvezda", "club_country": "Serbia", "age": 27, "market_value_eur": 3500000 },
-    { "name": "Kim Moon-hwan", "position": "DF", "club": "Daejeon Hana Citizen", "club_country": "South Korea", "age": 30, "market_value_eur": 1200000 },
-    { "name": "Lee Gi-hyuk", "position": "DF", "club": "Gangwon FC", "club_country": "South Korea", "age": 22, "market_value_eur": 1500000 },
-    { "name": "Jens Castrop", "position": "MF", "club": "Borussia Mönchengladbach", "club_country": "Germany", "age": 22, "market_value_eur": 8000000 },
-    { "name": "Hwang In-beom", "position": "MF", "club": "Feyenoord", "club_country": "Netherlands", "age": 29, "market_value_eur": 10000000 },
-    { "name": "Paik Seung-ho", "position": "MF", "club": "Birmingham City", "club_country": "England", "age": 29, "market_value_eur": 4000000 },
-    { "name": "Lee Jae-sung", "position": "MF", "club": "Mainz 05", "club_country": "Germany", "age": 33, "market_value_eur": 5000000 },
-    { "name": "Lee Kang-in", "position": "MF", "club": "Paris Saint-Germain", "club_country": "France", "age": 25, "market_value_eur": 45000000 },
-    { "name": "Kim Jin-gyu", "position": "MF", "club": "Jeonbuk Hyundai Motors", "club_country": "South Korea", "age": 28, "market_value_eur": 1500000 },
-    { "name": "Bae Jun-ho", "position": "MF", "club": "Stoke City", "club_country": "England", "age": 22, "market_value_eur": 8000000 },
-    { "name": "Eom Ji-sung", "position": "MF", "club": "Swansea City", "club_country": "Wales", "age": 23, "market_value_eur": 3000000 },
-    { "name": "Yang Hyun-jun", "position": "MF", "club": "Celtic", "club_country": "Scotland", "age": 24, "market_value_eur": 5000000 },
-    { "name": "Lee Dong-gyeong", "position": "MF", "club": "Ulsan HD", "club_country": "South Korea", "age": 29, "market_value_eur": 2500000 },
-    { "name": "Hwang Hee-chan", "position": "FW", "club": "Wolverhampton Wanderers", "club_country": "England", "age": 30, "market_value_eur": 15000000 },
-    { "name": "Son Heung-min", "position": "FW", "club": "Los Angeles FC", "club_country": "United States", "age": 33, "market_value_eur": 12000000 },
-    { "name": "Oh Hyeon-gyu", "position": "FW", "club": "Beşiktaş", "club_country": "Turkey", "age": 25, "market_value_eur": 9000000 },
-    { "name": "Cho Gue-sung", "position": "FW", "club": "FC Midtjylland", "club_country": "Denmark", "age": 28, "market_value_eur": 6000000 }
+    {
+      "name": "Jo Hyeon-woo",
+      "position": "GK",
+      "club": "Ulsan HD",
+      "club_country": "South Korea",
+      "age": 34,
+      "market_value_eur": 1500000
+    },
+    {
+      "name": "Kim Seung-gyu",
+      "position": "GK",
+      "club": "FC Tokyo",
+      "club_country": "Japan",
+      "age": 35,
+      "market_value_eur": 500000
+    },
+    {
+      "name": "Song Bum-keun",
+      "position": "GK",
+      "club": "Jeonbuk Hyundai Motors",
+      "club_country": "South Korea",
+      "age": 28,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Kim Min-jae",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 29,
+      "market_value_eur": 40000000
+    },
+    {
+      "name": "Cho Yu-min",
+      "position": "DF",
+      "club": "Sharjah FC",
+      "club_country": "United Arab Emirates",
+      "age": 29,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Lee Han-beom",
+      "position": "DF",
+      "club": "FC Midtjylland",
+      "club_country": "Denmark",
+      "age": 27,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Kim Tae-hyeon",
+      "position": "DF",
+      "club": "Kashima Antlers",
+      "club_country": "Japan",
+      "age": 24,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Park Jin-seob",
+      "position": "DF",
+      "club": "Zhejiang FC",
+      "club_country": "China",
+      "age": 30,
+      "market_value_eur": 1200000
+    },
+    {
+      "name": "Lee Tae-seok",
+      "position": "DF",
+      "club": "Austria Wien",
+      "club_country": "Austria",
+      "age": 23,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Seol Young-woo",
+      "position": "DF",
+      "club": "Crvena zvezda",
+      "club_country": "Serbia",
+      "age": 27,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Kim Moon-hwan",
+      "position": "DF",
+      "club": "Daejeon Hana Citizen",
+      "club_country": "South Korea",
+      "age": 30,
+      "market_value_eur": 1200000
+    },
+    {
+      "name": "Lee Gi-hyuk",
+      "position": "DF",
+      "club": "Gangwon FC",
+      "club_country": "South Korea",
+      "age": 22,
+      "market_value_eur": 1500000
+    },
+    {
+      "name": "Jens Castrop",
+      "position": "MF",
+      "club": "Borussia Mönchengladbach",
+      "club_country": "Germany",
+      "age": 22,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Hwang In-beom",
+      "position": "MF",
+      "club": "Feyenoord",
+      "club_country": "Netherlands",
+      "age": 29,
+      "market_value_eur": 10000000
+    },
+    {
+      "name": "Paik Seung-ho",
+      "position": "MF",
+      "club": "Birmingham City",
+      "club_country": "England",
+      "age": 29,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Lee Jae-sung",
+      "position": "MF",
+      "club": "Mainz 05",
+      "club_country": "Germany",
+      "age": 33,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Lee Kang-in",
+      "position": "MF",
+      "club": "Paris Saint-Germain",
+      "club_country": "France",
+      "age": 25,
+      "market_value_eur": 45000000
+    },
+    {
+      "name": "Kim Jin-gyu",
+      "position": "MF",
+      "club": "Jeonbuk Hyundai Motors",
+      "club_country": "South Korea",
+      "age": 28,
+      "market_value_eur": 1500000
+    },
+    {
+      "name": "Bae Jun-ho",
+      "position": "MF",
+      "club": "Stoke City",
+      "club_country": "England",
+      "age": 22,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Eom Ji-sung",
+      "position": "MF",
+      "club": "Swansea City",
+      "club_country": "Wales",
+      "age": 23,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Yang Hyun-jun",
+      "position": "MF",
+      "club": "Celtic",
+      "club_country": "Scotland",
+      "age": 24,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Lee Dong-gyeong",
+      "position": "MF",
+      "club": "Ulsan HD",
+      "club_country": "South Korea",
+      "age": 29,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "position": "FW",
+      "club": "Wolverhampton Wanderers",
+      "club_country": "England",
+      "age": 30,
+      "market_value_eur": 15000000
+    },
+    {
+      "name": "Son Heung-min",
+      "position": "FW",
+      "club": "Los Angeles FC",
+      "club_country": "United States",
+      "age": 33,
+      "market_value_eur": 12000000
+    },
+    {
+      "name": "Oh Hyeon-gyu",
+      "position": "FW",
+      "club": "Beşiktaş",
+      "club_country": "Turkey",
+      "age": 25,
+      "market_value_eur": 9000000
+    },
+    {
+      "name": "Cho Gue-sung",
+      "position": "FW",
+      "club": "FC Midtjylland",
+      "club_country": "Denmark",
+      "age": 28,
+      "market_value_eur": 6000000
+    }
   ]
 }

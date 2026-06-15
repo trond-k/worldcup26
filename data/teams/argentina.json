@@ -5,32 +5,217 @@
   "group": "J",
   "fifa_ranking": 1,
   "coach": "Lionel Scaloni",
+  "gnp_usd": 625190000000,
+  "gnp_per_capita_usd": 13440,
+  "gnp_year": 2024,
   "squad": [
-    {"name": "Emiliano Martínez", "position": "GK", "club": "Aston Villa", "club_country": "England", "age": 33, "market_value_eur": 22000000},
-    {"name": "Gerónimo Rulli", "position": "GK", "club": "Marseille", "club_country": "France", "age": 34, "market_value_eur": 6000000},
-    {"name": "Juan Musso", "position": "GK", "club": "Atlético Madrid", "club_country": "Spain", "age": 32, "market_value_eur": 5000000},
-    {"name": "Gonzalo Montiel", "position": "DF", "club": "River Plate", "club_country": "Argentina", "age": 29, "market_value_eur": 8000000},
-    {"name": "Nahuel Molina", "position": "DF", "club": "Atlético Madrid", "club_country": "Spain", "age": 28, "market_value_eur": 18000000},
-    {"name": "Lisandro Martínez", "position": "DF", "club": "Manchester United", "club_country": "England", "age": 28, "market_value_eur": 40000000},
-    {"name": "Nicolás Otamendi", "position": "DF", "club": "Benfica", "club_country": "Portugal", "age": 38, "market_value_eur": 2000000},
-    {"name": "Marcos Senesi", "position": "DF", "club": "Bournemouth", "club_country": "England", "age": 29, "market_value_eur": 30000000},
-    {"name": "Cristian Romero", "position": "DF", "club": "Tottenham Hotspur", "club_country": "England", "age": 28, "market_value_eur": 55000000},
-    {"name": "Nicolás Tagliafico", "position": "DF", "club": "Lyon", "club_country": "France", "age": 33, "market_value_eur": 6000000},
-    {"name": "Facundo Medina", "position": "DF", "club": "Marseille", "club_country": "France", "age": 27, "market_value_eur": 22000000},
-    {"name": "Giovani Lo Celso", "position": "MF", "club": "Real Betis", "club_country": "Spain", "age": 30, "market_value_eur": 18000000},
-    {"name": "Leandro Paredes", "position": "MF", "club": "Boca Juniors", "club_country": "Argentina", "age": 31, "market_value_eur": 6000000},
-    {"name": "Rodrigo De Paul", "position": "MF", "club": "Inter Miami", "club_country": "United States", "age": 32, "market_value_eur": 12000000},
-    {"name": "Exequiel Palacios", "position": "MF", "club": "Bayer Leverkusen", "club_country": "Germany", "age": 27, "market_value_eur": 35000000},
-    {"name": "Enzo Fernández", "position": "MF", "club": "Chelsea", "club_country": "England", "age": 25, "market_value_eur": 70000000},
-    {"name": "Alexis Mac Allister", "position": "MF", "club": "Liverpool", "club_country": "England", "age": 27, "market_value_eur": 80000000},
-    {"name": "Valentín Barco", "position": "MF", "club": "Strasbourg", "club_country": "France", "age": 21, "market_value_eur": 18000000},
-    {"name": "Lionel Messi", "position": "FW", "club": "Inter Miami", "club_country": "United States", "age": 38, "market_value_eur": 18000000},
-    {"name": "Nicolás González", "position": "FW", "club": "Atlético Madrid", "club_country": "Spain", "age": 28, "market_value_eur": 28000000},
-    {"name": "Giuliano Simeone", "position": "FW", "club": "Atlético Madrid", "club_country": "Spain", "age": 23, "market_value_eur": 30000000},
-    {"name": "Lautaro Martínez", "position": "FW", "club": "Inter Milan", "club_country": "Italy", "age": 28, "market_value_eur": 90000000},
-    {"name": "José Manuel López", "position": "FW", "club": "Palmeiras", "club_country": "Brazil", "age": 25, "market_value_eur": 22000000},
-    {"name": "Julián Álvarez", "position": "FW", "club": "Atlético Madrid", "club_country": "Spain", "age": 26, "market_value_eur": 90000000},
-    {"name": "Thiago Almada", "position": "FW", "club": "Atlético Madrid", "club_country": "Spain", "age": 25, "market_value_eur": 35000000},
-    {"name": "Nico Paz", "position": "FW", "club": "Como", "club_country": "Italy", "age": 21, "market_value_eur": 45000000}
+    {
+      "name": "Emiliano Martínez",
+      "position": "GK",
+      "club": "Aston Villa",
+      "club_country": "England",
+      "age": 33,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Gerónimo Rulli",
+      "position": "GK",
+      "club": "Marseille",
+      "club_country": "France",
+      "age": 34,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Juan Musso",
+      "position": "GK",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 32,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "position": "DF",
+      "club": "River Plate",
+      "club_country": "Argentina",
+      "age": 29,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Nahuel Molina",
+      "position": "DF",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 28,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Lisandro Martínez",
+      "position": "DF",
+      "club": "Manchester United",
+      "club_country": "England",
+      "age": 28,
+      "market_value_eur": 40000000
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "position": "DF",
+      "club": "Benfica",
+      "club_country": "Portugal",
+      "age": 38,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Marcos Senesi",
+      "position": "DF",
+      "club": "Bournemouth",
+      "club_country": "England",
+      "age": 29,
+      "market_value_eur": 30000000
+    },
+    {
+      "name": "Cristian Romero",
+      "position": "DF",
+      "club": "Tottenham Hotspur",
+      "club_country": "England",
+      "age": 28,
+      "market_value_eur": 55000000
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "position": "DF",
+      "club": "Lyon",
+      "club_country": "France",
+      "age": 33,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Facundo Medina",
+      "position": "DF",
+      "club": "Marseille",
+      "club_country": "France",
+      "age": 27,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "position": "MF",
+      "club": "Real Betis",
+      "club_country": "Spain",
+      "age": 30,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Leandro Paredes",
+      "position": "MF",
+      "club": "Boca Juniors",
+      "club_country": "Argentina",
+      "age": 31,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "position": "MF",
+      "club": "Inter Miami",
+      "club_country": "United States",
+      "age": 32,
+      "market_value_eur": 12000000
+    },
+    {
+      "name": "Exequiel Palacios",
+      "position": "MF",
+      "club": "Bayer Leverkusen",
+      "club_country": "Germany",
+      "age": 27,
+      "market_value_eur": 35000000
+    },
+    {
+      "name": "Enzo Fernández",
+      "position": "MF",
+      "club": "Chelsea",
+      "club_country": "England",
+      "age": 25,
+      "market_value_eur": 70000000
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "position": "MF",
+      "club": "Liverpool",
+      "club_country": "England",
+      "age": 27,
+      "market_value_eur": 80000000
+    },
+    {
+      "name": "Valentín Barco",
+      "position": "MF",
+      "club": "Strasbourg",
+      "club_country": "France",
+      "age": 21,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Lionel Messi",
+      "position": "FW",
+      "club": "Inter Miami",
+      "club_country": "United States",
+      "age": 38,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Nicolás González",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 28,
+      "market_value_eur": 28000000
+    },
+    {
+      "name": "Giuliano Simeone",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 23,
+      "market_value_eur": 30000000
+    },
+    {
+      "name": "Lautaro Martínez",
+      "position": "FW",
+      "club": "Inter Milan",
+      "club_country": "Italy",
+      "age": 28,
+      "market_value_eur": 90000000
+    },
+    {
+      "name": "José Manuel López",
+      "position": "FW",
+      "club": "Palmeiras",
+      "club_country": "Brazil",
+      "age": 25,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Julián Álvarez",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 26,
+      "market_value_eur": 90000000
+    },
+    {
+      "name": "Thiago Almada",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "club_country": "Spain",
+      "age": 25,
+      "market_value_eur": 35000000
+    },
+    {
+      "name": "Nico Paz",
+      "position": "FW",
+      "club": "Como",
+      "club_country": "Italy",
+      "age": 21,
+      "market_value_eur": 45000000
+    }
   ]
 }

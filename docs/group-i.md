@@ -9,7 +9,7 @@
 
 ### France
 
-**Confederation:** UEFA · **FIFA ranking:** 3 · **Coach:** Didier Deschamps · **Squad value:** €1351.0m
+**Confederation:** UEFA · **FIFA ranking:** 3 · **Coach:** Didier Deschamps · **Squad value:** €1351.0m · **GNP:** $3.23T (2024) · **GNP per capita:** $45,160
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Senegal
 
-**Confederation:** CAF · **FIFA ranking:** 15 · **Coach:** Pape Thiaw · **Squad value:** €414.0m
+**Confederation:** CAF · **FIFA ranking:** 15 · **Coach:** Pape Thiaw · **Squad value:** €414.0m · **GNP:** $31.3B (2024) · **GNP per capita:** $1,680
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Iraq
 
-**Confederation:** AFC · **FIFA ranking:** 57 · **Coach:** Graham Arnold · **Squad value:** €28.1m
+**Confederation:** AFC · **FIFA ranking:** 57 · **Coach:** Graham Arnold · **Squad value:** €28.1m · **GNP:** $281.3B (2024) · **GNP per capita:** $6,030
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Norway
 
-**Confederation:** UEFA · **FIFA ranking:** 31 · **Coach:** Ståle Solbakken · **Squad value:** €567.0m
+**Confederation:** UEFA · **FIFA ranking:** 31 · **Coach:** Ståle Solbakken · **Squad value:** €567.0m · **GNP:** $506.4B (2024) · **GNP per capita:** $98,280
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

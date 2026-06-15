@@ -9,7 +9,7 @@
 
 ### United States
 
-**Confederation:** CONCACAF · **FIFA ranking:** 16 · **Coach:** Mauricio Pochettino · **Squad value:** €433.5m
+**Confederation:** CONCACAF · **FIFA ranking:** 16 · **Coach:** Mauricio Pochettino · **Squad value:** €433.5m · **GNP:** $28.45T (2024) · **GNP per capita:** $83,660
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Paraguay
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 41 · **Coach:** Gustavo Alfaro · **Squad value:** €152.4m
+**Confederation:** CONMEBOL · **FIFA ranking:** 41 · **Coach:** Gustavo Alfaro · **Squad value:** €152.4m · **GNP:** $43.0B (2024) · **GNP per capita:** $6,290
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Australia
 
-**Confederation:** AFC · **FIFA ranking:** 27 · **Coach:** Tony Popovic · **Squad value:** €82.5m
+**Confederation:** AFC · **FIFA ranking:** 27 · **Coach:** Tony Popovic · **Squad value:** €82.5m · **GNP:** $1.70T (2024) · **GNP per capita:** $62,550
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Türkiye
 
-**Confederation:** UEFA · **FIFA ranking:** 22 · **Coach:** Vincenzo Montella · **Squad value:** €465.0m
+**Confederation:** UEFA · **FIFA ranking:** 22 · **Coach:** Vincenzo Montella · **Squad value:** €465.0m · **GNP:** $1.31T (2024) · **GNP per capita:** $13,150
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

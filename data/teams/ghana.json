@@ -5,32 +5,217 @@
   "group": "L",
   "fifa_ranking": 73,
   "coach": "Carlos Queiroz",
+  "gnp_usd": 79746122726,
+  "gnp_per_capita_usd": 2320,
+  "gnp_year": 2024,
   "squad": [
-    { "name": "Lawrence Ati-Zigi", "position": "GK", "club": "Saint-Etienne", "club_country": "France", "age": 29, "market_value_eur": 3500000 },
-    { "name": "Joseph Anang", "position": "GK", "club": "St Patrick's Athletic", "club_country": "Ireland", "age": 25, "market_value_eur": 700000 },
-    { "name": "Benjamin Asare", "position": "GK", "club": "Hearts of Oak", "club_country": "Ghana", "age": 28, "market_value_eur": 400000 },
-    { "name": "Alidu Seidu", "position": "DF", "club": "Rennes", "club_country": "France", "age": 26, "market_value_eur": 8000000 },
-    { "name": "Jonas Adjetey", "position": "DF", "club": "VfL Wolfsburg", "club_country": "Germany", "age": 22, "market_value_eur": 6000000 },
-    { "name": "Abdul Mumin", "position": "DF", "club": "Rayo Vallecano", "club_country": "Spain", "age": 27, "market_value_eur": 5000000 },
-    { "name": "Gideon Mensah", "position": "DF", "club": "Auxerre", "club_country": "France", "age": 27, "market_value_eur": 3000000 },
-    { "name": "Baba Rahman", "position": "DF", "club": "PAOK", "club_country": "Greece", "age": 31, "market_value_eur": 2000000 },
-    { "name": "Jerome Opoku", "position": "DF", "club": "Istanbul Basaksehir", "club_country": "Turkey", "age": 27, "market_value_eur": 3000000 },
-    { "name": "Kojo Oppong Peprah", "position": "DF", "club": "OGC Nice", "club_country": "France", "age": 20, "market_value_eur": 4000000 },
-    { "name": "Derrick Luckassen", "position": "DF", "club": "Pafos", "club_country": "Cyprus", "age": 30, "market_value_eur": 2500000 },
-    { "name": "Marvin Senaya", "position": "DF", "club": "Auxerre", "club_country": "France", "age": 23, "market_value_eur": 3000000 },
-    { "name": "Caleb Yirenkyi", "position": "MF", "club": "FC Nordsjaelland", "club_country": "Denmark", "age": 20, "market_value_eur": 5000000 },
-    { "name": "Thomas Partey", "position": "MF", "club": "Villarreal", "club_country": "Spain", "age": 32, "market_value_eur": 8000000 },
-    { "name": "Kwasi Sibo", "position": "MF", "club": "Real Oviedo", "club_country": "Spain", "age": 27, "market_value_eur": 3000000 },
-    { "name": "Antoine Semenyo", "position": "MF", "club": "Bournemouth", "club_country": "England", "age": 26, "market_value_eur": 55000000 },
-    { "name": "Elisha Owusu", "position": "MF", "club": "Auxerre", "club_country": "France", "age": 28, "market_value_eur": 3500000 },
-    { "name": "Kamaldeen Sulemana", "position": "MF", "club": "Atalanta", "club_country": "Italy", "age": 24, "market_value_eur": 18000000 },
-    { "name": "Abdul Fatawu Issahaku", "position": "FW", "club": "Leicester City", "club_country": "England", "age": 22, "market_value_eur": 20000000 },
-    { "name": "Jordan Ayew", "position": "FW", "club": "Leicester City", "club_country": "England", "age": 34, "market_value_eur": 4000000 },
-    { "name": "Brandon Thomas-Asante", "position": "FW", "club": "Coventry City", "club_country": "England", "age": 27, "market_value_eur": 7000000 },
-    { "name": "Christopher Bonsu Baah", "position": "FW", "club": "Al-Qadsiah", "club_country": "Saudi Arabia", "age": 21, "market_value_eur": 9000000 },
-    { "name": "Inaki Williams", "position": "FW", "club": "Athletic Club", "club_country": "Spain", "age": 31, "market_value_eur": 12000000 },
-    { "name": "Augustine Boakye", "position": "FW", "club": "Saint-Etienne", "club_country": "France", "age": 25, "market_value_eur": 5000000 },
-    { "name": "Ernest Nuamah", "position": "FW", "club": "Lyon", "club_country": "France", "age": 22, "market_value_eur": 18000000 },
-    { "name": "Prince Kwabena Adu", "position": "FW", "club": "Viktoria Plzen", "club_country": "Czech Republic", "age": 24, "market_value_eur": 4000000 }
+    {
+      "name": "Lawrence Ati-Zigi",
+      "position": "GK",
+      "club": "Saint-Etienne",
+      "club_country": "France",
+      "age": 29,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Joseph Anang",
+      "position": "GK",
+      "club": "St Patrick's Athletic",
+      "club_country": "Ireland",
+      "age": 25,
+      "market_value_eur": 700000
+    },
+    {
+      "name": "Benjamin Asare",
+      "position": "GK",
+      "club": "Hearts of Oak",
+      "club_country": "Ghana",
+      "age": 28,
+      "market_value_eur": 400000
+    },
+    {
+      "name": "Alidu Seidu",
+      "position": "DF",
+      "club": "Rennes",
+      "club_country": "France",
+      "age": 26,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Jonas Adjetey",
+      "position": "DF",
+      "club": "VfL Wolfsburg",
+      "club_country": "Germany",
+      "age": 22,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Abdul Mumin",
+      "position": "DF",
+      "club": "Rayo Vallecano",
+      "club_country": "Spain",
+      "age": 27,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Gideon Mensah",
+      "position": "DF",
+      "club": "Auxerre",
+      "club_country": "France",
+      "age": 27,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Baba Rahman",
+      "position": "DF",
+      "club": "PAOK",
+      "club_country": "Greece",
+      "age": 31,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Jerome Opoku",
+      "position": "DF",
+      "club": "Istanbul Basaksehir",
+      "club_country": "Turkey",
+      "age": 27,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Kojo Oppong Peprah",
+      "position": "DF",
+      "club": "OGC Nice",
+      "club_country": "France",
+      "age": 20,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Derrick Luckassen",
+      "position": "DF",
+      "club": "Pafos",
+      "club_country": "Cyprus",
+      "age": 30,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Marvin Senaya",
+      "position": "DF",
+      "club": "Auxerre",
+      "club_country": "France",
+      "age": 23,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Caleb Yirenkyi",
+      "position": "MF",
+      "club": "FC Nordsjaelland",
+      "club_country": "Denmark",
+      "age": 20,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Thomas Partey",
+      "position": "MF",
+      "club": "Villarreal",
+      "club_country": "Spain",
+      "age": 32,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Kwasi Sibo",
+      "position": "MF",
+      "club": "Real Oviedo",
+      "club_country": "Spain",
+      "age": 27,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Antoine Semenyo",
+      "position": "MF",
+      "club": "Bournemouth",
+      "club_country": "England",
+      "age": 26,
+      "market_value_eur": 55000000
+    },
+    {
+      "name": "Elisha Owusu",
+      "position": "MF",
+      "club": "Auxerre",
+      "club_country": "France",
+      "age": 28,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Kamaldeen Sulemana",
+      "position": "MF",
+      "club": "Atalanta",
+      "club_country": "Italy",
+      "age": 24,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Abdul Fatawu Issahaku",
+      "position": "FW",
+      "club": "Leicester City",
+      "club_country": "England",
+      "age": 22,
+      "market_value_eur": 20000000
+    },
+    {
+      "name": "Jordan Ayew",
+      "position": "FW",
+      "club": "Leicester City",
+      "club_country": "England",
+      "age": 34,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Brandon Thomas-Asante",
+      "position": "FW",
+      "club": "Coventry City",
+      "club_country": "England",
+      "age": 27,
+      "market_value_eur": 7000000
+    },
+    {
+      "name": "Christopher Bonsu Baah",
+      "position": "FW",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 21,
+      "market_value_eur": 9000000
+    },
+    {
+      "name": "Inaki Williams",
+      "position": "FW",
+      "club": "Athletic Club",
+      "club_country": "Spain",
+      "age": 31,
+      "market_value_eur": 12000000
+    },
+    {
+      "name": "Augustine Boakye",
+      "position": "FW",
+      "club": "Saint-Etienne",
+      "club_country": "France",
+      "age": 25,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Ernest Nuamah",
+      "position": "FW",
+      "club": "Lyon",
+      "club_country": "France",
+      "age": 22,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Prince Kwabena Adu",
+      "position": "FW",
+      "club": "Viktoria Plzen",
+      "club_country": "Czech Republic",
+      "age": 24,
+      "market_value_eur": 4000000
+    }
   ]
 }

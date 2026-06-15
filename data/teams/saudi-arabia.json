@@ -5,32 +5,217 @@
   "group": "H",
   "fifa_ranking": 61,
   "coach": "Georgios Donis",
+  "gnp_usd": 1243696766667,
+  "gnp_per_capita_usd": 35570,
+  "gnp_year": 2024,
   "squad": [
-    {"name": "Mohammed Al-Owais", "position": "GK", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 34, "market_value_eur": 2000000},
-    {"name": "Nawaf Al-Aqidi", "position": "GK", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 25, "market_value_eur": 3500000},
-    {"name": "Ahmed Al-Kassar", "position": "GK", "club": "Al-Qadsiah", "club_country": "Saudi Arabia", "age": 28, "market_value_eur": 1500000},
-    {"name": "Saud Abdulhamid", "position": "DF", "club": "Lens", "club_country": "France", "age": 26, "market_value_eur": 6000000},
-    {"name": "Hassan Al-Tambakti", "position": "DF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 26, "market_value_eur": 6000000},
-    {"name": "Abdulelah Al-Amri", "position": "DF", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 28, "market_value_eur": 4000000},
-    {"name": "Ali Lajami", "position": "DF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 28, "market_value_eur": 2500000},
-    {"name": "Hassan Kadesh", "position": "DF", "club": "Al-Ittihad", "club_country": "Saudi Arabia", "age": 30, "market_value_eur": 2000000},
-    {"name": "Jehad Thikri", "position": "DF", "club": "Al-Qadsiah", "club_country": "Saudi Arabia", "age": 26, "market_value_eur": 2000000},
-    {"name": "Mohammed Abu Al-Shamat", "position": "DF", "club": "Al-Qadsiah", "club_country": "Saudi Arabia", "age": 26, "market_value_eur": 2500000},
-    {"name": "Sultan Al-Ghannam", "position": "DF", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 31, "market_value_eur": 2000000},
-    {"name": "Nawaf Boushal", "position": "DF", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 24, "market_value_eur": 2500000},
-    {"name": "Moteb Al-Harbi", "position": "DF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 24, "market_value_eur": 2000000},
-    {"name": "Mohamed Kanno", "position": "MF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 31, "market_value_eur": 3000000},
-    {"name": "Nasser Al-Dawsari", "position": "MF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 27, "market_value_eur": 3500000},
-    {"name": "Abdullah Al-Khaibari", "position": "MF", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 29, "market_value_eur": 2500000},
-    {"name": "Musab Al-Juwayr", "position": "MF", "club": "Al-Qadsiah", "club_country": "Saudi Arabia", "age": 22, "market_value_eur": 4000000},
-    {"name": "Ziyad Al-Johani", "position": "MF", "club": "Al-Ahli", "club_country": "Saudi Arabia", "age": 24, "market_value_eur": 3000000},
-    {"name": "Ayman Yahya", "position": "MF", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 24, "market_value_eur": 3000000},
-    {"name": "Alaa Al-Hajji", "position": "MF", "club": "NEOM SC", "club_country": "Saudi Arabia", "age": 22, "market_value_eur": 2500000},
-    {"name": "Khalid Al-Ghannam", "position": "MF", "club": "Al-Ettifaq", "club_country": "Saudi Arabia", "age": 24, "market_value_eur": 3000000},
-    {"name": "Salem Al-Dawsari", "position": "MF", "club": "Al-Hilal", "club_country": "Saudi Arabia", "age": 34, "market_value_eur": 4000000},
-    {"name": "Firas Al-Buraikan", "position": "FW", "club": "Al-Ahli", "club_country": "Saudi Arabia", "age": 26, "market_value_eur": 8000000},
-    {"name": "Saleh Al-Shehri", "position": "FW", "club": "Al-Ittihad", "club_country": "Saudi Arabia", "age": 32, "market_value_eur": 2500000},
-    {"name": "Abdullah Al-Hamdan", "position": "FW", "club": "Al-Nassr", "club_country": "Saudi Arabia", "age": 26, "market_value_eur": 3000000},
-    {"name": "Ali Majrashi", "position": "MF", "club": "Al-Ahli", "club_country": "Saudi Arabia", "age": 30, "market_value_eur": 1500000}
+    {
+      "name": "Mohammed Al-Owais",
+      "position": "GK",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 34,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Nawaf Al-Aqidi",
+      "position": "GK",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 25,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Ahmed Al-Kassar",
+      "position": "GK",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 28,
+      "market_value_eur": 1500000
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "position": "DF",
+      "club": "Lens",
+      "club_country": "France",
+      "age": 26,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Hassan Al-Tambakti",
+      "position": "DF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 26,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Abdulelah Al-Amri",
+      "position": "DF",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 28,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Ali Lajami",
+      "position": "DF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 28,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Hassan Kadesh",
+      "position": "DF",
+      "club": "Al-Ittihad",
+      "club_country": "Saudi Arabia",
+      "age": 30,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Jehad Thikri",
+      "position": "DF",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 26,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Mohammed Abu Al-Shamat",
+      "position": "DF",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 26,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Sultan Al-Ghannam",
+      "position": "DF",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 31,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Nawaf Boushal",
+      "position": "DF",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 24,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Moteb Al-Harbi",
+      "position": "DF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 24,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Mohamed Kanno",
+      "position": "MF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 31,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Nasser Al-Dawsari",
+      "position": "MF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 27,
+      "market_value_eur": 3500000
+    },
+    {
+      "name": "Abdullah Al-Khaibari",
+      "position": "MF",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 29,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Musab Al-Juwayr",
+      "position": "MF",
+      "club": "Al-Qadsiah",
+      "club_country": "Saudi Arabia",
+      "age": 22,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Ziyad Al-Johani",
+      "position": "MF",
+      "club": "Al-Ahli",
+      "club_country": "Saudi Arabia",
+      "age": 24,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Ayman Yahya",
+      "position": "MF",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 24,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Alaa Al-Hajji",
+      "position": "MF",
+      "club": "NEOM SC",
+      "club_country": "Saudi Arabia",
+      "age": 22,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Khalid Al-Ghannam",
+      "position": "MF",
+      "club": "Al-Ettifaq",
+      "club_country": "Saudi Arabia",
+      "age": 24,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Salem Al-Dawsari",
+      "position": "MF",
+      "club": "Al-Hilal",
+      "club_country": "Saudi Arabia",
+      "age": 34,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Firas Al-Buraikan",
+      "position": "FW",
+      "club": "Al-Ahli",
+      "club_country": "Saudi Arabia",
+      "age": 26,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Saleh Al-Shehri",
+      "position": "FW",
+      "club": "Al-Ittihad",
+      "club_country": "Saudi Arabia",
+      "age": 32,
+      "market_value_eur": 2500000
+    },
+    {
+      "name": "Abdullah Al-Hamdan",
+      "position": "FW",
+      "club": "Al-Nassr",
+      "club_country": "Saudi Arabia",
+      "age": 26,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Ali Majrashi",
+      "position": "MF",
+      "club": "Al-Ahli",
+      "club_country": "Saudi Arabia",
+      "age": 30,
+      "market_value_eur": 1500000
+    }
   ]
 }

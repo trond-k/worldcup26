@@ -9,7 +9,7 @@
 
 ### Mexico
 
-**Confederation:** CONCACAF · **FIFA ranking:** 14 · **Coach:** Javier Aguirre · **Squad value:** €197.2m
+**Confederation:** CONCACAF · **FIFA ranking:** 14 · **Coach:** Javier Aguirre · **Squad value:** €197.2m · **GNP:** $1.80T (2024) · **GNP per capita:** $12,800
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### South Africa
 
-**Confederation:** CAF · **FIFA ranking:** 60 · **Coach:** Hugo Broos · **Squad value:** €41.9m
+**Confederation:** CAF · **FIFA ranking:** 60 · **Coach:** Hugo Broos · **Squad value:** €41.9m · **GNP:** $392.4B (2024) · **GNP per capita:** $6,100
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### South Korea
 
-**Confederation:** AFC · **FIFA ranking:** 23 · **Coach:** Hong Myung-bo · **Squad value:** €195.4m
+**Confederation:** AFC · **FIFA ranking:** 23 · **Coach:** Hong Myung-bo · **Squad value:** €195.4m · **GNP:** $1.90T (2024) · **GNP per capita:** $36,750
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Czechia
 
-**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Miroslav Koubek · **Squad value:** €186.8m
+**Confederation:** UEFA · **FIFA ranking:** 40 · **Coach:** Miroslav Koubek · **Squad value:** €186.8m · **GNP:** $330.1B (2024) · **GNP per capita:** $29,140
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

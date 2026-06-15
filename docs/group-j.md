@@ -9,7 +9,7 @@
 
 ### Argentina
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 1 · **Coach:** Lionel Scaloni · **Squad value:** €811.0m
+**Confederation:** CONMEBOL · **FIFA ranking:** 1 · **Coach:** Lionel Scaloni · **Squad value:** €811.0m · **GNP:** $625.2B (2024) · **GNP per capita:** $13,440
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Algeria
 
-**Confederation:** CAF · **FIFA ranking:** 28 · **Coach:** Vladimir Petković · **Squad value:** €253.9m
+**Confederation:** CAF · **FIFA ranking:** 28 · **Coach:** Vladimir Petković · **Squad value:** €253.9m · **GNP:** $258.6B (2024) · **GNP per capita:** $5,320
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Austria
 
-**Confederation:** UEFA · **FIFA ranking:** 24 · **Coach:** Ralf Rangnick · **Squad value:** €266.0m
+**Confederation:** UEFA · **FIFA ranking:** 24 · **Coach:** Ralf Rangnick · **Squad value:** €266.0m · **GNP:** $497.1B (2024) · **GNP per capita:** $54,760
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Jordan
 
-**Confederation:** AFC · **FIFA ranking:** 63 · **Coach:** Jamal Sellami · **Squad value:** €20.0m
+**Confederation:** AFC · **FIFA ranking:** 63 · **Coach:** Jamal Sellami · **Squad value:** €20.0m · **GNP:** $50.7B (2023) · **GNP per capita:** $4,420
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

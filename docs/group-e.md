@@ -9,7 +9,7 @@
 
 ### Germany
 
-**Confederation:** UEFA · **FIFA ranking:** 10 · **Coach:** Julian Nagelsmann · **Squad value:** €952.0m
+**Confederation:** UEFA · **FIFA ranking:** 10 · **Coach:** Julian Nagelsmann · **Squad value:** €952.0m · **GNP:** $4.83T (2024) · **GNP per capita:** $54,960
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Curaçao
 
-**Confederation:** CONCACAF · **FIFA ranking:** 82 · **Coach:** Dick Advocaat · **Squad value:** €37.4m
+**Confederation:** CONCACAF · **FIFA ranking:** 82 · **Coach:** Dick Advocaat · **Squad value:** €37.4m · **GNP:** $2.8B (2021) · **GNP per capita:** $18,430
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Côte d'Ivoire
 
-**Confederation:** CAF · **FIFA ranking:** 33 · **Coach:** Emerse Faé · **Squad value:** €446.0m
+**Confederation:** CAF · **FIFA ranking:** 33 · **Coach:** Emerse Faé · **Squad value:** €446.0m · **GNP:** $80.8B (2024) · **GNP per capita:** $2,530
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Ecuador
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 23 · **Coach:** Sebastián Beccacece · **Squad value:** €416.0m
+**Confederation:** CONMEBOL · **FIFA ranking:** 23 · **Coach:** Sebastián Beccacece · **Squad value:** €416.0m · **GNP:** $116.2B (2023) · **GNP per capita:** $6,590
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

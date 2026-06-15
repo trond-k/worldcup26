@@ -9,7 +9,7 @@
 
 ### Portugal
 
-**Confederation:** UEFA · **FIFA ranking:** 5 · **Coach:** Roberto Martínez · **Squad value:** €970.0m
+**Confederation:** UEFA · **FIFA ranking:** 5 · **Coach:** Roberto Martínez · **Squad value:** €970.0m · **GNP:** $303.0B (2024) · **GNP per capita:** $26,620
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### DR Congo
 
-**Confederation:** CAF · **FIFA ranking:** 46 · **Coach:** Sébastien Desabre · **Squad value:** €167.6m
+**Confederation:** CAF · **FIFA ranking:** 46 · **Coach:** Sébastien Desabre · **Squad value:** €167.6m · **GNP:** $68.4B (2023) · **GNP per capita:** $660
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Uzbekistan
 
-**Confederation:** AFC · **FIFA ranking:** 50 · **Coach:** Fabio Cannavaro · **Squad value:** €66.1m
+**Confederation:** AFC · **FIFA ranking:** 50 · **Coach:** Fabio Cannavaro · **Squad value:** €66.1m · **GNP:** $116.1B (2024) · **GNP per capita:** $3,020
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Colombia
 
-**Confederation:** CONMEBOL · **FIFA ranking:** 13 · **Coach:** Néstor Lorenzo · **Squad value:** €339.1m
+**Confederation:** CONMEBOL · **FIFA ranking:** 13 · **Coach:** Néstor Lorenzo · **Squad value:** €339.1m · **GNP:** $359.8B (2023) · **GNP per capita:** $6,870
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

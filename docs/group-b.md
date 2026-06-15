@@ -9,7 +9,7 @@
 
 ### Canada
 
-**Confederation:** CONCACAF · **FIFA ranking:** 30 · **Coach:** Jesse Marsch · **Squad value:** €264.0m
+**Confederation:** CONCACAF · **FIFA ranking:** 30 · **Coach:** Jesse Marsch · **Squad value:** €264.0m · **GNP:** $2.21T (2024) · **GNP per capita:** $53,340
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Bosnia and Herzegovina
 
-**Confederation:** UEFA · **FIFA ranking:** 64 · **Coach:** Sergej Barbarez · **Squad value:** €122.8m
+**Confederation:** UEFA · **FIFA ranking:** 64 · **Coach:** Sergej Barbarez · **Squad value:** €122.8m · **GNP:** $28.3B (2024) · **GNP per capita:** $8,790
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Qatar
 
-**Confederation:** AFC · **FIFA ranking:** 57 · **Coach:** Julen Lopetegui · **Squad value:** €39.4m
+**Confederation:** AFC · **FIFA ranking:** 57 · **Coach:** Julen Lopetegui · **Squad value:** €39.4m · **GNP:** $210.8B (2024) · **GNP per capita:** $76,720
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Switzerland
 
-**Confederation:** UEFA · **FIFA ranking:** 19 · **Coach:** Murat Yakin · **Squad value:** €314.1m
+**Confederation:** UEFA · **FIFA ranking:** 19 · **Coach:** Murat Yakin · **Squad value:** €314.1m · **GNP:** $906.7B (2024) · **GNP per capita:** $95,220
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

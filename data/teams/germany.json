@@ -5,32 +5,217 @@
   "group": "E",
   "fifa_ranking": 10,
   "coach": "Julian Nagelsmann",
+  "gnp_usd": 4826329098254,
+  "gnp_per_capita_usd": 54960,
+  "gnp_year": 2024,
   "squad": [
-    { "name": "Manuel Neuer", "position": "GK", "club": "Bayern Munich", "club_country": "Germany", "age": 40, "market_value_eur": 4000000 },
-    { "name": "Oliver Baumann", "position": "GK", "club": "TSG Hoffenheim", "club_country": "Germany", "age": 35, "market_value_eur": 2000000 },
-    { "name": "Alexander Nübel", "position": "GK", "club": "VfB Stuttgart", "club_country": "Germany", "age": 29, "market_value_eur": 18000000 },
-    { "name": "Joshua Kimmich", "position": "DF", "club": "Bayern Munich", "club_country": "Germany", "age": 31, "market_value_eur": 45000000 },
-    { "name": "Antonio Rüdiger", "position": "DF", "club": "Real Madrid", "club_country": "Spain", "age": 33, "market_value_eur": 20000000 },
-    { "name": "Jonathan Tah", "position": "DF", "club": "Bayern Munich", "club_country": "Germany", "age": 30, "market_value_eur": 40000000 },
-    { "name": "Nico Schlotterbeck", "position": "DF", "club": "Borussia Dortmund", "club_country": "Germany", "age": 26, "market_value_eur": 45000000 },
-    { "name": "Waldemar Anton", "position": "DF", "club": "Borussia Dortmund", "club_country": "Germany", "age": 29, "market_value_eur": 18000000 },
-    { "name": "David Raum", "position": "DF", "club": "RB Leipzig", "club_country": "Germany", "age": 28, "market_value_eur": 25000000 },
-    { "name": "Malick Thiaw", "position": "DF", "club": "Newcastle United", "club_country": "England", "age": 24, "market_value_eur": 35000000 },
-    { "name": "Nathaniel Brown", "position": "DF", "club": "Eintracht Frankfurt", "club_country": "Germany", "age": 22, "market_value_eur": 22000000 },
-    { "name": "Aleksandar Pavlovic", "position": "MF", "club": "Bayern Munich", "club_country": "Germany", "age": 22, "market_value_eur": 45000000 },
-    { "name": "Leon Goretzka", "position": "MF", "club": "Bayern Munich", "club_country": "Germany", "age": 31, "market_value_eur": 20000000 },
-    { "name": "Angelo Stiller", "position": "MF", "club": "VfB Stuttgart", "club_country": "Germany", "age": 24, "market_value_eur": 45000000 },
-    { "name": "Felix Nmecha", "position": "MF", "club": "Borussia Dortmund", "club_country": "Germany", "age": 25, "market_value_eur": 35000000 },
-    { "name": "Florian Wirtz", "position": "MF", "club": "Liverpool", "club_country": "England", "age": 23, "market_value_eur": 140000000 },
-    { "name": "Jamal Musiala", "position": "MF", "club": "Bayern Munich", "club_country": "Germany", "age": 23, "market_value_eur": 130000000 },
-    { "name": "Leroy Sané", "position": "MF", "club": "Galatasaray", "club_country": "Turkey", "age": 30, "market_value_eur": 25000000 },
-    { "name": "Nadiem Amiri", "position": "MF", "club": "1. FSV Mainz 05", "club_country": "Germany", "age": 29, "market_value_eur": 15000000 },
-    { "name": "Pascal Groß", "position": "MF", "club": "Brighton & Hove Albion", "club_country": "England", "age": 34, "market_value_eur": 8000000 },
-    { "name": "Kai Havertz", "position": "FW", "club": "Arsenal", "club_country": "England", "age": 27, "market_value_eur": 65000000 },
-    { "name": "Nick Woltemade", "position": "FW", "club": "Newcastle United", "club_country": "England", "age": 24, "market_value_eur": 50000000 },
-    { "name": "Deniz Undav", "position": "FW", "club": "VfB Stuttgart", "club_country": "Germany", "age": 29, "market_value_eur": 30000000 },
-    { "name": "Maximilian Beier", "position": "FW", "club": "Borussia Dortmund", "club_country": "Germany", "age": 23, "market_value_eur": 30000000 },
-    { "name": "Jamie Leweling", "position": "FW", "club": "VfB Stuttgart", "club_country": "Germany", "age": 25, "market_value_eur": 18000000 },
-    { "name": "Assan Ouédraogo", "position": "MF", "club": "RB Leipzig", "club_country": "Germany", "age": 20, "market_value_eur": 22000000 }
+    {
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 40,
+      "market_value_eur": 4000000
+    },
+    {
+      "name": "Oliver Baumann",
+      "position": "GK",
+      "club": "TSG Hoffenheim",
+      "club_country": "Germany",
+      "age": 35,
+      "market_value_eur": 2000000
+    },
+    {
+      "name": "Alexander Nübel",
+      "position": "GK",
+      "club": "VfB Stuttgart",
+      "club_country": "Germany",
+      "age": 29,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Joshua Kimmich",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 31,
+      "market_value_eur": 45000000
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "position": "DF",
+      "club": "Real Madrid",
+      "club_country": "Spain",
+      "age": 33,
+      "market_value_eur": 20000000
+    },
+    {
+      "name": "Jonathan Tah",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 30,
+      "market_value_eur": 40000000
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "position": "DF",
+      "club": "Borussia Dortmund",
+      "club_country": "Germany",
+      "age": 26,
+      "market_value_eur": 45000000
+    },
+    {
+      "name": "Waldemar Anton",
+      "position": "DF",
+      "club": "Borussia Dortmund",
+      "club_country": "Germany",
+      "age": 29,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "David Raum",
+      "position": "DF",
+      "club": "RB Leipzig",
+      "club_country": "Germany",
+      "age": 28,
+      "market_value_eur": 25000000
+    },
+    {
+      "name": "Malick Thiaw",
+      "position": "DF",
+      "club": "Newcastle United",
+      "club_country": "England",
+      "age": 24,
+      "market_value_eur": 35000000
+    },
+    {
+      "name": "Nathaniel Brown",
+      "position": "DF",
+      "club": "Eintracht Frankfurt",
+      "club_country": "Germany",
+      "age": 22,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 22,
+      "market_value_eur": 45000000
+    },
+    {
+      "name": "Leon Goretzka",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 31,
+      "market_value_eur": 20000000
+    },
+    {
+      "name": "Angelo Stiller",
+      "position": "MF",
+      "club": "VfB Stuttgart",
+      "club_country": "Germany",
+      "age": 24,
+      "market_value_eur": 45000000
+    },
+    {
+      "name": "Felix Nmecha",
+      "position": "MF",
+      "club": "Borussia Dortmund",
+      "club_country": "Germany",
+      "age": 25,
+      "market_value_eur": 35000000
+    },
+    {
+      "name": "Florian Wirtz",
+      "position": "MF",
+      "club": "Liverpool",
+      "club_country": "England",
+      "age": 23,
+      "market_value_eur": 140000000
+    },
+    {
+      "name": "Jamal Musiala",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 23,
+      "market_value_eur": 130000000
+    },
+    {
+      "name": "Leroy Sané",
+      "position": "MF",
+      "club": "Galatasaray",
+      "club_country": "Turkey",
+      "age": 30,
+      "market_value_eur": 25000000
+    },
+    {
+      "name": "Nadiem Amiri",
+      "position": "MF",
+      "club": "1. FSV Mainz 05",
+      "club_country": "Germany",
+      "age": 29,
+      "market_value_eur": 15000000
+    },
+    {
+      "name": "Pascal Groß",
+      "position": "MF",
+      "club": "Brighton & Hove Albion",
+      "club_country": "England",
+      "age": 34,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Kai Havertz",
+      "position": "FW",
+      "club": "Arsenal",
+      "club_country": "England",
+      "age": 27,
+      "market_value_eur": 65000000
+    },
+    {
+      "name": "Nick Woltemade",
+      "position": "FW",
+      "club": "Newcastle United",
+      "club_country": "England",
+      "age": 24,
+      "market_value_eur": 50000000
+    },
+    {
+      "name": "Deniz Undav",
+      "position": "FW",
+      "club": "VfB Stuttgart",
+      "club_country": "Germany",
+      "age": 29,
+      "market_value_eur": 30000000
+    },
+    {
+      "name": "Maximilian Beier",
+      "position": "FW",
+      "club": "Borussia Dortmund",
+      "club_country": "Germany",
+      "age": 23,
+      "market_value_eur": 30000000
+    },
+    {
+      "name": "Jamie Leweling",
+      "position": "FW",
+      "club": "VfB Stuttgart",
+      "club_country": "Germany",
+      "age": 25,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Assan Ouédraogo",
+      "position": "MF",
+      "club": "RB Leipzig",
+      "club_country": "Germany",
+      "age": 20,
+      "market_value_eur": 22000000
+    }
   ]
 }

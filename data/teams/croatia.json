@@ -5,32 +5,217 @@
   "group": "L",
   "fifa_ranking": 10,
   "coach": "Zlatko Dalic",
+  "gnp_usd": 85350000000,
+  "gnp_per_capita_usd": 22080,
+  "gnp_year": 2024,
   "squad": [
-    { "name": "Dominik Livakovic", "position": "GK", "club": "Dinamo Zagreb", "club_country": "Croatia", "age": 31, "market_value_eur": 8000000 },
-    { "name": "Dominik Kotarski", "position": "GK", "club": "Copenhagen", "club_country": "Denmark", "age": 26, "market_value_eur": 6000000 },
-    { "name": "Ivor Pandur", "position": "GK", "club": "Hull City", "club_country": "England", "age": 26, "market_value_eur": 3000000 },
-    { "name": "Josko Gvardiol", "position": "DF", "club": "Manchester City", "club_country": "England", "age": 24, "market_value_eur": 75000000 },
-    { "name": "Duje Caleta-Car", "position": "DF", "club": "Real Sociedad", "club_country": "Spain", "age": 29, "market_value_eur": 10000000 },
-    { "name": "Josip Sutalo", "position": "DF", "club": "Ajax", "club_country": "Netherlands", "age": 26, "market_value_eur": 22000000 },
-    { "name": "Josip Stanisic", "position": "DF", "club": "Bayern Munich", "club_country": "Germany", "age": 26, "market_value_eur": 30000000 },
-    { "name": "Marin Pongracic", "position": "DF", "club": "Fiorentina", "club_country": "Italy", "age": 28, "market_value_eur": 14000000 },
-    { "name": "Martin Erlic", "position": "DF", "club": "Midtjylland", "club_country": "Denmark", "age": 28, "market_value_eur": 6000000 },
-    { "name": "Luka Vuskovic", "position": "DF", "club": "Hamburger SV", "club_country": "Germany", "age": 19, "market_value_eur": 20000000 },
-    { "name": "Luka Modric", "position": "MF", "club": "AC Milan", "club_country": "Italy", "age": 40, "market_value_eur": 3000000 },
-    { "name": "Mateo Kovacic", "position": "MF", "club": "Manchester City", "club_country": "England", "age": 32, "market_value_eur": 25000000 },
-    { "name": "Mario Pasalic", "position": "MF", "club": "Atalanta", "club_country": "Italy", "age": 31, "market_value_eur": 14000000 },
-    { "name": "Nikola Vlasic", "position": "MF", "club": "Torino", "club_country": "Italy", "age": 28, "market_value_eur": 12000000 },
-    { "name": "Luka Sucic", "position": "MF", "club": "Real Sociedad", "club_country": "Spain", "age": 23, "market_value_eur": 25000000 },
-    { "name": "Martin Baturina", "position": "MF", "club": "Como", "club_country": "Italy", "age": 22, "market_value_eur": 18000000 },
-    { "name": "Kristijan Jakic", "position": "MF", "club": "Augsburg", "club_country": "Germany", "age": 28, "market_value_eur": 8000000 },
-    { "name": "Petar Sucic", "position": "MF", "club": "Inter Milan", "club_country": "Italy", "age": 22, "market_value_eur": 25000000 },
-    { "name": "Nikola Moro", "position": "MF", "club": "Bologna", "club_country": "Italy", "age": 27, "market_value_eur": 10000000 },
-    { "name": "Toni Fruk", "position": "MF", "club": "Rijeka", "club_country": "Croatia", "age": 24, "market_value_eur": 7000000 },
-    { "name": "Ivan Perisic", "position": "FW", "club": "PSV Eindhoven", "club_country": "Netherlands", "age": 37, "market_value_eur": 5000000 },
-    { "name": "Andrej Kramaric", "position": "FW", "club": "Hoffenheim", "club_country": "Germany", "age": 34, "market_value_eur": 6000000 },
-    { "name": "Ante Budimir", "position": "FW", "club": "Osasuna", "club_country": "Spain", "age": 34, "market_value_eur": 6000000 },
-    { "name": "Marco Pasalic", "position": "FW", "club": "Orlando City", "club_country": "United States", "age": 25, "market_value_eur": 10000000 },
-    { "name": "Petar Musa", "position": "FW", "club": "FC Dallas", "club_country": "United States", "age": 28, "market_value_eur": 18000000 },
-    { "name": "Igor Matanovic", "position": "FW", "club": "Freiburg", "club_country": "Germany", "age": 22, "market_value_eur": 10000000 }
+    {
+      "name": "Dominik Livakovic",
+      "position": "GK",
+      "club": "Dinamo Zagreb",
+      "club_country": "Croatia",
+      "age": 31,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Dominik Kotarski",
+      "position": "GK",
+      "club": "Copenhagen",
+      "club_country": "Denmark",
+      "age": 26,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Ivor Pandur",
+      "position": "GK",
+      "club": "Hull City",
+      "club_country": "England",
+      "age": 26,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Josko Gvardiol",
+      "position": "DF",
+      "club": "Manchester City",
+      "club_country": "England",
+      "age": 24,
+      "market_value_eur": 75000000
+    },
+    {
+      "name": "Duje Caleta-Car",
+      "position": "DF",
+      "club": "Real Sociedad",
+      "club_country": "Spain",
+      "age": 29,
+      "market_value_eur": 10000000
+    },
+    {
+      "name": "Josip Sutalo",
+      "position": "DF",
+      "club": "Ajax",
+      "club_country": "Netherlands",
+      "age": 26,
+      "market_value_eur": 22000000
+    },
+    {
+      "name": "Josip Stanisic",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "club_country": "Germany",
+      "age": 26,
+      "market_value_eur": 30000000
+    },
+    {
+      "name": "Marin Pongracic",
+      "position": "DF",
+      "club": "Fiorentina",
+      "club_country": "Italy",
+      "age": 28,
+      "market_value_eur": 14000000
+    },
+    {
+      "name": "Martin Erlic",
+      "position": "DF",
+      "club": "Midtjylland",
+      "club_country": "Denmark",
+      "age": 28,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Luka Vuskovic",
+      "position": "DF",
+      "club": "Hamburger SV",
+      "club_country": "Germany",
+      "age": 19,
+      "market_value_eur": 20000000
+    },
+    {
+      "name": "Luka Modric",
+      "position": "MF",
+      "club": "AC Milan",
+      "club_country": "Italy",
+      "age": 40,
+      "market_value_eur": 3000000
+    },
+    {
+      "name": "Mateo Kovacic",
+      "position": "MF",
+      "club": "Manchester City",
+      "club_country": "England",
+      "age": 32,
+      "market_value_eur": 25000000
+    },
+    {
+      "name": "Mario Pasalic",
+      "position": "MF",
+      "club": "Atalanta",
+      "club_country": "Italy",
+      "age": 31,
+      "market_value_eur": 14000000
+    },
+    {
+      "name": "Nikola Vlasic",
+      "position": "MF",
+      "club": "Torino",
+      "club_country": "Italy",
+      "age": 28,
+      "market_value_eur": 12000000
+    },
+    {
+      "name": "Luka Sucic",
+      "position": "MF",
+      "club": "Real Sociedad",
+      "club_country": "Spain",
+      "age": 23,
+      "market_value_eur": 25000000
+    },
+    {
+      "name": "Martin Baturina",
+      "position": "MF",
+      "club": "Como",
+      "club_country": "Italy",
+      "age": 22,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Kristijan Jakic",
+      "position": "MF",
+      "club": "Augsburg",
+      "club_country": "Germany",
+      "age": 28,
+      "market_value_eur": 8000000
+    },
+    {
+      "name": "Petar Sucic",
+      "position": "MF",
+      "club": "Inter Milan",
+      "club_country": "Italy",
+      "age": 22,
+      "market_value_eur": 25000000
+    },
+    {
+      "name": "Nikola Moro",
+      "position": "MF",
+      "club": "Bologna",
+      "club_country": "Italy",
+      "age": 27,
+      "market_value_eur": 10000000
+    },
+    {
+      "name": "Toni Fruk",
+      "position": "MF",
+      "club": "Rijeka",
+      "club_country": "Croatia",
+      "age": 24,
+      "market_value_eur": 7000000
+    },
+    {
+      "name": "Ivan Perisic",
+      "position": "FW",
+      "club": "PSV Eindhoven",
+      "club_country": "Netherlands",
+      "age": 37,
+      "market_value_eur": 5000000
+    },
+    {
+      "name": "Andrej Kramaric",
+      "position": "FW",
+      "club": "Hoffenheim",
+      "club_country": "Germany",
+      "age": 34,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Ante Budimir",
+      "position": "FW",
+      "club": "Osasuna",
+      "club_country": "Spain",
+      "age": 34,
+      "market_value_eur": 6000000
+    },
+    {
+      "name": "Marco Pasalic",
+      "position": "FW",
+      "club": "Orlando City",
+      "club_country": "United States",
+      "age": 25,
+      "market_value_eur": 10000000
+    },
+    {
+      "name": "Petar Musa",
+      "position": "FW",
+      "club": "FC Dallas",
+      "club_country": "United States",
+      "age": 28,
+      "market_value_eur": 18000000
+    },
+    {
+      "name": "Igor Matanovic",
+      "position": "FW",
+      "club": "Freiburg",
+      "club_country": "Germany",
+      "age": 22,
+      "market_value_eur": 10000000
+    }
   ]
 }

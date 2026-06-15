@@ -9,7 +9,7 @@
 
 ### Netherlands
 
-**Confederation:** UEFA · **FIFA ranking:** 7 · **Coach:** Ronald Koeman · **Squad value:** €816.0m
+**Confederation:** UEFA · **FIFA ranking:** 7 · **Coach:** Ronald Koeman · **Squad value:** €816.0m · **GNP:** $1.21T (2024) · **GNP per capita:** $62,840
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Japan
 
-**Confederation:** AFC · **FIFA ranking:** 18 · **Coach:** Hajime Moriyasu · **Squad value:** €351.5m
+**Confederation:** AFC · **FIFA ranking:** 18 · **Coach:** Hajime Moriyasu · **Squad value:** €351.5m · **GNP:** $4.47T (2024) · **GNP per capita:** $36,030
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Sweden
 
-**Confederation:** UEFA · **FIFA ranking:** 38 · **Coach:** Graham Potter · **Squad value:** €523.6m
+**Confederation:** UEFA · **FIFA ranking:** 38 · **Coach:** Graham Potter · **Squad value:** €523.6m · **GNP:** $636.9B (2024) · **GNP per capita:** $58,190
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Tunisia
 
-**Confederation:** CAF · **FIFA ranking:** 44 · **Coach:** Sabri Lamouchi · **Squad value:** €100.5m
+**Confederation:** CAF · **FIFA ranking:** 44 · **Coach:** Sabri Lamouchi · **Squad value:** €100.5m · **GNP:** $46.8B (2023) · **GNP per capita:** $3,770
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|

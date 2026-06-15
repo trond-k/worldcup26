@@ -9,7 +9,7 @@
 
 ### England
 
-**Confederation:** UEFA · **FIFA ranking:** 4 · **Coach:** Thomas Tuchel · **Squad value:** €1404.0m
+**Confederation:** UEFA · **FIFA ranking:** 4 · **Coach:** Thomas Tuchel · **Squad value:** €1404.0m · **GNP:** $2.76T (2023) · **GNP per capita:** $48,640
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -42,7 +42,7 @@
 
 ### Croatia
 
-**Confederation:** UEFA · **FIFA ranking:** 10 · **Coach:** Zlatko Dalic · **Squad value:** €396.0m
+**Confederation:** UEFA · **FIFA ranking:** 10 · **Coach:** Zlatko Dalic · **Squad value:** €396.0m · **GNP:** $85.3B (2024) · **GNP per capita:** $22,080
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -75,7 +75,7 @@
 
 ### Ghana
 
-**Confederation:** CAF · **FIFA ranking:** 73 · **Coach:** Carlos Queiroz · **Squad value:** €212.6m
+**Confederation:** CAF · **FIFA ranking:** 73 · **Coach:** Carlos Queiroz · **Squad value:** €212.6m · **GNP:** $79.7B (2024) · **GNP per capita:** $2,320
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
@@ -108,7 +108,7 @@
 
 ### Panama
 
-**Confederation:** CONCACAF · **FIFA ranking:** 30 · **Coach:** Thomas Christiansen · **Squad value:** €35.3m
+**Confederation:** CONCACAF · **FIFA ranking:** 30 · **Coach:** Thomas Christiansen · **Squad value:** €35.3m · **GNP:** $81.9B (2024) · **GNP per capita:** $17,960
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
