@@ -199,15 +199,14 @@ def team_block(slug, by_slug):
     t = by_slug.get(slug)
     if not t:
         return f'<div class="team"><span class="tname">{esc(slug)}</span></div>'
-    grp = (f'<span class="tgroup">Group {esc(t.get("group", ""))}</span>'
-           if t.get("group") else "")
     name_link = link(f"team/{t['slug']}.html", t["name"])
     return (
         '<div class="team">'
-        f'<span class="tname">{name_link}</span>{grp}'
+        f'<span class="tname">{name_link}</span>'
         '<dl class="card-stats">'
         f'<div><dt>Squad value</dt><dd>{esc(fmt_eur(squad_value(t)))}</dd></div>'
         f'<div><dt>Citizens</dt><dd>{esc(fmt_count(t.get("population")))}</dd></div>'
+        f'<div><dt>GNP/capita</dt><dd>{esc(fmt_usd(t.get("gnp_per_capita_usd")))}</dd></div>'
         '</dl></div>'
     )
 
@@ -221,10 +220,12 @@ def render_match_card(m, by_slug, details):
     if m.get("id") in details:
         centre = f'<a class="centre-link" href="match/{esc(m["id"])}.html">{centre}</a>'
     grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+    grp_html = f'<div class="mc-group">{esc(grp)}</div>' if grp else ""
     return (
         '<div class="match-card">'
+        f'{grp_html}'
         f'{team_block(m["home"], by_slug)}'
-        f'<div class="centre">{centre}<span class="cmeta">{esc(grp)}</span></div>'
+        f'<div class="centre">{centre}</div>'
         f'{team_block(m["away"], by_slug)}'
         '</div>'
     )

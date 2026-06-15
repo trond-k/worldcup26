@@ -137,10 +137,18 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   padding: 0.9rem 0.8rem;
   background: var(--zebra);
 }
+.match-card .mc-group {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2rem;
+}
 .match-card .team { display: flex; flex-direction: column; gap: 0.3rem; }
 .match-card .team:last-child { text-align: right; }
 .match-card .tname { font-weight: 600; line-height: 1.2; }
-.match-card .tgroup { color: var(--muted); font-size: 0.8rem; }
 .match-card dl.card-stats { margin: 0.2rem 0 0; display: block; }
 .match-card dl.card-stats div { margin: 0.1rem 0; }
 .match-card dl.card-stats dt {
@@ -165,7 +173,6 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
 .match-card .centre-link { text-decoration: none; }
 .match-card .score { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
 .match-card .vs { font-size: 1rem; color: var(--muted); font-style: italic; }
-.match-card .cmeta { color: var(--muted); font-size: 0.72rem; margin-top: 0.2rem; }
 
 /* Match-detail blocks */
 .lineups { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
