@@ -1,0 +1,102 @@
+{
+  "id": "2026-06-14-australia-vs-turkiye",
+  "date": "2026-06-14",
+  "home": "australia",
+  "away": "turkiye",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 52497,
+  "referee": "Jesús Valenzuela",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463",
+    "https://www.skysports.com/football/news/12098/13552630/world-cup-2026-australia-2-0-turkey-socceroos-make-winning-start-to-group-d-campaign-in-vancouver",
+    "https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia",
+    "https://theanalyst.com/articles/australia-vs-turkiye-stats-world-cup-2026",
+    "https://ca.sports.yahoo.com/news/world-cup-2026-australia-vs-030500567.html",
+    "https://www.sbs.com.au/news/live-blog/australia-vs-turkiye-world-cup-live-score-updates/e7r7yd3iz",
+    "https://www.sofascore.com/news/australia-2-0-turkiye-beachs-saves-power-a-perfect-start"
+  ],
+  "goals": [
+    {"team": "australia", "player": "Nestory Irankunda", "minute": "27", "type": "regular", "assist": "Paul Okon-Engstler"},
+    {"team": "australia", "player": "Connor Metcalfe", "minute": "75", "type": "regular", "assist": null}
+  ],
+  "cards": [
+    {"team": "turkiye", "player": "Yunus Akgün", "minute": "86", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "australia", "off": "Nestory Irankunda", "on": "Nishan Velupillay", "minute": "60"},
+    {"team": "australia", "off": "Jacob Italiano", "on": "Jason Geria", "minute": "74"},
+    {"team": "australia", "off": "Mohamed Toure", "on": "Tete Yengi", "minute": "74"},
+    {"team": "australia", "off": "Jordan Bos", "on": "Jackson Irvine", "minute": "84"},
+    {"team": "australia", "off": "Paul Okon-Engstler", "on": "Aziz Behich", "minute": "84"},
+    {"team": "turkiye", "off": "Barış Alper Yılmaz", "on": "Kenan Yıldız", "minute": "46"},
+    {"team": "turkiye", "off": "Orkun Kökçü", "on": "Yunus Akgün", "minute": "62"},
+    {"team": "turkiye", "off": "Zeki Çelik", "on": "Mert Müldür", "minute": "81"},
+    {"team": "turkiye", "off": "İsmail Yüksek", "on": "Salih Özcan", "minute": "82"},
+    {"team": "turkiye", "off": "Kerem Aktürkoğlu", "on": "Deniz Gül", "minute": "85"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Tony Popovic",
+      "starting": [
+        {"name": "Patrick Beach", "position": "GK", "number": null},
+        {"name": "Alessandro Circati", "position": "DF", "number": null},
+        {"name": "Harry Souttar", "position": "DF", "number": null},
+        {"name": "Cameron Burgess", "position": "DF", "number": null},
+        {"name": "Jacob Italiano", "position": "DF", "number": null},
+        {"name": "Jordan Bos", "position": "DF", "number": null},
+        {"name": "Connor Metcalfe", "position": "MF", "number": null},
+        {"name": "Aiden O'Neill", "position": "MF", "number": null},
+        {"name": "Paul Okon-Engstler", "position": "MF", "number": null},
+        {"name": "Nestory Irankunda", "position": "FW", "number": null},
+        {"name": "Mohamed Toure", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Vincenzo Montella",
+      "starting": [
+        {"name": "Uğurcan Çakır", "position": "GK", "number": null},
+        {"name": "Zeki Çelik", "position": "DF", "number": null},
+        {"name": "Merih Demiral", "position": "DF", "number": null},
+        {"name": "Abdülkerim Bardakcı", "position": "DF", "number": null},
+        {"name": "Ferdi Kadıoğlu", "position": "DF", "number": null},
+        {"name": "Hakan Çalhanoğlu", "position": "MF", "number": null},
+        {"name": "Orkun Kökçü", "position": "MF", "number": null},
+        {"name": "İsmail Yüksek", "position": "MF", "number": null},
+        {"name": "Kerem Aktürkoğlu", "position": "FW", "number": null},
+        {"name": "Arda Güler", "position": "FW", "number": null},
+        {"name": "Barış Alper Yılmaz", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 28,
+      "shots": 9,
+      "shots_on_target": 4,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 8,
+      "passes": 273,
+      "pass_accuracy": 75
+    },
+    "away": {
+      "possession": 72,
+      "shots": 30,
+      "shots_on_target": 8,
+      "corners": 8,
+      "fouls": 4,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 679,
+      "pass_accuracy": 91
+    }
+  }
+}

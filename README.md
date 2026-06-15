@@ -18,10 +18,12 @@ data/
   tournament.json      # hosts, dates, format, and the group → team index
   teams/<slug>.json    # one file per team: metadata + 26-man squad (source of truth)
   results/<date>.json  # one file per matchday date: match results (source of truth)
+  results/matches/<id>.json  # rich per-match detail: goals, lineups, subs, cards, stats
 schema/
   tournament.schema.json
   team.schema.json     # JSON Schema describing a team file
   results.schema.json  # JSON Schema describing a results file
+  match-detail.schema.json  # JSON Schema describing a per-match detail file
 docs/                  # GENERATED — do not edit by hand (run the scripts)
   README.md            # browsable index of all groups
   group-a.md … group-l.md
@@ -90,6 +92,13 @@ that date:
 - `home` / `away` reference team slugs; group matches must use teams from that group.
 - `status` is `completed` (integer scores) or `scheduled` (null scores).
 - Group standings in `docs/results.md` are computed from completed matches.
+
+Each completed match may also have a rich detail file at
+`data/results/matches/<id>.json` (the `id` matches the match's `id` in the date
+file). It holds goal scorers (with minute, type and assist), starting lineups,
+substitutions, cards, team statistics, attendance and referee. All detail fields
+are optional/partial — only corroborated data is included, and unknown values are
+left `null`. Validation enforces that listed goals reconcile to the final score.
 
 ## Usage
 

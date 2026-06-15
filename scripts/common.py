@@ -7,6 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
 TEAMS_DIR = os.path.join(DATA_DIR, "teams")
 RESULTS_DIR = os.path.join(DATA_DIR, "results")
+MATCHES_DIR = os.path.join(RESULTS_DIR, "matches")
 DOCS_DIR = os.path.join(ROOT, "docs")
 TOURNAMENT_PATH = os.path.join(DATA_DIR, "tournament.json")
 
@@ -60,6 +61,18 @@ def load_results():
             m.setdefault("date", day.get("date"))
             matches.append(m)
     return matches
+
+
+def load_match_details():
+    """Return {match_id: detail_dict} from data/results/matches/*.json."""
+    details = {}
+    if not os.path.isdir(MATCHES_DIR):
+        return details
+    for fname in sorted(f for f in os.listdir(MATCHES_DIR) if f.endswith(".json")):
+        d = load_json(os.path.join(MATCHES_DIR, fname))
+        if d.get("id"):
+            details[d["id"]] = d
+    return details
 
 
 def compute_standings(teams, matches):

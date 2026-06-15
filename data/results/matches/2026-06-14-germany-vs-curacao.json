@@ -1,0 +1,76 @@
+{
+  "id": "2026-06-14-germany-vs-curacao",
+  "date": "2026-06-14",
+  "home": "germany",
+  "away": "curacao",
+  "home_score": 7,
+  "away_score": 1,
+  "attendance": 68021,
+  "referee": "Jalal Jayed",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464",
+    "https://www.fifa.com/en/articles/germany-curacao-highlights-match-report",
+    "https://theanalyst.com/articles/germany-vs-curacao-stats-world-cup-2026",
+    "https://www.skysports.com/football/germany-vs-curacao/report/549774",
+    "https://www.bundesliga.com/en/bundesliga/news/germany-curacao-world-cup-7-1-houston-stadium-group-e-report-havertz-37814",
+    "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
+    "https://www.nbcsports.com/soccer/world-cup/live/germany-vs-curacao-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-14"
+  ],
+  "goals": [
+    {"team": "germany", "player": "Felix Nmecha", "minute": "6", "type": "regular", "assist": "Florian Wirtz"},
+    {"team": "curacao", "player": "Livano Comenencia", "minute": "21", "type": "regular", "assist": null},
+    {"team": "germany", "player": "Nico Schlotterbeck", "minute": "38", "type": "regular", "assist": "Nathaniel Brown"},
+    {"team": "germany", "player": "Kai Havertz", "minute": "45+5", "type": "penalty", "assist": null},
+    {"team": "germany", "player": "Jamal Musiala", "minute": "47", "type": "regular", "assist": "Joshua Kimmich"},
+    {"team": "germany", "player": "Nathaniel Brown", "minute": "68", "type": "regular", "assist": "Deniz Undav"},
+    {"team": "germany", "player": "Deniz Undav", "minute": "78", "type": "regular", "assist": "Joshua Kimmich"},
+    {"team": "germany", "player": "Kai Havertz", "minute": "88", "type": "regular", "assist": "Deniz Undav"}
+  ],
+  "cards": [],
+  "substitutions": [
+    {"team": "germany", "off": "Jamal Musiala", "on": "Deniz Undav", "minute": "66"},
+    {"team": "germany", "off": "Jonathan Tah", "on": "Antonio Rüdiger", "minute": "73"},
+    {"team": "germany", "off": "Felix Nmecha", "on": "Leon Goretzka", "minute": "73"},
+    {"team": "germany", "off": "Nathaniel Brown", "on": "David Raum", "minute": "73"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Julian Nagelsmann",
+      "starting": [
+        {"name": "Manuel Neuer", "position": "GK", "number": null},
+        {"name": "Joshua Kimmich", "position": "DF", "number": null},
+        {"name": "Jonathan Tah", "position": "DF", "number": null},
+        {"name": "Nico Schlotterbeck", "position": "DF", "number": null},
+        {"name": "Nathaniel Brown", "position": "DF", "number": null},
+        {"name": "Aleksandar Pavlovic", "position": "MF", "number": null},
+        {"name": "Felix Nmecha", "position": "MF", "number": null},
+        {"name": "Leroy Sané", "position": "MF", "number": null},
+        {"name": "Jamal Musiala", "position": "MF", "number": null},
+        {"name": "Florian Wirtz", "position": "MF", "number": null},
+        {"name": "Kai Havertz", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Dick Advocaat",
+      "starting": [
+        {"name": "Eloy Room", "position": "GK", "number": null},
+        {"name": "Sherel Floranus", "position": "DF", "number": null},
+        {"name": "Armando Obispo", "position": "DF", "number": null},
+        {"name": "Riechedly Bazoer", "position": "DF", "number": null},
+        {"name": "Deveron Fonville", "position": "DF", "number": null},
+        {"name": "Leandro Bacuna", "position": "MF", "number": null},
+        {"name": "Juninho Bacuna", "position": "MF", "number": null},
+        {"name": "Livano Comenencia", "position": "MF", "number": null},
+        {"name": "Sontje Hansen", "position": "FW", "number": null},
+        {"name": "Tahith Chong", "position": "FW", "number": null},
+        {"name": "Jurgen Locadia", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 65, "shots": 26, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
+    "away": {"possession": 35, "shots": 8, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null}
+  }
+}

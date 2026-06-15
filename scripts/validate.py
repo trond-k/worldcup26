@@ -8,13 +8,16 @@ Usage: python3 scripts/validate.py
 """
 
 import os
+import re
 import sys
 
 from common import (
     GROUP_LETTERS,
+    MATCHES_DIR,
     POSITIONS,
     RESULTS_DIR,
     TEAMS_DIR,
+    load_results,
     load_tournament,
     team_path,
     load_json,
@@ -27,6 +30,14 @@ STAGES = {
     "semi-final", "third-place", "final",
 }
 RESULT_STATUSES = {"completed", "scheduled"}
+GOAL_TYPES = {"regular", "penalty", "own_goal"}
+CARD_TYPES = {"yellow", "second-yellow", "red"}
+MINUTE_RE = re.compile(r"^\d{1,3}(\+\d{1,2})?$")
+
+
+def _minute_ok(value):
+    """A minute may be null (unknown) or a string like '9', '45+1', '90+2'."""
+    return value is None or bool(MINUTE_RE.match(str(value)))
 
 
 def validate():
@@ -74,7 +85,101 @@ def validate():
     # --- results validation ---
     _validate_results(set(all_slugs), groups, errors, warnings)
 
+    # --- match-detail validation ---
+    _validate_match_details(set(all_slugs), errors, warnings)
+
     return errors, warnings
+
+
+def _validate_match_details(valid_slugs, errors, warnings):
+    if not os.path.isdir(MATCHES_DIR):
+        return
+    # index completed matches from the results files by id
+    completed = {}
+    for m in load_results():
+        if m.get("status") == "completed" and m.get("id"):
+            completed[m["id"]] = m
+
+    for fname in sorted(f for f in os.listdir(MATCHES_DIR) if f.endswith(".json")):
+        d = load_json(os.path.join(MATCHES_DIR, fname))
+        mid = d.get("id")
+        tag = f"matches/{fname}"
+
+        def err(msg):
+            errors.append(f"{tag}: {msg}")
+
+        if not mid or fname != f"{mid}.json":
+            err(f"id '{mid}' does not match filename")
+            continue
+        base = completed.get(mid)
+        if base is None:
+            err("no matching completed match with this id in data/results/")
+            continue
+
+        home, away = d.get("home"), d.get("away")
+        sides = {home, away}
+        if home != base["home"] or away != base["away"]:
+            err("home/away do not match the results entry")
+        for fld in ("home_score", "away_score"):
+            if d.get(fld) != base.get(fld):
+                err(f"{fld} {d.get(fld)!r} does not match results value {base.get(fld)!r}")
+
+        # goals: enums, minute format, team membership, reconcile to score
+        tallies = {home: 0, away: 0}
+        for i, g in enumerate(d.get("goals", [])):
+            gt = f"goal #{i + 1}"
+            if g.get("team") not in sides:
+                err(f"{gt}: team '{g.get('team')}' is not in this match")
+            else:
+                tallies[g["team"]] += 1
+            if not g.get("player"):
+                err(f"{gt}: missing player")
+            if g.get("type") not in GOAL_TYPES:
+                err(f"{gt}: invalid type '{g.get('type')}'")
+            if not _minute_ok(g.get("minute")):
+                err(f"{gt}: invalid minute '{g.get('minute')}'")
+        if d.get("goals"):
+            if tallies.get(home) != d.get("home_score"):
+                err(f"goals credited to home ({tallies.get(home)}) != home_score ({d.get('home_score')})")
+            if tallies.get(away) != d.get("away_score"):
+                err(f"goals credited to away ({tallies.get(away)}) != away_score ({d.get('away_score')})")
+
+        for i, c in enumerate(d.get("cards", [])):
+            ct = f"card #{i + 1}"
+            if c.get("team") not in sides:
+                err(f"{ct}: team '{c.get('team')}' is not in this match")
+            if c.get("card") not in CARD_TYPES:
+                err(f"{ct}: invalid card '{c.get('card')}'")
+            if not _minute_ok(c.get("minute")):
+                err(f"{ct}: invalid minute '{c.get('minute')}'")
+
+        for i, s in enumerate(d.get("substitutions", [])):
+            st = f"sub #{i + 1}"
+            if s.get("team") not in sides:
+                err(f"{st}: team '{s.get('team')}' is not in this match")
+            if not s.get("off") and not s.get("on"):
+                err(f"{st}: substitution needs at least one of off/on")
+            if not _minute_ok(s.get("minute")):
+                err(f"{st}: invalid minute '{s.get('minute')}'")
+
+        lineups = d.get("lineups", {})
+        for side_key, slug in (("home", home), ("away", away)):
+            lu = lineups.get(side_key)
+            if not lu:
+                continue
+            starting = lu.get("starting", [])
+            if starting and len(starting) != 11:
+                warnings.append(f"{tag}: {side_key} starting XI has {len(starting)} players, expected 11")
+            for p in starting:
+                if not p.get("name"):
+                    err(f"{side_key} lineup: a starter is missing a name")
+                pos = p.get("position")
+                if pos is not None and pos not in POSITIONS:
+                    err(f"{side_key} lineup: invalid position '{pos}' for {p.get('name')}")
+
+    for mid in completed:
+        if not os.path.exists(os.path.join(MATCHES_DIR, f"{mid}.json")):
+            warnings.append(f"no match-detail file yet for completed match '{mid}'")
 
 
 def _validate_results(valid_slugs, groups, errors, warnings):
@@ -178,9 +283,12 @@ def main():
             if fname.endswith(".json"):
                 n_result_files += 1
                 n_matches += len(load_json(os.path.join(RESULTS_DIR, fname)).get("matches", []))
+    n_details = 0
+    if os.path.isdir(MATCHES_DIR):
+        n_details = len([f for f in os.listdir(MATCHES_DIR) if f.endswith(".json")])
     print(
-        f"\nChecked {n_teams}/48 team files and {n_matches} matches "
-        f"across {n_result_files} result file(s). "
+        f"\nChecked {n_teams}/48 team files, {n_matches} matches "
+        f"across {n_result_files} result file(s), and {n_details} match-detail file(s). "
         f"{len(errors)} error(s), {len(warnings)} warning(s)."
     )
     sys.exit(1 if errors else 0)

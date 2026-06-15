@@ -1,0 +1,73 @@
+{
+  "id": "2026-06-12-canada-vs-bosnia-herzegovina",
+  "date": "2026-06-12",
+  "home": "canada",
+  "away": "bosnia-herzegovina",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 43002,
+  "referee": "Facundo Tello",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-bosnia-and-herzegovina-highlights-match-report",
+    "https://www.espn.com/soccer/report/_/gameId/760416",
+    "https://www.cbc.ca/sports/soccer/worldcup/fifa-canada-bosnia-recap-june-12-9.7232772",
+    "https://www.tsn.ca/soccer/article/canada-surrenders-first-goal-in-fifa-world-cup-opener-against-bosnia-herzegovina/",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-canada-vs-bosnia-and-herzegovina-jun-12-2026-game-boxscore-647618",
+    "https://canadiansoccerdaily.com/2026/06/09/argentine-facundo-tello-appointed-to-referee-canada-vs-bosnia/",
+    "https://www.whoscored.com/news/R9mdfUnTokiU8iFlfE6PsQ/show/20260612-canada-vs-bosnia-and-herzegovina-confirmed-lineup-1781290244"
+  ],
+  "goals": [
+    {"team": "bosnia-herzegovina", "player": "Jovo Lukić", "minute": "21", "type": "regular", "assist": "Ivan Bašić"},
+    {"team": "canada", "player": "Cyle Larin", "minute": "78", "type": "regular", "assist": "Promise David"}
+  ],
+  "cards": [
+    {"team": "bosnia-herzegovina", "player": "Ermedin Demirović", "minute": "45", "card": "yellow"},
+    {"team": "bosnia-herzegovina", "player": "Jovo Lukić", "minute": "45+1", "card": "yellow"},
+    {"team": "canada", "player": "Luc de Fougerolles", "minute": "53", "card": "yellow"},
+    {"team": "bosnia-herzegovina", "player": "Nikola Katić", "minute": "90+3", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "canada", "off": "Liam Millar", "on": "Jacob Shaffelburg", "minute": "61"},
+    {"team": "canada", "off": "Tani Oluwaseyi", "on": "Cyle Larin", "minute": "76"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Jesse Marsch",
+      "starting": [
+        {"name": "Maxime Crépeau", "position": "GK", "number": null},
+        {"name": "Alistair Johnston", "position": "DF", "number": null},
+        {"name": "Luc de Fougerolles", "position": "DF", "number": null},
+        {"name": "Derek Cornelius", "position": "DF", "number": null},
+        {"name": "Richie Laryea", "position": "DF", "number": null},
+        {"name": "Tajon Buchanan", "position": "MF", "number": null},
+        {"name": "Stephen Eustáquio", "position": "MF", "number": null},
+        {"name": "Ismaël Koné", "position": "MF", "number": null},
+        {"name": "Liam Millar", "position": "MF", "number": null},
+        {"name": "Jonathan David", "position": "FW", "number": null},
+        {"name": "Tani Oluwaseyi", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Sergej Barbarez",
+      "starting": [
+        {"name": "Nikola Vasilj", "position": "GK", "number": null},
+        {"name": "Amar Dedić", "position": "DF", "number": null},
+        {"name": "Sead Kolašinac", "position": "DF", "number": null},
+        {"name": "Nikola Katić", "position": "DF", "number": null},
+        {"name": "Tarik Muharemović", "position": "DF", "number": null},
+        {"name": "Benjamin Tahirović", "position": "MF", "number": null},
+        {"name": "Ivan Bašić", "position": "MF", "number": null},
+        {"name": "Amar Memić", "position": "MF", "number": null},
+        {"name": "Esmir Bajraktarević", "position": "MF", "number": null},
+        {"name": "Ermedin Demirović", "position": "FW", "number": null},
+        {"name": "Jovo Lukić", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 60, "shots": 8, "shots_on_target": 3, "corners": 9, "fouls": null, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
+    "away": {"possession": 40, "shots": 8, "shots_on_target": 4, "corners": 4, "fouls": null, "offsides": null, "yellow_cards": 3, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null}
+  }
+}

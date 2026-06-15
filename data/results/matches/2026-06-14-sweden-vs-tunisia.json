@@ -1,0 +1,104 @@
+{
+  "id": "2026-06-14-sweden-vs-tunisia",
+  "date": "2026-06-14",
+  "home": "sweden",
+  "away": "tunisia",
+  "home_score": 5,
+  "away_score": 1,
+  "attendance": 50987,
+  "referee": "Yael Falcon Perez",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474",
+    "https://www.skysports.com/football/news/33694/13552698/world-cup-2026-sweden-5-1-tunisia-viktor-gyokeres-and-alexander-isak-guide-graham-potters-side-to-victory",
+    "https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden",
+    "https://theanalyst.com/articles/sweden-vs-tunisia-stats-world-cup-2026",
+    "https://www.sofascore.com/news/alexander-isak-delivers-1g2a-as-sweden-sweep-tunisia-5-1-in-world-cup-opener",
+    "https://www.nbcnews.com/sports/soccer/sweden-tunisia-world-cup-rcna350070",
+    "https://www.france24.com/en/sport/20260615-world-cup-2026-sweden-make-statement-with-commanding-victory-over-tunisia",
+    "https://foot-africa.com/en/news/2026-world-cup-yael-falcon-perez-to-referee-tunisia-vs-sweden-1240405/"
+  ],
+  "goals": [
+    { "team": "sweden", "player": "Yasin Ayari", "minute": "7", "type": "regular", "assist": null },
+    { "team": "sweden", "player": "Alexander Isak", "minute": "30", "type": "regular", "assist": "Viktor Gyokeres" },
+    { "team": "tunisia", "player": "Omar Rekik", "minute": "43", "type": "regular", "assist": "Hannibal Mejbri" },
+    { "team": "sweden", "player": "Viktor Gyokeres", "minute": "59", "type": "regular", "assist": "Alexander Isak" },
+    { "team": "sweden", "player": "Mattias Svanberg", "minute": "84", "type": "regular", "assist": "Alexander Isak" },
+    { "team": "sweden", "player": "Yasin Ayari", "minute": "90+6", "type": "regular", "assist": null }
+  ],
+  "cards": [
+    { "team": "tunisia", "player": "Rani Khedira", "minute": "54", "card": "yellow" }
+  ],
+  "substitutions": [
+    { "team": "sweden", "off": "Benjamin Nygren", "on": "Lucas Bergvall", "minute": "65" },
+    { "team": "sweden", "off": "Jesper Karlstrom", "on": "Mattias Svanberg", "minute": "84" },
+    { "team": "sweden", "off": "Alexander Isak", "on": "Anthony Elanga", "minute": "90+1" },
+    { "team": "tunisia", "off": "Ellyes Skhiri", "on": "Elias Achouri", "minute": "72" },
+    { "team": "tunisia", "off": "Elias Saad", "on": "Sebastian Tounekti", "minute": "72" },
+    { "team": "tunisia", "off": "Rani Khedira", "on": "Ismael Gharbi", "minute": "83" },
+    { "team": "tunisia", "off": "Anis Ben Slimane", "on": "Firas Chaouat", "minute": "84" }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-1-2",
+      "manager": "Graham Potter",
+      "starting": [
+        { "name": "Kristoffer Nordfeldt", "position": "GK", "number": null },
+        { "name": "Gustaf Lagerbielke", "position": "DF", "number": null },
+        { "name": "Isak Hien", "position": "DF", "number": null },
+        { "name": "Victor Lindelof", "position": "DF", "number": null },
+        { "name": "Gabriel Gudmundsson", "position": "DF", "number": null },
+        { "name": "Jesper Karlstrom", "position": "MF", "number": null },
+        { "name": "Yasin Ayari", "position": "MF", "number": null },
+        { "name": "Alexander Bernhardsson", "position": "MF", "number": null },
+        { "name": "Benjamin Nygren", "position": "MF", "number": null },
+        { "name": "Alexander Isak", "position": "FW", "number": null },
+        { "name": "Viktor Gyokeres", "position": "FW", "number": null }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Sabri Lamouchi",
+      "starting": [
+        { "name": "Abdelmouhib Chamakh", "position": "GK", "number": null },
+        { "name": "Yan Valery", "position": "DF", "number": null },
+        { "name": "Omar Rekik", "position": "DF", "number": null },
+        { "name": "Montassar Talbi", "position": "DF", "number": null },
+        { "name": "Ali Abdi", "position": "DF", "number": null },
+        { "name": "Ellyes Skhiri", "position": "MF", "number": null },
+        { "name": "Rani Khedira", "position": "MF", "number": null },
+        { "name": "Anis Ben Slimane", "position": "MF", "number": null },
+        { "name": "Hannibal Mejbri", "position": "MF", "number": null },
+        { "name": "Mohamed Amine Ben Hmida", "position": "MF", "number": null },
+        { "name": "Elias Saad", "position": "FW", "number": null }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 49,
+      "shots": 13,
+      "shots_on_target": 7,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 51,
+      "shots": null,
+      "shots_on_target": 2,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

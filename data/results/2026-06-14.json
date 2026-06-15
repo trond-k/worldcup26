@@ -2,6 +2,7 @@
   "date": "2026-06-14",
   "matches": [
     {
+      "id": "2026-06-14-australia-vs-turkiye",
       "stage": "group",
       "group": "D",
       "matchday": 1,
@@ -14,6 +15,7 @@
       "note": "Goals from Nestory Irankunda and Connor Metcalfe spoiled Türkiye's first World Cup appearance in 24 years."
     },
     {
+      "id": "2026-06-14-germany-vs-curacao",
       "stage": "group",
       "group": "E",
       "matchday": 1,
@@ -26,6 +28,7 @@
       "note": "Germany ran riot against World Cup debutants Curaçao."
     },
     {
+      "id": "2026-06-14-cote-divoire-vs-ecuador",
       "stage": "group",
       "group": "E",
       "matchday": 1,
@@ -38,6 +41,7 @@
       "note": "Amad Diallo struck in the 90th minute to win it for Côte d'Ivoire."
     },
     {
+      "id": "2026-06-14-netherlands-vs-japan",
       "stage": "group",
       "group": "F",
       "matchday": 1,
@@ -50,6 +54,7 @@
       "note": "Japan twice came from behind, with Daichi Kamada equalising in the 89th minute."
     },
     {
+      "id": "2026-06-14-sweden-vs-tunisia",
       "stage": "group",
       "group": "F",
       "matchday": 1,

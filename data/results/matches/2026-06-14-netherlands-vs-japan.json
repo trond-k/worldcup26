@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-14-netherlands-vs-japan",
+  "date": "2026-06-14",
+  "home": "netherlands",
+  "away": "japan",
+  "home_score": 2,
+  "away_score": 2,
+  "attendance": null,
+  "referee": "Ismail Elfath",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-japan-highlights-match-report",
+    "https://www.espn.com/soccer/report/_/gameId/760425",
+    "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
+    "https://www.skysports.com/football/news/11095/13552697/world-cup-2026-netherlands-2-2-japan-daichi-kamadas-89th-minute-equaliser-denies-the-dutch-in-dallas",
+    "https://www.nbcsports.com/soccer/news/netherlands-vs-japan-live-updates-world-cup-live-score-video-highlights-goals",
+    "https://theanalyst.com/articles/netherlands-vs-japan-stats-world-cup-2026",
+    "https://www.sofascore.com/news/netherlands-2-2-japan-group-f-draw-packed-with-goals-stats-and-an-mvp-show"
+  ],
+  "goals": [
+    {"team": "netherlands", "player": "Virgil van Dijk", "minute": "50", "type": "regular", "assist": "Ryan Gravenberch"},
+    {"team": "japan", "player": "Keito Nakamura", "minute": "57", "type": "regular", "assist": null},
+    {"team": "netherlands", "player": "Crysencio Summerville", "minute": "64", "type": "regular", "assist": "Ryan Gravenberch"},
+    {"team": "japan", "player": "Daichi Kamada", "minute": "89", "type": "regular", "assist": "Koki Ogawa"}
+  ],
+  "cards": [
+    {"team": "netherlands", "player": "Crysencio Summerville", "minute": "61", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "japan", "off": "Daizen Maeda", "on": "Junya Ito", "minute": "66"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": null,
+      "manager": "Ronald Koeman",
+      "starting": [
+        {"name": "Bart Verbruggen", "position": "GK", "number": null},
+        {"name": "Denzel Dumfries", "position": "DF", "number": null},
+        {"name": "Jan Paul van Hecke", "position": "DF", "number": null},
+        {"name": "Virgil van Dijk", "position": "DF", "number": null},
+        {"name": "Micky van de Ven", "position": "DF", "number": null},
+        {"name": "Frenkie de Jong", "position": "MF", "number": null},
+        {"name": "Ryan Gravenberch", "position": "MF", "number": null},
+        {"name": "Tijjani Reijnders", "position": "MF", "number": null},
+        {"name": "Crysencio Summerville", "position": "FW", "number": null},
+        {"name": "Cody Gakpo", "position": "FW", "number": null},
+        {"name": "Donyell Malen", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": null,
+      "manager": "Hajime Moriyasu",
+      "starting": [
+        {"name": "Zion Suzuki", "position": "GK", "number": null},
+        {"name": "Shogo Taniguchi", "position": "DF", "number": null},
+        {"name": "Tsuyoshi Watanabe", "position": "DF", "number": null},
+        {"name": "Hiroki Ito", "position": "DF", "number": null},
+        {"name": "Ritsu Doan", "position": "MF", "number": null},
+        {"name": "Daichi Kamada", "position": "MF", "number": null},
+        {"name": "Kaishu Sano", "position": "MF", "number": null},
+        {"name": "Keito Nakamura", "position": "MF", "number": null},
+        {"name": "Daizen Maeda", "position": "FW", "number": null},
+        {"name": "Takefusa Kubo", "position": "MF", "number": null},
+        {"name": "Ayase Ueda", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 60, "shots": 8, "shots_on_target": 6, "corners": 5, "fouls": 4, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": 525, "pass_accuracy": null},
+    "away": {"possession": 40, "shots": 8, "shots_on_target": 2, "corners": 2, "fouls": 6, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": 342, "pass_accuracy": null}
+  }
+}

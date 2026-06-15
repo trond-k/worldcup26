@@ -2,6 +2,7 @@
   "date": "2026-06-13",
   "matches": [
     {
+      "id": "2026-06-13-qatar-vs-switzerland",
       "stage": "group",
       "group": "B",
       "matchday": 1,
@@ -14,6 +15,7 @@
       "note": "Boualem Khoukhi's late goal earned Qatar a draw against a dominant Switzerland."
     },
     {
+      "id": "2026-06-13-brazil-vs-morocco",
       "stage": "group",
       "group": "C",
       "matchday": 1,
@@ -26,6 +28,7 @@
       "note": "Brazil and Morocco battled to a 1-1 draw on Brazil's tournament entry."
     },
     {
+      "id": "2026-06-13-scotland-vs-haiti",
       "stage": "group",
       "group": "C",
       "matchday": 1,

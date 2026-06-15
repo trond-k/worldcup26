@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-11-mexico-vs-south-africa",
+  "date": "2026-06-11",
+  "home": "mexico",
+  "away": "south-africa",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 80824,
+  "referee": "Wilton Sampaio",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-south-africa-highlights-match-report",
+    "https://www.concacaf.com/competitions/fifa-world-cup/news/jimenez-scores-first-world-cup-goal-as-mexico-tops-south-africa",
+    "https://www.espn.com/soccer/match/_/gameId/760415/south-africa-mexico",
+    "https://www.skysports.com/football/mexico-vs-south-africa/report/549767",
+    "https://www.aljazeera.com/sports/2026/6/11/jimenez-and-quinones-net-as-mexico-beat-south-africa-in-world-cup-opener",
+    "https://worldsoccertalk.com/world-cup/mexico-vs-south-africa-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-opener/"
+  ],
+  "goals": [
+    {"team": "mexico", "player": "Julián Quiñones", "minute": "9", "type": "regular", "assist": "Roberto Alvarado"},
+    {"team": "mexico", "player": "Raúl Jiménez", "minute": "67", "type": "regular", "assist": "Roberto Alvarado"}
+  ],
+  "cards": [
+    {"team": "south-africa", "player": "Sphephelo Sithole", "minute": "49", "card": "red"},
+    {"team": "south-africa", "player": "Themba Zwane", "minute": "84", "card": "red"},
+    {"team": "mexico", "player": "César Montes", "minute": "90+2", "card": "red"}
+  ],
+  "substitutions": [
+    {"team": "mexico", "off": "Raúl Jiménez", "on": "Armando González", "minute": null},
+    {"team": "mexico", "off": "Erik Lira", "on": "Edson Álvarez", "minute": null}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Javier Aguirre",
+      "starting": [
+        {"name": "Raúl Rangel", "position": "GK", "number": null},
+        {"name": "Jesús Gallardo", "position": "DF", "number": null},
+        {"name": "Johan Vásquez", "position": "DF", "number": null},
+        {"name": "César Montes", "position": "DF", "number": null},
+        {"name": "Israel Reyes", "position": "DF", "number": null},
+        {"name": "Erik Lira", "position": "MF", "number": null},
+        {"name": "Álvaro Fidalgo", "position": "MF", "number": null},
+        {"name": "Brian Gutiérrez", "position": "MF", "number": null},
+        {"name": "Julián Quiñones", "position": "FW", "number": null},
+        {"name": "Raúl Jiménez", "position": "FW", "number": null},
+        {"name": "Roberto Alvarado", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "manager": "Hugo Broos",
+      "starting": [
+        {"name": "Ronwen Williams", "position": "GK", "number": null},
+        {"name": "Aubrey Modiba", "position": "DF", "number": null},
+        {"name": "Khuliso Mudau", "position": "DF", "number": null},
+        {"name": "Nkosinathi Sibisi", "position": "DF", "number": null},
+        {"name": "Mbekezeli Mbokazi", "position": "DF", "number": null},
+        {"name": "Ime Okon", "position": "DF", "number": null},
+        {"name": "Sphephelo Sithole", "position": "MF", "number": null},
+        {"name": "Jayden Adams", "position": "MF", "number": null},
+        {"name": "Teboho Mokoena", "position": "MF", "number": null},
+        {"name": "Iqraam Rayners", "position": "FW", "number": null},
+        {"name": "Lyle Foster", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 57, "shots": 16, "shots_on_target": 4, "corners": null, "fouls": null, "offsides": null, "yellow_cards": null, "red_cards": 1, "saves": null, "passes": null, "pass_accuracy": null},
+    "away": {"possession": 36, "shots": 3, "shots_on_target": 2, "corners": null, "fouls": null, "offsides": null, "yellow_cards": null, "red_cards": 2, "saves": null, "passes": null, "pass_accuracy": null}
+  }
+}

@@ -2,6 +2,7 @@
   "date": "2026-06-15",
   "matches": [
     {
+      "id": "2026-06-15-spain-vs-cabo-verde",
       "stage": "group",
       "group": "H",
       "matchday": 1,
@@ -14,6 +15,7 @@
       "note": "Group H opener."
     },
     {
+      "id": "2026-06-15-belgium-vs-egypt",
       "stage": "group",
       "group": "G",
       "matchday": 1,
@@ -26,6 +28,7 @@
       "note": "Group G opener."
     },
     {
+      "id": "2026-06-15-saudi-arabia-vs-uruguay",
       "stage": "group",
       "group": "H",
       "matchday": 1,
@@ -38,6 +41,7 @@
       "note": "Group H opener."
     },
     {
+      "id": "2026-06-15-iran-vs-new-zealand",
       "stage": "group",
       "group": "G",
       "matchday": 1,

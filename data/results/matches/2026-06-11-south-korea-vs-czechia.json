@@ -1,0 +1,71 @@
+{
+  "id": "2026-06-11-south-korea-vs-czechia",
+  "date": "2026-06-11",
+  "home": "south-korea",
+  "away": "czechia",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 44985,
+  "referee": "Amin Mohamed",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441",
+    "https://www.espn.com/soccer/report/_/gameId/760414",
+    "https://www.aljazeera.com/sports/2026/6/12/south-korea-vs-czechia-world-cup-2026-oh-hyeon-gyu-hwang-in-beom",
+    "https://www.skysports.com/football/news/12098/13552607/world-cup-2026-south-korea-2-1-czech-republic-in-beom-hwang-inspires-comeback-win-after-ladislav-krejci-goal",
+    "https://www.vavel.com/en/international-football/2026/06/12/1263305-south-korea-2-1-czechia-fifa-world-cup-match-report.html",
+    "https://athlonsports.com/soccer/who-referee-south-korea-czechia-world-cup",
+    "https://www.newsweek.com/sports/fifa-under-fire-for-defending-attendance-for-world-cup-match-12063365",
+    "https://worldsoccertalk.com/world-cup/is-heung-min-son-playing-south-korea-vs-czech-republic-projected-lineups-for-the-2026-world-cup-game/"
+  ],
+  "goals": [
+    {"team": "czechia", "player": "Ladislav Krejčí", "minute": "59", "type": "regular", "assist": "Vladimír Coufal"},
+    {"team": "south-korea", "player": "Hwang In-beom", "minute": "67", "type": "regular", "assist": "Lee Kang-in"},
+    {"team": "south-korea", "player": "Oh Hyeon-gyu", "minute": "80", "type": "regular", "assist": "Hwang In-beom"}
+  ],
+  "cards": [
+    {"team": "south-korea", "player": "Lee Gi-hyuk", "minute": "90", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "south-korea", "off": "Son Heung-min", "on": "Oh Hyeon-gyu", "minute": "69"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-3",
+      "manager": "Hong Myung-bo",
+      "starting": [
+        {"name": "Kim Seung-gyu", "position": "GK", "number": null},
+        {"name": "Lee Han-beom", "position": "DF", "number": null},
+        {"name": "Kim Min-jae", "position": "DF", "number": null},
+        {"name": "Lee Gi-hyuk", "position": "DF", "number": null},
+        {"name": "Seol Young-woo", "position": "MF", "number": null},
+        {"name": "Hwang In-beom", "position": "MF", "number": null},
+        {"name": "Paik Seung-ho", "position": "MF", "number": null},
+        {"name": "Lee Tae-seok", "position": "MF", "number": null},
+        {"name": "Lee Kang-in", "position": "MF", "number": null},
+        {"name": "Lee Jae-sung", "position": "MF", "number": null},
+        {"name": "Son Heung-min", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Miroslav Koubek",
+      "starting": [
+        {"name": "Matěj Kovář", "position": "GK", "number": null},
+        {"name": "Vladimír Coufal", "position": "DF", "number": null},
+        {"name": "Tomáš Holeš", "position": "DF", "number": null},
+        {"name": "Ladislav Krejčí", "position": "DF", "number": null},
+        {"name": "Jaroslav Zelený", "position": "DF", "number": null},
+        {"name": "Tomáš Souček", "position": "MF", "number": null},
+        {"name": "Michal Sadílek", "position": "MF", "number": null},
+        {"name": "David Douděra", "position": "MF", "number": null},
+        {"name": "Pavel Šulc", "position": "MF", "number": null},
+        {"name": "Adam Hložek", "position": "MF", "number": null},
+        {"name": "Patrik Schick", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": null, "shots": 15, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
+    "away": {"possession": null, "shots": 8, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 4, "passes": null, "pass_accuracy": null}
+  }
+}

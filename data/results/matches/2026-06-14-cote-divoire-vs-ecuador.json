@@ -1,0 +1,139 @@
+{
+  "id": "2026-06-14-cote-divoire-vs-ecuador",
+  "date": "2026-06-14",
+  "home": "cote-divoire",
+  "away": "ecuador",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 68274,
+  "referee": "François Letexier",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467",
+    "https://www.espn.com/soccer/report/_/gameId/760423",
+    "https://www.cafonline.com/fifa-world-cup/news/amad-diallos-late-strike-hands-cote-d-ivoire-winning-start-at-2026-world-cup/",
+    "https://theanalyst.com/articles/ivory-coast-vs-ecuador-stats-world-cup-2026",
+    "https://www.sofascore.com/football/match/cote-divoire-ecuador/hVbstVb",
+    "https://football-italia.net/world-cup-2026-ivory-coast-vs-ecuador-lineups/",
+    "https://worldsoccertalk.com/world-cup/ivory-coast-vs-ecuador-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-e-game/",
+    "https://english.news.cn/20260615/6201f386940d4f43ad36d025976bc7e4/c.html"
+  ],
+  "goals": [
+    {
+      "team": "cote-divoire",
+      "player": "Amad Diallo",
+      "minute": "90",
+      "type": "regular",
+      "assist": "Wilfried Singo"
+    }
+  ],
+  "cards": [
+    {
+      "team": "cote-divoire",
+      "player": "Seko Fofana",
+      "minute": "28",
+      "card": "yellow"
+    },
+    {
+      "team": "cote-divoire",
+      "player": "Franck Kessié",
+      "minute": null,
+      "card": "yellow"
+    },
+    {
+      "team": "ecuador",
+      "player": "Jackson Porozo",
+      "minute": "73",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "cote-divoire",
+      "off": null,
+      "on": "Amad Diallo",
+      "minute": "56"
+    },
+    {
+      "team": "ecuador",
+      "off": "Enner Valencia",
+      "on": "Kevin Rodríguez",
+      "minute": "77"
+    },
+    {
+      "team": "ecuador",
+      "off": "Alan Franco",
+      "on": "Jackson Porozo",
+      "minute": null
+    },
+    {
+      "team": "ecuador",
+      "off": "John Yeboah",
+      "on": "Ángelo Preciado",
+      "minute": null
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Emerse Faé",
+      "starting": [
+        { "name": "Yahia Fofana", "position": "GK", "number": null },
+        { "name": "Guéla Doué", "position": "DF", "number": null },
+        { "name": "Wilfried Singo", "position": "DF", "number": null },
+        { "name": "Emmanuel Agbadou", "position": "DF", "number": null },
+        { "name": "Ghislain Konan", "position": "DF", "number": null },
+        { "name": "Yan Diomandé", "position": "MF", "number": null },
+        { "name": "Seko Fofana", "position": "MF", "number": null },
+        { "name": "Franck Kessié", "position": "MF", "number": null },
+        { "name": "Bazoumana Touré", "position": "MF", "number": null },
+        { "name": "Nicolas Pépé", "position": "FW", "number": null },
+        { "name": "Elye Wahi", "position": "FW", "number": null }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "manager": "Sebastián Beccacece",
+      "starting": [
+        { "name": "Hernán Galíndez", "position": "GK", "number": null },
+        { "name": "Joel Ordóñez", "position": "DF", "number": null },
+        { "name": "Willian Pacho", "position": "DF", "number": null },
+        { "name": "Piero Hincapié", "position": "DF", "number": null },
+        { "name": "Alan Minda", "position": "MF", "number": null },
+        { "name": "Alan Franco", "position": "MF", "number": null },
+        { "name": "Moisés Caicedo", "position": "MF", "number": null },
+        { "name": "Pedro Vite", "position": "MF", "number": null },
+        { "name": "Gonzalo Plata", "position": "FW", "number": null },
+        { "name": "Enner Valencia", "position": "FW", "number": null },
+        { "name": "John Yeboah", "position": "FW", "number": null }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 45,
+      "shots": null,
+      "shots_on_target": null,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 55,
+      "shots": null,
+      "shots_on_target": null,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

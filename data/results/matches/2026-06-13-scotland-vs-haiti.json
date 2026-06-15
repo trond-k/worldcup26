@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-13-scotland-vs-haiti",
+  "date": "2026-06-13",
+  "home": "scotland",
+  "away": "haiti",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 64146,
+  "referee": "Mustapha Ghorbal",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453",
+    "https://www.espn.com/soccer/match/_/gameId/760418/scotland-haiti",
+    "https://www.espn.com/soccer/story/_/id/49055260/haiti-scotland-world-cup-2026-result-score-recap-john-mcginn-ben-gannon-doak-group-c",
+    "https://www.skysports.com/football/news/12098/13552633/world-cup-2026-haiti-0-1-scotland-john-mcginn-gives-steve-clarkes-side-winning-return-to-footballs-biggest-stage",
+    "https://theanalyst.com/articles/haiti-vs-scotland-stats-world-cup-2026",
+    "https://www.oddschecker.com/insight/football/20260614-haiti-vs-scotland-confirmed-lineups",
+    "https://sports.yahoo.com/articles/world-cup-2026-sights-sounds-050321739.html",
+    "https://athlonsports.com/soccer/who-is-referee-haiti-scotland-world-cup"
+  ],
+  "goals": [
+    {"team": "scotland", "player": "John McGinn", "minute": "28", "type": "regular", "assist": null}
+  ],
+  "cards": [
+    {"team": "scotland", "player": "Findlay Curtis", "minute": null, "card": "yellow"},
+    {"team": "scotland", "player": "Kenny McLean", "minute": null, "card": "yellow"},
+    {"team": "haiti", "player": "Jean-Ricner Bellegarde", "minute": null, "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "scotland", "off": "John McGinn", "on": "Findlay Curtis", "minute": null},
+    {"team": "scotland", "off": "Lawrence Shankland", "on": "Kenny McLean", "minute": null},
+    {"team": "haiti", "off": "Deedson Louicius", "on": "Josué Casimir", "minute": null}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Steve Clarke",
+      "starting": [
+        {"name": "Angus Gunn", "position": "GK", "number": null},
+        {"name": "Aaron Hickey", "position": "DF", "number": null},
+        {"name": "Jack Hendry", "position": "DF", "number": null},
+        {"name": "Grant Hanley", "position": "DF", "number": null},
+        {"name": "Andy Robertson", "position": "DF", "number": null},
+        {"name": "Ben Gannon-Doak", "position": "MF", "number": null},
+        {"name": "Scott McTominay", "position": "MF", "number": null},
+        {"name": "Lewis Ferguson", "position": "MF", "number": null},
+        {"name": "John McGinn", "position": "MF", "number": null},
+        {"name": "Lawrence Shankland", "position": "FW", "number": null},
+        {"name": "Che Adams", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Sébastien Migné",
+      "starting": [
+        {"name": "Johny Placide", "position": "GK", "number": null},
+        {"name": "Carlens Arcus", "position": "DF", "number": null},
+        {"name": "Ricardo Adé", "position": "DF", "number": null},
+        {"name": "Hannes Delcroix", "position": "DF", "number": null},
+        {"name": "Martin Expérience", "position": "DF", "number": null},
+        {"name": "Deedson Louicius", "position": "MF", "number": null},
+        {"name": "Danley Jean Jacques", "position": "MF", "number": null},
+        {"name": "Jean-Ricner Bellegarde", "position": "MF", "number": null},
+        {"name": "Ruben Providence", "position": "MF", "number": null},
+        {"name": "Wilson Isidor", "position": "FW", "number": null},
+        {"name": "Frantzdy Pierrot", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 50,
+      "shots": 8,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 21,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 397,
+      "pass_accuracy": 82
+    },
+    "away": {
+      "possession": 50,
+      "shots": 13,
+      "shots_on_target": 2,
+      "corners": 4,
+      "fouls": 23,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 431,
+      "pass_accuracy": 88
+    }
+  }
+}

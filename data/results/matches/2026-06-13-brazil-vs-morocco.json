@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-13-brazil-vs-morocco",
+  "date": "2026-06-13",
+  "home": "brazil",
+  "away": "morocco",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 80663,
+  "referee": "Slavko Vinčić",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-morocco-highlights-match-report",
+    "https://www.espn.com/soccer/report/_/gameId/760419",
+    "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
+    "https://theanalyst.com/articles/brazil-vs-morocco-stats-world-cup-2026",
+    "https://www.sofascore.com/football/match/morocco-brazil/YUbsDVb",
+    "https://www.whoscored.com/news/2iLyJiacikKzRTmHwqdiYw/show/20260613-brazil-vs-morocco-confirmed-lineup-1781383611",
+    "https://www.101greatgoals.com/football/world-cup-news/world-cup-2026-brazil-morocco-report-result-goals-vinicius-junior/"
+  ],
+  "goals": [
+    {"team": "morocco", "player": "Ismael Saibari", "minute": "21", "type": "regular", "assist": "Brahim Díaz"},
+    {"team": "brazil", "player": "Vinícius Júnior", "minute": "32", "type": "regular", "assist": "Bruno Guimarães"}
+  ],
+  "cards": [
+    {"team": "brazil", "player": "Roger Ibañez", "minute": "45", "card": "yellow"},
+    {"team": "brazil", "player": "Casemiro", "minute": "45", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "brazil", "off": "Roger Ibañez", "on": "Danilo", "minute": "46"},
+    {"team": "brazil", "off": "Casemiro", "on": "Fabinho", "minute": "46"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Carlo Ancelotti",
+      "starting": [
+        {"name": "Alisson", "position": "GK", "number": null},
+        {"name": "Roger Ibañez", "position": "DF", "number": null},
+        {"name": "Marquinhos", "position": "DF", "number": null},
+        {"name": "Gabriel Magalhães", "position": "DF", "number": null},
+        {"name": "Douglas Santos", "position": "DF", "number": null},
+        {"name": "Casemiro", "position": "MF", "number": null},
+        {"name": "Lucas Paquetá", "position": "MF", "number": null},
+        {"name": "Bruno Guimarães", "position": "MF", "number": null},
+        {"name": "Raphinha", "position": "MF", "number": null},
+        {"name": "Igor Thiago", "position": "FW", "number": null},
+        {"name": "Vinícius Júnior", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {"name": "Yassine Bounou", "position": "GK", "number": null},
+        {"name": "Achraf Hakimi", "position": "DF", "number": null},
+        {"name": "Issa Diop", "position": "DF", "number": null},
+        {"name": "Chadi Riad", "position": "DF", "number": null},
+        {"name": "Noussair Mazraoui", "position": "DF", "number": null},
+        {"name": "Neil El Aynaoui", "position": "MF", "number": null},
+        {"name": "Ayyoub Bouaddi", "position": "MF", "number": null},
+        {"name": "Brahim Díaz", "position": "MF", "number": null},
+        {"name": "Azzedine Ounahi", "position": "MF", "number": null},
+        {"name": "Bilal El Khannouss", "position": "MF", "number": null},
+        {"name": "Ismael Saibari", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 51,
+      "shots": 13,
+      "shots_on_target": 5,
+      "corners": 6,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 49,
+      "shots": 14,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "2026-06-12-usa-vs-paraguay",
+  "date": "2026-06-12",
+  "home": "usa",
+  "away": "paraguay",
+  "home_score": 4,
+  "away_score": 1,
+  "attendance": 70492,
+  "referee": "Danny Makkelie",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/usa-paraguay-highlights-match-report",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021458",
+    "https://www.espn.com/soccer/match/_/gameId/760417/paraguay-united-states",
+    "https://www.espn.com/soccer/report/_/gameId/760417",
+    "https://www.ussoccer.com/stories/2026/06/usmnt/folarin-balogun-brace-match-recap-highlights-vs-paraguay",
+    "https://www.ussoccer.com/stories/2026/06/usmnt/starting-xi-lineup-notes-vs-paraguay-world-cup",
+    "https://www.skysports.com/football/news/17251/13552628/world-cup-2026-usa-4-1-paraguay-folarin-balogun-at-double-as-mauricio-pochettinos-hosts-deliver-statement-victory",
+    "https://theanalyst.com/articles/united-states-vs-paraguay-stats-world-cup-2026",
+    "https://www.cbssports.com/soccer/news/usa-paraguay-live-updates-world-cup-2026-score-result/live/"
+  ],
+  "goals": [
+    {"team": "usa", "player": "Damián Bobadilla", "minute": "7", "type": "own_goal", "assist": null},
+    {"team": "usa", "player": "Folarin Balogun", "minute": "31", "type": "regular", "assist": "Christian Pulisic"},
+    {"team": "usa", "player": "Folarin Balogun", "minute": "45+5", "type": "regular", "assist": "Malik Tillman"},
+    {"team": "paraguay", "player": "Maurício", "minute": "73", "type": "regular", "assist": "Julio Enciso"},
+    {"team": "usa", "player": "Gio Reyna", "minute": "90+8", "type": "regular", "assist": "Alex Freeman"}
+  ],
+  "cards": [
+    {"team": "usa", "player": "Tyler Adams", "minute": "45+1", "card": "yellow"},
+    {"team": "paraguay", "player": "Diego Gómez", "minute": "79", "card": "yellow"},
+    {"team": "paraguay", "player": "Júnior Alonso", "minute": "90+3", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "usa", "off": "Folarin Balogun", "on": "Ricardo Pepi", "minute": "72"},
+    {"team": "usa", "off": "Sergiño Dest", "on": "Tim Weah", "minute": "72"},
+    {"team": "usa", "off": "Malik Tillman", "on": "Gio Reyna", "minute": "82"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Mauricio Pochettino",
+      "starting": [
+        {"name": "Matt Freese", "position": "GK", "number": 24},
+        {"name": "Alex Freeman", "position": "DF", "number": 16},
+        {"name": "Chris Richards", "position": "DF", "number": 3},
+        {"name": "Tim Ream", "position": "DF", "number": 13},
+        {"name": "Antonee Robinson", "position": "DF", "number": 5},
+        {"name": "Tyler Adams", "position": "MF", "number": 4},
+        {"name": "Weston McKennie", "position": "MF", "number": 8},
+        {"name": "Sergiño Dest", "position": "MF", "number": 2},
+        {"name": "Malik Tillman", "position": "MF", "number": 17},
+        {"name": "Christian Pulisic", "position": "MF", "number": 10},
+        {"name": "Folarin Balogun", "position": "FW", "number": 20}
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Gustavo Alfaro",
+      "starting": [
+        {"name": "Orlando Gill", "position": "GK", "number": null},
+        {"name": "Juan José Cáceres", "position": "DF", "number": null},
+        {"name": "Gustavo Gómez", "position": "DF", "number": null},
+        {"name": "Omar Alderete", "position": "DF", "number": null},
+        {"name": "Júnior Alonso", "position": "DF", "number": null},
+        {"name": "Damián Bobadilla", "position": "MF", "number": null},
+        {"name": "Andrés Cubas", "position": "MF", "number": null},
+        {"name": "Diego Gómez", "position": "MF", "number": null},
+        {"name": "Julio Enciso", "position": "FW", "number": null},
+        {"name": "Miguel Almirón", "position": "FW", "number": null},
+        {"name": "Antonio Sanabria", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": null,
+      "shots": null,
+      "shots_on_target": null,
+      "corners": 5,
+      "fouls": 13,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 567,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": null,
+      "shots": null,
+      "shots_on_target": null,
+      "corners": 8,
+      "fouls": 11,
+      "offsides": 3,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 439,
+      "pass_accuracy": 80
+    }
+  }
+}

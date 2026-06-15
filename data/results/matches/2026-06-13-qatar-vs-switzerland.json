@@ -1,0 +1,91 @@
+{
+  "id": "2026-06-13-qatar-vs-switzerland",
+  "date": "2026-06-13",
+  "home": "qatar",
+  "away": "switzerland",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": null,
+  "referee": "Saíd Martínez",
+  "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447",
+    "https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026",
+    "https://www.espn.com/soccer/report/_/gameId/760420",
+    "https://www.skysports.com/football/qatar-vs-switzerland/report/549770",
+    "https://www.nbcnews.com/sports/soccer/boualem-khoukhis-header-qatar-first-world-cup-point-switzerland-rcna349962",
+    "https://sports.yahoo.com/soccer/article/world-cup-2026-qatar-steals-1-1-draw-with-switzerland-on-boualem-khoukhis-late-goal-in-extra-time-211327024.html"
+  ],
+  "goals": [
+    {"team": "switzerland", "player": "Breel Embolo", "minute": "17", "type": "penalty", "assist": null},
+    {"team": "qatar", "player": "Boualem Khoukhi", "minute": "90+4", "type": "regular", "assist": null}
+  ],
+  "cards": [
+    {"team": "qatar", "player": "Jassem Gaber", "minute": "22", "card": "yellow"},
+    {"team": "switzerland", "player": "Denis Zakaria", "minute": null, "card": "yellow"}
+  ],
+  "substitutions": [],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Julen Lopetegui",
+      "starting": [
+        {"name": "Mahmoud Abunada", "position": "GK", "number": null},
+        {"name": "Ayoub Al-Alawi", "position": "DF", "number": null},
+        {"name": "Pedro Miguel", "position": "DF", "number": null},
+        {"name": "Boualem Khoukhi", "position": "DF", "number": null},
+        {"name": "Homam Ahmed", "position": "DF", "number": null},
+        {"name": "Issa Lai", "position": "MF", "number": null},
+        {"name": "Jassem Gaber", "position": "MF", "number": null},
+        {"name": "Assim Madibo", "position": "MF", "number": null},
+        {"name": "Edmilson Junior", "position": "FW", "number": null},
+        {"name": "Yusuf Abdurisag", "position": "FW", "number": null},
+        {"name": "Akram Afif", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Murat Yakin",
+      "starting": [
+        {"name": "Gregor Kobel", "position": "GK", "number": null},
+        {"name": "Nico Elvedi", "position": "DF", "number": null},
+        {"name": "Manuel Akanji", "position": "DF", "number": null},
+        {"name": "Denis Zakaria", "position": "DF", "number": null},
+        {"name": "Michel Aebischer", "position": "MF", "number": null},
+        {"name": "Remo Freuler", "position": "MF", "number": null},
+        {"name": "Granit Xhaka", "position": "MF", "number": null},
+        {"name": "Ricardo Rodriguez", "position": "MF", "number": null},
+        {"name": "Rubén Vargas", "position": "FW", "number": null},
+        {"name": "Dan Ndoye", "position": "FW", "number": null},
+        {"name": "Breel Embolo", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 31,
+      "shots": 7,
+      "shots_on_target": 4,
+      "corners": null,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 56,
+      "shots": 26,
+      "shots_on_target": 7,
+      "corners": null,
+      "fouls": 12,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}
