@@ -163,22 +163,36 @@ against the official squad announcements (late May / early June 2026), cross-
 checked across FIFA, ESPN, federation announcements, Wikipedia and other
 outlets. These fields are well-corroborated.
 
-The `market_value_eur` and `age` fields are **Transfermarkt-style estimates**,
-not values read directly from a structured source. An attempt was made to pull
-exact figures programmatically, but the build environment enforces a **network
-egress allowlist** that blocked every candidate source — Transfermarkt, the
-community Transfermarkt APIs, and Wikipedia/Wikidata all returned `HTTP 403`
-through both direct HTTP requests and the fetch tooling. The only working web
-channel was keyword search, which returns result snippets rather than full pages
-or JSON. Values were therefore assembled from search summaries plus knowledge of
-each player and are accurate in scale/ballpark but not authoritative; the least
-certain are lower-profile players from domestic leagues (e.g. parts of the
-Tunisia, Jordan, Qatar and Cabo Verde squads).
+The `market_value_eur` and `age` fields are sourced from **Transfermarkt** via
+the community API at `transfermarkt-api.fly.dev`, harvested by
+`scripts/harvest_market_values.py` (June 2026). For each player the script
+searches by name and selects the best candidate by nationality + club match;
+**1087 of 1248 players (87%)** matched at high confidence on name + nationality +
+club and had both `market_value_eur` and `age` written. A further **117 players**
+matched on name + nationality but with a different current club (a real transfer
+since this dataset's squad was compiled) — these were spot-checked (17/17 correct)
+and their **`market_value_eur`** was refreshed too, bringing market-value coverage
+to **1204 of 1248 (96%)**; their `age` was left on the prior estimate pending a
+full re-run.
 
-To refresh these fields with exact data in future, add the relevant data-source
-hosts to the environment's network egress allowlist, then fetch values in bulk
-and overwrite only `market_value_eur` / `age` — `validate.py` already enforces
-the required format, so the squad lists can stay untouched.
+The remaining ~44 players retain the earlier **best-effort estimates** (compiled
+from search summaries plus player knowledge — accurate in scale, not
+authoritative). These are mostly players whose names Transfermarkt indexes under
+a different transliteration than this dataset uses, so the name search returned
+no result — concentrated in the Arabic-name squads (Egypt, Jordan, Qatar, Saudi
+Arabia, Morocco), plus Uzbekistan and a long tail of lower-profile domestic
+players. Run the harvester to see the current unmatched set:
+
+```bash
+python3 scripts/harvest_market_values.py <slug>          # dry-run one team
+python3 scripts/harvest_market_values.py --all           # dry-run all 48 (~35 min)
+python3 scripts/harvest_market_values.py --all --apply    # write high-confidence rows
+```
+
+The script overwrites **only** `market_value_eur` / `age` and never auto-writes a
+low-confidence match, so squad lists stay untouched; `validate.py` enforces the
+required format. To improve coverage further, add per-player name aliases (e.g.
+correct transliterations) so the search resolves the currently-unmatched names.
 
 ## Contributing
 
