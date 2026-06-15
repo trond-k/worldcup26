@@ -17,7 +17,7 @@
       "club": "Real Madrid",
       "club_country": "Spain",
       "age": 34,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Senne Lammens",
@@ -25,7 +25,7 @@
       "club": "Manchester United",
       "club_country": "England",
       "age": 23,
-      "market_value_eur": 22000000
+      "market_value_eur": 35000000
     },
     {
       "name": "Mike Penders",
@@ -33,7 +33,7 @@
       "club": "Strasbourg",
       "club_country": "France",
       "age": 20,
-      "market_value_eur": 8000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Timothy Castagne",
@@ -41,7 +41,7 @@
       "club": "Fulham",
       "club_country": "England",
       "age": 30,
-      "market_value_eur": 12000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Zeno Debast",
@@ -49,7 +49,7 @@
       "club": "Sporting CP",
       "club_country": "Portugal",
       "age": 22,
-      "market_value_eur": 25000000
+      "market_value_eur": 28000000
     },
     {
       "name": "Maxim De Cuyper",
@@ -65,7 +65,7 @@
       "club": "AC Milan",
       "club_country": "Italy",
       "age": 24,
-      "market_value_eur": 25000000
+      "market_value_eur": 23000000
     },
     {
       "name": "Brandon Mechele",
@@ -73,7 +73,7 @@
       "club": "Club Brugge",
       "club_country": "Belgium",
       "age": 33,
-      "market_value_eur": 3000000
+      "market_value_eur": 2800000
     },
     {
       "name": "Thomas Meunier",
@@ -81,23 +81,23 @@
       "club": "Lille",
       "club_country": "France",
       "age": 34,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Nathan Ngoy",
       "position": "DF",
       "club": "Lille",
       "club_country": "France",
-      "age": 22,
-      "market_value_eur": 9000000
+      "age": 23,
+      "market_value_eur": 25000000
     },
     {
       "name": "Joaquin Seys",
       "position": "DF",
       "club": "Club Brugge",
       "club_country": "Belgium",
-      "age": 20,
-      "market_value_eur": 10000000
+      "age": 21,
+      "market_value_eur": 20000000
     },
     {
       "name": "Arthur Theate",
@@ -105,7 +105,7 @@
       "club": "Eintracht Frankfurt",
       "club_country": "Germany",
       "age": 26,
-      "market_value_eur": 22000000
+      "market_value_eur": 17000000
     },
     {
       "name": "Kevin De Bruyne",
@@ -113,7 +113,7 @@
       "club": "Napoli",
       "club_country": "Italy",
       "age": 34,
-      "market_value_eur": 18000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Amadou Onana",
@@ -121,7 +121,7 @@
       "club": "Aston Villa",
       "club_country": "England",
       "age": 24,
-      "market_value_eur": 50000000
+      "market_value_eur": 45000000
     },
     {
       "name": "Nicolas Raskin",
@@ -129,7 +129,7 @@
       "club": "Rangers",
       "club_country": "Scotland",
       "age": 25,
-      "market_value_eur": 14000000
+      "market_value_eur": 12000000
     },
     {
       "name": "Youri Tielemans",
@@ -137,7 +137,7 @@
       "club": "Aston Villa",
       "club_country": "England",
       "age": 29,
-      "market_value_eur": 35000000
+      "market_value_eur": 30000000
     },
     {
       "name": "Hans Vanaken",
@@ -145,7 +145,7 @@
       "club": "Club Brugge",
       "club_country": "Belgium",
       "age": 33,
-      "market_value_eur": 6000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Axel Witsel",
@@ -153,7 +153,7 @@
       "club": "Girona",
       "club_country": "Spain",
       "age": 37,
-      "market_value_eur": 2000000
+      "market_value_eur": 1200000
     },
     {
       "name": "Charles De Ketelaere",
@@ -161,7 +161,7 @@
       "club": "Atalanta",
       "club_country": "Italy",
       "age": 25,
-      "market_value_eur": 40000000
+      "market_value_eur": 30000000
     },
     {
       "name": "Jeremy Doku",
@@ -176,8 +176,8 @@
       "position": "FW",
       "club": "Lille",
       "club_country": "France",
-      "age": 20,
-      "market_value_eur": 15000000
+      "age": 21,
+      "market_value_eur": 35000000
     },
     {
       "name": "Romelu Lukaku",
@@ -185,7 +185,7 @@
       "club": "Napoli",
       "club_country": "Italy",
       "age": 33,
-      "market_value_eur": 12000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Dodi Lukebakio",
@@ -193,7 +193,7 @@
       "club": "Benfica",
       "club_country": "Portugal",
       "age": 28,
-      "market_value_eur": 22000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Leandro Trossard",
@@ -201,7 +201,7 @@
       "club": "Arsenal",
       "club_country": "England",
       "age": 31,
-      "market_value_eur": 25000000
+      "market_value_eur": 18000000
     },
     {
       "name": "Lois Openda",
@@ -209,7 +209,7 @@
       "club": "Juventus",
       "club_country": "Italy",
       "age": 26,
-      "market_value_eur": 40000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Johan Bakayoko",
@@ -217,7 +217,7 @@
       "club": "RB Leipzig",
       "club_country": "Germany",
       "age": 23,
-      "market_value_eur": 35000000
+      "market_value_eur": 20000000
     }
   ]
 }

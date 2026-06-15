@@ -14,8 +14,8 @@ _Based on 48 teams with data._
 | 6 | Brazil | C | €855.0m |
 | 7 | Netherlands | F | €816.0m |
 | 8 | Argentina | J | €811.0m |
-| 9 | Belgium | G | €568.0m |
-| 10 | Norway | I | €567.0m |
+| 9 | Norway | I | €589.9m |
+| 10 | Belgium | G | €568.0m |
 | 11 | Sweden | F | €523.6m |
 | 12 | Uruguay | H | €507.5m |
 | 13 | Türkiye | D | €465.0m |
@@ -67,7 +67,7 @@ _Based on 48 teams with data._
 | F | 4 | €1791.6m |
 | G | 4 | €821.8m |
 | H | 4 | €2044.6m |
-| I | 4 | €2360.1m |
+| I | 4 | €2383.0m |
 | J | 4 | €1350.9m |
 | K | 4 | €1542.8m |
 | L | 4 | €2047.9m |
@@ -77,8 +77,8 @@ _Based on 48 teams with data._
 | Rank | Player | Team | Club | Market value |
 |------|--------|------|------|--------------|
 | 1 | Lamine Yamal | Spain | Barcelona | €200.0m |
-| 2 | Kylian Mbappé | France | Real Madrid | €180.0m |
-| 3 | Erling Haaland | Norway | Manchester City | €180.0m |
+| 2 | Erling Haaland | Norway | Manchester City | €200.0m |
+| 3 | Kylian Mbappé | France | Real Madrid | €180.0m |
 | 4 | Jude Bellingham | England | Real Madrid | €180.0m |
 | 5 | Vinícius Júnior | Brazil | Real Madrid | €170.0m |
 | 6 | Florian Wirtz | Germany | Liverpool | €140.0m |
@@ -104,7 +104,7 @@ _Based on 48 teams with data._
 
 ## Summary
 
-- Total market value of all squads: **€17822.5m**
+- Total market value of all squads: **€17845.5m**
 - Players counted: **1248**
 - Average player value: **€14.3m**
 

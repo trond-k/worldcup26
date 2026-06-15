@@ -16,8 +16,8 @@
       "position": "GK",
       "club": "Red Bull Salzburg",
       "club_country": "Austria",
-      "age": 29,
-      "market_value_eur": 4000000
+      "age": 30,
+      "market_value_eur": 2000000
     },
     {
       "name": "Patrick Pentz",
@@ -32,8 +32,8 @@
       "position": "GK",
       "club": "Viktoria Plzeň",
       "club_country": "Czech Republic",
-      "age": 24,
-      "market_value_eur": 1000000
+      "age": 25,
+      "market_value_eur": 2200000
     },
     {
       "name": "David Alaba",
@@ -41,7 +41,7 @@
       "club": "Real Madrid",
       "club_country": "Spain",
       "age": 33,
-      "market_value_eur": 8000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Kevin Danso",
@@ -49,7 +49,7 @@
       "club": "Tottenham Hotspur",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 25000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Stefan Posch",
@@ -57,7 +57,7 @@
       "club": "Mainz 05",
       "club_country": "Germany",
       "age": 29,
-      "market_value_eur": 7000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Philipp Lienhart",
@@ -65,7 +65,7 @@
       "club": "SC Freiburg",
       "club_country": "Germany",
       "age": 29,
-      "market_value_eur": 12000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Phillipp Mwene",
@@ -73,15 +73,15 @@
       "club": "Mainz 05",
       "club_country": "Germany",
       "age": 32,
-      "market_value_eur": 3000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Alexander Prass",
       "position": "DF",
       "club": "TSG Hoffenheim",
       "club_country": "Germany",
-      "age": 24,
-      "market_value_eur": 12000000
+      "age": 25,
+      "market_value_eur": 9000000
     },
     {
       "name": "Marco Friedl",
@@ -96,16 +96,16 @@
       "position": "DF",
       "club": "Venezia",
       "club_country": "Italy",
-      "age": 28,
-      "market_value_eur": 2500000
+      "age": 27,
+      "market_value_eur": 3500000
     },
     {
       "name": "David Affengruber",
       "position": "DF",
       "club": "Elche",
       "club_country": "Spain",
-      "age": 24,
-      "market_value_eur": 6000000
+      "age": 25,
+      "market_value_eur": 20000000
     },
     {
       "name": "Xaver Schlager",
@@ -113,7 +113,7 @@
       "club": "RB Leipzig",
       "club_country": "Germany",
       "age": 28,
-      "market_value_eur": 22000000
+      "market_value_eur": 10000000
     },
     {
       "name": "Nicolas Seiwald",
@@ -121,7 +121,7 @@
       "club": "RB Leipzig",
       "club_country": "Germany",
       "age": 25,
-      "market_value_eur": 20000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Marcel Sabitzer",
@@ -129,15 +129,15 @@
       "club": "Borussia Dortmund",
       "club_country": "Germany",
       "age": 32,
-      "market_value_eur": 14000000
+      "market_value_eur": 6000000
     },
     {
       "name": "Konrad Laimer",
       "position": "MF",
       "club": "Bayern Munich",
       "club_country": "Germany",
-      "age": 28,
-      "market_value_eur": 22000000
+      "age": 29,
+      "market_value_eur": 32000000
     },
     {
       "name": "Christoph Baumgartner",
@@ -145,7 +145,7 @@
       "club": "RB Leipzig",
       "club_country": "Germany",
       "age": 26,
-      "market_value_eur": 25000000
+      "market_value_eur": 40000000
     },
     {
       "name": "Florian Grillitsch",
@@ -153,7 +153,7 @@
       "club": "Braga",
       "club_country": "Portugal",
       "age": 30,
-      "market_value_eur": 4000000
+      "market_value_eur": 2500000
     },
     {
       "name": "Carney Chukwuemeka",
@@ -161,7 +161,7 @@
       "club": "Borussia Dortmund",
       "club_country": "Germany",
       "age": 22,
-      "market_value_eur": 18000000
+      "market_value_eur": 20000000
     },
     {
       "name": "Romano Schmid",
@@ -169,15 +169,15 @@
       "club": "Werder Bremen",
       "club_country": "Germany",
       "age": 26,
-      "market_value_eur": 9000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Patrick Wimmer",
       "position": "MF",
       "club": "VfL Wolfsburg",
       "club_country": "Germany",
-      "age": 24,
-      "market_value_eur": 10000000
+      "age": 25,
+      "market_value_eur": 12000000
     },
     {
       "name": "Paul Wanner",
@@ -185,15 +185,15 @@
       "club": "PSV Eindhoven",
       "club_country": "Netherlands",
       "age": 20,
-      "market_value_eur": 20000000
+      "market_value_eur": 22000000
     },
     {
       "name": "Alessandro Schöpf",
       "position": "MF",
       "club": "Wolfsberger AC",
       "club_country": "Austria",
-      "age": 31,
-      "market_value_eur": 1000000
+      "age": 32,
+      "market_value_eur": 800000
     },
     {
       "name": "Marko Arnautović",
@@ -201,7 +201,7 @@
       "club": "Red Star Belgrade",
       "club_country": "Serbia",
       "age": 37,
-      "market_value_eur": 1500000
+      "market_value_eur": 2000000
     },
     {
       "name": "Michael Gregoritsch",
@@ -209,7 +209,7 @@
       "club": "FC Augsburg",
       "club_country": "Germany",
       "age": 32,
-      "market_value_eur": 4000000
+      "market_value_eur": 1500000
     },
     {
       "name": "Saša Kalajdžić",
@@ -217,7 +217,7 @@
       "club": "LASK",
       "club_country": "Austria",
       "age": 28,
-      "market_value_eur": 2500000
+      "market_value_eur": 4000000
     }
   ]
 }

@@ -17,7 +17,7 @@
       "club": "Aston Villa",
       "club_country": "England",
       "age": 33,
-      "market_value_eur": 22000000
+      "market_value_eur": 12000000
     },
     {
       "name": "Gerónimo Rulli",
@@ -33,7 +33,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 32,
-      "market_value_eur": 5000000
+      "market_value_eur": 3000000
     },
     {
       "name": "Gonzalo Montiel",
@@ -41,7 +41,7 @@
       "club": "River Plate",
       "club_country": "Argentina",
       "age": 29,
-      "market_value_eur": 8000000
+      "market_value_eur": 4500000
     },
     {
       "name": "Nahuel Molina",
@@ -49,7 +49,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 28,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Lisandro Martínez",
@@ -65,7 +65,7 @@
       "club": "Benfica",
       "club_country": "Portugal",
       "age": 38,
-      "market_value_eur": 2000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Marcos Senesi",
@@ -73,7 +73,7 @@
       "club": "Bournemouth",
       "club_country": "England",
       "age": 29,
-      "market_value_eur": 30000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Cristian Romero",
@@ -81,7 +81,7 @@
       "club": "Tottenham Hotspur",
       "club_country": "England",
       "age": 28,
-      "market_value_eur": 55000000
+      "market_value_eur": 45000000
     },
     {
       "name": "Nicolás Tagliafico",
@@ -89,7 +89,7 @@
       "club": "Lyon",
       "club_country": "France",
       "age": 33,
-      "market_value_eur": 6000000
+      "market_value_eur": 4000000
     },
     {
       "name": "Facundo Medina",
@@ -97,7 +97,7 @@
       "club": "Marseille",
       "club_country": "France",
       "age": 27,
-      "market_value_eur": 22000000
+      "market_value_eur": 18000000
     },
     {
       "name": "Giovani Lo Celso",
@@ -105,7 +105,7 @@
       "club": "Real Betis",
       "club_country": "Spain",
       "age": 30,
-      "market_value_eur": 18000000
+      "market_value_eur": 8000000
     },
     {
       "name": "Leandro Paredes",
@@ -113,7 +113,7 @@
       "club": "Boca Juniors",
       "club_country": "Argentina",
       "age": 31,
-      "market_value_eur": 6000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Rodrigo De Paul",
@@ -121,7 +121,7 @@
       "club": "Inter Miami",
       "club_country": "United States",
       "age": 32,
-      "market_value_eur": 12000000
+      "market_value_eur": 14000000
     },
     {
       "name": "Exequiel Palacios",
@@ -129,7 +129,7 @@
       "club": "Bayer Leverkusen",
       "club_country": "Germany",
       "age": 27,
-      "market_value_eur": 35000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Enzo Fernández",
@@ -137,7 +137,7 @@
       "club": "Chelsea",
       "club_country": "England",
       "age": 25,
-      "market_value_eur": 70000000
+      "market_value_eur": 90000000
     },
     {
       "name": "Alexis Mac Allister",
@@ -145,7 +145,7 @@
       "club": "Liverpool",
       "club_country": "England",
       "age": 27,
-      "market_value_eur": 80000000
+      "market_value_eur": 70000000
     },
     {
       "name": "Valentín Barco",
@@ -153,7 +153,7 @@
       "club": "Strasbourg",
       "club_country": "France",
       "age": 21,
-      "market_value_eur": 18000000
+      "market_value_eur": 40000000
     },
     {
       "name": "Lionel Messi",
@@ -161,7 +161,7 @@
       "club": "Inter Miami",
       "club_country": "United States",
       "age": 38,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Nicolás González",
@@ -169,7 +169,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 28,
-      "market_value_eur": 28000000
+      "market_value_eur": 22000000
     },
     {
       "name": "Giuliano Simeone",
@@ -177,7 +177,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 23,
-      "market_value_eur": 30000000
+      "market_value_eur": 40000000
     },
     {
       "name": "Lautaro Martínez",
@@ -185,7 +185,7 @@
       "club": "Inter Milan",
       "club_country": "Italy",
       "age": 28,
-      "market_value_eur": 90000000
+      "market_value_eur": 85000000
     },
     {
       "name": "José Manuel López",
@@ -193,7 +193,7 @@
       "club": "Palmeiras",
       "club_country": "Brazil",
       "age": 25,
-      "market_value_eur": 22000000
+      "market_value_eur": 25000000
     },
     {
       "name": "Julián Álvarez",
@@ -201,7 +201,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 26,
-      "market_value_eur": 90000000
+      "market_value_eur": 100000000
     },
     {
       "name": "Thiago Almada",
@@ -209,7 +209,7 @@
       "club": "Atlético Madrid",
       "club_country": "Spain",
       "age": 25,
-      "market_value_eur": 35000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Nico Paz",
@@ -217,7 +217,7 @@
       "club": "Como",
       "club_country": "Italy",
       "age": 21,
-      "market_value_eur": 45000000
+      "market_value_eur": 80000000
     }
   ]
 }

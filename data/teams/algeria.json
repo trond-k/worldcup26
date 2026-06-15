@@ -17,15 +17,15 @@
       "club": "Granada",
       "club_country": "Spain",
       "age": 28,
-      "market_value_eur": 2000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Oussama Benbot",
       "position": "GK",
       "club": "USM Alger",
       "club_country": "Algeria",
-      "age": 30,
-      "market_value_eur": 800000
+      "age": 31,
+      "market_value_eur": 850000
     },
     {
       "name": "Melvin Mastil",
@@ -33,7 +33,7 @@
       "club": "Stade Nyonnais",
       "club_country": "Switzerland",
       "age": 26,
-      "market_value_eur": 400000
+      "market_value_eur": 250000
     },
     {
       "name": "Achraf Abada",
@@ -48,8 +48,8 @@
       "position": "DF",
       "club": "Manchester City",
       "club_country": "England",
-      "age": 24,
-      "market_value_eur": 50000000
+      "age": 25,
+      "market_value_eur": 40000000
     },
     {
       "name": "Zinedine Belaid",
@@ -64,8 +64,8 @@
       "position": "DF",
       "club": "Hellas Verona",
       "club_country": "Italy",
-      "age": 23,
-      "market_value_eur": 4000000
+      "age": 24,
+      "market_value_eur": 7000000
     },
     {
       "name": "Ramy Bensebaini",
@@ -73,7 +73,7 @@
       "club": "Borussia Dortmund",
       "club_country": "Germany",
       "age": 31,
-      "market_value_eur": 15000000
+      "market_value_eur": 7000000
     },
     {
       "name": "Samir Chergui",
@@ -97,23 +97,23 @@
       "club": "Lille",
       "club_country": "France",
       "age": 34,
-      "market_value_eur": 3000000
+      "market_value_eur": 1000000
     },
     {
       "name": "Mohamed Amine Tougai",
       "position": "DF",
       "club": "Espérance de Tunis",
       "club_country": "Tunisia",
-      "age": 25,
-      "market_value_eur": 3500000
+      "age": 26,
+      "market_value_eur": 1300000
     },
     {
       "name": "Houssem Aouar",
       "position": "MF",
       "club": "Al-Ittihad",
       "club_country": "Saudi Arabia",
-      "age": 28,
-      "market_value_eur": 14000000
+      "age": 27,
+      "market_value_eur": 8000000
     },
     {
       "name": "Nabil Bentaleb",
@@ -121,7 +121,7 @@
       "club": "Lille",
       "club_country": "France",
       "age": 31,
-      "market_value_eur": 6000000
+      "market_value_eur": 4500000
     },
     {
       "name": "Hicham Boudaoui",
@@ -137,7 +137,7 @@
       "club": "Eintracht Frankfurt",
       "club_country": "Germany",
       "age": 23,
-      "market_value_eur": 18000000
+      "market_value_eur": 15000000
     },
     {
       "name": "Ibrahim Maza",
@@ -145,15 +145,15 @@
       "club": "Bayer Leverkusen",
       "club_country": "Germany",
       "age": 20,
-      "market_value_eur": 20000000
+      "market_value_eur": 45000000
     },
     {
       "name": "Yassine Titraoui",
       "position": "MF",
       "club": "Charleroi",
       "club_country": "Belgium",
-      "age": 24,
-      "market_value_eur": 3000000
+      "age": 22,
+      "market_value_eur": 7000000
     },
     {
       "name": "Ramiz Zerrouki",
@@ -161,7 +161,7 @@
       "club": "Twente",
       "club_country": "Netherlands",
       "age": 28,
-      "market_value_eur": 7000000
+      "market_value_eur": 6500000
     },
     {
       "name": "Mohamed Amine Amoura",
@@ -184,16 +184,16 @@
       "position": "FW",
       "club": "Al-Duhail",
       "club_country": "Qatar",
-      "age": 26,
-      "market_value_eur": 2000000
+      "age": 23,
+      "market_value_eur": 3000000
     },
     {
       "name": "Farès Ghedjemis",
       "position": "FW",
       "club": "Frosinone",
       "club_country": "Italy",
-      "age": 24,
-      "market_value_eur": 3000000
+      "age": 23,
+      "market_value_eur": 7500000
     },
     {
       "name": "Amine Gouiri",
@@ -201,7 +201,7 @@
       "club": "Marseille",
       "club_country": "France",
       "age": 26,
-      "market_value_eur": 30000000
+      "market_value_eur": 28000000
     },
     {
       "name": "Riyad Mahrez",
@@ -209,15 +209,15 @@
       "club": "Al-Ahli",
       "club_country": "Saudi Arabia",
       "age": 35,
-      "market_value_eur": 8000000
+      "market_value_eur": 5000000
     },
     {
       "name": "Anis Hadj Moussa",
       "position": "FW",
       "club": "Feyenoord",
       "club_country": "Netherlands",
-      "age": 23,
-      "market_value_eur": 12000000
+      "age": 24,
+      "market_value_eur": 23000000
     }
   ]
 }

@@ -3,7 +3,7 @@
 | Team | Confederation | Squad value |
 |------|---------------|-------------|
 | France | UEFA | €1351.0m |
-| Norway | UEFA | €567.0m |
+| Norway | UEFA | €589.9m |
 | Senegal | CAF | €414.0m |
 | Iraq | AFC | €28.1m |
 
@@ -108,33 +108,33 @@
 
 ### Norway
 
-**Confederation:** UEFA · **FIFA ranking:** 31 · **Coach:** Ståle Solbakken · **Squad value:** €567.0m · **GNP:** $506.4B (2024) · **GNP per capita:** $98,280 · **Population:** 5,550,000
+**Confederation:** UEFA · **FIFA ranking:** 31 · **Coach:** Ståle Solbakken · **Squad value:** €589.9m · **GNP:** $506.4B (2024) · **GNP per capita:** $98,280 · **Population:** 5,550,000
 
 | # | Player | Pos | Club | Market value |
 |---|--------|-----|------|--------------|
-| 1 | Egil Selvik | GK | Watford (England) | €1.5m |
-| 2 | Sander Tangvik | GK | Hamburger SV (Germany) | €1.5m |
-| 3 | Ørjan Nyland | GK | Sevilla (Spain) | €1.0m |
-| 4 | Julian Ryerson | DF | Borussia Dortmund (Germany) | €22.0m |
+| 1 | Sander Tangvik | GK | Hamburger SV (Germany) | €3.0m |
+| 2 | Egil Selvik | GK | Watford (England) | €1.5m |
+| 3 | Ørjan Nyland | GK | Sevilla (Spain) | €800k |
+| 4 | Julian Ryerson | DF | Borussia Dortmund (Germany) | €25.0m |
 | 5 | Kristoffer Ajer | DF | Brentford (England) | €18.0m |
-| 6 | Leo Skiri Østigård | DF | Genoa (Italy) | €12.0m |
-| 7 | David Møller Wolfe | DF | Wolverhampton Wanderers (England) | €9.0m |
-| 8 | Marcus Holmgren Pedersen | DF | Torino (Italy) | €8.0m |
-| 9 | Torbjørn Heggem | DF | Bologna (Italy) | €7.0m |
-| 10 | Fredrik Bjørkan | DF | Bodø/Glimt (Norway) | €3.5m |
-| 11 | Sondre Langås | DF | Derby County (England) | €2.5m |
-| 12 | Martin Ødegaard | MF | Arsenal (England) | €80.0m |
-| 13 | Fredrik Aursnes | MF | Benfica (Portugal) | €22.0m |
-| 14 | Sander Berge | MF | Fulham (England) | €20.0m |
-| 15 | Andreas Schjelderup | MF | Benfica (Portugal) | €18.0m |
+| 6 | Leo Skiri Østigård | DF | Genoa (Italy) | €13.0m |
+| 7 | Torbjørn Heggem | DF | Bologna (Italy) | €13.0m |
+| 8 | David Møller Wolfe | DF | Wolverhampton Wanderers (England) | €8.0m |
+| 9 | Sondre Langås | DF | Derby County (England) | €4.0m |
+| 10 | Marcus Holmgren Pedersen | DF | Torino (Italy) | €3.5m |
+| 11 | Fredrik Bjørkan | DF | Bodø/Glimt (Norway) | €3.5m |
+| 12 | Martin Ødegaard | MF | Arsenal (England) | €65.0m |
+| 13 | Andreas Schjelderup | MF | Benfica (Portugal) | €30.0m |
+| 14 | Sander Berge | MF | Fulham (England) | €25.0m |
+| 15 | Fredrik Aursnes | MF | Benfica (Portugal) | €15.0m |
 | 16 | Kristian Thorstvedt | MF | Sassuolo (Italy) | €12.0m |
-| 17 | Thelo Aasgaard | MF | Rangers (Scotland) | €9.0m |
-| 18 | Jens Petter Hauge | MF | Bodø/Glimt (Norway) | €6.0m |
-| 19 | Patrick Berg | MF | Bodø/Glimt (Norway) | €5.0m |
-| 20 | Morten Thorsby | MF | Cremonese (Italy) | €3.5m |
-| 21 | Erling Haaland | FW | Manchester City (England) | €180.0m |
-| 22 | Antonio Nusa | FW | RB Leipzig (Germany) | €35.0m |
-| 23 | Alexander Sørloth | FW | Atlético Madrid (Spain) | €30.0m |
-| 24 | Oscar Bobb | FW | Fulham (England) | €30.0m |
-| 25 | Jørgen Strand Larsen | FW | Crystal Palace (England) | €28.0m |
-| 26 | Henrik Falchener | FW | Viking (Norway) | €2.5m |
+| 17 | Jens Petter Hauge | MF | Bodø/Glimt (Norway) | €12.0m |
+| 18 | Patrick Berg | MF | Bodø/Glimt (Norway) | €8.0m |
+| 19 | Morten Thorsby | MF | Cremonese (Italy) | €2.8m |
+| 20 | Thelo Aasgaard | MF | Rangers (Scotland) | €2.8m |
+| 21 | Erling Haaland | FW | Manchester City (England) | €200.0m |
+| 22 | Jørgen Strand Larsen | FW | Crystal Palace (England) | €40.0m |
+| 23 | Antonio Nusa | FW | RB Leipzig (Germany) | €32.0m |
+| 24 | Oscar Bobb | FW | Fulham (England) | €28.0m |
+| 25 | Alexander Sørloth | FW | Atlético Madrid (Spain) | €18.0m |
+| 26 | Henrik Falchener | FW | Viking (Norway) | €6.0m |
