@@ -10,24 +10,27 @@
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443",
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-south-africa-highlights-match-report",
-    "https://www.concacaf.com/competitions/fifa-world-cup/news/jimenez-scores-first-world-cup-goal-as-mexico-tops-south-africa",
     "https://www.espn.com/soccer/match/_/gameId/760415/south-africa-mexico",
-    "https://www.skysports.com/football/mexico-vs-south-africa/report/549767",
-    "https://www.aljazeera.com/sports/2026/6/11/jimenez-and-quinones-net-as-mexico-beat-south-africa-in-world-cup-opener",
-    "https://worldsoccertalk.com/world-cup/mexico-vs-south-africa-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-opener/"
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616",
+    "https://sports.yahoo.com/articles/mexico-vs-south-africa-box-173456470.html",
+    "https://theanalyst.com/articles/mexico-vs-south-africa-stats-2026-world-cup",
+    "https://www.cbssports.com/soccer/news/mexico-vs-south-africa-live-updates-world-cup-2026-score-result/live/"
   ],
   "goals": [
     {"team": "mexico", "player": "Julián Quiñones", "minute": "9", "type": "regular", "assist": "Roberto Alvarado"},
     {"team": "mexico", "player": "Raúl Jiménez", "minute": "67", "type": "regular", "assist": "Roberto Alvarado"}
   ],
   "cards": [
+    {"team": "south-africa", "player": "Teboho Mokoena", "minute": "16", "card": "yellow"},
+    {"team": "mexico", "player": "Brian Gutiérrez", "minute": "22", "card": "yellow"},
     {"team": "south-africa", "player": "Sphephelo Sithole", "minute": "49", "card": "red"},
     {"team": "south-africa", "player": "Themba Zwane", "minute": "84", "card": "red"},
     {"team": "mexico", "player": "César Montes", "minute": "90+2", "card": "red"}
   ],
   "substitutions": [
-    {"team": "mexico", "off": "Raúl Jiménez", "on": "Armando González", "minute": null},
-    {"team": "mexico", "off": "Erik Lira", "on": "Edson Álvarez", "minute": null}
+    {"team": "mexico", "off": "Raúl Jiménez", "on": "Armando González", "minute": "76"},
+    {"team": "mexico", "off": "Erik Lira", "on": "Edson Álvarez", "minute": "76"},
+    {"team": "mexico", "off": "Julián Quiñones", "on": "Alexis Vega", "minute": "79"}
   ],
   "lineups": {
     "home": {
@@ -66,7 +69,7 @@
     }
   },
   "stats": {
-    "home": {"possession": 57, "shots": 16, "shots_on_target": 4, "corners": null, "fouls": null, "offsides": null, "yellow_cards": null, "red_cards": 1, "saves": null, "passes": null, "pass_accuracy": null},
-    "away": {"possession": 36, "shots": 3, "shots_on_target": 2, "corners": null, "fouls": null, "offsides": null, "yellow_cards": null, "red_cards": 2, "saves": null, "passes": null, "pass_accuracy": null}
+    "home": {"possession": 57, "shots": 16, "shots_on_target": 4, "corners": 3, "fouls": 12, "offsides": 1, "yellow_cards": 1, "red_cards": 1, "saves": null, "passes": 547, "pass_accuracy": 90},
+    "away": {"possession": 36, "shots": 3, "shots_on_target": 2, "corners": 1, "fouls": 11, "offsides": 1, "yellow_cards": 1, "red_cards": 2, "saves": null, "passes": 351, "pass_accuracy": 83}
   }
 }

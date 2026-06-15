@@ -73,9 +73,9 @@
   },
   "stats": {
     "home": {
-      "possession": null,
-      "shots": null,
-      "shots_on_target": null,
+      "possession": 59,
+      "shots": 16,
+      "shots_on_target": 6,
       "corners": 5,
       "fouls": 13,
       "offsides": 1,
@@ -86,9 +86,9 @@
       "pass_accuracy": 85
     },
     "away": {
-      "possession": null,
-      "shots": null,
-      "shots_on_target": null,
+      "possession": 41,
+      "shots": 9,
+      "shots_on_target": 1,
       "corners": 8,
       "fouls": 11,
       "offsides": 3,

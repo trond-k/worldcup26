@@ -6,16 +6,17 @@
   "home_score": 2,
   "away_score": 1,
   "attendance": 44985,
-  "referee": "Amin Mohamed",
+  "referee": "Amin Omar",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441",
+    "https://www.espn.com/soccer/match/_/gameId/760414/czechia-south-korea",
     "https://www.espn.com/soccer/report/_/gameId/760414",
+    "https://theanalyst.com/articles/south-korea-vs-czechia-stats-2026-world-cup-live",
+    "https://sports.yahoo.com/articles/south-korea-vs-czechia-box-003101523.html",
+    "https://www.skysports.com/football/korea-rep-vs-czech-rep/report/549766",
     "https://www.aljazeera.com/sports/2026/6/12/south-korea-vs-czechia-world-cup-2026-oh-hyeon-gyu-hwang-in-beom",
-    "https://www.skysports.com/football/news/12098/13552607/world-cup-2026-south-korea-2-1-czech-republic-in-beom-hwang-inspires-comeback-win-after-ladislav-krejci-goal",
-    "https://www.vavel.com/en/international-football/2026/06/12/1263305-south-korea-2-1-czechia-fifa-world-cup-match-report.html",
-    "https://athlonsports.com/soccer/who-referee-south-korea-czechia-world-cup",
-    "https://www.newsweek.com/sports/fifa-under-fire-for-defending-attendance-for-world-cup-match-12063365",
-    "https://worldsoccertalk.com/world-cup/is-heung-min-son-playing-south-korea-vs-czech-republic-projected-lineups-for-the-2026-world-cup-game/"
+    "https://www.fourfourtwo.com/competition/who-is-the-referee-for-south-korea-vs-czechia",
+    "https://www.newsweek.com/sports/fifa-under-fire-for-defending-attendance-for-world-cup-match-12063365"
   ],
   "goals": [
     {"team": "czechia", "player": "Ladislav Krejčí", "minute": "59", "type": "regular", "assist": "Vladimír Coufal"},
@@ -65,7 +66,7 @@
     }
   },
   "stats": {
-    "home": {"possession": null, "shots": 15, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
-    "away": {"possession": null, "shots": 8, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 4, "passes": null, "pass_accuracy": null}
+    "home": {"possession": 54.5, "shots": 16, "shots_on_target": 4, "corners": 8, "fouls": 7, "offsides": 3, "yellow_cards": 1, "red_cards": 0, "saves": 2, "passes": 412, "pass_accuracy": 83.5},
+    "away": {"possession": 45.5, "shots": 4, "shots_on_target": 3, "corners": 3, "fouls": 12, "offsides": 1, "yellow_cards": 0, "red_cards": 0, "saves": 2, "passes": 353, "pass_accuracy": 75.1}
   }
 }

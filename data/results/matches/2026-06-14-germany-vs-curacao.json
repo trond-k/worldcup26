@@ -9,11 +9,11 @@
   "referee": "Jalal Jayed",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464",
-    "https://www.fifa.com/en/articles/germany-curacao-highlights-match-report",
-    "https://theanalyst.com/articles/germany-vs-curacao-stats-world-cup-2026",
-    "https://www.skysports.com/football/germany-vs-curacao/report/549774",
-    "https://www.bundesliga.com/en/bundesliga/news/germany-curacao-world-cup-7-1-houston-stadium-group-e-report-havertz-37814",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/germany-curacao-highlights-match-report",
+    "https://www.espn.com/soccer/report/_/gameId/760422",
     "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
+    "https://theanalyst.com/articles/germany-vs-curacao-stats-world-cup-2026",
+    "https://www.bundesliga.com/en/bundesliga/news/germany-curacao-world-cup-7-1-houston-stadium-group-e-report-havertz-37814",
     "https://www.nbcsports.com/soccer/world-cup/live/germany-vs-curacao-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-14"
   ],
   "goals": [
@@ -52,7 +52,7 @@
       ]
     },
     "away": {
-      "formation": "4-2-3-1",
+      "formation": "4-3-3",
       "manager": "Dick Advocaat",
       "starting": [
         {"name": "Eloy Room", "position": "GK", "number": null},
@@ -63,14 +63,14 @@
         {"name": "Leandro Bacuna", "position": "MF", "number": null},
         {"name": "Juninho Bacuna", "position": "MF", "number": null},
         {"name": "Livano Comenencia", "position": "MF", "number": null},
-        {"name": "Sontje Hansen", "position": "FW", "number": null},
         {"name": "Tahith Chong", "position": "FW", "number": null},
-        {"name": "Jurgen Locadia", "position": "FW", "number": null}
+        {"name": "Jurgen Locadia", "position": "FW", "number": null},
+        {"name": "Sontje Hansen", "position": "FW", "number": null}
       ]
     }
   },
   "stats": {
-    "home": {"possession": 65, "shots": 26, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
-    "away": {"possession": 35, "shots": 8, "shots_on_target": null, "corners": null, "fouls": null, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null}
+    "home": {"possession": 65, "shots": 26, "shots_on_target": 12, "corners": 8, "fouls": 18, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": 635, "pass_accuracy": 87},
+    "away": {"possession": 35, "shots": 8, "shots_on_target": 2, "corners": 1, "fouls": 11, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 4, "passes": null, "pass_accuracy": null}
   }
 }

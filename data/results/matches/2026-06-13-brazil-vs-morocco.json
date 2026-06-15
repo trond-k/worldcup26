@@ -10,20 +10,21 @@
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456",
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-morocco-highlights-match-report",
+    "https://www.espn.com/soccer/match/_/gameId/760419/morocco-brazil",
     "https://www.espn.com/soccer/report/_/gameId/760419",
     "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
     "https://theanalyst.com/articles/brazil-vs-morocco-stats-world-cup-2026",
     "https://www.sofascore.com/football/match/morocco-brazil/YUbsDVb",
-    "https://www.whoscored.com/news/2iLyJiacikKzRTmHwqdiYw/show/20260613-brazil-vs-morocco-confirmed-lineup-1781383611",
-    "https://www.101greatgoals.com/football/world-cup-news/world-cup-2026-brazil-morocco-report-result-goals-vinicius-junior/"
+    "https://www.moroccoworldnews.com/2026/06/319506/over-80000-fans-attend-morocco-brazil-world-cup-match-at-metlife-stadium/",
+    "https://www.amny.com/news/brazil-morocco-world-cup/"
   ],
   "goals": [
     {"team": "morocco", "player": "Ismael Saibari", "minute": "21", "type": "regular", "assist": "Brahim Díaz"},
     {"team": "brazil", "player": "Vinícius Júnior", "minute": "32", "type": "regular", "assist": "Bruno Guimarães"}
   ],
   "cards": [
-    {"team": "brazil", "player": "Roger Ibañez", "minute": "45", "card": "yellow"},
-    {"team": "brazil", "player": "Casemiro", "minute": "45", "card": "yellow"}
+    {"team": "brazil", "player": "Casemiro", "minute": "37", "card": "yellow"},
+    {"team": "brazil", "player": "Roger Ibañez", "minute": "43", "card": "yellow"}
   ],
   "substitutions": [
     {"team": "brazil", "off": "Roger Ibañez", "on": "Danilo", "minute": "46"},
@@ -71,26 +72,26 @@
       "shots": 13,
       "shots_on_target": 5,
       "corners": 6,
-      "fouls": null,
-      "offsides": null,
+      "fouls": 16,
+      "offsides": 0,
       "yellow_cards": 2,
       "red_cards": 0,
       "saves": null,
-      "passes": null,
-      "pass_accuracy": null
+      "passes": 457,
+      "pass_accuracy": 87.2
     },
     "away": {
       "possession": 49,
       "shots": 14,
       "shots_on_target": 3,
       "corners": 2,
-      "fouls": null,
-      "offsides": null,
+      "fouls": 14,
+      "offsides": 1,
       "yellow_cards": 0,
       "red_cards": 0,
       "saves": null,
-      "passes": null,
-      "pass_accuracy": null
+      "passes": 424,
+      "pass_accuracy": 86.0
     }
   }
 }

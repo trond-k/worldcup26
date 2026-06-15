@@ -5,25 +5,32 @@
   "away": "switzerland",
   "home_score": 1,
   "away_score": 1,
-  "attendance": null,
+  "attendance": 67966,
   "referee": "Saíd Martínez",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447",
-    "https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026",
-    "https://www.espn.com/soccer/report/_/gameId/760420",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-switzerland-highlights-match-report",
+    "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar",
     "https://www.skysports.com/football/qatar-vs-switzerland/report/549770",
-    "https://www.nbcnews.com/sports/soccer/boualem-khoukhis-header-qatar-first-world-cup-point-switzerland-rcna349962",
-    "https://sports.yahoo.com/soccer/article/world-cup-2026-qatar-steals-1-1-draw-with-switzerland-on-boualem-khoukhis-late-goal-in-extra-time-211327024.html"
+    "https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026",
+    "https://gulfnews.com/sport/football/world-cup/injury-time-heartbreak-for-switzerland-as-qatar-level-late-1.500573707",
+    "https://www.whoscored.com/matches/1953856/live/international-fifa-world-cup-2026-qatar-switzerland"
   ],
   "goals": [
     {"team": "switzerland", "player": "Breel Embolo", "minute": "17", "type": "penalty", "assist": null},
-    {"team": "qatar", "player": "Boualem Khoukhi", "minute": "90+4", "type": "regular", "assist": null}
+    {"team": "qatar", "player": "Miro Muheim", "minute": "90+4", "type": "own_goal", "assist": null}
   ],
   "cards": [
     {"team": "qatar", "player": "Jassem Gaber", "minute": "22", "card": "yellow"},
     {"team": "switzerland", "player": "Denis Zakaria", "minute": null, "card": "yellow"}
   ],
-  "substitutions": [],
+  "substitutions": [
+    {"team": "switzerland", "player_off": "Dan Ndoye", "player_on": "Johan Manzambi", "minute": "65"},
+    {"team": "switzerland", "player_off": "Michel Aebischer", "player_on": "Fabian Rieder", "minute": "65"},
+    {"team": "switzerland", "player_off": "Rubén Vargas", "player_on": "Zeki Amdouni", "minute": "78"},
+    {"team": "switzerland", "player_off": "Ricardo Rodriguez", "player_on": "Miro Muheim", "minute": "88"},
+    {"team": "switzerland", "player_off": "Remo Freuler", "player_on": "Ardon Jashari", "minute": "89"}
+  ],
   "lineups": {
     "home": {
       "formation": "4-3-3",
@@ -72,7 +79,7 @@
       "red_cards": 0,
       "saves": null,
       "passes": null,
-      "pass_accuracy": null
+      "pass_accuracy": 87
     },
     "away": {
       "possession": 56,
@@ -84,8 +91,8 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "saves": null,
-      "passes": null,
-      "pass_accuracy": null
+      "passes": 3681,
+      "pass_accuracy": 84
     }
   }
 }
