@@ -197,14 +197,13 @@ def fmt_usd(value):
     return f"${value:,}"
 
 
-def fmt_count(value):
-    """Format a plain count (e.g. population) as e.g. 1.4B / 84.5M / 12.3k."""
+def fmt_pop(value):
+    """Format a population always in millions so values stay comparable.
+
+    e.g. 525_000 -> '0.52M', 3_400_000 -> '3.4M', 114_500_000 -> '114.5M'.
+    Uses 2 decimals below 1M so small nations don't collapse to '0.0M'.
+    """
     if value is None:
         return "—"
-    if value >= 1_000_000_000:
-        return f"{value / 1_000_000_000:.1f}B"
-    if value >= 1_000_000:
-        return f"{value / 1_000_000:.1f}M"
-    if value >= 1_000:
-        return f"{value / 1_000:.1f}k"
-    return f"{value}"
+    m = value / 1_000_000
+    return f"{m:.2f}M" if m < 1 else f"{m:.1f}M"

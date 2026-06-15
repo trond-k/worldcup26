@@ -29,8 +29,8 @@ from common import (
     ROOT,
     STAT_LABELS,
     compute_standings,
-    fmt_count,
     fmt_eur,
+    fmt_pop,
     fmt_usd,
     load_all_teams,
     load_match_details,
@@ -205,7 +205,7 @@ def team_block(slug, by_slug):
         f'<span class="tname">{name_link}</span>'
         '<dl class="card-stats">'
         f'<div><dt>Squad value</dt><dd>{esc(fmt_eur(squad_value(t)))}</dd></div>'
-        f'<div><dt>Citizens</dt><dd>{esc(fmt_count(t.get("population")))}</dd></div>'
+        f'<div><dt>Citizens</dt><dd>{esc(fmt_pop(t.get("population")))}</dd></div>'
         f'<div><dt>GNP/capita</dt><dd>{esc(fmt_usd(t.get("gnp_per_capita_usd")))}</dd></div>'
         '</dl></div>'
     )
