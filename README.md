@@ -144,7 +144,9 @@ open site/index.html   # macOS; or just open the file in a browser
 
 The home page leads with **the day's matches** (today's fixtures, or the next
 matchday), showing each team's squad value and population; CI rebuilds the site
-daily so this tracks the real date during the tournament. It also produces the
+daily so this tracks the real date during the tournament. A **Calendar** section
+adds a per-matchday page (`day-<date>.html`) you can page through via a date
+strip and prev/next pager. It also produces the
 12 group pages, a page per team
 (metadata, full squad, fixtures), aggregate **stats**, **results** with live
 standings, and a rich detail page for every match that has a detail file

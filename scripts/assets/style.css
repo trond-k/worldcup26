@@ -120,6 +120,42 @@ table.standings td, table.standings th { text-align: center; }
 table.standings td:first-child, table.standings th:first-child { text-align: left; }
 table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-align: right; }
 
+/* Calendar — date navigator (pager + matchday strip) */
+.date-nav { margin: 0.5rem 0 1.25rem; }
+.date-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.date-pager .pager-link { font-weight: 600; }
+.date-pager .pager-link.disabled { color: var(--muted); opacity: 0.5; }
+.date-strip {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.3rem;
+}
+.date-chip {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  min-width: 3.6rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--fg);
+  background: var(--zebra);
+  text-decoration: none;
+}
+.date-chip:hover { border-color: var(--accent); text-decoration: none; }
+.date-chip.active { border-color: var(--accent); background: var(--accent); color: #fff; }
+.date-chip .dc-date { font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+.date-chip .dc-count { font-size: 0.68rem; color: var(--muted); }
+.date-chip.active .dc-count { color: #fff; }
+
 /* Featured matches on the home page */
 .matchday {
   display: grid;
@@ -173,6 +209,43 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
 .match-card .centre-link { text-decoration: none; }
 .match-card .score { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
 .match-card .vs { font-size: 1rem; color: var(--muted); font-style: italic; }
+
+/* Two-model odds (match cards) */
+.match-card .mc-odds {
+  grid-column: 1 / -1;
+  margin-top: 0.7rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.mc-odds-line {
+  display: grid;
+  grid-template-columns: 5rem 1fr 1fr 1fr;
+  gap: 0.3rem;
+  align-items: baseline;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+.mc-odds-line .mco-model {
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.mc-odds-line .mco-h { text-align: left; }
+.mc-odds-line .mco-d { text-align: center; color: var(--muted); }
+.mc-odds-line .mco-a { text-align: right; }
+.mc-odds-line .mco-fav { font-weight: 700; color: var(--accent); }
+.mc-odds-head { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.mc-odds-head span { color: var(--muted); }
+
+/* Two-model odds (match-detail table) */
+table.odds-table td.odds-fav { font-weight: 700; color: var(--accent); }
+table.odds-table th:first-child, table.odds-table td:first-child { text-align: left; }
+table.odds-table td { font-variant-numeric: tabular-nums; }
+p.odds-note { font-size: 0.8rem; max-width: 46rem; }
 
 /* Match-detail blocks */
 .lineups { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }

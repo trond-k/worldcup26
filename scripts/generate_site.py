@@ -9,6 +9,7 @@ beyond the Python standard library):
   site/team/<slug>.html        per-team page: metadata, squad, fixtures
   site/stats.html              market-value and economy rankings
   site/results.html            live standings + results by date
+  site/day-<date>.html         per-matchday calendar page (cards + date pager)
   site/match/<id>.html         rich per-match detail (goals, lineups, stats)
   site/assets/style.css        the single stylesheet
 
@@ -41,6 +42,7 @@ from common import (
     squad_value,
     team_name,
 )
+from odds import as_decimal_odds, build_team_scores, match_odds
 
 MONTHS = ["", "January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
@@ -75,8 +77,11 @@ def rel(depth):
 def page(title, body, depth=0, active=None):
     """Wrap body HTML in the shared site shell. `active` highlights a nav item."""
     root = rel(depth)
-    nav_items = [("", "Home", "home"), ("stats.html", "Stats", "stats"),
-                 ("results.html", "Results", "results")]
+    nav_items = [("", "Home", "home")]
+    if CALENDAR_HOME:
+        nav_items.append((CALENDAR_HOME, "Calendar", "calendar"))
+    nav_items += [("stats.html", "Stats", "stats"),
+                  ("results.html", "Results", "results")]
     nav = []
     for href, label, key in nav_items:
         cls = ' class="active"' if key == active else ""
@@ -211,7 +216,57 @@ def team_block(slug, by_slug):
     )
 
 
-def render_match_card(m, by_slug, details):
+# --- odds (two independent models: football & socio-economic) ----------------
+
+# (model key, display label) — order shown on the site.
+ODDS_MODELS = (("football", "Football"), ("socio", "Socio-econ"))
+
+
+def match_model_odds(m, scores):
+    """Both models' {home, draw, away} probabilities for a fixture.
+
+    Returns {'football': {...}, 'socio': {...}} or None if either team is
+    missing a score. The home side gets a venue edge only when it is a host.
+    """
+    h, a = m.get("home"), m.get("away")
+    if not scores or h not in scores or a not in scores:
+        return None
+    host_home = bool(scores[h].get("host"))
+    return {
+        key: match_odds(scores[h][key], scores[a][key], host_home=host_home)
+        for key, _ in ODDS_MODELS
+    }
+
+
+def render_card_odds(m, scores):
+    """Compact two-row odds footer for a match card (home / draw / away %)."""
+    mo = match_model_odds(m, scores)
+    if not mo:
+        return ""
+    lines = [
+        '<div class="mc-odds-line mc-odds-head">'
+        '<span class="mco-model"></span>'
+        '<span class="mco-h">Home</span><span class="mco-d">Draw</span>'
+        '<span class="mco-a">Away</span></div>'
+    ]
+    for key, label in ODDS_MODELS:
+        o = mo[key]
+        fav = max(("home", "draw", "away"), key=lambda k: o[k])
+
+        def cell(k, css):
+            klass = f"mco-{css}" + (" mco-fav" if k == fav else "")
+            return f'<span class="{klass}">{round(o[k] * 100)}%</span>'
+
+        lines.append(
+            '<div class="mc-odds-line">'
+            f'<span class="mco-model">{esc(label)}</span>'
+            f'{cell("home", "h")}{cell("draw", "d")}{cell("away", "a")}'
+            '</div>'
+        )
+    return '<div class="mc-odds">' + "".join(lines) + "</div>"
+
+
+def render_match_card(m, by_slug, details, scores=None):
     completed = m.get("status") == "completed"
     if completed:
         centre = f'<span class="score">{esc(m["home_score"])}–{esc(m["away_score"])}</span>'
@@ -227,13 +282,62 @@ def render_match_card(m, by_slug, details):
         f'{team_block(m["home"], by_slug)}'
         f'<div class="centre">{centre}</div>'
         f'{team_block(m["away"], by_slug)}'
+        f'{render_card_odds(m, scores)}'
         '</div>'
     )
 
 
+# --- calendar (per-matchday pages) ------------------------------------------
+
+def short_date(iso):
+    """'2026-06-15' -> '15 Jun'; pass through anything unparseable."""
+    try:
+        _, m, d = (int(x) for x in iso.split("-"))
+        return f"{d} {MONTHS[m][:3]}"
+    except (ValueError, IndexError):
+        return iso
+
+
+def render_date_nav(dates, current, counts):
+    """Prev/next pager + a clickable strip of every matchday (depth-0 links)."""
+    i = dates.index(current)
+    prev_d = dates[i - 1] if i > 0 else None
+    next_d = dates[i + 1] if i < len(dates) - 1 else None
+    prev_html = (f'<a class="pager-link" href="day-{prev_d}.html">&lsaquo; {esc(short_date(prev_d))}</a>'
+                 if prev_d else '<span class="pager-link disabled">&lsaquo; Prev</span>')
+    next_html = (f'<a class="pager-link" href="day-{next_d}.html">{esc(short_date(next_d))} &rsaquo;</a>'
+                 if next_d else '<span class="pager-link disabled">Next &rsaquo;</span>')
+    chips = []
+    for d in dates:
+        cls = "date-chip active" if d == current else "date-chip"
+        chips.append(
+            f'<a class="{cls}" href="day-{d}.html">'
+            f'<span class="dc-date">{esc(short_date(d))}</span>'
+            f'<span class="dc-count">{counts.get(d, 0)}</span></a>'
+        )
+    return (
+        '<nav class="date-nav" aria-label="Matchdays">'
+        f'<div class="date-pager">{prev_html}{next_html}</div>'
+        f'<div class="date-strip">{"".join(chips)}</div>'
+        '</nav>'
+    )
+
+
+def render_day(date, dates, day_matches, by_slug, details, scores, counts):
+    """One matchday page: date navigator + the day's match cards."""
+    body = [f'<h1>Matches <span class="muted">— {esc(pretty_date(date))}</span></h1>']
+    body.append(render_date_nav(dates, date, counts))
+    body.append('<div class="matchday">')
+    for m in day_matches:
+        body.append(render_match_card(m, by_slug, details, scores))
+    body.append('</div>')
+    return page(f"Matches — {pretty_date(date)}", "\n".join(body),
+                depth=0, active="calendar")
+
+
 # --- page renderers ----------------------------------------------------------
 
-def render_index(tournament, by_slug, matches, details, today):
+def render_index(tournament, by_slug, matches, details, today, scores):
     t = tournament
     body = [f"<h1>{esc(t['name'])}</h1>"]
     hosts = ", ".join(t.get("hosts", []))
@@ -250,8 +354,9 @@ def render_index(tournament, by_slug, matches, details, today):
                     f'<span class="muted">— {esc(pretty_date(fdate))}</span></h2>')
         body.append('<div class="matchday">')
         for m in featured:
-            body.append(render_match_card(m, by_slug, details))
+            body.append(render_match_card(m, by_slug, details, scores))
         body.append('</div>')
+        body.append(f'<p>{link(f"day-{fdate}.html", "Browse all matchdays →")}</p>')
 
     rows = []
     for letter in GROUP_LETTERS:
@@ -533,7 +638,48 @@ def render_stats_block(detail, home, away, by_slug):
     return "<h2>Team statistics</h2>" + table(head, rows, cls="match-stats")
 
 
-def render_match(m, detail, by_slug):
+def render_match_odds_block(m, scores, by_slug):
+    """Full two-model odds table for a match-detail page."""
+    mo = match_model_odds(m, scores)
+    if not mo:
+        return ""
+    home, away = m["home"], m["away"]
+    hn, an = team_name(by_slug, home), team_name(by_slug, away)
+    host_home = bool(scores[home].get("host"))
+
+    head = (f'<tr><th>Model</th><th>{esc(hn)}</th><th>Draw</th>'
+            f'<th>{esc(an)}</th></tr>')
+    rows = []
+    for key, label in ODDS_MODELS:
+        o = mo[key]
+        fav = max(("home", "draw", "away"), key=lambda k: o[k])
+
+        def cell(k):
+            inner = f"{round(o[k] * 100)}% <span class=\"muted\">({as_decimal_odds(o[k])})</span>"
+            return f'<td class="{"odds-fav" if k == fav else ""}">{inner}</td>'
+
+        rows.append(f'<tr><th>{esc(label)}</th>{cell("home")}{cell("draw")}'
+                    f'{cell("away")}</tr>')
+
+    sc = scores
+    note = ("Two independent toy models — a football model (rank, squad value, "
+            "World Cup pedigree, age) and a socio-economic model (wealth, "
+            "population, players abroad, hosts). Estimates only, not betting advice.")
+    if host_home:
+        note += f" {esc(hn)} carries a host-venue edge."
+    scoreline = (
+        f'<p class="muted">Strength scores — Football: {esc(hn)} '
+        f'{sc[home]["football"]} vs {esc(an)} {sc[away]["football"]} &middot; '
+        f'Socio-econ: {esc(hn)} {sc[home]["socio"]} vs {esc(an)} {sc[away]["socio"]}</p>'
+    )
+    return ("<h2>Model odds</h2>"
+            f'<table class="odds-table"><thead>{head}</thead>'
+            f'<tbody>{"".join(rows)}</tbody></table>'
+            f"{scoreline}"
+            f'<p class="muted odds-note">{note}</p>')
+
+
+def render_match(m, detail, by_slug, scores=None):
     home, away = m["home"], m["away"]
     grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
     title = (f"{team_name(by_slug, home)} {m['home_score']}–{m['away_score']} "
@@ -565,6 +711,7 @@ def render_match(m, detail, by_slug):
     body.append(render_subs_block(detail, by_slug))
     body.append(render_cards_block(detail, by_slug))
     body.append(render_stats_block(detail, home, away, by_slug))
+    body.append(render_match_odds_block(m, scores, by_slug))
 
     sources = detail.get("sources") or []
     if sources:
@@ -579,19 +726,32 @@ def render_match(m, detail, by_slug):
 # --- driver ------------------------------------------------------------------
 
 FOOTER_NOTE = ""
+CALENDAR_HOME = ""  # set in main(): href of the Calendar nav landing day page
 
 
 def main():
-    global FOOTER_NOTE
+    global FOOTER_NOTE, CALENDAR_HOME
     tournament = load_tournament()
     FOOTER_NOTE = tournament.get("data_disclaimer", "")
     teams = load_all_teams()
     by_slug = {t["slug"]: t for t in teams}
     matches = load_results()
     details = load_match_details()
+    scores = build_team_scores(teams, tournament)
 
     # "Today" is the build date; SITE_DATE overrides it for deterministic builds.
     today = os.environ.get("SITE_DATE") or datetime.date.today().isoformat()
+
+    # Matchdays for the calendar, and the day the Calendar nav lands on.
+    by_date = {}
+    for m in matches:
+        by_date.setdefault(m["date"], []).append(m)
+    dates = sorted(by_date)
+    counts = {d: len(by_date[d]) for d in dates}
+    _, cal_date, _ = select_featured_matches(matches, today)
+    if not cal_date and dates:
+        cal_date = dates[-1]
+    CALENDAR_HOME = f"day-{cal_date}.html" if cal_date else ""
 
     # Fresh build: clear previous output (keeps a clean, deterministic tree).
     if os.path.isdir(SITE_DIR):
@@ -600,7 +760,8 @@ def main():
 
     standings = compute_standings(teams, matches)
 
-    write("index.html", render_index(tournament, by_slug, matches, details, today))
+    write("index.html",
+          render_index(tournament, by_slug, matches, details, today, scores))
 
     n_groups = 0
     for letter in GROUP_LETTERS:
@@ -619,8 +780,12 @@ def main():
     for m in matches:
         detail = details.get(m.get("id"))
         if m.get("status") == "completed" and detail:
-            write(f"match/{m['id']}.html", render_match(m, detail, by_slug))
+            write(f"match/{m['id']}.html", render_match(m, detail, by_slug, scores))
             n_matches += 1
+
+    for d in dates:
+        write(f"day-{d}.html",
+              render_day(d, dates, by_date[d], by_slug, details, scores, counts))
 
     # Copy the stylesheet.
     os.makedirs(os.path.join(SITE_DIR, "assets"), exist_ok=True)
@@ -628,7 +793,7 @@ def main():
                     os.path.join(SITE_DIR, "assets", "style.css"))
 
     print(f"Wrote site/: index + {n_groups} group pages, {len(teams)} team pages, "
-          f"stats, results, {n_matches} match pages.")
+          f"stats, results, {n_matches} match pages, {len(dates)} day pages.")
 
 
 if __name__ == "__main__":

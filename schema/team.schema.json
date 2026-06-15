@@ -20,6 +20,13 @@
     "gnp_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026 },
     "population": { "type": ["integer", "null"], "minimum": 0, "description": "Total population (World Bank; ONS for England/Scotland)" },
     "population_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026 },
+    "wc_titles": { "type": ["integer", "null"], "minimum": 0, "description": "Men's World Cup titles won (predecessor states included, e.g. West Germany, Czechoslovakia)" },
+    "wc_appearances": { "type": ["integer", "null"], "minimum": 0, "description": "World Cup final-tournament appearances through 2022 (predecessor states included)" },
+    "wc_best_finish": {
+      "type": ["string", "null"],
+      "enum": ["winners", "runner-up", "third", "fourth", "semi-final", "quarter-final", "round-16", "round-32", "group-stage", "never-qualified", null],
+      "description": "Best World Cup finish through 2022"
+    },
     "squad": {
       "type": "array",
       "minItems": 26,
