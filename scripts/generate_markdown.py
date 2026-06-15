@@ -15,27 +15,14 @@ import os
 from common import (
     DOCS_DIR,
     GROUP_LETTERS,
-    POSITION_ORDER,
     fmt_eur,
     fmt_usd,
     load_team,
     load_tournament,
+    sorted_squad,
+    squad_value,
     team_path,
 )
-
-
-def squad_value(team):
-    return sum(p.get("market_value_eur", 0) for p in team.get("squad", []))
-
-
-def sorted_squad(team):
-    return sorted(
-        team.get("squad", []),
-        key=lambda p: (
-            POSITION_ORDER.get(p.get("position"), 9),
-            -p.get("market_value_eur", 0),
-        ),
-    )
 
 
 def render_team(team):

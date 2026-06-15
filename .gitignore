@@ -1,0 +1,6 @@
+# Generated static website (built by scripts/generate_site.py and CI).
+/site/
+
+# Python
+__pycache__/
+*.py[cod]

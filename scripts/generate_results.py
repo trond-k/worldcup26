@@ -12,43 +12,17 @@ Usage: python3 scripts/generate_results.py
 import os
 
 from common import (
+    CARD_ICON,
     DOCS_DIR,
     GROUP_LETTERS,
+    STAT_LABELS,
     compute_standings,
     load_all_teams,
     load_match_details,
     load_results,
+    minute_key,
+    team_name,
 )
-
-STAT_LABELS = [
-    ("possession", "Possession", "%"),
-    ("shots", "Shots", ""),
-    ("shots_on_target", "Shots on target", ""),
-    ("corners", "Corners", ""),
-    ("fouls", "Fouls", ""),
-    ("offsides", "Offsides", ""),
-    ("yellow_cards", "Yellow cards", ""),
-    ("red_cards", "Red cards", ""),
-    ("saves", "Saves", ""),
-    ("passes", "Passes", ""),
-    ("pass_accuracy", "Pass accuracy", "%"),
-]
-CARD_ICON = {"yellow": "🟨", "second-yellow": "🟨🟥", "red": "🟥"}
-
-
-def team_name(by_slug, slug):
-    t = by_slug.get(slug)
-    return t["name"] if t else slug
-
-
-def minute_key(minute):
-    if minute is None:
-        return (999, 0)
-    s = str(minute)
-    if "+" in s:
-        base, extra = s.split("+", 1)
-        return (int(base), int(extra))
-    return (int(s), 0)
 
 
 def render_goals(detail, by_slug):

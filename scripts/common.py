@@ -123,6 +123,56 @@ def compute_standings(teams, matches):
     return standings
 
 
+def squad_value(team):
+    """Total market value (EUR) of a team's squad."""
+    return sum(p.get("market_value_eur", 0) for p in team.get("squad", []))
+
+
+def sorted_squad(team):
+    """Squad ordered by position (GK, DF, MF, FW) then descending market value."""
+    return sorted(
+        team.get("squad", []),
+        key=lambda p: (
+            POSITION_ORDER.get(p.get("position"), 9),
+            -p.get("market_value_eur", 0),
+        ),
+    )
+
+
+def team_name(by_slug, slug):
+    """Display name for a team slug, falling back to the slug itself."""
+    t = by_slug.get(slug)
+    return t["name"] if t else slug
+
+
+def minute_key(minute):
+    """Sort key for a match minute like '45+5' -> (45, 5); None sorts last."""
+    if minute is None:
+        return (999, 0)
+    s = str(minute)
+    if "+" in s:
+        base, extra = s.split("+", 1)
+        return (int(base), int(extra))
+    return (int(s), 0)
+
+
+# Per-match team statistics: (json key, display label, unit suffix).
+STAT_LABELS = [
+    ("possession", "Possession", "%"),
+    ("shots", "Shots", ""),
+    ("shots_on_target", "Shots on target", ""),
+    ("corners", "Corners", ""),
+    ("fouls", "Fouls", ""),
+    ("offsides", "Offsides", ""),
+    ("yellow_cards", "Yellow cards", ""),
+    ("red_cards", "Red cards", ""),
+    ("saves", "Saves", ""),
+    ("passes", "Passes", ""),
+    ("pass_accuracy", "Pass accuracy", "%"),
+]
+CARD_ICON = {"yellow": "🟨", "second-yellow": "🟨🟥", "red": "🟥"}
+
+
 def fmt_eur(value):
     """Format an integer euro amount as e.g. €18.0m / €450k / €0."""
     if value is None:

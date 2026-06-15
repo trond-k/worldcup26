@@ -13,11 +13,8 @@ from common import (
     fmt_usd,
     load_all_teams,
     load_tournament,
+    squad_value,
 )
-
-
-def squad_value(team):
-    return sum(p.get("market_value_eur", 0) for p in team.get("squad", []))
 
 
 def main():

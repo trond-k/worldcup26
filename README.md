@@ -34,7 +34,10 @@ scripts/
   generate_markdown.py # regenerate docs/ from the JSON
   stats.py             # compute aggregate market-value stats → docs/stats.md
   generate_results.py  # results + computed standings → docs/results.md
+  generate_site.py     # build the static website → site/ (see Website below)
+  assets/style.css     # stylesheet for the generated site
   common.py            # shared helpers
+site/                  # GENERATED, git-ignored — the static website (run generate_site.py)
 ```
 
 ## Data model
@@ -123,9 +126,32 @@ python3 scripts/validate.py            # check every file is well-formed
 python3 scripts/generate_markdown.py   # rebuild docs/ from the JSON
 python3 scripts/stats.py               # rebuild docs/stats.md
 python3 scripts/generate_results.py    # rebuild docs/results.md (results + standings)
+python3 scripts/generate_site.py       # build the static website into site/
 ```
 
 Start browsing at [docs/README.md](docs/README.md).
+
+## Website
+
+`scripts/generate_site.py` renders the same data as a small, dependency-free
+static website (minimalist documentation style — plain HTML/CSS, no JavaScript)
+under `site/`:
+
+```bash
+python3 scripts/generate_site.py
+open site/index.html   # macOS; or just open the file in a browser
+```
+
+It produces a home/overview page, the 12 group pages, a page per team
+(metadata, full squad, fixtures), aggregate **stats**, **results** with live
+standings, and a rich detail page for every match that has a detail file
+(goals, lineups, substitutions, cards, team statistics, sources).
+
+The generated `site/` directory is **not** committed (it is in `.gitignore`);
+it is built fresh on demand and by CI. The site is published to **GitHub Pages**
+by `.github/workflows/pages.yml`, which validates the data, runs the generator
+and deploys `site/` on every push. To enable it for a fork, open the
+repository's **Settings → Pages** and set **Source = GitHub Actions** (one-time).
 
 ## Data sources & accuracy
 
