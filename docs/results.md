@@ -75,21 +75,27 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Wilton Sampaio
 
 **South Africa** (5-3-2 — Hugo Broos): Ronwen Williams, Aubrey Modiba, Khuliso Mudau, Nkosinathi Sibisi, Mbekezeli Mbokazi, Ime Okon, Sphephelo Sithole, Jayden Adams, Teboho Mokoena, Iqraam Rayners, Lyle Foster
 
-**Substitutions:** ? Raúl Jiménez → Armando González (Mexico); ? Erik Lira → Edson Álvarez (Mexico)
+**Substitutions:** 76' Raúl Jiménez → Armando González (Mexico); 76' Erik Lira → Edson Álvarez (Mexico); 79' Julián Quiñones → Alexis Vega (Mexico)
 
-**Cards:** 🟥 49' Sphephelo Sithole (South Africa); 🟥 84' Themba Zwane (South Africa); 🟥 90+2' César Montes (Mexico)
+**Cards:** 🟨 16' Teboho Mokoena (South Africa); 🟨 22' Brian Gutiérrez (Mexico); 🟥 49' Sphephelo Sithole (South Africa); 🟥 84' Themba Zwane (South Africa); 🟥 90+2' César Montes (Mexico)
 
 | Stat | Mexico | South Africa |
 |------|---|---|
 | Possession | 57% | 36% |
 | Shots | 16 | 3 |
 | Shots on target | 4 | 2 |
+| Corners | 3 | 1 |
+| Fouls | 12 | 11 |
+| Offsides | 1 | 1 |
+| Yellow cards | 1 | 1 |
 | Red cards | 1 | 2 |
+| Passes | 547 | 351 |
+| Pass accuracy | 90% | 83% |
 
 </details>
 
 #### South Korea 2–1 Czechia (Group A)
-_Estadio Akron, Guadalajara_ · Att: 44,985 · Referee: Amin Mohamed
+_Estadio Akron, Guadalajara_ · Att: 44,985 · Referee: Amin Omar
 
 **Goals:** 59' Ladislav Krejčí (Czechia); 67' Hwang In-beom (South Korea); 80' Oh Hyeon-gyu (South Korea)
 
@@ -105,10 +111,17 @@ _Estadio Akron, Guadalajara_ · Att: 44,985 · Referee: Amin Mohamed
 
 | Stat | South Korea | Czechia |
 |------|---|---|
-| Shots | 15 | 8 |
+| Possession | 54.5% | 45.5% |
+| Shots | 16 | 4 |
+| Shots on target | 4 | 3 |
+| Corners | 8 | 3 |
+| Fouls | 7 | 12 |
+| Offsides | 3 | 1 |
 | Yellow cards | 1 | 0 |
 | Red cards | 0 | 0 |
-| Saves | — | 4 |
+| Saves | 2 | 2 |
+| Passes | 412 | 353 |
+| Pass accuracy | 83.5% | 75.1% |
 
 </details>
 
@@ -125,18 +138,22 @@ Att: 43,002 · Referee: Facundo Tello
 
 **Bosnia and Herzegovina** (4-4-2 — Sergej Barbarez): Nikola Vasilj, Amar Dedić, Sead Kolašinac, Nikola Katić, Tarik Muharemović, Benjamin Tahirović, Ivan Bašić, Amar Memić, Esmir Bajraktarević, Ermedin Demirović, Jovo Lukić
 
-**Substitutions:** 61' Liam Millar → Jacob Shaffelburg (Canada); 76' Tani Oluwaseyi → Cyle Larin (Canada)
+**Substitutions:** 61' Tajon Buchanan → Ali Ahmed (Canada); 61' Liam Millar → Jacob Shaffelburg (Canada); 61' Jonathan David → Promise David (Canada); 62' Ivan Bašić → Armin Gigović (Bosnia and Herzegovina); 62' Jovo Lukić → Samed Bazdar (Bosnia and Herzegovina); 74' Amar Memić → Kerim Alajbegović (Bosnia and Herzegovina); 74' Esmir Bajraktarević → Ivan Šunjić (Bosnia and Herzegovina); 76' Tani Oluwaseyi → Cyle Larin (Canada)
 
-**Cards:** 🟨 45' Ermedin Demirović (Bosnia and Herzegovina); 🟨 45+1' Jovo Lukić (Bosnia and Herzegovina); 🟨 53' Luc de Fougerolles (Canada); 🟨 90+3' Nikola Katić (Bosnia and Herzegovina)
+**Cards:** 🟨 11' Alistair Johnston (Canada); 🟨 45' Ermedin Demirović (Bosnia and Herzegovina); 🟨 45+1' Jovo Lukić (Bosnia and Herzegovina); 🟨 53' Luc de Fougerolles (Canada); 🟨 90+3' Nikola Katić (Bosnia and Herzegovina)
 
 | Stat | Canada | Bosnia and Herzegovina |
 |------|---|---|
-| Possession | 60% | 40% |
-| Shots | 8 | 8 |
-| Shots on target | 3 | 4 |
+| Possession | 52% | 48% |
+| Shots | 13 | 8 |
+| Shots on target | 4 | 3 |
 | Corners | 9 | 4 |
-| Yellow cards | 1 | 3 |
+| Fouls | 10 | 20 |
+| Yellow cards | 2 | 3 |
 | Red cards | 0 | 0 |
+| Saves | 2 | 1 |
+| Passes | 415 | 270 |
+| Pass accuracy | 75% | 64% |
 
 </details>
 
@@ -157,6 +174,9 @@ Att: 70,492 · Referee: Danny Makkelie
 
 | Stat | United States | Paraguay |
 |------|---|---|
+| Possession | 59% | 41% |
+| Shots | 16 | 9 |
+| Shots on target | 6 | 1 |
 | Corners | 5 | 8 |
 | Fouls | 13 | 11 |
 | Offsides | 1 | 3 |
@@ -171,15 +191,17 @@ Att: 70,492 · Referee: Danny Makkelie
 ### 2026-06-13
 
 #### Qatar 1–1 Switzerland (Group B)
-Referee: Saíd Martínez
+Att: 67,966 · Referee: Saíd Martínez
 
-**Goals:** 17' Breel Embolo (pen) (Switzerland); 90+4' Boualem Khoukhi (Qatar)
+**Goals:** 17' Breel Embolo (pen) (Switzerland); 90+4' Miro Muheim (OG) (Qatar)
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
 **Qatar** (4-3-3 — Julen Lopetegui): Mahmoud Abunada, Ayoub Al-Alawi, Pedro Miguel, Boualem Khoukhi, Homam Ahmed, Issa Lai, Jassem Gaber, Assim Madibo, Edmilson Junior, Yusuf Abdurisag, Akram Afif
 
 **Switzerland** (3-4-2-1 — Murat Yakin): Gregor Kobel, Nico Elvedi, Manuel Akanji, Denis Zakaria, Michel Aebischer, Remo Freuler, Granit Xhaka, Ricardo Rodriguez, Rubén Vargas, Dan Ndoye, Breel Embolo
+
+**Substitutions:** 65' Dan Ndoye → Johan Manzambi (Switzerland); 65' Michel Aebischer → Fabian Rieder (Switzerland); 78' Rubén Vargas → Zeki Amdouni (Switzerland); 88' Ricardo Rodriguez → Miro Muheim (Switzerland); 89' Remo Freuler → Ardon Jashari (Switzerland)
 
 **Cards:** 🟨 22' Jassem Gaber (Qatar); 🟨 ? Denis Zakaria (Switzerland)
 
@@ -192,6 +214,8 @@ Referee: Saíd Martínez
 | Offsides | 0 | 1 |
 | Yellow cards | 2 | 1 |
 | Red cards | 0 | 0 |
+| Passes | — | 3681 |
+| Pass accuracy | 87% | 84% |
 
 </details>
 
@@ -208,7 +232,7 @@ Att: 80,663 · Referee: Slavko Vinčić
 
 **Substitutions:** 46' Roger Ibañez → Danilo (Brazil); 46' Casemiro → Fabinho (Brazil)
 
-**Cards:** 🟨 45' Roger Ibañez (Brazil); 🟨 45' Casemiro (Brazil)
+**Cards:** 🟨 37' Casemiro (Brazil); 🟨 43' Roger Ibañez (Brazil)
 
 | Stat | Brazil | Morocco |
 |------|---|---|
@@ -216,8 +240,12 @@ Att: 80,663 · Referee: Slavko Vinčić
 | Shots | 13 | 14 |
 | Shots on target | 5 | 3 |
 | Corners | 6 | 2 |
+| Fouls | 16 | 14 |
+| Offsides | 0 | 1 |
 | Yellow cards | 2 | 0 |
 | Red cards | 0 | 0 |
+| Passes | 457 | 424 |
+| Pass accuracy | 87.2% | 86.0% |
 
 </details>
 
@@ -232,23 +260,22 @@ Att: 64,146 · Referee: Mustapha Ghorbal
 
 **Haiti** (4-4-2 — Sébastien Migné): Johny Placide, Carlens Arcus, Ricardo Adé, Hannes Delcroix, Martin Expérience, Deedson Louicius, Danley Jean Jacques, Jean-Ricner Bellegarde, Ruben Providence, Wilson Isidor, Frantzdy Pierrot
 
-**Substitutions:** ? John McGinn → Findlay Curtis (Scotland); ? Lawrence Shankland → Kenny McLean (Scotland); ? Deedson Louicius → Josué Casimir (Haiti)
+**Substitutions:** 61' Deedson Louicius → Josué Casimir (Haiti); 83' John McGinn → Findlay Curtis (Scotland); 83' Lawrence Shankland → Kenny McLean (Scotland)
 
-**Cards:** 🟨 ? Findlay Curtis (Scotland); 🟨 ? Kenny McLean (Scotland); 🟨 ? Jean-Ricner Bellegarde (Haiti)
+**Cards:** 🟨 39' Jean-Ricner Bellegarde (Haiti); 🟨 46' Aaron Hickey (Scotland); 🟨 90+1' Findlay Curtis (Scotland); 🟨 90+5' Kenny McLean (Scotland)
 
 | Stat | Scotland | Haiti |
 |------|---|---|
-| Possession | 50% | 50% |
-| Shots | 8 | 13 |
+| Possession | 49% | 51% |
+| Shots | 9 | 15 |
 | Shots on target | 2 | 2 |
 | Corners | 3 | 4 |
 | Fouls | 21 | 23 |
 | Offsides | 1 | 3 |
-| Yellow cards | 2 | 1 |
+| Yellow cards | 3 | 1 |
 | Red cards | 0 | 0 |
 | Saves | 2 | 1 |
-| Passes | 397 | 431 |
-| Pass accuracy | 82% | 88% |
+| Passes | 306 | 367 |
 
 </details>
 
@@ -294,7 +321,7 @@ Att: 68,021 · Referee: Jalal Jayed
 
 **Germany** (4-2-3-1 — Julian Nagelsmann): Manuel Neuer, Joshua Kimmich, Jonathan Tah, Nico Schlotterbeck, Nathaniel Brown, Aleksandar Pavlovic, Felix Nmecha, Leroy Sané, Jamal Musiala, Florian Wirtz, Kai Havertz
 
-**Curaçao** (4-2-3-1 — Dick Advocaat): Eloy Room, Sherel Floranus, Armando Obispo, Riechedly Bazoer, Deveron Fonville, Leandro Bacuna, Juninho Bacuna, Livano Comenencia, Sontje Hansen, Tahith Chong, Jurgen Locadia
+**Curaçao** (4-3-3 — Dick Advocaat): Eloy Room, Sherel Floranus, Armando Obispo, Riechedly Bazoer, Deveron Fonville, Leandro Bacuna, Juninho Bacuna, Livano Comenencia, Tahith Chong, Jurgen Locadia, Sontje Hansen
 
 **Substitutions:** 66' Jamal Musiala → Deniz Undav (Germany); 73' Jonathan Tah → Antonio Rüdiger (Germany); 73' Felix Nmecha → Leon Goretzka (Germany); 73' Nathaniel Brown → David Raum (Germany)
 
@@ -302,8 +329,14 @@ Att: 68,021 · Referee: Jalal Jayed
 |------|---|---|
 | Possession | 65% | 35% |
 | Shots | 26 | 8 |
+| Shots on target | 12 | 2 |
+| Corners | 8 | 1 |
+| Fouls | 18 | 11 |
 | Yellow cards | 0 | 0 |
 | Red cards | 0 | 0 |
+| Saves | — | 4 |
+| Passes | 635 | — |
+| Pass accuracy | 87% | — |
 
 </details>
 
@@ -318,42 +351,48 @@ _Lincoln Financial Field, Philadelphia_ · Att: 68,274 · Referee: François Let
 
 **Ecuador** (3-4-3 — Sebastián Beccacece): Hernán Galíndez, Joel Ordóñez, Willian Pacho, Piero Hincapié, Alan Minda, Alan Franco, Moisés Caicedo, Pedro Vite, Gonzalo Plata, Enner Valencia, John Yeboah
 
-**Substitutions:** 56' ? → Amad Diallo (Côte d'Ivoire); 77' Enner Valencia → Kevin Rodríguez (Ecuador); ? Alan Franco → Jackson Porozo (Ecuador); ? John Yeboah → Ángelo Preciado (Ecuador)
+**Substitutions:** 56' Bazoumana Touré → Amad Diallo (Côte d'Ivoire); 77' Enner Valencia → Kevin Rodríguez (Ecuador); ? Alan Franco → Jackson Porozo (Ecuador); ? John Yeboah → Ángelo Preciado (Ecuador)
 
 **Cards:** 🟨 28' Seko Fofana (Côte d'Ivoire); 🟨 73' Jackson Porozo (Ecuador); 🟨 ? Franck Kessié (Côte d'Ivoire)
 
 | Stat | Côte d'Ivoire | Ecuador |
 |------|---|---|
-| Possession | 45% | 55% |
+| Possession | 48% | 52% |
+| Shots on target | 4 | 1 |
+| Corners | 3 | 5 |
+| Fouls | 10 | 13 |
 | Yellow cards | 2 | 1 |
 | Red cards | 0 | 0 |
+| Passes | 395 | 420 |
+| Pass accuracy | 84% | 85% |
 
 </details>
 
 #### Netherlands 2–2 Japan (Group F)
-_AT&T Stadium, Dallas_ · Referee: Ismail Elfath
+_AT&T Stadium, Dallas_ · Att: 69,285 · Referee: Ismail Elfath
 
 **Goals:** 50' Virgil van Dijk (Netherlands); 57' Keito Nakamura (Japan); 64' Crysencio Summerville (Netherlands); 89' Daichi Kamada (Japan)
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Netherlands** (Ronald Koeman): Bart Verbruggen, Denzel Dumfries, Jan Paul van Hecke, Virgil van Dijk, Micky van de Ven, Frenkie de Jong, Ryan Gravenberch, Tijjani Reijnders, Crysencio Summerville, Cody Gakpo, Donyell Malen
+**Netherlands** (4-3-3 — Ronald Koeman): Bart Verbruggen, Denzel Dumfries, Jan Paul van Hecke, Virgil van Dijk, Micky van de Ven, Frenkie de Jong, Ryan Gravenberch, Tijjani Reijnders, Crysencio Summerville, Cody Gakpo, Donyell Malen
 
-**Japan** (Hajime Moriyasu): Zion Suzuki, Shogo Taniguchi, Tsuyoshi Watanabe, Hiroki Ito, Ritsu Doan, Daichi Kamada, Kaishu Sano, Keito Nakamura, Daizen Maeda, Takefusa Kubo, Ayase Ueda
+**Japan** (3-4-3 — Hajime Moriyasu): Zion Suzuki, Shogo Taniguchi, Tsuyoshi Watanabe, Hiroki Ito, Ritsu Doan, Daichi Kamada, Kaishu Sano, Keito Nakamura, Daizen Maeda, Takefusa Kubo, Ayase Ueda
 
-**Substitutions:** 66' Daizen Maeda → Junya Ito (Japan)
+**Substitutions:** 66' Daizen Maeda → Junya Ito (Japan); 70' Donyell Malen → Memphis Depay (Netherlands); 70' Crysencio Summerville → Teun Koopmeiners (Netherlands); 70' Tijjani Reijnders → Quinten Timber (Netherlands); 75' Takefusa Kubo → Koki Ogawa (Japan); 75' Ayase Ueda → Kento Shiogai (Japan)
 
 **Cards:** 🟨 61' Crysencio Summerville (Netherlands)
 
 | Stat | Netherlands | Japan |
 |------|---|---|
-| Possession | 60% | 40% |
+| Possession | 64% | 36% |
 | Shots | 8 | 8 |
 | Shots on target | 6 | 2 |
 | Corners | 5 | 2 |
 | Fouls | 4 | 6 |
 | Yellow cards | 1 | 0 |
 | Red cards | 0 | 0 |
+| Saves | — | 4 |
 | Passes | 525 | 342 |
 
 </details>
@@ -376,11 +415,10 @@ Att: 50,987 · Referee: Yael Falcon Perez
 | Stat | Sweden | Tunisia |
 |------|---|---|
 | Possession | 49% | 51% |
-| Shots | 13 | — |
+| Shots | 13 | 6 |
 | Shots on target | 7 | 2 |
 | Yellow cards | 0 | 1 |
 | Red cards | 0 | 0 |
-| Saves | 1 | 2 |
 
 </details>
 

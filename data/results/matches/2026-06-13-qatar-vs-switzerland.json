@@ -17,53 +17,188 @@
     "https://www.whoscored.com/matches/1953856/live/international-fifa-world-cup-2026-qatar-switzerland"
   ],
   "goals": [
-    {"team": "switzerland", "player": "Breel Embolo", "minute": "17", "type": "penalty", "assist": null},
-    {"team": "qatar", "player": "Miro Muheim", "minute": "90+4", "type": "own_goal", "assist": null}
+    {
+      "team": "switzerland",
+      "player": "Breel Embolo",
+      "minute": "17",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "qatar",
+      "player": "Miro Muheim",
+      "minute": "90+4",
+      "type": "own_goal",
+      "assist": null
+    }
   ],
   "cards": [
-    {"team": "qatar", "player": "Jassem Gaber", "minute": "22", "card": "yellow"},
-    {"team": "switzerland", "player": "Denis Zakaria", "minute": null, "card": "yellow"}
+    {
+      "team": "qatar",
+      "player": "Jassem Gaber",
+      "minute": "22",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Denis Zakaria",
+      "minute": null,
+      "card": "yellow"
+    }
   ],
   "substitutions": [
-    {"team": "switzerland", "player_off": "Dan Ndoye", "player_on": "Johan Manzambi", "minute": "65"},
-    {"team": "switzerland", "player_off": "Michel Aebischer", "player_on": "Fabian Rieder", "minute": "65"},
-    {"team": "switzerland", "player_off": "Rubén Vargas", "player_on": "Zeki Amdouni", "minute": "78"},
-    {"team": "switzerland", "player_off": "Ricardo Rodriguez", "player_on": "Miro Muheim", "minute": "88"},
-    {"team": "switzerland", "player_off": "Remo Freuler", "player_on": "Ardon Jashari", "minute": "89"}
+    {
+      "team": "switzerland",
+      "off": "Dan Ndoye",
+      "on": "Johan Manzambi",
+      "minute": "65"
+    },
+    {
+      "team": "switzerland",
+      "off": "Michel Aebischer",
+      "on": "Fabian Rieder",
+      "minute": "65"
+    },
+    {
+      "team": "switzerland",
+      "off": "Rubén Vargas",
+      "on": "Zeki Amdouni",
+      "minute": "78"
+    },
+    {
+      "team": "switzerland",
+      "off": "Ricardo Rodriguez",
+      "on": "Miro Muheim",
+      "minute": "88"
+    },
+    {
+      "team": "switzerland",
+      "off": "Remo Freuler",
+      "on": "Ardon Jashari",
+      "minute": "89"
+    }
   ],
   "lineups": {
     "home": {
       "formation": "4-3-3",
       "manager": "Julen Lopetegui",
       "starting": [
-        {"name": "Mahmoud Abunada", "position": "GK", "number": null},
-        {"name": "Ayoub Al-Alawi", "position": "DF", "number": null},
-        {"name": "Pedro Miguel", "position": "DF", "number": null},
-        {"name": "Boualem Khoukhi", "position": "DF", "number": null},
-        {"name": "Homam Ahmed", "position": "DF", "number": null},
-        {"name": "Issa Lai", "position": "MF", "number": null},
-        {"name": "Jassem Gaber", "position": "MF", "number": null},
-        {"name": "Assim Madibo", "position": "MF", "number": null},
-        {"name": "Edmilson Junior", "position": "FW", "number": null},
-        {"name": "Yusuf Abdurisag", "position": "FW", "number": null},
-        {"name": "Akram Afif", "position": "FW", "number": null}
+        {
+          "name": "Mahmoud Abunada",
+          "position": "GK",
+          "number": null
+        },
+        {
+          "name": "Ayoub Al-Alawi",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Pedro Miguel",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Boualem Khoukhi",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Homam Ahmed",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Issa Lai",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Jassem Gaber",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Assim Madibo",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Edmilson Junior",
+          "position": "FW",
+          "number": null
+        },
+        {
+          "name": "Yusuf Abdurisag",
+          "position": "FW",
+          "number": null
+        },
+        {
+          "name": "Akram Afif",
+          "position": "FW",
+          "number": null
+        }
       ]
     },
     "away": {
       "formation": "3-4-2-1",
       "manager": "Murat Yakin",
       "starting": [
-        {"name": "Gregor Kobel", "position": "GK", "number": null},
-        {"name": "Nico Elvedi", "position": "DF", "number": null},
-        {"name": "Manuel Akanji", "position": "DF", "number": null},
-        {"name": "Denis Zakaria", "position": "DF", "number": null},
-        {"name": "Michel Aebischer", "position": "MF", "number": null},
-        {"name": "Remo Freuler", "position": "MF", "number": null},
-        {"name": "Granit Xhaka", "position": "MF", "number": null},
-        {"name": "Ricardo Rodriguez", "position": "MF", "number": null},
-        {"name": "Rubén Vargas", "position": "FW", "number": null},
-        {"name": "Dan Ndoye", "position": "FW", "number": null},
-        {"name": "Breel Embolo", "position": "FW", "number": null}
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": null
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "DF",
+          "number": null
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Ricardo Rodriguez",
+          "position": "MF",
+          "number": null
+        },
+        {
+          "name": "Rubén Vargas",
+          "position": "FW",
+          "number": null
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "FW",
+          "number": null
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": null
+        }
       ]
     }
   },

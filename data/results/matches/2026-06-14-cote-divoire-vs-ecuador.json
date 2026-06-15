@@ -9,13 +9,14 @@
   "referee": "François Letexier",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467",
+    "https://www.espn.com/soccer/team-stats/_/gameId/760423",
     "https://www.espn.com/soccer/report/_/gameId/760423",
-    "https://www.cafonline.com/fifa-world-cup/news/amad-diallos-late-strike-hands-cote-d-ivoire-winning-start-at-2026-world-cup/",
+    "https://www.skysports.com/football/news/12098/13552703/world-cup-2026-ivory-coast-1-0-ecuador-amad-diallo-nets-90th-minute-winner-to-end-ecuadors-19-game-unbeaten-streak",
     "https://theanalyst.com/articles/ivory-coast-vs-ecuador-stats-world-cup-2026",
-    "https://www.sofascore.com/football/match/cote-divoire-ecuador/hVbstVb",
-    "https://football-italia.net/world-cup-2026-ivory-coast-vs-ecuador-lineups/",
-    "https://worldsoccertalk.com/world-cup/ivory-coast-vs-ecuador-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-e-game/",
-    "https://english.news.cn/20260615/6201f386940d4f43ad36d025976bc7e4/c.html"
+    "https://www.aljazeera.com/sports/2026/6/15/ivory-coast-beat-ecuador-1-0-at-fifa-world-cup-with-amad-diallo",
+    "https://www.france24.com/en/sport/20260615-diallo-stuns-ecuador-late-as-ivory-coast-open-world-cup-with-1-0-win",
+    "https://www.fotmob.com/matches/ecuador-vs-ivory-coast/1hl6kp",
+    "https://football-italia.net/world-cup-2026-ivory-coast-vs-ecuador-lineups/"
   ],
   "goals": [
     {
@@ -49,7 +50,7 @@
   "substitutions": [
     {
       "team": "cote-divoire",
-      "off": null,
+      "off": "Bazoumana Touré",
       "on": "Amad Diallo",
       "minute": "56"
     },
@@ -110,30 +111,30 @@
   },
   "stats": {
     "home": {
-      "possession": 45,
+      "possession": 48,
       "shots": null,
-      "shots_on_target": null,
-      "corners": null,
-      "fouls": null,
+      "shots_on_target": 4,
+      "corners": 3,
+      "fouls": 10,
       "offsides": null,
       "yellow_cards": 2,
       "red_cards": 0,
       "saves": null,
-      "passes": null,
-      "pass_accuracy": null
+      "passes": 395,
+      "pass_accuracy": 84
     },
     "away": {
-      "possession": 55,
+      "possession": 52,
       "shots": null,
-      "shots_on_target": null,
-      "corners": null,
-      "fouls": null,
+      "shots_on_target": 1,
+      "corners": 5,
+      "fouls": 13,
       "offsides": null,
       "yellow_cards": 1,
       "red_cards": 0,
       "saves": null,
-      "passes": null,
-      "pass_accuracy": null
+      "passes": 420,
+      "pass_accuracy": 85
     }
   }
 }

@@ -9,13 +9,13 @@
   "referee": "Yael Falcon Perez",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474",
-    "https://www.skysports.com/football/news/33694/13552698/world-cup-2026-sweden-5-1-tunisia-viktor-gyokeres-and-alexander-isak-guide-graham-potters-side-to-victory",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-tunisia-highlights-match-report",
     "https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden",
+    "https://www.espn.com/soccer/story/_/id/49064457/sweden-tunisia-live-world-cup-2026-latest-updates-commentary-score-result",
+    "https://www.skysports.com/football/sweden-vs-tunisia/report/549777",
     "https://theanalyst.com/articles/sweden-vs-tunisia-stats-world-cup-2026",
-    "https://www.sofascore.com/news/alexander-isak-delivers-1g2a-as-sweden-sweep-tunisia-5-1-in-world-cup-opener",
-    "https://www.nbcnews.com/sports/soccer/sweden-tunisia-world-cup-rcna350070",
-    "https://www.france24.com/en/sport/20260615-world-cup-2026-sweden-make-statement-with-commanding-victory-over-tunisia",
-    "https://foot-africa.com/en/news/2026-world-cup-yael-falcon-perez-to-referee-tunisia-vs-sweden-1240405/"
+    "https://www.sofascore.com/news/isak-and-gyokeres-lead-swedens-five-goal-rout-in-monterrey",
+    "https://www.whoscored.com/news/wq_gloZ5Fky7KFHfN4dtmg/show/20260615-sweden-vs-tunisia-confirmed-lineup-1781484765"
   ],
   "goals": [
     { "team": "sweden", "player": "Yasin Ayari", "minute": "7", "type": "regular", "assist": null },
@@ -83,20 +83,20 @@
       "offsides": null,
       "yellow_cards": 0,
       "red_cards": 0,
-      "saves": 1,
+      "saves": null,
       "passes": null,
       "pass_accuracy": null
     },
     "away": {
       "possession": 51,
-      "shots": null,
+      "shots": 6,
       "shots_on_target": 2,
       "corners": null,
       "fouls": null,
       "offsides": null,
       "yellow_cards": 1,
       "red_cards": 0,
-      "saves": 2,
+      "saves": null,
       "passes": null,
       "pass_accuracy": null
     }

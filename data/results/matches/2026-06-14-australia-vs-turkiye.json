@@ -9,12 +9,13 @@
   "referee": "Jesús Valenzuela",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463",
-    "https://www.skysports.com/football/news/12098/13552630/world-cup-2026-australia-2-0-turkey-socceroos-make-winning-start-to-group-d-campaign-in-vancouver",
+    "https://www.espn.com/soccer/report/_/gameId/760421",
     "https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia",
     "https://theanalyst.com/articles/australia-vs-turkiye-stats-world-cup-2026",
-    "https://ca.sports.yahoo.com/news/world-cup-2026-australia-vs-030500567.html",
-    "https://www.sbs.com.au/news/live-blog/australia-vs-turkiye-world-cup-live-score-updates/e7r7yd3iz",
-    "https://www.sofascore.com/news/australia-2-0-turkiye-beachs-saves-power-a-perfect-start"
+    "https://www.nbcnews.com/sports/soccer/australia-spoils-turkeys-return-world-cup-2-0-victory-rcna349992",
+    "https://socceroos.com.au/news/socceroos-defeat-turkiye-2-0-kick-fifa-world-cup-2026tm-campaign-style",
+    "https://www.aljazeera.com/sports/2026/6/14/2026-world-cup-australia-stun-turkiye-2-0-in-counterattacking-masterclass",
+    "https://www.sbs.com.au/news/live-blog/australia-vs-turkiye-world-cup-live-score-updates/e7r7yd3iz"
   ],
   "goals": [
     {"team": "australia", "player": "Nestory Irankunda", "minute": "27", "type": "regular", "assist": "Paul Okon-Engstler"},

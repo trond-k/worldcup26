@@ -5,17 +5,16 @@
   "away": "japan",
   "home_score": 2,
   "away_score": 2,
-  "attendance": null,
+  "attendance": 69285,
   "referee": "Ismail Elfath",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470",
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-japan-highlights-match-report",
-    "https://www.espn.com/soccer/report/_/gameId/760425",
+    "https://www.skysports.com/football/netherlands-vs-japan/report/549776",
     "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
-    "https://www.skysports.com/football/news/11095/13552697/world-cup-2026-netherlands-2-2-japan-daichi-kamadas-89th-minute-equaliser-denies-the-dutch-in-dallas",
-    "https://www.nbcsports.com/soccer/news/netherlands-vs-japan-live-updates-world-cup-live-score-video-highlights-goals",
     "https://theanalyst.com/articles/netherlands-vs-japan-stats-world-cup-2026",
-    "https://www.sofascore.com/news/netherlands-2-2-japan-group-f-draw-packed-with-goals-stats-and-an-mvp-show"
+    "https://www.aljazeera.com/sports/2026/6/14/japan-deny-netherlands-by-fighting-back-twice-in-world-cup-opener",
+    "https://www.nbcsports.com/soccer/news/netherlands-vs-japan-live-updates-world-cup-live-score-video-highlights-goals"
   ],
   "goals": [
     {"team": "netherlands", "player": "Virgil van Dijk", "minute": "50", "type": "regular", "assist": "Ryan Gravenberch"},
@@ -27,11 +26,16 @@
     {"team": "netherlands", "player": "Crysencio Summerville", "minute": "61", "card": "yellow"}
   ],
   "substitutions": [
-    {"team": "japan", "off": "Daizen Maeda", "on": "Junya Ito", "minute": "66"}
+    {"team": "netherlands", "off": "Donyell Malen", "on": "Memphis Depay", "minute": "70"},
+    {"team": "netherlands", "off": "Crysencio Summerville", "on": "Teun Koopmeiners", "minute": "70"},
+    {"team": "netherlands", "off": "Tijjani Reijnders", "on": "Quinten Timber", "minute": "70"},
+    {"team": "japan", "off": "Daizen Maeda", "on": "Junya Ito", "minute": "66"},
+    {"team": "japan", "off": "Takefusa Kubo", "on": "Koki Ogawa", "minute": "75"},
+    {"team": "japan", "off": "Ayase Ueda", "on": "Kento Shiogai", "minute": "75"}
   ],
   "lineups": {
     "home": {
-      "formation": null,
+      "formation": "4-3-3",
       "manager": "Ronald Koeman",
       "starting": [
         {"name": "Bart Verbruggen", "position": "GK", "number": null},
@@ -48,7 +52,7 @@
       ]
     },
     "away": {
-      "formation": null,
+      "formation": "3-4-3",
       "manager": "Hajime Moriyasu",
       "starting": [
         {"name": "Zion Suzuki", "position": "GK", "number": null},
@@ -66,7 +70,7 @@
     }
   },
   "stats": {
-    "home": {"possession": 60, "shots": 8, "shots_on_target": 6, "corners": 5, "fouls": 4, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": 525, "pass_accuracy": null},
-    "away": {"possession": 40, "shots": 8, "shots_on_target": 2, "corners": 2, "fouls": 6, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": null, "passes": 342, "pass_accuracy": null}
+    "home": {"possession": 64, "shots": 8, "shots_on_target": 6, "corners": 5, "fouls": 4, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": 525, "pass_accuracy": null},
+    "away": {"possession": 36, "shots": 8, "shots_on_target": 2, "corners": 2, "fouls": 6, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 4, "passes": 342, "pass_accuracy": null}
   }
 }

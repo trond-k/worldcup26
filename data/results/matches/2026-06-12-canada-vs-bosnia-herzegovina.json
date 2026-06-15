@@ -8,26 +8,32 @@
   "attendance": 43002,
   "referee": "Facundo Tello",
   "sources": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021449",
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-bosnia-and-herzegovina-highlights-match-report",
     "https://www.espn.com/soccer/report/_/gameId/760416",
-    "https://www.cbc.ca/sports/soccer/worldcup/fifa-canada-bosnia-recap-june-12-9.7232772",
-    "https://www.tsn.ca/soccer/article/canada-surrenders-first-goal-in-fifa-world-cup-opener-against-bosnia-herzegovina/",
-    "https://www.foxsports.com/soccer/fifa-world-cup-men-canada-vs-bosnia-and-herzegovina-jun-12-2026-game-boxscore-647618",
-    "https://canadiansoccerdaily.com/2026/06/09/argentine-facundo-tello-appointed-to-referee-canada-vs-bosnia/",
-    "https://www.whoscored.com/news/R9mdfUnTokiU8iFlfE6PsQ/show/20260612-canada-vs-bosnia-and-herzegovina-confirmed-lineup-1781290244"
+    "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
+    "https://www.sofascore.com/news/canada-1-1-bosnia-katics-heroics-cap-group-b-draw",
+    "https://feeds.bbci.co.uk/sport/football/articles/cgj591y20jdo"
   ],
   "goals": [
     {"team": "bosnia-herzegovina", "player": "Jovo Lukić", "minute": "21", "type": "regular", "assist": "Ivan Bašić"},
     {"team": "canada", "player": "Cyle Larin", "minute": "78", "type": "regular", "assist": "Promise David"}
   ],
   "cards": [
+    {"team": "canada", "player": "Alistair Johnston", "minute": "11", "card": "yellow"},
     {"team": "bosnia-herzegovina", "player": "Ermedin Demirović", "minute": "45", "card": "yellow"},
     {"team": "bosnia-herzegovina", "player": "Jovo Lukić", "minute": "45+1", "card": "yellow"},
     {"team": "canada", "player": "Luc de Fougerolles", "minute": "53", "card": "yellow"},
     {"team": "bosnia-herzegovina", "player": "Nikola Katić", "minute": "90+3", "card": "yellow"}
   ],
   "substitutions": [
+    {"team": "canada", "off": "Tajon Buchanan", "on": "Ali Ahmed", "minute": "61"},
     {"team": "canada", "off": "Liam Millar", "on": "Jacob Shaffelburg", "minute": "61"},
+    {"team": "canada", "off": "Jonathan David", "on": "Promise David", "minute": "61"},
+    {"team": "bosnia-herzegovina", "off": "Ivan Bašić", "on": "Armin Gigović", "minute": "62"},
+    {"team": "bosnia-herzegovina", "off": "Jovo Lukić", "on": "Samed Bazdar", "minute": "62"},
+    {"team": "bosnia-herzegovina", "off": "Amar Memić", "on": "Kerim Alajbegović", "minute": "74"},
+    {"team": "bosnia-herzegovina", "off": "Esmir Bajraktarević", "on": "Ivan Šunjić", "minute": "74"},
     {"team": "canada", "off": "Tani Oluwaseyi", "on": "Cyle Larin", "minute": "76"}
   ],
   "lineups": {
@@ -67,7 +73,7 @@
     }
   },
   "stats": {
-    "home": {"possession": 60, "shots": 8, "shots_on_target": 3, "corners": 9, "fouls": null, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null},
-    "away": {"possession": 40, "shots": 8, "shots_on_target": 4, "corners": 4, "fouls": null, "offsides": null, "yellow_cards": 3, "red_cards": 0, "saves": null, "passes": null, "pass_accuracy": null}
+    "home": {"possession": 52, "shots": 13, "shots_on_target": 4, "corners": 9, "fouls": 10, "offsides": null, "yellow_cards": 2, "red_cards": 0, "saves": 2, "passes": 415, "pass_accuracy": 75},
+    "away": {"possession": 48, "shots": 8, "shots_on_target": 3, "corners": 4, "fouls": 20, "offsides": null, "yellow_cards": 3, "red_cards": 0, "saves": 1, "passes": 270, "pass_accuracy": 64}
   }
 }

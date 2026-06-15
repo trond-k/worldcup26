@@ -9,26 +9,26 @@
   "referee": "Mustapha Ghorbal",
   "sources": [
     "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453",
-    "https://www.espn.com/soccer/match/_/gameId/760418/scotland-haiti",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-scotland-highlights-match-report",
+    "https://www.espn.com/soccer/report/_/gameId/760418",
     "https://www.espn.com/soccer/story/_/id/49055260/haiti-scotland-world-cup-2026-result-score-recap-john-mcginn-ben-gannon-doak-group-c",
-    "https://www.skysports.com/football/news/12098/13552633/world-cup-2026-haiti-0-1-scotland-john-mcginn-gives-steve-clarkes-side-winning-return-to-footballs-biggest-stage",
     "https://theanalyst.com/articles/haiti-vs-scotland-stats-world-cup-2026",
-    "https://www.oddschecker.com/insight/football/20260614-haiti-vs-scotland-confirmed-lineups",
-    "https://sports.yahoo.com/articles/world-cup-2026-sights-sounds-050321739.html",
-    "https://athlonsports.com/soccer/who-is-referee-haiti-scotland-world-cup"
+    "https://www.skysports.com/football/haiti-vs-scotland/report/549772",
+    "https://www.myfootballfacts.com/world-football/fifa/world-cup/haiti-0-1-scotland-post-match-review-full-time-report-and-key-moments/"
   ],
   "goals": [
     {"team": "scotland", "player": "John McGinn", "minute": "28", "type": "regular", "assist": null}
   ],
   "cards": [
-    {"team": "scotland", "player": "Findlay Curtis", "minute": null, "card": "yellow"},
-    {"team": "scotland", "player": "Kenny McLean", "minute": null, "card": "yellow"},
-    {"team": "haiti", "player": "Jean-Ricner Bellegarde", "minute": null, "card": "yellow"}
+    {"team": "scotland", "player": "Aaron Hickey", "minute": "46", "card": "yellow"},
+    {"team": "haiti", "player": "Jean-Ricner Bellegarde", "minute": "39", "card": "yellow"},
+    {"team": "scotland", "player": "Findlay Curtis", "minute": "90+1", "card": "yellow"},
+    {"team": "scotland", "player": "Kenny McLean", "minute": "90+5", "card": "yellow"}
   ],
   "substitutions": [
-    {"team": "scotland", "off": "John McGinn", "on": "Findlay Curtis", "minute": null},
-    {"team": "scotland", "off": "Lawrence Shankland", "on": "Kenny McLean", "minute": null},
-    {"team": "haiti", "off": "Deedson Louicius", "on": "Josué Casimir", "minute": null}
+    {"team": "haiti", "off": "Deedson Louicius", "on": "Josué Casimir", "minute": "61"},
+    {"team": "scotland", "off": "John McGinn", "on": "Findlay Curtis", "minute": "83"},
+    {"team": "scotland", "off": "Lawrence Shankland", "on": "Kenny McLean", "minute": "83"}
   ],
   "lineups": {
     "home": {
@@ -68,21 +68,21 @@
   },
   "stats": {
     "home": {
-      "possession": 50,
-      "shots": 8,
+      "possession": 49,
+      "shots": 9,
       "shots_on_target": 2,
       "corners": 3,
       "fouls": 21,
       "offsides": 1,
-      "yellow_cards": 2,
+      "yellow_cards": 3,
       "red_cards": 0,
       "saves": 2,
-      "passes": 397,
-      "pass_accuracy": 82
+      "passes": 306,
+      "pass_accuracy": null
     },
     "away": {
-      "possession": 50,
-      "shots": 13,
+      "possession": 51,
+      "shots": 15,
       "shots_on_target": 2,
       "corners": 4,
       "fouls": 23,
@@ -90,8 +90,8 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "saves": 1,
-      "passes": 431,
-      "pass_accuracy": 88
+      "passes": 367,
+      "pass_accuracy": null
     }
   }
 }
