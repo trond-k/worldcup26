@@ -195,3 +195,16 @@ def fmt_usd(value):
     if value >= 1_000_000:
         return f"${value / 1_000_000:.0f}M"
     return f"${value:,}"
+
+
+def fmt_count(value):
+    """Format a plain count (e.g. population) as e.g. 1.4B / 84.5M / 12.3k."""
+    if value is None:
+        return "—"
+    if value >= 1_000_000_000:
+        return f"{value / 1_000_000_000:.1f}B"
+    if value >= 1_000_000:
+        return f"{value / 1_000_000:.1f}M"
+    if value >= 1_000:
+        return f"{value / 1_000:.1f}k"
+    return f"{value}"

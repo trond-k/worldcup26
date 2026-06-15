@@ -18,6 +18,7 @@ generated. Deployed to GitHub Pages by .github/workflows/pages.yml.
 Usage: python3 scripts/generate_site.py
 """
 
+import datetime
 import html
 import os
 import shutil
@@ -28,6 +29,7 @@ from common import (
     ROOT,
     STAT_LABELS,
     compute_standings,
+    fmt_count,
     fmt_eur,
     fmt_usd,
     load_all_teams,
@@ -39,6 +41,18 @@ from common import (
     squad_value,
     team_name,
 )
+
+MONTHS = ["", "January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
+
+
+def pretty_date(iso):
+    """'2026-06-15' -> '15 June 2026'; pass through anything unparseable."""
+    try:
+        y, m, d = (int(x) for x in iso.split("-"))
+        return f"{d} {MONTHS[m]} {y}"
+    except (ValueError, AttributeError, IndexError):
+        return iso
 
 SITE_DIR = os.path.join(ROOT, "site")
 ASSETS_SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
@@ -162,9 +176,63 @@ def match_score_label(m, by_slug, depth, link_detail):
     return esc(text)
 
 
+# --- featured matches (home page) -------------------------------------------
+
+def select_featured_matches(matches, today):
+    """Pick the day's fixtures: today's matches, else the next future matchday.
+
+    Returns (label, iso_date, [match, ...]); ([], None, []) when nothing remains.
+    """
+    by_date = {}
+    for m in matches:
+        by_date.setdefault(m["date"], []).append(m)
+    if today in by_date:
+        return ("Today's matches", today, by_date[today])
+    future = sorted(d for d in by_date if d > today)
+    if future:
+        return ("Next matches", future[0], by_date[future[0]])
+    return (None, None, [])
+
+
+def team_block(slug, by_slug):
+    """A team panel for a match card: name, group, squad value and citizens."""
+    t = by_slug.get(slug)
+    if not t:
+        return f'<div class="team"><span class="tname">{esc(slug)}</span></div>'
+    grp = (f'<span class="tgroup">Group {esc(t.get("group", ""))}</span>'
+           if t.get("group") else "")
+    name_link = link(f"team/{t['slug']}.html", t["name"])
+    return (
+        '<div class="team">'
+        f'<span class="tname">{name_link}</span>{grp}'
+        '<dl class="card-stats">'
+        f'<div><dt>Squad value</dt><dd>{esc(fmt_eur(squad_value(t)))}</dd></div>'
+        f'<div><dt>Citizens</dt><dd>{esc(fmt_count(t.get("population")))}</dd></div>'
+        '</dl></div>'
+    )
+
+
+def render_match_card(m, by_slug, details):
+    completed = m.get("status") == "completed"
+    if completed:
+        centre = f'<span class="score">{esc(m["home_score"])}–{esc(m["away_score"])}</span>'
+    else:
+        centre = '<span class="vs">vs</span>'
+    if m.get("id") in details:
+        centre = f'<a class="centre-link" href="match/{esc(m["id"])}.html">{centre}</a>'
+    grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+    return (
+        '<div class="match-card">'
+        f'{team_block(m["home"], by_slug)}'
+        f'<div class="centre">{centre}<span class="cmeta">{esc(grp)}</span></div>'
+        f'{team_block(m["away"], by_slug)}'
+        '</div>'
+    )
+
+
 # --- page renderers ----------------------------------------------------------
 
-def render_index(tournament, by_slug):
+def render_index(tournament, by_slug, matches, details, today):
     t = tournament
     body = [f"<h1>{esc(t['name'])}</h1>"]
     hosts = ", ".join(t.get("hosts", []))
@@ -174,6 +242,15 @@ def render_index(tournament, by_slug):
     if t.get("draw"):
         d = t["draw"]
         body.append(f'<p class="muted">Draw: {esc(d.get("date"))}, {esc(d.get("location"))}</p>')
+
+    label, fdate, featured = select_featured_matches(matches, today)
+    if featured:
+        body.append(f'<h2>{esc(label)} '
+                    f'<span class="muted">— {esc(pretty_date(fdate))}</span></h2>')
+        body.append('<div class="matchday">')
+        for m in featured:
+            body.append(render_match_card(m, by_slug, details))
+        body.append('</div>')
 
     rows = []
     for letter in GROUP_LETTERS:
@@ -512,6 +589,9 @@ def main():
     matches = load_results()
     details = load_match_details()
 
+    # "Today" is the build date; SITE_DATE overrides it for deterministic builds.
+    today = os.environ.get("SITE_DATE") or datetime.date.today().isoformat()
+
     # Fresh build: clear previous output (keeps a clean, deterministic tree).
     if os.path.isdir(SITE_DIR):
         shutil.rmtree(SITE_DIR)
@@ -519,7 +599,7 @@ def main():
 
     standings = compute_standings(teams, matches)
 
-    write("index.html", render_index(tournament, by_slug))
+    write("index.html", render_index(tournament, by_slug, matches, details, today))
 
     n_groups = 0
     for letter in GROUP_LETTERS:

@@ -4,6 +4,10 @@ on:
   push:
     branches: [claude/world-cup-teams-players-chmyxe]
   workflow_dispatch:
+  # Rebuild daily so the home page's "today's matches" tracks the real date.
+  # GitHub cron is UTC and runs on a best-effort schedule.
+  schedule:
+    - cron: "0 6 * * *"
 
 # Allow the workflow to publish to GitHub Pages.
 permissions:

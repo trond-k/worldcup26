@@ -142,7 +142,10 @@ python3 scripts/generate_site.py
 open site/index.html   # macOS; or just open the file in a browser
 ```
 
-It produces a home/overview page, the 12 group pages, a page per team
+The home page leads with **the day's matches** (today's fixtures, or the next
+matchday), showing each team's squad value and population; CI rebuilds the site
+daily so this tracks the real date during the tournament. It also produces the
+12 group pages, a page per team
 (metadata, full squad, fixtures), aggregate **stats**, **results** with live
 standings, and a rich detail page for every match that has a detail file
 (goals, lineups, substitutions, cards, team statistics, sources).

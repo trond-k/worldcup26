@@ -117,6 +117,53 @@ table.standings td, table.standings th { text-align: center; }
 table.standings td:first-child, table.standings th:first-child { text-align: left; }
 table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-align: right; }
 
+/* Featured matches on the home page */
+.matchday {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1rem;
+  margin: 0.75rem 0 1.5rem;
+}
+.match-card {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem 0.8rem;
+  background: var(--zebra);
+}
+.match-card .team { display: flex; flex-direction: column; gap: 0.3rem; }
+.match-card .team:last-child { text-align: right; }
+.match-card .tname { font-weight: 600; line-height: 1.2; }
+.match-card .tgroup { color: var(--muted); font-size: 0.8rem; }
+.match-card dl.card-stats { margin: 0.2rem 0 0; display: block; }
+.match-card dl.card-stats div { margin: 0.1rem 0; }
+.match-card dl.card-stats dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.match-card dl.card-stats dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.match-card .centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.4rem;
+  min-width: 3.5rem;
+}
+.match-card .centre-link { text-decoration: none; }
+.match-card .score { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.match-card .vs { font-size: 1rem; color: var(--muted); font-style: italic; }
+.match-card .cmeta { color: var(--muted); font-size: 0.72rem; margin-top: 0.2rem; }
+
 /* Match-detail blocks */
 .lineups { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
 ul.events { list-style: none; padding-left: 0; }
