@@ -7,6 +7,8 @@ beyond the Python standard library):
   site/index.html              tournament overview + group index
   site/group-<a..l>.html       per-group standings + squad tables
   site/team/<slug>.html        per-team page: metadata, squad, fixtures
+  site/favourites.html         favourite/underdog odds-model rankings
+  site/methodology.html        how the odds models are weighted and computed
   site/stats.html              market-value and economy rankings
   site/results.html            live standings + results by date
   site/day-<date>.html         per-matchday calendar page (cards + date pager)
@@ -42,7 +44,15 @@ from common import (
     squad_value,
     team_name,
 )
-from odds import as_decimal_odds, build_team_scores, match_odds
+from odds import (
+    BEST_FINISH_RANK,
+    CONFIG,
+    PEAK_AGE_HI,
+    PEAK_AGE_LO,
+    as_decimal_odds,
+    build_team_scores,
+    match_odds,
+)
 
 MONTHS = ["", "January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
@@ -81,6 +91,7 @@ def page(title, body, depth=0, active=None):
     if CALENDAR_HOME:
         nav_items.append((CALENDAR_HOME, "Calendar", "calendar"))
     nav_items += [("favourites.html", "Favourites", "favourites"),
+                  ("methodology.html", "Methodology", "methodology"),
                   ("stats.html", "Stats", "stats"),
                   ("results.html", "Results", "results")]
     nav = []
@@ -544,7 +555,9 @@ def render_favourites(teams, scores, by_slug):
             'capita), population, total GNP, the share of the squad playing abroad '
             'and in the big-5 leagues, plus a host bump. They are never blended — '
             'the gaps between them are the interesting part. Estimates only, not '
-            'betting advice.</p>']
+            'betting advice.</p>',
+            '<p class="muted">See <a href="methodology.html">Methodology</a> for '
+            'the full weighting and how scores become match odds.</p>']
 
     fb_order = sorted(scores.items(), key=lambda kv: -kv[1]["football"])
     so_order = sorted(scores.items(), key=lambda kv: -kv[1]["socio"])
@@ -591,6 +604,141 @@ def render_favourites(teams, scores, by_slug):
     body.append(table(["Team", "Squad value", "Citizens", "€ / citizen"], rows))
 
     return page("Favourites", "\n".join(body), depth=0, active="favourites")
+
+
+# Human-readable labels + descriptions for each tunable weight, keyed to CONFIG.
+# Kept here (not in CONFIG) so the page reads well; the numbers come from CONFIG
+# so retuning the engine updates this page automatically.
+FOOTBALL_WEIGHT_INFO = {
+    "value": ("Squad market value",
+              "Combined Transfermarkt value of the 26-man squad (log-scaled). "
+              "The single strongest signal of strength."),
+    "fifa": ("FIFA ranking",
+             "The official world ranking, inverted so that #1 counts as best."),
+    "pedigree": ("World Cup pedigree",
+                 "Historical record through 2022 — titles, appearances and best "
+                 "finish (see the pedigree breakdown below)."),
+    "experience": ("Peak-age share",
+                   f"Share of the squad in the {PEAK_AGE_LO}–{PEAK_AGE_HI} prime "
+                   "age window."),
+    "depth": ("Squad depth",
+              "Value of the top-16 players as a share of the whole squad — "
+              "rewards strength beyond the first XI."),
+}
+
+SOCIO_WEIGHT_INFO = {
+    "wealth": ("Wealth — GNP per capita",
+               "National income per person (log-scaled)."),
+    "pool": ("Talent pool — population",
+             "Total population, a proxy for how many players a nation can draw "
+             "on (log-scaled)."),
+    "economy": ("Economy — total GNP",
+                "Total national income (log-scaled)."),
+    "legion": ("Legionnaires",
+               "Share of the squad playing their club football abroad."),
+    "big5": ("Big-5 league share",
+             "Share of the squad at clubs in England, Spain, Italy, Germany or "
+             "France — the five strongest leagues."),
+}
+
+PEDIGREE_INFO = {
+    "titles": ("World Cup titles", "Number of tournaments won."),
+    "appearances": ("Tournament appearances", "Number of finals reached."),
+    "best_finish": ("Best finish", "Furthest the nation has ever progressed."),
+}
+
+
+def _weight_table(config_block, info):
+    """Render a weight table (Factor / Weight / What it measures) from CONFIG."""
+    rows = []
+    for key, weight in sorted(config_block.items(), key=lambda kv: -kv[1]):
+        label, desc = info[key]
+        rows.append([f"<strong>{esc(label)}</strong>",
+                     f"{round(weight * 100)}%", esc(desc)])
+    return table(["Factor", "Weight", "What it measures"], rows)
+
+
+def render_methodology(scores):
+    odds_cfg = CONFIG["odds"]
+    body = [
+        "<h1>How the models work</h1>",
+        '<p class="lead">The favourite/underdog read comes from two independent '
+        'toy models. Each rates every team on a 0–100 scale; a pair of scores is '
+        'then turned into home / draw / away odds for a fixture.</p>',
+        '<p class="muted">Everything here is illustrative — built from public '
+        'data and a fixed set of weights, not from betting markets or match '
+        'simulation. It is not betting advice.</p>',
+
+        "<h2>Reading the numbers</h2>",
+        "<ul>",
+        "<li>A team's <strong>score is relative, not absolute</strong>: each "
+        "input is rescaled to 0–1 by its position between the field's lowest and "
+        "highest value (some inputs log-scaled first), so a score answers “how "
+        "does this team compare to the field,” not “how good are they in the "
+        "abstract.”</li>",
+        "<li>The <strong>two models are never blended.</strong> The gap between "
+        "them is the interesting part — a talented squad from a poorer nation "
+        "scores high on football and low on socio-economics, and vice versa.</li>",
+        "<li>Match <strong>odds are probabilities</strong> (home / draw / away) "
+        "that sum to 100%, shown alongside fair decimal odds.</li>",
+        "</ul>",
+
+        "<h2>The football model</h2>",
+        "<p>Weights are applied to normalised (0–1) metrics and sum to 100%.</p>",
+        _weight_table(CONFIG["football"], FOOTBALL_WEIGHT_INFO),
+        "<h3>Inside the pedigree term</h3>",
+        "<p>World Cup pedigree is itself a weighted blend, then normalised across "
+        "the field:</p>",
+        _weight_table(CONFIG["pedigree"], PEDIGREE_INFO),
+        '<p class="muted">Best finish is scored on an ordinal scale from '
+        f'winners ({BEST_FINISH_RANK["winners"]}) down to never-qualified '
+        f'({BEST_FINISH_RANK["never-qualified"]}). Predecessor states are folded '
+        "into today's nations (e.g. West Germany → Germany).</p>",
+
+        "<h2>The socio-economic model</h2>",
+        "<p>A deliberately different lens — wealth, people and where the players "
+        "ply their trade, rather than squad value. Weights sum to 100%.</p>",
+        _weight_table(CONFIG["socio"], SOCIO_WEIGHT_INFO),
+        '<p class="muted">On top of the weighted score, each '
+        f'<strong>host nation</strong> (Canada, Mexico, USA) gets a flat '
+        f'+{round(CONFIG["host_bonus"])}-point bump for home advantage across '
+        "the tournament.</p>",
+
+        "<h2>From scores to match odds</h2>",
+        "<p>Two team scores become a result probability with an Elo-style "
+        "expected-score curve, with a draw carved out around even matchups:</p>",
+        "<ul>",
+        f"<li>The score gap drives an expected result via an Elo curve "
+        f"(<code>elo_scale = {odds_cfg['elo_scale']:g}</code>): roughly a "
+        "20-point gap converts to about a 76% expected score for the stronger "
+        "side.</li>",
+        f"<li>A draw is most likely when teams are level — peaking at "
+        f"<strong>{round(odds_cfg['draw_max'] * 100)}%</strong> — and fades as "
+        f"the gap grows (<code>draw_sigma = {odds_cfg['draw_sigma']:g}</code>).</li>",
+        f"<li>When a host plays at home it gets a small venue edge of "
+        f"<strong>+{round(odds_cfg['home_advantage'])} points</strong> before "
+        "the curve is applied.</li>",
+        "</ul>",
+
+        "<h2>Where the inputs come from</h2>",
+        "<ul>",
+        "<li><strong>Squad market value &amp; age</strong> — Transfermarkt "
+        "valuations (June 2026), covering ~96% of players at high confidence; "
+        "the rest are best-effort estimates (accurate in scale, not "
+        "authoritative).</li>",
+        "<li><strong>GNP, GNP per capita &amp; population</strong> — World Bank "
+        "figures (mostly 2024), with ONS estimates for England and Scotland.</li>",
+        "<li><strong>FIFA ranking</strong> and <strong>World Cup history</strong> "
+        "— official records through 2022.</li>",
+        "</ul>",
+        '<p class="muted">All weights and constants live in a single '
+        "<code>CONFIG</code> block in <code>scripts/odds.py</code>; this page is "
+        "generated from that same source, so the numbers above always match the "
+        "live model. See the "
+        + link("favourites.html", "Favourites") +
+        " page for the resulting rankings.</p>",
+    ]
+    return page("Methodology", "\n".join(body), depth=0, active="methodology")
 
 
 def render_results(teams, matches, details, by_slug):
@@ -846,6 +994,7 @@ def main():
         write(f"team/{t['slug']}.html", render_team(t, by_slug, matches, details))
 
     write("favourites.html", render_favourites(teams, scores, by_slug))
+    write("methodology.html", render_methodology(scores))
     write("stats.html", render_stats(teams))
     write("results.html", render_results(teams, matches, details, by_slug))
 

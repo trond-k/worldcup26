@@ -37,6 +37,7 @@ scripts/
   generate_results.py  # results + computed standings → docs/results.md
   favourites.py        # favourite/underdog odds → docs/favourites.md
   odds.py              # the two-model odds engine (self-test: python3 scripts/odds.py)
+  harvest_market_values.py  # refresh market_value_eur/age from Transfermarkt API
   seed_wc_history.py   # seed wc_* World Cup history fields on the team files
   generate_site.py     # build the static website → site/ (see Website below)
   assets/style.css     # stylesheet for the generated site
@@ -161,8 +162,11 @@ adds a per-matchday page (`day-<date>.html`) you can page through via a date
 strip and prev/next pager. It also produces the
 12 group pages, a page per team
 (metadata, full squad, fixtures), aggregate **stats**, **results** with live
-standings, and a rich detail page for every match that has a detail file
-(goals, lineups, substitutions, cards, team statistics, sources).
+standings, a **Favourites** odds page, a **Methodology** page explaining how the
+odds models are weighted and computed (its weight tables are generated from
+`odds.CONFIG`, so they always match the live engine), and a rich detail page for
+every match that has a detail file (goals, lineups, substitutions, cards, team
+statistics, sources).
 
 The generated `site/` directory is **not** committed (it is in `.gitignore`);
 it is built fresh on demand and by CI. The site is published to **GitHub Pages**
@@ -193,7 +197,9 @@ for a self-test plus a printout of the current favourites.
 The odds appear on match cards and match-detail pages of the website, on a
 dedicated **Favourites** page (two ranked tables side by side, plus "punching
 above their weight" and talent-density highlights), and in
-[docs/favourites.md](docs/favourites.md).
+[docs/favourites.md](docs/favourites.md). The website also has a **Methodology**
+page that surfaces the full weighting and the score → odds conversion for
+readers (built straight from `odds.CONFIG`).
 
 > These are toy estimates built from public data — illustrative only, not
 > betting advice.
