@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-15-spain-vs-cabo-verde",
+  "date": "2026-06-15",
+  "home": "spain",
+  "away": "cabo-verde",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 67640,
+  "referee": "Adham Mohammad",
+  "sources": [
+    "https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain",
+    "https://www.espn.com/soccer/report/_/gameId/760428",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-cabo-verde-highlights-match-report",
+    "https://www.skysports.com/football/spain-vs-cape-verde/549780",
+    "https://www.sofascore.com/football/match/cabo-verde-spain/YTbsdVb"
+  ],
+  "goals": [],
+  "cards": [
+    {"team": "cabo-verde", "player": "Sidny Cabral", "minute": "16", "card": "yellow"},
+    {"team": "spain", "player": "Pedri", "minute": "90+3", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "spain", "off": "Gavi", "on": "Lamine Yamal", "minute": "71"},
+    {"team": "spain", "off": "Fabián Ruiz", "on": "Mikel Merino", "minute": "71"},
+    {"team": "spain", "off": "Ferran Torres", "on": "Dani Olmo", "minute": "81"},
+    {"team": "spain", "off": "Rodri", "on": "Nico Williams", "minute": "87"},
+    {"team": "cabo-verde", "off": "Jovane Cabral", "on": "Willy Semedo", "minute": "61"},
+    {"team": "cabo-verde", "off": "Laros Duarte", "on": "Deroy Duarte", "minute": "61"},
+    {"team": "cabo-verde", "off": "Dailon Livramento", "on": "Nuno da Costa", "minute": "61"},
+    {"team": "cabo-verde", "off": "Sidny Cabral", "on": "João Paulo", "minute": "76"},
+    {"team": "cabo-verde", "off": "Jamiro Monteiro", "on": "Telmo Arcanjo", "minute": "79"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {"name": "Unai Simón", "position": "GK", "number": 23},
+        {"name": "Marcos Llorente", "position": "DF", "number": 5},
+        {"name": "Pau Cubarsí", "position": "DF", "number": 22},
+        {"name": "Aymeric Laporte", "position": "DF", "number": 14},
+        {"name": "Marc Cucurella", "position": "DF", "number": 24},
+        {"name": "Rodri", "position": "MF", "number": null},
+        {"name": "Fabián Ruiz", "position": "MF", "number": null},
+        {"name": "Pedri", "position": "MF", "number": 20},
+        {"name": "Gavi", "position": "MF", "number": null},
+        {"name": "Ferran Torres", "position": "FW", "number": null},
+        {"name": "Mikel Oyarzabal", "position": "FW", "number": 21}
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Bubista",
+      "starting": [
+        {"name": "Vozinha", "position": "GK", "number": 1},
+        {"name": "Steven Moreira", "position": "DF", "number": null},
+        {"name": "Roberto Lopes", "position": "DF", "number": null},
+        {"name": "Diney Borges", "position": "DF", "number": null},
+        {"name": "Sidny Cabral", "position": "DF", "number": null},
+        {"name": "Kevin Pina", "position": "MF", "number": null},
+        {"name": "Jamiro Monteiro", "position": "MF", "number": null},
+        {"name": "Laros Duarte", "position": "MF", "number": null},
+        {"name": "Jovane Cabral", "position": "FW", "number": null},
+        {"name": "Ryan Mendes", "position": "FW", "number": null},
+        {"name": "Dailon Livramento", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 74,
+      "shots": 27,
+      "shots_on_target": 7,
+      "corners": 11,
+      "fouls": 10,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 26,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 1,
+      "fouls": 12,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 7,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

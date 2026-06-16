@@ -1,0 +1,101 @@
+{
+  "id": "2026-06-15-iran-vs-new-zealand",
+  "date": "2026-06-15",
+  "home": "iran",
+  "away": "new-zealand",
+  "home_score": 2,
+  "away_score": 2,
+  "attendance": 70108,
+  "referee": "César Arturo Ramos Palazuelos",
+  "sources": [
+    "https://www.espn.com/soccer/match/_/gameId/760427/new-zealand-iran",
+    "https://www.espn.com/soccer/story/_/id/49075338/iran-new-zealand-live-world-cup-2026-latest-updates-commentary-score-result",
+    "https://theanalyst.com/articles/iran-vs-new-zealand-stats-world-cup-2026",
+    "https://www.skysports.com/football/iran-vs-new-zealand/report/549779",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021476"
+  ],
+  "goals": [
+    {"team": "new-zealand", "player": "Elijah Just", "minute": "7", "type": "regular", "assist": "Chris Wood"},
+    {"team": "iran", "player": "Ramin Rezaeian", "minute": "32", "type": "regular", "assist": null},
+    {"team": "new-zealand", "player": "Elijah Just", "minute": "54", "type": "regular", "assist": "Chris Wood"},
+    {"team": "iran", "player": "Mohammad Mohebbi", "minute": "64", "type": "regular", "assist": "Ramin Rezaeian"}
+  ],
+  "cards": [
+    {"team": "iran", "player": "Ehsan Hajsafi", "minute": "90", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "iran", "off": "Aria Yousefi", "on": "Mehdi Ghayedi", "minute": "46"},
+    {"team": "iran", "off": "Shahriar Moghanlou", "on": "Ali Alipour", "minute": "53"},
+    {"team": "iran", "off": "Saman Ghoddos", "on": "Ehsan Hajsafi", "minute": "65"},
+    {"team": "iran", "off": "Mehdi Taremi", "on": "Amirhossein Hosseinzadeh", "minute": "80"},
+    {"team": "new-zealand", "off": "Liberato Cacace", "on": "Ben Old", "minute": "68"},
+    {"team": "new-zealand", "off": "Callum McCowatt", "on": "Ryan Thomas", "minute": "68"},
+    {"team": "new-zealand", "off": "Tim Payne", "on": "Callan Elliot", "minute": "77"},
+    {"team": "new-zealand", "off": "Marko Stamenic", "on": "Tyler Bindon", "minute": "90"},
+    {"team": "new-zealand", "off": "Sarpreet Singh", "on": "Jesse Randall", "minute": "90"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Amir Ghalenoei",
+      "starting": [
+        {"name": "Alireza Beiranvand", "position": "GK", "number": 1},
+        {"name": "Ramin Rezaeian", "position": "DF", "number": 23},
+        {"name": "Ali Nemati", "position": "DF", "number": 19},
+        {"name": "Shoja Khalilzadeh", "position": "DF", "number": 4},
+        {"name": "Milad Mohammadi", "position": "DF", "number": 5},
+        {"name": "Aria Yousefi", "position": "MF", "number": null},
+        {"name": "Saman Ghoddos", "position": "MF", "number": null},
+        {"name": "Saeid Ezatolahi", "position": "MF", "number": 6},
+        {"name": "Mohammad Mohebbi", "position": "MF", "number": 8},
+        {"name": "Shahriar Moghanlou", "position": "FW", "number": null},
+        {"name": "Mehdi Taremi", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Darren Bazeley",
+      "starting": [
+        {"name": "Max Crocombe", "position": "GK", "number": 1},
+        {"name": "Tim Payne", "position": "DF", "number": null},
+        {"name": "Finn Surman", "position": "DF", "number": 16},
+        {"name": "Michael Boxall", "position": "DF", "number": 5},
+        {"name": "Liberato Cacace", "position": "DF", "number": null},
+        {"name": "Joe Bell", "position": "MF", "number": 6},
+        {"name": "Marko Stamenic", "position": "MF", "number": null},
+        {"name": "Callum McCowatt", "position": "MF", "number": null},
+        {"name": "Sarpreet Singh", "position": "MF", "number": null},
+        {"name": "Elijah Just", "position": "MF", "number": 11},
+        {"name": "Chris Wood", "position": "FW", "number": 9}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 48,
+      "shots": 17,
+      "shots_on_target": 4,
+      "corners": null,
+      "fouls": 10,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": null,
+      "pass_accuracy": 77
+    },
+    "away": {
+      "possession": 52,
+      "shots": 14,
+      "shots_on_target": 8,
+      "corners": null,
+      "fouls": 8,
+      "offsides": null,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": null,
+      "pass_accuracy": 84
+    }
+  }
+}

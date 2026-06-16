@@ -1,0 +1,103 @@
+{
+  "id": "2026-06-15-belgium-vs-egypt",
+  "date": "2026-06-15",
+  "home": "belgium",
+  "away": "egypt",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 66775,
+  "referee": "Ramon Abatti Abel",
+  "sources": [
+    "https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium",
+    "https://www.espn.com/soccer/report/_/gameId/760426",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-egypt-highlights-match-report",
+    "https://www.skysports.com/football/belgium-vs-egypt/report/549778",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+  ],
+  "goals": [
+    {"team": "egypt", "player": "Emam Ashour", "minute": "19", "type": "regular", "assist": "Mohamed Salah"},
+    {"team": "belgium", "player": "Mohamed Hany", "minute": "66", "type": "own_goal", "assist": null}
+  ],
+  "cards": [
+    {"team": "egypt", "player": "Marawan Attia", "minute": "13", "card": "yellow"},
+    {"team": "belgium", "player": "Timothy Castagne", "minute": "14", "card": "yellow"},
+    {"team": "egypt", "player": "Ahmed Fatouh", "minute": "34", "card": "yellow"},
+    {"team": "belgium", "player": "Maxim De Cuyper", "minute": "75", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "belgium", "off": "Timothy Castagne", "on": "Maxim De Cuyper", "minute": "56"},
+    {"team": "belgium", "off": "Amadou Onana", "on": "Nicolas Raskin", "minute": "56"},
+    {"team": "belgium", "off": "Charles De Ketelaere", "on": "Romelu Lukaku", "minute": "66"},
+    {"team": "egypt", "off": "Emam Ashour", "on": "Ramy Rabia", "minute": "71"},
+    {"team": "egypt", "off": "Zizo", "on": "Hamza Abdelkarim", "minute": "76"},
+    {"team": "egypt", "off": "Mohamed Salah", "on": "Mostafa Zico", "minute": "76"},
+    {"team": "belgium", "off": "Kevin De Bruyne", "on": "Hans Vanaken", "minute": "86"},
+    {"team": "belgium", "off": "Jérémy Doku", "on": "Matías Fernández-Pardo", "minute": "86"},
+    {"team": "egypt", "off": "Hamdy Fathy", "on": "Ibrahim Adel", "minute": "88"},
+    {"team": "egypt", "off": "Ahmed Fatouh", "on": "Karim Hafez", "minute": "88"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {"name": "Thibaut Courtois", "position": "GK", "number": 1},
+        {"name": "Thomas Meunier", "position": "DF", "number": 15},
+        {"name": "Nathan Ngoy", "position": "DF", "number": 25},
+        {"name": "Brandon Mechele", "position": "DF", "number": 4},
+        {"name": "Timothy Castagne", "position": "DF", "number": 21},
+        {"name": "Amadou Onana", "position": "MF", "number": 24},
+        {"name": "Youri Tielemans", "position": "MF", "number": 8},
+        {"name": "Leandro Trossard", "position": "MF", "number": 10},
+        {"name": "Kevin De Bruyne", "position": "MF", "number": 7},
+        {"name": "Jérémy Doku", "position": "MF", "number": 11},
+        {"name": "Charles De Ketelaere", "position": "FW", "number": 17}
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Hossam Hassan",
+      "starting": [
+        {"name": "Mostafa Shobier", "position": "GK", "number": 23},
+        {"name": "Mohamed Hany", "position": "DF", "number": 3},
+        {"name": "Yasser Ibrahim", "position": "DF", "number": 2},
+        {"name": "Hamdy Fathy", "position": "DF", "number": 14},
+        {"name": "Ahmed Fatouh", "position": "DF", "number": 13},
+        {"name": "Marawan Attia", "position": "MF", "number": 19},
+        {"name": "Mohanad Lashin", "position": "MF", "number": 17},
+        {"name": "Zizo", "position": "MF", "number": 11},
+        {"name": "Mohamed Salah", "position": "MF", "number": 10},
+        {"name": "Emam Ashour", "position": "MF", "number": 8},
+        {"name": "Omar Marmoush", "position": "FW", "number": 22}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 54,
+      "shots": 15,
+      "shots_on_target": 3,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 391,
+      "pass_accuracy": 86
+    },
+    "away": {
+      "possession": 46,
+      "shots": 14,
+      "shots_on_target": 3,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 323,
+      "pass_accuracy": 81
+    }
+  }
+}

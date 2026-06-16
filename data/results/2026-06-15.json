@@ -8,11 +8,11 @@
       "matchday": 1,
       "home": "spain",
       "away": "cabo-verde",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "venue": null,
-      "note": "Group H opener."
+      "home_score": 0,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "World Cup debutants Cabo Verde stunned the European champions, with 40-year-old goalkeeper Vozinha defying Spain's 27 shots for a historic point."
     },
     {
       "id": "2026-06-15-belgium-vs-egypt",
@@ -21,11 +21,11 @@
       "matchday": 1,
       "home": "belgium",
       "away": "egypt",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "venue": null,
-      "note": "Group G opener."
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
+      "venue": "Lumen Field, Seattle",
+      "note": "Emam Ashour put Egypt ahead, but substitute Romelu Lukaku forced a Mohamed Hany own goal 22 seconds after coming on to rescue Belgium."
     },
     {
       "id": "2026-06-15-saudi-arabia-vs-uruguay",
@@ -34,11 +34,11 @@
       "matchday": 1,
       "home": "saudi-arabia",
       "away": "uruguay",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "venue": null,
-      "note": "Group H opener."
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Abdulelah Al Amri's first-half header was cancelled out by Maxi Araújo on 80 minutes; goalkeeper Mohammed Al Owais starred for Saudi Arabia."
     },
     {
       "id": "2026-06-15-iran-vs-new-zealand",
@@ -47,11 +47,11 @@
       "matchday": 1,
       "home": "iran",
       "away": "new-zealand",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "venue": null,
-      "note": "Group G opener."
+      "home_score": 2,
+      "away_score": 2,
+      "status": "completed",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Elijah Just scored twice for New Zealand but Ramin Rezaeian and Mohammad Mohebbi hit back as Iran twice came from behind in a 2-2 thriller."
     }
   ]
 }

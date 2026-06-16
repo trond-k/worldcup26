@@ -1,0 +1,97 @@
+{
+  "id": "2026-06-15-saudi-arabia-vs-uruguay",
+  "date": "2026-06-15",
+  "home": "saudi-arabia",
+  "away": "uruguay",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 62764,
+  "referee": "Maurizio Mariani",
+  "sources": [
+    "https://www.espn.com/soccer/match/_/gameId/760429/uruguay-saudi-arabia",
+    "https://www.espn.com/soccer/report/_/gameId/760429",
+    "https://theanalyst.com/articles/saudi-arabia-vs-uruguay-stats-world-cup-2026",
+    "https://www.skysports.com/football/saudi-arabia-vs-uruguay/report/549781",
+    "https://www.fotmob.com/matches/saudi-arabia-vs-uruguay/50a8d0de"
+  ],
+  "goals": [
+    {"team": "saudi-arabia", "player": "Abdulelah Al Amri", "minute": "41", "type": "regular", "assist": null},
+    {"team": "uruguay", "player": "Maxi Araújo", "minute": "80", "type": "regular", "assist": null}
+  ],
+  "cards": [
+    {"team": "saudi-arabia", "player": "Abdulelah Al Amri", "minute": "44", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "saudi-arabia", "off": "Musab Al Juwayr", "on": "Nasser Al Dawsari", "minute": "63"},
+    {"team": "saudi-arabia", "off": "Mohammed Abu Al Shamat", "on": "Nawaf Al Boushal", "minute": "81"},
+    {"team": "uruguay", "off": "Darwin Núñez", "on": "Agustín Canobbio", "minute": "46"},
+    {"team": "uruguay", "off": "Matías Viña", "on": "Juan Manuel Sanabria", "minute": "46"},
+    {"team": "uruguay", "off": "Manuel Ugarte", "on": "Nicolás De La Cruz", "minute": "72"},
+    {"team": "uruguay", "off": "Maxi Araújo", "on": "Brian Rodríguez", "minute": "81"},
+    {"team": "uruguay", "off": "Federico Viñas", "on": "Rodrigo Aguirre", "minute": "90"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Georgios Donis",
+      "starting": [
+        {"name": "Mohammed Al Owais", "position": "GK", "number": 21},
+        {"name": "Saud Abdulhamid", "position": "DF", "number": 12},
+        {"name": "Abdulelah Al Amri", "position": "DF", "number": 4},
+        {"name": "Hassan Al Tambakti", "position": "DF", "number": 5},
+        {"name": "Moteb Al Harbi", "position": "DF", "number": 24},
+        {"name": "Mohammed Abu Al Shamat", "position": "MF", "number": 26},
+        {"name": "Mohamed Kanno", "position": "MF", "number": 23},
+        {"name": "Abdullah Al Khaibari", "position": "MF", "number": 15},
+        {"name": "Salem Al Dawsari", "position": "MF", "number": 10},
+        {"name": "Firas Al Buraikan", "position": "FW", "number": 9},
+        {"name": "Musab Al Juwayr", "position": "FW", "number": 7}
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Marcelo Bielsa",
+      "starting": [
+        {"name": "Fernando Muslera", "position": "GK", "number": 23},
+        {"name": "Guillermo Varela", "position": "DF", "number": 13},
+        {"name": "Sebastián Cáceres", "position": "DF", "number": 3},
+        {"name": "Mathías Olivera", "position": "DF", "number": 16},
+        {"name": "Matías Viña", "position": "DF", "number": 17},
+        {"name": "Rodrigo Bentancur", "position": "MF", "number": 6},
+        {"name": "Manuel Ugarte", "position": "MF", "number": 5},
+        {"name": "Federico Valverde", "position": "MF", "number": 8},
+        {"name": "Maxi Araújo", "position": "MF", "number": 20},
+        {"name": "Darwin Núñez", "position": "FW", "number": 9},
+        {"name": "Federico Viñas", "position": "FW", "number": 21}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 33,
+      "shots": 7,
+      "shots_on_target": null,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 9,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 67,
+      "shots": 27,
+      "shots_on_target": null,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

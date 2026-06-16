@@ -1,6 +1,6 @@
 # Results
 
-_12 matches played; 12 with full detail (goals, lineups, stats)._
+_16 matches played; 16 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -59,6 +59,24 @@ _Computed from completed matches only._
 | Japan | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
 | Netherlands | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
 | Tunisia | 1 | 0 | 0 | 1 | 1 | 5 | -4 | 0 |
+
+### Group G
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| IR Iran | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
+| New Zealand | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
+| Belgium | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Egypt | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+
+### Group H
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| Saudi Arabia | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Uruguay | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Cabo Verde | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| Spain | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 
 ## Match results
 
@@ -424,10 +442,120 @@ Att: 50,987 · Referee: Yael Falcon Perez
 
 ### 2026-06-15
 
-#### Spain vs Cabo Verde (Group H) — _scheduled_
+#### Spain 0–0 Cabo Verde (Group H)
+_Mercedes-Benz Stadium, Atlanta_ · Att: 67,640 · Referee: Adham Mohammad
 
-#### Belgium vs Egypt (Group G) — _scheduled_
+<details><summary>Lineups, substitutions, cards & stats</summary>
 
-#### Saudi Arabia vs Uruguay (Group H) — _scheduled_
+**Spain** (4-3-3 — Luis de la Fuente): 23. Unai Simón, 5. Marcos Llorente, 22. Pau Cubarsí, 14. Aymeric Laporte, 24. Marc Cucurella, Rodri, Fabián Ruiz, 20. Pedri, Gavi, Ferran Torres, 21. Mikel Oyarzabal
 
-#### IR Iran vs New Zealand (Group G) — _scheduled_
+**Cabo Verde** (4-3-3 — Bubista): 1. Vozinha, Steven Moreira, Roberto Lopes, Diney Borges, Sidny Cabral, Kevin Pina, Jamiro Monteiro, Laros Duarte, Jovane Cabral, Ryan Mendes, Dailon Livramento
+
+**Substitutions:** 61' Jovane Cabral → Willy Semedo (Cabo Verde); 61' Laros Duarte → Deroy Duarte (Cabo Verde); 61' Dailon Livramento → Nuno da Costa (Cabo Verde); 71' Gavi → Lamine Yamal (Spain); 71' Fabián Ruiz → Mikel Merino (Spain); 76' Sidny Cabral → João Paulo (Cabo Verde); 79' Jamiro Monteiro → Telmo Arcanjo (Cabo Verde); 81' Ferran Torres → Dani Olmo (Spain); 87' Rodri → Nico Williams (Spain)
+
+**Cards:** 🟨 16' Sidny Cabral (Cabo Verde); 🟨 90+3' Pedri (Spain)
+
+| Stat | Spain | Cabo Verde |
+|------|---|---|
+| Possession | 74% | 26% |
+| Shots | 27 | 6 |
+| Shots on target | 7 | 1 |
+| Corners | 11 | 1 |
+| Fouls | 10 | 12 |
+| Offsides | 2 | 3 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 0 |
+| Saves | 1 | 7 |
+
+</details>
+
+#### Belgium 1–1 Egypt (Group G)
+_Lumen Field, Seattle_ · Att: 66,775 · Referee: Ramon Abatti Abel
+
+**Goals:** 19' Emam Ashour (Egypt); 66' Mohamed Hany (OG) (Belgium)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Belgium** (4-2-3-1 — Rudi Garcia): 1. Thibaut Courtois, 15. Thomas Meunier, 25. Nathan Ngoy, 4. Brandon Mechele, 21. Timothy Castagne, 24. Amadou Onana, 8. Youri Tielemans, 10. Leandro Trossard, 7. Kevin De Bruyne, 11. Jérémy Doku, 17. Charles De Ketelaere
+
+**Egypt** (4-2-3-1 — Hossam Hassan): 23. Mostafa Shobier, 3. Mohamed Hany, 2. Yasser Ibrahim, 14. Hamdy Fathy, 13. Ahmed Fatouh, 19. Marawan Attia, 17. Mohanad Lashin, 11. Zizo, 10. Mohamed Salah, 8. Emam Ashour, 22. Omar Marmoush
+
+**Substitutions:** 56' Timothy Castagne → Maxim De Cuyper (Belgium); 56' Amadou Onana → Nicolas Raskin (Belgium); 66' Charles De Ketelaere → Romelu Lukaku (Belgium); 71' Emam Ashour → Ramy Rabia (Egypt); 76' Zizo → Hamza Abdelkarim (Egypt); 76' Mohamed Salah → Mostafa Zico (Egypt); 86' Kevin De Bruyne → Hans Vanaken (Belgium); 86' Jérémy Doku → Matías Fernández-Pardo (Belgium); 88' Hamdy Fathy → Ibrahim Adel (Egypt); 88' Ahmed Fatouh → Karim Hafez (Egypt)
+
+**Cards:** 🟨 13' Marawan Attia (Egypt); 🟨 14' Timothy Castagne (Belgium); 🟨 34' Ahmed Fatouh (Egypt); 🟨 75' Maxim De Cuyper (Belgium)
+
+| Stat | Belgium | Egypt |
+|------|---|---|
+| Possession | 54% | 46% |
+| Shots | 15 | 14 |
+| Shots on target | 3 | 3 |
+| Yellow cards | 2 | 2 |
+| Red cards | 0 | 0 |
+| Saves | 2 | 3 |
+| Passes | 391 | 323 |
+| Pass accuracy | 86% | 81% |
+
+</details>
+
+#### Saudi Arabia 1–1 Uruguay (Group H)
+_Hard Rock Stadium, Miami Gardens_ · Att: 62,764 · Referee: Maurizio Mariani
+
+**Goals:** 41' Abdulelah Al Amri (Saudi Arabia); 80' Maxi Araújo (Uruguay)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Saudi Arabia** (4-4-2 — Georgios Donis): 21. Mohammed Al Owais, 12. Saud Abdulhamid, 4. Abdulelah Al Amri, 5. Hassan Al Tambakti, 24. Moteb Al Harbi, 26. Mohammed Abu Al Shamat, 23. Mohamed Kanno, 15. Abdullah Al Khaibari, 10. Salem Al Dawsari, 9. Firas Al Buraikan, 7. Musab Al Juwayr
+
+**Uruguay** (4-4-2 — Marcelo Bielsa): 23. Fernando Muslera, 13. Guillermo Varela, 3. Sebastián Cáceres, 16. Mathías Olivera, 17. Matías Viña, 6. Rodrigo Bentancur, 5. Manuel Ugarte, 8. Federico Valverde, 20. Maxi Araújo, 9. Darwin Núñez, 21. Federico Viñas
+
+**Substitutions:** 46' Darwin Núñez → Agustín Canobbio (Uruguay); 46' Matías Viña → Juan Manuel Sanabria (Uruguay); 63' Musab Al Juwayr → Nasser Al Dawsari (Saudi Arabia); 72' Manuel Ugarte → Nicolás De La Cruz (Uruguay); 81' Mohammed Abu Al Shamat → Nawaf Al Boushal (Saudi Arabia); 81' Maxi Araújo → Brian Rodríguez (Uruguay); 90' Federico Viñas → Rodrigo Aguirre (Uruguay)
+
+**Cards:** 🟨 44' Abdulelah Al Amri (Saudi Arabia)
+
+| Stat | Saudi Arabia | Uruguay |
+|------|---|---|
+| Possession | 33% | 67% |
+| Shots | 7 | 27 |
+| Yellow cards | 1 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 9 | 2 |
+
+</details>
+
+#### IR Iran 2–2 New Zealand (Group G)
+_SoFi Stadium, Inglewood_ · Att: 70,108 · Referee: César Arturo Ramos Palazuelos
+
+**Goals:** 7' Elijah Just (New Zealand); 32' Ramin Rezaeian (IR Iran); 54' Elijah Just (New Zealand); 64' Mohammad Mohebbi (IR Iran)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**IR Iran** (4-4-2 — Amir Ghalenoei): 1. Alireza Beiranvand, 23. Ramin Rezaeian, 19. Ali Nemati, 4. Shoja Khalilzadeh, 5. Milad Mohammadi, Aria Yousefi, Saman Ghoddos, 6. Saeid Ezatolahi, 8. Mohammad Mohebbi, Shahriar Moghanlou, Mehdi Taremi
+
+**New Zealand** (4-2-3-1 — Darren Bazeley): 1. Max Crocombe, Tim Payne, 16. Finn Surman, 5. Michael Boxall, Liberato Cacace, 6. Joe Bell, Marko Stamenic, Callum McCowatt, Sarpreet Singh, 11. Elijah Just, 9. Chris Wood
+
+**Substitutions:** 46' Aria Yousefi → Mehdi Ghayedi (IR Iran); 53' Shahriar Moghanlou → Ali Alipour (IR Iran); 65' Saman Ghoddos → Ehsan Hajsafi (IR Iran); 68' Liberato Cacace → Ben Old (New Zealand); 68' Callum McCowatt → Ryan Thomas (New Zealand); 77' Tim Payne → Callan Elliot (New Zealand); 80' Mehdi Taremi → Amirhossein Hosseinzadeh (IR Iran); 90' Marko Stamenic → Tyler Bindon (New Zealand); 90' Sarpreet Singh → Jesse Randall (New Zealand)
+
+**Cards:** 🟨 90' Ehsan Hajsafi (IR Iran)
+
+| Stat | IR Iran | New Zealand |
+|------|---|---|
+| Possession | 48% | 52% |
+| Shots | 17 | 14 |
+| Shots on target | 4 | 8 |
+| Fouls | 10 | 8 |
+| Yellow cards | 1 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 6 | 2 |
+| Pass accuracy | 77% | 84% |
+
+</details>
+
+### 2026-06-16
+
+#### France vs Senegal (Group I) — _scheduled_
+
+#### Iraq vs Norway (Group I) — _scheduled_
+
+#### Argentina vs Algeria (Group J) — _scheduled_
+
+#### Austria vs Jordan (Group J) — _scheduled_
