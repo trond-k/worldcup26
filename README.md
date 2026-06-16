@@ -29,11 +29,15 @@ docs/                  # GENERATED — do not edit by hand (run the scripts)
   group-a.md … group-l.md
   stats.md             # market-value rankings and totals
   results.md           # match results and live group standings
+  favourites.md        # favourite/underdog odds models (see Favourites below)
 scripts/
   validate.py          # structural validation (CI-friendly, exits non-zero on error)
   generate_markdown.py # regenerate docs/ from the JSON
   stats.py             # compute aggregate market-value stats → docs/stats.md
   generate_results.py  # results + computed standings → docs/results.md
+  favourites.py        # favourite/underdog odds → docs/favourites.md
+  odds.py              # the two-model odds engine (self-test: python3 scripts/odds.py)
+  seed_wc_history.py   # seed wc_* World Cup history fields on the team files
   generate_site.py     # build the static website → site/ (see Website below)
   assets/style.css     # stylesheet for the generated site
   common.py            # shared helpers
@@ -80,8 +84,14 @@ Each `data/teams/<slug>.json` file:
 - `population` / `population_year` are the country's total population (World Bank
   estimates, mostly 2024; ONS mid-2023 for England and Scotland; latest available
   year for Curaçao). These socio-economic fields (GNP, GNP per capita, population)
-  alongside `fifa_ranking` and squad market value are intended as inputs to a
-  favourite/underdog estimate for matches.
+  alongside `fifa_ranking` and squad market value feed the favourite/underdog
+  odds models — see [Favourites](#favourites--odds-models) below.
+- `wc_titles` / `wc_appearances` / `wc_best_finish` capture each nation's men's
+  World Cup record through 2022 (predecessor states folded in, e.g. West Germany
+  → Germany, Czechoslovakia → Czechia). `wc_best_finish` is one of `winners`,
+  `runner-up`, `third`, `fourth`, `semi-final`, `quarter-final`, `round-16`,
+  `round-32`, `group-stage`, `never-qualified`. They feed the football model's
+  pedigree term and are seeded by `scripts/seed_wc_history.py`.
 
 Each `data/results/<date>.json` file holds the matches played (or scheduled) on
 that date:
@@ -126,6 +136,8 @@ python3 scripts/validate.py            # check every file is well-formed
 python3 scripts/generate_markdown.py   # rebuild docs/ from the JSON
 python3 scripts/stats.py               # rebuild docs/stats.md
 python3 scripts/generate_results.py    # rebuild docs/results.md (results + standings)
+python3 scripts/favourites.py          # rebuild docs/favourites.md (odds models)
+python3 scripts/odds.py                # run the odds-engine self-test
 python3 scripts/generate_site.py       # build the static website into site/
 ```
 
@@ -157,6 +169,34 @@ it is built fresh on demand and by CI. The site is published to **GitHub Pages**
 by `.github/workflows/pages.yml`, which validates the data, runs the generator
 and deploys `site/` on every push. To enable it for a fork, open the
 repository's **Settings → Pages** and set **Source = GitHub Actions** (one-time).
+
+## Favourites / odds models
+
+`scripts/odds.py` turns the data into a favourite/underdog read. It runs **two
+independent models**, each scoring every team 0–100, and converts a pair of team
+scores into home/draw/away probabilities for a fixture. The two models are
+**never blended** — the gap between them is the interesting part (a poor-but-
+talented nation, or a rich one with a thin squad).
+
+- **Football model** — squad market value (the strongest single signal), FIFA
+  ranking, World Cup pedigree (`wc_*`), squad age/peak profile and depth.
+- **Socio-economic model** — GNP per capita, population (talent pool), total
+  GNP, the share of the squad playing abroad and in the big-5 leagues, plus a
+  bump for the host nations.
+
+Scores become odds via an Elo-style expected-score curve with a draw carved out
+around even matchups; the home side gets a small venue edge when it is a host.
+Every weight and constant lives in one `CONFIG` dict at the top of `odds.py`, so
+the models are retuned without touching the logic. Run `python3 scripts/odds.py`
+for a self-test plus a printout of the current favourites.
+
+The odds appear on match cards and match-detail pages of the website, on a
+dedicated **Favourites** page (two ranked tables side by side, plus "punching
+above their weight" and talent-density highlights), and in
+[docs/favourites.md](docs/favourites.md).
+
+> These are toy estimates built from public data — illustrative only, not
+> betting advice.
 
 ## Data sources & accuracy
 
@@ -202,8 +242,9 @@ The JSON files under `data/` are the source of truth — edit those, never the
 generated files in `docs/`. After editing:
 
 1. Run `python3 scripts/validate.py` and fix any reported errors.
-2. Run `python3 scripts/generate_markdown.py`, `python3 scripts/stats.py` and
-   `python3 scripts/generate_results.py` to refresh the generated docs.
+2. Run `python3 scripts/generate_markdown.py`, `python3 scripts/stats.py`,
+   `python3 scripts/generate_results.py` and `python3 scripts/favourites.py` to
+   refresh the generated docs.
 3. Commit both the data change and the regenerated docs.
 
 To add new match results, edit (or create) the relevant `data/results/<date>.json`

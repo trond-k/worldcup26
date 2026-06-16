@@ -19,4 +19,4 @@
 | [K](group-k.md) | Portugal, DR Congo, Uzbekistan, Colombia |
 | [L](group-l.md) | England, Croatia, Ghana, Panama |
 
-See [stats.md](stats.md) for aggregate market-value rankings, and [results.md](results.md) for match results and live standings.
+See [favourites.md](favourites.md) for the favourite/underdog odds models, [stats.md](stats.md) for aggregate market-value rankings, and [results.md](results.md) for match results and live standings.

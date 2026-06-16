@@ -80,7 +80,8 @@ def page(title, body, depth=0, active=None):
     nav_items = [("", "Home", "home")]
     if CALENDAR_HOME:
         nav_items.append((CALENDAR_HOME, "Calendar", "calendar"))
-    nav_items += [("stats.html", "Stats", "stats"),
+    nav_items += [("favourites.html", "Favourites", "favourites"),
+                  ("stats.html", "Stats", "stats"),
                   ("results.html", "Results", "results")]
     nav = []
     for href, label, key in nav_items:
@@ -372,9 +373,10 @@ def render_index(tournament, by_slug, matches, details, today, scores):
         rows.append([group_link, ", ".join(names)])
     body.append("<h2>Groups</h2>")
     body.append(table(["Group", "Teams"], rows))
-    body.append(f'<p>See {link("stats.html", "Stats")} for market-value and economy '
-                f'rankings, and {link("results.html", "Results")} for fixtures and '
-                f'live standings.</p>')
+    body.append(f'<p>See {link("favourites.html", "Favourites")} for the '
+                f'odds models, {link("stats.html", "Stats")} for market-value and '
+                f'economy rankings, and {link("results.html", "Results")} for '
+                f'fixtures and live standings.</p>')
     return page(t["name"], "\n".join(body), depth=0, active="home")
 
 
@@ -519,6 +521,76 @@ def render_stats(teams):
         body.append(table(["Rank", "Team", "Group", "GNP per capita", "Year"], rows))
 
     return page("Statistics", "\n".join(body), depth=0, active="stats")
+
+
+def _fav_table(order, ranks, model, by_slug):
+    """Ranked table (Rank, Team, Group, Score) for one model."""
+    rows = []
+    for slug, sc in order:
+        grp = (by_slug.get(slug) or {}).get("group", "")
+        host = ' <span class="muted">(host)</span>' if sc.get("host") else ""
+        rows.append([str(ranks[slug]),
+                     link(f"team/{slug}.html", sc["name"]) + host,
+                     esc(grp), esc(f"{sc[model]:.1f}")])
+    return table(["#", "Team", "Grp", "Score"], rows, cls="fav-rank")
+
+
+def render_favourites(teams, scores, by_slug):
+    body = ["<h1>Favourites</h1>",
+            '<p class="lead">Two independent toy models rate every team 0–100.</p>',
+            '<p class="muted">The <strong>football</strong> model weighs squad '
+            'market value, FIFA ranking, World Cup pedigree and squad age/depth. '
+            'The <strong>socio-economic</strong> model weighs wealth (GNP per '
+            'capita), population, total GNP, the share of the squad playing abroad '
+            'and in the big-5 leagues, plus a host bump. They are never blended — '
+            'the gaps between them are the interesting part. Estimates only, not '
+            'betting advice.</p>']
+
+    fb_order = sorted(scores.items(), key=lambda kv: -kv[1]["football"])
+    so_order = sorted(scores.items(), key=lambda kv: -kv[1]["socio"])
+    fb_rank = {s: i for i, (s, _) in enumerate(fb_order, 1)}
+    so_rank = {s: i for i, (s, _) in enumerate(so_order, 1)}
+
+    body.append('<div class="fav-cols">')
+    body.append('<div><h2>Football favourites</h2>'
+                + _fav_table(fb_order, fb_rank, "football", by_slug) + "</div>")
+    body.append('<div><h2>Socio-economic favourites</h2>'
+                + _fav_table(so_order, so_rank, "socio", by_slug) + "</div>")
+    body.append("</div>")
+
+    # Overachievers: football rank far better than socio-economic rank.
+    climbs = sorted(scores, key=lambda s: so_rank[s] - fb_rank[s], reverse=True)
+    rows = []
+    for slug in climbs:
+        gap = so_rank[slug] - fb_rank[slug]
+        if gap <= 0:
+            break
+        rows.append([link(f"team/{slug}.html", scores[slug]["name"]),
+                     f"#{fb_rank[slug]}", f"#{so_rank[slug]}",
+                     f'<strong>+{gap}</strong>'])
+    body.append("<h2>Punching above their weight</h2>")
+    body.append('<p class="muted">Teams ranked far higher by football than by '
+                'socio-economics — overachievers relative to their resources.</p>')
+    body.append(table(["Team", "Football", "Socio-econ", "Climb"], rows[:8]))
+
+    # Talent density: squad value per citizen.
+    dens = [(s, sc) for s, sc in scores.items()
+            if sc["density"].get("value_per_capita") is not None]
+    dens.sort(key=lambda kv: kv[1]["density"]["value_per_capita"], reverse=True)
+    rows = []
+    for slug, sc in dens[:10]:
+        t = by_slug.get(slug, {})
+        vpc = sc["density"]["value_per_capita"]
+        rows.append([link(f"team/{slug}.html", sc["name"]),
+                     esc(fmt_eur(squad_value(t))) if t else "—",
+                     esc(fmt_pop(t.get("population"))) if t else "—",
+                     f"€{round(vpc):,}"])
+    body.append("<h2>Most squad value per citizen</h2>")
+    body.append('<p class="muted">Squad market value spread across the '
+                'population — a talent-density read on the small nations.</p>')
+    body.append(table(["Team", "Squad value", "Citizens", "€ / citizen"], rows))
+
+    return page("Favourites", "\n".join(body), depth=0, active="favourites")
 
 
 def render_results(teams, matches, details, by_slug):
@@ -773,6 +845,7 @@ def main():
     for t in teams:
         write(f"team/{t['slug']}.html", render_team(t, by_slug, matches, details))
 
+    write("favourites.html", render_favourites(teams, scores, by_slug))
     write("stats.html", render_stats(teams))
     write("results.html", render_results(teams, matches, details, by_slug))
 
