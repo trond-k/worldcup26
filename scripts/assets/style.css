@@ -50,6 +50,19 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+/* Site banner */
+.site-banner {
+  display: block;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1rem 1.25rem 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+}
+.site-banner:hover { text-decoration: none; }
+
 /* Header / nav */
 .site-header {
   display: flex;

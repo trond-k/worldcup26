@@ -108,6 +108,7 @@ def page(title, body, depth=0, active=None):
 <link rel="stylesheet" href="{root}assets/style.css">
 </head>
 <body>
+<a class="site-banner" href="{root}index.html">Pitchonomics</a>
 <header class="site-header">
 <a class="brand" href="{root}index.html">World Cup 2026</a>
 <nav>{''.join(nav)}</nav>
