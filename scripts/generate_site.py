@@ -242,15 +242,17 @@ def _leads(self_t, opp_t, value_fn, better):
     return sv > ov if better == "high" else sv < ov
 
 
-def team_block(slug, by_slug, opponent_slug=None):
+def team_block(slug, by_slug, opponent_slug=None, away=False):
     """A team panel for a match card: name plus CARD_STATS.
 
     When opponent_slug is given, the side leading on a stat gets a `card-fav`
-    highlight (the same head-to-head cue used by the odds rows).
+    highlight (the same head-to-head cue used by the odds rows). The away panel
+    is tagged `team away` so the CSS can right-align it toward the card edge.
     """
+    cls = "team away" if away else "team"
     t = by_slug.get(slug)
     if not t:
-        return f'<div class="team"><span class="tname">{esc(slug)}</span></div>'
+        return f'<div class="{cls}"><span class="tname">{esc(slug)}</span></div>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
     opp = by_slug.get(opponent_slug) if opponent_slug else None
     rows = []
@@ -266,7 +268,7 @@ def team_block(slug, by_slug, opponent_slug=None):
             f'<dd{dd_cls}>{esc(fmt_fn(value_fn(t)))}</dd></div>'
         )
     return (
-        '<div class="team">'
+        f'<div class="{cls}">'
         f'<span class="tname">{name_link}</span>'
         f'<dl class="card-stats">{"".join(rows)}</dl>'
         '</div>'
@@ -338,7 +340,7 @@ def render_match_card(m, by_slug, details, scores=None):
         f'{grp_html}'
         f'{team_block(m["home"], by_slug, m["away"])}'
         f'<div class="centre">{centre}</div>'
-        f'{team_block(m["away"], by_slug, m["home"])}'
+        f'{team_block(m["away"], by_slug, m["home"], away=True)}'
         f'{render_card_odds(m, scores)}'
         '</div>'
     )

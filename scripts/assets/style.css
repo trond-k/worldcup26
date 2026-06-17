@@ -209,7 +209,7 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   margin-bottom: 0.2rem;
 }
 .match-card .team { display: flex; flex-direction: column; gap: 0.3rem; }
-.match-card .team:last-child { text-align: right; }
+.match-card .team.away { text-align: right; }
 .match-card .tname { font-weight: 600; line-height: 1.2; }
 .match-card dl.card-stats { margin: 0.2rem 0 0; display: block; }
 .match-card dl.card-stats div { margin: 0.1rem 0; }
