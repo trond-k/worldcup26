@@ -207,3 +207,13 @@ def fmt_pop(value):
         return "—"
     m = value / 1_000_000
     return f"{m:.2f}M" if m < 1 else f"{m:.1f}M"
+
+
+def fmt_num(value, decimals=1, suffix=""):
+    """Format a number to fixed decimals with an optional suffix; None -> '—'.
+
+    e.g. fmt_num(0.781, 3) -> '0.781', fmt_num(4.7, 1, '%') -> '4.7%'.
+    """
+    if value is None:
+        return "—"
+    return f"{value:.{decimals}f}{suffix}"

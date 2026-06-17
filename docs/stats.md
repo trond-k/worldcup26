@@ -217,3 +217,277 @@ _Gross National Product (World Bank GNI). See README for sources and caveats._
 | 46 | Haiti | C | $1,760 | 2024 |
 | 47 | Senegal | I | $1,680 | 2024 |
 | 48 | DR Congo | K | $660 | 2023 |
+
+## Governance & development
+
+_Descriptive country-level political and economic indicators. These are **not** used by the odds models. Sources and reference years are documented in `scripts/seed_politico_economic.py` and the README; England and Scotland use UK figures as a proxy._
+
+### By HDI
+
+_UNDP Human Development Index, 0-1 (higher = more developed)._
+
+| Rank | Team | Group | HDI |
+|------|------|-------|-----|
+| 1 | Switzerland | B | 0.967 |
+| 2 | Norway | I | 0.966 |
+| 3 | Sweden | F | 0.952 |
+| 4 | Germany | E | 0.950 |
+| 5 | Australia | D | 0.946 |
+| 6 | Netherlands | F | 0.946 |
+| 7 | Belgium | G | 0.942 |
+| 8 | Scotland | C | 0.940 |
+| 9 | England | L | 0.940 |
+| 10 | New Zealand | G | 0.939 |
+| 11 | Canada | B | 0.935 |
+| 12 | South Korea | A | 0.929 |
+| 13 | United States | D | 0.927 |
+| 14 | Austria | J | 0.926 |
+| 15 | Japan | F | 0.920 |
+| 16 | Spain | H | 0.911 |
+| 17 | France | I | 0.910 |
+| 18 | Czechia | A | 0.895 |
+| 19 | Croatia | L | 0.878 |
+| 20 | Saudi Arabia | H | 0.875 |
+| 21 | Portugal | K | 0.874 |
+| 22 | Qatar | B | 0.855 |
+| 23 | Türkiye | D | 0.855 |
+| 24 | Argentina | J | 0.849 |
+| 25 | Uruguay | H | 0.830 |
+| 26 | Panama | L | 0.820 |
+| 27 | Mexico | A | 0.781 |
+| 28 | Bosnia and Herzegovina | B | 0.780 |
+| 29 | IR Iran | G | 0.780 |
+| 30 | Ecuador | E | 0.765 |
+| 31 | Brazil | C | 0.760 |
+| 32 | Colombia | K | 0.758 |
+| 33 | Algeria | J | 0.745 |
+| 34 | Jordan | J | 0.736 |
+| 35 | Tunisia | F | 0.732 |
+| 36 | Paraguay | D | 0.731 |
+| 37 | Egypt | G | 0.728 |
+| 38 | Uzbekistan | K | 0.727 |
+| 39 | South Africa | A | 0.717 |
+| 40 | Morocco | C | 0.698 |
+| 41 | Iraq | I | 0.673 |
+| 42 | Cabo Verde | H | 0.661 |
+| 43 | Ghana | L | 0.602 |
+| 44 | Haiti | C | 0.552 |
+| 45 | Côte d'Ivoire | E | 0.550 |
+| 46 | Senegal | I | 0.517 |
+| 47 | DR Congo | K | 0.481 |
+
+### By CPI
+
+_Transparency International, 0-100 (higher = cleaner)._
+
+| Rank | Team | Group | CPI |
+|------|------|-------|-----|
+| 1 | New Zealand | G | 85 |
+| 2 | Norway | I | 84 |
+| 3 | Switzerland | B | 82 |
+| 4 | Sweden | F | 82 |
+| 5 | Netherlands | F | 79 |
+| 6 | Germany | E | 78 |
+| 7 | Canada | B | 76 |
+| 8 | Australia | D | 75 |
+| 9 | Japan | F | 73 |
+| 10 | Belgium | G | 73 |
+| 11 | Uruguay | H | 73 |
+| 12 | Scotland | C | 71 |
+| 13 | France | I | 71 |
+| 14 | Austria | J | 71 |
+| 15 | England | L | 71 |
+| 16 | United States | D | 69 |
+| 17 | Cabo Verde | H | 64 |
+| 18 | South Korea | A | 63 |
+| 19 | Portugal | K | 61 |
+| 20 | Spain | H | 60 |
+| 21 | Qatar | B | 58 |
+| 22 | Czechia | A | 57 |
+| 23 | Saudi Arabia | H | 52 |
+| 24 | Croatia | L | 50 |
+| 25 | Jordan | J | 46 |
+| 26 | Senegal | I | 43 |
+| 27 | Ghana | L | 43 |
+| 28 | South Africa | A | 41 |
+| 29 | Côte d'Ivoire | E | 40 |
+| 30 | Tunisia | F | 40 |
+| 31 | Colombia | K | 40 |
+| 32 | Morocco | C | 38 |
+| 33 | Argentina | J | 37 |
+| 34 | Panama | L | 37 |
+| 35 | Brazil | C | 36 |
+| 36 | Algeria | J | 36 |
+| 37 | Bosnia and Herzegovina | B | 35 |
+| 38 | Egypt | G | 35 |
+| 39 | Türkiye | D | 34 |
+| 40 | Ecuador | E | 34 |
+| 41 | Uzbekistan | K | 33 |
+| 42 | Mexico | A | 31 |
+| 43 | Paraguay | D | 28 |
+| 44 | IR Iran | G | 24 |
+| 45 | Iraq | I | 23 |
+| 46 | DR Congo | K | 20 |
+| 47 | Haiti | C | 17 |
+
+### By Democracy Index
+
+_EIU, 0-10 (higher = more democratic)._
+
+| Rank | Team | Group | Democracy Index |
+|------|------|-------|-----------------|
+| 1 | Norway | I | 9.81 |
+| 2 | New Zealand | G | 9.61 |
+| 3 | Sweden | F | 9.39 |
+| 4 | Switzerland | B | 9.14 |
+| 5 | Netherlands | F | 9.00 |
+| 6 | Germany | E | 8.80 |
+| 7 | Canada | B | 8.69 |
+| 8 | Australia | D | 8.66 |
+| 9 | Uruguay | H | 8.66 |
+| 10 | Japan | F | 8.40 |
+| 11 | Scotland | C | 8.28 |
+| 12 | England | L | 8.28 |
+| 13 | Austria | J | 8.20 |
+| 14 | South Korea | A | 8.09 |
+| 15 | Spain | H | 8.07 |
+| 16 | France | I | 8.07 |
+| 17 | Czechia | A | 7.97 |
+| 18 | Portugal | K | 7.95 |
+| 19 | United States | D | 7.85 |
+| 20 | Cabo Verde | H | 7.65 |
+| 21 | Belgium | G | 7.64 |
+| 22 | Panama | L | 7.18 |
+| 23 | South Africa | A | 7.05 |
+| 24 | Brazil | C | 6.68 |
+| 25 | Argentina | J | 6.62 |
+| 26 | Colombia | K | 6.55 |
+| 27 | Croatia | L | 6.50 |
+| 28 | Ghana | L | 6.30 |
+| 29 | Paraguay | D | 6.24 |
+| 30 | Ecuador | E | 5.99 |
+| 31 | Senegal | I | 5.96 |
+| 32 | Tunisia | F | 5.51 |
+| 33 | Mexico | A | 5.14 |
+| 34 | Morocco | C | 5.04 |
+| 35 | Bosnia and Herzegovina | B | 5.00 |
+| 36 | Türkiye | D | 4.33 |
+| 37 | Côte d'Ivoire | E | 4.22 |
+| 38 | Algeria | J | 3.66 |
+| 39 | Qatar | B | 3.65 |
+| 40 | Jordan | J | 3.17 |
+| 41 | Iraq | I | 3.13 |
+| 42 | Egypt | G | 2.93 |
+| 43 | Haiti | C | 2.59 |
+| 44 | Uzbekistan | K | 2.12 |
+| 45 | Saudi Arabia | H | 2.08 |
+| 46 | IR Iran | G | 1.96 |
+| 47 | DR Congo | K | 1.40 |
+
+### By Global Peace Index
+
+_IEP, ~1-5 (LOWER = more peaceful, so this table is ascending)._
+
+| Rank | Team | Group | Global Peace Index |
+|------|------|-------|--------------------|
+| 1 | Austria | J | 1.30 |
+| 2 | Portugal | K | 1.30 |
+| 3 | New Zealand | G | 1.31 |
+| 4 | Switzerland | B | 1.34 |
+| 5 | Japan | F | 1.34 |
+| 6 | Canada | B | 1.35 |
+| 7 | Czechia | A | 1.38 |
+| 8 | Netherlands | F | 1.40 |
+| 9 | Norway | I | 1.40 |
+| 10 | Qatar | B | 1.48 |
+| 11 | Sweden | F | 1.50 |
+| 12 | Australia | D | 1.52 |
+| 13 | Germany | E | 1.55 |
+| 14 | Belgium | G | 1.55 |
+| 15 | Croatia | L | 1.55 |
+| 16 | Scotland | C | 1.60 |
+| 17 | Spain | H | 1.60 |
+| 18 | England | L | 1.60 |
+| 19 | France | I | 1.65 |
+| 20 | Ghana | L | 1.75 |
+| 21 | South Korea | A | 1.78 |
+| 22 | Uruguay | H | 1.80 |
+| 23 | Cabo Verde | H | 1.85 |
+| 24 | Argentina | J | 1.90 |
+| 25 | Morocco | C | 1.95 |
+| 26 | Paraguay | D | 1.95 |
+| 27 | Jordan | J | 1.95 |
+| 28 | Panama | L | 1.95 |
+| 29 | Tunisia | F | 2.00 |
+| 30 | Uzbekistan | K | 2.05 |
+| 31 | Bosnia and Herzegovina | B | 2.07 |
+| 32 | Senegal | I | 2.10 |
+| 33 | Côte d'Ivoire | E | 2.20 |
+| 34 | Saudi Arabia | H | 2.20 |
+| 35 | Algeria | J | 2.30 |
+| 36 | Egypt | G | 2.35 |
+| 37 | South Africa | A | 2.37 |
+| 38 | Brazil | C | 2.40 |
+| 39 | Ecuador | E | 2.40 |
+| 40 | United States | D | 2.45 |
+| 41 | Mexico | A | 2.60 |
+| 42 | Haiti | C | 2.70 |
+| 43 | Iraq | I | 2.70 |
+| 44 | Colombia | K | 2.70 |
+| 45 | Türkiye | D | 2.78 |
+| 46 | IR Iran | G | 2.85 |
+| 47 | DR Congo | K | 3.20 |
+
+### By GDP growth
+
+_World Bank annual real GDP growth._
+
+| Rank | Team | Group | GDP growth |
+|------|------|-------|------------|
+| 1 | Panama | L | 7.3% |
+| 2 | Côte d'Ivoire | E | 6.2% |
+| 3 | DR Congo | K | 6.2% |
+| 4 | Uzbekistan | K | 6.0% |
+| 5 | Cabo Verde | H | 5.0% |
+| 6 | IR Iran | G | 4.7% |
+| 7 | Paraguay | D | 4.5% |
+| 8 | Türkiye | D | 4.5% |
+| 9 | Senegal | I | 4.1% |
+| 10 | Algeria | J | 4.1% |
+| 11 | Egypt | G | 3.8% |
+| 12 | Mexico | A | 3.2% |
+| 13 | Morocco | C | 3.0% |
+| 14 | Brazil | C | 2.9% |
+| 15 | Ghana | L | 2.9% |
+| 16 | Croatia | L | 2.8% |
+| 17 | Jordan | J | 2.6% |
+| 18 | United States | D | 2.5% |
+| 19 | Spain | H | 2.5% |
+| 20 | Ecuador | E | 2.4% |
+| 21 | Portugal | K | 2.3% |
+| 22 | Australia | D | 2.1% |
+| 23 | Japan | F | 1.9% |
+| 24 | Bosnia and Herzegovina | B | 1.7% |
+| 25 | Qatar | B | 1.6% |
+| 26 | Belgium | G | 1.5% |
+| 27 | South Korea | A | 1.4% |
+| 28 | Canada | B | 1.1% |
+| 29 | France | I | 0.9% |
+| 30 | Switzerland | B | 0.8% |
+| 31 | South Africa | A | 0.6% |
+| 32 | New Zealand | G | 0.6% |
+| 33 | Colombia | K | 0.6% |
+| 34 | Norway | I | 0.5% |
+| 35 | Tunisia | F | 0.4% |
+| 36 | Uruguay | H | 0.4% |
+| 37 | Scotland | C | 0.1% |
+| 38 | Netherlands | F | 0.1% |
+| 39 | England | L | 0.1% |
+| 40 | Sweden | F | -0.2% |
+| 41 | Czechia | A | -0.3% |
+| 42 | Germany | E | -0.3% |
+| 43 | Saudi Arabia | H | -0.8% |
+| 44 | Austria | J | -0.8% |
+| 45 | Argentina | J | -1.6% |
+| 46 | Haiti | C | -1.9% |
+| 47 | Iraq | I | -2.2% |

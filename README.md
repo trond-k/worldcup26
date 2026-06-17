@@ -39,6 +39,7 @@ scripts/
   odds.py              # the two-model odds engine (self-test: python3 scripts/odds.py)
   harvest_market_values.py  # refresh market_value_eur/age from Transfermarkt API
   seed_wc_history.py   # seed wc_* World Cup history fields on the team files
+  seed_politico_economic.py  # seed political & economic indicator fields on the team files
   generate_site.py     # build the static website → site/ (see Website below)
   assets/style.css     # stylesheet for the generated site
   common.py            # shared helpers
@@ -93,6 +94,22 @@ Each `data/teams/<slug>.json` file:
   `runner-up`, `third`, `fourth`, `semi-final`, `quarter-final`, `round-16`,
   `round-32`, `group-stage`, `never-qualified`. They feed the football model's
   pedigree term and are seeded by `scripts/seed_wc_history.py`.
+- **Political & economic indicators** — a descriptive country-level layer seeded
+  by `scripts/seed_politico_economic.py` and surfaced in `docs/stats.md`. These
+  are **purely descriptive: the odds models do not consume them.** All are
+  nullable, with a single `indicators_year` recording the reference year (per-
+  source years are listed in the seed script):
+  - Economic: `gdp_growth_pct`, `inflation_pct`, `unemployment_pct` (all %),
+    `hdi` (UNDP, 0–1), `gini_index` (0–100), `median_age_years`.
+  - Political / governance: `democracy_index` (EIU, 0–10), `corruption_perceptions_index`
+    (Transparency Int'l, 0–100, higher = cleaner), `political_stability` and
+    `government_effectiveness` (World Bank WGI, ≈ −2.5..+2.5), `press_freedom_score`
+    (RSF, 0–100), `global_peace_index` (IEP, ≈ 1–5, **lower = more peaceful**),
+    `military_expenditure_pct_gdp` (SIPRI, % of GDP).
+  - Sources: World Bank, UNDP, UN WPP, EIU, Transparency International, RSF, IEP
+    and SIPRI (latest available, mostly 2022–2024). As with `gnp_*`, England and
+    Scotland use **UK** figures as a proxy; Curaçao is not covered by these
+    indices and is left `null`.
 
 Each `data/results/<date>.json` file holds the matches played (or scheduled) on
 that date:
@@ -241,6 +258,21 @@ The script overwrites **only** `market_value_eur` / `age` and never auto-writes 
 low-confidence match, so squad lists stay untouched; `validate.py` enforces the
 required format. To improve coverage further, add per-player name aliases (e.g.
 correct transliterations) so the search resolves the currently-unmatched names.
+
+The **political & economic indicators** (HDI, democracy index, corruption
+perceptions, GDP growth, inflation, etc.) are seeded by
+`scripts/seed_politico_economic.py` from public datasets (World Bank, UNDP, UN
+WPP, EIU, Transparency International, RSF, IEP, SIPRI — latest available,
+mostly 2022–2024). The per-indicator source and reference year are listed in the
+script's header. Values are **best-effort and accurate in scale** rather than
+authoritative; England/Scotland use UK proxies and Curaçao is left `null`. They
+are descriptive only — the odds models do not use them. See `docs/stats.md` for
+the rankings.
+
+```bash
+python3 scripts/seed_politico_economic.py            # preview the table
+python3 scripts/seed_politico_economic.py --apply    # write the team files
+```
 
 ## Contributing
 
