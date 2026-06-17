@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-18",
+  "matches": [
+    {
+      "id": "2026-06-18-czechia-vs-south-africa",
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "czechia",
+      "away": "south-africa",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Group A matchday 2."
+    },
+    {
+      "id": "2026-06-18-switzerland-vs-bosnia-herzegovina",
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "switzerland",
+      "away": "bosnia-herzegovina",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Group B matchday 2."
+    },
+    {
+      "id": "2026-06-18-canada-vs-qatar",
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home": "canada",
+      "away": "qatar",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Group B matchday 2."
+    },
+    {
+      "id": "2026-06-18-mexico-vs-south-korea",
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home": "mexico",
+      "away": "south-korea",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Akron, Guadalajara",
+      "note": "Group A matchday 2."
+    }
+  ]
+}

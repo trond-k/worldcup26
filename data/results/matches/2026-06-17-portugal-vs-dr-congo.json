@@ -1,0 +1,70 @@
+{
+  "id": "2026-06-17-portugal-vs-dr-congo",
+  "date": "2026-06-17",
+  "home": "portugal",
+  "away": "dr-congo",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": null,
+  "referee": "Abdulrahman Al-Jassim",
+  "sources": [
+    "https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal",
+    "https://theanalyst.com/articles/portugal-vs-dr-congo-stats-world-cup-2026-live",
+    "https://www.france24.com/en/sport/20260617-world-cup-2026-resilient-dr-congo-hold-off-ronaldo-s-portugal-onslaught",
+    "https://www.aljazeera.com/sports/2026/6/17/portugal-held-to-1-1-draw-by-dr-congo-in-their-world-cup-2026-opener"
+  ],
+  "goals": [
+    {"team": "portugal", "player": "João Neves", "minute": "6", "type": "regular", "assist": "Pedro Neto"},
+    {"team": "dr-congo", "player": "Yoane Wissa", "minute": "45+5", "type": "regular", "assist": "Arthur Masuaku"}
+  ],
+  "cards": [
+    {"team": "portugal", "player": "Bernardo Silva", "minute": "13", "card": "yellow"},
+    {"team": "portugal", "player": "Nélson Semedo", "minute": "88", "card": "yellow"},
+    {"team": "portugal", "player": "Tomás Araújo", "minute": "90+2", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "portugal", "off": "Bernardo Silva", "on": "Francisco Conceição", "minute": "46"},
+    {"team": "portugal", "off": "Pedro Neto", "on": "Rafael Leão", "minute": "71"},
+    {"team": "portugal", "off": "Nuno Mendes", "on": "Nélson Semedo", "minute": "71"},
+    {"team": "portugal", "off": "Vitinha", "on": "Gonçalo Ramos", "minute": "82"},
+    {"team": "dr-congo", "off": "Ngal'ayel Mukau", "on": "Noah Sadiki", "minute": "56"},
+    {"team": "dr-congo", "off": "Edo Kayembe", "on": "Charles Pickel", "minute": "73"},
+    {"team": "dr-congo", "off": "Arthur Masuaku", "on": "Joris Kayembe", "minute": "73"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Roberto Martínez",
+      "starting": [
+        {"name": "Diogo Costa", "position": "GK", "number": null},
+        {"name": "João Cancelo", "position": "DF", "number": null},
+        {"name": "Tomás Araújo", "position": "DF", "number": null},
+        {"name": "Renato Veiga", "position": "DF", "number": null},
+        {"name": "Nuno Mendes", "position": "DF", "number": null},
+        {"name": "João Neves", "position": "MF", "number": null},
+        {"name": "Vitinha", "position": "MF", "number": null},
+        {"name": "Bernardo Silva", "position": "MF", "number": null},
+        {"name": "Bruno Fernandes", "position": "MF", "number": null},
+        {"name": "Pedro Neto", "position": "FW", "number": null},
+        {"name": "Cristiano Ronaldo", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "manager": "Sébastien Desabre",
+      "starting": [
+        {"name": "Lionel Mpasi", "position": "GK", "number": null},
+        {"name": "Aaron Wan-Bissaka", "position": "DF", "number": null},
+        {"name": "Steve Kapuadi", "position": "DF", "number": null},
+        {"name": "Chancel Mbemba", "position": "DF", "number": null},
+        {"name": "Axel Tuanzebe", "position": "DF", "number": null},
+        {"name": "Arthur Masuaku", "position": "DF", "number": null},
+        {"name": "Samuel Moutoussamy", "position": "MF", "number": null},
+        {"name": "Edo Kayembe", "position": "MF", "number": null},
+        {"name": "Ngal'ayel Mukau", "position": "MF", "number": null},
+        {"name": "Yoane Wissa", "position": "FW", "number": null},
+        {"name": "Cédric Bakambu", "position": "FW", "number": null}
+      ]
+    }
+  }
+}

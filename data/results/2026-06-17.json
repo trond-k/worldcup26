@@ -8,11 +8,11 @@
       "matchday": 1,
       "home": "portugal",
       "away": "dr-congo",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
       "venue": "NRG Stadium, Houston",
-      "note": "Group K opener."
+      "note": "Yoane Wissa's stoppage-time header cancelled out João Neves's early opener as DR Congo earned their first-ever World Cup point on Cristiano Ronaldo's record sixth World Cup."
     },
     {
       "id": "2026-06-17-england-vs-croatia",

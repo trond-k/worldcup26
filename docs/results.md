@@ -1,6 +1,6 @@
 # Results
 
-_20 matches played; 20 with full detail (goals, lineups, stats)._
+_21 matches played; 21 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -95,6 +95,15 @@ _Computed from completed matches only._
 | Austria | 1 | 1 | 0 | 0 | 3 | 1 | +2 | 3 |
 | Jordan | 1 | 0 | 0 | 1 | 1 | 3 | -2 | 0 |
 | Algeria | 1 | 0 | 0 | 1 | 0 | 3 | -3 | 0 |
+
+### Group K
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| DR Congo | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Portugal | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Colombia | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Uzbekistan | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Match results
 
@@ -684,10 +693,35 @@ _Levi's Stadium, Santa Clara_ · Att: 68,527 · Referee: Dahane Beida
 
 ### 2026-06-17
 
-#### Portugal vs DR Congo (Group K) — _scheduled_
+#### Portugal 1–1 DR Congo (Group K)
+_NRG Stadium, Houston_ · Referee: Abdulrahman Al-Jassim
+
+**Goals:** 6' João Neves (Portugal); 45+5' Yoane Wissa (DR Congo)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Portugal** (4-2-3-1 — Roberto Martínez): Diogo Costa, João Cancelo, Tomás Araújo, Renato Veiga, Nuno Mendes, João Neves, Vitinha, Bernardo Silva, Bruno Fernandes, Pedro Neto, Cristiano Ronaldo
+
+**DR Congo** (5-3-2 — Sébastien Desabre): Lionel Mpasi, Aaron Wan-Bissaka, Steve Kapuadi, Chancel Mbemba, Axel Tuanzebe, Arthur Masuaku, Samuel Moutoussamy, Edo Kayembe, Ngal'ayel Mukau, Yoane Wissa, Cédric Bakambu
+
+**Substitutions:** 46' Bernardo Silva → Francisco Conceição (Portugal); 56' Ngal'ayel Mukau → Noah Sadiki (DR Congo); 71' Pedro Neto → Rafael Leão (Portugal); 71' Nuno Mendes → Nélson Semedo (Portugal); 73' Edo Kayembe → Charles Pickel (DR Congo); 73' Arthur Masuaku → Joris Kayembe (DR Congo); 82' Vitinha → Gonçalo Ramos (Portugal)
+
+**Cards:** 🟨 13' Bernardo Silva (Portugal); 🟨 88' Nélson Semedo (Portugal); 🟨 90+2' Tomás Araújo (Portugal)
+
+</details>
 
 #### England vs Croatia (Group L) — _scheduled_
 
 #### Ghana vs Panama (Group L) — _scheduled_
 
 #### Uzbekistan vs Colombia (Group K) — _scheduled_
+
+### 2026-06-18
+
+#### Czechia vs South Africa (Group A) — _scheduled_
+
+#### Switzerland vs Bosnia and Herzegovina (Group B) — _scheduled_
+
+#### Canada vs Qatar (Group B) — _scheduled_
+
+#### Mexico vs South Korea (Group A) — _scheduled_
