@@ -25,6 +25,7 @@ import datetime
 import html
 import os
 import shutil
+from zoneinfo import ZoneInfo
 
 from common import (
     CARD_ICON,
@@ -959,8 +960,13 @@ def main():
     details = load_match_details()
     scores = build_team_scores(teams, tournament)
 
-    # "Today" is the build date; SITE_DATE overrides it for deterministic builds.
-    today = os.environ.get("SITE_DATE") or datetime.date.today().isoformat()
+    # "Today" is the current date in the tournament's timezone, so the home
+    # page's featured matches flip at local midnight rather than at UTC midnight
+    # (the build host's clock). SITE_DATE pins it for deterministic builds;
+    # SITE_TZ overrides the zone (defaults to the hosts' Eastern time).
+    site_tz = os.environ.get("SITE_TZ", "America/New_York")
+    today = (os.environ.get("SITE_DATE")
+             or datetime.datetime.now(ZoneInfo(site_tz)).date().isoformat())
 
     # Matchdays for the calendar, and the day the Calendar nav lands on.
     by_date = {}

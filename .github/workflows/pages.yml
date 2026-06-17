@@ -5,9 +5,12 @@ on:
     branches: [main]
   workflow_dispatch:
   # Rebuild daily so the home page's "today's matches" tracks the real date.
-  # GitHub cron is UTC and runs on a best-effort schedule.
+  # generate_site.py resolves "today" in the tournament timezone (Eastern by
+  # default); 05:00 UTC is just past local midnight there (00:00 EST / 01:00
+  # EDT), so the rebuilt page flips to the new day's fixtures. GitHub cron is
+  # UTC and best-effort, so the exact minute may drift.
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 5 * * *"
 
 # Allow the workflow to publish to GitHub Pages.
 permissions:
