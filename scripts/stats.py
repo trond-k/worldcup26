@@ -10,6 +10,7 @@ from common import (
     DOCS_DIR,
     GROUP_LETTERS,
     fmt_eur,
+    fmt_num,
     fmt_usd,
     load_all_teams,
     load_tournament,
@@ -113,6 +114,48 @@ def main():
                 f"{fmt_usd(t['gnp_per_capita_usd'])} | {t.get('gnp_year','')} |"
             )
         lines.append("")
+
+    # --- governance & development rankings ---
+    # (Descriptive country-level indicators; not used by the odds models.)
+    def ranked_table(field, label, decimals, suffix, reverse, note=""):
+        present = [t for t in teams if t.get(field) is not None]
+        if not present:
+            return
+        lines.append(f"### By {label}")
+        lines.append("")
+        if note:
+            lines.append(f"_{note}_")
+            lines.append("")
+        lines.append(f"| Rank | Team | Group | {label} |")
+        lines.append("|------|------|-------|" + "-" * (len(label) + 2) + "|")
+        ordered = sorted(present, key=lambda x: x[field], reverse=reverse)
+        for i, t in enumerate(ordered, 1):
+            lines.append(
+                f"| {i} | {t['name']} | {t.get('group','')} | "
+                f"{fmt_num(t[field], decimals, suffix)} |"
+            )
+        lines.append("")
+
+    if any(t.get("hdi") is not None for t in teams):
+        lines.append("## Governance & development")
+        lines.append("")
+        lines.append(
+            "_Descriptive country-level political and economic indicators. "
+            "These are **not** used by the odds models. Sources and reference "
+            "years are documented in `scripts/seed_politico_economic.py` and the "
+            "README; England and Scotland use UK figures as a proxy._"
+        )
+        lines.append("")
+        ranked_table("hdi", "HDI", 3, "", reverse=True,
+                     note="UNDP Human Development Index, 0-1 (higher = more developed).")
+        ranked_table("corruption_perceptions_index", "CPI", 0, "", reverse=True,
+                     note="Transparency International, 0-100 (higher = cleaner).")
+        ranked_table("democracy_index", "Democracy Index", 2, "", reverse=True,
+                     note="EIU, 0-10 (higher = more democratic).")
+        ranked_table("global_peace_index", "Global Peace Index", 2, "", reverse=False,
+                     note="IEP, ~1-5 (LOWER = more peaceful, so this table is ascending).")
+        ranked_table("gdp_growth_pct", "GDP growth", 1, "%", reverse=True,
+                     note="World Bank annual real GDP growth.")
 
     os.makedirs(DOCS_DIR, exist_ok=True)
     with open(os.path.join(DOCS_DIR, "stats.md"), "w", encoding="utf-8") as fh:
