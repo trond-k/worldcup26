@@ -95,10 +95,13 @@ Each `data/teams/<slug>.json` file:
   `round-32`, `group-stage`, `never-qualified`. They feed the football model's
   pedigree term and are seeded by `scripts/seed_wc_history.py`.
 - **Political & economic indicators** — a descriptive country-level layer seeded
-  by `scripts/seed_politico_economic.py` and surfaced in `docs/stats.md`. These
-  are **purely descriptive: the odds models do not consume them.** All are
-  nullable, with a single `indicators_year` recording the reference year (per-
-  source years are listed in the seed script):
+  by `scripts/seed_politico_economic.py`. Surfaced as a grouped
+  Economy/Development/Governance/Society dossier on each team page, with HDI also
+  shown on every match card, and documented on the site's **Methodology** page
+  (sources + how to read each one). These are **purely descriptive: the odds
+  models do not consume them** — a card's HDI highlight never moves the odds
+  beside it. All are nullable, with a single `indicators_year` recording the
+  reference year (per-source years are listed in the seed script):
   - Economic: `gdp_growth_pct`, `inflation_pct`, `unemployment_pct` (all %),
     `hdi` (UNDP, 0–1), `gini_index` (0–100), `median_age_years`.
   - Political / governance: `democracy_index` (EIU, 0–10), `corruption_perceptions_index`

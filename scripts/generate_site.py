@@ -467,28 +467,43 @@ def render_group(letter, slugs, by_slug, standings):
     return page(f"Group {letter}", "\n".join(body), depth=0)
 
 
-# Team-page socioeconomic dossier: (group title, [(label, json key, fmt_fn)]).
+# Descriptive country-indicator layer (NOT consumed by the odds models). One
+# definition drives both the team-page dossier and the methodology reference.
+# Each row: (label, json key, fmt_fn, source, how-to-read).
 INDICATOR_GROUPS = [
     ("Economy", [
-        ("GDP growth", "gdp_growth_pct", lambda v: fmt_num(v, 1, "%")),
-        ("Inflation", "inflation_pct", lambda v: fmt_num(v, 1, "%")),
-        ("Unemployment", "unemployment_pct", lambda v: fmt_num(v, 1, "%")),
+        ("GDP growth", "gdp_growth_pct", lambda v: fmt_num(v, 1, "%"),
+         "World Bank", "annual %"),
+        ("Inflation", "inflation_pct", lambda v: fmt_num(v, 1, "%"),
+         "World Bank", "annual %, lower = milder"),
+        ("Unemployment", "unemployment_pct", lambda v: fmt_num(v, 1, "%"),
+         "ILO / World Bank", "% of labour force, lower = better"),
     ]),
     ("Development", [
-        ("Human Development Index", "hdi", lambda v: fmt_num(v, 3)),
-        ("Gini index", "gini_index", lambda v: fmt_num(v, 1)),
-        ("Median age", "median_age_years", lambda v: fmt_num(v, 1, " yrs")),
+        ("Human Development Index", "hdi", lambda v: fmt_num(v, 3),
+         "UNDP", "0–1, higher = more developed"),
+        ("Gini index", "gini_index", lambda v: fmt_num(v, 1),
+         "World Bank", "0–100, lower = more equal"),
+        ("Median age", "median_age_years", lambda v: fmt_num(v, 1, " yrs"),
+         "UN", "years"),
     ]),
     ("Governance", [
-        ("Democracy index", "democracy_index", lambda v: fmt_num(v, 2)),
-        ("Corruption Perceptions Index", "corruption_perceptions_index", lambda v: fmt_num(v, 0)),
-        ("Political stability", "political_stability", lambda v: fmt_num(v, 2)),
-        ("Government effectiveness", "government_effectiveness", lambda v: fmt_num(v, 2)),
+        ("Democracy index", "democracy_index", lambda v: fmt_num(v, 2),
+         "EIU", "0–10, higher = more democratic"),
+        ("Corruption Perceptions Index", "corruption_perceptions_index", lambda v: fmt_num(v, 0),
+         "Transparency International", "0–100, higher = cleaner"),
+        ("Political stability", "political_stability", lambda v: fmt_num(v, 2),
+         "World Bank WGI", "≈ −2.5…2.5, higher = more stable"),
+        ("Government effectiveness", "government_effectiveness", lambda v: fmt_num(v, 2),
+         "World Bank WGI", "≈ −2.5…2.5, higher = more effective"),
     ]),
     ("Society", [
-        ("Press freedom", "press_freedom_score", lambda v: fmt_num(v, 1)),
-        ("Global Peace Index", "global_peace_index", lambda v: fmt_num(v, 2)),
-        ("Military spend", "military_expenditure_pct_gdp", lambda v: fmt_num(v, 1, "% GDP")),
+        ("Press freedom", "press_freedom_score", lambda v: fmt_num(v, 1),
+         "RSF", "0–100, higher = freer"),
+        ("Global Peace Index", "global_peace_index", lambda v: fmt_num(v, 2),
+         "IEP", "≈ 1–5, lower = more peaceful"),
+        ("Military spend", "military_expenditure_pct_gdp", lambda v: fmt_num(v, 1, "% GDP"),
+         "SIPRI", "% of GDP"),
     ]),
 ]
 
@@ -497,11 +512,13 @@ def render_indicators(team):
     """Grouped socioeconomic dossier for a team page; '' when none present."""
     blocks = []
     for title, specs in INDICATOR_GROUPS:
-        items = [(label, esc(fmt_fn(team.get(key))))
-                 for label, key, fmt_fn in specs if team.get(key) is not None]
+        items = [(label, esc(fmt_fn(team.get(key))), source)
+                 for label, key, fmt_fn, source, _read in specs
+                 if team.get(key) is not None]
         if not items:
             continue
-        rows = "".join(f"<dt>{esc(label)}</dt><dd>{val}</dd>" for label, val in items)
+        rows = "".join(f'<dt title="Source: {esc(source)}">{esc(label)}</dt><dd>{val}</dd>'
+                       for label, val, source in items)
         blocks.append(f'<div class="ind-group"><h3>{esc(title)}</h3>'
                       f'<dl class="meta">{rows}</dl></div>')
     if not blocks:
@@ -750,6 +767,17 @@ def _weight_table(config_block, info):
     return table(["Factor", "Weight", "What it measures"], rows)
 
 
+def _indicator_reference():
+    """Grouped Indicator / Source / How-to-read tables for the methodology page."""
+    out = []
+    for title, specs in INDICATOR_GROUPS:
+        rows = [[f"<strong>{esc(label)}</strong>", esc(source), esc(how)]
+                for label, _key, _fmt, source, how in specs]
+        out.append(f"<h3>{esc(title)}</h3>")
+        out.append(table(["Indicator", "Source", "How to read"], rows))
+    return "".join(out)
+
+
 def render_methodology(scores):
     odds_cfg = CONFIG["odds"]
     body = [
@@ -823,6 +851,20 @@ def render_methodology(scores):
         "<li><strong>FIFA ranking</strong> and <strong>World Cup history</strong> "
         "— official records through 2022.</li>",
         "</ul>",
+
+        "<h2>Beyond the models: the country indicator layer</h2>",
+        "<p>Each team page also carries a descriptive country-level layer — "
+        "economy, development, governance and society — and the "
+        "<strong>Human Development Index</strong> is surfaced on every match "
+        "card next to the odds. These are <strong>context, not inputs</strong>: "
+        "neither odds model consumes them, so a card's HDI highlight never moves "
+        "the probabilities beside it.</p>",
+        _indicator_reference(),
+        '<p class="muted">All values are nullable and seeded by '
+        "<code>scripts/seed_politico_economic.py</code>; a single "
+        "<code>indicators_year</code> records the reference year (per-source "
+        "years live in that script).</p>",
+
         '<p class="muted">All weights and constants live in a single '
         "<code>CONFIG</code> block in <code>scripts/odds.py</code>; this page is "
         "generated from that same source, so the numbers above always match the "
