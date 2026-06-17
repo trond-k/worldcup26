@@ -175,9 +175,11 @@ python3 scripts/generate_site.py
 open site/index.html   # macOS; or just open the file in a browser
 ```
 
-The home page leads with **the day's matches** (today's fixtures, or the next
-matchday), showing each team's squad value and population; CI rebuilds the site
-daily so this tracks the real date during the tournament. A **Calendar** section
+The site is branded **Pitchonomics** (a banner above the header). The home page
+leads with **the day's matches** — today's fixtures, or the next matchday,
+resolved in the tournament's own timezone — showing each team's squad value and
+population; CI rebuilds the site daily so this tracks the real date during the
+tournament. A **Calendar** section
 adds a per-matchday page (`day-<date>.html`) you can page through via a date
 strip and prev/next pager. It also produces the
 12 group pages, a page per team
@@ -288,6 +290,42 @@ generated files in `docs/`. After editing:
    refresh the generated docs.
 3. Commit both the data change and the regenerated docs.
 
-To add new match results, edit (or create) the relevant `data/results/<date>.json`
-file — set `status` to `completed` and fill in the integer scores — then
-regenerate the docs. Standings update automatically.
+### Updating results during the tournament
+
+Each matchday is updated in the same shape, so the steps are repeatable:
+
+1. **Confirm the fixtures and what actually finished.** Late (ET) kickoffs may
+   still be in progress — don't assume a scheduled match has a result yet.
+2. **Update the date file** `data/results/<date>.json`: set each played match to
+   `status: "completed"`, fill in the integer scores, the real `venue`
+   (e.g. `"MetLife Stadium, East Rutherford"`) and a one-line `note`.
+3. **Add a detail file** per completed match at
+   `data/results/matches/<id>.json` (`id` matching the date file). Populate goals
+   (`minute` is a **string** like `"90+5"`; `type` is `regular` / `penalty` /
+   `own_goal`), lineups with shirt numbers, substitutions, cards, team stats,
+   attendance and referee. Leave anything uncorroborated as `null` — never guess.
+4. **Stage the next day's fixtures** in their own date file with
+   `status: "scheduled"` and `null` scores, so the calendar and home page show
+   what's coming.
+5. **Validate and regenerate**, then commit data + regenerated docs:
+
+   ```bash
+   python3 scripts/validate.py            # enforces format + goals↔score reconciliation
+   python3 scripts/generate_results.py    # docs/results.md + standings
+   python3 scripts/generate_site.py       # rebuild site/ (match + day pages)
+   ```
+
+**Source playbook** (most efficient sources for the detail files, in order):
+
+- **Wikipedia group page** (`2026 FIFA World Cup Group X`) — primary. One page
+  covers a whole group's matches with full XIs (shirt numbers + positions),
+  goals, subs, cards, referee and attendance. The only reliable source for shirt
+  numbers; fetches cleanly. May lag a few hours after a match.
+- **FotMob** or **Opta / The Analyst** — for the team-stats block (possession,
+  shots, saves, pass accuracy) and to resolve conflicts.
+- **ESPN / Sky Sports** — quick score, scorer and attendance confirmation, and
+  the narrative for the `note`. (ESPN's stat figures are the least consistent —
+  use as a tiebreaker only.)
+
+Standings in `docs/results.md` are computed from completed matches, so they
+update automatically once the scores are in.
