@@ -35,6 +35,7 @@ from common import (
     STAT_LABELS,
     compute_standings,
     fmt_eur,
+    fmt_num,
     fmt_pop,
     fmt_usd,
     load_all_teams,
@@ -219,20 +220,56 @@ def select_featured_matches(matches, today):
     return (None, None, [])
 
 
-def team_block(slug, by_slug):
-    """A team panel for a match card: name, group, squad value and citizens."""
+# Stats shown in each match-card team panel:
+#   (label, value_fn, fmt_fn, better, title_fn)
+# `better` is "high" or "low" — which direction wins the head-to-head highlight.
+# `title_fn` adds a <dt> tooltip (e.g. indicator provenance), or is None.
+CARD_STATS = [
+    ("Squad value", squad_value, fmt_eur, "high", None),
+    ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
+    ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
+    ("HDI", lambda t: t.get("hdi"), lambda v: fmt_num(v, 3), "high",
+     lambda t: ("Human Development Index"
+                + (f" ({t['indicators_year']})" if t.get("indicators_year") else ""))),
+]
+
+
+def _leads(self_t, opp_t, value_fn, better):
+    """True when self_t beats opp_t on this stat (per `better` direction)."""
+    sv, ov = value_fn(self_t), value_fn(opp_t)
+    if sv is None or ov is None or sv == ov:
+        return False
+    return sv > ov if better == "high" else sv < ov
+
+
+def team_block(slug, by_slug, opponent_slug=None):
+    """A team panel for a match card: name plus CARD_STATS.
+
+    When opponent_slug is given, the side leading on a stat gets a `card-fav`
+    highlight (the same head-to-head cue used by the odds rows).
+    """
     t = by_slug.get(slug)
     if not t:
         return f'<div class="team"><span class="tname">{esc(slug)}</span></div>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
+    opp = by_slug.get(opponent_slug) if opponent_slug else None
+    rows = []
+    for label, value_fn, fmt_fn, better, title_fn in CARD_STATS:
+        dd_cls = ' class="card-fav"' if opp and _leads(t, opp, value_fn, better) else ""
+        dt_attr = ""
+        if title_fn:
+            tip = title_fn(t)
+            if tip:
+                dt_attr = f' title="{esc(tip)}"'
+        rows.append(
+            f'<div><dt{dt_attr}>{esc(label)}</dt>'
+            f'<dd{dd_cls}>{esc(fmt_fn(value_fn(t)))}</dd></div>'
+        )
     return (
         '<div class="team">'
         f'<span class="tname">{name_link}</span>'
-        '<dl class="card-stats">'
-        f'<div><dt>Squad value</dt><dd>{esc(fmt_eur(squad_value(t)))}</dd></div>'
-        f'<div><dt>Citizens</dt><dd>{esc(fmt_pop(t.get("population")))}</dd></div>'
-        f'<div><dt>GNP/capita</dt><dd>{esc(fmt_usd(t.get("gnp_per_capita_usd")))}</dd></div>'
-        '</dl></div>'
+        f'<dl class="card-stats">{"".join(rows)}</dl>'
+        '</div>'
     )
 
 
@@ -299,9 +336,9 @@ def render_match_card(m, by_slug, details, scores=None):
     return (
         '<div class="match-card">'
         f'{grp_html}'
-        f'{team_block(m["home"], by_slug)}'
+        f'{team_block(m["home"], by_slug, m["away"])}'
         f'<div class="centre">{centre}</div>'
-        f'{team_block(m["away"], by_slug)}'
+        f'{team_block(m["away"], by_slug, m["home"])}'
         f'{render_card_odds(m, scores)}'
         '</div>'
     )
@@ -430,6 +467,51 @@ def render_group(letter, slugs, by_slug, standings):
     return page(f"Group {letter}", "\n".join(body), depth=0)
 
 
+# Team-page socioeconomic dossier: (group title, [(label, json key, fmt_fn)]).
+INDICATOR_GROUPS = [
+    ("Economy", [
+        ("GDP growth", "gdp_growth_pct", lambda v: fmt_num(v, 1, "%")),
+        ("Inflation", "inflation_pct", lambda v: fmt_num(v, 1, "%")),
+        ("Unemployment", "unemployment_pct", lambda v: fmt_num(v, 1, "%")),
+    ]),
+    ("Development", [
+        ("Human Development Index", "hdi", lambda v: fmt_num(v, 3)),
+        ("Gini index", "gini_index", lambda v: fmt_num(v, 1)),
+        ("Median age", "median_age_years", lambda v: fmt_num(v, 1, " yrs")),
+    ]),
+    ("Governance", [
+        ("Democracy index", "democracy_index", lambda v: fmt_num(v, 2)),
+        ("Corruption Perceptions Index", "corruption_perceptions_index", lambda v: fmt_num(v, 0)),
+        ("Political stability", "political_stability", lambda v: fmt_num(v, 2)),
+        ("Government effectiveness", "government_effectiveness", lambda v: fmt_num(v, 2)),
+    ]),
+    ("Society", [
+        ("Press freedom", "press_freedom_score", lambda v: fmt_num(v, 1)),
+        ("Global Peace Index", "global_peace_index", lambda v: fmt_num(v, 2)),
+        ("Military spend", "military_expenditure_pct_gdp", lambda v: fmt_num(v, 1, "% GDP")),
+    ]),
+]
+
+
+def render_indicators(team):
+    """Grouped socioeconomic dossier for a team page; '' when none present."""
+    blocks = []
+    for title, specs in INDICATOR_GROUPS:
+        items = [(label, esc(fmt_fn(team.get(key))))
+                 for label, key, fmt_fn in specs if team.get(key) is not None]
+        if not items:
+            continue
+        rows = "".join(f"<dt>{esc(label)}</dt><dd>{val}</dd>" for label, val in items)
+        blocks.append(f'<div class="ind-group"><h3>{esc(title)}</h3>'
+                      f'<dl class="meta">{rows}</dl></div>')
+    if not blocks:
+        return ""
+    yr = team.get("indicators_year")
+    sub = f' <span class="muted">— {esc(yr)}</span>' if yr else ""
+    return (f"<h2>Indicators{sub}</h2>"
+            '<div class="ind-grid">' + "".join(blocks) + "</div>")
+
+
 def render_team(team, by_slug, matches, details):
     body = [f"<h1>{esc(team['name'])}</h1>"]
     meta = []
@@ -452,6 +534,8 @@ def render_team(team, by_slug, matches, details):
         meta.append(("Population", esc(f"{team['population']:,}")))
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in meta)
     body.append(f'<dl class="meta">{dl}</dl>')
+
+    body.append(render_indicators(team))
 
     # Fixtures for this team.
     team_matches = [m for m in matches
