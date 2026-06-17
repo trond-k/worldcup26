@@ -22,6 +22,7 @@ Usage: python3 scripts/generate_site.py
 """
 
 import datetime
+import hashlib
 import html
 import os
 import shutil
@@ -70,6 +71,11 @@ def pretty_date(iso):
 SITE_DIR = os.path.join(ROOT, "site")
 ASSETS_SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 
+with open(os.path.join(ASSETS_SRC, "style.css"), "rb") as _f:
+    # Short content hash; appended to the stylesheet URL so browsers fetch a
+    # fresh copy whenever the CSS changes instead of serving a stale cache.
+    STYLE_VER = hashlib.sha1(_f.read()).hexdigest()[:8]
+
 POSITION_NAMES = {"GK": "Goalkeepers", "DF": "Defenders", "MF": "Midfielders", "FW": "Forwards"}
 
 
@@ -105,7 +111,7 @@ def page(title, body, depth=0, active=None):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
-<link rel="stylesheet" href="{root}assets/style.css">
+<link rel="stylesheet" href="{root}assets/style.css?v={STYLE_VER}">
 </head>
 <body>
 <a class="site-banner" href="{root}index.html">Pitchonomics</a>
