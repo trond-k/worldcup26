@@ -1,0 +1,77 @@
+{
+  "id": "2026-06-16-iraq-vs-norway",
+  "date": "2026-06-16",
+  "home": "iraq",
+  "away": "norway",
+  "home_score": 1,
+  "away_score": 4,
+  "attendance": 63106,
+  "referee": "Pierre Atcho",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+    "https://www.espn.com/soccer/match/_/gameId/760430/norway-iraq",
+    "https://theanalyst.com/articles/iraq-vs-norway-stats-world-cup-2026"
+  ],
+  "goals": [
+    {"team": "norway", "player": "Erling Haaland", "minute": "29", "type": "regular", "assist": "David Møller Wolfe"},
+    {"team": "iraq", "player": "Aymen Hussein", "minute": "39", "type": "regular", "assist": null},
+    {"team": "norway", "player": "Erling Haaland", "minute": "43", "type": "regular", "assist": null},
+    {"team": "norway", "player": "Leo Østigård", "minute": "76", "type": "regular", "assist": null},
+    {"team": "norway", "player": "Aymen Hussein", "minute": "90+6", "type": "own_goal", "assist": null}
+  ],
+  "cards": [
+    {"team": "iraq", "player": "Zaid Tahseen", "minute": "86", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "iraq", "off": "Zaid Ismail", "on": "Marko Farji", "minute": "59"},
+    {"team": "iraq", "off": "Ali Al-Hamadi", "on": "Zidane Iqbal", "minute": "59"},
+    {"team": "iraq", "off": "Hussein Ali", "on": "Mustafa Saadoon", "minute": "73"},
+    {"team": "iraq", "off": "Ali Jasim", "on": "Ahmed Qasem", "minute": "73"},
+    {"team": "iraq", "off": "Ibrahim Bayesh", "on": "Mohanad Ali", "minute": "78"},
+    {"team": "norway", "off": "David Møller Wolfe", "on": "Leo Østigård", "minute": "73"},
+    {"team": "norway", "off": "Fredrik Aursnes", "on": "Kristian Thorstvedt", "minute": "73"},
+    {"team": "norway", "off": "Alexander Sørloth", "on": "Andreas Schjelderup", "minute": "73"},
+    {"team": "norway", "off": "Antonio Nusa", "on": "Oscar Bobb", "minute": "73"},
+    {"team": "norway", "off": "Martin Ødegaard", "on": "Patrick Berg", "minute": "81"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": null,
+      "manager": "Graham Arnold",
+      "starting": [
+        {"name": "Jalal Hassan", "position": "GK", "number": 12},
+        {"name": "Hussein Ali", "position": "DF", "number": 3},
+        {"name": "Zaid Tahseen", "position": "DF", "number": 4},
+        {"name": "Akam Hashim", "position": "DF", "number": 5},
+        {"name": "Merchas Doski", "position": "DF", "number": 23},
+        {"name": "Ibrahim Bayesh", "position": "MF", "number": 8},
+        {"name": "Zaid Ismail", "position": "MF", "number": 24},
+        {"name": "Amir Al-Ammari", "position": "MF", "number": 16},
+        {"name": "Ali Jasim", "position": "MF", "number": 17},
+        {"name": "Aymen Hussein", "position": "FW", "number": 18},
+        {"name": "Ali Al-Hamadi", "position": "FW", "number": 9}
+      ]
+    },
+    "away": {
+      "formation": null,
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {"name": "Ørjan Nyland", "position": "GK", "number": 1},
+        {"name": "Julian Ryerson", "position": "DF", "number": 26},
+        {"name": "Kristoffer Ajer", "position": "DF", "number": 3},
+        {"name": "Torbjørn Heggem", "position": "DF", "number": 17},
+        {"name": "David Møller Wolfe", "position": "DF", "number": 5},
+        {"name": "Sander Berge", "position": "MF", "number": 8},
+        {"name": "Martin Ødegaard", "position": "MF", "number": 10},
+        {"name": "Fredrik Aursnes", "position": "MF", "number": 14},
+        {"name": "Alexander Sørloth", "position": "MF", "number": 7},
+        {"name": "Erling Haaland", "position": "FW", "number": 9},
+        {"name": "Antonio Nusa", "position": "FW", "number": 20}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 39, "shots": 9, "shots_on_target": 1, "corners": null, "fouls": 12, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": 2, "passes": 271, "pass_accuracy": 81},
+    "away": {"possession": 61, "shots": 12, "shots_on_target": 5, "corners": null, "fouls": 13, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 0, "passes": 477, "pass_accuracy": 89}
+  }
+}

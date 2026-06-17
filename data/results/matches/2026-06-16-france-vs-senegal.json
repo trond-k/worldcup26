@@ -1,0 +1,70 @@
+{
+  "id": "2026-06-16-france-vs-senegal",
+  "date": "2026-06-16",
+  "home": "france",
+  "away": "senegal",
+  "home_score": 3,
+  "away_score": 1,
+  "attendance": 80545,
+  "referee": "Alireza Faghani",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+    "https://www.espn.com/soccer/match/_/gameId/760432/senegal-france"
+  ],
+  "goals": [
+    {"team": "france", "player": "Kylian Mbappé", "minute": "66", "type": "regular", "assist": "Michael Olise"},
+    {"team": "france", "player": "Bradley Barcola", "minute": "82", "type": "regular", "assist": "Adrien Rabiot"},
+    {"team": "senegal", "player": "Ibrahim Mbaye", "minute": "90+5", "type": "regular", "assist": null},
+    {"team": "france", "player": "Kylian Mbappé", "minute": "90+6", "type": "regular", "assist": null}
+  ],
+  "cards": [],
+  "substitutions": [
+    {"team": "france", "off": "Ousmane Dembélé", "on": "Bradley Barcola", "minute": "80"},
+    {"team": "france", "off": "Désiré Doué", "on": "Rayan Cherki", "minute": "87"},
+    {"team": "senegal", "off": "Lamine Camara", "on": "Habib Diarra", "minute": "75"},
+    {"team": "senegal", "off": "Ismaïla Sarr", "on": "Ibrahim Mbaye", "minute": "75"},
+    {"team": "senegal", "off": "Nicolas Jackson", "on": "Iliman Ndiaye", "minute": "83"},
+    {"team": "senegal", "off": "Pape Gueye", "on": "Bamba Dieng", "minute": "83"},
+    {"team": "senegal", "off": "Idrissa Gueye", "on": "Pathé Ciss", "minute": "88"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": null,
+      "manager": "Didier Deschamps",
+      "starting": [
+        {"name": "Mike Maignan", "position": "GK", "number": 16},
+        {"name": "Jules Koundé", "position": "DF", "number": 5},
+        {"name": "Dayot Upamecano", "position": "DF", "number": 4},
+        {"name": "William Saliba", "position": "DF", "number": 17},
+        {"name": "Théo Hernandez", "position": "DF", "number": 19},
+        {"name": "Aurélien Tchouaméni", "position": "MF", "number": 8},
+        {"name": "Adrien Rabiot", "position": "MF", "number": 14},
+        {"name": "Michael Olise", "position": "MF", "number": 11},
+        {"name": "Ousmane Dembélé", "position": "MF", "number": 7},
+        {"name": "Désiré Doué", "position": "FW", "number": 20},
+        {"name": "Kylian Mbappé", "position": "FW", "number": 10}
+      ]
+    },
+    "away": {
+      "formation": null,
+      "manager": "Pape Thiaw",
+      "starting": [
+        {"name": "Édouard Mendy", "position": "GK", "number": 16},
+        {"name": "Krépin Diatta", "position": "DF", "number": 15},
+        {"name": "Kalidou Koulibaly", "position": "DF", "number": 3},
+        {"name": "Moussa Niakhaté", "position": "DF", "number": 19},
+        {"name": "El Hadji Malick Diouf", "position": "DF", "number": 25},
+        {"name": "Lamine Camara", "position": "MF", "number": 8},
+        {"name": "Idrissa Gueye", "position": "MF", "number": 5},
+        {"name": "Pape Gueye", "position": "MF", "number": 26},
+        {"name": "Ismaïla Sarr", "position": "MF", "number": 18},
+        {"name": "Nicolas Jackson", "position": "FW", "number": 11},
+        {"name": "Sadio Mané", "position": "FW", "number": 10}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 53, "shots": 18, "shots_on_target": 8, "corners": null, "fouls": 5, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 2, "passes": 505, "pass_accuracy": 88},
+    "away": {"possession": 47, "shots": 3, "shots_on_target": 2, "corners": null, "fouls": 9, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 5, "passes": 430, "pass_accuracy": 86}
+  }
+}

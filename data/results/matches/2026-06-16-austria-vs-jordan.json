@@ -1,0 +1,76 @@
+{
+  "id": "2026-06-16-austria-vs-jordan",
+  "date": "2026-06-16",
+  "home": "austria",
+  "away": "jordan",
+  "home_score": 3,
+  "away_score": 1,
+  "attendance": 68527,
+  "referee": "Dahane Beida",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+    "https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria",
+    "https://theanalyst.com/articles/austria-vs-jordan-stats-world-cup-2026"
+  ],
+  "goals": [
+    {"team": "austria", "player": "Romano Schmid", "minute": "20", "type": "regular", "assist": "Xaver Schlager"},
+    {"team": "jordan", "player": "Ali Olwan", "minute": "50", "type": "regular", "assist": null},
+    {"team": "austria", "player": "Yazan Al-Arab", "minute": "76", "type": "own_goal", "assist": null},
+    {"team": "austria", "player": "Marko Arnautović", "minute": "90+12", "type": "penalty", "assist": null}
+  ],
+  "cards": [
+    {"team": "austria", "player": "Marcel Sabitzer", "minute": "77", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "austria", "off": "Saša Kalajdžić", "on": "Marko Arnautović", "minute": "46"},
+    {"team": "austria", "off": "David Alaba", "on": "Carney Chukwuemeka", "minute": "59"},
+    {"team": "austria", "off": "Phillipp Mwene", "on": "Kevin Danso", "minute": "59"},
+    {"team": "austria", "off": "Xaver Schlager", "on": "Paul Wanner", "minute": "59"},
+    {"team": "austria", "off": "Romano Schmid", "on": "Patrick Wimmer", "minute": "83"},
+    {"team": "jordan", "off": "Mo Abualnadi", "on": "Salim Obaid", "minute": "72"},
+    {"team": "jordan", "off": "Abdallah Nasib", "on": "Saed Al-Rosan", "minute": "81"},
+    {"team": "jordan", "off": "Ihsan Haddad", "on": "Mahmoud Al-Mardi", "minute": "82"},
+    {"team": "jordan", "off": "Musa Al-Taamari", "on": "Mohammad Al-Dawoud", "minute": "88"},
+    {"team": "jordan", "off": "Odeh Al-Fakhouri", "on": "Ali Azaizeh", "minute": "89"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Ralf Rangnick",
+      "starting": [
+        {"name": "Alexander Schlager", "position": "GK", "number": 1},
+        {"name": "Stefan Posch", "position": "DF", "number": 5},
+        {"name": "Philipp Lienhart", "position": "DF", "number": 15},
+        {"name": "David Alaba", "position": "DF", "number": 8},
+        {"name": "Phillipp Mwene", "position": "DF", "number": 16},
+        {"name": "Nicolas Seiwald", "position": "MF", "number": 6},
+        {"name": "Xaver Schlager", "position": "MF", "number": 4},
+        {"name": "Romano Schmid", "position": "MF", "number": 18},
+        {"name": "Konrad Laimer", "position": "MF", "number": 20},
+        {"name": "Marcel Sabitzer", "position": "MF", "number": 9},
+        {"name": "Saša Kalajdžić", "position": "FW", "number": 14}
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "manager": "Jamal Sellami",
+      "starting": [
+        {"name": "Yazeed Abulaila", "position": "GK", "number": 1},
+        {"name": "Abdallah Nasib", "position": "DF", "number": 3},
+        {"name": "Mo Abualnadi", "position": "DF", "number": 16},
+        {"name": "Yazan Al-Arab", "position": "DF", "number": 5},
+        {"name": "Ihsan Haddad", "position": "DF", "number": 23},
+        {"name": "Noor Al-Rawabdeh", "position": "DF", "number": 8},
+        {"name": "Nizar Al-Rashdan", "position": "MF", "number": 21},
+        {"name": "Mohannad Abu Taha", "position": "MF", "number": 20},
+        {"name": "Musa Al-Taamari", "position": "FW", "number": 10},
+        {"name": "Ali Olwan", "position": "FW", "number": 9},
+        {"name": "Odeh Al-Fakhouri", "position": "FW", "number": 11}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 63, "shots": 11, "shots_on_target": 4, "corners": null, "fouls": 12, "offsides": null, "yellow_cards": 1, "red_cards": 0, "saves": 3, "passes": 487, "pass_accuracy": 84},
+    "away": {"possession": 37, "shots": 11, "shots_on_target": 4, "corners": null, "fouls": 7, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 1, "passes": 241, "pass_accuracy": 73}
+  }
+}

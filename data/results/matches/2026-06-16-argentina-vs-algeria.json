@@ -1,0 +1,73 @@
+{
+  "id": "2026-06-16-argentina-vs-algeria",
+  "date": "2026-06-16",
+  "home": "argentina",
+  "away": "algeria",
+  "home_score": 3,
+  "away_score": 0,
+  "attendance": 69045,
+  "referee": "Szymon Marciniak",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
+    "https://www.espn.com/soccer/match/_/gameId/760433/algeria-argentina",
+    "https://theanalyst.com/articles/argentina-vs-algeria-stats-world-cup-2026"
+  ],
+  "goals": [
+    {"team": "argentina", "player": "Lionel Messi", "minute": "17", "type": "regular", "assist": "Rodrigo De Paul"},
+    {"team": "argentina", "player": "Lionel Messi", "minute": "60", "type": "regular", "assist": null},
+    {"team": "argentina", "player": "Lionel Messi", "minute": "76", "type": "regular", "assist": null}
+  ],
+  "cards": [],
+  "substitutions": [
+    {"team": "argentina", "off": "Gonzalo Montiel", "on": "Nahuel Molina", "minute": "46"},
+    {"team": "argentina", "off": "Lautaro Martínez", "on": "Julián Alvarez", "minute": "55"},
+    {"team": "argentina", "off": "Thiago Almada", "on": "Nicolás González", "minute": "55"},
+    {"team": "argentina", "off": "Cristian Romero", "on": "Nicolás Otamendi", "minute": "80"},
+    {"team": "argentina", "off": "Lionel Messi", "on": "Nico Paz", "minute": "80"},
+    {"team": "algeria", "off": "Hicham Boudaoui", "on": "Houssem Aouar", "minute": "64"},
+    {"team": "algeria", "off": "Anis Hadj Moussa", "on": "Riyad Mahrez", "minute": "64"},
+    {"team": "algeria", "off": "Amine Gouiri", "on": "Mohamed Amoura", "minute": "64"},
+    {"team": "algeria", "off": "Nabil Bentaleb", "on": "Ramiz Zerrouki", "minute": "82"},
+    {"team": "algeria", "off": "Ibrahim Maza", "on": "Adil Boulbina", "minute": "82"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {"name": "Emiliano Martínez", "position": "GK", "number": 23},
+        {"name": "Gonzalo Montiel", "position": "DF", "number": 4},
+        {"name": "Cristian Romero", "position": "DF", "number": 13},
+        {"name": "Lisandro Martínez", "position": "DF", "number": 6},
+        {"name": "Facundo Medina", "position": "DF", "number": 25},
+        {"name": "Rodrigo De Paul", "position": "MF", "number": 7},
+        {"name": "Alexis Mac Allister", "position": "MF", "number": 20},
+        {"name": "Enzo Fernández", "position": "MF", "number": 24},
+        {"name": "Lionel Messi", "position": "FW", "number": 10},
+        {"name": "Lautaro Martínez", "position": "FW", "number": 22},
+        {"name": "Thiago Almada", "position": "FW", "number": 16}
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Vladimir Petković",
+      "starting": [
+        {"name": "Luca Zidane", "position": "GK", "number": 23},
+        {"name": "Rafik Belghali", "position": "DF", "number": 17},
+        {"name": "Aïssa Mandi", "position": "DF", "number": 2},
+        {"name": "Ramy Bensebaini", "position": "DF", "number": 21},
+        {"name": "Rayan Aït-Nouri", "position": "DF", "number": 15},
+        {"name": "Hicham Boudaoui", "position": "MF", "number": 14},
+        {"name": "Nabil Bentaleb", "position": "MF", "number": 19},
+        {"name": "Ibrahim Maza", "position": "MF", "number": 22},
+        {"name": "Anis Hadj Moussa", "position": "FW", "number": 11},
+        {"name": "Amine Gouiri", "position": "FW", "number": 9},
+        {"name": "Farès Chaïbi", "position": "FW", "number": 10}
+      ]
+    }
+  },
+  "stats": {
+    "home": {"possession": 48, "shots": 10, "shots_on_target": 6, "corners": null, "fouls": 13, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 0, "passes": 504, "pass_accuracy": 90},
+    "away": {"possession": 52, "shots": 3, "shots_on_target": 1, "corners": null, "fouls": 8, "offsides": null, "yellow_cards": 0, "red_cards": 0, "saves": 3, "passes": 563, "pass_accuracy": 92}
+  }
+}

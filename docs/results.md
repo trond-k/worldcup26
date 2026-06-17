@@ -1,6 +1,6 @@
 # Results
 
-_16 matches played; 16 with full detail (goals, lineups, stats)._
+_20 matches played; 20 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -77,6 +77,24 @@ _Computed from completed matches only._
 | Uruguay | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
 | Cabo Verde | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | Spain | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+
+### Group I
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| Norway | 1 | 1 | 0 | 0 | 4 | 1 | +3 | 3 |
+| France | 1 | 1 | 0 | 0 | 3 | 1 | +2 | 3 |
+| Senegal | 1 | 0 | 0 | 1 | 1 | 3 | -2 | 0 |
+| Iraq | 1 | 0 | 0 | 1 | 1 | 4 | -3 | 0 |
+
+### Group J
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| Argentina | 1 | 1 | 0 | 0 | 3 | 0 | +3 | 3 |
+| Austria | 1 | 1 | 0 | 0 | 3 | 1 | +2 | 3 |
+| Jordan | 1 | 0 | 0 | 1 | 1 | 3 | -2 | 0 |
+| Algeria | 1 | 0 | 0 | 1 | 0 | 3 | -3 | 0 |
 
 ## Match results
 
@@ -552,10 +570,124 @@ _SoFi Stadium, Inglewood_ · Att: 70,108 · Referee: César Arturo Ramos Palazue
 
 ### 2026-06-16
 
-#### France vs Senegal (Group I) — _scheduled_
+#### France 3–1 Senegal (Group I)
+_MetLife Stadium, East Rutherford_ · Att: 80,545 · Referee: Alireza Faghani
 
-#### Iraq vs Norway (Group I) — _scheduled_
+**Goals:** 66' Kylian Mbappé (France); 82' Bradley Barcola (France); 90+5' Ibrahim Mbaye (Senegal); 90+6' Kylian Mbappé (France)
 
-#### Argentina vs Algeria (Group J) — _scheduled_
+<details><summary>Lineups, substitutions, cards & stats</summary>
 
-#### Austria vs Jordan (Group J) — _scheduled_
+**France** (Didier Deschamps): 16. Mike Maignan, 5. Jules Koundé, 4. Dayot Upamecano, 17. William Saliba, 19. Théo Hernandez, 8. Aurélien Tchouaméni, 14. Adrien Rabiot, 11. Michael Olise, 7. Ousmane Dembélé, 20. Désiré Doué, 10. Kylian Mbappé
+
+**Senegal** (Pape Thiaw): 16. Édouard Mendy, 15. Krépin Diatta, 3. Kalidou Koulibaly, 19. Moussa Niakhaté, 25. El Hadji Malick Diouf, 8. Lamine Camara, 5. Idrissa Gueye, 26. Pape Gueye, 18. Ismaïla Sarr, 11. Nicolas Jackson, 10. Sadio Mané
+
+**Substitutions:** 75' Lamine Camara → Habib Diarra (Senegal); 75' Ismaïla Sarr → Ibrahim Mbaye (Senegal); 80' Ousmane Dembélé → Bradley Barcola (France); 83' Nicolas Jackson → Iliman Ndiaye (Senegal); 83' Pape Gueye → Bamba Dieng (Senegal); 87' Désiré Doué → Rayan Cherki (France); 88' Idrissa Gueye → Pathé Ciss (Senegal)
+
+| Stat | France | Senegal |
+|------|---|---|
+| Possession | 53% | 47% |
+| Shots | 18 | 3 |
+| Shots on target | 8 | 2 |
+| Fouls | 5 | 9 |
+| Yellow cards | 0 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 2 | 5 |
+| Passes | 505 | 430 |
+| Pass accuracy | 88% | 86% |
+
+</details>
+
+#### Iraq 1–4 Norway (Group I)
+_Gillette Stadium, Foxborough_ · Att: 63,106 · Referee: Pierre Atcho
+
+**Goals:** 29' Erling Haaland (Norway); 39' Aymen Hussein (Iraq); 43' Erling Haaland (Norway); 76' Leo Østigård (Norway); 90+6' Aymen Hussein (OG) (Norway)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Iraq** (Graham Arnold): 12. Jalal Hassan, 3. Hussein Ali, 4. Zaid Tahseen, 5. Akam Hashim, 23. Merchas Doski, 8. Ibrahim Bayesh, 24. Zaid Ismail, 16. Amir Al-Ammari, 17. Ali Jasim, 18. Aymen Hussein, 9. Ali Al-Hamadi
+
+**Norway** (Ståle Solbakken): 1. Ørjan Nyland, 26. Julian Ryerson, 3. Kristoffer Ajer, 17. Torbjørn Heggem, 5. David Møller Wolfe, 8. Sander Berge, 10. Martin Ødegaard, 14. Fredrik Aursnes, 7. Alexander Sørloth, 9. Erling Haaland, 20. Antonio Nusa
+
+**Substitutions:** 59' Zaid Ismail → Marko Farji (Iraq); 59' Ali Al-Hamadi → Zidane Iqbal (Iraq); 73' Hussein Ali → Mustafa Saadoon (Iraq); 73' Ali Jasim → Ahmed Qasem (Iraq); 73' David Møller Wolfe → Leo Østigård (Norway); 73' Fredrik Aursnes → Kristian Thorstvedt (Norway); 73' Alexander Sørloth → Andreas Schjelderup (Norway); 73' Antonio Nusa → Oscar Bobb (Norway); 78' Ibrahim Bayesh → Mohanad Ali (Iraq); 81' Martin Ødegaard → Patrick Berg (Norway)
+
+**Cards:** 🟨 86' Zaid Tahseen (Iraq)
+
+| Stat | Iraq | Norway |
+|------|---|---|
+| Possession | 39% | 61% |
+| Shots | 9 | 12 |
+| Shots on target | 1 | 5 |
+| Fouls | 12 | 13 |
+| Yellow cards | 1 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 2 | 0 |
+| Passes | 271 | 477 |
+| Pass accuracy | 81% | 89% |
+
+</details>
+
+#### Argentina 3–0 Algeria (Group J)
+_Arrowhead Stadium, Kansas City_ · Att: 69,045 · Referee: Szymon Marciniak
+
+**Goals:** 17' Lionel Messi (Argentina); 60' Lionel Messi (Argentina); 76' Lionel Messi (Argentina)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Argentina** (4-3-3 — Lionel Scaloni): 23. Emiliano Martínez, 4. Gonzalo Montiel, 13. Cristian Romero, 6. Lisandro Martínez, 25. Facundo Medina, 7. Rodrigo De Paul, 20. Alexis Mac Allister, 24. Enzo Fernández, 10. Lionel Messi, 22. Lautaro Martínez, 16. Thiago Almada
+
+**Algeria** (4-3-3 — Vladimir Petković): 23. Luca Zidane, 17. Rafik Belghali, 2. Aïssa Mandi, 21. Ramy Bensebaini, 15. Rayan Aït-Nouri, 14. Hicham Boudaoui, 19. Nabil Bentaleb, 22. Ibrahim Maza, 11. Anis Hadj Moussa, 9. Amine Gouiri, 10. Farès Chaïbi
+
+**Substitutions:** 46' Gonzalo Montiel → Nahuel Molina (Argentina); 55' Lautaro Martínez → Julián Alvarez (Argentina); 55' Thiago Almada → Nicolás González (Argentina); 64' Hicham Boudaoui → Houssem Aouar (Algeria); 64' Anis Hadj Moussa → Riyad Mahrez (Algeria); 64' Amine Gouiri → Mohamed Amoura (Algeria); 80' Cristian Romero → Nicolás Otamendi (Argentina); 80' Lionel Messi → Nico Paz (Argentina); 82' Nabil Bentaleb → Ramiz Zerrouki (Algeria); 82' Ibrahim Maza → Adil Boulbina (Algeria)
+
+| Stat | Argentina | Algeria |
+|------|---|---|
+| Possession | 48% | 52% |
+| Shots | 10 | 3 |
+| Shots on target | 6 | 1 |
+| Fouls | 13 | 8 |
+| Yellow cards | 0 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 0 | 3 |
+| Passes | 504 | 563 |
+| Pass accuracy | 90% | 92% |
+
+</details>
+
+#### Austria 3–1 Jordan (Group J)
+_Levi's Stadium, Santa Clara_ · Att: 68,527 · Referee: Dahane Beida
+
+**Goals:** 20' Romano Schmid (Austria); 50' Ali Olwan (Jordan); 76' Yazan Al-Arab (OG) (Austria); 90+12' Marko Arnautović (pen) (Austria)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Austria** (4-2-3-1 — Ralf Rangnick): 1. Alexander Schlager, 5. Stefan Posch, 15. Philipp Lienhart, 8. David Alaba, 16. Phillipp Mwene, 6. Nicolas Seiwald, 4. Xaver Schlager, 18. Romano Schmid, 20. Konrad Laimer, 9. Marcel Sabitzer, 14. Saša Kalajdžić
+
+**Jordan** (5-3-2 — Jamal Sellami): 1. Yazeed Abulaila, 3. Abdallah Nasib, 16. Mo Abualnadi, 5. Yazan Al-Arab, 23. Ihsan Haddad, 8. Noor Al-Rawabdeh, 21. Nizar Al-Rashdan, 20. Mohannad Abu Taha, 10. Musa Al-Taamari, 9. Ali Olwan, 11. Odeh Al-Fakhouri
+
+**Substitutions:** 46' Saša Kalajdžić → Marko Arnautović (Austria); 59' David Alaba → Carney Chukwuemeka (Austria); 59' Phillipp Mwene → Kevin Danso (Austria); 59' Xaver Schlager → Paul Wanner (Austria); 72' Mo Abualnadi → Salim Obaid (Jordan); 81' Abdallah Nasib → Saed Al-Rosan (Jordan); 82' Ihsan Haddad → Mahmoud Al-Mardi (Jordan); 83' Romano Schmid → Patrick Wimmer (Austria); 88' Musa Al-Taamari → Mohammad Al-Dawoud (Jordan); 89' Odeh Al-Fakhouri → Ali Azaizeh (Jordan)
+
+**Cards:** 🟨 77' Marcel Sabitzer (Austria)
+
+| Stat | Austria | Jordan |
+|------|---|---|
+| Possession | 63% | 37% |
+| Shots | 11 | 11 |
+| Shots on target | 4 | 4 |
+| Fouls | 12 | 7 |
+| Yellow cards | 1 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 3 | 1 |
+| Passes | 487 | 241 |
+| Pass accuracy | 84% | 73% |
+
+</details>
+
+### 2026-06-17
+
+#### Portugal vs DR Congo (Group K) — _scheduled_
+
+#### England vs Croatia (Group L) — _scheduled_
+
+#### Ghana vs Panama (Group L) — _scheduled_
+
+#### Uzbekistan vs Colombia (Group K) — _scheduled_

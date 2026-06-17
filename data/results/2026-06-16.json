@@ -8,11 +8,11 @@
       "matchday": 1,
       "home": "france",
       "away": "senegal",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "completed",
       "venue": "MetLife Stadium, East Rutherford",
-      "note": "Group I opener."
+      "note": "Kylian Mbappé scored twice to become France's outright all-time top scorer; Bradley Barcola also netted in a 3-1 win."
     },
     {
       "id": "2026-06-16-iraq-vs-norway",
@@ -21,11 +21,11 @@
       "matchday": 1,
       "home": "iraq",
       "away": "norway",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "completed",
       "venue": "Gillette Stadium, Foxborough",
-      "note": "Group I opener."
+      "note": "Erling Haaland struck twice as Norway eased to a 4-1 win on their first World Cup appearance since 1998."
     },
     {
       "id": "2026-06-16-argentina-vs-algeria",
@@ -34,11 +34,11 @@
       "matchday": 1,
       "home": "argentina",
       "away": "algeria",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Arrowhead Stadium, Kansas City",
-      "note": "Group J opener."
+      "note": "Lionel Messi scored his first World Cup hat-trick to sink Algeria as the holders began their title defence in style."
     },
     {
       "id": "2026-06-16-austria-vs-jordan",
@@ -47,11 +47,11 @@
       "matchday": 1,
       "home": "austria",
       "away": "jordan",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Levi's Stadium, Santa Clara",
-      "note": "Group J opener."
+      "note": "Romano Schmid opened the scoring and Marko Arnautović sealed it from the spot deep in stoppage time after Jordan's Ali Olwan had levelled."
     }
   ]
 }

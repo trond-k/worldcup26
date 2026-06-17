@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-17",
+  "matches": [
+    {
+      "id": "2026-06-17-portugal-vs-dr-congo",
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "portugal",
+      "away": "dr-congo",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Group K opener."
+    },
+    {
+      "id": "2026-06-17-england-vs-croatia",
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "england",
+      "away": "croatia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Group L opener."
+    },
+    {
+      "id": "2026-06-17-ghana-vs-panama",
+      "stage": "group",
+      "group": "L",
+      "matchday": 1,
+      "home": "ghana",
+      "away": "panama",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BMO Field, Toronto",
+      "note": "Group L opener."
+    },
+    {
+      "id": "2026-06-17-uzbekistan-vs-colombia",
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home": "uzbekistan",
+      "away": "colombia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Azteca, Mexico City",
+      "note": "Group K opener."
+    }
+  ]
+}
