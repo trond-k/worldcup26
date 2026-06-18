@@ -18,9 +18,10 @@ locally:
   * manager  -> filled from data/teams/<slug>.json `coach`
   * xG       -> not in schema's stats block; skip (grab from FotMob if ever added)
 
-Caveats worth a human spot-check (marked TODO below): own-goal credited-team
-orientation, and second-yellow vs straight-red classification -- ESPN's
-keyEvents don't always disambiguate these. Always run scripts/validate.py after.
+Own goals (ESPN credits the beneficiary team; ownGoal flag is null but
+type=="own-goal") and second yellows (inferred from a standing yellow, since
+ESPN emits only "Red Card") are handled in events(); see its docstring. Always
+run scripts/validate.py after.
 """
 import argparse
 import json
@@ -147,36 +148,58 @@ def stat_map(team_boxscore):
 
 
 def events(key_events, slug_by_espn_id):
-    """Split ESPN keyEvents into goals / cards / substitutions."""
+    """Split ESPN keyEvents into goals / cards / substitutions.
+
+    Own goals: ESPN sets ownGoal=None (!) but type.type == "own-goal", and its
+    event `team` is already the BENEFICIARY (the side credited) -- which is what
+    the schema's goal.team means -- while participant[0] is the own-goalscorer.
+    Verified across 5 own goals (USA/Qatar/Belgium/Norway/Austria, 2026-06).
+
+    Second yellows: ESPN has no "second yellow" event text -- it emits plain
+    "Red Card" (and "VAR - (Red) Card Upgrade"). We infer a second yellow when a
+    red goes to a player who already carries a standing yellow; otherwise it's a
+    straight red. Standing yellows are tracked in match order.
+    """
     goals, cards, subs = [], [], []
+    yellowed, sent_off = set(), set()
     for e in key_events:
-        text = (e.get("type") or {}).get("text", "")
+        ty = e.get("type") or {}
+        text, kind = ty.get("text", ""), ty.get("type", "")
         team = slug_by_espn_id.get((e.get("team") or {}).get("id"))
         parts = [p.get("athlete", {}).get("displayName", "").strip()
                  for p in e.get("participants", [])]
         m = minute(e.get("clock"))
+        player = parts[0] if parts else None
 
-        if e.get("scoringPlay") or text.startswith("Goal") or text == "Penalty - Scored":
-            if e.get("ownGoal"):
-                gtype = "own_goal"  # TODO: confirm ESPN credits beneficiary team here
+        is_own = kind == "own-goal" or "Own Goal" in text
+        is_card = "Card" in text and ("Yellow" in text or "Red" in text)
+        is_goal = (not is_card) and (e.get("scoringPlay") or is_own
+                                     or text.startswith("Goal")
+                                     or text == "Penalty - Scored")
+
+        if is_card:
+            if "Yellow" in text and "Red" not in text:
+                card = "second-yellow" if player in yellowed else "yellow"
+                if card == "yellow":
+                    yellowed.add(player)
+            else:  # "Red Card" / "VAR - (Red) Card Upgrade"
+                card = "second-yellow" if player in yellowed else "red"
+            if card != "yellow":              # a dismissal
+                if player in sent_off:        # dedupe doubled red/2nd-yellow events
+                    continue
+                sent_off.add(player)
+            cards.append({"team": team, "player": player, "minute": m, "card": card})
+        elif is_goal:
+            if is_own:
+                gtype = "own_goal"
             elif e.get("penaltyKick") or "Penalty" in text:
                 gtype = "penalty"
             else:
                 gtype = "regular"
             goals.append({
-                "team": team, "player": parts[0] if parts else None, "minute": m,
-                "type": gtype,
+                "team": team, "player": player, "minute": m, "type": gtype,
                 "assist": parts[1] if (gtype == "regular" and len(parts) > 1) else None,
             })
-        elif "Card" in text:
-            if "Second" in text:
-                card = "second-yellow"
-            elif "Red" in text:
-                card = "red"
-            else:
-                card = "yellow"
-            cards.append({"team": team, "player": parts[0] if parts else None,
-                          "minute": m, "card": card})
         elif text == "Substitution":
             # participants are [on, off] (verified: Modric off / Kovacic on, 58')
             subs.append({"team": team,
