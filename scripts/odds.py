@@ -258,7 +258,7 @@ def build_team_scores(teams=None, tournament=None):
                 "big5": round(big5_raw[s], 3),
             },
             "density": {
-                # "Punches above its weight": squad value per citizen / per GNP$.
+                # "Punches above its weight": squad value per capita / per GNP$.
                 "value_per_capita": (value_raw[s] / pop) if pop else None,
                 "value_per_gnp": (value_raw[s] / gnp) if gnp else None,
             },

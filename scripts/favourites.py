@@ -66,12 +66,12 @@ def main():
                      f"#{so_rank[slug]} | +{gap} |")
     lines.append("")
 
-    # Talent density: squad value per citizen.
-    lines += ["## Most squad value per citizen", "",
+    # Talent density: squad value per capita.
+    lines += ["## Most squad value per capita", "",
               "_Squad market value spread across the population — a talent-density "
               "read on the small nations._", "",
-              "| Team | Squad value | Citizens | € / citizen |",
-              "|------|-------------|----------|-------------|"]
+              "| Team | Squad value | Population | € / capita |",
+              "|------|-------------|-----------|------------|"]
     dens = [(s, sc) for s, sc in scores.items()
             if sc["density"].get("value_per_capita") is not None]
     dens.sort(key=lambda kv: kv[1]["density"]["value_per_capita"], reverse=True)

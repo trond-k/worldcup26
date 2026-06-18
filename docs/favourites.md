@@ -125,12 +125,12 @@ _Teams ranked far higher by football than by socio-economics — overachievers r
 | England | #6 | #16 | +10 |
 | Ecuador | #23 | #32 | +9 |
 
-## Most squad value per citizen
+## Most squad value per capita
 
 _Squad market value spread across the population — a talent-density read on the small nations._
 
-| Team | Squad value | Citizens | € / citizen |
-|------|-------------|----------|-------------|
+| Team | Squad value | Population | € / capita |
+|------|-------------|-----------|------------|
 | Curaçao | €25.8m | 0.15M | €166 |
 | Norway | €589.9m | 5.5M | €106 |
 | Uruguay | €360.3m | 3.4M | €105 |

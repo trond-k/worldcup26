@@ -226,7 +226,7 @@ def select_featured_matches(matches, today):
 # `title_fn` adds a <dt> tooltip (e.g. indicator provenance), or is None.
 CARD_STATS = [
     ("Squad value", squad_value, fmt_eur, "high", None),
-    ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
+    ("Population", lambda t: t.get("population"), fmt_pop, "high", None),
     ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
     ("HDI", lambda t: t.get("hdi"), lambda v: fmt_num(v, 3), "high",
      lambda t: ("Human Development Index"
@@ -697,7 +697,7 @@ def render_favourites(teams, scores, by_slug):
                 'socio-economics — overachievers relative to their resources.</p>')
     body.append(table(["Team", "Football", "Socio-econ", "Climb"], rows[:8]))
 
-    # Talent density: squad value per citizen.
+    # Talent density: squad value per capita.
     dens = [(s, sc) for s, sc in scores.items()
             if sc["density"].get("value_per_capita") is not None]
     dens.sort(key=lambda kv: kv[1]["density"]["value_per_capita"], reverse=True)
@@ -709,10 +709,10 @@ def render_favourites(teams, scores, by_slug):
                      esc(fmt_eur(squad_value(t))) if t else "—",
                      esc(fmt_pop(t.get("population"))) if t else "—",
                      f"€{round(vpc):,}"])
-    body.append("<h2>Most squad value per citizen</h2>")
+    body.append("<h2>Most squad value per capita</h2>")
     body.append('<p class="muted">Squad market value spread across the '
                 'population — a talent-density read on the small nations.</p>')
-    body.append(table(["Team", "Squad value", "Citizens", "€ / citizen"], rows))
+    body.append(table(["Team", "Squad value", "Population", "€ / capita"], rows))
 
     return page("Favourites", "\n".join(body), depth=0, active="favourites")
 
