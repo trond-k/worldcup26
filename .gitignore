@@ -5,5 +5,8 @@
 __pycache__/
 *.py[cod]
 
+# poll_ready.py settle-timer stamps
+scripts/.poll-*.stamp
+
 # macOS
 .DS_Store
