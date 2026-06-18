@@ -21,11 +21,11 @@
       "matchday": 1,
       "home": "england",
       "away": "croatia",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "completed",
       "venue": "AT&T Stadium, Arlington",
-      "note": "Group L opener."
+      "note": "Harry Kane scored twice as England recovered a chaotic 2-2 first half, with Bellingham and Rashford completing a 4-2 win over Croatia."
     },
     {
       "id": "2026-06-17-ghana-vs-panama",
@@ -34,11 +34,11 @@
       "matchday": 1,
       "home": "ghana",
       "away": "panama",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "completed",
       "venue": "BMO Field, Toronto",
-      "note": "Group L opener."
+      "note": "Caleb Yirenkyi struck deep in stoppage time to give Ghana a 1-0 win over Panama."
     },
     {
       "id": "2026-06-17-uzbekistan-vs-colombia",
@@ -47,11 +47,11 @@
       "matchday": 1,
       "home": "uzbekistan",
       "away": "colombia",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "completed",
       "venue": "Estadio Azteca, Mexico City",
-      "note": "Group K opener."
+      "note": "Colombia beat World Cup debutants Uzbekistan 3-1, with Abbosbek Fayzullaev's equaliser — Uzbekistan's first World Cup goal — answered by Díaz and Campaz."
     }
   ]
 }

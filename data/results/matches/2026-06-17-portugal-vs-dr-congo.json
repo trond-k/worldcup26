@@ -5,11 +5,12 @@
   "away": "dr-congo",
   "home_score": 1,
   "away_score": 1,
-  "attendance": null,
+  "attendance": 68777,
   "referee": "Abdulrahman Al-Jassim",
   "sources": [
     "https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal",
     "https://theanalyst.com/articles/portugal-vs-dr-congo-stats-world-cup-2026-live",
+    "https://www.sofascore.com/football/match/dr-congo-portugal/eUbsyWb",
     "https://www.france24.com/en/sport/20260617-world-cup-2026-resilient-dr-congo-hold-off-ronaldo-s-portugal-onslaught",
     "https://www.aljazeera.com/sports/2026/6/17/portugal-held-to-1-1-draw-by-dr-congo-in-their-world-cup-2026-opener"
   ],
@@ -19,6 +20,7 @@
   ],
   "cards": [
     {"team": "portugal", "player": "Bernardo Silva", "minute": "13", "card": "yellow"},
+    {"team": "dr-congo", "player": "Chancel Mbemba", "minute": "32", "card": "yellow"},
     {"team": "portugal", "player": "Nélson Semedo", "minute": "88", "card": "yellow"},
     {"team": "portugal", "player": "Tomás Araújo", "minute": "90+2", "card": "yellow"}
   ],
@@ -36,35 +38,63 @@
       "formation": "4-2-3-1",
       "manager": "Roberto Martínez",
       "starting": [
-        {"name": "Diogo Costa", "position": "GK", "number": null},
-        {"name": "João Cancelo", "position": "DF", "number": null},
-        {"name": "Tomás Araújo", "position": "DF", "number": null},
-        {"name": "Renato Veiga", "position": "DF", "number": null},
-        {"name": "Nuno Mendes", "position": "DF", "number": null},
-        {"name": "João Neves", "position": "MF", "number": null},
-        {"name": "Vitinha", "position": "MF", "number": null},
-        {"name": "Bernardo Silva", "position": "MF", "number": null},
-        {"name": "Bruno Fernandes", "position": "MF", "number": null},
-        {"name": "Pedro Neto", "position": "FW", "number": null},
-        {"name": "Cristiano Ronaldo", "position": "FW", "number": null}
+        {"name": "Diogo Costa", "position": "GK", "number": 1},
+        {"name": "João Cancelo", "position": "DF", "number": 20},
+        {"name": "Tomás Araújo", "position": "DF", "number": 4},
+        {"name": "Renato Veiga", "position": "DF", "number": 13},
+        {"name": "Nuno Mendes", "position": "DF", "number": 25},
+        {"name": "João Neves", "position": "MF", "number": 15},
+        {"name": "Vitinha", "position": "MF", "number": 23},
+        {"name": "Bernardo Silva", "position": "MF", "number": 10},
+        {"name": "Bruno Fernandes", "position": "MF", "number": 8},
+        {"name": "Pedro Neto", "position": "FW", "number": 18},
+        {"name": "Cristiano Ronaldo", "position": "FW", "number": 7}
       ]
     },
     "away": {
       "formation": "5-3-2",
       "manager": "Sébastien Desabre",
       "starting": [
-        {"name": "Lionel Mpasi", "position": "GK", "number": null},
-        {"name": "Aaron Wan-Bissaka", "position": "DF", "number": null},
-        {"name": "Steve Kapuadi", "position": "DF", "number": null},
-        {"name": "Chancel Mbemba", "position": "DF", "number": null},
-        {"name": "Axel Tuanzebe", "position": "DF", "number": null},
-        {"name": "Arthur Masuaku", "position": "DF", "number": null},
-        {"name": "Samuel Moutoussamy", "position": "MF", "number": null},
-        {"name": "Edo Kayembe", "position": "MF", "number": null},
-        {"name": "Ngal'ayel Mukau", "position": "MF", "number": null},
-        {"name": "Yoane Wissa", "position": "FW", "number": null},
-        {"name": "Cédric Bakambu", "position": "FW", "number": null}
+        {"name": "Lionel Mpasi", "position": "GK", "number": 1},
+        {"name": "Aaron Wan-Bissaka", "position": "DF", "number": 2},
+        {"name": "Steve Kapuadi", "position": "DF", "number": 3},
+        {"name": "Chancel Mbemba", "position": "DF", "number": 22},
+        {"name": "Axel Tuanzebe", "position": "DF", "number": 4},
+        {"name": "Arthur Masuaku", "position": "DF", "number": 26},
+        {"name": "Samuel Moutoussamy", "position": "MF", "number": 8},
+        {"name": "Edo Kayembe", "position": "MF", "number": 12},
+        {"name": "Ngal'ayel Mukau", "position": "MF", "number": 6},
+        {"name": "Yoane Wissa", "position": "FW", "number": 20},
+        {"name": "Cédric Bakambu", "position": "FW", "number": 17}
       ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 75,
+      "shots": 7,
+      "shots_on_target": 1,
+      "corners": 5,
+      "fouls": null,
+      "offsides": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 783,
+      "pass_accuracy": 92
+    },
+    "away": {
+      "possession": 25,
+      "shots": 8,
+      "shots_on_target": null,
+      "corners": 4,
+      "fouls": null,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": null,
+      "pass_accuracy": null
     }
   }
 }

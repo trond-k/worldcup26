@@ -1,0 +1,98 @@
+{
+  "id": "2026-06-17-ghana-vs-panama",
+  "date": "2026-06-17",
+  "home": "ghana",
+  "away": "panama",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 42942,
+  "referee": "Glenn Nyberg",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ghana-panama-highlights-match-report",
+    "https://theanalyst.com/articles/ghana-vs-panama-stats-world-cup-2026",
+    "https://www.aljazeera.com/sports/2026/6/18/ghana-beat-panama-1-0-in-chaotic-charged-world-cup-group-l",
+    "https://www.ghanafa.org/black-stars-squad-numbers-confirmed-for-2026-fifa-world-cup",
+    "https://khelnow.com/football/world-football-ghana-vs-panama-full-list-substitutes-fifa-world-cup-202606"
+  ],
+  "goals": [
+    {"team": "ghana", "player": "Caleb Yirenkyi", "minute": "90+5", "type": "regular", "assist": "Brandon Thomas-Asante"}
+  ],
+  "cards": [
+    {"team": "ghana", "player": "Caleb Yirenkyi", "minute": "16", "card": "yellow"},
+    {"team": "panama", "player": "Carlos Harvey", "minute": null, "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "ghana", "off": "Lawrence Ati-Zigi", "on": "Benjamin Asare", "minute": "46"},
+    {"team": "ghana", "off": "Ernest Nuamah", "on": "Abdul Fatawu", "minute": "57"},
+    {"team": "ghana", "off": "Kamaldeen Sulemana", "on": "Brandon Thomas-Asante", "minute": "57"},
+    {"team": "ghana", "off": "Elisha Owusu", "on": "Kwasi Sibo", "minute": "78"},
+    {"team": "panama", "off": "Cecilio Waterman", "on": "José Fajardo"},
+    {"team": "panama", "off": "Cristian Martínez", "on": "Azarías Londoño"},
+    {"team": "panama", "off": null, "on": "Aníbal Godoy", "minute": "72"},
+    {"team": "panama", "off": null, "on": "Ismael Díaz", "minute": "72"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": null,
+      "starting": [
+        {"name": "Lawrence Ati-Zigi", "position": "GK", "number": 1},
+        {"name": "Jonas Adjetey", "position": "DF", "number": 4},
+        {"name": "Gideon Mensah", "position": "DF", "number": 14},
+        {"name": "Jerome Opoku", "position": "DF", "number": 18},
+        {"name": "Marvin Senaya", "position": "DF", "number": 26},
+        {"name": "Caleb Yirenkyi", "position": "MF", "number": 3},
+        {"name": "Elisha Owusu", "position": "MF", "number": 15},
+        {"name": "Antoine Semenyo", "position": "MF", "number": 11},
+        {"name": "Jordan Ayew", "position": "FW", "number": 9},
+        {"name": "Kamaldeen Sulemana", "position": "FW", "number": 7},
+        {"name": "Ernest Nuamah", "position": "FW", "number": 24}
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": null,
+      "starting": [
+        {"name": "Orlando Mosquera", "position": "GK", "number": 22},
+        {"name": "César Blackman", "position": "DF", "number": 2},
+        {"name": "José Córdoba", "position": "DF", "number": 3},
+        {"name": "Jiovany Ramos", "position": "DF", "number": 13},
+        {"name": "Michael Murillo", "position": "DF", "number": 23},
+        {"name": "Carlos Harvey", "position": "MF", "number": 14},
+        {"name": "Cristian Martínez", "position": "MF", "number": 6},
+        {"name": "Andrés Andrade", "position": "MF", "number": 16},
+        {"name": "Édgar Bárcenas", "position": "MF", "number": 11},
+        {"name": "José Luis Rodríguez", "position": "FW", "number": 7},
+        {"name": "Cecilio Waterman", "position": "FW", "number": 18}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 38,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": null,
+      "fouls": 9,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    },
+    "away": {
+      "possession": 62,
+      "shots": 11,
+      "shots_on_target": 4,
+      "corners": null,
+      "fouls": 11,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": null
+    }
+  }
+}

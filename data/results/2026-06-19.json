@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-19",
+  "matches": [
+    {
+      "id": "2026-06-19-usa-vs-australia",
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "usa",
+      "away": "australia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lumen Field, Seattle",
+      "note": "Group D matchday 2."
+    },
+    {
+      "id": "2026-06-19-scotland-vs-morocco",
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "scotland",
+      "away": "morocco",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Gillette Stadium, Foxborough",
+      "note": "Group C matchday 2."
+    },
+    {
+      "id": "2026-06-19-brazil-vs-haiti",
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home": "brazil",
+      "away": "haiti",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Group C matchday 2."
+    },
+    {
+      "id": "2026-06-19-turkiye-vs-paraguay",
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home": "turkiye",
+      "away": "paraguay",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Levi's Stadium, Santa Clara",
+      "note": "Group D matchday 2."
+    }
+  ]
+}

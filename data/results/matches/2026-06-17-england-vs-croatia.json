@@ -1,0 +1,98 @@
+{
+  "id": "2026-06-17-england-vs-croatia",
+  "date": "2026-06-17",
+  "home": "england",
+  "away": "croatia",
+  "home_score": 4,
+  "away_score": 2,
+  "attendance": 70389,
+  "referee": "Clément Turpin",
+  "sources": [
+    "https://www.skysports.com/football/news/32461/13552729/world-cup-2026-england-4-2-croatia-harry-kane-jude-bellingham-and-marcus-rashford-on-target-as-three-lions-make-winning-start",
+    "https://theanalyst.com/articles/england-vs-croatia-stats-world-cup-2026",
+    "https://www.sofascore.com/news/england-4-2-croatia-kane-brace-powers-group-l-win",
+    "https://www.sportsmole.co.uk/football/england/world-cup-2026/result/killer-kane-england-captain-at-the-double-as-three-lions-put-four-past-croatia_599485.html",
+    "https://www.cbssports.com/soccer/news/england-vs-croatia-live-updates-world-cup-2026-score-result/live/"
+  ],
+  "goals": [
+    {"team": "england", "player": "Harry Kane", "minute": "12", "type": "penalty", "assist": null},
+    {"team": "croatia", "player": "Martin Baturina", "minute": "36", "type": "regular", "assist": "Petar Sučić"},
+    {"team": "england", "player": "Harry Kane", "minute": "42", "type": "regular", "assist": "Declan Rice"},
+    {"team": "croatia", "player": "Petar Musa", "minute": "45+5", "type": "regular", "assist": "Ivan Perišić"},
+    {"team": "england", "player": "Jude Bellingham", "minute": "47", "type": "regular", "assist": "Elliot Anderson"},
+    {"team": "england", "player": "Marcus Rashford", "minute": "85", "type": "regular", "assist": "Bukayo Saka"}
+  ],
+  "cards": [],
+  "substitutions": [
+    {"team": "england", "off": "Declan Rice", "on": "Morgan Rogers", "minute": "72"},
+    {"team": "england", "off": "Anthony Gordon", "on": "Bukayo Saka", "minute": "72"},
+    {"team": "england", "off": "Noni Madueke", "on": "Marcus Rashford", "minute": "72"},
+    {"team": "england", "off": "Jude Bellingham", "on": "Djed Spence", "minute": "80"},
+    {"team": "england", "off": "John Stones", "on": "Marc Guéhi", "minute": "87"},
+    {"team": "croatia", "off": null, "on": "Mateo Kovačić"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {"name": "Jordan Pickford", "position": "GK", "number": 1},
+        {"name": "Reece James", "position": "DF", "number": 24},
+        {"name": "John Stones", "position": "DF", "number": 5},
+        {"name": "Ezri Konsa", "position": "DF", "number": 2},
+        {"name": "Nico O'Reilly", "position": "DF", "number": 3},
+        {"name": "Declan Rice", "position": "MF", "number": 4},
+        {"name": "Elliot Anderson", "position": "MF", "number": 8},
+        {"name": "Noni Madueke", "position": "MF", "number": 20},
+        {"name": "Jude Bellingham", "position": "MF", "number": 10},
+        {"name": "Anthony Gordon", "position": "FW", "number": 18},
+        {"name": "Harry Kane", "position": "FW", "number": 9}
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Zlatko Dalić",
+      "starting": [
+        {"name": "Dominik Livaković", "position": "GK", "number": 1},
+        {"name": "Josip Šutalo", "position": "DF", "number": 6},
+        {"name": "Luka Vušković", "position": "DF", "number": null},
+        {"name": "Joško Gvardiol", "position": "DF", "number": 20},
+        {"name": "Josip Stanišić", "position": "DF", "number": 2},
+        {"name": "Luka Modrić", "position": "MF", "number": 10},
+        {"name": "Mario Pašalić", "position": "MF", "number": 15},
+        {"name": "Ivan Perišić", "position": "MF", "number": 4},
+        {"name": "Petar Sučić", "position": "MF", "number": null},
+        {"name": "Martin Baturina", "position": "MF", "number": null},
+        {"name": "Petar Musa", "position": "FW", "number": null}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 52,
+      "shots": 22,
+      "shots_on_target": 11,
+      "corners": 8,
+      "fouls": 10,
+      "offsides": null,
+      "yellow_cards": null,
+      "red_cards": null,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": 86
+    },
+    "away": {
+      "possession": 48,
+      "shots": 10,
+      "shots_on_target": 5,
+      "corners": 2,
+      "fouls": 12,
+      "offsides": null,
+      "yellow_cards": null,
+      "red_cards": null,
+      "saves": null,
+      "passes": null,
+      "pass_accuracy": 86
+    }
+  }
+}

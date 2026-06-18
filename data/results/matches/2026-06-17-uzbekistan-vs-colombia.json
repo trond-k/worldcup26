@@ -1,0 +1,103 @@
+{
+  "id": "2026-06-17-uzbekistan-vs-colombia",
+  "date": "2026-06-17",
+  "home": "uzbekistan",
+  "away": "colombia",
+  "home_score": 1,
+  "away_score": 3,
+  "attendance": 80824,
+  "referee": "Anthony Taylor",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/uzbekistan-colombia-match-report-highlights",
+    "https://theanalyst.com/articles/uzbekistan-vs-colombia-stats-fifa-world-cup-2026",
+    "https://www.si.com/soccer/uzbekistan-vs-colombia-world-cup-live-score-match-stats",
+    "https://www.skysports.com/football/news/11095/13552728/world-cup-2026-uzbekistan-1-3-colombia-luis-diaz-steals-the-show-with-goal-and-assist",
+    "https://khelnow.com/football/world-football-uzbekistan-vs-colombia-full-list-substitutes-fifa-world-cup-202606"
+  ],
+  "goals": [
+    {"team": "colombia", "player": "Daniel Muñoz", "minute": "40", "type": "regular", "assist": "Luis Díaz"},
+    {"team": "uzbekistan", "player": "Abbosbek Fayzullaev", "minute": "60", "type": "regular", "assist": null},
+    {"team": "colombia", "player": "Luis Díaz", "minute": "65", "type": "regular", "assist": null},
+    {"team": "colombia", "player": "Jáminton Campaz", "minute": "90+9", "type": "regular", "assist": "Juan Camilo Hernández"}
+  ],
+  "cards": [
+    {"team": "colombia", "player": "Johan Mojica", "minute": "7", "card": "yellow"},
+    {"team": "uzbekistan", "player": "Abdukodir Khusanov", "minute": "34", "card": "yellow"}
+  ],
+  "substitutions": [
+    {"team": "uzbekistan", "off": "Sherzod Nasrullaev", "on": "Farrukh Sayfiev", "minute": "46"},
+    {"team": "uzbekistan", "off": "Oston Urunov", "on": "Dostonbek Khamdamov", "minute": "46"},
+    {"team": "uzbekistan", "off": "Rustam Ashurmatov", "on": "Jakhongir Urozov", "minute": "77"},
+    {"team": "uzbekistan", "off": "Abbosbek Fayzullaev", "on": "Azizbek Amonov", "minute": "77"},
+    {"team": "uzbekistan", "off": "Eldor Shomurodov", "on": "Igor Sergeev", "minute": "90+4"},
+    {"team": "colombia", "off": "James Rodríguez", "on": "Jáminton Campaz", "minute": "72"},
+    {"team": "colombia", "off": "Gustavo Puerta", "on": "Richard Ríos", "minute": "80"},
+    {"team": "colombia", "off": "Luis Suárez", "on": "Juan Camilo Hernández", "minute": "80"},
+    {"team": "colombia", "off": "Jhon Arias", "on": "Kevin Castaño", "minute": "90+3"},
+    {"team": "colombia", "off": "Luis Díaz", "on": "Carlos Gómez", "minute": "90+3"}
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": null,
+      "starting": [
+        {"name": "Utkir Yusupov", "position": "GK", "number": 1},
+        {"name": "Abdukodir Khusanov", "position": "DF", "number": null},
+        {"name": "Rustam Ashurmatov", "position": "DF", "number": null},
+        {"name": "Abdulla Abdullaev", "position": "DF", "number": null},
+        {"name": "Behruzjon Karimov", "position": "DF", "number": null},
+        {"name": "Otabek Shukurov", "position": "MF", "number": null},
+        {"name": "Akmal Mozgovoy", "position": "MF", "number": null},
+        {"name": "Sherzod Nasrullaev", "position": "MF", "number": null},
+        {"name": "Abbosbek Fayzullaev", "position": "MF", "number": null},
+        {"name": "Oston Urunov", "position": "FW", "number": null},
+        {"name": "Eldor Shomurodov", "position": "FW", "number": null}
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Néstor Lorenzo",
+      "starting": [
+        {"name": "Camilo Vargas", "position": "GK", "number": 12},
+        {"name": "Daniel Muñoz", "position": "DF", "number": 2},
+        {"name": "Davinson Sánchez", "position": "DF", "number": 23},
+        {"name": "Jhon Lucumí", "position": "DF", "number": 3},
+        {"name": "Johan Mojica", "position": "DF", "number": 17},
+        {"name": "Jefferson Lerma", "position": "MF", "number": 16},
+        {"name": "Gustavo Puerta", "position": "MF", "number": 14},
+        {"name": "Jhon Arias", "position": "MF", "number": 11},
+        {"name": "James Rodríguez", "position": "MF", "number": 10},
+        {"name": "Luis Díaz", "position": "FW", "number": 7},
+        {"name": "Luis Suárez", "position": "FW", "number": 25}
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 39,
+      "shots": 8,
+      "shots_on_target": 2,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": 318,
+      "pass_accuracy": 76
+    },
+    "away": {
+      "possession": 61,
+      "shots": 15,
+      "shots_on_target": 4,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": null,
+      "passes": 520,
+      "pass_accuracy": 86
+    }
+  }
+}

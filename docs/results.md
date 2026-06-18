@@ -1,6 +1,6 @@
 # Results
 
-_21 matches played; 21 with full detail (goals, lineups, stats)._
+_24 matches played; 24 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -100,10 +100,19 @@ _Computed from completed matches only._
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
+| Colombia | 1 | 1 | 0 | 0 | 3 | 1 | +2 | 3 |
 | DR Congo | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
 | Portugal | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
-| Colombia | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Uzbekistan | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Uzbekistan | 1 | 0 | 0 | 1 | 1 | 3 | -2 | 0 |
+
+### Group L
+
+| Team | P | W | D | L | GF | GA | GD | Pts |
+|------|---|---|---|---|----|----|----|-----|
+| England | 1 | 1 | 0 | 0 | 4 | 2 | +2 | 3 |
+| Ghana | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
+| Panama | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
+| Croatia | 1 | 0 | 0 | 1 | 2 | 4 | -2 | 0 |
 
 ## Match results
 
@@ -694,27 +703,111 @@ _Levi's Stadium, Santa Clara_ · Att: 68,527 · Referee: Dahane Beida
 ### 2026-06-17
 
 #### Portugal 1–1 DR Congo (Group K)
-_NRG Stadium, Houston_ · Referee: Abdulrahman Al-Jassim
+_NRG Stadium, Houston_ · Att: 68,777 · Referee: Abdulrahman Al-Jassim
 
 **Goals:** 6' João Neves (Portugal); 45+5' Yoane Wissa (DR Congo)
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Portugal** (4-2-3-1 — Roberto Martínez): Diogo Costa, João Cancelo, Tomás Araújo, Renato Veiga, Nuno Mendes, João Neves, Vitinha, Bernardo Silva, Bruno Fernandes, Pedro Neto, Cristiano Ronaldo
+**Portugal** (4-2-3-1 — Roberto Martínez): 1. Diogo Costa, 20. João Cancelo, 4. Tomás Araújo, 13. Renato Veiga, 25. Nuno Mendes, 15. João Neves, 23. Vitinha, 10. Bernardo Silva, 8. Bruno Fernandes, 18. Pedro Neto, 7. Cristiano Ronaldo
 
-**DR Congo** (5-3-2 — Sébastien Desabre): Lionel Mpasi, Aaron Wan-Bissaka, Steve Kapuadi, Chancel Mbemba, Axel Tuanzebe, Arthur Masuaku, Samuel Moutoussamy, Edo Kayembe, Ngal'ayel Mukau, Yoane Wissa, Cédric Bakambu
+**DR Congo** (5-3-2 — Sébastien Desabre): 1. Lionel Mpasi, 2. Aaron Wan-Bissaka, 3. Steve Kapuadi, 22. Chancel Mbemba, 4. Axel Tuanzebe, 26. Arthur Masuaku, 8. Samuel Moutoussamy, 12. Edo Kayembe, 6. Ngal'ayel Mukau, 20. Yoane Wissa, 17. Cédric Bakambu
 
 **Substitutions:** 46' Bernardo Silva → Francisco Conceição (Portugal); 56' Ngal'ayel Mukau → Noah Sadiki (DR Congo); 71' Pedro Neto → Rafael Leão (Portugal); 71' Nuno Mendes → Nélson Semedo (Portugal); 73' Edo Kayembe → Charles Pickel (DR Congo); 73' Arthur Masuaku → Joris Kayembe (DR Congo); 82' Vitinha → Gonçalo Ramos (Portugal)
 
-**Cards:** 🟨 13' Bernardo Silva (Portugal); 🟨 88' Nélson Semedo (Portugal); 🟨 90+2' Tomás Araújo (Portugal)
+**Cards:** 🟨 13' Bernardo Silva (Portugal); 🟨 32' Chancel Mbemba (DR Congo); 🟨 88' Nélson Semedo (Portugal); 🟨 90+2' Tomás Araújo (Portugal)
+
+| Stat | Portugal | DR Congo |
+|------|---|---|
+| Possession | 75% | 25% |
+| Shots | 7 | 8 |
+| Shots on target | 1 | — |
+| Corners | 5 | 4 |
+| Offsides | 3 | 2 |
+| Yellow cards | 3 | 1 |
+| Red cards | 0 | 0 |
+| Saves | 1 | 0 |
+| Passes | 783 | — |
+| Pass accuracy | 92% | — |
 
 </details>
 
-#### England vs Croatia (Group L) — _scheduled_
+#### England 4–2 Croatia (Group L)
+_AT&T Stadium, Arlington_ · Att: 70,389 · Referee: Clément Turpin
 
-#### Ghana vs Panama (Group L) — _scheduled_
+**Goals:** 12' Harry Kane (pen) (England); 36' Martin Baturina (Croatia); 42' Harry Kane (England); 45+5' Petar Musa (Croatia); 47' Jude Bellingham (England); 85' Marcus Rashford (England)
 
-#### Uzbekistan vs Colombia (Group K) — _scheduled_
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**England** (4-2-3-1 — Thomas Tuchel): 1. Jordan Pickford, 24. Reece James, 5. John Stones, 2. Ezri Konsa, 3. Nico O'Reilly, 4. Declan Rice, 8. Elliot Anderson, 20. Noni Madueke, 10. Jude Bellingham, 18. Anthony Gordon, 9. Harry Kane
+
+**Croatia** (3-4-2-1 — Zlatko Dalić): 1. Dominik Livaković, 6. Josip Šutalo, Luka Vušković, 20. Joško Gvardiol, 2. Josip Stanišić, 10. Luka Modrić, 15. Mario Pašalić, 4. Ivan Perišić, Petar Sučić, Martin Baturina, Petar Musa
+
+**Substitutions:** 72' Declan Rice → Morgan Rogers (England); 72' Anthony Gordon → Bukayo Saka (England); 72' Noni Madueke → Marcus Rashford (England); 80' Jude Bellingham → Djed Spence (England); 87' John Stones → Marc Guéhi (England); ? ? → Mateo Kovačić (Croatia)
+
+| Stat | England | Croatia |
+|------|---|---|
+| Possession | 52% | 48% |
+| Shots | 22 | 10 |
+| Shots on target | 11 | 5 |
+| Corners | 8 | 2 |
+| Fouls | 10 | 12 |
+| Pass accuracy | 86% | 86% |
+
+</details>
+
+#### Ghana 1–0 Panama (Group L)
+_BMO Field, Toronto_ · Att: 42,942 · Referee: Glenn Nyberg
+
+**Goals:** 90+5' Caleb Yirenkyi (Ghana)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Ghana** (4-3-3): 1. Lawrence Ati-Zigi, 4. Jonas Adjetey, 14. Gideon Mensah, 18. Jerome Opoku, 26. Marvin Senaya, 3. Caleb Yirenkyi, 15. Elisha Owusu, 11. Antoine Semenyo, 9. Jordan Ayew, 7. Kamaldeen Sulemana, 24. Ernest Nuamah
+
+**Panama** (3-4-2-1): 22. Orlando Mosquera, 2. César Blackman, 3. José Córdoba, 13. Jiovany Ramos, 23. Michael Murillo, 14. Carlos Harvey, 6. Cristian Martínez, 16. Andrés Andrade, 11. Édgar Bárcenas, 7. José Luis Rodríguez, 18. Cecilio Waterman
+
+**Substitutions:** 46' Lawrence Ati-Zigi → Benjamin Asare (Ghana); 57' Ernest Nuamah → Abdul Fatawu (Ghana); 57' Kamaldeen Sulemana → Brandon Thomas-Asante (Ghana); 72' ? → Aníbal Godoy (Panama); 72' ? → Ismael Díaz (Panama); 78' Elisha Owusu → Kwasi Sibo (Ghana); ? Cecilio Waterman → José Fajardo (Panama); ? Cristian Martínez → Azarías Londoño (Panama)
+
+**Cards:** 🟨 16' Caleb Yirenkyi (Ghana); 🟨 ? Carlos Harvey (Panama)
+
+| Stat | Ghana | Panama |
+|------|---|---|
+| Possession | 38% | 62% |
+| Shots | 7 | 11 |
+| Shots on target | 2 | 4 |
+| Fouls | 9 | 11 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 0 |
+
+</details>
+
+#### Uzbekistan 1–3 Colombia (Group K)
+_Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Anthony Taylor
+
+**Goals:** 40' Daniel Muñoz (Colombia); 60' Abbosbek Fayzullaev (Uzbekistan); 65' Luis Díaz (Colombia); 90+9' Jáminton Campaz (Colombia)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Uzbekistan** (4-4-2): 1. Utkir Yusupov, Abdukodir Khusanov, Rustam Ashurmatov, Abdulla Abdullaev, Behruzjon Karimov, Otabek Shukurov, Akmal Mozgovoy, Sherzod Nasrullaev, Abbosbek Fayzullaev, Oston Urunov, Eldor Shomurodov
+
+**Colombia** (4-2-3-1 — Néstor Lorenzo): 12. Camilo Vargas, 2. Daniel Muñoz, 23. Davinson Sánchez, 3. Jhon Lucumí, 17. Johan Mojica, 16. Jefferson Lerma, 14. Gustavo Puerta, 11. Jhon Arias, 10. James Rodríguez, 7. Luis Díaz, 25. Luis Suárez
+
+**Substitutions:** 46' Sherzod Nasrullaev → Farrukh Sayfiev (Uzbekistan); 46' Oston Urunov → Dostonbek Khamdamov (Uzbekistan); 72' James Rodríguez → Jáminton Campaz (Colombia); 77' Rustam Ashurmatov → Jakhongir Urozov (Uzbekistan); 77' Abbosbek Fayzullaev → Azizbek Amonov (Uzbekistan); 80' Gustavo Puerta → Richard Ríos (Colombia); 80' Luis Suárez → Juan Camilo Hernández (Colombia); 90+3' Jhon Arias → Kevin Castaño (Colombia); 90+3' Luis Díaz → Carlos Gómez (Colombia); 90+4' Eldor Shomurodov → Igor Sergeev (Uzbekistan)
+
+**Cards:** 🟨 7' Johan Mojica (Colombia); 🟨 34' Abdukodir Khusanov (Uzbekistan)
+
+| Stat | Uzbekistan | Colombia |
+|------|---|---|
+| Possession | 39% | 61% |
+| Shots | 8 | 15 |
+| Shots on target | 2 | 4 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 0 |
+| Passes | 318 | 520 |
+| Pass accuracy | 76% | 86% |
+
+</details>
 
 ### 2026-06-18
 
@@ -725,3 +818,13 @@ _NRG Stadium, Houston_ · Referee: Abdulrahman Al-Jassim
 #### Canada vs Qatar (Group B) — _scheduled_
 
 #### Mexico vs South Korea (Group A) — _scheduled_
+
+### 2026-06-19
+
+#### United States vs Australia (Group D) — _scheduled_
+
+#### Scotland vs Morocco (Group C) — _scheduled_
+
+#### Brazil vs Haiti (Group C) — _scheduled_
+
+#### Türkiye vs Paraguay (Group D) — _scheduled_
