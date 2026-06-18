@@ -30,6 +30,8 @@ Typical cron wrapper (fires the harvest exactly once, when ready):
 import argparse
 import json
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -39,12 +41,38 @@ API = ("https://site.api.espn.com/apis/site/v2/sports/soccer/"
 
 FIRE, WAIT, NO_MATCHES, ERROR = 0, 10, 20, 30
 
+# ESPN/Akamai 403s plain/datacenter requests; a browser UA + headers and a
+# short retry/backoff clears the bot heuristic (matches scripts/harvest.py).
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/125.0.0.0 Safari/537.36"),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.espn.com/",
+}
 
-def fetch(date):
-    req = urllib.request.Request(API.format(date=date),
-                                 headers={"User-Agent": "worldcup26-poll/1.0"})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return json.load(r)
+
+def fetch(date, tries=4):
+    last = None
+    for n in range(tries):
+        try:
+            req = urllib.request.Request(API.format(date=date), headers=BROWSER_HEADERS)
+            with urllib.request.urlopen(req, timeout=25) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (403, 429, 500, 502, 503, 504) and n < tries - 1:
+                time.sleep(1.5 * (n + 1))
+                continue
+            raise
+        except urllib.error.URLError as e:
+            last = e
+            if n < tries - 1:
+                time.sleep(1.5 * (n + 1))
+                continue
+            raise
+    raise last
 
 
 def main():

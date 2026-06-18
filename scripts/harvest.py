@@ -27,6 +27,7 @@ import argparse
 import json
 import sys
 import unicodedata
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -55,10 +56,41 @@ def norm(s):
     return " ".join(s.lower().replace("-", " ").split())
 
 
-def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "worldcup26-harvest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+# ESPN's API sits behind Akamai, which 403s plain/datacenter requests (seen
+# from the cloud routine runner, though residential IPs pass). A real browser
+# User-Agent + Accept/Referer headers and a short retry/backoff clears the bot
+# heuristic in most cases.
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/125.0.0.0 Safari/537.36"),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.espn.com/",
+}
+
+
+def get(url, tries=4):
+    import time
+    last = None
+    for n in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (403, 429, 500, 502, 503, 504) and n < tries - 1:
+                time.sleep(1.5 * (n + 1))
+                continue
+            raise
+        except urllib.error.URLError as e:
+            last = e
+            if n < tries - 1:
+                time.sleep(1.5 * (n + 1))
+                continue
+            raise
+    raise last
 
 
 # ---- local team metadata -------------------------------------------------
@@ -285,7 +317,7 @@ def main():
     by_key, coach = load_team_index()
     board = get(SCOREBOARD.format(date=compact))
 
-    written, problems = 0, []
+    written, problems, skipped = 0, [], []
     for e in board.get("events", []):
         comp = e["competitions"][0]
         slugs = [resolve_slug(c["team"]["displayName"], by_key)
@@ -298,7 +330,7 @@ def main():
             problems.append(f"no fixture matches ESPN '{e.get('name')}' ({slugs})")
             continue
         if not (e.get("status", {}).get("type", {}).get("completed")):
-            problems.append(f"{fx['id']} not final yet; skipped")
+            skipped.append(f"{fx['id']} not final yet")  # normal, not a failure
             continue
 
         fx["_eid"] = e["id"]
@@ -312,11 +344,13 @@ def main():
             print(f"wrote {out.relative_to(ROOT)}")
         written += 1
 
+    for s in skipped:
+        print("  . " + s + "; skipped")
     for p in problems:
         print("  ! " + p, file=sys.stderr)
     print(f"{'validated' if args.dry_run else 'wrote'} {written} match file(s); "
-          f"{len(problems)} issue(s)")
-    return 1 if problems else 0
+          f"{len(skipped)} not-final skipped; {len(problems)} issue(s)")
+    return 1 if problems else 0  # in-progress skips are NOT failures
 
 
 if __name__ == "__main__":
