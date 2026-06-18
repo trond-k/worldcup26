@@ -86,57 +86,57 @@
         {
           "name": "Mahmoud Abunada",
           "position": "GK",
-          "number": null
+          "number": 1
         },
         {
           "name": "Ayoub Al-Alawi",
           "position": "DF",
-          "number": null
+          "number": 13
         },
         {
           "name": "Pedro Miguel",
           "position": "DF",
-          "number": null
+          "number": 2
         },
         {
           "name": "Boualem Khoukhi",
           "position": "DF",
-          "number": null
+          "number": 16
         },
         {
           "name": "Homam Ahmed",
           "position": "DF",
-          "number": null
+          "number": 14
         },
         {
           "name": "Issa Lai",
           "position": "MF",
-          "number": null
+          "number": 4
         },
         {
           "name": "Jassem Gaber",
           "position": "MF",
-          "number": null
+          "number": 5
         },
         {
           "name": "Assim Madibo",
           "position": "MF",
-          "number": null
+          "number": 23
         },
         {
           "name": "Edmilson Junior",
           "position": "FW",
-          "number": null
+          "number": 8
         },
         {
           "name": "Yusuf Abdurisag",
           "position": "FW",
-          "number": null
+          "number": 15
         },
         {
           "name": "Akram Afif",
           "position": "FW",
-          "number": null
+          "number": 11
         }
       ]
     },
@@ -147,57 +147,57 @@
         {
           "name": "Gregor Kobel",
           "position": "GK",
-          "number": null
+          "number": 1
         },
         {
           "name": "Nico Elvedi",
           "position": "DF",
-          "number": null
+          "number": 4
         },
         {
           "name": "Manuel Akanji",
           "position": "DF",
-          "number": null
+          "number": 5
         },
         {
           "name": "Denis Zakaria",
           "position": "DF",
-          "number": null
+          "number": 6
         },
         {
           "name": "Michel Aebischer",
           "position": "MF",
-          "number": null
+          "number": 20
         },
         {
           "name": "Remo Freuler",
           "position": "MF",
-          "number": null
+          "number": 8
         },
         {
           "name": "Granit Xhaka",
           "position": "MF",
-          "number": null
+          "number": 10
         },
         {
           "name": "Ricardo Rodriguez",
           "position": "MF",
-          "number": null
+          "number": 13
         },
         {
           "name": "Rubén Vargas",
           "position": "FW",
-          "number": null
+          "number": 17
         },
         {
           "name": "Dan Ndoye",
           "position": "FW",
-          "number": null
+          "number": 11
         },
         {
           "name": "Breel Embolo",
           "position": "FW",
-          "number": null
+          "number": 7
         }
       ]
     }

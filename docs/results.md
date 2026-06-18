@@ -125,9 +125,9 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Wilton Sampaio
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Mexico** (4-3-3 — Javier Aguirre): Raúl Rangel, Jesús Gallardo, Johan Vásquez, César Montes, Israel Reyes, Erik Lira, Álvaro Fidalgo, Brian Gutiérrez, Julián Quiñones, Raúl Jiménez, Roberto Alvarado
+**Mexico** (4-3-3 — Javier Aguirre): 1. Raúl Rangel, 23. Jesús Gallardo, 5. Johan Vásquez, 3. César Montes, 15. Israel Reyes, 6. Erik Lira, 8. Álvaro Fidalgo, 26. Brian Gutiérrez, 16. Julián Quiñones, 9. Raúl Jiménez, 25. Roberto Alvarado
 
-**South Africa** (5-3-2 — Hugo Broos): Ronwen Williams, Aubrey Modiba, Khuliso Mudau, Nkosinathi Sibisi, Mbekezeli Mbokazi, Ime Okon, Sphephelo Sithole, Jayden Adams, Teboho Mokoena, Iqraam Rayners, Lyle Foster
+**South Africa** (5-3-2 — Hugo Broos): 1. Ronwen Williams, 6. Aubrey Modiba, 20. Khuliso Mudau, 19. Nkosinathi Sibisi, 14. Mbekezeli Mbokazi, 21. Ime Okon, 13. Sphephelo Sithole, 23. Jayden Adams, 4. Teboho Mokoena, 15. Iqraam Rayners, 9. Lyle Foster
 
 **Substitutions:** 76' Raúl Jiménez → Armando González (Mexico); 76' Erik Lira → Edson Álvarez (Mexico); 79' Julián Quiñones → Alexis Vega (Mexico)
 
@@ -155,9 +155,9 @@ _Estadio Akron, Guadalajara_ · Att: 44,985 · Referee: Amin Omar
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**South Korea** (3-4-3 — Hong Myung-bo): Kim Seung-gyu, Lee Han-beom, Kim Min-jae, Lee Gi-hyuk, Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok, Lee Kang-in, Lee Jae-sung, Son Heung-min
+**South Korea** (3-4-3 — Hong Myung-bo): 1. Kim Seung-gyu, 2. Lee Han-beom, 4. Kim Min-jae, 3. Lee Gi-hyuk, 22. Seol Young-woo, 6. Hwang In-beom, 8. Paik Seung-ho, 13. Lee Tae-seok, 19. Lee Kang-in, 10. Lee Jae-sung, 7. Son Heung-min
 
-**Czechia** (3-4-2-1 — Miroslav Koubek): Matěj Kovář, Vladimír Coufal, Tomáš Holeš, Ladislav Krejčí, Jaroslav Zelený, Tomáš Souček, Michal Sadílek, David Douděra, Pavel Šulc, Adam Hložek, Patrik Schick
+**Czechia** (3-4-2-1 — Miroslav Koubek): 1. Matěj Kovář, 5. Vladimír Coufal, 3. Tomáš Holeš, 7. Ladislav Krejčí, 20. Jaroslav Zelený, 22. Tomáš Souček, 18. Michal Sadílek, 21. David Douděra, 15. Pavel Šulc, 9. Adam Hložek, 10. Patrik Schick
 
 **Substitutions:** 69' Son Heung-min → Oh Hyeon-gyu (South Korea)
 
@@ -188,9 +188,9 @@ Att: 43,002 · Referee: Facundo Tello
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Canada** (4-4-2 — Jesse Marsch): Maxime Crépeau, Alistair Johnston, Luc de Fougerolles, Derek Cornelius, Richie Laryea, Tajon Buchanan, Stephen Eustáquio, Ismaël Koné, Liam Millar, Jonathan David, Tani Oluwaseyi
+**Canada** (4-4-2 — Jesse Marsch): 1. Maxime Crépeau, 2. Alistair Johnston, 4. Luc de Fougerolles, 13. Derek Cornelius, 22. Richie Laryea, 17. Tajon Buchanan, 7. Stephen Eustáquio, 8. Ismaël Koné, 11. Liam Millar, 10. Jonathan David, 12. Tani Oluwaseyi
 
-**Bosnia and Herzegovina** (4-4-2 — Sergej Barbarez): Nikola Vasilj, Amar Dedić, Sead Kolašinac, Nikola Katić, Tarik Muharemović, Benjamin Tahirović, Ivan Bašić, Amar Memić, Esmir Bajraktarević, Ermedin Demirović, Jovo Lukić
+**Bosnia and Herzegovina** (4-4-2 — Sergej Barbarez): 1. Nikola Vasilj, 7. Amar Dedić, 5. Sead Kolašinac, 18. Nikola Katić, 4. Tarik Muharemović, 6. Benjamin Tahirović, 13. Ivan Bašić, 15. Amar Memić, 20. Esmir Bajraktarević, 10. Ermedin Demirović, 25. Jovo Lukić
 
 **Substitutions:** 61' Tajon Buchanan → Ali Ahmed (Canada); 61' Liam Millar → Jacob Shaffelburg (Canada); 61' Jonathan David → Promise David (Canada); 62' Ivan Bašić → Armin Gigović (Bosnia and Herzegovina); 62' Jovo Lukić → Samed Bazdar (Bosnia and Herzegovina); 74' Amar Memić → Kerim Alajbegović (Bosnia and Herzegovina); 74' Esmir Bajraktarević → Ivan Šunjić (Bosnia and Herzegovina); 76' Tani Oluwaseyi → Cyle Larin (Canada)
 
@@ -220,7 +220,7 @@ Att: 70,492 · Referee: Danny Makkelie
 
 **United States** (4-2-3-1 — Mauricio Pochettino): 24. Matt Freese, 16. Alex Freeman, 3. Chris Richards, 13. Tim Ream, 5. Antonee Robinson, 4. Tyler Adams, 8. Weston McKennie, 2. Sergiño Dest, 17. Malik Tillman, 10. Christian Pulisic, 20. Folarin Balogun
 
-**Paraguay** (4-3-3 — Gustavo Alfaro): Orlando Gill, Juan José Cáceres, Gustavo Gómez, Omar Alderete, Júnior Alonso, Damián Bobadilla, Andrés Cubas, Diego Gómez, Julio Enciso, Miguel Almirón, Antonio Sanabria
+**Paraguay** (4-3-3 — Gustavo Alfaro): 12. Orlando Gill, 4. Juan José Cáceres, 15. Gustavo Gómez, 3. Omar Alderete, 6. Júnior Alonso, 16. Damián Bobadilla, 14. Andrés Cubas, 8. Diego Gómez, 19. Julio Enciso, 10. Miguel Almirón, 9. Antonio Sanabria
 
 **Substitutions:** 72' Folarin Balogun → Ricardo Pepi (United States); 72' Sergiño Dest → Tim Weah (United States); 82' Malik Tillman → Gio Reyna (United States)
 
@@ -251,9 +251,9 @@ Att: 67,966 · Referee: Saíd Martínez
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Qatar** (4-3-3 — Julen Lopetegui): Mahmoud Abunada, Ayoub Al-Alawi, Pedro Miguel, Boualem Khoukhi, Homam Ahmed, Issa Lai, Jassem Gaber, Assim Madibo, Edmilson Junior, Yusuf Abdurisag, Akram Afif
+**Qatar** (4-3-3 — Julen Lopetegui): 1. Mahmoud Abunada, 13. Ayoub Al-Alawi, 2. Pedro Miguel, 16. Boualem Khoukhi, 14. Homam Ahmed, 4. Issa Lai, 5. Jassem Gaber, 23. Assim Madibo, 8. Edmilson Junior, 15. Yusuf Abdurisag, 11. Akram Afif
 
-**Switzerland** (3-4-2-1 — Murat Yakin): Gregor Kobel, Nico Elvedi, Manuel Akanji, Denis Zakaria, Michel Aebischer, Remo Freuler, Granit Xhaka, Ricardo Rodriguez, Rubén Vargas, Dan Ndoye, Breel Embolo
+**Switzerland** (3-4-2-1 — Murat Yakin): 1. Gregor Kobel, 4. Nico Elvedi, 5. Manuel Akanji, 6. Denis Zakaria, 20. Michel Aebischer, 8. Remo Freuler, 10. Granit Xhaka, 13. Ricardo Rodriguez, 17. Rubén Vargas, 11. Dan Ndoye, 7. Breel Embolo
 
 **Substitutions:** 65' Dan Ndoye → Johan Manzambi (Switzerland); 65' Michel Aebischer → Fabian Rieder (Switzerland); 78' Rubén Vargas → Zeki Amdouni (Switzerland); 88' Ricardo Rodriguez → Miro Muheim (Switzerland); 89' Remo Freuler → Ardon Jashari (Switzerland)
 
@@ -280,9 +280,9 @@ Att: 80,663 · Referee: Slavko Vinčić
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Brazil** (4-4-2 — Carlo Ancelotti): Alisson, Roger Ibañez, Marquinhos, Gabriel Magalhães, Douglas Santos, Casemiro, Lucas Paquetá, Bruno Guimarães, Raphinha, Igor Thiago, Vinícius Júnior
+**Brazil** (4-4-2 — Carlo Ancelotti): 1. Alisson, 24. Roger Ibañez, 4. Marquinhos, 3. Gabriel Magalhães, 16. Douglas Santos, 5. Casemiro, 20. Lucas Paquetá, 8. Bruno Guimarães, 11. Raphinha, 25. Igor Thiago, 7. Vinícius Júnior
 
-**Morocco** (4-2-3-1 — Mohamed Ouahbi): Yassine Bounou, Achraf Hakimi, Issa Diop, Chadi Riad, Noussair Mazraoui, Neil El Aynaoui, Ayyoub Bouaddi, Brahim Díaz, Azzedine Ounahi, Bilal El Khannouss, Ismael Saibari
+**Morocco** (4-2-3-1 — Mohamed Ouahbi): 1. Yassine Bounou, 2. Achraf Hakimi, 14. Issa Diop, 18. Chadi Riad, 3. Noussair Mazraoui, 24. Neil El Aynaoui, 6. Ayyoub Bouaddi, 10. Brahim Díaz, 8. Azzedine Ounahi, 23. Bilal El Khannouss, 11. Ismael Saibari
 
 **Substitutions:** 46' Roger Ibañez → Danilo (Brazil); 46' Casemiro → Fabinho (Brazil)
 
@@ -310,9 +310,9 @@ Att: 64,146 · Referee: Mustapha Ghorbal
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Scotland** (4-4-2 — Steve Clarke): Angus Gunn, Aaron Hickey, Jack Hendry, Grant Hanley, Andy Robertson, Ben Gannon-Doak, Scott McTominay, Lewis Ferguson, John McGinn, Lawrence Shankland, Che Adams
+**Scotland** (4-4-2 — Steve Clarke): 1. Angus Gunn, 2. Aaron Hickey, 13. Jack Hendry, 5. Grant Hanley, 3. Andy Robertson, 17. Ben Gannon-Doak, 4. Scott McTominay, 19. Lewis Ferguson, 7. John McGinn, 20. Lawrence Shankland, 10. Che Adams
 
-**Haiti** (4-4-2 — Sébastien Migné): Johny Placide, Carlens Arcus, Ricardo Adé, Hannes Delcroix, Martin Expérience, Deedson Louicius, Danley Jean Jacques, Jean-Ricner Bellegarde, Ruben Providence, Wilson Isidor, Frantzdy Pierrot
+**Haiti** (4-4-2 — Sébastien Migné): 1. Johny Placide, 2. Carlens Arcus, 4. Ricardo Adé, 5. Hannes Delcroix, 8. Martin Expérience, 11. Deedson Louicius, 17. Danley Jean Jacques, 10. Jean-Ricner Bellegarde, 15. Ruben Providence, 18. Wilson Isidor, 20. Frantzdy Pierrot
 
 **Substitutions:** 61' Deedson Louicius → Josué Casimir (Haiti); 83' John McGinn → Findlay Curtis (Scotland); 83' Lawrence Shankland → Kenny McLean (Scotland)
 
@@ -342,9 +342,9 @@ _BC Place, Vancouver_ · Att: 52,497 · Referee: Jesús Valenzuela
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Australia** (5-4-1 — Tony Popovic): Patrick Beach, Alessandro Circati, Harry Souttar, Cameron Burgess, Jacob Italiano, Jordan Bos, Connor Metcalfe, Aiden O'Neill, Paul Okon-Engstler, Nestory Irankunda, Mohamed Toure
+**Australia** (5-4-1 — Tony Popovic): 18. Patrick Beach, 3. Alessandro Circati, 19. Harry Souttar, 21. Cameron Burgess, 4. Jacob Italiano, 5. Jordan Bos, 8. Connor Metcalfe, 13. Aiden O'Neill, 24. Paul Okon-Engstler, 17. Nestory Irankunda, 9. Mohamed Toure
 
-**Türkiye** (4-3-3 — Vincenzo Montella): Uğurcan Çakır, Zeki Çelik, Merih Demiral, Abdülkerim Bardakcı, Ferdi Kadıoğlu, Hakan Çalhanoğlu, Orkun Kökçü, İsmail Yüksek, Kerem Aktürkoğlu, Arda Güler, Barış Alper Yılmaz
+**Türkiye** (4-3-3 — Vincenzo Montella): 23. Uğurcan Çakır, 2. Zeki Çelik, 3. Merih Demiral, 14. Abdülkerim Bardakcı, 20. Ferdi Kadıoğlu, 10. Hakan Çalhanoğlu, 6. Orkun Kökçü, 16. İsmail Yüksek, 7. Kerem Aktürkoğlu, 8. Arda Güler, 21. Barış Alper Yılmaz
 
 **Substitutions:** 46' Barış Alper Yılmaz → Kenan Yıldız (Türkiye); 60' Nestory Irankunda → Nishan Velupillay (Australia); 62' Orkun Kökçü → Yunus Akgün (Türkiye); 74' Jacob Italiano → Jason Geria (Australia); 74' Mohamed Toure → Tete Yengi (Australia); 81' Zeki Çelik → Mert Müldür (Türkiye); 82' İsmail Yüksek → Salih Özcan (Türkiye); 84' Jordan Bos → Jackson Irvine (Australia); 84' Paul Okon-Engstler → Aziz Behich (Australia); 85' Kerem Aktürkoğlu → Deniz Gül (Türkiye)
 
@@ -373,9 +373,9 @@ Att: 68,021 · Referee: Jalal Jayed
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Germany** (4-2-3-1 — Julian Nagelsmann): Manuel Neuer, Joshua Kimmich, Jonathan Tah, Nico Schlotterbeck, Nathaniel Brown, Aleksandar Pavlovic, Felix Nmecha, Leroy Sané, Jamal Musiala, Florian Wirtz, Kai Havertz
+**Germany** (4-2-3-1 — Julian Nagelsmann): 1. Manuel Neuer, 6. Joshua Kimmich, 4. Jonathan Tah, 15. Nico Schlotterbeck, 18. Nathaniel Brown, 5. Aleksandar Pavlovic, 23. Felix Nmecha, 19. Leroy Sané, 10. Jamal Musiala, 17. Florian Wirtz, 7. Kai Havertz
 
-**Curaçao** (4-3-3 — Dick Advocaat): Eloy Room, Sherel Floranus, Armando Obispo, Riechedly Bazoer, Deveron Fonville, Leandro Bacuna, Juninho Bacuna, Livano Comenencia, Tahith Chong, Jurgen Locadia, Sontje Hansen
+**Curaçao** (4-3-3 — Dick Advocaat): 1. Eloy Room, 5. Sherel Floranus, 18. Armando Obispo, 23. Riechedly Bazoer, 24. Deveron Fonville, 10. Leandro Bacuna, 7. Juninho Bacuna, 8. Livano Comenencia, 21. Tahith Chong, 9. Jurgen Locadia, 12. Sontje Hansen
 
 **Substitutions:** 66' Jamal Musiala → Deniz Undav (Germany); 73' Jonathan Tah → Antonio Rüdiger (Germany); 73' Felix Nmecha → Leon Goretzka (Germany); 73' Nathaniel Brown → David Raum (Germany)
 
@@ -401,9 +401,9 @@ _Lincoln Financial Field, Philadelphia_ · Att: 68,274 · Referee: François Let
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Côte d'Ivoire** (4-4-2 — Emerse Faé): Yahia Fofana, Guéla Doué, Wilfried Singo, Emmanuel Agbadou, Ghislain Konan, Yan Diomandé, Seko Fofana, Franck Kessié, Bazoumana Touré, Nicolas Pépé, Elye Wahi
+**Côte d'Ivoire** (4-4-2 — Emerse Faé): 1. Yahia Fofana, 17. Guéla Doué, 5. Wilfried Singo, 20. Emmanuel Agbadou, 3. Ghislain Konan, 11. Yan Diomandé, 6. Seko Fofana, 8. Franck Kessié, 24. Bazoumana Touré, 19. Nicolas Pépé, 12. Elye Wahi
 
-**Ecuador** (3-4-3 — Sebastián Beccacece): Hernán Galíndez, Joel Ordóñez, Willian Pacho, Piero Hincapié, Alan Minda, Alan Franco, Moisés Caicedo, Pedro Vite, Gonzalo Plata, Enner Valencia, John Yeboah
+**Ecuador** (3-4-3 — Sebastián Beccacece): 1. Hernán Galíndez, 4. Joel Ordóñez, 6. Willian Pacho, 3. Piero Hincapié, 14. Alan Minda, 21. Alan Franco, 23. Moisés Caicedo, 15. Pedro Vite, 19. Gonzalo Plata, 13. Enner Valencia, 9. John Yeboah
 
 **Substitutions:** 56' Bazoumana Touré → Amad Diallo (Côte d'Ivoire); 77' Enner Valencia → Kevin Rodríguez (Ecuador); ? Alan Franco → Jackson Porozo (Ecuador); ? John Yeboah → Ángelo Preciado (Ecuador)
 
@@ -429,9 +429,9 @@ _AT&T Stadium, Dallas_ · Att: 69,285 · Referee: Ismail Elfath
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Netherlands** (4-3-3 — Ronald Koeman): Bart Verbruggen, Denzel Dumfries, Jan Paul van Hecke, Virgil van Dijk, Micky van de Ven, Frenkie de Jong, Ryan Gravenberch, Tijjani Reijnders, Crysencio Summerville, Cody Gakpo, Donyell Malen
+**Netherlands** (4-3-3 — Ronald Koeman): 1. Bart Verbruggen, 22. Denzel Dumfries, 6. Jan Paul van Hecke, 4. Virgil van Dijk, 15. Micky van de Ven, 21. Frenkie de Jong, 8. Ryan Gravenberch, 14. Tijjani Reijnders, 24. Crysencio Summerville, 11. Cody Gakpo, 18. Donyell Malen
 
-**Japan** (3-4-3 — Hajime Moriyasu): Zion Suzuki, Shogo Taniguchi, Tsuyoshi Watanabe, Hiroki Ito, Ritsu Doan, Daichi Kamada, Kaishu Sano, Keito Nakamura, Daizen Maeda, Takefusa Kubo, Ayase Ueda
+**Japan** (3-4-3 — Hajime Moriyasu): 1. Zion Suzuki, 3. Shogo Taniguchi, 16. Tsuyoshi Watanabe, 21. Hiroki Ito, 10. Ritsu Doan, 15. Daichi Kamada, 24. Kaishu Sano, 13. Keito Nakamura, 11. Daizen Maeda, 8. Takefusa Kubo, 18. Ayase Ueda
 
 **Substitutions:** 66' Daizen Maeda → Junya Ito (Japan); 70' Donyell Malen → Memphis Depay (Netherlands); 70' Crysencio Summerville → Teun Koopmeiners (Netherlands); 70' Tijjani Reijnders → Quinten Timber (Netherlands); 75' Takefusa Kubo → Koki Ogawa (Japan); 75' Ayase Ueda → Kento Shiogai (Japan)
 
@@ -458,9 +458,9 @@ Att: 50,987 · Referee: Yael Falcon Perez
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Sweden** (3-4-1-2 — Graham Potter): Kristoffer Nordfeldt, Gustaf Lagerbielke, Isak Hien, Victor Lindelof, Gabriel Gudmundsson, Jesper Karlstrom, Yasin Ayari, Alexander Bernhardsson, Benjamin Nygren, Alexander Isak, Viktor Gyokeres
+**Sweden** (3-4-1-2 — Graham Potter): 23. Kristoffer Nordfeldt, 2. Gustaf Lagerbielke, 4. Isak Hien, 3. Victor Lindelof, 5. Gabriel Gudmundsson, 16. Jesper Karlstrom, 18. Yasin Ayari, 21. Alexander Bernhardsson, 10. Benjamin Nygren, 9. Alexander Isak, 17. Viktor Gyokeres
 
-**Tunisia** (4-2-3-1 — Sabri Lamouchi): Abdelmouhib Chamakh, Yan Valery, Omar Rekik, Montassar Talbi, Ali Abdi, Ellyes Skhiri, Rani Khedira, Anis Ben Slimane, Hannibal Mejbri, Mohamed Amine Ben Hmida, Elias Saad
+**Tunisia** (4-2-3-1 — Sabri Lamouchi): 1. Abdelmouhib Chamakh, 20. Yan Valery, 4. Omar Rekik, 3. Montassar Talbi, 2. Ali Abdi, 17. Ellyes Skhiri, 13. Rani Khedira, 25. Anis Ben Slimane, 10. Hannibal Mejbri, 21. Mohamed Amine Ben Hmida, 8. Elias Saad
 
 **Substitutions:** 65' Benjamin Nygren → Lucas Bergvall (Sweden); 72' Ellyes Skhiri → Elias Achouri (Tunisia); 72' Elias Saad → Sebastian Tounekti (Tunisia); 83' Rani Khedira → Ismael Gharbi (Tunisia); 84' Jesper Karlstrom → Mattias Svanberg (Sweden); 84' Anis Ben Slimane → Firas Chaouat (Tunisia); 90+1' Alexander Isak → Anthony Elanga (Sweden)
 
@@ -483,9 +483,9 @@ _Mercedes-Benz Stadium, Atlanta_ · Att: 67,640 · Referee: Adham Mohammad
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Spain** (4-3-3 — Luis de la Fuente): 23. Unai Simón, 5. Marcos Llorente, 22. Pau Cubarsí, 14. Aymeric Laporte, 24. Marc Cucurella, Rodri, Fabián Ruiz, 20. Pedri, Gavi, Ferran Torres, 21. Mikel Oyarzabal
+**Spain** (4-3-3 — Luis de la Fuente): 23. Unai Simón, 5. Marcos Llorente, 22. Pau Cubarsí, 14. Aymeric Laporte, 24. Marc Cucurella, 16. Rodri, 8. Fabián Ruiz, 20. Pedri, 9. Gavi, 7. Ferran Torres, 21. Mikel Oyarzabal
 
-**Cabo Verde** (4-3-3 — Bubista): 1. Vozinha, Steven Moreira, Roberto Lopes, Diney Borges, Sidny Cabral, Kevin Pina, Jamiro Monteiro, Laros Duarte, Jovane Cabral, Ryan Mendes, Dailon Livramento
+**Cabo Verde** (4-3-3 — Bubista): 1. Vozinha, 22. Steven Moreira, 4. Roberto Lopes, 3. Diney Borges, 13. Sidny Cabral, 6. Kevin Pina, 10. Jamiro Monteiro, 15. Laros Duarte, 7. Jovane Cabral, 20. Ryan Mendes, 19. Dailon Livramento
 
 **Substitutions:** 61' Jovane Cabral → Willy Semedo (Cabo Verde); 61' Laros Duarte → Deroy Duarte (Cabo Verde); 61' Dailon Livramento → Nuno da Costa (Cabo Verde); 71' Gavi → Lamine Yamal (Spain); 71' Fabián Ruiz → Mikel Merino (Spain); 76' Sidny Cabral → João Paulo (Cabo Verde); 79' Jamiro Monteiro → Telmo Arcanjo (Cabo Verde); 81' Ferran Torres → Dani Olmo (Spain); 87' Rodri → Nico Williams (Spain)
 
@@ -565,9 +565,9 @@ _SoFi Stadium, Inglewood_ · Att: 70,108 · Referee: César Arturo Ramos Palazue
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**IR Iran** (4-4-2 — Amir Ghalenoei): 1. Alireza Beiranvand, 23. Ramin Rezaeian, 19. Ali Nemati, 4. Shoja Khalilzadeh, 5. Milad Mohammadi, Aria Yousefi, Saman Ghoddos, 6. Saeid Ezatolahi, 8. Mohammad Mohebbi, Shahriar Moghanlou, Mehdi Taremi
+**IR Iran** (4-4-2 — Amir Ghalenoei): 1. Alireza Beiranvand, 23. Ramin Rezaeian, 19. Ali Nemati, 4. Shoja Khalilzadeh, 5. Milad Mohammadi, 17. Aria Yousefi, 14. Saman Ghoddos, 6. Saeid Ezatolahi, 8. Mohammad Mohebbi, 20. Shahriar Moghanlou, 9. Mehdi Taremi
 
-**New Zealand** (4-2-3-1 — Darren Bazeley): 1. Max Crocombe, Tim Payne, 16. Finn Surman, 5. Michael Boxall, Liberato Cacace, 6. Joe Bell, Marko Stamenic, Callum McCowatt, Sarpreet Singh, 11. Elijah Just, 9. Chris Wood
+**New Zealand** (4-2-3-1 — Darren Bazeley): 1. Max Crocombe, 2. Tim Payne, 16. Finn Surman, 5. Michael Boxall, 13. Liberato Cacace, 6. Joe Bell, 8. Marko Stamenic, 20. Callum McCowatt, 10. Sarpreet Singh, 11. Elijah Just, 9. Chris Wood
 
 **Substitutions:** 46' Aria Yousefi → Mehdi Ghayedi (IR Iran); 53' Shahriar Moghanlou → Ali Alipour (IR Iran); 65' Saman Ghoddos → Ehsan Hajsafi (IR Iran); 68' Liberato Cacace → Ben Old (New Zealand); 68' Callum McCowatt → Ryan Thomas (New Zealand); 77' Tim Payne → Callan Elliot (New Zealand); 80' Mehdi Taremi → Amirhossein Hosseinzadeh (IR Iran); 90' Marko Stamenic → Tyler Bindon (New Zealand); 90' Sarpreet Singh → Jesse Randall (New Zealand)
 
@@ -741,7 +741,7 @@ _AT&T Stadium, Arlington_ · Att: 70,389 · Referee: Clément Turpin
 
 **England** (4-2-3-1 — Thomas Tuchel): 1. Jordan Pickford, 24. Reece James, 5. John Stones, 2. Ezri Konsa, 3. Nico O'Reilly, 4. Declan Rice, 8. Elliot Anderson, 20. Noni Madueke, 10. Jude Bellingham, 18. Anthony Gordon, 9. Harry Kane
 
-**Croatia** (3-4-2-1 — Zlatko Dalić): 1. Dominik Livaković, 6. Josip Šutalo, Luka Vušković, 20. Joško Gvardiol, 2. Josip Stanišić, 10. Luka Modrić, 15. Mario Pašalić, 4. Ivan Perišić, Petar Sučić, Martin Baturina, Petar Musa
+**Croatia** (3-4-2-1 — Zlatko Dalić): 1. Dominik Livaković, 6. Josip Šutalo, 22. Luka Vušković, 20. Joško Gvardiol, 2. Josip Stanišić, 10. Luka Modrić, 15. Mario Pašalić, 4. Ivan Perišić, 17. Petar Sučić, 16. Martin Baturina, 26. Petar Musa
 
 **Substitutions:** 72' Declan Rice → Morgan Rogers (England); 72' Anthony Gordon → Bukayo Saka (England); 72' Noni Madueke → Marcus Rashford (England); 80' Jude Bellingham → Djed Spence (England); 87' John Stones → Marc Guéhi (England); ? ? → Mateo Kovačić (Croatia)
 
@@ -789,7 +789,7 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Anthony Taylor
 
 <details><summary>Lineups, substitutions, cards & stats</summary>
 
-**Uzbekistan** (4-4-2): 1. Utkir Yusupov, Abdukodir Khusanov, Rustam Ashurmatov, Abdulla Abdullaev, Behruzjon Karimov, Otabek Shukurov, Akmal Mozgovoy, Sherzod Nasrullaev, Abbosbek Fayzullaev, Oston Urunov, Eldor Shomurodov
+**Uzbekistan** (4-4-2): 1. Utkir Yusupov, 2. Abdukodir Khusanov, 5. Rustam Ashurmatov, 18. Abdulla Abdullaev, 24. Behruzjon Karimov, 7. Otabek Shukurov, 6. Akmal Mozgovoy, 13. Sherzod Nasrullaev, 22. Abbosbek Fayzullaev, 11. Oston Urunov, 14. Eldor Shomurodov
 
 **Colombia** (4-2-3-1 — Néstor Lorenzo): 12. Camilo Vargas, 2. Daniel Muñoz, 23. Davinson Sánchez, 3. Jhon Lucumí, 17. Johan Mojica, 16. Jefferson Lerma, 14. Gustavo Puerta, 11. Jhon Arias, 10. James Rodríguez, 7. Luis Díaz, 25. Luis Suárez
 

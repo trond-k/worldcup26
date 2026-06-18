@@ -34,34 +34,34 @@
       "formation": "3-4-3",
       "manager": "Hong Myung-bo",
       "starting": [
-        {"name": "Kim Seung-gyu", "position": "GK", "number": null},
-        {"name": "Lee Han-beom", "position": "DF", "number": null},
-        {"name": "Kim Min-jae", "position": "DF", "number": null},
-        {"name": "Lee Gi-hyuk", "position": "DF", "number": null},
-        {"name": "Seol Young-woo", "position": "MF", "number": null},
-        {"name": "Hwang In-beom", "position": "MF", "number": null},
-        {"name": "Paik Seung-ho", "position": "MF", "number": null},
-        {"name": "Lee Tae-seok", "position": "MF", "number": null},
-        {"name": "Lee Kang-in", "position": "MF", "number": null},
-        {"name": "Lee Jae-sung", "position": "MF", "number": null},
-        {"name": "Son Heung-min", "position": "FW", "number": null}
+        {"name": "Kim Seung-gyu", "position": "GK", "number": 1},
+        {"name": "Lee Han-beom", "position": "DF", "number": 2},
+        {"name": "Kim Min-jae", "position": "DF", "number": 4},
+        {"name": "Lee Gi-hyuk", "position": "DF", "number": 3},
+        {"name": "Seol Young-woo", "position": "MF", "number": 22},
+        {"name": "Hwang In-beom", "position": "MF", "number": 6},
+        {"name": "Paik Seung-ho", "position": "MF", "number": 8},
+        {"name": "Lee Tae-seok", "position": "MF", "number": 13},
+        {"name": "Lee Kang-in", "position": "MF", "number": 19},
+        {"name": "Lee Jae-sung", "position": "MF", "number": 10},
+        {"name": "Son Heung-min", "position": "FW", "number": 7}
       ]
     },
     "away": {
       "formation": "3-4-2-1",
       "manager": "Miroslav Koubek",
       "starting": [
-        {"name": "Matěj Kovář", "position": "GK", "number": null},
-        {"name": "Vladimír Coufal", "position": "DF", "number": null},
-        {"name": "Tomáš Holeš", "position": "DF", "number": null},
-        {"name": "Ladislav Krejčí", "position": "DF", "number": null},
-        {"name": "Jaroslav Zelený", "position": "DF", "number": null},
-        {"name": "Tomáš Souček", "position": "MF", "number": null},
-        {"name": "Michal Sadílek", "position": "MF", "number": null},
-        {"name": "David Douděra", "position": "MF", "number": null},
-        {"name": "Pavel Šulc", "position": "MF", "number": null},
-        {"name": "Adam Hložek", "position": "MF", "number": null},
-        {"name": "Patrik Schick", "position": "FW", "number": null}
+        {"name": "Matěj Kovář", "position": "GK", "number": 1},
+        {"name": "Vladimír Coufal", "position": "DF", "number": 5},
+        {"name": "Tomáš Holeš", "position": "DF", "number": 3},
+        {"name": "Ladislav Krejčí", "position": "DF", "number": 7},
+        {"name": "Jaroslav Zelený", "position": "DF", "number": 20},
+        {"name": "Tomáš Souček", "position": "MF", "number": 22},
+        {"name": "Michal Sadílek", "position": "MF", "number": 18},
+        {"name": "David Douděra", "position": "MF", "number": 21},
+        {"name": "Pavel Šulc", "position": "MF", "number": 15},
+        {"name": "Adam Hložek", "position": "MF", "number": 9},
+        {"name": "Patrik Schick", "position": "FW", "number": 10}
       ]
     }
   },

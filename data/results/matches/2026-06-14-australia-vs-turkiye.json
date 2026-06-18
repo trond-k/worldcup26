@@ -41,34 +41,34 @@
       "formation": "5-4-1",
       "manager": "Tony Popovic",
       "starting": [
-        {"name": "Patrick Beach", "position": "GK", "number": null},
-        {"name": "Alessandro Circati", "position": "DF", "number": null},
-        {"name": "Harry Souttar", "position": "DF", "number": null},
-        {"name": "Cameron Burgess", "position": "DF", "number": null},
-        {"name": "Jacob Italiano", "position": "DF", "number": null},
-        {"name": "Jordan Bos", "position": "DF", "number": null},
-        {"name": "Connor Metcalfe", "position": "MF", "number": null},
-        {"name": "Aiden O'Neill", "position": "MF", "number": null},
-        {"name": "Paul Okon-Engstler", "position": "MF", "number": null},
-        {"name": "Nestory Irankunda", "position": "FW", "number": null},
-        {"name": "Mohamed Toure", "position": "FW", "number": null}
+        {"name": "Patrick Beach", "position": "GK", "number": 18},
+        {"name": "Alessandro Circati", "position": "DF", "number": 3},
+        {"name": "Harry Souttar", "position": "DF", "number": 19},
+        {"name": "Cameron Burgess", "position": "DF", "number": 21},
+        {"name": "Jacob Italiano", "position": "DF", "number": 4},
+        {"name": "Jordan Bos", "position": "DF", "number": 5},
+        {"name": "Connor Metcalfe", "position": "MF", "number": 8},
+        {"name": "Aiden O'Neill", "position": "MF", "number": 13},
+        {"name": "Paul Okon-Engstler", "position": "MF", "number": 24},
+        {"name": "Nestory Irankunda", "position": "FW", "number": 17},
+        {"name": "Mohamed Toure", "position": "FW", "number": 9}
       ]
     },
     "away": {
       "formation": "4-3-3",
       "manager": "Vincenzo Montella",
       "starting": [
-        {"name": "Uğurcan Çakır", "position": "GK", "number": null},
-        {"name": "Zeki Çelik", "position": "DF", "number": null},
-        {"name": "Merih Demiral", "position": "DF", "number": null},
-        {"name": "Abdülkerim Bardakcı", "position": "DF", "number": null},
-        {"name": "Ferdi Kadıoğlu", "position": "DF", "number": null},
-        {"name": "Hakan Çalhanoğlu", "position": "MF", "number": null},
-        {"name": "Orkun Kökçü", "position": "MF", "number": null},
-        {"name": "İsmail Yüksek", "position": "MF", "number": null},
-        {"name": "Kerem Aktürkoğlu", "position": "FW", "number": null},
-        {"name": "Arda Güler", "position": "FW", "number": null},
-        {"name": "Barış Alper Yılmaz", "position": "FW", "number": null}
+        {"name": "Uğurcan Çakır", "position": "GK", "number": 23},
+        {"name": "Zeki Çelik", "position": "DF", "number": 2},
+        {"name": "Merih Demiral", "position": "DF", "number": 3},
+        {"name": "Abdülkerim Bardakcı", "position": "DF", "number": 14},
+        {"name": "Ferdi Kadıoğlu", "position": "DF", "number": 20},
+        {"name": "Hakan Çalhanoğlu", "position": "MF", "number": 10},
+        {"name": "Orkun Kökçü", "position": "MF", "number": 6},
+        {"name": "İsmail Yüksek", "position": "MF", "number": 16},
+        {"name": "Kerem Aktürkoğlu", "position": "FW", "number": 7},
+        {"name": "Arda Güler", "position": "FW", "number": 8},
+        {"name": "Barış Alper Yılmaz", "position": "FW", "number": 21}
       ]
     }
   },

@@ -78,34 +78,34 @@
       "formation": "4-4-2",
       "manager": "Emerse Faé",
       "starting": [
-        { "name": "Yahia Fofana", "position": "GK", "number": null },
-        { "name": "Guéla Doué", "position": "DF", "number": null },
-        { "name": "Wilfried Singo", "position": "DF", "number": null },
-        { "name": "Emmanuel Agbadou", "position": "DF", "number": null },
-        { "name": "Ghislain Konan", "position": "DF", "number": null },
-        { "name": "Yan Diomandé", "position": "MF", "number": null },
-        { "name": "Seko Fofana", "position": "MF", "number": null },
-        { "name": "Franck Kessié", "position": "MF", "number": null },
-        { "name": "Bazoumana Touré", "position": "MF", "number": null },
-        { "name": "Nicolas Pépé", "position": "FW", "number": null },
-        { "name": "Elye Wahi", "position": "FW", "number": null }
+        { "name": "Yahia Fofana", "position": "GK", "number": 1 },
+        { "name": "Guéla Doué", "position": "DF", "number": 17 },
+        { "name": "Wilfried Singo", "position": "DF", "number": 5 },
+        { "name": "Emmanuel Agbadou", "position": "DF", "number": 20 },
+        { "name": "Ghislain Konan", "position": "DF", "number": 3 },
+        { "name": "Yan Diomandé", "position": "MF", "number": 11 },
+        { "name": "Seko Fofana", "position": "MF", "number": 6 },
+        { "name": "Franck Kessié", "position": "MF", "number": 8 },
+        { "name": "Bazoumana Touré", "position": "MF", "number": 24 },
+        { "name": "Nicolas Pépé", "position": "FW", "number": 19 },
+        { "name": "Elye Wahi", "position": "FW", "number": 12 }
       ]
     },
     "away": {
       "formation": "3-4-3",
       "manager": "Sebastián Beccacece",
       "starting": [
-        { "name": "Hernán Galíndez", "position": "GK", "number": null },
-        { "name": "Joel Ordóñez", "position": "DF", "number": null },
-        { "name": "Willian Pacho", "position": "DF", "number": null },
-        { "name": "Piero Hincapié", "position": "DF", "number": null },
-        { "name": "Alan Minda", "position": "MF", "number": null },
-        { "name": "Alan Franco", "position": "MF", "number": null },
-        { "name": "Moisés Caicedo", "position": "MF", "number": null },
-        { "name": "Pedro Vite", "position": "MF", "number": null },
-        { "name": "Gonzalo Plata", "position": "FW", "number": null },
-        { "name": "Enner Valencia", "position": "FW", "number": null },
-        { "name": "John Yeboah", "position": "FW", "number": null }
+        { "name": "Hernán Galíndez", "position": "GK", "number": 1 },
+        { "name": "Joel Ordóñez", "position": "DF", "number": 4 },
+        { "name": "Willian Pacho", "position": "DF", "number": 6 },
+        { "name": "Piero Hincapié", "position": "DF", "number": 3 },
+        { "name": "Alan Minda", "position": "MF", "number": 14 },
+        { "name": "Alan Franco", "position": "MF", "number": 21 },
+        { "name": "Moisés Caicedo", "position": "MF", "number": 23 },
+        { "name": "Pedro Vite", "position": "MF", "number": 15 },
+        { "name": "Gonzalo Plata", "position": "FW", "number": 19 },
+        { "name": "Enner Valencia", "position": "FW", "number": 13 },
+        { "name": "John Yeboah", "position": "FW", "number": 9 }
       ]
     }
   },

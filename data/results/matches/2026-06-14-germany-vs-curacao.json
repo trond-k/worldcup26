@@ -38,34 +38,34 @@
       "formation": "4-2-3-1",
       "manager": "Julian Nagelsmann",
       "starting": [
-        {"name": "Manuel Neuer", "position": "GK", "number": null},
-        {"name": "Joshua Kimmich", "position": "DF", "number": null},
-        {"name": "Jonathan Tah", "position": "DF", "number": null},
-        {"name": "Nico Schlotterbeck", "position": "DF", "number": null},
-        {"name": "Nathaniel Brown", "position": "DF", "number": null},
-        {"name": "Aleksandar Pavlovic", "position": "MF", "number": null},
-        {"name": "Felix Nmecha", "position": "MF", "number": null},
-        {"name": "Leroy Sané", "position": "MF", "number": null},
-        {"name": "Jamal Musiala", "position": "MF", "number": null},
-        {"name": "Florian Wirtz", "position": "MF", "number": null},
-        {"name": "Kai Havertz", "position": "FW", "number": null}
+        {"name": "Manuel Neuer", "position": "GK", "number": 1},
+        {"name": "Joshua Kimmich", "position": "DF", "number": 6},
+        {"name": "Jonathan Tah", "position": "DF", "number": 4},
+        {"name": "Nico Schlotterbeck", "position": "DF", "number": 15},
+        {"name": "Nathaniel Brown", "position": "DF", "number": 18},
+        {"name": "Aleksandar Pavlovic", "position": "MF", "number": 5},
+        {"name": "Felix Nmecha", "position": "MF", "number": 23},
+        {"name": "Leroy Sané", "position": "MF", "number": 19},
+        {"name": "Jamal Musiala", "position": "MF", "number": 10},
+        {"name": "Florian Wirtz", "position": "MF", "number": 17},
+        {"name": "Kai Havertz", "position": "FW", "number": 7}
       ]
     },
     "away": {
       "formation": "4-3-3",
       "manager": "Dick Advocaat",
       "starting": [
-        {"name": "Eloy Room", "position": "GK", "number": null},
-        {"name": "Sherel Floranus", "position": "DF", "number": null},
-        {"name": "Armando Obispo", "position": "DF", "number": null},
-        {"name": "Riechedly Bazoer", "position": "DF", "number": null},
-        {"name": "Deveron Fonville", "position": "DF", "number": null},
-        {"name": "Leandro Bacuna", "position": "MF", "number": null},
-        {"name": "Juninho Bacuna", "position": "MF", "number": null},
-        {"name": "Livano Comenencia", "position": "MF", "number": null},
-        {"name": "Tahith Chong", "position": "FW", "number": null},
-        {"name": "Jurgen Locadia", "position": "FW", "number": null},
-        {"name": "Sontje Hansen", "position": "FW", "number": null}
+        {"name": "Eloy Room", "position": "GK", "number": 1},
+        {"name": "Sherel Floranus", "position": "DF", "number": 5},
+        {"name": "Armando Obispo", "position": "DF", "number": 18},
+        {"name": "Riechedly Bazoer", "position": "DF", "number": 23},
+        {"name": "Deveron Fonville", "position": "DF", "number": 24},
+        {"name": "Leandro Bacuna", "position": "MF", "number": 10},
+        {"name": "Juninho Bacuna", "position": "MF", "number": 7},
+        {"name": "Livano Comenencia", "position": "MF", "number": 8},
+        {"name": "Tahith Chong", "position": "FW", "number": 21},
+        {"name": "Jurgen Locadia", "position": "FW", "number": 9},
+        {"name": "Sontje Hansen", "position": "FW", "number": 12}
       ]
     }
   },

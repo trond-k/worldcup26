@@ -35,34 +35,34 @@
       "formation": "4-4-2",
       "manager": "Steve Clarke",
       "starting": [
-        {"name": "Angus Gunn", "position": "GK", "number": null},
-        {"name": "Aaron Hickey", "position": "DF", "number": null},
-        {"name": "Jack Hendry", "position": "DF", "number": null},
-        {"name": "Grant Hanley", "position": "DF", "number": null},
-        {"name": "Andy Robertson", "position": "DF", "number": null},
-        {"name": "Ben Gannon-Doak", "position": "MF", "number": null},
-        {"name": "Scott McTominay", "position": "MF", "number": null},
-        {"name": "Lewis Ferguson", "position": "MF", "number": null},
-        {"name": "John McGinn", "position": "MF", "number": null},
-        {"name": "Lawrence Shankland", "position": "FW", "number": null},
-        {"name": "Che Adams", "position": "FW", "number": null}
+        {"name": "Angus Gunn", "position": "GK", "number": 1},
+        {"name": "Aaron Hickey", "position": "DF", "number": 2},
+        {"name": "Jack Hendry", "position": "DF", "number": 13},
+        {"name": "Grant Hanley", "position": "DF", "number": 5},
+        {"name": "Andy Robertson", "position": "DF", "number": 3},
+        {"name": "Ben Gannon-Doak", "position": "MF", "number": 17},
+        {"name": "Scott McTominay", "position": "MF", "number": 4},
+        {"name": "Lewis Ferguson", "position": "MF", "number": 19},
+        {"name": "John McGinn", "position": "MF", "number": 7},
+        {"name": "Lawrence Shankland", "position": "FW", "number": 20},
+        {"name": "Che Adams", "position": "FW", "number": 10}
       ]
     },
     "away": {
       "formation": "4-4-2",
       "manager": "Sébastien Migné",
       "starting": [
-        {"name": "Johny Placide", "position": "GK", "number": null},
-        {"name": "Carlens Arcus", "position": "DF", "number": null},
-        {"name": "Ricardo Adé", "position": "DF", "number": null},
-        {"name": "Hannes Delcroix", "position": "DF", "number": null},
-        {"name": "Martin Expérience", "position": "DF", "number": null},
-        {"name": "Deedson Louicius", "position": "MF", "number": null},
-        {"name": "Danley Jean Jacques", "position": "MF", "number": null},
-        {"name": "Jean-Ricner Bellegarde", "position": "MF", "number": null},
-        {"name": "Ruben Providence", "position": "MF", "number": null},
-        {"name": "Wilson Isidor", "position": "FW", "number": null},
-        {"name": "Frantzdy Pierrot", "position": "FW", "number": null}
+        {"name": "Johny Placide", "position": "GK", "number": 1},
+        {"name": "Carlens Arcus", "position": "DF", "number": 2},
+        {"name": "Ricardo Adé", "position": "DF", "number": 4},
+        {"name": "Hannes Delcroix", "position": "DF", "number": 5},
+        {"name": "Martin Expérience", "position": "DF", "number": 8},
+        {"name": "Deedson Louicius", "position": "MF", "number": 11},
+        {"name": "Danley Jean Jacques", "position": "MF", "number": 17},
+        {"name": "Jean-Ricner Bellegarde", "position": "MF", "number": 10},
+        {"name": "Ruben Providence", "position": "MF", "number": 15},
+        {"name": "Wilson Isidor", "position": "FW", "number": 18},
+        {"name": "Frantzdy Pierrot", "position": "FW", "number": 20}
       ]
     }
   },

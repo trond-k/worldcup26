@@ -55,15 +55,15 @@
       "starting": [
         {"name": "Dominik Livaković", "position": "GK", "number": 1},
         {"name": "Josip Šutalo", "position": "DF", "number": 6},
-        {"name": "Luka Vušković", "position": "DF", "number": null},
+        {"name": "Luka Vušković", "position": "DF", "number": 22},
         {"name": "Joško Gvardiol", "position": "DF", "number": 20},
         {"name": "Josip Stanišić", "position": "DF", "number": 2},
         {"name": "Luka Modrić", "position": "MF", "number": 10},
         {"name": "Mario Pašalić", "position": "MF", "number": 15},
         {"name": "Ivan Perišić", "position": "MF", "number": 4},
-        {"name": "Petar Sučić", "position": "MF", "number": null},
-        {"name": "Martin Baturina", "position": "MF", "number": null},
-        {"name": "Petar Musa", "position": "FW", "number": null}
+        {"name": "Petar Sučić", "position": "MF", "number": 17},
+        {"name": "Martin Baturina", "position": "MF", "number": 16},
+        {"name": "Petar Musa", "position": "FW", "number": 26}
       ]
     }
   },

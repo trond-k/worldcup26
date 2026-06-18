@@ -57,17 +57,17 @@
       "formation": "4-3-3",
       "manager": "Gustavo Alfaro",
       "starting": [
-        {"name": "Orlando Gill", "position": "GK", "number": null},
-        {"name": "Juan José Cáceres", "position": "DF", "number": null},
-        {"name": "Gustavo Gómez", "position": "DF", "number": null},
-        {"name": "Omar Alderete", "position": "DF", "number": null},
-        {"name": "Júnior Alonso", "position": "DF", "number": null},
-        {"name": "Damián Bobadilla", "position": "MF", "number": null},
-        {"name": "Andrés Cubas", "position": "MF", "number": null},
-        {"name": "Diego Gómez", "position": "MF", "number": null},
-        {"name": "Julio Enciso", "position": "FW", "number": null},
-        {"name": "Miguel Almirón", "position": "FW", "number": null},
-        {"name": "Antonio Sanabria", "position": "FW", "number": null}
+        {"name": "Orlando Gill", "position": "GK", "number": 12},
+        {"name": "Juan José Cáceres", "position": "DF", "number": 4},
+        {"name": "Gustavo Gómez", "position": "DF", "number": 15},
+        {"name": "Omar Alderete", "position": "DF", "number": 3},
+        {"name": "Júnior Alonso", "position": "DF", "number": 6},
+        {"name": "Damián Bobadilla", "position": "MF", "number": 16},
+        {"name": "Andrés Cubas", "position": "MF", "number": 14},
+        {"name": "Diego Gómez", "position": "MF", "number": 8},
+        {"name": "Julio Enciso", "position": "FW", "number": 19},
+        {"name": "Miguel Almirón", "position": "FW", "number": 10},
+        {"name": "Antonio Sanabria", "position": "FW", "number": 9}
       ]
     }
   },

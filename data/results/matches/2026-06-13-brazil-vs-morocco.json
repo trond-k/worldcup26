@@ -35,34 +35,34 @@
       "formation": "4-4-2",
       "manager": "Carlo Ancelotti",
       "starting": [
-        {"name": "Alisson", "position": "GK", "number": null},
-        {"name": "Roger Ibañez", "position": "DF", "number": null},
-        {"name": "Marquinhos", "position": "DF", "number": null},
-        {"name": "Gabriel Magalhães", "position": "DF", "number": null},
-        {"name": "Douglas Santos", "position": "DF", "number": null},
-        {"name": "Casemiro", "position": "MF", "number": null},
-        {"name": "Lucas Paquetá", "position": "MF", "number": null},
-        {"name": "Bruno Guimarães", "position": "MF", "number": null},
-        {"name": "Raphinha", "position": "MF", "number": null},
-        {"name": "Igor Thiago", "position": "FW", "number": null},
-        {"name": "Vinícius Júnior", "position": "FW", "number": null}
+        {"name": "Alisson", "position": "GK", "number": 1},
+        {"name": "Roger Ibañez", "position": "DF", "number": 24},
+        {"name": "Marquinhos", "position": "DF", "number": 4},
+        {"name": "Gabriel Magalhães", "position": "DF", "number": 3},
+        {"name": "Douglas Santos", "position": "DF", "number": 16},
+        {"name": "Casemiro", "position": "MF", "number": 5},
+        {"name": "Lucas Paquetá", "position": "MF", "number": 20},
+        {"name": "Bruno Guimarães", "position": "MF", "number": 8},
+        {"name": "Raphinha", "position": "MF", "number": 11},
+        {"name": "Igor Thiago", "position": "FW", "number": 25},
+        {"name": "Vinícius Júnior", "position": "FW", "number": 7}
       ]
     },
     "away": {
       "formation": "4-2-3-1",
       "manager": "Mohamed Ouahbi",
       "starting": [
-        {"name": "Yassine Bounou", "position": "GK", "number": null},
-        {"name": "Achraf Hakimi", "position": "DF", "number": null},
-        {"name": "Issa Diop", "position": "DF", "number": null},
-        {"name": "Chadi Riad", "position": "DF", "number": null},
-        {"name": "Noussair Mazraoui", "position": "DF", "number": null},
-        {"name": "Neil El Aynaoui", "position": "MF", "number": null},
-        {"name": "Ayyoub Bouaddi", "position": "MF", "number": null},
-        {"name": "Brahim Díaz", "position": "MF", "number": null},
-        {"name": "Azzedine Ounahi", "position": "MF", "number": null},
-        {"name": "Bilal El Khannouss", "position": "MF", "number": null},
-        {"name": "Ismael Saibari", "position": "FW", "number": null}
+        {"name": "Yassine Bounou", "position": "GK", "number": 1},
+        {"name": "Achraf Hakimi", "position": "DF", "number": 2},
+        {"name": "Issa Diop", "position": "DF", "number": 14},
+        {"name": "Chadi Riad", "position": "DF", "number": 18},
+        {"name": "Noussair Mazraoui", "position": "DF", "number": 3},
+        {"name": "Neil El Aynaoui", "position": "MF", "number": 24},
+        {"name": "Ayyoub Bouaddi", "position": "MF", "number": 6},
+        {"name": "Brahim Díaz", "position": "MF", "number": 10},
+        {"name": "Azzedine Ounahi", "position": "MF", "number": 8},
+        {"name": "Bilal El Khannouss", "position": "MF", "number": 23},
+        {"name": "Ismael Saibari", "position": "FW", "number": 11}
       ]
     }
   },

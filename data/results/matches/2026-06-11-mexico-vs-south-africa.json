@@ -37,34 +37,34 @@
       "formation": "4-3-3",
       "manager": "Javier Aguirre",
       "starting": [
-        {"name": "Raúl Rangel", "position": "GK", "number": null},
-        {"name": "Jesús Gallardo", "position": "DF", "number": null},
-        {"name": "Johan Vásquez", "position": "DF", "number": null},
-        {"name": "César Montes", "position": "DF", "number": null},
-        {"name": "Israel Reyes", "position": "DF", "number": null},
-        {"name": "Erik Lira", "position": "MF", "number": null},
-        {"name": "Álvaro Fidalgo", "position": "MF", "number": null},
-        {"name": "Brian Gutiérrez", "position": "MF", "number": null},
-        {"name": "Julián Quiñones", "position": "FW", "number": null},
-        {"name": "Raúl Jiménez", "position": "FW", "number": null},
-        {"name": "Roberto Alvarado", "position": "FW", "number": null}
+        {"name": "Raúl Rangel", "position": "GK", "number": 1},
+        {"name": "Jesús Gallardo", "position": "DF", "number": 23},
+        {"name": "Johan Vásquez", "position": "DF", "number": 5},
+        {"name": "César Montes", "position": "DF", "number": 3},
+        {"name": "Israel Reyes", "position": "DF", "number": 15},
+        {"name": "Erik Lira", "position": "MF", "number": 6},
+        {"name": "Álvaro Fidalgo", "position": "MF", "number": 8},
+        {"name": "Brian Gutiérrez", "position": "MF", "number": 26},
+        {"name": "Julián Quiñones", "position": "FW", "number": 16},
+        {"name": "Raúl Jiménez", "position": "FW", "number": 9},
+        {"name": "Roberto Alvarado", "position": "FW", "number": 25}
       ]
     },
     "away": {
       "formation": "5-3-2",
       "manager": "Hugo Broos",
       "starting": [
-        {"name": "Ronwen Williams", "position": "GK", "number": null},
-        {"name": "Aubrey Modiba", "position": "DF", "number": null},
-        {"name": "Khuliso Mudau", "position": "DF", "number": null},
-        {"name": "Nkosinathi Sibisi", "position": "DF", "number": null},
-        {"name": "Mbekezeli Mbokazi", "position": "DF", "number": null},
-        {"name": "Ime Okon", "position": "DF", "number": null},
-        {"name": "Sphephelo Sithole", "position": "MF", "number": null},
-        {"name": "Jayden Adams", "position": "MF", "number": null},
-        {"name": "Teboho Mokoena", "position": "MF", "number": null},
-        {"name": "Iqraam Rayners", "position": "FW", "number": null},
-        {"name": "Lyle Foster", "position": "FW", "number": null}
+        {"name": "Ronwen Williams", "position": "GK", "number": 1},
+        {"name": "Aubrey Modiba", "position": "DF", "number": 6},
+        {"name": "Khuliso Mudau", "position": "DF", "number": 20},
+        {"name": "Nkosinathi Sibisi", "position": "DF", "number": 19},
+        {"name": "Mbekezeli Mbokazi", "position": "DF", "number": 14},
+        {"name": "Ime Okon", "position": "DF", "number": 21},
+        {"name": "Sphephelo Sithole", "position": "MF", "number": 13},
+        {"name": "Jayden Adams", "position": "MF", "number": 23},
+        {"name": "Teboho Mokoena", "position": "MF", "number": 4},
+        {"name": "Iqraam Rayners", "position": "FW", "number": 15},
+        {"name": "Lyle Foster", "position": "FW", "number": 9}
       ]
     }
   },

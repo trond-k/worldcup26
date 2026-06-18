@@ -42,16 +42,16 @@
       "manager": null,
       "starting": [
         {"name": "Utkir Yusupov", "position": "GK", "number": 1},
-        {"name": "Abdukodir Khusanov", "position": "DF", "number": null},
-        {"name": "Rustam Ashurmatov", "position": "DF", "number": null},
-        {"name": "Abdulla Abdullaev", "position": "DF", "number": null},
-        {"name": "Behruzjon Karimov", "position": "DF", "number": null},
-        {"name": "Otabek Shukurov", "position": "MF", "number": null},
-        {"name": "Akmal Mozgovoy", "position": "MF", "number": null},
-        {"name": "Sherzod Nasrullaev", "position": "MF", "number": null},
-        {"name": "Abbosbek Fayzullaev", "position": "MF", "number": null},
-        {"name": "Oston Urunov", "position": "FW", "number": null},
-        {"name": "Eldor Shomurodov", "position": "FW", "number": null}
+        {"name": "Abdukodir Khusanov", "position": "DF", "number": 2},
+        {"name": "Rustam Ashurmatov", "position": "DF", "number": 5},
+        {"name": "Abdulla Abdullaev", "position": "DF", "number": 18},
+        {"name": "Behruzjon Karimov", "position": "DF", "number": 24},
+        {"name": "Otabek Shukurov", "position": "MF", "number": 7},
+        {"name": "Akmal Mozgovoy", "position": "MF", "number": 6},
+        {"name": "Sherzod Nasrullaev", "position": "MF", "number": 13},
+        {"name": "Abbosbek Fayzullaev", "position": "MF", "number": 22},
+        {"name": "Oston Urunov", "position": "FW", "number": 11},
+        {"name": "Eldor Shomurodov", "position": "FW", "number": 14}
       ]
     },
     "away": {

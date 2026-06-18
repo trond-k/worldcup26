@@ -41,34 +41,34 @@
       "formation": "4-4-2",
       "manager": "Jesse Marsch",
       "starting": [
-        {"name": "Maxime Crépeau", "position": "GK", "number": null},
-        {"name": "Alistair Johnston", "position": "DF", "number": null},
-        {"name": "Luc de Fougerolles", "position": "DF", "number": null},
-        {"name": "Derek Cornelius", "position": "DF", "number": null},
-        {"name": "Richie Laryea", "position": "DF", "number": null},
-        {"name": "Tajon Buchanan", "position": "MF", "number": null},
-        {"name": "Stephen Eustáquio", "position": "MF", "number": null},
-        {"name": "Ismaël Koné", "position": "MF", "number": null},
-        {"name": "Liam Millar", "position": "MF", "number": null},
-        {"name": "Jonathan David", "position": "FW", "number": null},
-        {"name": "Tani Oluwaseyi", "position": "FW", "number": null}
+        {"name": "Maxime Crépeau", "position": "GK", "number": 1},
+        {"name": "Alistair Johnston", "position": "DF", "number": 2},
+        {"name": "Luc de Fougerolles", "position": "DF", "number": 4},
+        {"name": "Derek Cornelius", "position": "DF", "number": 13},
+        {"name": "Richie Laryea", "position": "DF", "number": 22},
+        {"name": "Tajon Buchanan", "position": "MF", "number": 17},
+        {"name": "Stephen Eustáquio", "position": "MF", "number": 7},
+        {"name": "Ismaël Koné", "position": "MF", "number": 8},
+        {"name": "Liam Millar", "position": "MF", "number": 11},
+        {"name": "Jonathan David", "position": "FW", "number": 10},
+        {"name": "Tani Oluwaseyi", "position": "FW", "number": 12}
       ]
     },
     "away": {
       "formation": "4-4-2",
       "manager": "Sergej Barbarez",
       "starting": [
-        {"name": "Nikola Vasilj", "position": "GK", "number": null},
-        {"name": "Amar Dedić", "position": "DF", "number": null},
-        {"name": "Sead Kolašinac", "position": "DF", "number": null},
-        {"name": "Nikola Katić", "position": "DF", "number": null},
-        {"name": "Tarik Muharemović", "position": "DF", "number": null},
-        {"name": "Benjamin Tahirović", "position": "MF", "number": null},
-        {"name": "Ivan Bašić", "position": "MF", "number": null},
-        {"name": "Amar Memić", "position": "MF", "number": null},
-        {"name": "Esmir Bajraktarević", "position": "MF", "number": null},
-        {"name": "Ermedin Demirović", "position": "FW", "number": null},
-        {"name": "Jovo Lukić", "position": "FW", "number": null}
+        {"name": "Nikola Vasilj", "position": "GK", "number": 1},
+        {"name": "Amar Dedić", "position": "DF", "number": 7},
+        {"name": "Sead Kolašinac", "position": "DF", "number": 5},
+        {"name": "Nikola Katić", "position": "DF", "number": 18},
+        {"name": "Tarik Muharemović", "position": "DF", "number": 4},
+        {"name": "Benjamin Tahirović", "position": "MF", "number": 6},
+        {"name": "Ivan Bašić", "position": "MF", "number": 13},
+        {"name": "Amar Memić", "position": "MF", "number": 15},
+        {"name": "Esmir Bajraktarević", "position": "MF", "number": 20},
+        {"name": "Ermedin Demirović", "position": "FW", "number": 10},
+        {"name": "Jovo Lukić", "position": "FW", "number": 25}
       ]
     }
   },

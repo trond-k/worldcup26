@@ -42,34 +42,34 @@
       "formation": "3-4-1-2",
       "manager": "Graham Potter",
       "starting": [
-        { "name": "Kristoffer Nordfeldt", "position": "GK", "number": null },
-        { "name": "Gustaf Lagerbielke", "position": "DF", "number": null },
-        { "name": "Isak Hien", "position": "DF", "number": null },
-        { "name": "Victor Lindelof", "position": "DF", "number": null },
-        { "name": "Gabriel Gudmundsson", "position": "DF", "number": null },
-        { "name": "Jesper Karlstrom", "position": "MF", "number": null },
-        { "name": "Yasin Ayari", "position": "MF", "number": null },
-        { "name": "Alexander Bernhardsson", "position": "MF", "number": null },
-        { "name": "Benjamin Nygren", "position": "MF", "number": null },
-        { "name": "Alexander Isak", "position": "FW", "number": null },
-        { "name": "Viktor Gyokeres", "position": "FW", "number": null }
+        { "name": "Kristoffer Nordfeldt", "position": "GK", "number": 23 },
+        { "name": "Gustaf Lagerbielke", "position": "DF", "number": 2 },
+        { "name": "Isak Hien", "position": "DF", "number": 4 },
+        { "name": "Victor Lindelof", "position": "DF", "number": 3 },
+        { "name": "Gabriel Gudmundsson", "position": "DF", "number": 5 },
+        { "name": "Jesper Karlstrom", "position": "MF", "number": 16 },
+        { "name": "Yasin Ayari", "position": "MF", "number": 18 },
+        { "name": "Alexander Bernhardsson", "position": "MF", "number": 21 },
+        { "name": "Benjamin Nygren", "position": "MF", "number": 10 },
+        { "name": "Alexander Isak", "position": "FW", "number": 9 },
+        { "name": "Viktor Gyokeres", "position": "FW", "number": 17 }
       ]
     },
     "away": {
       "formation": "4-2-3-1",
       "manager": "Sabri Lamouchi",
       "starting": [
-        { "name": "Abdelmouhib Chamakh", "position": "GK", "number": null },
-        { "name": "Yan Valery", "position": "DF", "number": null },
-        { "name": "Omar Rekik", "position": "DF", "number": null },
-        { "name": "Montassar Talbi", "position": "DF", "number": null },
-        { "name": "Ali Abdi", "position": "DF", "number": null },
-        { "name": "Ellyes Skhiri", "position": "MF", "number": null },
-        { "name": "Rani Khedira", "position": "MF", "number": null },
-        { "name": "Anis Ben Slimane", "position": "MF", "number": null },
-        { "name": "Hannibal Mejbri", "position": "MF", "number": null },
-        { "name": "Mohamed Amine Ben Hmida", "position": "MF", "number": null },
-        { "name": "Elias Saad", "position": "FW", "number": null }
+        { "name": "Abdelmouhib Chamakh", "position": "GK", "number": 1 },
+        { "name": "Yan Valery", "position": "DF", "number": 20 },
+        { "name": "Omar Rekik", "position": "DF", "number": 4 },
+        { "name": "Montassar Talbi", "position": "DF", "number": 3 },
+        { "name": "Ali Abdi", "position": "DF", "number": 2 },
+        { "name": "Ellyes Skhiri", "position": "MF", "number": 17 },
+        { "name": "Rani Khedira", "position": "MF", "number": 13 },
+        { "name": "Anis Ben Slimane", "position": "MF", "number": 25 },
+        { "name": "Hannibal Mejbri", "position": "MF", "number": 10 },
+        { "name": "Mohamed Amine Ben Hmida", "position": "MF", "number": 21 },
+        { "name": "Elias Saad", "position": "FW", "number": 8 }
       ]
     }
   },

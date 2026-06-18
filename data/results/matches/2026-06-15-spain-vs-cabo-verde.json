@@ -40,11 +40,11 @@
         {"name": "Pau Cubarsí", "position": "DF", "number": 22},
         {"name": "Aymeric Laporte", "position": "DF", "number": 14},
         {"name": "Marc Cucurella", "position": "DF", "number": 24},
-        {"name": "Rodri", "position": "MF", "number": null},
-        {"name": "Fabián Ruiz", "position": "MF", "number": null},
+        {"name": "Rodri", "position": "MF", "number": 16},
+        {"name": "Fabián Ruiz", "position": "MF", "number": 8},
         {"name": "Pedri", "position": "MF", "number": 20},
-        {"name": "Gavi", "position": "MF", "number": null},
-        {"name": "Ferran Torres", "position": "FW", "number": null},
+        {"name": "Gavi", "position": "MF", "number": 9},
+        {"name": "Ferran Torres", "position": "FW", "number": 7},
         {"name": "Mikel Oyarzabal", "position": "FW", "number": 21}
       ]
     },
@@ -53,16 +53,16 @@
       "manager": "Bubista",
       "starting": [
         {"name": "Vozinha", "position": "GK", "number": 1},
-        {"name": "Steven Moreira", "position": "DF", "number": null},
-        {"name": "Roberto Lopes", "position": "DF", "number": null},
-        {"name": "Diney Borges", "position": "DF", "number": null},
-        {"name": "Sidny Cabral", "position": "DF", "number": null},
-        {"name": "Kevin Pina", "position": "MF", "number": null},
-        {"name": "Jamiro Monteiro", "position": "MF", "number": null},
-        {"name": "Laros Duarte", "position": "MF", "number": null},
-        {"name": "Jovane Cabral", "position": "FW", "number": null},
-        {"name": "Ryan Mendes", "position": "FW", "number": null},
-        {"name": "Dailon Livramento", "position": "FW", "number": null}
+        {"name": "Steven Moreira", "position": "DF", "number": 22},
+        {"name": "Roberto Lopes", "position": "DF", "number": 4},
+        {"name": "Diney Borges", "position": "DF", "number": 3},
+        {"name": "Sidny Cabral", "position": "DF", "number": 13},
+        {"name": "Kevin Pina", "position": "MF", "number": 6},
+        {"name": "Jamiro Monteiro", "position": "MF", "number": 10},
+        {"name": "Laros Duarte", "position": "MF", "number": 15},
+        {"name": "Jovane Cabral", "position": "FW", "number": 7},
+        {"name": "Ryan Mendes", "position": "FW", "number": 20},
+        {"name": "Dailon Livramento", "position": "FW", "number": 19}
       ]
     }
   },

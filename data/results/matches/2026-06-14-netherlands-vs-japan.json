@@ -38,34 +38,34 @@
       "formation": "4-3-3",
       "manager": "Ronald Koeman",
       "starting": [
-        {"name": "Bart Verbruggen", "position": "GK", "number": null},
-        {"name": "Denzel Dumfries", "position": "DF", "number": null},
-        {"name": "Jan Paul van Hecke", "position": "DF", "number": null},
-        {"name": "Virgil van Dijk", "position": "DF", "number": null},
-        {"name": "Micky van de Ven", "position": "DF", "number": null},
-        {"name": "Frenkie de Jong", "position": "MF", "number": null},
-        {"name": "Ryan Gravenberch", "position": "MF", "number": null},
-        {"name": "Tijjani Reijnders", "position": "MF", "number": null},
-        {"name": "Crysencio Summerville", "position": "FW", "number": null},
-        {"name": "Cody Gakpo", "position": "FW", "number": null},
-        {"name": "Donyell Malen", "position": "FW", "number": null}
+        {"name": "Bart Verbruggen", "position": "GK", "number": 1},
+        {"name": "Denzel Dumfries", "position": "DF", "number": 22},
+        {"name": "Jan Paul van Hecke", "position": "DF", "number": 6},
+        {"name": "Virgil van Dijk", "position": "DF", "number": 4},
+        {"name": "Micky van de Ven", "position": "DF", "number": 15},
+        {"name": "Frenkie de Jong", "position": "MF", "number": 21},
+        {"name": "Ryan Gravenberch", "position": "MF", "number": 8},
+        {"name": "Tijjani Reijnders", "position": "MF", "number": 14},
+        {"name": "Crysencio Summerville", "position": "FW", "number": 24},
+        {"name": "Cody Gakpo", "position": "FW", "number": 11},
+        {"name": "Donyell Malen", "position": "FW", "number": 18}
       ]
     },
     "away": {
       "formation": "3-4-3",
       "manager": "Hajime Moriyasu",
       "starting": [
-        {"name": "Zion Suzuki", "position": "GK", "number": null},
-        {"name": "Shogo Taniguchi", "position": "DF", "number": null},
-        {"name": "Tsuyoshi Watanabe", "position": "DF", "number": null},
-        {"name": "Hiroki Ito", "position": "DF", "number": null},
-        {"name": "Ritsu Doan", "position": "MF", "number": null},
-        {"name": "Daichi Kamada", "position": "MF", "number": null},
-        {"name": "Kaishu Sano", "position": "MF", "number": null},
-        {"name": "Keito Nakamura", "position": "MF", "number": null},
-        {"name": "Daizen Maeda", "position": "FW", "number": null},
-        {"name": "Takefusa Kubo", "position": "MF", "number": null},
-        {"name": "Ayase Ueda", "position": "FW", "number": null}
+        {"name": "Zion Suzuki", "position": "GK", "number": 1},
+        {"name": "Shogo Taniguchi", "position": "DF", "number": 3},
+        {"name": "Tsuyoshi Watanabe", "position": "DF", "number": 16},
+        {"name": "Hiroki Ito", "position": "DF", "number": 21},
+        {"name": "Ritsu Doan", "position": "MF", "number": 10},
+        {"name": "Daichi Kamada", "position": "MF", "number": 15},
+        {"name": "Kaishu Sano", "position": "MF", "number": 24},
+        {"name": "Keito Nakamura", "position": "MF", "number": 13},
+        {"name": "Daizen Maeda", "position": "FW", "number": 11},
+        {"name": "Takefusa Kubo", "position": "MF", "number": 8},
+        {"name": "Ayase Ueda", "position": "FW", "number": 18}
       ]
     }
   },
