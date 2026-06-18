@@ -288,7 +288,7 @@ table.fav-rank td:last-child, table.fav-rank th:last-child {
 /* Match-detail blocks */
 .lineups { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
 ul.events { list-style: none; padding-left: 0; }
-ol.lineup { padding-left: 1.3rem; }
+ul.lineup { list-style: none; padding-left: 0; }
 ul.sources { word-break: break-all; font-size: 0.88rem; }
 
 /* Footer */

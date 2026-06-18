@@ -950,7 +950,7 @@ def render_lineup_block(detail, side_key, slug, by_slug):
         pos = f' <span class="muted">{esc(p.get("position"))}</span>' if p.get("position") else ""
         items.append(f"<li>{num}{esc(p.get('name', ''))}{pos}</li>")
     return (f"<h3>{esc(team_name(by_slug, slug))}{sub}</h3>"
-            f'<ol class="lineup">' + "".join(items) + "</ol>")
+            f'<ul class="lineup">' + "".join(items) + "</ul>")
 
 
 def render_subs_block(detail, by_slug):
