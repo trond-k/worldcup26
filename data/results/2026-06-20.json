@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-20",
+  "matches": [
+    {
+      "id": "2026-06-20-netherlands-vs-sweden",
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "netherlands",
+      "away": "sweden",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Group F matchday 2."
+    },
+    {
+      "id": "2026-06-20-germany-vs-cote-divoire",
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "germany",
+      "away": "cote-divoire",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BMO Field, Toronto",
+      "note": "Group E matchday 2."
+    },
+    {
+      "id": "2026-06-20-ecuador-vs-curacao",
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home": "ecuador",
+      "away": "curacao",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "note": "Group E matchday 2."
+    },
+    {
+      "id": "2026-06-20-tunisia-vs-japan",
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home": "tunisia",
+      "away": "japan",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio BBVA, Monterrey",
+      "note": "Group F matchday 2."
+    }
+  ]
+}

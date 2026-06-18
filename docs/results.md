@@ -1,6 +1,6 @@
 # Results
 
-_24 matches played; 24 with full detail (goals, lineups, stats)._
+_26 matches played; 24 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -12,17 +12,17 @@ _Computed from completed matches only._
 |------|---|---|---|---|----|----|----|-----|
 | Mexico | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
 | South Korea | 1 | 1 | 0 | 0 | 2 | 1 | +1 | 3 |
-| Czechia | 1 | 0 | 0 | 1 | 1 | 2 | -1 | 0 |
-| South Africa | 1 | 0 | 0 | 1 | 0 | 2 | -2 | 0 |
+| Czechia | 2 | 0 | 1 | 1 | 2 | 3 | -1 | 1 |
+| South Africa | 2 | 0 | 1 | 1 | 1 | 3 | -2 | 1 |
 
 ### Group B
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| Bosnia and Herzegovina | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Switzerland | 2 | 1 | 1 | 0 | 5 | 2 | +3 | 4 |
 | Canada | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
 | Qatar | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
-| Switzerland | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| Bosnia and Herzegovina | 2 | 0 | 1 | 1 | 2 | 5 | -3 | 1 |
 
 ### Group C
 
@@ -811,9 +811,15 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Anthony Taylor
 
 ### 2026-06-18
 
-#### Czechia vs South Africa (Group A) — _scheduled_
+#### Czechia 1–1 South Africa (Group A)
+_Mercedes-Benz Stadium, Atlanta_
 
-#### Switzerland vs Bosnia and Herzegovina (Group B) — _scheduled_
+Teboho Mokoena's 83rd-minute penalty cancelled out Michal Sadilek's early opener as South Africa snatched a 1-1 draw, leaving both sides on a point in Group A.
+
+#### Switzerland 4–1 Bosnia and Herzegovina (Group B)
+_SoFi Stadium, Inglewood_
+
+Johan Manzambi's second-half brace led Switzerland to a 4-1 win and top of Group B, with Muharemovic and Vargas also scoring; Ermin Mahmic netted a late consolation for Bosnia and Herzegovina.
 
 #### Canada vs Qatar (Group B) — _scheduled_
 
@@ -828,3 +834,13 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Anthony Taylor
 #### Brazil vs Haiti (Group C) — _scheduled_
 
 #### Türkiye vs Paraguay (Group D) — _scheduled_
+
+### 2026-06-20
+
+#### Netherlands vs Sweden (Group F) — _scheduled_
+
+#### Germany vs Côte d'Ivoire (Group E) — _scheduled_
+
+#### Ecuador vs Curaçao (Group E) — _scheduled_
+
+#### Tunisia vs Japan (Group F) — _scheduled_

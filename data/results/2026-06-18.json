@@ -8,11 +8,11 @@
       "matchday": 2,
       "home": "czechia",
       "away": "south-africa",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "note": "Group A matchday 2."
+      "note": "Teboho Mokoena's 83rd-minute penalty cancelled out Michal Sadilek's early opener as South Africa snatched a 1-1 draw, leaving both sides on a point in Group A."
     },
     {
       "id": "2026-06-18-switzerland-vs-bosnia-herzegovina",
@@ -21,11 +21,11 @@
       "matchday": 2,
       "home": "switzerland",
       "away": "bosnia-herzegovina",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "completed",
       "venue": "SoFi Stadium, Inglewood",
-      "note": "Group B matchday 2."
+      "note": "Johan Manzambi's second-half brace led Switzerland to a 4-1 win and top of Group B, with Muharemovic and Vargas also scoring; Ermin Mahmic netted a late consolation for Bosnia and Herzegovina."
     },
     {
       "id": "2026-06-18-canada-vs-qatar",
