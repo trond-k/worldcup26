@@ -1,0 +1,297 @@
+{
+  "id": "2026-06-18-canada-vs-qatar",
+  "date": "2026-06-18",
+  "home": "canada",
+  "away": "qatar",
+  "home_score": 6,
+  "away_score": 0,
+  "attendance": 52497,
+  "referee": "Cristián Garay",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760440"
+  ],
+  "goals": [
+    {
+      "team": "canada",
+      "player": "Cyle Larin",
+      "minute": "16",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "canada",
+      "player": "Jonathan David",
+      "minute": "29",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "canada",
+      "player": "Jonathan David",
+      "minute": "45+3",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "canada",
+      "player": "Nathan Saliba",
+      "minute": "64",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "canada",
+      "player": "Mohamed Manai",
+      "minute": "75",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "canada",
+      "player": "Jonathan David",
+      "minute": "90+2",
+      "type": "regular",
+      "assist": "Nathan Saliba"
+    }
+  ],
+  "cards": [
+    {
+      "team": "canada",
+      "player": "Derek Cornelius",
+      "minute": "9",
+      "card": "yellow"
+    },
+    {
+      "team": "qatar",
+      "player": "Homam Ahmed",
+      "minute": "33",
+      "card": "red"
+    },
+    {
+      "team": "qatar",
+      "player": "Assim Madibo",
+      "minute": "53",
+      "card": "red"
+    },
+    {
+      "team": "qatar",
+      "player": "Ahmed Fathy",
+      "minute": "62",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "qatar",
+      "on": "Sultan Al-Brake",
+      "off": "Yusuf Abdurisag",
+      "minute": "40"
+    },
+    {
+      "team": "qatar",
+      "on": "Ahmed Fathy",
+      "off": "Edmílson Junior",
+      "minute": "45"
+    },
+    {
+      "team": "qatar",
+      "on": "Mohamed Manai",
+      "off": "Jassem Gaber",
+      "minute": "45"
+    },
+    {
+      "team": "canada",
+      "on": "Moïse Bombito",
+      "off": "Derek Cornelius",
+      "minute": "45"
+    },
+    {
+      "team": "canada",
+      "on": "Nathan Saliba",
+      "off": "Ismaël Koné",
+      "minute": "57"
+    },
+    {
+      "team": "qatar",
+      "on": "Al-Hashmi Al-Hussain",
+      "off": "Akram Afif",
+      "minute": "59"
+    },
+    {
+      "team": "canada",
+      "on": "Jacob Shaffelburg",
+      "off": "Luc de Fougerolles",
+      "minute": "71"
+    },
+    {
+      "team": "canada",
+      "on": "Tani Oluwaseyi",
+      "off": "Ali Ahmed",
+      "minute": "71"
+    },
+    {
+      "team": "canada",
+      "on": "Niko Sigur",
+      "off": "Tajon Buchanan",
+      "minute": "83"
+    },
+    {
+      "team": "qatar",
+      "on": "Lucas Mendes",
+      "off": "Ahmed Fathy",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Jesse Marsch",
+      "starting": [
+        {
+          "name": "Maxime Crépeau",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Derek Cornelius",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Luc de Fougerolles",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Richie Laryea",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Alistair Johnston",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Stephen Eustáquio",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Ismaël Koné",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ali Ahmed",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Cyle Larin",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Jonathan David",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Julen Lopetegui",
+      "starting": [
+        {
+          "name": "Mahmoud Abunada",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Boualem Khoukhi",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Pedro Miguel",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Homam Ahmed",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Ayoub Al-Oui",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Assim Madibo",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Issa Laye",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Jassem Gaber",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Yusuf Abdurisag",
+          "position": "FW",
+          "number": 15
+        },
+        {
+          "name": "Akram Afif",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Edmílson Junior",
+          "position": "FW",
+          "number": 8
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 79,
+      "shots": 32,
+      "shots_on_target": 10,
+      "corners": 19,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 567,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 21,
+      "shots": 2,
+      "shots_on_target": 0,
+      "corners": 1,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 2,
+      "saves": 4,
+      "passes": 162,
+      "pass_accuracy": 64
+    }
+  }
+}

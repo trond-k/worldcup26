@@ -1,6 +1,6 @@
 # Results
 
-_26 matches played; 24 with full detail (goals, lineups, stats)._
+_28 matches played; 28 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -10,8 +10,8 @@ _Computed from completed matches only._
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| Mexico | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
-| South Korea | 1 | 1 | 0 | 0 | 2 | 1 | +1 | 3 |
+| Mexico | 2 | 2 | 0 | 0 | 3 | 0 | +3 | 6 |
+| South Korea | 2 | 1 | 0 | 1 | 2 | 2 | 0 | 3 |
 | Czechia | 2 | 0 | 1 | 1 | 2 | 3 | -1 | 1 |
 | South Africa | 2 | 0 | 1 | 1 | 1 | 3 | -2 | 1 |
 
@@ -19,10 +19,10 @@ _Computed from completed matches only._
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
+| Canada | 2 | 1 | 1 | 0 | 7 | 1 | +6 | 4 |
 | Switzerland | 2 | 1 | 1 | 0 | 5 | 2 | +3 | 4 |
-| Canada | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
-| Qatar | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
 | Bosnia and Herzegovina | 2 | 0 | 1 | 1 | 2 | 5 | -3 | 1 |
+| Qatar | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
 
 ### Group C
 
@@ -812,18 +812,128 @@ _Estadio Azteca, Mexico City_ · Att: 80,824 · Referee: Anthony Taylor
 ### 2026-06-18
 
 #### Czechia 1–1 South Africa (Group A)
-_Mercedes-Benz Stadium, Atlanta_
+_Mercedes-Benz Stadium, Atlanta_ · Att: 67,442 · Referee: Tori Penso
 
-Teboho Mokoena's 83rd-minute penalty cancelled out Michal Sadilek's early opener as South Africa snatched a 1-1 draw, leaving both sides on a point in Group A.
+**Goals:** 6' Michal Sadílek (Czechia); 83' Teboho Mokoena (pen) (South Africa)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Czechia** (3-5-2 — Miroslav Koubek): 1. Matej Kovár, 4. Robin Hranác, 7. Ladislav Krejcí, 3. Tomás Holes, 18. Michal Sadílek, 8. Vladimír Darida, 12. Lukás Cerv, 24. Alexandr Sojka, 5. Vladimír Coufal, 9. Adam Hlozek, 10. Patrik Schick
+
+**South Africa** (4-3-3 — Hugo Broos): 1. Ronwen Williams, 14. Mbekezeli Mbokazi, 21. Ime Okon, 6. Aubrey Modiba, 20. Khuliso Mudau, 4. Teboho Mokoena, 23. Jayden Adams, 5. Thalente Mbatha, 15. Iqraam Rayners, 7. Oswin Appollis, 12. Thapelo Maseko
+
+**Substitutions:** 45' Jayden Adams → Relebohile Mofokeng (South Africa); 55' Vladimír Darida → Pavel Sulc (Czechia); 55' Alexandr Sojka → Jaroslav Zelený (Czechia); 66' Iqraam Rayners → Evidence Makgopa (South Africa); 67' Michal Sadílek → Tomás Soucek (Czechia); 67' Adam Hlozek → Lukás Provod (Czechia); 78' Lukás Cerv → David Zima (Czechia); 84' Thapelo Maseko → Kamogelo Sebelebele (South Africa)
+
+**Cards:** 🟨 33' Teboho Mokoena (South Africa); 🟨 40' Thalente Mbatha (South Africa); 🟨 75' Ladislav Krejcí (Czechia)
+
+| Stat | Czechia | South Africa |
+|------|---|---|
+| Possession | 38% | 62% |
+| Shots | 14 | 17 |
+| Shots on target | 3 | 4 |
+| Corners | 5 | 5 |
+| Fouls | 12 | 10 |
+| Offsides | 2 | 3 |
+| Yellow cards | 1 | 2 |
+| Red cards | 0 | 0 |
+| Saves | 3 | 2 |
+| Passes | 341 | 563 |
+| Pass accuracy | 80% | 90% |
+
+</details>
 
 #### Switzerland 4–1 Bosnia and Herzegovina (Group B)
-_SoFi Stadium, Inglewood_
+_SoFi Stadium, Inglewood_ · Att: 70,026 · Referee: João Pinheiro
 
-Johan Manzambi's second-half brace led Switzerland to a 4-1 win and top of Group B, with Muharemovic and Vargas also scoring; Ermin Mahmic netted a late consolation for Bosnia and Herzegovina.
+**Goals:** 74' Johan Manzambi (Switzerland); 84' Rubén Vargas (Switzerland); 90' Johan Manzambi (Switzerland); 90+3' Ermin Mahmic (Bosnia and Herzegovina); 90+7' Granit Xhaka (pen) (Switzerland)
 
-#### Canada vs Qatar (Group B) — _scheduled_
+<details><summary>Lineups, substitutions, cards & stats</summary>
 
-#### Mexico vs South Korea (Group A) — _scheduled_
+**Switzerland** (4-3-1-2 — Murat Yakin): 1. Gregor Kobel, 5. Manuel Akanji, 4. Nico Elvedi, 13. Ricardo Rodríguez, 3. Silvan Widmer, 11. Dan Ndoye, 10. Granit Xhaka, 22. Fabian Rieder, 8. Remo Freuler, 20. Michel Aebischer, 7. Breel Embolo
+
+**Bosnia and Herzegovina** (4-4-2 — Sergej Barbarez): 1. Nikola Vasilj, 4. Tarik Muharemovic, 18. Nikola Katic, 5. Sead Kolasinac, 7. Amar Dedic, 14. Ivan Sunjic, 6. Benjamin Tahirovic, 19. Kerim Alajbegovic, 15. Amar Memic, 11. Edin Dzeko, 10. Ermedin Demirovic
+
+**Substitutions:** 63' Benjamin Tahirovic → Ivan Basic (Bosnia and Herzegovina); 64' Edin Dzeko → Esmir Bajraktarevic (Bosnia and Herzegovina); 71' Michel Aebischer → Djibril Sow (Switzerland); 71' Dan Ndoye → Johan Manzambi (Switzerland); 71' Fabian Rieder → Rubén Vargas (Switzerland); 86' Ermedin Demirovic → Jovo Lukic (Bosnia and Herzegovina); 86' Ivan Sunjic → Amir Hadziahmetovic (Bosnia and Herzegovina); 86' Silvan Widmer → Luca Jaquez (Switzerland); 89' Breel Embolo → Cedric Itten (Switzerland); 90+1' Kerim Alajbegovic → Ermin Mahmic (Bosnia and Herzegovina)
+
+**Cards:** 🟨 59' Amar Dedic (Bosnia and Herzegovina); 🟨 61' Edin Dzeko (Bosnia and Herzegovina); 🟨 65' Nico Elvedi (Switzerland); 🟥 80' Tarik Muharemovic (Bosnia and Herzegovina)
+
+| Stat | Switzerland | Bosnia and Herzegovina |
+|------|---|---|
+| Possession | 62% | 38% |
+| Shots | 13 | 5 |
+| Shots on target | 7 | 3 |
+| Corners | 7 | 3 |
+| Fouls | 7 | 18 |
+| Offsides | 3 | 1 |
+| Yellow cards | 1 | 2 |
+| Red cards | 0 | 1 |
+| Saves | 2 | 3 |
+| Passes | 586 | 354 |
+| Pass accuracy | 88% | 81% |
+
+</details>
+
+#### Canada 6–0 Qatar (Group B)
+_BC Place, Vancouver_ · Att: 52,497 · Referee: Cristián Garay
+
+**Goals:** 16' Cyle Larin (Canada); 29' Jonathan David (Canada); 45+3' Jonathan David (Canada); 64' Nathan Saliba (Canada); 75' Mohamed Manai (OG) (Canada); 90+2' Jonathan David (Canada)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Canada** (4-4-2 — Jesse Marsch): 16. Maxime Crépeau, 13. Derek Cornelius, 4. Luc de Fougerolles, 22. Richie Laryea, 2. Alistair Johnston, 7. Stephen Eustáquio, 8. Ismaël Koné, 20. Ali Ahmed, 17. Tajon Buchanan, 9. Cyle Larin, 10. Jonathan David
+
+**Qatar** (4-3-3 — Julen Lopetegui): 1. Mahmoud Abunada, 16. Boualem Khoukhi, 2. Pedro Miguel, 14. Homam Ahmed, 13. Ayoub Al-Oui, 23. Assim Madibo, 4. Issa Laye, 5. Jassem Gaber, 15. Yusuf Abdurisag, 11. Akram Afif, 8. Edmílson Junior
+
+**Substitutions:** 40' Yusuf Abdurisag → Sultan Al-Brake (Qatar); 45' Edmílson Junior → Ahmed Fathy (Qatar); 45' Jassem Gaber → Mohamed Manai (Qatar); 45' Derek Cornelius → Moïse Bombito (Canada); 57' Ismaël Koné → Nathan Saliba (Canada); 59' Akram Afif → Al-Hashmi Al-Hussain (Qatar); 71' Luc de Fougerolles → Jacob Shaffelburg (Canada); 71' Ali Ahmed → Tani Oluwaseyi (Canada); 83' Tajon Buchanan → Niko Sigur (Canada); 87' Ahmed Fathy → Lucas Mendes (Qatar)
+
+**Cards:** 🟨 9' Derek Cornelius (Canada); 🟥 33' Homam Ahmed (Qatar); 🟥 53' Assim Madibo (Qatar); 🟨 62' Ahmed Fathy (Qatar)
+
+| Stat | Canada | Qatar |
+|------|---|---|
+| Possession | 79% | 21% |
+| Shots | 32 | 2 |
+| Shots on target | 10 | 0 |
+| Corners | 19 | 1 |
+| Fouls | 9 | 10 |
+| Offsides | 1 | 1 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 2 |
+| Saves | 0 | 4 |
+| Passes | 567 | 162 |
+| Pass accuracy | 91% | 64% |
+
+</details>
+
+#### Mexico 1–0 South Korea (Group A)
+_Estadio Akron, Guadalajara_ · Att: 45,522 · Referee: Gustavo Tejera
+
+**Goals:** 50' Luis Romo (Mexico)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Mexico** (4-3-3 — Javier Aguirre): 1. Raúl Rangel, 5. Johan Vásquez, 4. Edson Álvarez, 23. Jesús Gallardo, 2. Jorge Sánchez, 6. Érik Lira, 7. Luis Romo, 26. Brian Gutiérrez, 9. Raúl Jiménez, 16. Julián Quiñones, 25. Roberto Alvarado
+
+**South Korea** (3-4-2-1 — Hong Myung-bo): 1. Kim Seung-Gyu, 4. Kim Min-Jae, 3. Lee Gi-Hyuk, 2. Lee Han-Beom, 8. Paik Seung-Ho, 6. Hwang In-Beom, 22. Seol Young-Woo, 15. Kim Moon-Hwan, 7. Son Heung-Min, 10. Lee Jae-Sung, 19. Lee Kang-In
+
+**Substitutions:** 57' Lee Jae-Sung → Hwang Hee-Chan (South Korea); 57' Son Heung-Min → Oh Hyeon-Gyu (South Korea); 71' Brian Gutiérrez → Orbelín Pineda (Mexico); 71' Luis Romo → Obed Vargas (Mexico); 71' Kim Moon-Hwan → Eom Ji-Sung (South Korea); 71' Seol Young-Woo → Yang Hyun-Jun (South Korea); 77' Paik Seung-Ho → Cho Gue-Sung (South Korea); 80' Roberto Alvarado → Israel Reyes (Mexico); 80' Raúl Jiménez → Santiago Gimenez (Mexico); 84' Julián Quiñones → César Huerta (Mexico)
+
+**Cards:** 🟨 4' Lee Kang-In (South Korea); 🟨 58' Paik Seung-Ho (South Korea)
+
+| Stat | Mexico | South Korea |
+|------|---|---|
+| Possession | 42% | 58% |
+| Shots | 8 | 9 |
+| Shots on target | 4 | 2 |
+| Corners | 1 | 2 |
+| Fouls | 9 | 7 |
+| Offsides | 3 | 6 |
+| Yellow cards | 0 | 2 |
+| Red cards | 0 | 0 |
+| Saves | 2 | 3 |
+| Passes | 427 | 578 |
+| Pass accuracy | 82% | 84% |
+
+</details>
 
 ### 2026-06-19
 

@@ -1,0 +1,250 @@
+{
+  "id": "2026-06-18-mexico-vs-south-korea",
+  "date": "2026-06-18",
+  "home": "mexico",
+  "away": "south-korea",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 45522,
+  "referee": "Gustavo Tejera",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760441"
+  ],
+  "goals": [
+    {
+      "team": "mexico",
+      "player": "Luis Romo",
+      "minute": "50",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "south-korea",
+      "player": "Lee Kang-In",
+      "minute": "4",
+      "card": "yellow"
+    },
+    {
+      "team": "south-korea",
+      "player": "Paik Seung-Ho",
+      "minute": "58",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "south-korea",
+      "on": "Hwang Hee-Chan",
+      "off": "Lee Jae-Sung",
+      "minute": "57"
+    },
+    {
+      "team": "south-korea",
+      "on": "Oh Hyeon-Gyu",
+      "off": "Son Heung-Min",
+      "minute": "57"
+    },
+    {
+      "team": "mexico",
+      "on": "Orbelín Pineda",
+      "off": "Brian Gutiérrez",
+      "minute": "71"
+    },
+    {
+      "team": "mexico",
+      "on": "Obed Vargas",
+      "off": "Luis Romo",
+      "minute": "71"
+    },
+    {
+      "team": "south-korea",
+      "on": "Eom Ji-Sung",
+      "off": "Kim Moon-Hwan",
+      "minute": "71"
+    },
+    {
+      "team": "south-korea",
+      "on": "Yang Hyun-Jun",
+      "off": "Seol Young-Woo",
+      "minute": "71"
+    },
+    {
+      "team": "south-korea",
+      "on": "Cho Gue-Sung",
+      "off": "Paik Seung-Ho",
+      "minute": "77"
+    },
+    {
+      "team": "mexico",
+      "on": "Israel Reyes",
+      "off": "Roberto Alvarado",
+      "minute": "80"
+    },
+    {
+      "team": "mexico",
+      "on": "Santiago Gimenez",
+      "off": "Raúl Jiménez",
+      "minute": "80"
+    },
+    {
+      "team": "mexico",
+      "on": "César Huerta",
+      "off": "Julián Quiñones",
+      "minute": "84"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Javier Aguirre",
+      "starting": [
+        {
+          "name": "Raúl Rangel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Johan Vásquez",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Edson Álvarez",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Jesús Gallardo",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Jorge Sánchez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Érik Lira",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Luis Romo",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Brian Gutiérrez",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Raúl Jiménez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Julián Quiñones",
+          "position": "FW",
+          "number": 16
+        },
+        {
+          "name": "Roberto Alvarado",
+          "position": "FW",
+          "number": 25
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Hong Myung-bo",
+      "starting": [
+        {
+          "name": "Kim Seung-Gyu",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Kim Min-Jae",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lee Gi-Hyuk",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Lee Han-Beom",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Paik Seung-Ho",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Hwang In-Beom",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Seol Young-Woo",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Kim Moon-Hwan",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Son Heung-Min",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Lee Jae-Sung",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Lee Kang-In",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 42,
+      "shots": 8,
+      "shots_on_target": 4,
+      "corners": 1,
+      "fouls": 9,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 427,
+      "pass_accuracy": 82
+    },
+    "away": {
+      "possession": 58,
+      "shots": 9,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 7,
+      "offsides": 6,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 578,
+      "pass_accuracy": 84
+    }
+  }
+}

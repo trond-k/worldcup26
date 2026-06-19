@@ -34,11 +34,11 @@
       "matchday": 2,
       "home": "canada",
       "away": "qatar",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 0,
+      "status": "completed",
       "venue": "BC Place, Vancouver",
-      "note": "Group B matchday 2."
+      "note": "Canada ran riot in Vancouver; Jonathan David scored a hat-trick and Cyle Larin and Nathan Saliba also netted."
     },
     {
       "id": "2026-06-18-mexico-vs-south-korea",
@@ -47,11 +47,11 @@
       "matchday": 2,
       "home": "mexico",
       "away": "south-korea",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Estadio Akron, Guadalajara",
-      "note": "Group A matchday 2."
+      "note": "A second-half strike from Luis Romo settled a tight contest and lifted Mexico in Group A."
     }
   ]
 }

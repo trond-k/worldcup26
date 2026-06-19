@@ -1,0 +1,290 @@
+{
+  "id": "2026-06-18-switzerland-vs-bosnia-herzegovina",
+  "date": "2026-06-18",
+  "home": "switzerland",
+  "away": "bosnia-herzegovina",
+  "home_score": 4,
+  "away_score": 1,
+  "attendance": 70026,
+  "referee": "João Pinheiro",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760439"
+  ],
+  "goals": [
+    {
+      "team": "switzerland",
+      "player": "Johan Manzambi",
+      "minute": "74",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "switzerland",
+      "player": "Rubén Vargas",
+      "minute": "84",
+      "type": "regular",
+      "assist": "Breel Embolo"
+    },
+    {
+      "team": "switzerland",
+      "player": "Johan Manzambi",
+      "minute": "90",
+      "type": "regular",
+      "assist": "Rubén Vargas"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Ermin Mahmic",
+      "minute": "90+3",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "switzerland",
+      "player": "Granit Xhaka",
+      "minute": "90+7",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Amar Dedic",
+      "minute": "59",
+      "card": "yellow"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Edin Dzeko",
+      "minute": "61",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Nico Elvedi",
+      "minute": "65",
+      "card": "yellow"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Tarik Muharemovic",
+      "minute": "80",
+      "card": "red"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Ivan Basic",
+      "off": "Benjamin Tahirovic",
+      "minute": "63"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Esmir Bajraktarevic",
+      "off": "Edin Dzeko",
+      "minute": "64"
+    },
+    {
+      "team": "switzerland",
+      "on": "Djibril Sow",
+      "off": "Michel Aebischer",
+      "minute": "71"
+    },
+    {
+      "team": "switzerland",
+      "on": "Johan Manzambi",
+      "off": "Dan Ndoye",
+      "minute": "71"
+    },
+    {
+      "team": "switzerland",
+      "on": "Rubén Vargas",
+      "off": "Fabian Rieder",
+      "minute": "71"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Jovo Lukic",
+      "off": "Ermedin Demirovic",
+      "minute": "86"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Amir Hadziahmetovic",
+      "off": "Ivan Sunjic",
+      "minute": "86"
+    },
+    {
+      "team": "switzerland",
+      "on": "Luca Jaquez",
+      "off": "Silvan Widmer",
+      "minute": "86"
+    },
+    {
+      "team": "switzerland",
+      "on": "Cedric Itten",
+      "off": "Breel Embolo",
+      "minute": "89"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Ermin Mahmic",
+      "off": "Kerim Alajbegovic",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-1-2",
+      "manager": "Murat Yakin",
+      "starting": [
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Silvan Widmer",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Fabian Rieder",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Sergej Barbarez",
+      "starting": [
+        {
+          "name": "Nikola Vasilj",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nikola Katic",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Sead Kolasinac",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Amar Dedic",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Ivan Sunjic",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Benjamin Tahirovic",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Kerim Alajbegovic",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Amar Memic",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Edin Dzeko",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 62,
+      "shots": 13,
+      "shots_on_target": 7,
+      "corners": 7,
+      "fouls": 7,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 586,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 38,
+      "shots": 5,
+      "shots_on_target": 3,
+      "corners": 3,
+      "fouls": 18,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "saves": 3,
+      "passes": 354,
+      "pass_accuracy": 81
+    }
+  }
+}

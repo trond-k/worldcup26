@@ -1,0 +1,251 @@
+{
+  "id": "2026-06-18-czechia-vs-south-africa",
+  "date": "2026-06-18",
+  "home": "czechia",
+  "away": "south-africa",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 67442,
+  "referee": "Tori Penso",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760438"
+  ],
+  "goals": [
+    {
+      "team": "czechia",
+      "player": "Michal Sadílek",
+      "minute": "6",
+      "type": "regular",
+      "assist": "Alexandr Sojka"
+    },
+    {
+      "team": "south-africa",
+      "player": "Teboho Mokoena",
+      "minute": "83",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "south-africa",
+      "player": "Teboho Mokoena",
+      "minute": "33",
+      "card": "yellow"
+    },
+    {
+      "team": "south-africa",
+      "player": "Thalente Mbatha",
+      "minute": "40",
+      "card": "yellow"
+    },
+    {
+      "team": "czechia",
+      "player": "Ladislav Krejcí",
+      "minute": "75",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "south-africa",
+      "on": "Relebohile Mofokeng",
+      "off": "Jayden Adams",
+      "minute": "45"
+    },
+    {
+      "team": "czechia",
+      "on": "Pavel Sulc",
+      "off": "Vladimír Darida",
+      "minute": "55"
+    },
+    {
+      "team": "czechia",
+      "on": "Jaroslav Zelený",
+      "off": "Alexandr Sojka",
+      "minute": "55"
+    },
+    {
+      "team": "south-africa",
+      "on": "Evidence Makgopa",
+      "off": "Iqraam Rayners",
+      "minute": "66"
+    },
+    {
+      "team": "czechia",
+      "on": "Tomás Soucek",
+      "off": "Michal Sadílek",
+      "minute": "67"
+    },
+    {
+      "team": "czechia",
+      "on": "Lukás Provod",
+      "off": "Adam Hlozek",
+      "minute": "67"
+    },
+    {
+      "team": "czechia",
+      "on": "David Zima",
+      "off": "Lukás Cerv",
+      "minute": "78"
+    },
+    {
+      "team": "south-africa",
+      "on": "Kamogelo Sebelebele",
+      "off": "Thapelo Maseko",
+      "minute": "84"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-5-2",
+      "manager": "Miroslav Koubek",
+      "starting": [
+        {
+          "name": "Matej Kovár",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Robin Hranác",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ladislav Krejcí",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Tomás Holes",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Michal Sadílek",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Vladimír Darida",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Lukás Cerv",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Alexandr Sojka",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Vladimír Coufal",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Adam Hlozek",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Patrik Schick",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Hugo Broos",
+      "starting": [
+        {
+          "name": "Ronwen Williams",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Mbekezeli Mbokazi",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Ime Okon",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Aubrey Modiba",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Khuliso Mudau",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Teboho Mokoena",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Jayden Adams",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Thalente Mbatha",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Iqraam Rayners",
+          "position": "FW",
+          "number": 15
+        },
+        {
+          "name": "Oswin Appollis",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Thapelo Maseko",
+          "position": "FW",
+          "number": 12
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 38,
+      "shots": 14,
+      "shots_on_target": 3,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 341,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 62,
+      "shots": 17,
+      "shots_on_target": 4,
+      "corners": 5,
+      "fouls": 10,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 563,
+      "pass_accuracy": 90
+    }
+  }
+}
