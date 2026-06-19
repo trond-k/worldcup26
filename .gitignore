@@ -8,5 +8,10 @@ __pycache__/
 # poll_ready.py settle-timer stamps
 scripts/.poll-*.stamp
 
+# Secrets / local env (API keys) — never commit
+.env
+*.env
+scripts/.env
+
 # macOS
 .DS_Store
