@@ -1,6 +1,6 @@
 # Results
 
-_32 matches played; 28 with full detail (goals, lineups, stats)._
+_32 matches played; 32 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -938,24 +938,128 @@ _Estadio Akron, Guadalajara_ · Att: 45,522 · Referee: Gustavo Tejera
 ### 2026-06-19
 
 #### United States 2–0 Australia (Group D)
-_Lumen Field, Seattle_
+_Lumen Field, Seattle_ · Att: 66,925 · Referee: Felix Zwayer
 
-The United States beat Australia 2-0 in Seattle to clinch a place in the knockout rounds and take command of Group D.
+**Goals:** 11' Cameron Burgess (OG) (United States); 43' Alex Freeman (United States)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**United States** (3-5-2 — Mauricio Pochettino): 24. Matt Freese, 3. Chris Richards, 13. Tim Ream, 16. Alex Freeman, 17. Malik Tillman, 8. Weston McKennie, 4. Tyler Adams, 5. Antonee Robinson, 2. Sergiño Dest, 9. Ricardo Pepi, 20. Folarin Balogun
+
+**Australia** (5-4-1 — Tony Popovic): 18. Patrick Beach, 19. Harry Souttar, 21. Cameron Burgess, 3. Alessandro Circati, 5. Jordan Bos, 4. Jacob Italiano, 24. Paul Okon-Engstler, 13. Aiden O'Neill, 23. Nishan Velupillay, 7. Mathew Leckie, 9. Mohamed Toure
+
+**Substitutions:** 45' Cameron Burgess → Jason Geria (Australia); 45' Nishan Velupillay → Connor Metcalfe (Australia); 45' Mohamed Toure → Nestory Irankunda (Australia); 61' Mathew Leckie → Cristian Volpato (Australia); 74' Ricardo Pepi → Sebastian Berhalter (United States); 78' Paul Okon-Engstler → Jackson Irvine (Australia); 80' Sergiño Dest → Joe Scally (United States); 80' Antonee Robinson → Auston Trusty (United States); 90+6' Folarin Balogun → Haji Wright (United States); 90+6' Weston McKennie → Giovanni Reyna (United States)
+
+**Cards:** 🟨 16' Jordan Bos (Australia); 🟨 32' Alessandro Circati (Australia); 🟨 56' Antonee Robinson (United States); 🟨 88' Harry Souttar (Australia); 🟨 89' Folarin Balogun (United States); 🟨 89' Jacob Italiano (Australia); 🟨 90+3' Chris Richards (United States)
+
+| Stat | United States | Australia |
+|------|---|---|
+| Possession | 62% | 38% |
+| Shots | 10 | 5 |
+| Shots on target | 2 | 2 |
+| Corners | 7 | 4 |
+| Fouls | 12 | 16 |
+| Offsides | 1 | 0 |
+| Yellow cards | 3 | 4 |
+| Red cards | 0 | 0 |
+| Saves | 2 | 1 |
+| Passes | 523 | 310 |
+| Pass accuracy | 85% | 71% |
+
+</details>
 
 #### Scotland 0–1 Morocco (Group C)
-_Gillette Stadium, Foxborough_
+_Gillette Stadium, Foxborough_ · Att: 64,146 · Referee: Ilgiz Tantashev
 
-Ismael Saibari struck after just 72 seconds — the fastest goal of the tournament so far — as Morocco edged Scotland 1-0 in Foxborough.
+**Goals:** 2' Ismael Saibari (Morocco)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Scotland** (4-4-1-1 — Steve Clarke): 1. Angus Gunn, 13. Jack Hendry, 5. Grant Hanley, 3. Andy Robertson, 22. Nathan Patterson, 19. Lewis Ferguson, 11. Ryan Christie, 6. Kieran Tierney, 7. John McGinn, 10. Ché Adams, 4. Scott McTominay
+
+**Morocco** (4-2-3-1 — Mohamed Ouahbi): 1. Yassine Bounou, 18. Chadi Riad, 14. Issa Diop, 3. Noussair Mazraoui, 2. Achraf Hakimi, 8. Azzedine Ounahi, 24. Neil El Aynaoui, 6. Ayyoub Bouaddi, 11. Ismael Saibari, 23. Bilal El Khannouss, 10. Brahim Díaz
+
+**Substitutions:** 60' Kieran Tierney → Ben Gannon-Doak (Scotland); 71' Ché Adams → Lyndon Dykes (Scotland); 71' Ryan Christie → Kenny McLean (Scotland); 84' Ismael Saibari → Soufiane Rahimi (Morocco); 84' Bilal El Khannouss → Chemsdine Talbi (Morocco); 84' Brahim Díaz → Ayoube Amaimouni (Morocco); 89' Nathan Patterson → Anthony Ralston (Scotland); 89' John McGinn → Ross Stewart (Scotland); 90' Azzedine Ounahi → Samir El Mourabet (Morocco)
+
+**Cards:** 🟨 23' Issa Diop (Morocco); 🟨 65' Andy Robertson (Scotland)
+
+| Stat | Scotland | Morocco |
+|------|---|---|
+| Possession | 41% | 59% |
+| Shots | 6 | 12 |
+| Shots on target | 0 | 2 |
+| Corners | 2 | 5 |
+| Fouls | 11 | 8 |
+| Offsides | 1 | 0 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 0 |
+| Saves | 1 | 0 |
+| Passes | 456 | 670 |
+| Pass accuracy | 85% | 90% |
+
+</details>
 
 #### Brazil 3–0 Haiti (Group C)
-_Lincoln Financial Field, Philadelphia_
+_Lincoln Financial Field, Philadelphia_ · Att: 68,324 · Referee: Alejandro José Hernández Hernández
 
-Matheus Cunha's first-half brace and a Vinicius Junior strike earned Brazil a 3-0 win — their first of the tournament — that eliminated Haiti.
+**Goals:** 23' Matheus Cunha (Brazil); 36' Matheus Cunha (Brazil); 45+3' Vinícius Júnior (Brazil)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Brazil** (4-3-3 — Carlo Ancelotti): 1. Alisson Becker, 3. Gabriel Magalhães, 4. Marquinhos, 16. Douglas Santos, 13. Danilo, 5. Casemiro, 20. Lucas Paquetá, 8. Bruno Guimarães, 9. Matheus Cunha, 7. Vinícius Júnior, 11. Raphinha
+
+**Haiti** (5-4-1 — Sébastien Migné): 1. Johny Placide, 4. Ricardo Adé, 5. Hannes Delcroix, 22. Jean-Kévin Duverne, 8. Martin Expérience, 2. Carlens Arcus, 10. Jean-Ricner Bellegarde, 17. Danley Jean Jacques, 15. Ruben Providence, 21. Josué Casimir, 20. Frantzdy Pierrot
+
+**Substitutions:** 40' Raphinha → Rayan (Brazil); 45' Carlens Arcus → Dominique Simon (Haiti); 45' Frantzdy Pierrot → Wilson Isidor (Haiti); 62' Josué Casimir → Louicius Deedson (Haiti); 64' Lucas Paquetá → Gabriel Martinelli (Brazil); 64' Matheus Cunha → Endrick (Brazil); 71' Ruben Providence → Lenny Joseph (Haiti); 81' Vinícius Júnior → Danilo Santos (Brazil); 81' Bruno Guimarães → Éderson (Brazil); 81' Jean-Ricner Bellegarde → Derrick Etienne Jr. (Haiti)
+
+**Cards:** 🟨 4' Carlens Arcus (Haiti); 🟨 45+4' Frantzdy Pierrot (Haiti); 🟨 65' Douglas Santos (Brazil); 🟨 72' Danley Jean Jacques (Haiti)
+
+| Stat | Brazil | Haiti |
+|------|---|---|
+| Possession | 57% | 43% |
+| Shots | 8 | 7 |
+| Shots on target | 5 | 3 |
+| Corners | 4 | 4 |
+| Fouls | 13 | 14 |
+| Offsides | 8 | 4 |
+| Yellow cards | 1 | 3 |
+| Red cards | 0 | 0 |
+| Saves | 3 | 2 |
+| Passes | 525 | 399 |
+| Pass accuracy | 88% | 83% |
+
+</details>
 
 #### Türkiye 0–1 Paraguay (Group D)
-_Levi's Stadium, Santa Clara_
+_Levi's Stadium, Santa Clara_ · Att: 68,827 · Referee: Iván Arcides Barton Cisneros
 
-Matías Galarza's early strike gave Paraguay a 1-0 win that knocked Türkiye out, the South Americans holding on after Miguel Almirón was sent off.
+**Goals:** 2' Matías Galarza (Paraguay)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Türkiye** (4-2-3-1 — Vincenzo Montella): 23. Ugurcan Çakir, 14. Abdülkerim Bardakçi, 3. Merih Demiral, 20. Ferdi Kadioglu, 18. Mert Müldür, 8. Arda Güler, 16. Ismail Yüksek, 10. Hakan Çalhanoglu, 7. Kerem Aktürkoglu, 11. Kenan Yildiz, 19. Yunus Akgün
+
+**Paraguay** (4-4-2 — Gustavo Alfaro): 12. Orlando Gil, 3. Omar Alderete, 15. Gustavo Gómez, 6. Júnior Alonso, 4. Juan Jose Cáceres, 8. Diego Gómez, 14. Andrés Cubas, 23. Matías Galarza, 10. Miguel Almirón, 19. Julio Enciso, 25. Isidro Pitta
+
+**Substitutions:** 45' Isidro Pitta → Damián Bobadilla (Paraguay); 45' Kerem Aktürkoglu → Baris Alper Yilmaz (Türkiye); 60' Ismail Yüksek → Can Uzun (Türkiye); 60' Yunus Akgün → Deniz Gül (Türkiye); 67' Diego Gómez → Gustavo Velázquez (Paraguay); 70' Ferdi Kadioglu → Eren Elmali (Türkiye); 81' Juan Jose Cáceres → Alexandro Maidana (Paraguay); 86' Abdülkerim Bardakçi → Orkun Kökçü (Türkiye); 90+2' Julio Enciso → Gabriel Ávalos (Paraguay); 90+2' Matías Galarza → José Canale (Paraguay)
+
+**Cards:** 🟨 4' Matías Galarza (Paraguay); 🟥 45+3' Miguel Almirón (Paraguay); 🟨 71' Eren Elmali (Türkiye)
+
+| Stat | Türkiye | Paraguay |
+|------|---|---|
+| Possession | 78% | 22% |
+| Shots | 32 | 7 |
+| Shots on target | 5 | 2 |
+| Corners | 12 | 0 |
+| Fouls | 14 | 15 |
+| Offsides | 2 | 3 |
+| Yellow cards | 1 | 1 |
+| Red cards | 0 | 1 |
+| Saves | 1 | 5 |
+| Passes | 629 | 178 |
+| Pass accuracy | 89% | 54% |
+
+</details>
 
 ### 2026-06-20
 

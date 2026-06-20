@@ -8,9 +8,16 @@ signals FIRE for the day:
 
     python3 scripts/poll_ready.py --date 20260617 && python3 scripts/harvest.py --date 20260617
 
-It reads the day file data/results/<YYYY-MM-DD>.json as the fixture list +
-score authority, matches each fixture to an ESPN event, and writes one
-match-detail file per completed match.
+It reads the day file data/results/<YYYY-MM-DD>.json as the fixture list,
+matches each fixture to an ESPN event, writes one match-detail file per
+completed match, and -- unless --no-scores is given -- writes the
+authoritative final score and status="completed" back into the day file. So
+ESPN is the single source of truth for both detail and scores: no separate
+manual score entry, and the two can never drift apart. The write-back is
+surgical (only the three score/status fields on the matched fixture) and
+idempotent; every hand-maintained field (group, venue, note...) is preserved.
+A genuine ESPN/day-file score disagreement is reported, not silently applied
+without notice.
 
 ESPN coverage (verified 2026-06): lineups w/ shirt numbers + formation,
 ~28 team stats, minute-stamped goals/cards/subs. Two gaps, both handled
@@ -289,6 +296,8 @@ def main():
     ap.add_argument("--date", required=True, help="YYYYMMDD or YYYY-MM-DD")
     ap.add_argument("--dry-run", action="store_true",
                     help="Build and validate in memory; don't write files.")
+    ap.add_argument("--no-scores", action="store_true",
+                    help="Build detail only; don't write scores/status back to day files.")
     args = ap.parse_args()
 
     iso = args.date if "-" in args.date else \
@@ -302,12 +311,16 @@ def main():
     from datetime import date, timedelta
     y, mo, da = int(iso[:4]), int(iso[5:7]), int(iso[8:])
     fixtures = {}
+    day_files = {}  # d_iso -> {"path", "data", "dirty"}; lets us write scores back
     for delta in (-1, 0, 1):
         d_iso = (date(y, mo, da) + timedelta(days=delta)).isoformat()
         df = RESULTS_DIR / f"{d_iso}.json"
         if not df.exists():
             continue
-        for m in json.loads(df.read_text())["matches"]:
+        data = json.loads(df.read_text())
+        day_files[d_iso] = {"path": df, "data": data, "dirty": False}
+        for m in data["matches"]:
+            # 'date'/'_eid' are transient working keys, stripped before write-back.
             m["date"] = d_iso
             fixtures.setdefault(frozenset((m["home"], m["away"])), m)
     if not fixtures:
@@ -317,7 +330,7 @@ def main():
     by_key, coach = load_team_index()
     board = get(SCOREBOARD.format(date=compact))
 
-    written, problems, skipped = 0, [], []
+    written, problems, skipped, corrections = 0, [], [], []
     for e in board.get("events", []):
         comp = e["competitions"][0]
         slugs = [resolve_slug(c["team"]["displayName"], by_key)
@@ -344,11 +357,46 @@ def main():
             print(f"wrote {out.relative_to(ROOT)}")
         written += 1
 
+        # Single-writer: push ESPN's authoritative final score + status back into
+        # the day file. fx is the same dict held in day_files[...]["data"], so
+        # mutating it here updates that loaded day file in place.
+        if not args.no_scores:
+            new_h, new_a = detail["home_score"], detail["away_score"]
+            old_h, old_a = fx.get("home_score"), fx.get("away_score")
+            if old_h is not None and old_a is not None and (old_h, old_a) != (new_h, new_a):
+                corrections.append(
+                    f"{fx['id']}: day-file score {old_h}-{old_a} -> ESPN {new_h}-{new_a}")
+            if (old_h, old_a, fx.get("status")) != (new_h, new_a, "completed"):
+                fx["home_score"], fx["away_score"], fx["status"] = new_h, new_a, "completed"
+                day = day_files.get(fx["date"])
+                if day:
+                    day["dirty"] = True
+
+    day_updates = 0
+    if not args.no_scores:
+        for day in day_files.values():
+            if not day["dirty"]:
+                continue
+            if args.dry_run:
+                print(f"[dry-run] would update {day['path'].relative_to(ROOT)} "
+                      "(scores/status)")
+            else:
+                for m in day["data"]["matches"]:
+                    m.pop("date", None)   # transient working keys, not part of
+                    m.pop("_eid", None)   # the day-file schema
+                day["path"].write_text(
+                    json.dumps(day["data"], ensure_ascii=False, indent=2) + "\n")
+                print(f"updated {day['path'].relative_to(ROOT)} (scores/status)")
+            day_updates += 1
+
     for s in skipped:
         print("  . " + s + "; skipped")
+    for c in corrections:
+        print("  ~ " + c, file=sys.stderr)
     for p in problems:
         print("  ! " + p, file=sys.stderr)
     print(f"{'validated' if args.dry_run else 'wrote'} {written} match file(s); "
+          f"{day_updates} day file(s) updated; "
           f"{len(skipped)} not-final skipped; {len(problems)} issue(s)")
     return 1 if problems else 0  # in-progress skips are NOT failures
 

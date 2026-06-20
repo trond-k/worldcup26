@@ -1,0 +1,276 @@
+{
+  "id": "2026-06-19-brazil-vs-haiti",
+  "date": "2026-06-19",
+  "home": "brazil",
+  "away": "haiti",
+  "home_score": 3,
+  "away_score": 0,
+  "attendance": 68324,
+  "referee": "Alejandro José Hernández Hernández",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760444"
+  ],
+  "goals": [
+    {
+      "team": "brazil",
+      "player": "Matheus Cunha",
+      "minute": "23",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "brazil",
+      "player": "Matheus Cunha",
+      "minute": "36",
+      "type": "regular",
+      "assist": "Vinícius Júnior"
+    },
+    {
+      "team": "brazil",
+      "player": "Vinícius Júnior",
+      "minute": "45+3",
+      "type": "regular",
+      "assist": "Lucas Paquetá"
+    }
+  ],
+  "cards": [
+    {
+      "team": "haiti",
+      "player": "Carlens Arcus",
+      "minute": "4",
+      "card": "yellow"
+    },
+    {
+      "team": "haiti",
+      "player": "Frantzdy Pierrot",
+      "minute": "45+4",
+      "card": "yellow"
+    },
+    {
+      "team": "brazil",
+      "player": "Douglas Santos",
+      "minute": "65",
+      "card": "yellow"
+    },
+    {
+      "team": "haiti",
+      "player": "Danley Jean Jacques",
+      "minute": "72",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "brazil",
+      "on": "Rayan",
+      "off": "Raphinha",
+      "minute": "40"
+    },
+    {
+      "team": "haiti",
+      "on": "Dominique Simon",
+      "off": "Carlens Arcus",
+      "minute": "45"
+    },
+    {
+      "team": "haiti",
+      "on": "Wilson Isidor",
+      "off": "Frantzdy Pierrot",
+      "minute": "45"
+    },
+    {
+      "team": "haiti",
+      "on": "Louicius Deedson",
+      "off": "Josué Casimir",
+      "minute": "62"
+    },
+    {
+      "team": "brazil",
+      "on": "Gabriel Martinelli",
+      "off": "Lucas Paquetá",
+      "minute": "64"
+    },
+    {
+      "team": "brazil",
+      "on": "Endrick",
+      "off": "Matheus Cunha",
+      "minute": "64"
+    },
+    {
+      "team": "haiti",
+      "on": "Lenny Joseph",
+      "off": "Ruben Providence",
+      "minute": "71"
+    },
+    {
+      "team": "brazil",
+      "on": "Danilo Santos",
+      "off": "Vinícius Júnior",
+      "minute": "81"
+    },
+    {
+      "team": "brazil",
+      "on": "Éderson",
+      "off": "Bruno Guimarães",
+      "minute": "81"
+    },
+    {
+      "team": "haiti",
+      "on": "Derrick Etienne Jr.",
+      "off": "Jean-Ricner Bellegarde",
+      "minute": "81"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Carlo Ancelotti",
+      "starting": [
+        {
+          "name": "Alisson Becker",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marquinhos",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Douglas Santos",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Danilo",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Casemiro",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Lucas Paquetá",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Matheus Cunha",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Vinícius Júnior",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Raphinha",
+          "position": "FW",
+          "number": 11
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Sébastien Migné",
+      "starting": [
+        {
+          "name": "Johny Placide",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Ricardo Adé",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Hannes Delcroix",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Jean-Kévin Duverne",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Martin Expérience",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jean-Ricner Bellegarde",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Danley Jean Jacques",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Ruben Providence",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Josué Casimir",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Frantzdy Pierrot",
+          "position": "FW",
+          "number": 20
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 57,
+      "shots": 8,
+      "shots_on_target": 5,
+      "corners": 4,
+      "fouls": 13,
+      "offsides": 8,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 525,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 43,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 4,
+      "fouls": 14,
+      "offsides": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 399,
+      "pass_accuracy": 83
+    }
+  }
+}

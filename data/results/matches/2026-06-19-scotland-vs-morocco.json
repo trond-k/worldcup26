@@ -1,0 +1,244 @@
+{
+  "id": "2026-06-19-scotland-vs-morocco",
+  "date": "2026-06-19",
+  "home": "scotland",
+  "away": "morocco",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 64146,
+  "referee": "Ilgiz Tantashev",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760445"
+  ],
+  "goals": [
+    {
+      "team": "morocco",
+      "player": "Ismael Saibari",
+      "minute": "2",
+      "type": "regular",
+      "assist": "Brahim Díaz"
+    }
+  ],
+  "cards": [
+    {
+      "team": "morocco",
+      "player": "Issa Diop",
+      "minute": "23",
+      "card": "yellow"
+    },
+    {
+      "team": "scotland",
+      "player": "Andy Robertson",
+      "minute": "65",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "scotland",
+      "on": "Ben Gannon-Doak",
+      "off": "Kieran Tierney",
+      "minute": "60"
+    },
+    {
+      "team": "scotland",
+      "on": "Lyndon Dykes",
+      "off": "Ché Adams",
+      "minute": "71"
+    },
+    {
+      "team": "scotland",
+      "on": "Kenny McLean",
+      "off": "Ryan Christie",
+      "minute": "71"
+    },
+    {
+      "team": "morocco",
+      "on": "Soufiane Rahimi",
+      "off": "Ismael Saibari",
+      "minute": "84"
+    },
+    {
+      "team": "morocco",
+      "on": "Chemsdine Talbi",
+      "off": "Bilal El Khannouss",
+      "minute": "84"
+    },
+    {
+      "team": "morocco",
+      "on": "Ayoube Amaimouni",
+      "off": "Brahim Díaz",
+      "minute": "84"
+    },
+    {
+      "team": "scotland",
+      "on": "Anthony Ralston",
+      "off": "Nathan Patterson",
+      "minute": "89"
+    },
+    {
+      "team": "scotland",
+      "on": "Ross Stewart",
+      "off": "John McGinn",
+      "minute": "89"
+    },
+    {
+      "team": "morocco",
+      "on": "Samir El Mourabet",
+      "off": "Azzedine Ounahi",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-1-1",
+      "manager": "Steve Clarke",
+      "starting": [
+        {
+          "name": "Angus Gunn",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Jack Hendry",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Grant Hanley",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Andy Robertson",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nathan Patterson",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Ryan Christie",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Kieran Tierney",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "John McGinn",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Ché Adams",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "FW",
+          "number": 4
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Chadi Riad",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Issa Diop",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 41,
+      "shots": 6,
+      "shots_on_target": 0,
+      "corners": 2,
+      "fouls": 11,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 456,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": 59,
+      "shots": 12,
+      "shots_on_target": 2,
+      "corners": 5,
+      "fouls": 8,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 670,
+      "pass_accuracy": 90
+    }
+  }
+}

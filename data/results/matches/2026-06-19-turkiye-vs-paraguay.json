@@ -1,0 +1,256 @@
+{
+  "id": "2026-06-19-turkiye-vs-paraguay",
+  "date": "2026-06-19",
+  "home": "turkiye",
+  "away": "paraguay",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 68827,
+  "referee": "Iván Arcides Barton Cisneros",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760443"
+  ],
+  "goals": [
+    {
+      "team": "paraguay",
+      "player": "Matías Galarza",
+      "minute": "2",
+      "type": "regular",
+      "assist": "Julio Enciso"
+    }
+  ],
+  "cards": [
+    {
+      "team": "paraguay",
+      "player": "Matías Galarza",
+      "minute": "4",
+      "card": "yellow"
+    },
+    {
+      "team": "paraguay",
+      "player": "Miguel Almirón",
+      "minute": "45+3",
+      "card": "red"
+    },
+    {
+      "team": "turkiye",
+      "player": "Eren Elmali",
+      "minute": "71",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "paraguay",
+      "on": "Damián Bobadilla",
+      "off": "Isidro Pitta",
+      "minute": "45"
+    },
+    {
+      "team": "turkiye",
+      "on": "Baris Alper Yilmaz",
+      "off": "Kerem Aktürkoglu",
+      "minute": "45"
+    },
+    {
+      "team": "turkiye",
+      "on": "Can Uzun",
+      "off": "Ismail Yüksek",
+      "minute": "60"
+    },
+    {
+      "team": "turkiye",
+      "on": "Deniz Gül",
+      "off": "Yunus Akgün",
+      "minute": "60"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gustavo Velázquez",
+      "off": "Diego Gómez",
+      "minute": "67"
+    },
+    {
+      "team": "turkiye",
+      "on": "Eren Elmali",
+      "off": "Ferdi Kadioglu",
+      "minute": "70"
+    },
+    {
+      "team": "paraguay",
+      "on": "Alexandro Maidana",
+      "off": "Juan Jose Cáceres",
+      "minute": "81"
+    },
+    {
+      "team": "turkiye",
+      "on": "Orkun Kökçü",
+      "off": "Abdülkerim Bardakçi",
+      "minute": "86"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gabriel Ávalos",
+      "off": "Julio Enciso",
+      "minute": "90+2"
+    },
+    {
+      "team": "paraguay",
+      "on": "José Canale",
+      "off": "Matías Galarza",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Vincenzo Montella",
+      "starting": [
+        {
+          "name": "Ugurcan Çakir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Abdülkerim Bardakçi",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Merih Demiral",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Ferdi Kadioglu",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Mert Müldür",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Arda Güler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ismail Yüksek",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Hakan Çalhanoglu",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Kerem Aktürkoglu",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Yunus Akgün",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Gustavo Alfaro",
+      "starting": [
+        {
+          "name": "Orlando Gil",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gustavo Gómez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Júnior Alonso",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Juan Jose Cáceres",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Diego Gómez",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Andrés Cubas",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Matías Galarza",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Miguel Almirón",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Isidro Pitta",
+          "position": "FW",
+          "number": 25
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 78,
+      "shots": 32,
+      "shots_on_target": 5,
+      "corners": 12,
+      "fouls": 14,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 629,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 22,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 0,
+      "fouls": 15,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "saves": 5,
+      "passes": 178,
+      "pass_accuracy": 54
+    }
+  }
+}

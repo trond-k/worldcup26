@@ -1,0 +1,287 @@
+{
+  "id": "2026-06-19-usa-vs-australia",
+  "date": "2026-06-19",
+  "home": "usa",
+  "away": "australia",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 66925,
+  "referee": "Felix Zwayer",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760442"
+  ],
+  "goals": [
+    {
+      "team": "usa",
+      "player": "Cameron Burgess",
+      "minute": "11",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "usa",
+      "player": "Alex Freeman",
+      "minute": "43",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "australia",
+      "player": "Jordan Bos",
+      "minute": "16",
+      "card": "yellow"
+    },
+    {
+      "team": "australia",
+      "player": "Alessandro Circati",
+      "minute": "32",
+      "card": "yellow"
+    },
+    {
+      "team": "usa",
+      "player": "Antonee Robinson",
+      "minute": "56",
+      "card": "yellow"
+    },
+    {
+      "team": "australia",
+      "player": "Harry Souttar",
+      "minute": "88",
+      "card": "yellow"
+    },
+    {
+      "team": "usa",
+      "player": "Folarin Balogun",
+      "minute": "89",
+      "card": "yellow"
+    },
+    {
+      "team": "australia",
+      "player": "Jacob Italiano",
+      "minute": "89",
+      "card": "yellow"
+    },
+    {
+      "team": "usa",
+      "player": "Chris Richards",
+      "minute": "90+3",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "australia",
+      "on": "Jason Geria",
+      "off": "Cameron Burgess",
+      "minute": "45"
+    },
+    {
+      "team": "australia",
+      "on": "Connor Metcalfe",
+      "off": "Nishan Velupillay",
+      "minute": "45"
+    },
+    {
+      "team": "australia",
+      "on": "Nestory Irankunda",
+      "off": "Mohamed Toure",
+      "minute": "45"
+    },
+    {
+      "team": "australia",
+      "on": "Cristian Volpato",
+      "off": "Mathew Leckie",
+      "minute": "61"
+    },
+    {
+      "team": "usa",
+      "on": "Sebastian Berhalter",
+      "off": "Ricardo Pepi",
+      "minute": "74"
+    },
+    {
+      "team": "australia",
+      "on": "Jackson Irvine",
+      "off": "Paul Okon-Engstler",
+      "minute": "78"
+    },
+    {
+      "team": "usa",
+      "on": "Joe Scally",
+      "off": "Sergiño Dest",
+      "minute": "80"
+    },
+    {
+      "team": "usa",
+      "on": "Auston Trusty",
+      "off": "Antonee Robinson",
+      "minute": "80"
+    },
+    {
+      "team": "usa",
+      "on": "Haji Wright",
+      "off": "Folarin Balogun",
+      "minute": "90+6"
+    },
+    {
+      "team": "usa",
+      "on": "Giovanni Reyna",
+      "off": "Weston McKennie",
+      "minute": "90+6"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-5-2",
+      "manager": "Mauricio Pochettino",
+      "starting": [
+        {
+          "name": "Matt Freese",
+          "position": "GK",
+          "number": 24
+        },
+        {
+          "name": "Chris Richards",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Tim Ream",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Malik Tillman",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Tyler Adams",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Sergiño Dest",
+          "position": "MF",
+          "number": 2
+        },
+        {
+          "name": "Ricardo Pepi",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Folarin Balogun",
+          "position": "FW",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Tony Popovic",
+      "starting": [
+        {
+          "name": "Patrick Beach",
+          "position": "GK",
+          "number": 18
+        },
+        {
+          "name": "Harry Souttar",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Cameron Burgess",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jordan Bos",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Jacob Italiano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Aiden O'Neill",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Nishan Velupillay",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Mathew Leckie",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Mohamed Toure",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 62,
+      "shots": 10,
+      "shots_on_target": 2,
+      "corners": 7,
+      "fouls": 12,
+      "offsides": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 523,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": 38,
+      "shots": 5,
+      "shots_on_target": 2,
+      "corners": 4,
+      "fouls": 16,
+      "offsides": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 310,
+      "pass_accuracy": 71
+    }
+  }
+}
