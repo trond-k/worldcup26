@@ -8,11 +8,11 @@
       "matchday": 2,
       "home": "usa",
       "away": "australia",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Lumen Field, Seattle",
-      "note": "Group D matchday 2."
+      "note": "The United States beat Australia 2-0 in Seattle to clinch a place in the knockout rounds and take command of Group D."
     },
     {
       "id": "2026-06-19-scotland-vs-morocco",
@@ -21,11 +21,11 @@
       "matchday": 2,
       "home": "scotland",
       "away": "morocco",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Gillette Stadium, Foxborough",
-      "note": "Group C matchday 2."
+      "note": "Ismael Saibari struck after just 72 seconds — the fastest goal of the tournament so far — as Morocco edged Scotland 1-0 in Foxborough."
     },
     {
       "id": "2026-06-19-brazil-vs-haiti",
@@ -34,11 +34,11 @@
       "matchday": 2,
       "home": "brazil",
       "away": "haiti",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Lincoln Financial Field, Philadelphia",
-      "note": "Group C matchday 2."
+      "note": "Matheus Cunha's first-half brace and a Vinicius Junior strike earned Brazil a 3-0 win — their first of the tournament — that eliminated Haiti."
     },
     {
       "id": "2026-06-19-turkiye-vs-paraguay",
@@ -47,11 +47,11 @@
       "matchday": 2,
       "home": "turkiye",
       "away": "paraguay",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Levi's Stadium, Santa Clara",
-      "note": "Group D matchday 2."
+      "note": "Matías Galarza's early strike gave Paraguay a 1-0 win that knocked Türkiye out, the South Americans holding on after Miguel Almirón was sent off."
     }
   ]
 }

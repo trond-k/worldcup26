@@ -1,6 +1,6 @@
 # Results
 
-_28 matches played; 28 with full detail (goals, lineups, stats)._
+_32 matches played; 28 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -28,19 +28,19 @@ _Computed from completed matches only._
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| Scotland | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
-| Brazil | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
-| Morocco | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 |
-| Haiti | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
+| Brazil | 2 | 1 | 1 | 0 | 4 | 1 | +3 | 4 |
+| Morocco | 2 | 1 | 1 | 0 | 2 | 1 | +1 | 4 |
+| Scotland | 2 | 1 | 0 | 1 | 1 | 1 | 0 | 3 |
+| Haiti | 2 | 0 | 0 | 2 | 0 | 4 | -4 | 0 |
 
 ### Group D
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| United States | 1 | 1 | 0 | 0 | 4 | 1 | +3 | 3 |
-| Australia | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
-| Türkiye | 1 | 0 | 0 | 1 | 0 | 2 | -2 | 0 |
-| Paraguay | 1 | 0 | 0 | 1 | 1 | 4 | -3 | 0 |
+| United States | 2 | 2 | 0 | 0 | 6 | 1 | +5 | 6 |
+| Australia | 2 | 1 | 0 | 1 | 2 | 2 | 0 | 3 |
+| Paraguay | 2 | 1 | 0 | 1 | 2 | 4 | -2 | 3 |
+| Türkiye | 2 | 0 | 0 | 2 | 0 | 3 | -3 | 0 |
 
 ### Group E
 
@@ -937,13 +937,25 @@ _Estadio Akron, Guadalajara_ · Att: 45,522 · Referee: Gustavo Tejera
 
 ### 2026-06-19
 
-#### United States vs Australia (Group D) — _scheduled_
+#### United States 2–0 Australia (Group D)
+_Lumen Field, Seattle_
 
-#### Scotland vs Morocco (Group C) — _scheduled_
+The United States beat Australia 2-0 in Seattle to clinch a place in the knockout rounds and take command of Group D.
 
-#### Brazil vs Haiti (Group C) — _scheduled_
+#### Scotland 0–1 Morocco (Group C)
+_Gillette Stadium, Foxborough_
 
-#### Türkiye vs Paraguay (Group D) — _scheduled_
+Ismael Saibari struck after just 72 seconds — the fastest goal of the tournament so far — as Morocco edged Scotland 1-0 in Foxborough.
+
+#### Brazil 3–0 Haiti (Group C)
+_Lincoln Financial Field, Philadelphia_
+
+Matheus Cunha's first-half brace and a Vinicius Junior strike earned Brazil a 3-0 win — their first of the tournament — that eliminated Haiti.
+
+#### Türkiye 0–1 Paraguay (Group D)
+_Levi's Stadium, Santa Clara_
+
+Matías Galarza's early strike gave Paraguay a 1-0 win that knocked Türkiye out, the South Americans holding on after Miguel Almirón was sent off.
 
 ### 2026-06-20
 
@@ -954,3 +966,13 @@ _Estadio Akron, Guadalajara_ · Att: 45,522 · Referee: Gustavo Tejera
 #### Ecuador vs Curaçao (Group E) — _scheduled_
 
 #### Tunisia vs Japan (Group F) — _scheduled_
+
+### 2026-06-21
+
+#### Spain vs Saudi Arabia (Group H) — _scheduled_
+
+#### Belgium vs IR Iran (Group G) — _scheduled_
+
+#### Uruguay vs Cabo Verde (Group H) — _scheduled_
+
+#### New Zealand vs Egypt (Group G) — _scheduled_

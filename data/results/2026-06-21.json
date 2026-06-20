@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-21",
+  "matches": [
+    {
+      "id": "2026-06-21-spain-vs-saudi-arabia",
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "spain",
+      "away": "saudi-arabia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Group H matchday 2."
+    },
+    {
+      "id": "2026-06-21-belgium-vs-iran",
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "belgium",
+      "away": "iran",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Group G matchday 2."
+    },
+    {
+      "id": "2026-06-21-uruguay-vs-cabo-verde",
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home": "uruguay",
+      "away": "cabo-verde",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Group H matchday 2."
+    },
+    {
+      "id": "2026-06-21-new-zealand-vs-egypt",
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home": "new-zealand",
+      "away": "egypt",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Group G matchday 2."
+    }
+  ]
+}
