@@ -1,0 +1,271 @@
+{
+  "id": "2026-06-21-spain-vs-saudi-arabia",
+  "date": "2026-06-21",
+  "home": "spain",
+  "away": "saudi-arabia",
+  "home_score": 4,
+  "away_score": 0,
+  "attendance": 68239,
+  "referee": "Raphael Claus",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760453"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Lamine Yamal",
+      "minute": "10",
+      "type": "regular",
+      "assist": "Mikel Oyarzabal"
+    },
+    {
+      "team": "spain",
+      "player": "Mikel Oyarzabal",
+      "minute": "21",
+      "type": "regular",
+      "assist": "Aymeric Laporte"
+    },
+    {
+      "team": "spain",
+      "player": "Mikel Oyarzabal",
+      "minute": "24",
+      "type": "regular",
+      "assist": "Dani Olmo"
+    },
+    {
+      "team": "spain",
+      "player": "Hassan Al-Tambakti",
+      "minute": "49",
+      "type": "own_goal",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "saudi-arabia",
+      "player": "Salem Al-Dawsari",
+      "minute": "30",
+      "card": "yellow"
+    },
+    {
+      "team": "saudi-arabia",
+      "player": "Mohamed Kanno",
+      "minute": "60",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "spain",
+      "on": "Yéremy Pino",
+      "off": "Lamine Yamal",
+      "minute": "45"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Mikel Oyarzabal",
+      "minute": "45"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Mohamed Kanno",
+      "off": "Abdullah Al-Khaibari",
+      "minute": "45"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Abdullah Al-Hamdan",
+      "off": "Musab Al-Juwayr",
+      "minute": "45"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Mohammed Abu Al-Shamat",
+      "off": "Feras Al-Brikan",
+      "minute": "60"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Ala Al-Hajji",
+      "off": "Abdulelah Al-Amri",
+      "minute": "60"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "61"
+    },
+    {
+      "team": "spain",
+      "on": "Nico Williams",
+      "off": "Álex Baena",
+      "minute": "61"
+    },
+    {
+      "team": "spain",
+      "on": "Fabián Ruiz",
+      "off": "Pedri",
+      "minute": "70"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Khalid Al-Ghannam",
+      "off": "Nasser Al-Dawsari",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Pedri",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "FW",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Georgios Donis",
+      "starting": [
+        {
+          "name": "Mohammed Al-Owais",
+          "position": "GK",
+          "number": 21
+        },
+        {
+          "name": "Ali Lajami",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Hassan Al-Tambakti",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Abdulelah Al-Amri",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Moteb Al-Harbi",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Nasser Al-Dawsari",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Abdullah Al-Khaibari",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Salem Al-Dawsari",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Musab Al-Juwayr",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Feras Al-Brikan",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 67,
+      "shots": 22,
+      "shots_on_target": 8,
+      "corners": 6,
+      "fouls": 10,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 725,
+      "pass_accuracy": 92
+    },
+    "away": {
+      "possession": 33,
+      "shots": 3,
+      "shots_on_target": 1,
+      "corners": 1,
+      "fouls": 2,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 364,
+      "pass_accuracy": 80
+    }
+  }
+}
