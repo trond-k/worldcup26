@@ -94,7 +94,11 @@ Each `data/teams/<slug>.json` file:
   `runner-up`, `third`, `fourth`, `semi-final`, `quarter-final`, `round-16`,
   `round-32`, `group-stage`, `never-qualified`. They feed the football model's
   pedigree term and are seeded by `scripts/seed_wc_history.py`.
-- **Political & economic indicators** — a descriptive country-level layer seeded
+- `elo_rating` / `elo_rank` are the team's World Football Elo rating and world
+  rank from [eloratings.net](https://www.eloratings.net/), with `elo_source` and
+  `elo_harvested_at` (UTC ISO timestamp) recording provenance. `elo_rating` feeds
+  the football model as a results-based strength signal; all four are harvested
+  by `scripts/harvest_elo_ratings.py --apply` and may be `null` if unmatched.
   by `scripts/seed_politico_economic.py`. Surfaced as a grouped
   Economy/Development/Governance/Society dossier on each team page, with HDI also
   shown on every match card, and documented on the site's **Methodology** page
@@ -204,8 +208,9 @@ scores into home/draw/away probabilities for a fixture. The two models are
 **never blended** — the gap between them is the interesting part (a poor-but-
 talented nation, or a rich one with a thin squad).
 
-- **Football model** — squad market value (the strongest single signal), FIFA
-  ranking, World Cup pedigree (`wc_*`), squad age/peak profile and depth.
+- **Football model** — squad market value (the strongest single signal), World
+  Football Elo rating (`elo_rating`), FIFA ranking, World Cup pedigree (`wc_*`),
+  squad age/peak profile and depth.
 - **Socio-economic model** — GNP per capita, population (talent pool), total
   GNP, the share of the squad playing abroad and in the big-5 leagues, plus a
   bump for the host nations.

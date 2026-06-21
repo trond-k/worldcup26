@@ -30,10 +30,11 @@ from common import load_all_teams, load_tournament, squad_value
 CONFIG = {
     # Football model. Weights are over normalised (0-1) metrics and sum to 1.
     "football": {
-        "value": 0.40,       # squad market value (log-scaled)
-        "fifa": 0.25,        # FIFA ranking (inverted: 1 = best)
-        "pedigree": 0.20,    # World Cup history (titles / apps / best finish)
-        "experience": 0.10,  # share of squad in the 25-31 peak window
+        "value": 0.35,       # squad market value (log-scaled)
+        "elo": 0.20,         # World Football Elo rating (results-based strength)
+        "pedigree": 0.18,    # World Cup history (titles / apps / best finish)
+        "fifa": 0.13,        # FIFA ranking (inverted: 1 = best)
+        "experience": 0.09,  # share of squad in the 25-31 peak window
         "depth": 0.05,       # top-16 value as a share of total squad value
     },
     # Socio-economic model. Weights sum to 1; the host bump is added on top.
@@ -187,6 +188,7 @@ def build_team_scores(teams=None, tournament=None):
     # Raw metric collections keyed by slug.
     value_raw = {s: squad_value(t) for s, t in by_slug.items()}
     fifa_raw = {s: t.get("fifa_ranking") for s, t in by_slug.items()}
+    elo_raw = {s: t.get("elo_rating") for s, t in by_slug.items()}
     titles_raw = {s: t.get("wc_titles") for s, t in by_slug.items()}
     apps_raw = {s: t.get("wc_appearances") for s, t in by_slug.items()}
     finish_raw = {s: BEST_FINISH_RANK.get(t.get("wc_best_finish")) for s, t in by_slug.items()}
@@ -202,6 +204,7 @@ def build_team_scores(teams=None, tournament=None):
     # Normalise.
     n_value = _normalize(value_raw, log=True)
     n_fifa_rank = _normalize(fifa_raw)  # lower rank = better, so invert below
+    n_elo = _normalize(elo_raw)  # higher rating = stronger
     n_titles = _normalize(titles_raw)
     n_apps = _normalize(apps_raw)
     n_finish = _normalize(finish_raw)
@@ -226,6 +229,7 @@ def build_team_scores(teams=None, tournament=None):
         n_fifa = 1.0 - n_fifa_rank[s]  # invert so #1 ranked => 1.0
         football = 100.0 * (
             fb["value"] * n_value[s]
+            + fb["elo"] * n_elo[s]
             + fb["fifa"] * n_fifa
             + fb["pedigree"] * n_ped[s]
             + fb["experience"] * n_exp[s]
@@ -252,6 +256,7 @@ def build_team_scores(teams=None, tournament=None):
             "host": is_host,
             "components": {
                 "value": value_raw[s], "fifa": fifa_raw[s],
+                "elo": elo_raw[s],
                 "pedigree": round(n_ped[s], 3),
                 "peak_share": round(exp_raw[s], 3),
                 "legion": round(legion_raw[s], 3),

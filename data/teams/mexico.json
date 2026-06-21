@@ -27,6 +27,10 @@
   "global_peace_index": 2.6,
   "military_expenditure_pct_gdp": 0.6,
   "indicators_year": 2023,
+  "elo_rating": 1896,
+  "elo_rank": 12,
+  "elo_source": "https://www.eloratings.net/",
+  "elo_harvested_at": "2026-06-21T18:16:10+00:00",
   "squad": [
     {
       "name": "Raúl Rangel",

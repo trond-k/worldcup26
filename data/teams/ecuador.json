@@ -27,6 +27,10 @@
   "global_peace_index": 2.4,
   "military_expenditure_pct_gdp": 2.3,
   "indicators_year": 2023,
+  "elo_rating": 1864,
+  "elo_rank": 20,
+  "elo_source": "https://www.eloratings.net/",
+  "elo_harvested_at": "2026-06-21T18:16:10+00:00",
   "squad": [
     {
       "name": "Hernán Galíndez",

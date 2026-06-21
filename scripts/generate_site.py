@@ -228,9 +228,9 @@ CARD_STATS = [
     ("Squad value", squad_value, fmt_eur, "high", None),
     ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
     ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
-    ("HDI", lambda t: t.get("hdi"), lambda v: fmt_num(v, 3), "high",
-     lambda t: ("Human Development Index"
-                + (f" ({t['indicators_year']})" if t.get("indicators_year") else ""))),
+    ("Elo rank", lambda t: t.get("elo_rank"), lambda v: f"#{v}" if v else "—", "low",
+     lambda t: ("World Football Elo rank"
+                + (f" (rating {t['elo_rating']})" if t.get("elo_rating") else ""))),
 ]
 
 
@@ -541,6 +541,11 @@ def render_team(team, by_slug, matches, details):
         meta.append(("Confederation", esc(team["confederation"])))
     if team.get("fifa_ranking"):
         meta.append(("FIFA ranking", esc(team["fifa_ranking"])))
+    if team.get("elo_rating"):
+        elo = f"{team['elo_rating']}"
+        if team.get("elo_rank"):
+            elo += f" (world #{team['elo_rank']})"
+        meta.append(("Elo rating", esc(elo)))
     if team.get("coach"):
         meta.append(("Coach", esc(team["coach"])))
     meta.append(("Squad value", esc(fmt_eur(squad_value(team)))))
@@ -661,7 +666,8 @@ def render_favourites(teams, scores, by_slug):
     body = ["<h1>Favourites</h1>",
             '<p class="lead">Two independent toy models rate every team 0–100.</p>',
             '<p class="muted">The <strong>football</strong> model weighs squad '
-            'market value, FIFA ranking, World Cup pedigree and squad age/depth. '
+            'market value, World Football Elo, FIFA ranking, World Cup pedigree '
+            'and squad age/depth. '
             'The <strong>socio-economic</strong> model weighs wealth (GNP per '
             'capita), population, total GNP, the share of the squad playing abroad '
             'and in the big-5 leagues, plus a host bump. They are never blended — '
@@ -724,6 +730,10 @@ FOOTBALL_WEIGHT_INFO = {
     "value": ("Squad market value",
               "Combined Transfermarkt value of the 26-man squad (log-scaled). "
               "The single strongest signal of strength."),
+    "elo": ("World Football Elo",
+            "Results-based strength rating from eloratings.net — rewards winning, "
+            "margin and opponent quality. A sharper on-pitch signal than the FIFA "
+            "ranking it sits beside."),
     "fifa": ("FIFA ranking",
              "The official world ranking, inverted so that #1 counts as best."),
     "pedigree": ("World Cup pedigree",
@@ -808,6 +818,25 @@ def render_methodology(scores):
         "<h2>The football model</h2>",
         "<p>Weights are applied to normalised (0–1) metrics and sum to 100%.</p>",
         _weight_table(CONFIG["football"], FOOTBALL_WEIGHT_INFO),
+        "<h3>What the Elo rating is</h3>",
+        "<p>The <strong>World Football Elo rating</strong> adapts the chess rating "
+        "system (devised by Árpád Élő) to international football. Every nation "
+        "carries a single number — across this field it runs from about 1,440 to "
+        "2,130, with the strongest sides above 2,000. It is "
+        "<strong>zero-sum and updated after every match</strong>: the winner "
+        "takes points from the loser, and how many depends on the result and "
+        "goal margin, how surprising it was (the pre-match rating gap), the "
+        "importance of the fixture, and home advantage. A draw still shifts "
+        "points toward the lower-rated side.</p>",
+        "<p>Because it reacts to actual results match by match, it is a sharper, "
+        "faster-moving read on current form than the periodically published FIFA "
+        "ranking it sits beside. We take the rating from "
+        '<a href="https://www.eloratings.net/">eloratings.net</a>; match cards '
+        "show each side's world <strong>rank</strong> (#1 = strongest), with the "
+        "underlying rating in the tooltip. The model itself consumes the rating, "
+        "normalised across the field. Note this is a different thing from the "
+        "“Elo-style curve” below, which is just the maths that turns two model "
+        "scores into a win probability.</p>",
         "<h3>Inside the pedigree term</h3>",
         "<p>World Cup pedigree is itself a weighted blend, then normalised across "
         "the field:</p>",
@@ -856,11 +885,12 @@ def render_methodology(scores):
 
         "<h2>Beyond the models: the country indicator layer</h2>",
         "<p>Each team page also carries a descriptive country-level layer — "
-        "economy, development, governance and society — and the "
-        "<strong>Human Development Index</strong> is surfaced on every match "
-        "card next to the odds. These are <strong>context, not inputs</strong>: "
-        "neither odds model consumes them, so a card's HDI highlight never moves "
-        "the probabilities beside it.</p>",
+        "economy, development, governance and society. These are "
+        "<strong>context, not inputs</strong>: neither odds model consumes them, "
+        "so an indicator highlight never moves the probabilities beside it. "
+        "(Every match card instead surfaces each side's "
+        "<strong>World Football Elo rating</strong>, which <em>is</em> a football-"
+        "model input — see the weights above.)</p>",
         _indicator_reference(),
         '<p class="muted">All values are nullable and seeded by '
         "<code>scripts/seed_politico_economic.py</code>; a single "
@@ -1018,8 +1048,8 @@ def render_match_odds_block(m, scores, by_slug):
                     f'{cell("away")}</tr>')
 
     sc = scores
-    note = ("Two independent toy models — a football model (rank, squad value, "
-            "World Cup pedigree, age) and a socio-economic model (wealth, "
+    note = ("Two independent toy models — a football model (squad value, Elo, "
+            "rank, World Cup pedigree, age) and a socio-economic model (wealth, "
             "population, players abroad, hosts). Estimates only, not betting advice.")
     if host_home:
         note += f" {esc(hn)} carries a host-venue edge."

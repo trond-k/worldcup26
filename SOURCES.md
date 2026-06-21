@@ -28,6 +28,7 @@ These drive the team pages and the odds models (`scripts/odds.py`).
 | Player age | `squad[].age` | Transfermarkt (community API) | [transfermarkt-api.fly.dev](https://transfermarkt-api.fly.dev) | Jun 2026 | Same harvester as market value. |
 | Head coach | `coach` | National federation announcements / Wikipedia | [Wikipedia: 2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) | 2026 | |
 | FIFA / Coca-Cola World Ranking | `fifa_ranking` | FIFA Men's World Ranking | [FIFA World Ranking](https://www.fifa.com/fifa-world-ranking/men) | 2026 | |
+| World Football Elo rating & rank | `elo_rating`, `elo_rank` (+ `elo_source`, `elo_harvested_at`) | World Football Elo Ratings | [eloratings.net](https://www.eloratings.net/) | 2026 | Harvested by `scripts/harvest_elo_ratings.py` from the site's `World.tsv` / `en.teams.tsv` flat files. Results-based strength signal; feeds the football odds model. Refresh during the tournament. |
 | Group & confederation | `group`, `confederation` | FIFA official draw | [FIFA – Tournament](https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026) | 2026 | |
 | World Cup titles | `wc_titles` | FIFA World Cup records | [Wikipedia: FIFA World Cup](https://en.wikipedia.org/wiki/FIFA_World_Cup) | through 2022 | Seeded by `scripts/seed_wc_history.py`. Predecessor states folded in (West Germany → Germany, Czechoslovakia → Czechia). |
 | World Cup appearances | `wc_appearances` | FIFA World Cup records | [Wikipedia: National teams' WC records](https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup) | through 2022 | Seeded by `scripts/seed_wc_history.py`. |
@@ -104,6 +105,7 @@ to write:
 
 ```bash
 python3 scripts/harvest_market_values.py --all --apply   # market value + age (Transfermarkt)
+python3 scripts/harvest_elo_ratings.py --apply           # World Football Elo rating + rank (eloratings.net)
 python3 scripts/seed_politico_economic.py --apply        # economic/political/social indicators
 python3 scripts/seed_wc_history.py --apply               # World Cup history
 python3 scripts/validate.py                              # enforce schema after any change
@@ -114,6 +116,7 @@ python3 scripts/validate.py                              # enforce schema after 
 | Source | Typical release | Suggested refresh |
 |---|---|---|
 | Transfermarkt (market value, age) | Continuous | Monthly, or before/during the tournament |
+| World Football Elo (eloratings.net) | After every international | During the tournament (feeds the odds model) |
 | FIFA World Ranking | ~Quarterly | On each FIFA release |
 | World Bank (GNI, GDP, inflation, unemployment, Gini, population) | Annual | Annual |
 | UNDP HDI | Annual | Annual |

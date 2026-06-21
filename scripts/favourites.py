@@ -25,8 +25,9 @@ def main():
     lines.append(f"_Two independent toy models rate every team 0–100, based on "
                  f"{len(teams)} teams with data._")
     lines.append("")
-    lines.append("The **football** model weighs squad market value, FIFA ranking, "
-                 "World Cup pedigree and squad age/depth. The **socio-economic** "
+    lines.append("The **football** model weighs squad market value, World Football "
+                 "Elo, FIFA ranking, World Cup pedigree and squad age/depth. The "
+                 "**socio-economic** "
                  "model weighs wealth (GNP per capita), population, total GNP, the "
                  "share of the squad playing abroad and in the big-5 leagues, plus "
                  "a host bump. They are never blended — the gaps between them are "

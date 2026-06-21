@@ -27,6 +27,10 @@
   "global_peace_index": 2.2,
   "military_expenditure_pct_gdp": 1.1,
   "indicators_year": 2023,
+  "elo_rating": 1728,
+  "elo_rank": 38,
+  "elo_source": "https://www.eloratings.net/",
+  "elo_harvested_at": "2026-06-21T18:16:10+00:00",
   "squad": [
     {
       "name": "Yahia Fofana",

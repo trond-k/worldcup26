@@ -242,6 +242,12 @@ def _validate_team(slug, expected_group, team, errors):
         v = team.get(fld)
         if v is not None and (not isinstance(v, int) or isinstance(v, bool) or v < 0):
             err(f"{fld} must be a non-negative integer or null, got {v!r}")
+    elo_rating = team.get("elo_rating")
+    if elo_rating is not None and (not isinstance(elo_rating, int) or isinstance(elo_rating, bool) or elo_rating < 0):
+        err(f"elo_rating must be a non-negative integer or null, got {elo_rating!r}")
+    elo_rank = team.get("elo_rank")
+    if elo_rank is not None and (not isinstance(elo_rank, int) or isinstance(elo_rank, bool) or elo_rank < 1):
+        err(f"elo_rank must be a positive integer or null, got {elo_rank!r}")
     pop = team.get("population")
     if pop is not None and (not isinstance(pop, int) or isinstance(pop, bool) or pop < 0):
         err(f"population must be a non-negative integer or null, got {pop!r}")
