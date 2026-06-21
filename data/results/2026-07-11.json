@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-11",
+  "matches": [
+    {
+      "id": "2026-07-11-qf-99",
+      "stage": "quarter-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-91",
+      "away": "winner-match-92",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Quarter-final — Match 99."
+    },
+    {
+      "id": "2026-07-11-qf-100",
+      "stage": "quarter-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-95",
+      "away": "winner-match-96",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "note": "Quarter-final — Match 100."
+    }
+  ]
+}

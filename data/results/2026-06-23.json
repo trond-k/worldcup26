@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-23",
+  "matches": [
+    {
+      "id": "2026-06-23-portugal-vs-uzbekistan",
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "portugal",
+      "away": "uzbekistan",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Group K matchday 2."
+    },
+    {
+      "id": "2026-06-23-england-vs-ghana",
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "england",
+      "away": "ghana",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Gillette Stadium, Foxborough",
+      "note": "Group L matchday 2."
+    },
+    {
+      "id": "2026-06-23-panama-vs-croatia",
+      "stage": "group",
+      "group": "L",
+      "matchday": 2,
+      "home": "panama",
+      "away": "croatia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BMO Field, Toronto",
+      "note": "Group L matchday 2."
+    },
+    {
+      "id": "2026-06-23-colombia-vs-dr-congo",
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home": "colombia",
+      "away": "dr-congo",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Akron, Guadalajara",
+      "note": "Group K matchday 2."
+    }
+  ]
+}

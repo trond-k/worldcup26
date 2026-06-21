@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-05",
+  "matches": [
+    {
+      "id": "2026-07-05-r16-91",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-76",
+      "away": "winner-match-78",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "MetLife Stadium, East Rutherford",
+      "note": "Round of 16 — Match 91."
+    },
+    {
+      "id": "2026-07-05-r16-92",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-79",
+      "away": "winner-match-80",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Azteca, Mexico City",
+      "note": "Round of 16 — Match 92."
+    }
+  ]
+}

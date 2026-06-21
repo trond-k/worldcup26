@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-27",
+  "matches": [
+    {
+      "id": "2026-06-27-panama-vs-england",
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "panama",
+      "away": "england",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "MetLife Stadium, East Rutherford",
+      "note": "Group L matchday 3."
+    },
+    {
+      "id": "2026-06-27-croatia-vs-ghana",
+      "stage": "group",
+      "group": "L",
+      "matchday": 3,
+      "home": "croatia",
+      "away": "ghana",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Group L matchday 3."
+    },
+    {
+      "id": "2026-06-27-colombia-vs-portugal",
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "colombia",
+      "away": "portugal",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Group K matchday 3."
+    },
+    {
+      "id": "2026-06-27-dr-congo-vs-uzbekistan",
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home": "dr-congo",
+      "away": "uzbekistan",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Group K matchday 3."
+    },
+    {
+      "id": "2026-06-27-algeria-vs-austria",
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "algeria",
+      "away": "austria",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "note": "Group J matchday 3."
+    },
+    {
+      "id": "2026-06-27-jordan-vs-argentina",
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home": "jordan",
+      "away": "argentina",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Group J matchday 3."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-03",
+  "matches": [
+    {
+      "id": "2026-07-03-r32-86",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-j",
+      "away": "runner-up-group-h",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Round of 32 — Match 86."
+    },
+    {
+      "id": "2026-07-03-r32-87",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-k",
+      "away": "third-deijl",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "note": "Round of 32 — Match 87."
+    },
+    {
+      "id": "2026-07-03-r32-88",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "runner-up-group-d",
+      "away": "runner-up-group-g",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Round of 32 — Match 88."
+    }
+  ]
+}

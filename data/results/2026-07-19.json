@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-19",
+  "matches": [
+    {
+      "id": "2026-07-19-f-104",
+      "stage": "final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-101",
+      "away": "winner-match-102",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "MetLife Stadium, East Rutherford",
+      "note": "Final — Match 104."
+    }
+  ]
+}

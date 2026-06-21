@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-09",
+  "matches": [
+    {
+      "id": "2026-07-09-qf-97",
+      "stage": "quarter-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-89",
+      "away": "winner-match-90",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Gillette Stadium, Foxborough",
+      "note": "Quarter-final — Match 97."
+    }
+  ]
+}

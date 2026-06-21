@@ -2,6 +2,7 @@
 
 import json
 import os
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -139,10 +140,45 @@ def sorted_squad(team):
     )
 
 
+_PLACEHOLDER_RE = re.compile(
+    r"^(?P<wru>winner|runner-up)-group-(?P<grp>[a-l])$"
+    r"|^third-(?P<third>[a-l]{2,})$"
+    r"|^(?P<wl>winner|loser)-match-(?P<num>\d+)$"
+)
+
+
+def placeholder_label(slug):
+    """Human label for a knockout placeholder slug, or None if not a placeholder.
+
+    The knockout bracket is seeded before the teams are known, so each slot is
+    a placeholder slug describing where its occupant comes from:
+
+        winner-group-a    -> 'Winner Group A'
+        runner-up-group-b -> 'Runner-up Group B'
+        third-cefhi       -> '3rd Place C/E/F/H/I'
+        winner-match-73   -> 'Winner Match 73'
+        loser-match-101   -> 'Loser Match 101'
+
+    Real team slugs return None so callers fall back to the actual team name.
+    """
+    m = _PLACEHOLDER_RE.match(slug or "")
+    if not m:
+        return None
+    if m.group("grp"):
+        kind = "Winner" if m.group("wru") == "winner" else "Runner-up"
+        return f"{kind} Group {m.group('grp').upper()}"
+    if m.group("third"):
+        return "3rd Place " + "/".join(c.upper() for c in m.group("third"))
+    kind = "Winner" if m.group("wl") == "winner" else "Loser"
+    return f"{kind} Match {m.group('num')}"
+
+
 def team_name(by_slug, slug):
-    """Display name for a team slug, falling back to the slug itself."""
+    """Display name for a team slug, falling back to a placeholder or the slug."""
     t = by_slug.get(slug)
-    return t["name"] if t else slug
+    if t:
+        return t["name"]
+    return placeholder_label(slug) or slug
 
 
 def minute_key(minute):

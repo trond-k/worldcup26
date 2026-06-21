@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-01",
+  "matches": [
+    {
+      "id": "2026-07-01-r32-80",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-l",
+      "away": "third-ehijk",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Round of 32 — Match 80."
+    },
+    {
+      "id": "2026-07-01-r32-81",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-d",
+      "away": "third-befij",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Levi's Stadium, Santa Clara",
+      "note": "Round of 32 — Match 81."
+    },
+    {
+      "id": "2026-07-01-r32-82",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-g",
+      "away": "third-aehij",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lumen Field, Seattle",
+      "note": "Round of 32 — Match 82."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-10",
+  "matches": [
+    {
+      "id": "2026-07-10-qf-98",
+      "stage": "quarter-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-93",
+      "away": "winner-match-94",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Quarter-final — Match 98."
+    }
+  ]
+}

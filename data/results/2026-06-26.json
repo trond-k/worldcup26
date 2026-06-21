@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-26",
+  "matches": [
+    {
+      "id": "2026-06-26-norway-vs-france",
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "norway",
+      "away": "france",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Gillette Stadium, Foxborough",
+      "note": "Group I matchday 3."
+    },
+    {
+      "id": "2026-06-26-senegal-vs-iraq",
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home": "senegal",
+      "away": "iraq",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BMO Field, Toronto",
+      "note": "Group I matchday 3."
+    },
+    {
+      "id": "2026-06-26-cabo-verde-vs-saudi-arabia",
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "cabo-verde",
+      "away": "saudi-arabia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Group H matchday 3."
+    },
+    {
+      "id": "2026-06-26-uruguay-vs-spain",
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home": "uruguay",
+      "away": "spain",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Akron, Guadalajara",
+      "note": "Group H matchday 3."
+    },
+    {
+      "id": "2026-06-26-egypt-vs-iran",
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "egypt",
+      "away": "iran",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lumen Field, Seattle",
+      "note": "Group G matchday 3."
+    },
+    {
+      "id": "2026-06-26-new-zealand-vs-belgium",
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home": "new-zealand",
+      "away": "belgium",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Group G matchday 3."
+    }
+  ]
+}

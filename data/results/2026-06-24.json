@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-24",
+  "matches": [
+    {
+      "id": "2026-06-24-scotland-vs-brazil",
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "scotland",
+      "away": "brazil",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Group C matchday 3."
+    },
+    {
+      "id": "2026-06-24-morocco-vs-haiti",
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home": "morocco",
+      "away": "haiti",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Group C matchday 3."
+    },
+    {
+      "id": "2026-06-24-switzerland-vs-canada",
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "switzerland",
+      "away": "canada",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Group B matchday 3."
+    },
+    {
+      "id": "2026-06-24-bosnia-herzegovina-vs-qatar",
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home": "bosnia-herzegovina",
+      "away": "qatar",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lumen Field, Seattle",
+      "note": "Group B matchday 3."
+    },
+    {
+      "id": "2026-06-24-czechia-vs-mexico",
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "czechia",
+      "away": "mexico",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio Azteca, Mexico City",
+      "note": "Group A matchday 3."
+    },
+    {
+      "id": "2026-06-24-south-africa-vs-south-korea",
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home": "south-africa",
+      "away": "south-korea",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio BBVA, Monterrey",
+      "note": "Group A matchday 3."
+    }
+  ]
+}

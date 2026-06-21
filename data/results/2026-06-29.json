@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-29",
+  "matches": [
+    {
+      "id": "2026-06-29-r32-74",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-e",
+      "away": "third-abcdf",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Gillette Stadium, Foxborough",
+      "note": "Round of 32 — Match 74."
+    },
+    {
+      "id": "2026-06-29-r32-75",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-f",
+      "away": "runner-up-group-c",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Estadio BBVA, Monterrey",
+      "note": "Round of 32 — Match 75."
+    },
+    {
+      "id": "2026-06-29-r32-76",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-c",
+      "away": "runner-up-group-f",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Round of 32 — Match 76."
+    }
+  ]
+}

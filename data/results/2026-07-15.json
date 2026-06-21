@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-15",
+  "matches": [
+    {
+      "id": "2026-07-15-sf-102",
+      "stage": "semi-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-99",
+      "away": "winner-match-100",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Semi-final — Match 102."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-02",
+  "matches": [
+    {
+      "id": "2026-07-02-r32-83",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "runner-up-group-k",
+      "away": "runner-up-group-l",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BMO Field, Toronto",
+      "note": "Round of 32 — Match 83."
+    },
+    {
+      "id": "2026-07-02-r32-84",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-h",
+      "away": "runner-up-group-j",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Round of 32 — Match 84."
+    },
+    {
+      "id": "2026-07-02-r32-85",
+      "stage": "round-of-32",
+      "group": null,
+      "matchday": null,
+      "home": "winner-group-b",
+      "away": "third-efgij",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Round of 32 — Match 85."
+    }
+  ]
+}

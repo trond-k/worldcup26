@@ -60,6 +60,25 @@ from odds import (
 MONTHS = ["", "January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 
+STAGE_LABELS = {
+    "round-of-32": "Round of 32",
+    "round-of-16": "Round of 16",
+    "quarter-final": "Quarter-final",
+    "semi-final": "Semi-final",
+    "third-place": "Third-place play-off",
+    "final": "Final",
+}
+# Knockout rounds in bracket order; labels come from STAGE_LABELS.
+KNOCKOUT_ORDER = ["round-of-32", "round-of-16", "quarter-final",
+                  "semi-final", "third-place", "final"]
+
+
+def stage_label(m):
+    """'Group A' for group matches, else the knockout round name."""
+    if m.get("group"):
+        return f"Group {m['group']}"
+    return STAGE_LABELS.get(m.get("stage"), m.get("stage", ""))
+
 
 def pretty_date(iso):
     """'2026-06-15' -> '15 June 2026'; pass through anything unparseable."""
@@ -98,7 +117,9 @@ def page(title, body, depth=0, active=None):
     nav_items = [("", "Home", "home")]
     if CALENDAR_HOME:
         nav_items.append((CALENDAR_HOME, "Calendar", "calendar"))
-    nav_items += [("favourites.html", "Favourites", "favourites"),
+    nav_items += [("schedule.html", "Schedule", "schedule"),
+                  ("bracket.html", "Bracket", "bracket"),
+                  ("favourites.html", "Favourites", "favourites"),
                   ("methodology.html", "Methodology", "methodology"),
                   ("stats.html", "Stats", "stats"),
                   ("results.html", "Results", "results")]
@@ -252,7 +273,8 @@ def team_block(slug, by_slug, opponent_slug=None, away=False):
     cls = "team away" if away else "team"
     t = by_slug.get(slug)
     if not t:
-        return f'<div class="{cls}"><span class="tname">{esc(slug)}</span></div>'
+        # Unknown slug — a knockout placeholder like 'Winner Group A'.
+        return f'<div class="{cls}"><span class="tname tname-tbd">{esc(team_name(by_slug, slug))}</span></div>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
     opp = by_slug.get(opponent_slug) if opponent_slug else None
     rows = []
@@ -333,7 +355,7 @@ def render_match_card(m, by_slug, details, scores=None):
         centre = '<span class="vs">vs</span>'
     if m.get("id") in details:
         centre = f'<a class="centre-link" href="match/{esc(m["id"])}.html">{centre}</a>'
-    grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+    grp = stage_label(m)
     grp_html = f'<div class="mc-group">{esc(grp)}</div>' if grp else ""
     return (
         '<div class="match-card">'
@@ -569,7 +591,7 @@ def render_team(team, by_slug, matches, details):
         rows = []
         for m in team_matches:
             has_detail = m.get("id") in details
-            grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+            grp = stage_label(m)
             rows.append([
                 esc(m.get("date", "")),
                 esc(grp),
@@ -933,7 +955,7 @@ def render_results(teams, matches, details, by_slug):
         rows = []
         for m in [mm for mm in matches if mm["date"] == date]:
             has_detail = m.get("id") in details
-            grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+            grp = stage_label(m)
             note = m.get("note") or ""
             rows.append([
                 match_score_label(m, by_slug, depth=0, link_detail=has_detail),
@@ -944,6 +966,57 @@ def render_results(teams, matches, details, by_slug):
         body.append(table(["Match", "Stage", "Venue", "Note"], rows, cls="results"))
 
     return page("Results", "\n".join(body), depth=0, active="results")
+
+
+def render_schedule(matches, by_slug, details):
+    """Full chronological fixture list — every match, including future ones the
+    live calendar has not reached yet. Knockout slots show their bracket label."""
+    body = ["<h1>Full schedule</h1>",
+            '<p class="muted">All 104 fixtures. Knockout matches show their '
+            'bracket slot (e.g. "Winner Group A") until the teams are decided. '
+            f'See the {link("bracket.html", "bracket")} for the knockout path.</p>']
+    dates = sorted({m["date"] for m in matches})
+    for date in dates:
+        day = [m for m in matches if m["date"] == date]
+        body.append(f"<h3>{esc(pretty_date(date))}</h3>")
+        rows = []
+        for m in day:
+            has_detail = m.get("id") in details
+            rows.append([
+                match_score_label(m, by_slug, depth=0, link_detail=has_detail),
+                esc(stage_label(m)),
+                esc(m.get("venue") or ""),
+            ])
+        body.append(table(["Match", "Stage", "Venue"], rows, cls="results"))
+    return page("Schedule", "\n".join(body), depth=0, active="schedule")
+
+
+def render_bracket(matches, by_slug, details, scores):
+    """Knockout bracket, round by round. Slots stay as placeholders until a
+    result is entered, at which point the winner flows into the next round."""
+    ko = [m for m in matches if m.get("stage") != "group"]
+    body = ["<h1>Knockout bracket</h1>"]
+    if not ko:
+        body.append('<p class="muted">The bracket appears once the knockout '
+                    'fixtures are scheduled.</p>')
+        return page("Bracket", "\n".join(body), depth=0, active="bracket")
+    body.append('<p class="muted">32 matches from the Round of 32 to the final. '
+                'Each slot shows where its team comes from until the result is '
+                'known.</p>')
+    by_stage = {}
+    for m in ko:
+        by_stage.setdefault(m["stage"], []).append(m)
+    for stage in KNOCKOUT_ORDER:
+        ms = by_stage.get(stage)
+        if not ms:
+            continue
+        ms = sorted(ms, key=lambda m: (m["date"], m.get("id", "")))
+        body.append(f"<h2>{esc(STAGE_LABELS.get(stage, stage))}</h2>")
+        body.append('<div class="matchday">')
+        for m in ms:
+            body.append(render_match_card(m, by_slug, details, scores))
+        body.append('</div>')
+    return page("Bracket", "\n".join(body), depth=0, active="bracket")
 
 
 def render_goals_block(detail, by_slug):
@@ -1067,7 +1140,7 @@ def render_match_odds_block(m, scores, by_slug):
 
 def render_match(m, detail, by_slug, scores=None):
     home, away = m["home"], m["away"]
-    grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+    grp = stage_label(m)
     title = (f"{team_name(by_slug, home)} {m['home_score']}–{m['away_score']} "
              f"{team_name(by_slug, away)}")
     body = [f"<h1>{esc(team_name(by_slug, home))} "
@@ -1154,6 +1227,12 @@ def main():
         cal_date = dates[-1]
     CALENDAR_HOME = f"day-{cal_date}.html" if cal_date else ""
 
+    # The calendar is a live view: it runs only up to the current "live edge"
+    # (today's matchday, or the next upcoming one). Dates beyond that are still
+    # in the data and listed on schedule.html / bracket.html, but they don't get
+    # day pages or date-strip chips yet. The daily rebuild rolls this forward.
+    cal_dates = [d for d in dates if cal_date is None or d <= cal_date]
+
     # Fresh build: clear previous output (keeps a clean, deterministic tree).
     if os.path.isdir(SITE_DIR):
         shutil.rmtree(SITE_DIR)
@@ -1178,6 +1257,8 @@ def main():
     write("methodology.html", render_methodology(scores))
     write("stats.html", render_stats(teams))
     write("results.html", render_results(teams, matches, details, by_slug))
+    write("schedule.html", render_schedule(matches, by_slug, details))
+    write("bracket.html", render_bracket(matches, by_slug, details, scores))
 
     n_matches = 0
     for m in matches:
@@ -1186,9 +1267,9 @@ def main():
             write(f"match/{m['id']}.html", render_match(m, detail, by_slug, scores))
             n_matches += 1
 
-    for d in dates:
+    for d in cal_dates:
         write(f"day-{d}.html",
-              render_day(d, dates, by_date[d], by_slug, details, scores, counts))
+              render_day(d, cal_dates, by_date[d], by_slug, details, scores, counts))
 
     # Copy the stylesheet.
     os.makedirs(os.path.join(SITE_DIR, "assets"), exist_ok=True)
@@ -1196,7 +1277,8 @@ def main():
                     os.path.join(SITE_DIR, "assets", "style.css"))
 
     print(f"Wrote site/: index + {n_groups} group pages, {len(teams)} team pages, "
-          f"stats, results, {n_matches} match pages, {len(dates)} day pages.")
+          f"stats, results, schedule, bracket, {n_matches} match pages, "
+          f"{len(cal_dates)}/{len(dates)} day pages (calendar capped at {cal_date}).")
 
 
 if __name__ == "__main__":

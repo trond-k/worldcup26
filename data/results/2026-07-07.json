@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-07",
+  "matches": [
+    {
+      "id": "2026-07-07-r16-95",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-86",
+      "away": "winner-match-88",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "note": "Round of 16 — Match 95."
+    },
+    {
+      "id": "2026-07-07-r16-96",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-85",
+      "away": "winner-match-87",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "BC Place, Vancouver",
+      "note": "Round of 16 — Match 96."
+    }
+  ]
+}

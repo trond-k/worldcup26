@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-14",
+  "matches": [
+    {
+      "id": "2026-07-14-sf-101",
+      "stage": "semi-final",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-97",
+      "away": "winner-match-98",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Semi-final — Match 101."
+    }
+  ]
+}

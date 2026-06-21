@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-18",
+  "matches": [
+    {
+      "id": "2026-07-18-tp-103",
+      "stage": "third-place",
+      "group": null,
+      "matchday": null,
+      "home": "loser-match-101",
+      "away": "loser-match-102",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "note": "Third-place play-off — Match 103."
+    }
+  ]
+}

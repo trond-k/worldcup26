@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-25",
+  "matches": [
+    {
+      "id": "2026-06-25-curacao-vs-cote-divoire",
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "curacao",
+      "away": "cote-divoire",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Group E matchday 3."
+    },
+    {
+      "id": "2026-06-25-ecuador-vs-germany",
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home": "ecuador",
+      "away": "germany",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "MetLife Stadium, East Rutherford",
+      "note": "Group E matchday 3."
+    },
+    {
+      "id": "2026-06-25-japan-vs-sweden",
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "japan",
+      "away": "sweden",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Group F matchday 3."
+    },
+    {
+      "id": "2026-06-25-tunisia-vs-netherlands",
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home": "tunisia",
+      "away": "netherlands",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "note": "Group F matchday 3."
+    },
+    {
+      "id": "2026-06-25-turkiye-vs-usa",
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "turkiye",
+      "away": "usa",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "SoFi Stadium, Inglewood",
+      "note": "Group D matchday 3."
+    },
+    {
+      "id": "2026-06-25-paraguay-vs-australia",
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home": "paraguay",
+      "away": "australia",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Levi's Stadium, Santa Clara",
+      "note": "Group D matchday 3."
+    }
+  ]
+}

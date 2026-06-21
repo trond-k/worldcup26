@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-04",
+  "matches": [
+    {
+      "id": "2026-07-04-r16-89",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-74",
+      "away": "winner-match-77",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Round of 16 — Match 89."
+    },
+    {
+      "id": "2026-07-04-r16-90",
+      "stage": "round-of-16",
+      "group": null,
+      "matchday": null,
+      "home": "winner-match-73",
+      "away": "winner-match-75",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "NRG Stadium, Houston",
+      "note": "Round of 16 — Match 90."
+    }
+  ]
+}

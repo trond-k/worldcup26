@@ -19,6 +19,7 @@ from common import (
     TEAMS_DIR,
     load_results,
     load_tournament,
+    placeholder_label,
     team_path,
     load_json,
 )
@@ -204,7 +205,10 @@ def _validate_results(valid_slugs, groups, errors, warnings):
             for side in ("home", "away"):
                 slug = m.get(side)
                 if slug not in valid_slugs:
-                    err(f"{side} team '{slug}' is not a known team slug")
+                    # Knockout slots are seeded as placeholders (e.g.
+                    # 'winner-group-a') before the teams are known.
+                    if m.get("stage") == "group" or placeholder_label(slug) is None:
+                        err(f"{side} team '{slug}' is not a known team slug")
             if m.get("home") == m.get("away"):
                 err("home and away teams are identical")
             grp = m.get("group")
