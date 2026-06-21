@@ -1,0 +1,291 @@
+{
+  "id": "2026-06-20-netherlands-vs-sweden",
+  "date": "2026-06-20",
+  "home": "netherlands",
+  "away": "sweden",
+  "home_score": 5,
+  "away_score": 1,
+  "attendance": 68777,
+  "referee": "Michael Oliver",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760447"
+  ],
+  "goals": [
+    {
+      "team": "netherlands",
+      "player": "Brian Brobbey",
+      "minute": "5",
+      "type": "regular",
+      "assist": "Cody Gakpo"
+    },
+    {
+      "team": "netherlands",
+      "player": "Brian Brobbey",
+      "minute": "17",
+      "type": "regular",
+      "assist": "Denzel Dumfries"
+    },
+    {
+      "team": "netherlands",
+      "player": "Cody Gakpo",
+      "minute": "47",
+      "type": "regular",
+      "assist": "Denzel Dumfries"
+    },
+    {
+      "team": "netherlands",
+      "player": "Cody Gakpo",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Crysencio Summerville"
+    },
+    {
+      "team": "sweden",
+      "player": "Anthony Elanga",
+      "minute": "59",
+      "type": "regular",
+      "assist": "Alexander Isak"
+    },
+    {
+      "team": "netherlands",
+      "player": "Crysencio Summerville",
+      "minute": "89",
+      "type": "regular",
+      "assist": "Memphis Depay"
+    }
+  ],
+  "cards": [
+    {
+      "team": "sweden",
+      "player": "Gabriel Gudmundsson",
+      "minute": "53",
+      "card": "yellow"
+    },
+    {
+      "team": "sweden",
+      "player": "Yasin Ayari",
+      "minute": "75",
+      "card": "yellow"
+    },
+    {
+      "team": "sweden",
+      "player": "Lucas Bergvall",
+      "minute": "80",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "netherlands",
+      "on": "Crysencio Summerville",
+      "off": "Donyell Malen",
+      "minute": "45"
+    },
+    {
+      "team": "sweden",
+      "on": "Anthony Elanga",
+      "off": "Alexander Bernhardsson",
+      "minute": "55"
+    },
+    {
+      "team": "sweden",
+      "on": "Besfort Zeneli",
+      "off": "Jesper Karlström",
+      "minute": "56"
+    },
+    {
+      "team": "sweden",
+      "on": "Lucas Bergvall",
+      "off": "Benjamin Nygren",
+      "minute": "56"
+    },
+    {
+      "team": "netherlands",
+      "on": "Teun Koopmeiners",
+      "off": "Frenkie de Jong",
+      "minute": "59"
+    },
+    {
+      "team": "netherlands",
+      "on": "Guus Til",
+      "off": "Tijjani Reijnders",
+      "minute": "59"
+    },
+    {
+      "team": "netherlands",
+      "on": "Memphis Depay",
+      "off": "Brian Brobbey",
+      "minute": "72"
+    },
+    {
+      "team": "sweden",
+      "on": "Taha Ali",
+      "off": "Yasin Ayari",
+      "minute": "79"
+    },
+    {
+      "team": "netherlands",
+      "on": "Noa Lang",
+      "off": "Cody Gakpo",
+      "minute": "90"
+    },
+    {
+      "team": "sweden",
+      "on": "Elliot Stroud",
+      "off": "Gabriel Gudmundsson",
+      "minute": "90+3"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Ronald Koeman",
+      "starting": [
+        {
+          "name": "Bart Verbruggen",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Denzel Dumfries",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Brian Brobbey",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Donyell Malen",
+          "position": "FW",
+          "number": 18
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-1-4-2",
+      "manager": "Graham Potter",
+      "starting": [
+        {
+          "name": "Kristoffer Nordfeldt",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Isak Hien",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gustaf Lagerbielke",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jesper Karlström",
+          "position": null,
+          "number": 16
+        },
+        {
+          "name": "Yasin Ayari",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Benjamin Nygren",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 51,
+      "shots": 10,
+      "shots_on_target": 7,
+      "corners": 2,
+      "fouls": 9,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 7,
+      "passes": 449,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 49,
+      "shots": 16,
+      "shots_on_target": 8,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 425,
+      "pass_accuracy": 85
+    }
+  }
+}

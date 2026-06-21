@@ -1,0 +1,260 @@
+{
+  "id": "2026-06-20-ecuador-vs-curacao",
+  "date": "2026-06-20",
+  "home": "ecuador",
+  "away": "curacao",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 68598,
+  "referee": "Ma Ning",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760446"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "ecuador",
+      "player": "Jordy Alcívar",
+      "minute": "38",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Leandro Bacuna",
+      "minute": "39",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Juninho Bacuna",
+      "minute": "53",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Livano Comenencia",
+      "minute": "56",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Juriën Gaari",
+      "minute": "75",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Gervane Kastaneer",
+      "minute": "90+1",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "ecuador",
+      "on": "Kevin Rodríguez",
+      "off": "Jordy Alcívar",
+      "minute": "45"
+    },
+    {
+      "team": "ecuador",
+      "on": "Nilson Angulo",
+      "off": "Pervis Estupiñán",
+      "minute": "70"
+    },
+    {
+      "team": "curacao",
+      "on": "Kenji Gorré",
+      "off": "Juninho Bacuna",
+      "minute": "75"
+    },
+    {
+      "team": "curacao",
+      "on": "Roshon van Eijma",
+      "off": "Deveron Fonville",
+      "minute": "76"
+    },
+    {
+      "team": "curacao",
+      "on": "Jearl Margaritha",
+      "off": "Tahith Chong",
+      "minute": "76"
+    },
+    {
+      "team": "ecuador",
+      "on": "Ángelo Preciado",
+      "off": "Alan Franco",
+      "minute": "83"
+    },
+    {
+      "team": "curacao",
+      "on": "Gervane Kastaneer",
+      "off": "Jürgen Locadia",
+      "minute": "83"
+    },
+    {
+      "team": "curacao",
+      "on": "Godfried Roemeratoe",
+      "off": "Livano Comenencia",
+      "minute": "84"
+    },
+    {
+      "team": "ecuador",
+      "on": "Jordy Caicedo",
+      "off": "John Yeboah",
+      "minute": "89"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-1-4-2",
+      "manager": "Sebastián Beccacece",
+      "starting": [
+        {
+          "name": "Hernán Galíndez",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Alan Franco",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Jordy Alcívar",
+          "position": null,
+          "number": 5
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Pedro Vite",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Pervis Estupiñán",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "John Yeboah",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Enner Valencia",
+          "position": "FW",
+          "number": 13
+        },
+        {
+          "name": "Gonzalo Plata",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Dick Advocaat",
+      "starting": [
+        {
+          "name": "Eloy Room",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Armando Obispo",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Sherel Floranus",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Juriën Gaari",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Deveron Fonville",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Joshua Brenet",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Leandro Bacuna",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Livano Comenencia",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Juninho Bacuna",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Tahith Chong",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Jürgen Locadia",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 75,
+      "shots": 27,
+      "shots_on_target": 15,
+      "corners": 9,
+      "fouls": 7,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 644,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 25,
+      "shots": 10,
+      "shots_on_target": 3,
+      "corners": 0,
+      "fouls": 10,
+      "offsides": 2,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "saves": 15,
+      "passes": 227,
+      "pass_accuracy": 70
+    }
+  }
+}

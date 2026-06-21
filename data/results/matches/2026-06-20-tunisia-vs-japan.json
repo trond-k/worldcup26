@@ -1,0 +1,258 @@
+{
+  "id": "2026-06-20-tunisia-vs-japan",
+  "date": "2026-06-20",
+  "home": "tunisia",
+  "away": "japan",
+  "home_score": 0,
+  "away_score": 4,
+  "attendance": 51243,
+  "referee": "Istvan Kovacs",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760449"
+  ],
+  "goals": [
+    {
+      "team": "japan",
+      "player": "Daichi Kamada",
+      "minute": "4",
+      "type": "regular",
+      "assist": "Keito Nakamura"
+    },
+    {
+      "team": "japan",
+      "player": "Ayase Ueda",
+      "minute": "31",
+      "type": "regular",
+      "assist": "Kou Itakura"
+    },
+    {
+      "team": "japan",
+      "player": "Junya Ito",
+      "minute": "69",
+      "type": "regular",
+      "assist": "Ayase Ueda"
+    },
+    {
+      "team": "japan",
+      "player": "Ayase Ueda",
+      "minute": "83",
+      "type": "regular",
+      "assist": "Kaishu Sano"
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "tunisia",
+      "on": "Ismaël Gharbi",
+      "off": "Elias Saad",
+      "minute": "45"
+    },
+    {
+      "team": "tunisia",
+      "on": "Mohamed Amine Ben Hamida",
+      "off": "Dylan Bronn",
+      "minute": "45"
+    },
+    {
+      "team": "tunisia",
+      "on": "Firas Chaouat",
+      "off": "Sebastian Tounekti",
+      "minute": "64"
+    },
+    {
+      "team": "japan",
+      "on": "Junnosuke Suzuki",
+      "off": "Daichi Kamada",
+      "minute": "73"
+    },
+    {
+      "team": "japan",
+      "on": "Yukinari Sugawara",
+      "off": "Ritsu Doan",
+      "minute": "74"
+    },
+    {
+      "team": "japan",
+      "on": "Yuito Suzuki",
+      "off": "Keito Nakamura",
+      "minute": "79"
+    },
+    {
+      "team": "japan",
+      "on": "Ayumu Seko",
+      "off": "Takehiro Tomiyasu",
+      "minute": "79"
+    },
+    {
+      "team": "japan",
+      "on": "Keisuke Goto",
+      "off": "Ayase Ueda",
+      "minute": "84"
+    },
+    {
+      "team": "tunisia",
+      "on": "Rani Khedira",
+      "off": "Ellyes Skhiri",
+      "minute": "90+1"
+    },
+    {
+      "team": "tunisia",
+      "on": "Elias Achouri",
+      "off": "Ali Abdi",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Sabri Lamouchi",
+      "starting": [
+        {
+          "name": "Aymen Dahmen",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Montassar Talbi",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Omar Rekik",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Dylan Bronn",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ellyes Skhiri",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Anis Slimane",
+          "position": "MF",
+          "number": 25
+        },
+        {
+          "name": "Ali Abdi",
+          "position": "MF",
+          "number": 2
+        },
+        {
+          "name": "Yan Valery",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Sebastian Tounekti",
+          "position": "FW",
+          "number": 26
+        },
+        {
+          "name": "Hannibal Mejbri",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Elias Saad",
+          "position": "FW",
+          "number": 8
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Hajime Moriyasu",
+      "starting": [
+        {
+          "name": "Zion Suzuki",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Kou Itakura",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Hiroki Ito",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Takehiro Tomiyasu",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Keito Nakamura",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ayase Ueda",
+          "position": "FW",
+          "number": 18
+        },
+        {
+          "name": "Daichi Kamada",
+          "position": "FW",
+          "number": 15
+        },
+        {
+          "name": "Junya Ito",
+          "position": "FW",
+          "number": 14
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 38,
+      "shots": 2,
+      "shots_on_target": 0,
+      "corners": 3,
+      "fouls": 8,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 354,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 62,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 5,
+      "fouls": 15,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 583,
+      "pass_accuracy": 89
+    }
+  }
+}

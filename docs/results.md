@@ -1,6 +1,6 @@
 # Results
 
-_36 matches played; 32 with full detail (goals, lineups, stats)._
+_36 matches played; 36 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -1064,24 +1064,122 @@ _Levi's Stadium, Santa Clara_ · Att: 68,827 · Referee: Iván Arcides Barton Ci
 ### 2026-06-20
 
 #### Netherlands 5–1 Sweden (Group F)
-_NRG Stadium, Houston_
+_NRG Stadium, Houston_ · Att: 68,777 · Referee: Michael Oliver
 
-Braces from Brian Brobbey and Cody Gakpo powered a five-star Netherlands to a statement 5-1 win over Sweden in Houston.
+**Goals:** 5' Brian Brobbey (Netherlands); 17' Brian Brobbey (Netherlands); 47' Cody Gakpo (Netherlands); 54' Cody Gakpo (Netherlands); 59' Anthony Elanga (Sweden); 89' Crysencio Summerville (Netherlands)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Netherlands** (4-3-3 — Ronald Koeman): 1. Bart Verbruggen, 4. Virgil van Dijk, 6. Jan Paul van Hecke, 15. Micky van de Ven, 22. Denzel Dumfries, 21. Frenkie de Jong, 14. Tijjani Reijnders, 8. Ryan Gravenberch, 19. Brian Brobbey, 11. Cody Gakpo, 18. Donyell Malen
+
+**Sweden** (3-1-4-2 — Graham Potter): 23. Kristoffer Nordfeldt, 4. Isak Hien, 3. Victor Lindelöf, 2. Gustaf Lagerbielke, 16. Jesper Karlström, 18. Yasin Ayari, 10. Benjamin Nygren, 5. Gabriel Gudmundsson, 21. Alexander Bernhardsson, 9. Alexander Isak, 17. Viktor Gyökeres
+
+**Substitutions:** 45' Donyell Malen → Crysencio Summerville (Netherlands); 55' Alexander Bernhardsson → Anthony Elanga (Sweden); 56' Jesper Karlström → Besfort Zeneli (Sweden); 56' Benjamin Nygren → Lucas Bergvall (Sweden); 59' Frenkie de Jong → Teun Koopmeiners (Netherlands); 59' Tijjani Reijnders → Guus Til (Netherlands); 72' Brian Brobbey → Memphis Depay (Netherlands); 79' Yasin Ayari → Taha Ali (Sweden); 90' Cody Gakpo → Noa Lang (Netherlands); 90+3' Gabriel Gudmundsson → Elliot Stroud (Sweden)
+
+**Cards:** 🟨 53' Gabriel Gudmundsson (Sweden); 🟨 75' Yasin Ayari (Sweden); 🟨 80' Lucas Bergvall (Sweden)
+
+| Stat | Netherlands | Sweden |
+|------|---|---|
+| Possession | 51% | 49% |
+| Shots | 10 | 16 |
+| Shots on target | 7 | 8 |
+| Corners | 2 | 5 |
+| Fouls | 9 | 12 |
+| Offsides | 3 | 3 |
+| Yellow cards | 0 | 3 |
+| Red cards | 0 | 0 |
+| Saves | 7 | 2 |
+| Passes | 449 | 425 |
+| Pass accuracy | 89% | 85% |
+
+</details>
 
 #### Germany 2–1 Côte d'Ivoire (Group E)
-_BMO Field, Toronto_
+_BMO Field, Toronto_ · Att: 43,036 · Referee: Juan Gabriel Benítez
 
-Germany edged Ivory Coast 2-1 in Toronto to move to the brink of the knockout rounds.
+**Goals:** 30' Franck Kessié (Côte d'Ivoire); 68' Deniz Undav (Germany); 90+4' Deniz Undav (Germany)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Germany** (4-2-3-1 — Julian Nagelsmann): 1. Manuel Neuer, 15. Nico Schlotterbeck, 4. Jonathan Tah, 18. Nathaniel Brown, 6. Joshua Kimmich, 10. Jamal Musiala, 5. Aleksandar Pavlovic, 23. Felix Nmecha, 7. Kai Havertz, 17. Florian Wirtz, 19. Leroy Sané
+
+**Côte d'Ivoire** (4-1-4-1 — Emerse Faé): 1. Yahia Fofana, 20. Emmanuel Agbadou, 7. Odilon Kossounou, 18. Ibrahim Sangaré, 3. Ghislain Konan, 5. Wilfried Singo, 26. Christ Inao Oulaï, 8. Franck Kessié, 11. Yan Diomande, 15. Amad Diallo, 9. Ange-Yoan Bonny
+
+**Substitutions:** 45' Nico Schlotterbeck → Antonio Rüdiger (Germany); 60' Leroy Sané → Jamie Leweling (Germany); 60' Jamal Musiala → Deniz Undav (Germany); 60' Aleksandar Pavlovic → Nadiem Amiri (Germany); 75' Ange-Yoan Bonny → Evann Guessand (Côte d'Ivoire); 75' Ibrahim Sangaré → Seko Fofana (Côte d'Ivoire); 75' Amad Diallo → Simon Adingra (Côte d'Ivoire); 82' Wilfried Singo → Guela Doué (Côte d'Ivoire); 85' Yan Diomande → Nicolas Pépé (Côte d'Ivoire); 85' Kai Havertz → Leon Goretzka (Germany)
+
+| Stat | Germany | Côte d'Ivoire |
+|------|---|---|
+| Possession | 60% | 40% |
+| Shots | 16 | 9 |
+| Shots on target | 7 | 2 |
+| Corners | 8 | 3 |
+| Fouls | 5 | 7 |
+| Offsides | 0 | 1 |
+| Yellow cards | 0 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 1 | 5 |
+| Passes | 624 | 431 |
+| Pass accuracy | 89% | 85% |
+
+</details>
 
 #### Ecuador 0–0 Curaçao (Group E)
-_Arrowhead Stadium, Kansas City_
+_Arrowhead Stadium, Kansas City_ · Att: 68,598 · Referee: Ma Ning
 
-Curacao goalkeeper Eloy Room made a record 15 saves as the minnows held Ecuador to a goalless draw.
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Ecuador** (3-1-4-2 — Sebastián Beccacece): 1. Hernán Galíndez, 6. Willian Pacho, 3. Piero Hincapié, 21. Alan Franco, 5. Jordy Alcívar, 23. Moisés Caicedo, 15. Pedro Vite, 7. Pervis Estupiñán, 9. John Yeboah, 13. Enner Valencia, 19. Gonzalo Plata
+
+**Curaçao** (5-4-1 — Dick Advocaat): 1. Eloy Room, 18. Armando Obispo, 5. Sherel Floranus, 3. Juriën Gaari, 24. Deveron Fonville, 20. Joshua Brenet, 10. Leandro Bacuna, 8. Livano Comenencia, 7. Juninho Bacuna, 21. Tahith Chong, 9. Jürgen Locadia
+
+**Substitutions:** 45' Jordy Alcívar → Kevin Rodríguez (Ecuador); 70' Pervis Estupiñán → Nilson Angulo (Ecuador); 75' Juninho Bacuna → Kenji Gorré (Curaçao); 76' Deveron Fonville → Roshon van Eijma (Curaçao); 76' Tahith Chong → Jearl Margaritha (Curaçao); 83' Alan Franco → Ángelo Preciado (Ecuador); 83' Jürgen Locadia → Gervane Kastaneer (Curaçao); 84' Livano Comenencia → Godfried Roemeratoe (Curaçao); 89' John Yeboah → Jordy Caicedo (Ecuador)
+
+**Cards:** 🟨 38' Jordy Alcívar (Ecuador); 🟨 39' Leandro Bacuna (Curaçao); 🟨 53' Juninho Bacuna (Curaçao); 🟨 56' Livano Comenencia (Curaçao); 🟨 75' Juriën Gaari (Curaçao); 🟨 90+1' Gervane Kastaneer (Curaçao)
+
+| Stat | Ecuador | Curaçao |
+|------|---|---|
+| Possession | 75% | 25% |
+| Shots | 27 | 10 |
+| Shots on target | 15 | 3 |
+| Corners | 9 | 0 |
+| Fouls | 7 | 10 |
+| Offsides | 1 | 2 |
+| Yellow cards | 1 | 5 |
+| Red cards | 0 | 0 |
+| Saves | 3 | 15 |
+| Passes | 644 | 227 |
+| Pass accuracy | 90% | 70% |
+
+</details>
 
 #### Tunisia 0–4 Japan (Group F)
-_Estadio BBVA, Monterrey_
+_Estadio BBVA, Monterrey_ · Att: 51,243 · Referee: Istvan Kovacs
 
-Ayase Ueda starred as Japan became the first Asian side to score four in a World Cup match, thrashing Tunisia 4-0 to eliminate them.
+**Goals:** 4' Daichi Kamada (Japan); 31' Ayase Ueda (Japan); 69' Junya Ito (Japan); 83' Ayase Ueda (Japan)
+
+<details><summary>Lineups, substitutions, cards & stats</summary>
+
+**Tunisia** (3-4-2-1 — Sabri Lamouchi): 16. Aymen Dahmen, 3. Montassar Talbi, 4. Omar Rekik, 6. Dylan Bronn, 17. Ellyes Skhiri, 25. Anis Slimane, 2. Ali Abdi, 20. Yan Valery, 26. Sebastian Tounekti, 10. Hannibal Mejbri, 8. Elias Saad
+
+**Japan** (3-4-2-1 — Hajime Moriyasu): 1. Zion Suzuki, 4. Kou Itakura, 21. Hiroki Ito, 22. Takehiro Tomiyasu, 7. Ao Tanaka, 24. Kaishu Sano, 13. Keito Nakamura, 10. Ritsu Doan, 18. Ayase Ueda, 15. Daichi Kamada, 14. Junya Ito
+
+**Substitutions:** 45' Elias Saad → Ismaël Gharbi (Tunisia); 45' Dylan Bronn → Mohamed Amine Ben Hamida (Tunisia); 64' Sebastian Tounekti → Firas Chaouat (Tunisia); 73' Daichi Kamada → Junnosuke Suzuki (Japan); 74' Ritsu Doan → Yukinari Sugawara (Japan); 79' Keito Nakamura → Yuito Suzuki (Japan); 79' Takehiro Tomiyasu → Ayumu Seko (Japan); 84' Ayase Ueda → Keisuke Goto (Japan); 90+1' Ellyes Skhiri → Rani Khedira (Tunisia); 90+1' Ali Abdi → Elias Achouri (Tunisia)
+
+| Stat | Tunisia | Japan |
+|------|---|---|
+| Possession | 38% | 62% |
+| Shots | 2 | 11 |
+| Shots on target | 0 | 5 |
+| Corners | 3 | 5 |
+| Fouls | 8 | 15 |
+| Offsides | 1 | 1 |
+| Yellow cards | 0 | 0 |
+| Red cards | 0 | 0 |
+| Saves | 1 | 0 |
+| Passes | 354 | 583 |
+| Pass accuracy | 80% | 89% |
+
+</details>
 
 ### 2026-06-21
 

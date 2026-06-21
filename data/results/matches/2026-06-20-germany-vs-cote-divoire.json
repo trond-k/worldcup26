@@ -1,0 +1,251 @@
+{
+  "id": "2026-06-20-germany-vs-cote-divoire",
+  "date": "2026-06-20",
+  "home": "germany",
+  "away": "cote-divoire",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 43036,
+  "referee": "Juan Gabriel Benítez",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760448"
+  ],
+  "goals": [
+    {
+      "team": "cote-divoire",
+      "player": "Franck Kessié",
+      "minute": "30",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "germany",
+      "player": "Deniz Undav",
+      "minute": "68",
+      "type": "regular",
+      "assist": "Nadiem Amiri"
+    },
+    {
+      "team": "germany",
+      "player": "Deniz Undav",
+      "minute": "90+4",
+      "type": "regular",
+      "assist": "Felix Nmecha"
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "germany",
+      "on": "Antonio Rüdiger",
+      "off": "Nico Schlotterbeck",
+      "minute": "45"
+    },
+    {
+      "team": "germany",
+      "on": "Jamie Leweling",
+      "off": "Leroy Sané",
+      "minute": "60"
+    },
+    {
+      "team": "germany",
+      "on": "Deniz Undav",
+      "off": "Jamal Musiala",
+      "minute": "60"
+    },
+    {
+      "team": "germany",
+      "on": "Nadiem Amiri",
+      "off": "Aleksandar Pavlovic",
+      "minute": "60"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Evann Guessand",
+      "off": "Ange-Yoan Bonny",
+      "minute": "75"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Seko Fofana",
+      "off": "Ibrahim Sangaré",
+      "minute": "75"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Simon Adingra",
+      "off": "Amad Diallo",
+      "minute": "75"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Guela Doué",
+      "off": "Wilfried Singo",
+      "minute": "82"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Nicolas Pépé",
+      "off": "Yan Diomande",
+      "minute": "85"
+    },
+    {
+      "team": "germany",
+      "on": "Leon Goretzka",
+      "off": "Kai Havertz",
+      "minute": "85"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Julian Nagelsmann",
+      "starting": [
+        {
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Jamal Musiala",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Aleksandar Pavlovic",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Kai Havertz",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Leroy Sané",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Emerse Faé",
+      "starting": [
+        {
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Ibrahim Sangaré",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Ghislain Konan",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Wilfried Singo",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Christ Inao Oulaï",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Franck Kessié",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Yan Diomande",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Ange-Yoan Bonny",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 60,
+      "shots": 16,
+      "shots_on_target": 7,
+      "corners": 8,
+      "fouls": 5,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 624,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 40,
+      "shots": 9,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 7,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 431,
+      "pass_accuracy": 85
+    }
+  }
+}
