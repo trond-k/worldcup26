@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-22",
+  "matches": [
+    {
+      "id": "2026-06-22-argentina-vs-austria",
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "argentina",
+      "away": "austria",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "AT&T Stadium, Arlington",
+      "note": "Group J matchday 2."
+    },
+    {
+      "id": "2026-06-22-france-vs-iraq",
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "france",
+      "away": "iraq",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "note": "Group I matchday 2."
+    },
+    {
+      "id": "2026-06-22-norway-vs-senegal",
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home": "norway",
+      "away": "senegal",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "MetLife Stadium, East Rutherford",
+      "note": "Group I matchday 2."
+    },
+    {
+      "id": "2026-06-22-jordan-vs-algeria",
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home": "jordan",
+      "away": "algeria",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "venue": "Levi's Stadium, Santa Clara",
+      "note": "Group J matchday 2."
+    }
+  ]
+}

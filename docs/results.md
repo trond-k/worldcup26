@@ -1,6 +1,6 @@
 # Results
 
-_32 matches played; 32 with full detail (goals, lineups, stats)._
+_36 matches played; 32 with full detail (goals, lineups, stats)._
 
 ## Group standings
 
@@ -46,19 +46,19 @@ _Computed from completed matches only._
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| Germany | 1 | 1 | 0 | 0 | 7 | 1 | +6 | 3 |
-| Côte d'Ivoire | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
-| Ecuador | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
-| Curaçao | 1 | 0 | 0 | 1 | 1 | 7 | -6 | 0 |
+| Germany | 2 | 2 | 0 | 0 | 9 | 2 | +7 | 6 |
+| Côte d'Ivoire | 2 | 1 | 0 | 1 | 2 | 2 | 0 | 3 |
+| Ecuador | 2 | 0 | 1 | 1 | 0 | 1 | -1 | 1 |
+| Curaçao | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
 
 ### Group F
 
 | Team | P | W | D | L | GF | GA | GD | Pts |
 |------|---|---|---|---|----|----|----|-----|
-| Sweden | 1 | 1 | 0 | 0 | 5 | 1 | +4 | 3 |
-| Japan | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
-| Netherlands | 1 | 0 | 1 | 0 | 2 | 2 | 0 | 1 |
-| Tunisia | 1 | 0 | 0 | 1 | 1 | 5 | -4 | 0 |
+| Netherlands | 2 | 1 | 1 | 0 | 7 | 3 | +4 | 4 |
+| Japan | 2 | 1 | 1 | 0 | 6 | 2 | +4 | 4 |
+| Sweden | 2 | 1 | 0 | 1 | 6 | 6 | 0 | 3 |
+| Tunisia | 2 | 0 | 0 | 2 | 1 | 9 | -8 | 0 |
 
 ### Group G
 
@@ -1063,13 +1063,25 @@ _Levi's Stadium, Santa Clara_ · Att: 68,827 · Referee: Iván Arcides Barton Ci
 
 ### 2026-06-20
 
-#### Netherlands vs Sweden (Group F) — _scheduled_
+#### Netherlands 5–1 Sweden (Group F)
+_NRG Stadium, Houston_
 
-#### Germany vs Côte d'Ivoire (Group E) — _scheduled_
+Braces from Brian Brobbey and Cody Gakpo powered a five-star Netherlands to a statement 5-1 win over Sweden in Houston.
 
-#### Ecuador vs Curaçao (Group E) — _scheduled_
+#### Germany 2–1 Côte d'Ivoire (Group E)
+_BMO Field, Toronto_
 
-#### Tunisia vs Japan (Group F) — _scheduled_
+Germany edged Ivory Coast 2-1 in Toronto to move to the brink of the knockout rounds.
+
+#### Ecuador 0–0 Curaçao (Group E)
+_Arrowhead Stadium, Kansas City_
+
+Curacao goalkeeper Eloy Room made a record 15 saves as the minnows held Ecuador to a goalless draw.
+
+#### Tunisia 0–4 Japan (Group F)
+_Estadio BBVA, Monterrey_
+
+Ayase Ueda starred as Japan became the first Asian side to score four in a World Cup match, thrashing Tunisia 4-0 to eliminate them.
 
 ### 2026-06-21
 
@@ -1080,3 +1092,13 @@ _Levi's Stadium, Santa Clara_ · Att: 68,827 · Referee: Iván Arcides Barton Ci
 #### Uruguay vs Cabo Verde (Group H) — _scheduled_
 
 #### New Zealand vs Egypt (Group G) — _scheduled_
+
+### 2026-06-22
+
+#### Argentina vs Austria (Group J) — _scheduled_
+
+#### France vs Iraq (Group I) — _scheduled_
+
+#### Norway vs Senegal (Group I) — _scheduled_
+
+#### Jordan vs Algeria (Group J) — _scheduled_
