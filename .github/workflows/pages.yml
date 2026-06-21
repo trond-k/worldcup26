@@ -31,6 +31,15 @@ jobs:
       - uses: actions/configure-pages@v5
       - name: Validate data
         run: python3 scripts/validate.py
+      # Refresh World Football Elo into the working tree before building. The
+      # ratings change after every international and feed the football odds
+      # model, so the daily rebuild should use current values. This is
+      # ephemeral (not committed) — same model as "today's matches": the site
+      # is a fresh function of the committed data plus live state at build
+      # time. Non-fatal: if eloratings.net is down or changes format, the build
+      # falls back to the committed elo_* values instead of failing the deploy.
+      - name: Refresh Elo ratings (non-fatal; falls back to committed values)
+        run: python3 scripts/harvest_elo_ratings.py --apply || echo "::warning::Elo refresh failed; building with committed ratings"
       - name: Build static site
         run: python3 scripts/generate_site.py
       - uses: actions/upload-pages-artifact@v3

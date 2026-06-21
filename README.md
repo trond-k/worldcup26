@@ -196,9 +196,15 @@ statistics, sources).
 
 The generated `site/` directory is **not** committed (it is in `.gitignore`);
 it is built fresh on demand and by CI. The site is published to **GitHub Pages**
-by `.github/workflows/pages.yml`, which validates the data, runs the generator
-and deploys `site/` on every push. To enable it for a fork, open the
-repository's **Settings → Pages** and set **Source = GitHub Actions** (one-time).
+by `.github/workflows/pages.yml`, which validates the data, refreshes the
+World Football Elo ratings, runs the generator and deploys `site/` on every
+push (and daily). The Elo refresh is **ephemeral** — it updates the working
+tree for that build only, never committed — so the published odds always use
+current ratings while the repo's `elo_*` fields stay a stable seed (refresh
+them in source with `harvest_elo_ratings.py --apply`). If eloratings.net is
+unreachable the step is skipped and the build falls back to the committed
+values. To enable Pages for a fork, open the repository's **Settings → Pages**
+and set **Source = GitHub Actions** (one-time).
 
 ## Favourites / odds models
 
