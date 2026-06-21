@@ -28,7 +28,7 @@ docs/                  # GENERATED — do not edit by hand (run the scripts)
   README.md            # browsable index of all groups
   group-a.md … group-l.md
   stats.md             # market-value rankings and totals
-  results.md           # match results and live group standings
+  results.md           # match results + standings (gitignored; published via site/results.html)
   favourites.md        # favourite/underdog odds models (see Favourites below)
 scripts/
   validate.py          # structural validation (CI-friendly, exits non-zero on error)

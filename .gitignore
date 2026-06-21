@@ -1,6 +1,14 @@
 # Generated static website (built by scripts/generate_site.py and CI).
 /site/
 
+# Generated daily-results markdown. It's a redundant mirror of the published
+# site's results page (site/results.html, built from data/ in CI), and was the
+# one file both the scheduled cloud agent and local harvest regenerated and
+# committed every matchday — the sole recurring merge conflict. Untracked so
+# both actors only touch data/, which auto-merges. Run generate_results.py
+# locally any time to regenerate it for browsing.
+/docs/results.md
+
 # Python
 __pycache__/
 *.py[cod]
