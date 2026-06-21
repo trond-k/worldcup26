@@ -96,6 +96,9 @@ p { margin: 0.6rem 0; }
 .muted { color: var(--muted); font-size: 0.92rem; }
 .score { color: var(--accent); }
 
+.match-meta { margin: 0.6rem 0; }
+.match-meta strong { font-weight: 600; }
+
 ul, ol { margin: 0.5rem 0; padding-left: 1.4rem; }
 li { margin: 0.15rem 0; }
 

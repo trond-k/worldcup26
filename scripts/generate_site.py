@@ -1073,14 +1073,24 @@ def render_match(m, detail, by_slug, scores=None):
     body = [f"<h1>{esc(team_name(by_slug, home))} "
             f'<span class="score">{esc(m["home_score"])}–{esc(m["away_score"])}</span> '
             f"{esc(team_name(by_slug, away))}</h1>"]
-    meta = [esc(grp), esc(m.get("date", ""))]
+    # Context line: group + date scan at a glance; the group is also the
+    # back-link below, so the meta line stays light.
+    context = " &middot; ".join(p for p in (esc(grp), esc(m.get("date", ""))) if p)
+    body.append(f'<p class="lead">{context}</p>')
+
+    # Match facts as a labelled key/value grid rather than a flat middot run.
+    facts = []
     if m.get("venue"):
-        meta.append(esc(m["venue"]))
+        facts.append(("Venue", esc(m["venue"])))
     if detail.get("attendance"):
-        meta.append(f"Att: {esc(format(detail['attendance'], ','))}")
+        facts.append(("Attendance", esc(format(detail["attendance"], ","))))
     if detail.get("referee"):
-        meta.append(f"Referee: {esc(detail['referee'])}")
-    body.append(f'<p class="lead">{" &middot; ".join(meta)}</p>')
+        facts.append(("Referee", esc(detail["referee"])))
+    if facts:
+        items = "".join(f"<li><strong>{label}:</strong> {value}</li>"
+                        for label, value in facts)
+        body.append(f'<ul class="match-meta">{items}</ul>')
+
     body.append(f'<p><a href="{rel(1)}group-{m["group"].lower()}.html">&larr; Group '
                 f'{esc(m["group"])}</a></p>' if m.get("group") else "")
 
