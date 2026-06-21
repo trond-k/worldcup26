@@ -16,6 +16,10 @@ __pycache__/
 # poll_ready.py settle-timer stamps
 scripts/.poll-*.stamp
 
+# Raw harvested snapshots (e.g. Elo ratings). Timestamped working artifacts
+# regenerated on demand by scripts/harvest_elo_ratings.py — not curated data.
+/data/raw/
+
 # Secrets / local env (API keys) — never commit
 .env
 *.env

@@ -1,10 +1,18 @@
 """Harvest the current World Football Elo Ratings table.
 
-The script fetches https://eloratings.net/, extracts the ranking table, and writes a
-raw CSV snapshot under data/raw/rankings/. It is intentionally standard-library
-only, matching the rest of this repository's script conventions.
+eloratings.net renders its ranking in JavaScript, so there is no HTML table to
+scrape. The data is loaded from two flat tab-separated files that the site
+itself fetches:
 
-Default mode writes only the raw CSV snapshot:
+    https://www.eloratings.net/World.tsv      rank / team code / rating (+ history columns)
+    https://www.eloratings.net/en.teams.tsv   team code -> display name (+ aliases)
+
+This script joins the two: it reads each ranking row's 2-letter team code from
+World.tsv, resolves it to a country name via en.teams.tsv, then maps that name
+onto this repository's team slugs. It is intentionally standard-library only,
+matching the rest of this repository's script conventions.
+
+Default mode writes only the raw CSV snapshot under data/raw/rankings/:
 
     python3 scripts/harvest_elo_ratings.py
 
@@ -15,25 +23,27 @@ Use --apply to also seed matched team JSON files with:
     elo_source
     elo_harvested_at
 
-The scraper is conservative. If eloratings.net changes its markup or moves the
-ranking into JavaScript-only data, it will fail with a clear message rather than
-silently writing guessed values.
+The harvester is conservative. If eloratings.net changes the file format or
+moves the data, it will fail with a clear message rather than silently writing
+guessed values.
 """
 
 import argparse
 import csv
 import datetime as dt
 import html
-from html.parser import HTMLParser
 import json
 import os
 import re
-import sys
 import urllib.request
 
 from common import load_all_teams, team_path
 
-SOURCE_URL = "https://eloratings.net/"
+# Human-facing site, recorded as the provenance in elo_source.
+SOURCE_URL = "https://www.eloratings.net/"
+# The flat data files the site loads (no JavaScript needed).
+RATINGS_URL = "https://www.eloratings.net/World.tsv"
+TEAMS_URL = "https://www.eloratings.net/en.teams.tsv"
 OUT_PATH = os.path.join("data", "raw", "rankings", "world_football_elo_snapshot.csv")
 
 # Name harmonisation for this repository's team slugs. The source may use common
@@ -67,54 +77,6 @@ NAME_TO_SLUG_OVERRIDES = {
 }
 
 
-class TableParser(HTMLParser):
-    """Very small HTML table parser for ordinary <table><tr><td> markup."""
-
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.tables = []
-        self._in_table = False
-        self._in_row = False
-        self._in_cell = False
-        self._table = []
-        self._row = []
-        self._cell = []
-
-    def handle_starttag(self, tag, attrs):
-        tag = tag.lower()
-        if tag == "table":
-            self._in_table = True
-            self._table = []
-        elif self._in_table and tag == "tr":
-            self._in_row = True
-            self._row = []
-        elif self._in_table and self._in_row and tag in {"td", "th"}:
-            self._in_cell = True
-            self._cell = []
-
-    def handle_endtag(self, tag):
-        tag = tag.lower()
-        if self._in_table and self._in_row and self._in_cell and tag in {"td", "th"}:
-            value = normalize_text("".join(self._cell))
-            self._row.append(value)
-            self._cell = []
-            self._in_cell = False
-        elif self._in_table and self._in_row and tag == "tr":
-            if any(self._row):
-                self._table.append(self._row)
-            self._row = []
-            self._in_row = False
-        elif self._in_table and tag == "table":
-            if self._table:
-                self.tables.append(self._table)
-            self._table = []
-            self._in_table = False
-
-    def handle_data(self, data):
-        if self._in_cell:
-            self._cell.append(data)
-
-
 def normalize_text(value):
     value = html.unescape(str(value))
     value = re.sub(r"\s+", " ", value)
@@ -130,12 +92,12 @@ def norm_key(value):
     return value.strip()
 
 
-def fetch_html(url):
+def fetch_text(url):
     req = urllib.request.Request(
         url,
         headers={
             "User-Agent": "worldcup26-elo-harvester/1.0 (+https://github.com/trond-k/worldcup26)",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept": "text/tab-separated-values,text/plain,*/*;q=0.8",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as response:
@@ -143,14 +105,8 @@ def fetch_html(url):
         return response.read().decode(charset, errors="replace")
 
 
-def extract_tables(page_html):
-    parser = TableParser()
-    parser.feed(page_html)
-    return parser.tables
-
-
-def clean_rating_cell(value):
-    m = re.search(r"\b(\d{3,4})\b", value.replace(",", ""))
+def clean_rating(value):
+    m = re.search(r"\b(\d{3,4})\b", str(value).replace(",", ""))
     if not m:
         return None
     rating = int(m.group(1))
@@ -161,54 +117,46 @@ def clean_rating_cell(value):
     return None
 
 
-def infer_ranking_rows(tables):
-    """Return rows with rank/team/rating inferred from the best-looking table."""
-    candidates = []
-    for table in tables:
-        extracted = []
-        for row in table:
-            if len(row) < 3:
-                continue
-            rank_match = re.match(r"^\s*(\d{1,3})\b", row[0])
-            if not rank_match:
-                continue
-            rank = int(rank_match.group(1))
+def parse_team_names(tsv_text):
+    """Map each eloratings team code to its primary display name.
 
-            rating_idx = None
-            rating = None
-            # Prefer rating-looking cells after the team cell; skip rank cell.
-            for idx, cell in enumerate(row[1:], start=1):
-                candidate = clean_rating_cell(cell)
-                if candidate is not None:
-                    rating_idx = idx
-                    rating = candidate
-                    break
-            if rating is None:
-                continue
+    en.teams.tsv rows are: <code>\t<name>\t<alias>...  -- we keep column 2.
+    """
+    names = {}
+    for line in tsv_text.splitlines():
+        cells = line.split("\t")
+        if len(cells) >= 2 and cells[0].strip():
+            names[cells[0].strip()] = normalize_text(cells[1])
+    return names
 
-            # Team is usually the text cell between rank and rating. Choose the
-            # longest non-numeric text cell before the rating.
-            text_cells = [c for c in row[1:rating_idx] if re.search(r"[A-Za-zÀ-ž]", c)]
-            if not text_cells:
-                continue
-            team = max(text_cells, key=len)
-            team = re.sub(r"^[↑↓+\-0-9 ]+", "", team).strip()
-            if not team:
-                continue
 
-            extracted.append({
-                "rank": rank,
-                "team": team,
-                "rating": rating,
-                "raw_cells": row,
-            })
-        if len(extracted) >= 20:
-            candidates.append(extracted)
+def parse_world_ratings(tsv_text, code_to_name):
+    """Extract rank / code / name / rating rows from World.tsv.
 
-    if not candidates:
-        return []
-    # Prefer the largest ranking table.
-    return max(candidates, key=len)
+    Columns: [0] rank, [2] team code, [3] rating (later columns are history).
+    """
+    rows = []
+    for line in tsv_text.splitlines():
+        cells = line.split("\t")
+        if len(cells) < 4:
+            continue
+        rank_match = re.match(r"^\s*(\d{1,3})\s*$", cells[0])
+        if not rank_match:
+            continue
+        rating = clean_rating(cells[3])
+        if rating is None:
+            continue
+        code = cells[2].strip()
+        if not code:
+            continue
+        rows.append({
+            "rank": int(rank_match.group(1)),
+            "code": code,
+            "team": code_to_name.get(code, code),
+            "rating": rating,
+            "raw_cells": cells,
+        })
+    return rows
 
 
 def build_slug_lookup():
@@ -236,6 +184,7 @@ def write_csv(rows, out_path, harvested_at):
                 "harvested_at_utc",
                 "source_url",
                 "rank",
+                "code",
                 "team",
                 "rating",
                 "matched_slug",
@@ -246,8 +195,9 @@ def write_csv(rows, out_path, harvested_at):
         for row in rows:
             writer.writerow({
                 "harvested_at_utc": harvested_at,
-                "source_url": SOURCE_URL,
+                "source_url": RATINGS_URL,
                 "rank": row["rank"],
+                "code": row["code"],
                 "team": row["team"],
                 "rating": row["rating"],
                 "matched_slug": row.get("matched_slug", ""),
@@ -293,19 +243,19 @@ def apply_to_team_files(rows, harvested_at):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Harvest World Football Elo ranking table.")
-    parser.add_argument("--url", default=SOURCE_URL, help="Source URL, defaults to https://eloratings.net/")
+    parser.add_argument("--ratings-url", default=RATINGS_URL, help="World.tsv ratings file URL")
+    parser.add_argument("--teams-url", default=TEAMS_URL, help="en.teams.tsv code->name file URL")
     parser.add_argument("--out", default=OUT_PATH, help="CSV output path")
     parser.add_argument("--apply", action="store_true", help="Also write elo_* fields into matched team JSON files")
     args = parser.parse_args(argv)
 
     harvested_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
-    page = fetch_html(args.url)
-    tables = extract_tables(page)
-    rows = infer_ranking_rows(tables)
+    code_to_name = parse_team_names(fetch_text(args.teams_url))
+    rows = parse_world_ratings(fetch_text(args.ratings_url), code_to_name)
     if not rows:
         raise SystemExit(
-            "No ranking table could be extracted from eloratings.net. "
-            "The site may have changed markup or moved the table into JavaScript-only data."
+            f"No ranking rows could be parsed from {args.ratings_url}. "
+            "The file format may have changed, or the data may have moved."
         )
 
     rows = attach_slugs(rows)
