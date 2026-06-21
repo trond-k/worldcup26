@@ -21,9 +21,9 @@
       "matchday": 2,
       "home": "belgium",
       "away": "iran",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "completed",
       "venue": "SoFi Stadium, Inglewood",
       "note": "Group G matchday 2."
     },

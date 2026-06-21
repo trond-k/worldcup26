@@ -1,0 +1,248 @@
+{
+  "id": "2026-06-21-belgium-vs-iran",
+  "date": "2026-06-21",
+  "home": "belgium",
+  "away": "iran",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 70317,
+  "referee": "Dario Herrera",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760451"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "belgium",
+      "player": "Romelu Lukaku",
+      "minute": "3",
+      "card": "yellow"
+    },
+    {
+      "team": "iran",
+      "player": "Saeid Ezatolahi",
+      "minute": "33",
+      "card": "yellow"
+    },
+    {
+      "team": "belgium",
+      "player": "Nathan Ngoy",
+      "minute": "66",
+      "card": "red"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "iran",
+      "on": "Alireza Jahanbakhsh",
+      "off": "Saleh Hardani",
+      "minute": "45"
+    },
+    {
+      "team": "belgium",
+      "on": "Timothy Castagne",
+      "off": "Thomas Meunier",
+      "minute": "58"
+    },
+    {
+      "team": "belgium",
+      "on": "Hans Vanaken",
+      "off": "Nicolas Raskin",
+      "minute": "58"
+    },
+    {
+      "team": "belgium",
+      "on": "Dodi Lukébakio",
+      "off": "Alexis Saelemaekers",
+      "minute": "58"
+    },
+    {
+      "team": "iran",
+      "on": "Mehdi Torabi",
+      "off": "Mohammad Mohebbi",
+      "minute": "66"
+    },
+    {
+      "team": "iran",
+      "on": "Milad Mohammadi",
+      "off": "Ehsan Hajsafi",
+      "minute": "66"
+    },
+    {
+      "team": "belgium",
+      "on": "Arthur Theate",
+      "off": "Romelu Lukaku",
+      "minute": "73"
+    },
+    {
+      "team": "iran",
+      "on": "Shahriyar Moghanloo",
+      "off": "Saman Ghoddos",
+      "minute": "79"
+    },
+    {
+      "team": "iran",
+      "on": "Amirhossein Hosseinzadeh",
+      "off": "Saeid Ezatolahi",
+      "minute": "85"
+    },
+    {
+      "team": "belgium",
+      "on": "Matias Fernandez-Pardo",
+      "off": "Kevin De Bruyne",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Thomas Meunier",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Nicolas Raskin",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Romelu Lukaku",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "position": "MF",
+          "number": 22
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Amir Ghalenoei",
+      "starting": [
+        {
+          "name": "Alireza Beiranvand",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Shoja Khalilzadeh",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ali Nemati",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Hossein Kanani",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Ehsan Hajsafi",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Saleh Hardani",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Saeid Ezatolahi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Saman Ghoddos",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Mohammad Mohebbi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ramin Rezaeian",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Mehdi Taremi",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 70,
+      "shots": 23,
+      "shots_on_target": 7,
+      "corners": 4,
+      "fouls": 7,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "saves": 3,
+      "passes": 622,
+      "pass_accuracy": 86
+    },
+    "away": {
+      "possession": 30,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": 9,
+      "offsides": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 7,
+      "passes": 268,
+      "pass_accuracy": 74
+    }
+  }
+}
