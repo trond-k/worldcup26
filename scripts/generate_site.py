@@ -116,8 +116,6 @@ def page(title, body, depth=0, active=None):
     """Wrap body HTML in the shared site shell. `active` highlights a nav item."""
     root = rel(depth)
     nav_items = [("", "Home", "home")]
-    if CALENDAR_HOME:
-        nav_items.append((CALENDAR_HOME, "Calendar", "calendar"))
     nav_items += [("schedule.html", "Schedule", "schedule"),
                   ("bracket.html", "Bracket", "bracket"),
                   ("favourites.html", "Favourites", "favourites"),
@@ -418,12 +416,13 @@ def render_day(date, dates, day_matches, by_slug, details, scores, counts):
         body.append(render_match_card(m, by_slug, details, scores))
     body.append('</div>')
     return page(f"Matches — {pretty_date(date)}", "\n".join(body),
-                depth=0, active="calendar")
+                depth=0, active="home")
 
 
 # --- page renderers ----------------------------------------------------------
 
-def render_index(tournament, by_slug, matches, details, today, scores):
+def render_index(tournament, by_slug, matches, details, today, scores,
+                 cal_dates, counts):
     t = tournament
     body = [f"<h1>{esc(t['name'])}</h1>"]
     hosts = ", ".join(t.get("hosts", []))
@@ -436,13 +435,17 @@ def render_index(tournament, by_slug, matches, details, today, scores):
 
     label, fdate, featured = select_featured_matches(matches, today)
     if featured:
+        # The home page is the calendar entry point: a date strip to every
+        # matchday, with the featured (live-edge) day's cards shown inline.
+        current = fdate if fdate in cal_dates else (cal_dates[-1] if cal_dates else None)
+        if current:
+            body.append(render_date_nav(cal_dates, current, counts))
         body.append(f'<h2>{esc(label)} '
                     f'<span class="muted">— {esc(pretty_date(fdate))}</span></h2>')
         body.append('<div class="matchday">')
         for m in featured:
             body.append(render_match_card(m, by_slug, details, scores))
         body.append('</div>')
-        body.append(f'<p>{link(f"day-{fdate}.html", "Browse all matchdays →")}</p>')
 
     rows = []
     for letter in GROUP_LETTERS:
@@ -1227,11 +1230,10 @@ def render_match(m, detail, by_slug, scores=None):
 # --- driver ------------------------------------------------------------------
 
 FOOTER_NOTE = ""
-CALENDAR_HOME = ""  # set in main(): href of the Calendar nav landing day page
 
 
 def main():
-    global FOOTER_NOTE, CALENDAR_HOME
+    global FOOTER_NOTE
     tournament = load_tournament()
     FOOTER_NOTE = tournament.get("data_disclaimer", "")
     teams = load_all_teams()
@@ -1250,7 +1252,7 @@ def main():
     today = (os.environ.get("SITE_DATE")
              or datetime.datetime.now(ZoneInfo(site_tz)).date().isoformat())
 
-    # Matchdays for the calendar, and the day the Calendar nav lands on.
+    # Matchdays for the calendar, and the live-edge day the home page lands on.
     by_date = {}
     for m in matches:
         by_date.setdefault(m["date"], []).append(m)
@@ -1259,7 +1261,6 @@ def main():
     _, cal_date, _ = select_featured_matches(matches, today)
     if not cal_date and dates:
         cal_date = dates[-1]
-    CALENDAR_HOME = f"day-{cal_date}.html" if cal_date else ""
 
     # The calendar is a live view: it runs only up to the current "live edge"
     # (today's matchday, or the next upcoming one). Dates beyond that are still
@@ -1273,7 +1274,8 @@ def main():
     os.makedirs(SITE_DIR, exist_ok=True)
 
     write("index.html",
-          render_index(tournament, by_slug, matches, details, today, scores))
+          render_index(tournament, by_slug, matches, details, today, scores,
+                       cal_dates, counts))
 
     n_groups = 0
     for letter in GROUP_LETTERS:
