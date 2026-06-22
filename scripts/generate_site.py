@@ -946,14 +946,16 @@ def render_results(teams, matches, details, by_slug):
         body.append(standings_table(rows))
 
     body.append("<h2>Match results</h2>")
+    body.append(f'<p class="muted">Played matches only — see the '
+                f'{link("schedule.html", "schedule")} for upcoming fixtures.</p>')
     dates = []
-    for m in matches:
+    for m in completed:
         if m["date"] not in dates:
             dates.append(m["date"])
     for date in dates:
         body.append(f"<h3>{esc(date)}</h3>")
         rows = []
-        for m in [mm for mm in matches if mm["date"] == date]:
+        for m in [mm for mm in completed if mm["date"] == date]:
             has_detail = m.get("id") in details
             grp = stage_label(m)
             note = m.get("note") or ""
