@@ -8,9 +8,9 @@
       "matchday": 2,
       "home": "argentina",
       "away": "austria",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
       "venue": "AT&T Stadium, Arlington",
       "note": "Group J matchday 2."
     },

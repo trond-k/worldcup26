@@ -1,0 +1,269 @@
+{
+  "id": "2026-06-22-argentina-vs-austria",
+  "date": "2026-06-22",
+  "home": "argentina",
+  "away": "austria",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 70649,
+  "referee": "Amin Omar",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760456"
+  ],
+  "goals": [
+    {
+      "team": "argentina",
+      "player": "Lionel Messi",
+      "minute": "38",
+      "type": "regular",
+      "assist": "Facundo Medina"
+    },
+    {
+      "team": "argentina",
+      "player": "Lionel Messi",
+      "minute": "90+5",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "austria",
+      "player": "Stefan Posch",
+      "minute": "40",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Facundo Medina",
+      "minute": "76",
+      "card": "yellow"
+    },
+    {
+      "team": "austria",
+      "player": "Konrad Laimer",
+      "minute": "76",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Leandro Paredes",
+      "minute": "90+2",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "argentina",
+      "on": "Nicolás Otamendi",
+      "off": "Cristian Romero",
+      "minute": "57"
+    },
+    {
+      "team": "argentina",
+      "on": "Julián Álvarez",
+      "off": "Thiago Almada",
+      "minute": "64"
+    },
+    {
+      "team": "argentina",
+      "on": "Nico González",
+      "off": "Lautaro Martínez",
+      "minute": "65"
+    },
+    {
+      "team": "austria",
+      "on": "Marco Friedl",
+      "off": "David Alaba",
+      "minute": "67"
+    },
+    {
+      "team": "austria",
+      "on": "Alexander Prass",
+      "off": "Stefan Posch",
+      "minute": "68"
+    },
+    {
+      "team": "austria",
+      "on": "Marko Arnautovic",
+      "off": "Paul Wanner",
+      "minute": "68"
+    },
+    {
+      "team": "austria",
+      "on": "Patrick Wimmer",
+      "off": "Romano Schmid",
+      "minute": "78"
+    },
+    {
+      "team": "argentina",
+      "on": "Leandro Paredes",
+      "off": "Rodrigo De Paul",
+      "minute": "82"
+    },
+    {
+      "team": "argentina",
+      "on": "Nicolás Tagliafico",
+      "off": "Facundo Medina",
+      "minute": "82"
+    },
+    {
+      "team": "austria",
+      "on": "Carney Chukwuemeka",
+      "off": "Michael Gregoritsch",
+      "minute": "85"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Thiago Almada",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Lautaro Martínez",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Ralf Rangnick",
+      "starting": [
+        {
+          "name": "Alexander Schlager",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "David Alaba",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Paul Wanner",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Nicolas Seiwald",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Michael Gregoritsch",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Romano Schmid",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 54,
+      "shots": 12,
+      "shots_on_target": 5,
+      "corners": 1,
+      "fouls": 13,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 553,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 46,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 3,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 468,
+      "pass_accuracy": 86
+    }
+  }
+}
