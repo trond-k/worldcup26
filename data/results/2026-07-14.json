@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "AT&T Stadium, Arlington",
-      "note": "Semi-final — Match 101."
+      "note": "Semi-final — Match 101.",
+      "match_number": 101
     }
   ]
 }

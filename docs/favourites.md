@@ -8,54 +8,54 @@ The **football** model weighs squad market value, World Football Elo, FIFA ranki
 
 | # | Team | Group | Score |
 |---|------|-------|-------|
-| 1 | Argentina | J | 85.1 |
-| 2 | France | I | 84.4 |
-| 3 | Brazil | C | 83.2 |
-| 4 | Spain | H | 80.6 |
-| 5 | Germany | E | 79.4 |
-| 6 | England | L | 76.7 |
-| 7 | Portugal | K | 70.1 |
-| 8 | Uruguay | H | 69.7 |
-| 9 | Netherlands | F | 68.7 |
-| 10 | Norway | I | 63.0 |
-| 11 | Colombia | K | 61.9 |
-| 12 | United States (host) | D | 61.8 |
-| 13 | Türkiye | D | 61.7 |
-| 14 | Croatia | L | 61.3 |
-| 15 | Belgium | G | 58.9 |
-| 16 | Austria | J | 58.6 |
-| 17 | Japan | F | 58.2 |
-| 18 | Morocco | C | 57.3 |
-| 19 | Switzerland | B | 57.2 |
-| 20 | Mexico (host) | A | 56.7 |
-| 21 | Sweden | F | 56.2 |
-| 22 | Ecuador | E | 54.5 |
-| 23 | Senegal | I | 54.1 |
-| 24 | Côte d'Ivoire | E | 49.5 |
-| 25 | South Korea | A | 49.3 |
-| 26 | Algeria | J | 49.0 |
-| 27 | Canada (host) | B | 47.9 |
-| 28 | Scotland | C | 46.6 |
-| 29 | Czechia | A | 46.3 |
-| 30 | Paraguay | D | 42.7 |
-| 31 | Egypt | G | 42.7 |
-| 32 | DR Congo | K | 41.8 |
-| 33 | Australia | D | 39.2 |
-| 34 | Ghana | L | 35.2 |
-| 35 | Uzbekistan | K | 33.7 |
-| 36 | Bosnia and Herzegovina | B | 32.0 |
-| 37 | Panama | L | 29.6 |
-| 38 | Tunisia | F | 27.9 |
-| 39 | IR Iran | G | 27.8 |
-| 40 | Saudi Arabia | H | 25.0 |
-| 41 | Cabo Verde | H | 23.3 |
-| 42 | Haiti | C | 22.4 |
-| 43 | South Africa | A | 19.1 |
-| 44 | Jordan | J | 15.3 |
-| 45 | Iraq | I | 14.1 |
-| 46 | New Zealand | G | 13.9 |
-| 47 | Qatar | B | 13.2 |
-| 48 | Curaçao | E | 8.6 |
+| 1 | France | I | 85.9 |
+| 2 | Spain | H | 85.6 |
+| 3 | Argentina | J | 84.2 |
+| 4 | Germany | E | 80.8 |
+| 5 | Brazil | C | 80.7 |
+| 6 | England | L | 79.7 |
+| 7 | Netherlands | F | 72.3 |
+| 8 | Portugal | K | 71.8 |
+| 9 | Uruguay | H | 68.3 |
+| 10 | Belgium | G | 61.2 |
+| 11 | Croatia | L | 60.7 |
+| 12 | United States (host) | D | 60.5 |
+| 13 | Mexico (host) | A | 60.1 |
+| 14 | Norway | I | 60.1 |
+| 15 | Türkiye | D | 59.6 |
+| 16 | Colombia | K | 59.0 |
+| 17 | Japan | F | 57.1 |
+| 18 | Austria | J | 56.7 |
+| 19 | Switzerland | B | 56.1 |
+| 20 | Morocco | C | 54.8 |
+| 21 | Sweden | F | 54.1 |
+| 22 | Senegal | I | 51.7 |
+| 23 | Ecuador | E | 50.3 |
+| 24 | Côte d'Ivoire | E | 48.6 |
+| 25 | South Korea | A | 47.3 |
+| 26 | Czechia | A | 46.8 |
+| 27 | Canada (host) | B | 46.1 |
+| 28 | Algeria | J | 46.0 |
+| 29 | Scotland | C | 43.6 |
+| 30 | Paraguay | D | 40.8 |
+| 31 | Egypt | G | 39.4 |
+| 32 | DR Congo | K | 38.9 |
+| 33 | Australia | D | 36.2 |
+| 34 | Ghana | L | 33.1 |
+| 35 | IR Iran | G | 31.5 |
+| 36 | Bosnia and Herzegovina | B | 31.2 |
+| 37 | Uzbekistan | K | 30.2 |
+| 38 | Tunisia | F | 27.0 |
+| 39 | Panama | L | 27.0 |
+| 40 | Saudi Arabia | H | 26.1 |
+| 41 | South Africa | A | 24.1 |
+| 42 | Cabo Verde | H | 19.8 |
+| 43 | Iraq | I | 18.0 |
+| 44 | Haiti | C | 17.4 |
+| 45 | Jordan | J | 17.1 |
+| 46 | New Zealand | G | 14.1 |
+| 47 | Qatar | B | 13.3 |
+| 48 | Curaçao | E | 7.4 |
 
 ## Socio-economic favourites
 
@@ -116,14 +116,14 @@ _Teams ranked far higher by football than by socio-economics — overachievers r
 
 | Team | Football | Socio-econ | Climb |
 |------|----------|------------|-------|
-| Türkiye | #13 | #30 | +17 |
-| Uruguay | #8 | #25 | +17 |
-| Brazil | #3 | #15 | +12 |
-| Portugal | #7 | #19 | +12 |
+| Uruguay | #9 | #25 | +16 |
+| Türkiye | #15 | #30 | +15 |
+| Spain | #2 | #14 | +12 |
 | Egypt | #31 | #42 | +11 |
-| Argentina | #1 | #12 | +11 |
-| Uzbekistan | #35 | #46 | +11 |
-| Colombia | #11 | #22 | +11 |
+| Portugal | #8 | #19 | +11 |
+| Czechia | #26 | #36 | +10 |
+| Brazil | #5 | #15 | +10 |
+| England | #6 | #16 | +10 |
 
 ## Most squad value per citizen
 

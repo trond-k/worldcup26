@@ -37,7 +37,7 @@ import os
 import re
 import urllib.request
 
-from common import load_all_teams, team_path
+from common import atomic_write_json, load_all_teams, team_path
 
 # Human-facing site, recorded as the provenance in elo_source.
 SOURCE_URL = "https://www.eloratings.net/"
@@ -219,8 +219,17 @@ def insert_before_squad(team, fields):
     return out
 
 
-def apply_to_team_files(rows, harvested_at):
+def apply_to_team_files(rows, harvested_at, allow_partial=False):
     by_slug = {r["matched_slug"]: r for r in rows if r.get("matched_slug")}
+    expected = {team["slug"] for team in load_all_teams()}
+    missing = sorted(expected - set(by_slug))
+    if missing and not allow_partial:
+        raise RuntimeError(
+            "refusing partial Elo apply; unmatched World Cup teams: "
+            + ", ".join(missing)
+            + " (use --allow-partial only for an intentional partial refresh)"
+        )
+    updates = []
     written = 0
     for slug, row in by_slug.items():
         path = team_path(slug)
@@ -234,10 +243,10 @@ def apply_to_team_files(rows, harvested_at):
             "elo_source": SOURCE_URL,
             "elo_harvested_at": harvested_at,
         })
-        with open(path, "w", encoding="utf-8") as fh:
-            json.dump(updated, fh, ensure_ascii=False, indent=2)
-            fh.write("\n")
+        updates.append((path, updated))
         written += 1
+    for path, updated in updates:
+        atomic_write_json(path, updated)
     return written
 
 
@@ -247,6 +256,8 @@ def main(argv=None):
     parser.add_argument("--teams-url", default=TEAMS_URL, help="en.teams.tsv code->name file URL")
     parser.add_argument("--out", default=OUT_PATH, help="CSV output path")
     parser.add_argument("--apply", action="store_true", help="Also write elo_* fields into matched team JSON files")
+    parser.add_argument("--allow-partial", action="store_true",
+                        help="Allow --apply when one or more tournament teams are unmatched")
     args = parser.parse_args(argv)
 
     harvested_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
@@ -266,7 +277,7 @@ def main(argv=None):
     print(f"Matched {matched} rows to current World Cup team slugs")
 
     if args.apply:
-        written = apply_to_team_files(rows, harvested_at)
+        written = apply_to_team_files(rows, harvested_at, allow_partial=args.allow_partial)
         print(f"Updated {written} team JSON files with elo_* fields")
     else:
         print("Dry team-file mode: pass --apply to update data/teams/*.json")

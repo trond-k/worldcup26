@@ -149,6 +149,7 @@ def group_match(date, grp, md, home, away, ven):
 def knockout_match(date, stage, num, home, away, ven):
     return {
         "id": f"{date}-{STAGE_CODE[stage]}-{num}",
+        "match_number": num,
         "stage": stage,
         "group": None,
         "matchday": None,

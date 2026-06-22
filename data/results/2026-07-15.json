@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "note": "Semi-final — Match 102."
+      "note": "Semi-final — Match 102.",
+      "match_number": 102
     }
   ]
 }

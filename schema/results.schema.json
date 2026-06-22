@@ -16,9 +16,11 @@
     "match": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["stage", "home", "away", "home_score", "away_score", "status"],
+      "required": ["id", "stage", "home", "away", "home_score", "away_score", "status"],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "match_number": { "type": ["integer", "null"], "minimum": 1, "maximum": 104 },
+        "kickoff_at": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:\\d{2})$" },
         "stage": { "type": "string", "enum": ["group", "round-of-32", "round-of-16", "quarter-final", "semi-final", "third-place", "final"] },
         "group": { "type": ["string", "null"], "pattern": "^[A-L]$" },
         "matchday": { "type": ["integer", "null"], "minimum": 1, "maximum": 3 },
@@ -26,10 +28,52 @@
         "away": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "home_score": { "type": ["integer", "null"], "minimum": 0 },
         "away_score": { "type": ["integer", "null"], "minimum": 0 },
+        "home_penalties": { "type": ["integer", "null"], "minimum": 0 },
+        "away_penalties": { "type": ["integer", "null"], "minimum": 0 },
+        "decision": { "type": ["string", "null"], "enum": ["regular", "extra-time", "penalties", null] },
         "status": { "type": "string", "enum": ["completed", "scheduled"] },
         "venue": { "type": ["string", "null"] },
         "note": { "type": ["string", "null"] }
-      }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "stage": { "const": "group" } } },
+          "then": {
+            "properties": {
+              "group": { "type": "string", "pattern": "^[A-L]$" },
+              "matchday": { "type": "integer", "minimum": 1, "maximum": 3 }
+            }
+          },
+          "else": {
+            "properties": {
+              "group": { "type": "null" },
+              "matchday": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "status": { "const": "scheduled" } } },
+          "then": {
+            "properties": {
+              "home_score": { "type": "null" },
+              "away_score": { "type": "null" },
+              "home_penalties": { "type": "null" },
+              "away_penalties": { "type": "null" },
+              "decision": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "decision": { "const": "penalties" } }, "required": ["decision"] },
+          "then": {
+            "required": ["home_penalties", "away_penalties"],
+            "properties": {
+              "home_penalties": { "type": "integer", "minimum": 0 },
+              "away_penalties": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      ]
     }
   }
 }

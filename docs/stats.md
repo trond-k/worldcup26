@@ -220,7 +220,7 @@ _Gross National Product (World Bank GNI). See README for sources and caveats._
 
 ## Governance & development
 
-_Descriptive country-level political and economic indicators. These are **not** used by the odds models. Sources and reference years are documented in `scripts/seed_politico_economic.py` and the README; England and Scotland use UK figures as a proxy._
+_Descriptive country-level political and economic indicators. These are **not** used by the odds models. Sources and reference years are documented in `SOURCES.md`; England and Scotland use UK figures as a proxy._
 
 ### By HDI
 
@@ -228,53 +228,53 @@ _UNDP Human Development Index, 0-1 (higher = more developed)._
 
 | Rank | Team | Group | HDI |
 |------|------|-------|-----|
-| 1 | Switzerland | B | 0.967 |
-| 2 | Norway | I | 0.966 |
-| 3 | Sweden | F | 0.952 |
-| 4 | Germany | E | 0.950 |
-| 5 | Australia | D | 0.946 |
-| 6 | Netherlands | F | 0.946 |
-| 7 | Belgium | G | 0.942 |
-| 8 | Scotland | C | 0.940 |
-| 9 | England | L | 0.940 |
-| 10 | New Zealand | G | 0.939 |
-| 11 | Canada | B | 0.935 |
-| 12 | South Korea | A | 0.929 |
-| 13 | United States | D | 0.927 |
-| 14 | Austria | J | 0.926 |
-| 15 | Japan | F | 0.920 |
-| 16 | Spain | H | 0.911 |
-| 17 | France | I | 0.910 |
-| 18 | Czechia | A | 0.895 |
-| 19 | Croatia | L | 0.878 |
-| 20 | Saudi Arabia | H | 0.875 |
-| 21 | Portugal | K | 0.874 |
-| 22 | Qatar | B | 0.855 |
-| 23 | Türkiye | D | 0.855 |
-| 24 | Argentina | J | 0.849 |
-| 25 | Uruguay | H | 0.830 |
-| 26 | Panama | L | 0.820 |
-| 27 | Mexico | A | 0.781 |
-| 28 | Bosnia and Herzegovina | B | 0.780 |
-| 29 | IR Iran | G | 0.780 |
-| 30 | Ecuador | E | 0.765 |
-| 31 | Brazil | C | 0.760 |
-| 32 | Colombia | K | 0.758 |
-| 33 | Algeria | J | 0.745 |
-| 34 | Jordan | J | 0.736 |
-| 35 | Tunisia | F | 0.732 |
-| 36 | Paraguay | D | 0.731 |
-| 37 | Egypt | G | 0.728 |
-| 38 | Uzbekistan | K | 0.727 |
-| 39 | South Africa | A | 0.717 |
-| 40 | Morocco | C | 0.698 |
-| 41 | Iraq | I | 0.673 |
-| 42 | Cabo Verde | H | 0.661 |
-| 43 | Ghana | L | 0.602 |
-| 44 | Haiti | C | 0.552 |
-| 45 | Côte d'Ivoire | E | 0.550 |
-| 46 | Senegal | I | 0.517 |
-| 47 | DR Congo | K | 0.481 |
+| 1 | Switzerland | B | 0.970 |
+| 2 | Norway | I | 0.970 |
+| 3 | Germany | E | 0.959 |
+| 4 | Sweden | F | 0.959 |
+| 5 | Australia | D | 0.958 |
+| 6 | Netherlands | F | 0.955 |
+| 7 | Belgium | G | 0.951 |
+| 8 | Scotland | C | 0.946 |
+| 9 | England | L | 0.946 |
+| 10 | Canada | B | 0.939 |
+| 11 | United States | D | 0.938 |
+| 12 | New Zealand | G | 0.938 |
+| 13 | South Korea | A | 0.937 |
+| 14 | Austria | J | 0.930 |
+| 15 | Japan | F | 0.925 |
+| 16 | France | I | 0.920 |
+| 17 | Spain | H | 0.918 |
+| 18 | Czechia | A | 0.915 |
+| 19 | Saudi Arabia | H | 0.900 |
+| 20 | Portugal | K | 0.890 |
+| 21 | Croatia | L | 0.889 |
+| 22 | Qatar | B | 0.886 |
+| 23 | Argentina | J | 0.865 |
+| 24 | Uruguay | H | 0.862 |
+| 25 | Türkiye | D | 0.853 |
+| 26 | Panama | L | 0.839 |
+| 27 | Bosnia and Herzegovina | B | 0.804 |
+| 28 | IR Iran | G | 0.799 |
+| 29 | Mexico | A | 0.789 |
+| 30 | Colombia | K | 0.788 |
+| 31 | Brazil | C | 0.786 |
+| 32 | Ecuador | E | 0.777 |
+| 33 | Algeria | J | 0.763 |
+| 34 | Paraguay | D | 0.756 |
+| 35 | Egypt | G | 0.754 |
+| 36 | Jordan | J | 0.754 |
+| 37 | Tunisia | F | 0.746 |
+| 38 | South Africa | A | 0.741 |
+| 39 | Uzbekistan | K | 0.740 |
+| 40 | Morocco | C | 0.710 |
+| 41 | Iraq | I | 0.695 |
+| 42 | Cabo Verde | H | 0.668 |
+| 43 | Ghana | L | 0.628 |
+| 44 | Côte d'Ivoire | E | 0.582 |
+| 45 | Haiti | C | 0.554 |
+| 46 | Senegal | I | 0.530 |
+| 47 | DR Congo | K | 0.522 |
 
 ### By CPI
 

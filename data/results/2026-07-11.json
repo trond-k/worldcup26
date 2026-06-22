@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "note": "Quarter-final — Match 99."
+      "note": "Quarter-final — Match 99.",
+      "match_number": 99
     },
     {
       "id": "2026-07-11-qf-100",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Arrowhead Stadium, Kansas City",
-      "note": "Quarter-final — Match 100."
+      "note": "Quarter-final — Match 100.",
+      "match_number": 100
     }
   ]
 }

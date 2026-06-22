@@ -13,6 +13,9 @@
     "away": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "home_score": { "type": "integer", "minimum": 0 },
     "away_score": { "type": "integer", "minimum": 0 },
+    "home_penalties": { "type": ["integer", "null"], "minimum": 0 },
+    "away_penalties": { "type": ["integer", "null"], "minimum": 0 },
+    "decision": { "type": ["string", "null"], "enum": ["regular", "extra-time", "penalties", null] },
     "attendance": { "type": ["integer", "null"], "minimum": 0 },
     "referee": { "type": ["string", "null"] },
     "sources": { "type": "array", "items": { "type": "string" } },
@@ -55,7 +58,7 @@
           "team": { "type": "string" },
           "off": { "type": ["string", "null"] },
           "on": { "type": ["string", "null"] },
-          "minute": { "type": "string", "pattern": "^\\d{1,3}(\\+\\d{1,2})?$" }
+          "minute": { "type": ["string", "null"], "pattern": "^\\d{1,3}(\\+\\d{1,2})?$" }
         }
       }
     },
@@ -102,7 +105,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "possession": { "type": ["integer", "null"], "minimum": 0, "maximum": 100 },
+        "possession": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
         "shots": { "type": ["integer", "null"], "minimum": 0 },
         "shots_on_target": { "type": ["integer", "null"], "minimum": 0 },
         "corners": { "type": ["integer", "null"], "minimum": 0 },
@@ -112,7 +115,7 @@
         "red_cards": { "type": ["integer", "null"], "minimum": 0 },
         "saves": { "type": ["integer", "null"], "minimum": 0 },
         "passes": { "type": ["integer", "null"], "minimum": 0 },
-        "pass_accuracy": { "type": ["integer", "null"], "minimum": 0, "maximum": 100 }
+        "pass_accuracy": { "type": ["number", "null"], "minimum": 0, "maximum": 100 }
       }
     }
   }

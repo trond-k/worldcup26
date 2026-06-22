@@ -35,7 +35,7 @@ CONFIG = {
         "pedigree": 0.18,    # World Cup history (titles / apps / best finish)
         "fifa": 0.13,        # FIFA ranking (inverted: 1 = best)
         "experience": 0.09,  # share of squad in the 25-31 peak window
-        "depth": 0.05,       # top-16 value as a share of total squad value
+        "depth": 0.05,       # bottom-ten value as a share of total squad value
     },
     # Socio-economic model. Weights sum to 1; the host bump is added on top.
     "socio": {
@@ -132,14 +132,18 @@ def _peak_share(team):
 
 
 def _depth_ratio(team):
-    """Top-16 squad value as a share of total value (closer to 1.0 = more even)."""
+    """Bench value as a share of total value (higher = genuinely deeper)."""
     total = squad_value(team)
     if total <= 0:
         return 0.0
     vals = sorted((p.get("market_value_eur", 0) or 0)
                   for p in team.get("squad", []))
-    top16 = sum(vals[-16:])
-    return top16 / total
+    # The previous implementation returned top-16 / total and described values
+    # near 1 as deep. That is backwards: a top-heavy squad also approaches 1.
+    # The bottom ten's share rewards value that remains beyond the likely match
+    # squad instead of rewarding concentration among the stars.
+    bench = sum(vals[:-16])
+    return bench / total
 
 
 def _abroad_share(team):
@@ -290,11 +294,6 @@ def match_odds(score_home, score_away, host_home=False):
     return {"home": p_home, "draw": p_draw, "away": p_away}
 
 
-def as_decimal_odds(prob):
-    """Fair decimal odds from a probability (e.g. 0.25 -> 4.00). None if p<=0."""
-    return round(1.0 / prob, 2) if prob > 0 else None
-
-
 # --------------------------------------------------------------------------
 # Self-test
 # --------------------------------------------------------------------------
@@ -362,12 +361,11 @@ def _report(scores, teams, tournament):
     # Sample fixture: top football team (home, treated as host) vs a low one.
     order = sorted(scores.items(), key=lambda kv: -kv[1]["football"])
     top, bottom = order[0], order[-1]
-    print(f"\nSample fixture (football model): {top[1]['name']} vs {bottom[1]['name']}")
+    print(f"\nSample fixture (football outlook; heuristic shares): "
+          f"{top[1]['name']} vs {bottom[1]['name']}")
     o = match_odds(top[1]["football"], bottom[1]["football"])
     print(f"  home {o['home']*100:4.1f}%  draw {o['draw']*100:4.1f}%  "
-          f"away {o['away']*100:4.1f}%   "
-          f"(odds {as_decimal_odds(o['home'])} / {as_decimal_odds(o['draw'])} / "
-          f"{as_decimal_odds(o['away'])})")
+          f"away {o['away']*100:4.1f}%")
 
     seeded = sum(1 for t in teams if t.get("wc_titles") is not None)
     tail = ("" if seeded == len(teams)

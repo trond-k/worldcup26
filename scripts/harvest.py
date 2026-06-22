@@ -38,6 +38,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from common import atomic_write_json
+
 ROOT = Path(__file__).resolve().parent.parent
 TEAMS_DIR = ROOT / "data" / "teams"
 RESULTS_DIR = ROOT / "data" / "results"
@@ -254,9 +256,12 @@ def build_detail(fixture, summary, by_key, coach):
     comp = summary["header"]["competitions"][0]
     espn_side = {}        # 'home'/'away' -> espn team id
     score = {}
+    shootout = {}
     for c in comp["competitors"]:
         espn_side[c["homeAway"]] = c["team"]["id"]
         score[c["homeAway"]] = int(c.get("score") or 0)
+        if c.get("shootoutScore") is not None:
+            shootout[c["homeAway"]] = int(c["shootoutScore"])
 
     # map each ESPN team id -> our slug, via the competitor display names
     slug_by_id = {}
@@ -280,6 +285,16 @@ def build_detail(fixture, summary, by_key, coach):
         "goals": goals, "cards": cards, "substitutions": subs,
         "lineups": {}, "stats": {},
     }
+    if fixture.get("stage") != "group":
+        status_text = json.dumps(comp.get("status", {})).lower()
+        if set(shootout) == {"home", "away"}:
+            detail.update(decision="penalties",
+                          home_penalties=shootout["home"],
+                          away_penalties=shootout["away"])
+        elif "extra time" in status_text or "aet" in status_text:
+            detail["decision"] = "extra-time"
+        else:
+            detail["decision"] = "regular"
     for side in ("home", "away"):
         slug = fixture[side]
         r = rosters.get(side)
@@ -298,6 +313,8 @@ def main():
                     help="Build and validate in memory; don't write files.")
     ap.add_argument("--no-scores", action="store_true",
                     help="Build detail only; don't write scores/status back to day files.")
+    ap.add_argument("--overwrite-details", action="store_true",
+                    help="Replace an existing detail file when fresh ESPN data differs.")
     args = ap.parse_args()
 
     iso = args.date if "-" in args.date else \
@@ -349,13 +366,20 @@ def main():
         fx["_eid"] = e["id"]
         detail = build_detail(fx, get(SUMMARY.format(eid=e["id"])), by_key, coach)
         out = RESULTS_DIR / "matches" / f"{fx['id']}.json"
-        if args.dry_run:
+        existing = json.loads(out.read_text()) if out.exists() else None
+        if existing is not None and existing != detail and not args.overwrite_details:
+            problems.append(
+                f"{fx['id']} detail already exists and differs; preserving it "
+                "(use --overwrite-details after reviewing the diff)"
+            )
+        elif args.dry_run:
             print(f"[dry-run] {fx['id']}: {len(detail['goals'])} goals, "
                   f"{len(detail['cards'])} cards, {len(detail['substitutions'])} subs")
         else:
-            out.write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n")
-            print(f"wrote {out.relative_to(ROOT)}")
-        written += 1
+            atomic_write_json(out, detail)
+            print(f"{'updated' if existing is not None else 'wrote'} {out.relative_to(ROOT)}")
+        if existing is None or existing == detail or args.overwrite_details:
+            written += 1
 
         # Single-writer: push ESPN's authoritative final score + status back into
         # the day file. fx is the same dict held in day_files[...]["data"], so
@@ -371,6 +395,17 @@ def main():
                 day = day_files.get(fx["date"])
                 if day:
                     day["dirty"] = True
+            if fx.get("stage") != "group":
+                knockout_fields = ("decision", "home_penalties", "away_penalties")
+                if any(fx.get(field) != detail.get(field) for field in knockout_fields):
+                    for field in knockout_fields:
+                        if field in detail:
+                            fx[field] = detail[field]
+                        else:
+                            fx.pop(field, None)
+                    day = day_files.get(fx["date"])
+                    if day:
+                        day["dirty"] = True
 
     day_updates = 0
     if not args.no_scores:
@@ -384,8 +419,7 @@ def main():
                 for m in day["data"]["matches"]:
                     m.pop("date", None)   # transient working keys, not part of
                     m.pop("_eid", None)   # the day-file schema
-                day["path"].write_text(
-                    json.dumps(day["data"], ensure_ascii=False, indent=2) + "\n")
+                atomic_write_json(day["path"], day["data"])
                 print(f"updated {day['path'].relative_to(ROOT)} (scores/status)")
             day_updates += 1
 

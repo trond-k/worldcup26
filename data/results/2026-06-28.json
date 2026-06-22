@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "SoFi Stadium, Inglewood",
-      "note": "Round of 32 — Match 73."
+      "note": "Round of 32 — Match 73.",
+      "match_number": 73
     }
   ]
 }

@@ -15,6 +15,7 @@ from common import (
     GROUP_LETTERS,
     MATCHES_DIR,
     POSITIONS,
+    ROOT,
     RESULTS_DIR,
     TEAMS_DIR,
     load_results,
@@ -34,6 +35,29 @@ RESULT_STATUSES = {"completed", "scheduled"}
 GOAL_TYPES = {"regular", "penalty", "own_goal"}
 CARD_TYPES = {"yellow", "second-yellow", "red"}
 MINUTE_RE = re.compile(r"^\d{1,3}(\+\d{1,2})?$")
+SCHEMA_DIR = os.path.join(ROOT, "schema")
+_SCHEMA_CACHE = {}
+
+
+def _validate_schema(data, schema_name, tag, errors):
+    """Validate one object against its canonical JSON Schema."""
+    try:
+        from jsonschema import Draft7Validator, FormatChecker
+    except ModuleNotFoundError:
+        msg = "jsonschema is required; install dependencies with: pip install -r requirements.txt"
+        if msg not in errors:
+            errors.append(msg)
+        return
+    schema = _SCHEMA_CACHE.get(schema_name)
+    if schema is None:
+        schema = load_json(os.path.join(SCHEMA_DIR, schema_name))
+        Draft7Validator.check_schema(schema)
+        _SCHEMA_CACHE[schema_name] = schema
+    validator = Draft7Validator(schema, format_checker=FormatChecker())
+    for failure in sorted(validator.iter_errors(data), key=lambda e: list(e.absolute_path)):
+        location = ".".join(str(part) for part in failure.absolute_path)
+        prefix = f"{tag}: schema"
+        errors.append(f"{prefix}{f' at {location}' if location else ''}: {failure.message}")
 
 
 def _minute_ok(value):
@@ -46,6 +70,7 @@ def validate():
     warnings = []
 
     tournament = load_tournament()
+    _validate_schema(tournament, "tournament.schema.json", "tournament.json", errors)
     groups = tournament.get("groups", {})
 
     # --- group structure ---
@@ -81,7 +106,9 @@ def validate():
             if not os.path.exists(path):
                 warnings.append(f"missing team file for '{slug}' (group {letter})")
                 continue
-            _validate_team(slug, letter, load_json(path), errors)
+            team = load_json(path)
+            _validate_schema(team, "team.schema.json", f"teams/{slug}.json", errors)
+            _validate_team(slug, letter, team, errors)
 
     # --- results validation ---
     _validate_results(set(all_slugs), groups, errors, warnings)
@@ -109,6 +136,8 @@ def _validate_match_details(valid_slugs, errors, warnings):
         def err(msg):
             errors.append(f"{tag}: {msg}")
 
+        _validate_schema(d, "match-detail.schema.json", tag, errors)
+
         if not mid or fname != f"{mid}.json":
             err(f"id '{mid}' does not match filename")
             continue
@@ -117,11 +146,17 @@ def _validate_match_details(valid_slugs, errors, warnings):
             err("no matching completed match with this id in data/results/")
             continue
 
+        if d.get("date") != base.get("date"):
+            err(f"date {d.get('date')!r} does not match results date {base.get('date')!r}")
+
         home, away = d.get("home"), d.get("away")
         sides = {home, away}
         if home != base["home"] or away != base["away"]:
             err("home/away do not match the results entry")
         for fld in ("home_score", "away_score"):
+            if d.get(fld) != base.get(fld):
+                err(f"{fld} {d.get(fld)!r} does not match results value {base.get(fld)!r}")
+        for fld in ("home_penalties", "away_penalties", "decision"):
             if d.get(fld) != base.get(fld):
                 err(f"{fld} {d.get(fld)!r} does not match results value {base.get(fld)!r}")
 
@@ -186,8 +221,14 @@ def _validate_match_details(valid_slugs, errors, warnings):
 def _validate_results(valid_slugs, groups, errors, warnings):
     if not os.path.isdir(RESULTS_DIR):
         return
+    seen_ids = {}
+    seen_numbers = {}
+    bracket_refs = []
+    group_appearances = {}
+    stage_counts = {}
     for fname in sorted(f for f in os.listdir(RESULTS_DIR) if f.endswith(".json")):
         day = load_json(os.path.join(RESULTS_DIR, fname))
+        _validate_schema(day, "results.schema.json", f"results/{fname}", errors)
         date = day.get("date")
         if not date or fname != f"{date}.json":
             warnings.append(f"results/{fname}: filename does not match its date field '{date}'")
@@ -199,9 +240,24 @@ def _validate_results(valid_slugs, groups, errors, warnings):
 
             if m.get("stage") not in STAGES:
                 err(f"invalid stage '{m.get('stage')}'")
+            else:
+                stage_counts[m.get("stage")] = stage_counts.get(m.get("stage"), 0) + 1
             status = m.get("status")
             if status not in RESULT_STATUSES:
                 err(f"invalid status '{status}'")
+            mid = m.get("id")
+            if mid in seen_ids:
+                err(f"duplicate id '{mid}' (also in {seen_ids[mid]})")
+            elif mid:
+                seen_ids[mid] = fname
+            number = m.get("match_number")
+            if m.get("stage") != "group" and not isinstance(number, int):
+                err("knockout match needs match_number")
+            if isinstance(number, int):
+                if number in seen_numbers:
+                    err(f"duplicate match_number {number} (also in {seen_numbers[number]})")
+                else:
+                    seen_numbers[number] = fname
             for side in ("home", "away"):
                 slug = m.get(side)
                 if slug not in valid_slugs:
@@ -209,6 +265,10 @@ def _validate_results(valid_slugs, groups, errors, warnings):
                     # 'winner-group-a') before the teams are known.
                     if m.get("stage") == "group" or placeholder_label(slug) is None:
                         err(f"{side} team '{slug}' is not a known team slug")
+                    elif slug.startswith(("winner-match-", "loser-match-")):
+                        bracket_refs.append((tag, number, slug))
+                    elif m.get("stage") != "round-of-32":
+                        err(f"group-place placeholder '{slug}' is only valid in the Round of 32")
             if m.get("home") == m.get("away"):
                 err("home and away teams are identical")
             grp = m.get("group")
@@ -220,6 +280,12 @@ def _validate_results(valid_slugs, groups, errors, warnings):
                         slug = m.get(side)
                         if slug in valid_slugs and slug not in groups.get(grp, []):
                             err(f"{side} team '{slug}' is not in group {grp}")
+                        if slug in valid_slugs:
+                            group_appearances[slug] = group_appearances.get(slug, 0) + 1
+                if m.get("decision") in ("extra-time", "penalties"):
+                    err("group match cannot be decided by extra time or penalties")
+            elif grp is not None or m.get("matchday") is not None:
+                err("knockout match must have null group and matchday")
             for fld in ("home_score", "away_score"):
                 sc = m.get(fld)
                 if status == "completed":
@@ -227,6 +293,45 @@ def _validate_results(valid_slugs, groups, errors, warnings):
                         err(f"completed match needs non-negative integer {fld}, got {sc!r}")
                 elif sc is not None:
                     err(f"scheduled match should have null {fld}, got {sc!r}")
+
+            hp, ap = m.get("home_penalties"), m.get("away_penalties")
+            decision = m.get("decision")
+            if status == "scheduled" and any(v is not None for v in (hp, ap)):
+                err("scheduled match cannot have penalty scores")
+            if status == "scheduled" and decision is not None:
+                err("scheduled match cannot have a decision")
+            if decision == "penalties":
+                if not all(isinstance(v, int) and not isinstance(v, bool) and v >= 0
+                           for v in (hp, ap)):
+                    err("penalty decision needs non-negative integer penalty scores")
+                elif hp == ap:
+                    err("penalty shoot-out scores cannot be tied")
+            elif any(v is not None for v in (hp, ap)):
+                err("penalty scores require decision 'penalties'")
+            if (status == "completed" and m.get("stage") != "group"
+                    and m.get("home_score") == m.get("away_score")
+                    and decision != "penalties"):
+                err("tied knockout match needs a penalty decision and shoot-out score")
+
+    if len(seen_ids) != 104:
+        errors.append(f"results: expected 104 unique match ids, found {len(seen_ids)}")
+    expected_stage_counts = {"group": 72, "round-of-32": 16, "round-of-16": 8,
+                             "quarter-final": 4, "semi-final": 2,
+                             "third-place": 1, "final": 1}
+    if stage_counts != expected_stage_counts:
+        errors.append(f"results: stage counts {stage_counts} != {expected_stage_counts}")
+    bad_appearances = {slug: count for slug, count in group_appearances.items() if count != 3}
+    if bad_appearances or set(group_appearances) != valid_slugs:
+        errors.append(f"results: every team must have three group fixtures; found {bad_appearances}")
+    expected_numbers = set(range(73, 105))
+    if set(seen_numbers) != expected_numbers:
+        errors.append("results: knockout match_number values must be exactly 73-104")
+    for tag, current, slug in bracket_refs:
+        referenced = int(slug.rsplit("-", 1)[-1])
+        if referenced not in seen_numbers:
+            errors.append(f"{tag}: placeholder '{slug}' references an unknown match")
+        elif not isinstance(current, int) or referenced >= current:
+            errors.append(f"{tag}: placeholder '{slug}' must reference an earlier match")
 
 
 def _validate_team(slug, expected_group, team, errors):

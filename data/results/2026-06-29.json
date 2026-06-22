@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Gillette Stadium, Foxborough",
-      "note": "Round of 32 — Match 74."
+      "note": "Round of 32 — Match 74.",
+      "match_number": 74
     },
     {
       "id": "2026-06-29-r32-75",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Estadio BBVA, Monterrey",
-      "note": "Round of 32 — Match 75."
+      "note": "Round of 32 — Match 75.",
+      "match_number": 75
     },
     {
       "id": "2026-06-29-r32-76",
@@ -38,7 +40,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "NRG Stadium, Houston",
-      "note": "Round of 32 — Match 76."
+      "note": "Round of 32 — Match 76.",
+      "match_number": 76
     }
   ]
 }

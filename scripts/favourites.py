@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Write docs/favourites.md — the markdown mirror of the favourite/underdog
-odds models (see scripts/odds.py).
+comparison models (see scripts/odds.py).
 
 Usage: python3 scripts/favourites.py
 """

@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "MetLife Stadium, East Rutherford",
-      "note": "Round of 16 — Match 91."
+      "note": "Round of 16 — Match 91.",
+      "match_number": 91
     },
     {
       "id": "2026-07-05-r16-92",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Estadio Azteca, Mexico City",
-      "note": "Round of 16 — Match 92."
+      "note": "Round of 16 — Match 92.",
+      "match_number": 92
     }
   ]
 }

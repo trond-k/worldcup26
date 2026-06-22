@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -20,6 +21,24 @@ POSITION_ORDER = {p: i for i, p in enumerate(POSITIONS)}
 def load_json(path):
     with open(path, encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def atomic_write_json(path, data):
+    """Write JSON atomically so an interrupted harvester cannot truncate data."""
+    directory = os.path.dirname(path) or "."
+    os.makedirs(directory, exist_ok=True)
+    fd, tmp_path = tempfile.mkstemp(prefix=".tmp-", suffix=".json", dir=directory)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        os.replace(tmp_path, path)
+    except BaseException:
+        try:
+            os.unlink(tmp_path)
+        except FileNotFoundError:
+            pass
+        raise
 
 
 def load_tournament():
@@ -76,12 +95,57 @@ def load_match_details():
     return details
 
 
-def compute_standings(teams, matches):
-    """Compute group standings from completed matches.
+def _add_result(row, gf, ga):
+    row["played"] += 1
+    row["gf"] += gf
+    row["ga"] += ga
+    row["gd"] = row["gf"] - row["ga"]
+    if gf > ga:
+        row["won"] += 1
+        row["points"] += 3
+    elif gf == ga:
+        row["drawn"] += 1
+        row["points"] += 1
+    else:
+        row["lost"] += 1
 
-    Returns {group_letter: [row, ...]} where each row has slug, name, played,
-    won, drawn, lost, gf, ga, gd, points, sorted by points, GD, GF, name.
-    Only matches with status 'completed' and integer scores are counted.
+
+def _conduct_scores(details, match_ids):
+    """Return FIFA-style conduct scores (higher/less negative is better).
+
+    Detail files do not currently record cautions for team officials, so this is
+    necessarily provisional. Player cards still provide the correct ordering in
+    the common case and FIFA ranking remains the final deterministic fallback.
+    """
+    scores = {}
+    if not details:
+        return scores
+    for mid in match_ids:
+        detail = details.get(mid) or {}
+        by_player = {}
+        for card in detail.get("cards", []):
+            key = (card.get("team"), card.get("player"))
+            if all(key):
+                by_player.setdefault(key, set()).add(card.get("card"))
+        for (slug, _player), cards in by_player.items():
+            if "red" in cards and "yellow" in cards:
+                penalty = -5
+            elif "red" in cards:
+                penalty = -4
+            elif "second-yellow" in cards:
+                penalty = -3
+            else:
+                penalty = -1
+            scores[slug] = scores.get(slug, 0) + penalty
+    return scores
+
+
+def compute_standings(teams, matches, details=None):
+    """Compute provisional group standings using the FIFA 2026 tie-break order.
+
+    Only completed *group-stage* matches count. Teams level on points are ordered
+    by head-to-head points, head-to-head goal difference, head-to-head goals,
+    overall goal difference, overall goals, conduct score, then FIFA ranking.
     """
     by_slug = {t["slug"]: t for t in teams}
     rows = {}
@@ -92,8 +156,9 @@ def compute_standings(teams, matches):
             "gf": 0, "ga": 0, "gd": 0, "points": 0,
         }
 
+    group_matches = []
     for m in matches:
-        if m.get("status") != "completed":
+        if m.get("stage") != "group" or m.get("status") != "completed":
             continue
         h, a = m.get("home"), m.get("away")
         hs, as_ = m.get("home_score"), m.get("away_score")
@@ -101,27 +166,126 @@ def compute_standings(teams, matches):
             continue
         if not isinstance(hs, int) or not isinstance(as_, int):
             continue
-        for slug, gf, ga in ((h, hs, as_), (a, as_, hs)):
-            r = rows[slug]
-            r["played"] += 1
-            r["gf"] += gf
-            r["ga"] += ga
-            r["gd"] = r["gf"] - r["ga"]
-            if gf > ga:
-                r["won"] += 1
-                r["points"] += 3
-            elif gf == ga:
-                r["drawn"] += 1
-                r["points"] += 1
-            else:
-                r["lost"] += 1
+        group_matches.append(m)
+        _add_result(rows[h], hs, as_)
+        _add_result(rows[a], as_, hs)
 
     standings = {}
     for letter in GROUP_LETTERS:
         group_rows = [r for r in rows.values() if r["group"] == letter]
-        group_rows.sort(key=lambda r: (-r["points"], -r["gd"], -r["gf"], r["name"]))
-        standings[letter] = group_rows
+        played = [m for m in group_matches if m.get("group") == letter]
+        conduct = _conduct_scores(details, [m.get("id") for m in played if m.get("id")])
+
+        ranked = []
+        point_totals = sorted({r["points"] for r in group_rows}, reverse=True)
+        for points in point_totals:
+            tied = [r for r in group_rows if r["points"] == points]
+            mini = {
+                r["slug"]: {"played": 0, "won": 0, "drawn": 0, "lost": 0,
+                            "gf": 0, "ga": 0, "gd": 0, "points": 0}
+                for r in tied
+            }
+            tied_slugs = set(mini)
+            for m in played:
+                h, a = m.get("home"), m.get("away")
+                if h in tied_slugs and a in tied_slugs:
+                    _add_result(mini[h], m["home_score"], m["away_score"])
+                    _add_result(mini[a], m["away_score"], m["home_score"])
+            for row in tied:
+                h2h = mini[row["slug"]]
+                row["h2h_points"] = h2h["points"]
+                row["h2h_gd"] = h2h["gd"]
+                row["h2h_gf"] = h2h["gf"]
+                row["conduct_score"] = conduct.get(row["slug"], 0)
+                row["fifa_ranking"] = by_slug[row["slug"]].get("fifa_ranking") or 999
+            tied.sort(key=lambda r: (
+                -r["h2h_points"], -r["h2h_gd"], -r["h2h_gf"],
+                -r["gd"], -r["gf"], -r["conduct_score"],
+                r["fifa_ranking"], r["name"],
+            ))
+            ranked.extend(tied)
+        standings[letter] = ranked
     return standings
+
+
+def compute_third_place_table(standings):
+    """Return the current third-placed team from each active group, ranked."""
+    rows = [dict(standings[letter][2]) for letter in GROUP_LETTERS
+            if len(standings.get(letter, [])) >= 3
+            and standings[letter][2].get("played", 0) > 0]
+    rows.sort(key=lambda r: (
+        -r["points"], -r["gd"], -r["gf"], -r.get("conduct_score", 0),
+        r.get("fifa_ranking", 999), r["name"],
+    ))
+    return rows
+
+
+def match_number(match):
+    """Return an explicit match number, with a fallback for knockout IDs."""
+    if isinstance(match.get("match_number"), int):
+        return match["match_number"]
+    if match.get("stage") != "group":
+        m = re.search(r"-(\d+)$", match.get("id", ""))
+        if m:
+            return int(m.group(1))
+    return None
+
+
+def match_winner(match):
+    """Return the winning team slug, including penalty shoot-outs, or None."""
+    if not match or match.get("status") != "completed":
+        return None
+    hs, as_ = match.get("home_score"), match.get("away_score")
+    if not isinstance(hs, int) or not isinstance(as_, int):
+        return None
+    if hs != as_:
+        return match["home"] if hs > as_ else match["away"]
+    hp, ap = match.get("home_penalties"), match.get("away_penalties")
+    if isinstance(hp, int) and isinstance(ap, int) and hp != ap:
+        return match["home"] if hp > ap else match["away"]
+    return None
+
+
+def resolve_bracket_slots(matches, standings):
+    """Resolve group places and prior-match winners/losers in match copies.
+
+    Best-third labels are candidate sets rather than a complete allocation rule;
+    those remain visible until the official Round-of-32 assignments are entered.
+    """
+    resolved = [dict(m) for m in matches]
+    knockout = [m for m in resolved if m.get("stage") != "group"]
+
+    groups_complete = {
+        letter: bool(standings.get(letter))
+        and all(row.get("played") == 3 for row in standings[letter])
+        for letter in GROUP_LETTERS
+    }
+    for match in knockout:
+        for side in ("home", "away"):
+            slug = match.get(side, "")
+            p = _PLACEHOLDER_RE.match(slug)
+            if not p:
+                continue
+            if p.group("grp") and groups_complete.get(p.group("grp").upper()):
+                pos = 0 if p.group("wru") == "winner" else 1
+                match[side] = standings[p.group("grp").upper()][pos]["slug"]
+
+    by_number = {match_number(m): m for m in knockout if match_number(m) is not None}
+    for match in sorted(knockout, key=lambda m: match_number(m) or 999):
+        for side in ("home", "away"):
+            slug = match.get(side, "")
+            p = _PLACEHOLDER_RE.match(slug)
+            if not p or not p.group("num"):
+                continue
+            prior = by_number.get(int(p.group("num")))
+            winner = match_winner(prior)
+            if not winner:
+                continue
+            if p.group("wl") == "winner":
+                match[side] = winner
+            else:
+                match[side] = prior["away"] if winner == prior["home"] else prior["home"]
+    return resolved
 
 
 def squad_value(team):

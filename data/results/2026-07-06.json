@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "AT&T Stadium, Arlington",
-      "note": "Round of 16 — Match 93."
+      "note": "Round of 16 — Match 93.",
+      "match_number": 93
     },
     {
       "id": "2026-07-06-r16-94",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Lumen Field, Seattle",
-      "note": "Round of 16 — Match 94."
+      "note": "Round of 16 — Match 94.",
+      "match_number": 94
     }
   ]
 }

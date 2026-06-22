@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "note": "Round of 32 — Match 80."
+      "note": "Round of 32 — Match 80.",
+      "match_number": 80
     },
     {
       "id": "2026-07-01-r32-81",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Levi's Stadium, Santa Clara",
-      "note": "Round of 32 — Match 81."
+      "note": "Round of 32 — Match 81.",
+      "match_number": 81
     },
     {
       "id": "2026-07-01-r32-82",
@@ -38,7 +40,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Lumen Field, Seattle",
-      "note": "Round of 32 — Match 82."
+      "note": "Round of 32 — Match 82.",
+      "match_number": 82
     }
   ]
 }

@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "note": "Round of 16 — Match 95."
+      "note": "Round of 16 — Match 95.",
+      "match_number": 95
     },
     {
       "id": "2026-07-07-r16-96",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "BC Place, Vancouver",
-      "note": "Round of 16 — Match 96."
+      "note": "Round of 16 — Match 96.",
+      "match_number": 96
     }
   ]
 }

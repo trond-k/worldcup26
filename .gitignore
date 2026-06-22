@@ -16,9 +16,12 @@ __pycache__/
 # poll_ready.py settle-timer stamps
 scripts/.poll-*.stamp
 
-# Raw harvested snapshots (e.g. Elo ratings). Timestamped working artifacts
-# regenerated on demand by scripts/harvest_elo_ratings.py — not curated data.
-/data/raw/
+# Raw source workbooks and harvested snapshots are local working artifacts.
+# The normalized HDI CSV is small, curated, and tracked as a reproducible input.
+/data/raw/*
+!/data/raw/hdi/
+/data/raw/hdi/*
+!/data/raw/hdi/hdi-2025.csv
 
 # Secrets / local env (API keys) — never commit
 .env

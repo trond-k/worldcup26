@@ -28,9 +28,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install validation dependency
+        run: python3 -m pip install -r requirements.txt
       - uses: actions/configure-pages@v5
       - name: Validate data
         run: python3 scripts/validate.py
+      - name: Run tests
+        run: python3 -m unittest discover -v
       # Refresh World Football Elo into the working tree before building. The
       # ratings change after every international and feed the football odds
       # model, so the daily rebuild should use current values. This is
@@ -40,6 +48,8 @@ jobs:
       # falls back to the committed elo_* values instead of failing the deploy.
       - name: Refresh Elo ratings (non-fatal; falls back to committed values)
         run: python3 scripts/harvest_elo_ratings.py --apply || echo "::warning::Elo refresh failed; building with committed ratings"
+      - name: Validate refreshed data
+        run: python3 scripts/validate.py
       - name: Build static site
         run: python3 scripts/generate_site.py
       - uses: actions/upload-pages-artifact@v3

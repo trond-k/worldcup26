@@ -7,8 +7,8 @@ beyond the Python standard library):
   site/index.html              tournament overview + group index
   site/group-<a..l>.html       per-group standings + squad tables
   site/team/<slug>.html        per-team page: metadata, squad, fixtures
-  site/favourites.html         favourite/underdog odds-model rankings
-  site/methodology.html        how the odds models are weighted and computed
+  site/favourites.html         favourite/underdog model rankings
+  site/methodology.html        how the comparison models are weighted and computed
   site/stats.html              market-value and economy rankings
   site/results.html            live standings + results by date
   site/day-<date>.html         per-matchday calendar page (cards + date pager)
@@ -34,6 +34,7 @@ from common import (
     ROOT,
     STAT_LABELS,
     compute_standings,
+    compute_third_place_table,
     fmt_eur,
     fmt_num,
     fmt_pop,
@@ -43,6 +44,7 @@ from common import (
     load_results,
     load_tournament,
     minute_key,
+    resolve_bracket_slots,
     sorted_squad,
     squad_value,
     team_name,
@@ -52,7 +54,6 @@ from odds import (
     CONFIG,
     PEAK_AGE_HI,
     PEAK_AGE_LO,
-    as_decimal_odds,
     build_team_scores,
     match_odds,
 )
@@ -215,6 +216,10 @@ def match_score_label(m, by_slug, depth, link_detail):
     home, away = team_name(by_slug, m["home"]), team_name(by_slug, m["away"])
     if m.get("status") == "completed":
         text = f"{home} {m['home_score']}–{m['away_score']} {away}"
+        if m.get("decision") == "penalties":
+            text += f" ({m['home_penalties']}–{m['away_penalties']} pens)"
+        elif m.get("decision") == "extra-time":
+            text += " (a.e.t.)"
     else:
         text = f"{home} vs {away}"
     if link_detail:
@@ -454,7 +459,7 @@ def render_index(tournament, by_slug, matches, details, today, scores):
     body.append("<h2>Groups</h2>")
     body.append(table(["Group", "Teams"], rows))
     body.append(f'<p>See {link("favourites.html", "Favourites")} for the '
-                f'odds models, {link("stats.html", "Stats")} for market-value and '
+                f'comparison models, {link("stats.html", "Stats")} for market-value and '
                 f'economy rankings, and {link("results.html", "Results")} for '
                 f'fixtures and live standings.</p>')
     return page(t["name"], "\n".join(body), depth=0, active="home")
@@ -536,7 +541,9 @@ def render_indicators(team):
     """Grouped socioeconomic dossier for a team page; '' when none present."""
     blocks = []
     for title, specs in INDICATOR_GROUPS:
-        items = [(label, esc(fmt_fn(team.get(key))), source)
+        items = [((f"{label} ({team[f'{key}_year']})"
+                   if team.get(f"{key}_year") else label),
+                  esc(fmt_fn(team.get(key))), source)
                  for label, key, fmt_fn, source, _read in specs
                  if team.get(key) is not None]
         if not items:
@@ -547,9 +554,7 @@ def render_indicators(team):
                       f'<dl class="meta">{rows}</dl></div>')
     if not blocks:
         return ""
-    yr = team.get("indicators_year")
-    sub = f' <span class="muted">— {esc(yr)}</span>' if yr else ""
-    return (f"<h2>Indicators{sub}</h2>"
+    return ("<h2>Indicators</h2>"
             '<div class="ind-grid">' + "".join(blocks) + "</div>")
 
 
@@ -696,7 +701,7 @@ def render_favourites(teams, scores, by_slug):
             'the gaps between them are the interesting part. Estimates only, not '
             'betting advice.</p>',
             '<p class="muted">See <a href="methodology.html">Methodology</a> for '
-            'the full weighting and how scores become match odds.</p>']
+            'the full weighting and how scores become a match outlook.</p>']
 
     fb_order = sorted(scores.items(), key=lambda kv: -kv[1]["football"])
     so_order = sorted(scores.items(), key=lambda kv: -kv[1]["socio"])
@@ -765,8 +770,8 @@ FOOTBALL_WEIGHT_INFO = {
                    f"Share of the squad in the {PEAK_AGE_LO}–{PEAK_AGE_HI} prime "
                    "age window."),
     "depth": ("Squad depth",
-              "Value of the top-16 players as a share of the whole squad — "
-              "rewards strength beyond the first XI."),
+              "Value of the bottom ten players as a share of the whole squad — "
+              "rewards strength beyond the likely match squad."),
 }
 
 SOCIO_WEIGHT_INFO = {
@@ -818,7 +823,7 @@ def render_methodology(scores):
         "<h1>How the models work</h1>",
         '<p class="lead">The favourite/underdog read comes from two independent '
         'toy models. Each rates every team on a 0–100 scale; a pair of scores is '
-        'then turned into home / draw / away odds for a fixture.</p>',
+        'then turned into home / draw / away outlook shares for a fixture.</p>',
         '<p class="muted">Everything here is illustrative — built from public '
         'data and a fixed set of weights, not from betting markets or match '
         'simulation. It is not betting advice.</p>',
@@ -833,8 +838,9 @@ def render_methodology(scores):
         "<li>The <strong>two models are never blended.</strong> The gap between "
         "them is the interesting part — a talented squad from a poorer nation "
         "scores high on football and low on socio-economics, and vice versa.</li>",
-        "<li>Match <strong>odds are probabilities</strong> (home / draw / away) "
-        "that sum to 100%, shown alongside fair decimal odds.</li>",
+        "<li>Match <strong>outlook shares are heuristic, not calibrated "
+        "probabilities</strong>. They sum to 100% only to make fixtures easy to "
+        "compare.</li>",
         "</ul>",
 
         "<h2>The football model</h2>",
@@ -858,7 +864,7 @@ def render_methodology(scores):
         "underlying rating in the tooltip. The model itself consumes the rating, "
         "normalised across the field. Note this is a different thing from the "
         "“Elo-style curve” below, which is just the maths that turns two model "
-        "scores into a win probability.</p>",
+        "scores into an outlook share.</p>",
         "<h3>Inside the pedigree term</h3>",
         "<p>World Cup pedigree is itself a weighted blend, then normalised across "
         "the field:</p>",
@@ -877,8 +883,8 @@ def render_methodology(scores):
         f'+{round(CONFIG["host_bonus"])}-point bump for home advantage across '
         "the tournament.</p>",
 
-        "<h2>From scores to match odds</h2>",
-        "<p>Two team scores become a result probability with an Elo-style "
+        "<h2>From scores to match outlook</h2>",
+        "<p>Two team scores become result shares with an Elo-style "
         "expected-score curve, with a draw carved out around even matchups:</p>",
         "<ul>",
         f"<li>The score gap drives an expected result via an Elo curve "
@@ -908,16 +914,16 @@ def render_methodology(scores):
         "<h2>Beyond the models: the country indicator layer</h2>",
         "<p>Each team page also carries a descriptive country-level layer — "
         "economy, development, governance and society. These are "
-        "<strong>context, not inputs</strong>: neither odds model consumes them, "
-        "so an indicator highlight never moves the probabilities beside it. "
+        "<strong>context, not inputs</strong>: neither comparison model consumes them, "
+        "so an indicator highlight never moves the percentages beside it. "
         "(Every match card instead surfaces each side's "
         "<strong>World Football Elo rating</strong>, which <em>is</em> a football-"
         "model input — see the weights above.)</p>",
         _indicator_reference(),
-        '<p class="muted">All values are nullable and seeded by '
-        "<code>scripts/seed_politico_economic.py</code>; a single "
-        "<code>indicators_year</code> records the reference year (per-source "
-        "years live in that script).</p>",
+        '<p class="muted">All values are nullable. HDI is refreshed from the '
+        "tracked UNDP dataset by <code>scripts/seed_hdi.py</code> and records "
+        "<code>hdi_year</code>; other source years are documented in "
+        "<code>SOURCES.md</code>.</p>",
 
         '<p class="muted">All weights and constants live in a single '
         "<code>CONFIG</code> block in <code>scripts/odds.py</code>; this page is "
@@ -929,13 +935,13 @@ def render_methodology(scores):
     return page("Methodology", "\n".join(body), depth=0, active="methodology")
 
 
-def render_results(teams, matches, details, by_slug):
+def render_results(teams, matches, details, by_slug, standings=None):
     completed = [m for m in matches if m.get("status") == "completed"]
     body = ["<h1>Results</h1>",
             f'<p class="muted">{len(completed)} matches played; {len(details)} with '
             f'full detail (goals, lineups, stats).</p>']
 
-    standings = compute_standings(teams, matches)
+    standings = standings or compute_standings(teams, matches, details)
     body.append("<h2>Group standings</h2>")
     body.append('<p class="muted">Computed from completed matches only.</p>')
     for letter in GROUP_LETTERS:
@@ -944,6 +950,23 @@ def render_results(teams, matches, details, by_slug):
             continue
         body.append(f"<h3>Group {esc(letter)}</h3>")
         body.append(standings_table(rows))
+
+    thirds = compute_third_place_table(standings)
+    if thirds:
+        body.append("<h2>Third-placed teams</h2>")
+        body.append('<p class="muted">Provisional ranking. The top eight advance; '
+                    'conduct score and FIFA ranking break otherwise unresolved ties.</p>')
+        third_rows = []
+        for i, row in enumerate(thirds, 1):
+            rank = f"<strong>{i}</strong>" if i <= 8 else str(i)
+            gd = f"{row['gd']:+d}" if row["gd"] else "0"
+            third_rows.append([
+                rank, esc(row["group"]), link(f"team/{row['slug']}.html", row["name"]),
+                str(row["played"]), str(row["points"]), str(row["gf"]),
+                str(row["ga"]), gd,
+            ])
+        body.append(table(["Rank", "Group", "Team", "P", "Pts", "GF", "GA", "GD"],
+                          third_rows, cls="standings"))
 
     body.append("<h2>Match results</h2>")
     body.append(f'<p class="muted">Played matches only — see the '
@@ -1004,7 +1027,8 @@ def render_bracket(matches, by_slug, details, scores):
         return page("Bracket", "\n".join(body), depth=0, active="bracket")
     body.append('<p class="muted">32 matches from the Round of 32 to the final. '
                 'Each slot shows where its team comes from until the result is '
-                'known.</p>')
+                'known. Best-third candidate sets remain visible until FIFA '
+                'publishes the actual assignments.</p>')
     by_stage = {}
     for m in ko:
         by_stage.setdefault(m["stage"], []).append(m)
@@ -1100,7 +1124,7 @@ def render_stats_block(detail, home, away, by_slug):
 
 
 def render_match_odds_block(m, scores, by_slug):
-    """Full two-model odds table for a match-detail page."""
+    """Full two-model outlook table for a match-detail page."""
     mo = match_model_odds(m, scores)
     if not mo:
         return ""
@@ -1116,7 +1140,7 @@ def render_match_odds_block(m, scores, by_slug):
         fav = max(("home", "draw", "away"), key=lambda k: o[k])
 
         def cell(k):
-            inner = f"{round(o[k] * 100)}% <span class=\"muted\">({as_decimal_odds(o[k])})</span>"
+            inner = f"{round(o[k] * 100)}%"
             return f'<td class="{"odds-fav" if k == fav else ""}">{inner}</td>'
 
         rows.append(f'<tr><th>{esc(label)}</th>{cell("home")}{cell("draw")}'
@@ -1125,7 +1149,8 @@ def render_match_odds_block(m, scores, by_slug):
     sc = scores
     note = ("Two independent toy models — a football model (squad value, Elo, "
             "rank, World Cup pedigree, age) and a socio-economic model (wealth, "
-            "population, players abroad, hosts). Estimates only, not betting advice.")
+            "population, players abroad, hosts). Heuristic shares, not calibrated "
+            "probabilities or betting advice.")
     if host_home:
         note += f" {esc(hn)} carries a host-venue edge."
     scoreline = (
@@ -1133,7 +1158,7 @@ def render_match_odds_block(m, scores, by_slug):
         f'{sc[home]["football"]} vs {esc(an)} {sc[away]["football"]} &middot; '
         f'Socio-econ: {esc(hn)} {sc[home]["socio"]} vs {esc(an)} {sc[away]["socio"]}</p>'
     )
-    return ("<h2>Model odds</h2>"
+    return ("<h2>Model outlook</h2>"
             f'<table class="odds-table"><thead>{head}</thead>'
             f'<tbody>{"".join(rows)}</tbody></table>'
             f"{scoreline}"
@@ -1145,9 +1170,14 @@ def render_match(m, detail, by_slug, scores=None):
     grp = stage_label(m)
     title = (f"{team_name(by_slug, home)} {m['home_score']}–{m['away_score']} "
              f"{team_name(by_slug, away)}")
+    decision = ""
+    if m.get("decision") == "penalties":
+        decision = f" ({m['home_penalties']}–{m['away_penalties']} pens)"
+    elif m.get("decision") == "extra-time":
+        decision = " (a.e.t.)"
     body = [f"<h1>{esc(team_name(by_slug, home))} "
             f'<span class="score">{esc(m["home_score"])}–{esc(m["away_score"])}</span> '
-            f"{esc(team_name(by_slug, away))}</h1>"]
+            f"{esc(team_name(by_slug, away))}{esc(decision)}</h1>"]
     # Context line: group + date scan at a glance; the group is also the
     # back-link below, so the meta line stays light.
     context = " &middot; ".join(p for p in (esc(grp), esc(m.get("date", ""))) if p)
@@ -1209,6 +1239,8 @@ def main():
     matches = load_results()
     details = load_match_details()
     scores = build_team_scores(teams, tournament)
+    standings = compute_standings(teams, matches, details)
+    matches = resolve_bracket_slots(matches, standings)
 
     # "Today" is the current date in the tournament's timezone, so the home
     # page's featured matches flip at local midnight rather than at UTC midnight
@@ -1240,8 +1272,6 @@ def main():
         shutil.rmtree(SITE_DIR)
     os.makedirs(SITE_DIR, exist_ok=True)
 
-    standings = compute_standings(teams, matches)
-
     write("index.html",
           render_index(tournament, by_slug, matches, details, today, scores))
 
@@ -1258,7 +1288,7 @@ def main():
     write("favourites.html", render_favourites(teams, scores, by_slug))
     write("methodology.html", render_methodology(scores))
     write("stats.html", render_stats(teams))
-    write("results.html", render_results(teams, matches, details, by_slug))
+    write("results.html", render_results(teams, matches, details, by_slug, standings))
     write("schedule.html", render_schedule(matches, by_slug, details))
     write("bracket.html", render_bracket(matches, by_slug, details, scores))
 

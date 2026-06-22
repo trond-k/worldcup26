@@ -2,9 +2,9 @@
 
 This document is the canonical list of **every indicator** stored in this
 repository, with a link to the original source (or source dataset) for each one.
-The long-term goal is a maintainable dataset covering **all countries** and
-**all indicators**, refreshable on a regular cadence. For each indicator below
-you'll find: the JSON field it populates, the script that seeds it, the
+The maintained product scope is the 48 World Cup teams. Source converters may
+retain complete country tables when that makes refreshes reproducible. For each
+indicator below you'll find: the JSON field it populates, the script that seeds it, the
 authoritative source, a direct link to the source data, the reference year(s)
 currently loaded, and notes on update cadence and known caveats.
 
@@ -19,7 +19,7 @@ currently loaded, and notes on update cadence and known caveats.
 
 ## 1. Football / squad indicators
 
-These drive the team pages and the odds models (`scripts/odds.py`).
+These drive the team pages and comparison models (`scripts/odds.py`).
 
 | Indicator | JSON field(s) | Source | Link | Year | Notes |
 |---|---|---|---|---|---|
@@ -28,7 +28,7 @@ These drive the team pages and the odds models (`scripts/odds.py`).
 | Player age | `squad[].age` | Transfermarkt (community API) | [transfermarkt-api.fly.dev](https://transfermarkt-api.fly.dev) | Jun 2026 | Same harvester as market value. |
 | Head coach | `coach` | National federation announcements / Wikipedia | [Wikipedia: 2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) | 2026 | |
 | FIFA / Coca-Cola World Ranking | `fifa_ranking` | FIFA Men's World Ranking | [FIFA World Ranking](https://www.fifa.com/fifa-world-ranking/men) | 2026 | |
-| World Football Elo rating & rank | `elo_rating`, `elo_rank` (+ `elo_source`, `elo_harvested_at`) | World Football Elo Ratings | [eloratings.net](https://www.eloratings.net/) | 2026 | Harvested by `scripts/harvest_elo_ratings.py` from the site's `World.tsv` / `en.teams.tsv` flat files. Results-based strength signal; feeds the football odds model. Refresh during the tournament. |
+| World Football Elo rating & rank | `elo_rating`, `elo_rank` (+ `elo_source`, `elo_harvested_at`) | World Football Elo Ratings | [eloratings.net](https://www.eloratings.net/) | 2026 | Harvested by `scripts/harvest_elo_ratings.py` from the site's `World.tsv` / `en.teams.tsv` flat files. Results-based strength signal; feeds the football model. Refresh during the tournament. |
 | Group & confederation | `group`, `confederation` | FIFA official draw | [FIFA – Tournament](https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026) | 2026 | |
 | World Cup titles | `wc_titles` | FIFA World Cup records | [Wikipedia: FIFA World Cup](https://en.wikipedia.org/wiki/FIFA_World_Cup) | through 2022 | Seeded by `scripts/seed_wc_history.py`. Predecessor states folded in (West Germany → Germany, Czechoslovakia → Czechia). |
 | World Cup appearances | `wc_appearances` | FIFA World Cup records | [Wikipedia: National teams' WC records](https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup) | through 2022 | Seeded by `scripts/seed_wc_history.py`. |
@@ -39,7 +39,8 @@ These drive the team pages and the odds models (`scripts/odds.py`).
 ## 2. Economic indicators
 
 Seeded by `scripts/seed_politico_economic.py` (and `gnp_*` / `population` per the
-team files). Descriptive only — **not consumed by the odds models**.
+team files). GNP and population feed the socio-economic model; the remaining
+indicators in this section are descriptive only.
 
 | Indicator | JSON field | Source | Source dataset (link) | Year | Notes |
 |---|---|---|---|---|---|
@@ -57,7 +58,7 @@ team files). Descriptive only — **not consumed by the odds models**.
 
 | Indicator | JSON field | Source | Source dataset (link) | Year | Notes |
 |---|---|---|---|---|---|
-| Human Development Index | `hdi` | UNDP, Human Development Report | [UNDP HDI](https://hdr.undp.org/data-center/human-development-index) | 2022 | 0–1, higher = more developed. Also surfaced on every match card. |
+| Human Development Index | `hdi`, `hdi_year` | UNDP, Human Development Report 2025 | [UNDP HDI](https://hdr.undp.org/data-center/human-development-index) | 2023 | 0–1, higher = more developed. Normalized by `convert_hdi.py`, applied by `seed_hdi.py`, and surfaced on every match card. |
 | Median age | `median_age_years` | UN, World Population Prospects | [UN WPP](https://population.un.org/wpp/) | 2023 | |
 
 ---
@@ -91,9 +92,11 @@ playbook, in priority order:
 
 | Use | Source | Link | Notes |
 |---|---|---|---|
-| Lineups (shirt numbers), goals, subs, cards, referee, attendance | Wikipedia group pages | [2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) | Primary; only reliable source for shirt numbers. May lag a few hours. |
+| Score, events, lineups, statistics, referee, attendance | ESPN JSON API | [ESPN Soccer](https://www.espn.com/soccer/) | Automated input used by `harvest.py`; the exact summary endpoint is stored per match. |
+| Fixture and disputed-result confirmation | FIFA Match Centre | [FIFA World Cup 2026](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026) | Official verification source. |
+| Shirt-number and lineup cross-check | Wikipedia group pages | [2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) | Secondary source; may lag a few hours. |
 | Team statistics (possession, shots, saves, pass accuracy) | FotMob / Opta (The Analyst) | [FotMob](https://www.fotmob.com/) · [The Analyst](https://theanalyst.com/) | For the stats block and to resolve conflicts. |
-| Score, scorers, attendance, narrative | ESPN / Sky Sports | [ESPN](https://www.espn.com/soccer/) · [Sky Sports](https://www.skysports.com/football) | Quick confirmation; ESPN stat figures least consistent (tiebreaker only). |
+| Narrative and conflict resolution | Sky Sports / other reporting | [Sky Sports](https://www.skysports.com/football) | Secondary reporting. |
 
 ---
 
@@ -107,8 +110,9 @@ to write:
 python3 scripts/harvest_market_values.py --all --apply   # market value + age (Transfermarkt)
 python3 scripts/harvest_elo_ratings.py --apply           # World Football Elo rating + rank (eloratings.net)
 python3 scripts/seed_politico_economic.py --apply        # economic/political/social indicators
+python3 scripts/seed_hdi.py --apply                       # UNDP HDR 2025 HDI (reference year 2023)
 python3 scripts/seed_wc_history.py --apply               # World Cup history
-python3 scripts/validate.py                              # enforce schema after any change
+python3 scripts/validate.py                              # enforce schemas + cross-file rules
 ```
 
 ### Suggested refresh cadence
@@ -119,7 +123,7 @@ python3 scripts/validate.py                              # enforce schema after 
 | World Football Elo (eloratings.net) | After every international | During the tournament (feeds the odds model) |
 | FIFA World Ranking | ~Quarterly | On each FIFA release |
 | World Bank (GNI, GDP, inflation, unemployment, Gini, population) | Annual | Annual |
-| UNDP HDI | Annual | Annual |
+| UNDP HDI | Annual | Replace source workbook, convert, then run `seed_hdi.py` |
 | UN World Population Prospects | Biennial | On each revision |
 | EIU Democracy Index | Annual (early year) | Annual |
 | Transparency International CPI | Annual (early year) | Annual |
@@ -127,18 +131,3 @@ python3 scripts/validate.py                              # enforce schema after 
 | RSF World Press Freedom Index | Annual (~May) | Annual |
 | IEP Global Peace Index | Annual (~mid-year) | Annual |
 | SIPRI Military Expenditure | Annual (~April) | Annual |
-
-### Toward all-country coverage
-
-The current dataset is scoped to the 48 qualified nations. To extend toward
-**all countries**:
-
-1. The World Bank, UNDP, UN, Transparency International, RSF and SIPRI sources
-   above all publish complete cross-country tables — most offer bulk
-   CSV/JSON downloads or APIs (e.g. the [World Bank API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392)),
-   so a programmatic seeder can cover every country rather than the hand-curated
-   table in `seed_politico_economic.py`.
-2. Keep each indicator keyed by ISO country code to join sources cleanly.
-3. Record the per-indicator reference year alongside each value so mixed-vintage
-   data stays auditable (the dataset currently uses a single `indicators_year`
-   per team — moving to per-indicator years is the natural next step).

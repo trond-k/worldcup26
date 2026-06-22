@@ -142,8 +142,8 @@ def main():
         lines.append(
             "_Descriptive country-level political and economic indicators. "
             "These are **not** used by the odds models. Sources and reference "
-            "years are documented in `scripts/seed_politico_economic.py` and the "
-            "README; England and Scotland use UK figures as a proxy._"
+            "years are documented in `SOURCES.md`; England and Scotland use UK "
+            "figures as a proxy._"
         )
         lines.append("")
         ranked_table("hdi", "HDI", 3, "", reverse=True,

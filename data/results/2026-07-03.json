@@ -12,7 +12,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "note": "Round of 32 — Match 86."
+      "note": "Round of 32 — Match 86.",
+      "match_number": 86
     },
     {
       "id": "2026-07-03-r32-87",
@@ -25,7 +26,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "Arrowhead Stadium, Kansas City",
-      "note": "Round of 32 — Match 87."
+      "note": "Round of 32 — Match 87.",
+      "match_number": 87
     },
     {
       "id": "2026-07-03-r32-88",
@@ -38,7 +40,8 @@
       "away_score": null,
       "status": "scheduled",
       "venue": "AT&T Stadium, Arlington",
-      "note": "Round of 32 — Match 88."
+      "note": "Round of 32 — Match 88.",
+      "match_number": 88
     }
   ]
 }

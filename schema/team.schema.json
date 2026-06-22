@@ -35,6 +35,7 @@
     "inflation_pct": { "type": ["number", "null"], "description": "Consumer-price inflation, annual % (World Bank FP.CPI.TOTL.ZG); may be negative" },
     "unemployment_pct": { "type": ["number", "null"], "minimum": 0, "description": "Unemployment, % of total labour force (ILO modelled / World Bank SL.UEM.TOTL.ZS)" },
     "hdi": { "type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "Human Development Index, 0-1 (UNDP HDR; higher = more developed)" },
+    "hdi_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026, "description": "Reference year for the HDI value" },
     "gini_index": { "type": ["number", "null"], "minimum": 0, "maximum": 100, "description": "Income inequality, 0-100 (World Bank SI.POV.GINI; higher = more unequal)" },
     "median_age_years": { "type": ["number", "null"], "minimum": 0, "description": "Population median age in years (UN World Population Prospects)" },
     "democracy_index": { "type": ["number", "null"], "minimum": 0, "maximum": 10, "description": "EIU Democracy Index, 0-10 (higher = more democratic)" },

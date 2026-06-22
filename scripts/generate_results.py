@@ -112,8 +112,13 @@ def render_stats_table(detail, home, away, by_slug):
 def render_match(m, detail, by_slug):
     home, away = m["home"], m["away"]
     grp = f"Group {m['group']}" if m.get("group") else m.get("stage", "")
+    decision = ""
+    if m.get("decision") == "penalties":
+        decision = f" ({m['home_penalties']}–{m['away_penalties']} pens)"
+    elif m.get("decision") == "extra-time":
+        decision = " (a.e.t.)"
     lines = [f"#### {team_name(by_slug, home)} {m['home_score']}–{m['away_score']} "
-             f"{team_name(by_slug, away)} ({grp})"]
+             f"{team_name(by_slug, away)}{decision} ({grp})"]
     meta = []
     if m.get("venue"):
         meta.append(f"_{m['venue']}_")
@@ -214,7 +219,7 @@ def main():
         f"(goals, lineups, stats)._"
     )
     lines.append("")
-    standings = compute_standings(teams, matches)
+    standings = compute_standings(teams, matches, details)
     lines.append(render_standings(standings))
     lines.append(render_results_by_date(matches, details, by_slug))
 

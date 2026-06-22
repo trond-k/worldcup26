@@ -10,7 +10,8 @@ Per indicator, the source and the (latest available) reference year:
   * gdp_growth_pct                - World Bank NY.GDP.MKTP.KD.ZG       (2023)
   * inflation_pct                 - World Bank FP.CPI.TOTL.ZG          (2023)
   * unemployment_pct              - ILO modelled / World Bank          (2023)
-  * hdi                           - UNDP Human Development Report       (2022)
+  * hdi                           - legacy UNDP value (2022); a newer dataset-
+                                    backed value from seed_hdi.py is preserved
   * gini_index                    - World Bank SI.POV.GINI (latest yr)
   * median_age_years              - UN World Population Prospects       (2023)
   * democracy_index               - EIU Democracy Index                 (2023)
@@ -115,7 +116,12 @@ def ordered_with_indicators(team, values):
     for key, val in team.items():
         if key == "squad":
             for field, v in zip(FIELDS, values):
-                out[field] = v
+                # HDI now has its own dataset-backed refresh path. Do not regress
+                # a newer value when this legacy mixed-indicator seeder is rerun.
+                if field == "hdi" and team.get("hdi_year"):
+                    out[field] = team.get("hdi")
+                else:
+                    out[field] = v
             out["indicators_year"] = None if all(v is None for v in values) else INDICATORS_YEAR
         out[key] = val
     return out
