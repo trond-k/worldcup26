@@ -198,15 +198,15 @@ The site is branded **Pitchonomics** (a banner above the header). The home page
 leads with **the day's matches** — today's fixtures, or the next matchday,
 resolved in the tournament's own timezone — showing each team's squad value and
 population; CI rebuilds the site daily so this tracks the real date during the
-tournament. A **Calendar** section adds a per-matchday page (`day-<date>.html`)
-you can page through via a date strip and prev/next pager. It also produces a
-full schedule, a knockout bracket, the 12 group pages, a page per team
-(metadata, full squad, fixtures), aggregate **stats**, **results** with live
-standings, a **Favourites** comparison page, and a **Methodology** page explaining
-how the models are weighted and computed (its weight tables are generated from
-`odds.CONFIG`, so they always match the live engine), and a rich detail page for
-every match that has a detail file (goals, lineups, substitutions, cards, team
-statistics, sources).
+tournament. The home page is also the calendar entry point: its matchday strip
+opens per-date pages (`day-<date>.html`) with prev/next navigation. The site also
+produces a full fixture list, live standings and results, a knockout bracket, an
+alphabetical team index, the 12 group pages, and a page per team (metadata, full
+squad, fixtures). An **Insights** hub collects **Favourites**, **Statistics** and
+the **Methodology** explaining how the models are weighted and computed (its
+weight tables are generated from `odds.CONFIG`, so they always match the live
+engine). Rich detail pages cover every match that has a detail file (goals,
+lineups, substitutions, cards, team statistics, sources).
 
 The generated `site/` directory is **not** committed (it is in `.gitignore`);
 it is built fresh on demand and by CI. The site is published to **GitHub Pages**

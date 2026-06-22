@@ -5,6 +5,8 @@ Produces a small documentation-style HTML site (no JavaScript, no dependencies
 beyond the Python standard library):
 
   site/index.html              tournament overview + group index
+  site/teams.html              all teams at a glance
+  site/insights.html           analysis hub: favourites, stats, methodology
   site/group-<a..l>.html       per-group standings + squad tables
   site/team/<slug>.html        per-team page: metadata, squad, fixtures
   site/favourites.html         favourite/underdog model rankings
@@ -115,17 +117,16 @@ def rel(depth):
 def page(title, body, depth=0, active=None):
     """Wrap body HTML in the shared site shell. `active` highlights a nav item."""
     root = rel(depth)
-    nav_items = [("", "Home", "home")]
-    nav_items += [("schedule.html", "Schedule", "schedule"),
-                  ("bracket.html", "Bracket", "bracket"),
-                  ("favourites.html", "Favourites", "favourites"),
-                  ("methodology.html", "Methodology", "methodology"),
-                  ("stats.html", "Stats", "stats"),
-                  ("results.html", "Results", "results")]
+    nav_items = [("", "Today", "today"),
+                 ("schedule.html", "Fixtures", "fixtures"),
+                 ("results.html", "Standings", "standings"),
+                 ("bracket.html", "Bracket", "bracket"),
+                 ("teams.html", "Teams", "teams"),
+                 ("insights.html", "Insights", "insights")]
     nav = []
     for href, label, key in nav_items:
-        cls = ' class="active"' if key == active else ""
-        nav.append(f'<a{cls} href="{root}{href or "index.html"}">{esc(label)}</a>')
+        attrs = ' class="active" aria-current="location"' if key == active else ""
+        nav.append(f'<a{attrs} href="{root}{href or "index.html"}">{esc(label)}</a>')
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,7 +139,7 @@ def page(title, body, depth=0, active=None):
 <a class="site-banner" href="{root}index.html">Pitchonomics</a>
 <header class="site-header">
 <a class="brand" href="{root}index.html">World Cup 2026</a>
-<nav>{''.join(nav)}</nav>
+<nav aria-label="Primary">{''.join(nav)}</nav>
 </header>
 <main>
 {body}
@@ -416,7 +417,7 @@ def render_day(date, dates, day_matches, by_slug, details, scores, counts):
         body.append(render_match_card(m, by_slug, details, scores))
     body.append('</div>')
     return page(f"Matches — {pretty_date(date)}", "\n".join(body),
-                depth=0, active="home")
+                depth=0, active="today")
 
 
 # --- page renderers ----------------------------------------------------------
@@ -461,11 +462,10 @@ def render_index(tournament, by_slug, matches, details, today, scores,
         rows.append([group_link, ", ".join(names)])
     body.append("<h2>Groups</h2>")
     body.append(table(["Group", "Teams"], rows))
-    body.append(f'<p>See {link("favourites.html", "Favourites")} for the '
-                f'comparison models, {link("stats.html", "Stats")} for market-value and '
-                f'economy rankings, and {link("results.html", "Results")} for '
-                f'fixtures and live standings.</p>')
-    return page(t["name"], "\n".join(body), depth=0, active="home")
+    body.append(f'<p>Browse all {link("teams.html", "Teams")}, check the '
+                f'{link("results.html", "Standings")}, or explore model rankings '
+                f'and statistics in {link("insights.html", "Insights")}.</p>')
+    return page(t["name"], "\n".join(body), depth=0, active="today")
 
 
 def render_group(letter, slugs, by_slug, standings):
@@ -496,7 +496,7 @@ def render_group(letter, slugs, by_slug, standings):
         team_link = link(f"team/{t['slug']}.html", t["name"])
         body.append(f'<h3 id="{esc(t["slug"])}">{team_link}</h3>')
         body.append(squad_table(t))
-    return page(f"Group {letter}", "\n".join(body), depth=0)
+    return page(f"Group {letter}", "\n".join(body), depth=0, active="teams")
 
 
 # Descriptive country-indicator layer (NOT consumed by the odds models). One
@@ -610,7 +610,49 @@ def render_team(team, by_slug, matches, details):
 
     body.append("<h2>Squad</h2>")
     body.append(squad_table(team))
-    return page(team["name"], "\n".join(body), depth=1)
+    return page(team["name"], "\n".join(body), depth=1, active="teams")
+
+
+def render_teams(teams):
+    """Alphabetical index for reaching any team directly from primary nav."""
+    body = ["<h1>Teams</h1>",
+            f'<p class="lead">All {len(teams)} qualified teams.</p>',
+            '<p class="muted">Open a team for its fixtures, squad, rankings and '
+            'country indicators.</p>']
+    rows = []
+    for t in sorted(teams, key=lambda team: team["name"]):
+        elo_rank = f"#{t['elo_rank']}" if t.get("elo_rank") else "—"
+        rows.append([
+            link(f"team/{t['slug']}.html", t["name"]),
+            link(f"group-{t['group'].lower()}.html", f"Group {t['group']}")
+            if t.get("group") else "—",
+            esc(t.get("confederation") or "—"),
+            esc(t.get("fifa_ranking") or "—"),
+            esc(elo_rank),
+            esc(fmt_eur(squad_value(t))),
+        ])
+    body.append(table(["Team", "Group", "Confederation", "FIFA rank",
+                       "Elo rank", "Squad value"], rows))
+    return page("Teams", "\n".join(body), depth=0, active="teams")
+
+
+def render_insights():
+    """Landing page for the site's analytical and methodological material."""
+    body = [
+        "<h1>Insights</h1>",
+        '<p class="lead">Explore how football strength, squad value and national '
+        'context compare across the tournament.</p>',
+        "<h2>Favourites</h2>",
+        '<p>Compare every team through the independent football and '
+        f'socio-economic models. {link("favourites.html", "View Favourites →")}</p>',
+        "<h2>Statistics</h2>",
+        '<p>Explore squad and player market values, group totals and economy '
+        f'rankings. {link("stats.html", "View Statistics →")}</p>',
+        "<h2>Methodology</h2>",
+        '<p>See the model weights, calculation details, input sources and '
+        f'limitations. {link("methodology.html", "Read the Methodology →")}</p>',
+    ]
+    return page("Insights", "\n".join(body), depth=0, active="insights")
 
 
 def render_stats(teams):
@@ -677,7 +719,7 @@ def render_stats(teams):
                 for i, t in enumerate(sorted(pc, key=lambda x: x["gnp_per_capita_usd"], reverse=True), 1)]
         body.append(table(["Rank", "Team", "Group", "GNP per capita", "Year"], rows))
 
-    return page("Statistics", "\n".join(body), depth=0, active="stats")
+    return page("Statistics", "\n".join(body), depth=0, active="insights")
 
 
 def _fav_table(order, ranks, model, by_slug):
@@ -750,7 +792,7 @@ def render_favourites(teams, scores, by_slug):
                 'population — a talent-density read on the small nations.</p>')
     body.append(table(["Team", "Squad value", "Citizens", "€ / citizen"], rows))
 
-    return page("Favourites", "\n".join(body), depth=0, active="favourites")
+    return page("Favourites", "\n".join(body), depth=0, active="insights")
 
 
 # Human-readable labels + descriptions for each tunable weight, keyed to CONFIG.
@@ -935,12 +977,12 @@ def render_methodology(scores):
         + link("favourites.html", "Favourites") +
         " page for the resulting rankings.</p>",
     ]
-    return page("Methodology", "\n".join(body), depth=0, active="methodology")
+    return page("Methodology", "\n".join(body), depth=0, active="insights")
 
 
 def render_results(teams, matches, details, by_slug, standings=None):
     completed = [m for m in matches if m.get("status") == "completed"]
-    body = ["<h1>Results</h1>",
+    body = ["<h1>Standings &amp; results</h1>",
             f'<p class="muted">{len(completed)} matches played; {len(details)} with '
             f'full detail (goals, lineups, stats).</p>']
 
@@ -993,13 +1035,14 @@ def render_results(teams, matches, details, by_slug, standings=None):
             ])
         body.append(table(["Match", "Stage", "Venue", "Note"], rows, cls="results"))
 
-    return page("Results", "\n".join(body), depth=0, active="results")
+    return page("Standings & results", "\n".join(body), depth=0,
+                active="standings")
 
 
 def render_schedule(matches, by_slug, details):
     """Full chronological fixture list — every match, including future ones the
     live calendar has not reached yet. Knockout slots show their bracket label."""
-    body = ["<h1>Full schedule</h1>",
+    body = ["<h1>Fixtures</h1>",
             '<p class="muted">All 104 fixtures. Knockout matches show their '
             'bracket slot (e.g. "Winner Group A") until the teams are decided. '
             f'See the {link("bracket.html", "bracket")} for the knockout path.</p>']
@@ -1016,7 +1059,7 @@ def render_schedule(matches, by_slug, details):
                 esc(m.get("venue") or ""),
             ])
         body.append(table(["Match", "Stage", "Venue"], rows, cls="results"))
-    return page("Schedule", "\n".join(body), depth=0, active="schedule")
+    return page("Fixtures", "\n".join(body), depth=0, active="fixtures")
 
 
 def render_bracket(matches, by_slug, details, scores):
@@ -1224,7 +1267,8 @@ def render_match(m, detail, by_slug, scores=None):
             for u in sources)
         body.append('<h2>Sources</h2><ul class="sources">' + items + "</ul>")
 
-    return page(title, "\n".join(b for b in body if b), depth=1)
+    return page(title, "\n".join(b for b in body if b), depth=1,
+                active="standings")
 
 
 # --- driver ------------------------------------------------------------------
@@ -1287,6 +1331,8 @@ def main():
     for t in teams:
         write(f"team/{t['slug']}.html", render_team(t, by_slug, matches, details))
 
+    write("teams.html", render_teams(teams))
+    write("insights.html", render_insights())
     write("favourites.html", render_favourites(teams, scores, by_slug))
     write("methodology.html", render_methodology(scores))
     write("stats.html", render_stats(teams))
@@ -1311,7 +1357,7 @@ def main():
                     os.path.join(SITE_DIR, "assets", "style.css"))
 
     print(f"Wrote site/: index + {n_groups} group pages, {len(teams)} team pages, "
-          f"stats, results, schedule, bracket, {n_matches} match pages, "
+          f"teams, insights, stats, results, schedule, bracket, {n_matches} match pages, "
           f"{len(cal_dates)}/{len(dates)} day pages (calendar capped at {cal_date}).")
 
 
