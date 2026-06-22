@@ -1,0 +1,271 @@
+{
+  "id": "2026-06-21-uruguay-vs-cabo-verde",
+  "date": "2026-06-21",
+  "home": "uruguay",
+  "away": "cabo-verde",
+  "home_score": 2,
+  "away_score": 2,
+  "attendance": 64003,
+  "referee": "Espen Eskas",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760450"
+  ],
+  "goals": [
+    {
+      "team": "cabo-verde",
+      "player": "Kevin Pina",
+      "minute": "21",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "uruguay",
+      "player": "Maxi Araújo",
+      "minute": "44",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "uruguay",
+      "player": "Agustín Canobbio",
+      "minute": "45+6",
+      "type": "regular",
+      "assist": "Maxi Araújo"
+    },
+    {
+      "team": "cabo-verde",
+      "player": "Hélio Varela",
+      "minute": "61",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "cabo-verde",
+      "player": "Sidny Lopes Cabral",
+      "minute": "5",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Rodrigo Bentancur",
+      "minute": "20",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Mathías Olivera",
+      "minute": "58",
+      "card": "yellow"
+    },
+    {
+      "team": "cabo-verde",
+      "player": "Diney Borges",
+      "minute": "90+3",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "cabo-verde",
+      "on": "Deroy Duarte",
+      "off": "Telmo Arcanjo",
+      "minute": "45"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Nuno da Costa",
+      "off": "Gilson Benchimol",
+      "minute": "58"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Hélio Varela",
+      "off": "Garry Rodrigues",
+      "minute": "58"
+    },
+    {
+      "team": "uruguay",
+      "on": "Darwin Núñez",
+      "off": "Federico Viñas",
+      "minute": "70"
+    },
+    {
+      "team": "uruguay",
+      "on": "Nicolás de la Cruz",
+      "off": "Manuel Ugarte",
+      "minute": "70"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Laros Duarte",
+      "off": "Kevin Pina",
+      "minute": "71"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Yannick Semedo",
+      "off": "Jamiro Monteiro",
+      "minute": "80"
+    },
+    {
+      "team": "uruguay",
+      "on": "Brian Rodríguez",
+      "off": "Maxi Araújo",
+      "minute": "81"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-4-1",
+      "manager": "Marcelo Bielsa",
+      "starting": [
+        {
+          "name": "Fernando Muslera",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Mathías Olivera",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Sebastián Cáceres",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Manuel Ugarte",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Juan Manuel Sanabria",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Guillermo Varela",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Maxi Araújo",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Agustín Canobbio",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Federico Viñas",
+          "position": "FW",
+          "number": 21
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Pedro Brito (Bubista)",
+      "starting": [
+        {
+          "name": "Vozinha",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Diney Borges",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Pico Lopes",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Kevin Pina",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Sidny Lopes Cabral",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Steven Moreira",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Jamiro Monteiro",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Telmo Arcanjo",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Garry Rodrigues",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Ryan Mendes",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Gilson Benchimol",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 65,
+      "shots": 17,
+      "shots_on_target": 2,
+      "corners": 11,
+      "fouls": 11,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 511,
+      "pass_accuracy": 82
+    },
+    "away": {
+      "possession": 35,
+      "shots": 12,
+      "shots_on_target": 4,
+      "corners": 4,
+      "fouls": 4,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 278,
+      "pass_accuracy": 74
+    }
+  }
+}

@@ -46,14 +46,14 @@
     },
     {
       "team": "belgium",
-      "on": "Hans Vanaken",
-      "off": "Nicolas Raskin",
+      "on": "Dodi Lukébakio",
+      "off": "Alexis Saelemaekers",
       "minute": "58"
     },
     {
       "team": "belgium",
-      "on": "Dodi Lukébakio",
-      "off": "Alexis Saelemaekers",
+      "on": "Hans Vanaken",
+      "off": "Nicolas Raskin",
       "minute": "58"
     },
     {
@@ -228,7 +228,7 @@
       "yellow_cards": 1,
       "red_cards": 1,
       "saves": 3,
-      "passes": 622,
+      "passes": 621,
       "pass_accuracy": 86
     },
     "away": {
@@ -241,8 +241,8 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "saves": 7,
-      "passes": 268,
-      "pass_accuracy": 74
+      "passes": 270,
+      "pass_accuracy": 73
     }
   }
 }

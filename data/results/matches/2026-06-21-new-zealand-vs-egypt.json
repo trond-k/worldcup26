@@ -1,0 +1,283 @@
+{
+  "id": "2026-06-21-new-zealand-vs-egypt",
+  "date": "2026-06-21",
+  "home": "new-zealand",
+  "away": "egypt",
+  "home_score": 1,
+  "away_score": 3,
+  "attendance": 52497,
+  "referee": "Omar Al Ali",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760452"
+  ],
+  "goals": [
+    {
+      "team": "new-zealand",
+      "player": "Finn Surman",
+      "minute": "15",
+      "type": "regular",
+      "assist": "Tim Payne"
+    },
+    {
+      "team": "egypt",
+      "player": "Mostafa Zico",
+      "minute": "58",
+      "type": "regular",
+      "assist": "Mohamed Hany"
+    },
+    {
+      "team": "egypt",
+      "player": "Mohamed Salah",
+      "minute": "67",
+      "type": "regular",
+      "assist": "Mostafa Zico"
+    },
+    {
+      "team": "egypt",
+      "player": "Trézéguet",
+      "minute": "82",
+      "type": "regular",
+      "assist": "Mohamed Salah"
+    }
+  ],
+  "cards": [
+    {
+      "team": "egypt",
+      "player": "Mohanad Lashin",
+      "minute": "17",
+      "card": "yellow"
+    },
+    {
+      "team": "new-zealand",
+      "player": "Sarpreet Singh",
+      "minute": "20",
+      "card": "yellow"
+    },
+    {
+      "team": "new-zealand",
+      "player": "Callum McCowatt",
+      "minute": "34",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "egypt",
+      "on": "Ramy Rabia",
+      "off": "Hamdy Fathy",
+      "minute": "41"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Ben Old",
+      "off": "Callum McCowatt",
+      "minute": "66"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Jesse Randall",
+      "off": "Liberato Cacace",
+      "minute": "76"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Ryan Thomas",
+      "off": "Sarpreet Singh",
+      "minute": "76"
+    },
+    {
+      "team": "egypt",
+      "on": "Trézéguet",
+      "off": "Omar Marmoush",
+      "minute": "76"
+    },
+    {
+      "team": "egypt",
+      "on": "Hamza Abdelkarim",
+      "off": "Mostafa Zico",
+      "minute": "76"
+    },
+    {
+      "team": "egypt",
+      "on": "Zizo",
+      "off": "Emam Ashour",
+      "minute": "85"
+    },
+    {
+      "team": "egypt",
+      "on": "Hossam Abdelmaguid",
+      "off": "Mohamed Salah",
+      "minute": "85"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Tyler Bindon",
+      "off": "Tim Payne",
+      "minute": "85"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Francis de Vries",
+      "off": "Elijah Just",
+      "minute": "85"
+    },
+    {
+      "team": "egypt",
+      "on": "Mohamed Abdelmoneim",
+      "off": "Hossam Abdelmaguid",
+      "minute": "90+9"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Darren Bazeley",
+      "starting": [
+        {
+          "name": "Max Crocombe",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Michael Boxall",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Finn Surman",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Liberato Cacace",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Tim Payne",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Sarpreet Singh",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Marko Stamenic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Joe Bell",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Chris Wood",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Elijah Just",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Callum McCowatt",
+          "position": "MF",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Hossam Hassan",
+      "starting": [
+        {
+          "name": "Mostafa Shoubir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Hamdy Fathy",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Ahmed Fatouh",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Mohamed Hany",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Mohanad Lashin",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Marawan Attia",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Omar Marmoush",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Emam Ashour",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Mostafa Zico",
+          "position": "MF",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 44,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 4,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 421,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 56,
+      "shots": 19,
+      "shots_on_target": 7,
+      "corners": 4,
+      "fouls": 8,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 526,
+      "pass_accuracy": 87
+    }
+  }
+}
