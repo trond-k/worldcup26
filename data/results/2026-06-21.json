@@ -34,11 +34,11 @@
       "matchday": 2,
       "home": "uruguay",
       "away": "cabo-verde",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "completed",
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "note": "Group H matchday 2."
+      "note": "Cape Verde twice fought back to earn a 2-2 draw with two-time champions Uruguay in Miami, Helio Varela's 61st-minute strike capping a resilient display that continued the Blue Sharks' underdog run."
     },
     {
       "id": "2026-06-21-new-zealand-vs-egypt",
@@ -47,11 +47,11 @@
       "matchday": 2,
       "home": "new-zealand",
       "away": "egypt",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "completed",
       "venue": "BC Place, Vancouver",
-      "note": "Group G matchday 2."
+      "note": "Finn Surman headed New Zealand in front, but Egypt roared back after half-time through Mostafa Ziko, Mohamed Salah and Trezeguet to win 3-1 in Vancouver for the Pharaohs' first-ever World Cup victory."
     }
   ]
 }
