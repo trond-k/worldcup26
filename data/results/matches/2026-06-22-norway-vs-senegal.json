@@ -1,0 +1,265 @@
+{
+  "id": "2026-06-22-norway-vs-senegal",
+  "date": "2026-06-22",
+  "home": "norway",
+  "away": "senegal",
+  "home_score": 3,
+  "away_score": 2,
+  "attendance": 80663,
+  "referee": "Wilton Pereira Sampaio",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760454"
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "player": "Marcus Holmgren Pedersen",
+      "minute": "43",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "norway",
+      "player": "Erling Haaland",
+      "minute": "48",
+      "type": "regular",
+      "assist": "Martin Ødegaard"
+    },
+    {
+      "team": "senegal",
+      "player": "Ismaïla Sarr",
+      "minute": "53",
+      "type": "regular",
+      "assist": "Sadio Mané"
+    },
+    {
+      "team": "norway",
+      "player": "Erling Haaland",
+      "minute": "58",
+      "type": "regular",
+      "assist": "Patrick Berg"
+    },
+    {
+      "team": "senegal",
+      "player": "Ismaïla Sarr",
+      "minute": "90+3",
+      "type": "regular",
+      "assist": "Nicolas Jackson"
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "norway",
+      "on": "Marcus Holmgren Pedersen",
+      "off": "Julian Ryerson",
+      "minute": "13"
+    },
+    {
+      "team": "norway",
+      "on": "Patrick Berg",
+      "off": "Fredrik Aursnes",
+      "minute": "45"
+    },
+    {
+      "team": "senegal",
+      "on": "Ismail Jakobs",
+      "off": "El Hadji Malick Diouf",
+      "minute": "54"
+    },
+    {
+      "team": "senegal",
+      "on": "Ibrahim Mbaye",
+      "off": "Pape Gueye",
+      "minute": "54"
+    },
+    {
+      "team": "senegal",
+      "on": "Mory Diaw",
+      "off": "Édouard Mendy",
+      "minute": "63"
+    },
+    {
+      "team": "senegal",
+      "on": "Pathé Ciss",
+      "off": "Lamine Camara",
+      "minute": "63"
+    },
+    {
+      "team": "norway",
+      "on": "Andreas Schjelderup",
+      "off": "Antonio Nusa",
+      "minute": "71"
+    },
+    {
+      "team": "senegal",
+      "on": "Pape Matar Sarr",
+      "off": "Kalidou Koulibaly",
+      "minute": "72"
+    },
+    {
+      "team": "norway",
+      "on": "Oscar Bobb",
+      "off": "Alexander Sørloth",
+      "minute": "84"
+    },
+    {
+      "team": "norway",
+      "on": "Leo Østigard",
+      "off": "Torbjørn Heggem",
+      "minute": "84"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {
+          "name": "Ørjan Nyland",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Torbjørn Heggem",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Julian Ryerson",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Sander Berge",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Fredrik Aursnes",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Erling Haaland",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Antonio Nusa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Pape Thiaw",
+      "starting": [
+        {
+          "name": "Édouard Mendy",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Moussa Niakhaté",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Kalidou Koulibaly",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "El Hadji Malick Diouf",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Krépin Diatta",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Idrissa Gueye",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Nicolas Jackson",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Sadio Mané",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ismaïla Sarr",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 42,
+      "shots": 13,
+      "shots_on_target": 7,
+      "corners": 5,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 353,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 58,
+      "shots": 16,
+      "shots_on_target": 4,
+      "corners": 4,
+      "fouls": 5,
+      "offsides": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 489,
+      "pass_accuracy": 88
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "2026-06-22-france-vs-iraq",
+  "date": "2026-06-22",
+  "home": "france",
+  "away": "iraq",
+  "home_score": 3,
+  "away_score": 0,
+  "attendance": 68324,
+  "referee": "Drew Fischer",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760457"
+  ],
+  "goals": [
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "14",
+      "type": "regular",
+      "assist": "Michael Olise"
+    },
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Ousmane Dembélé"
+    },
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "66",
+      "type": "regular",
+      "assist": "Michael Olise"
+    }
+  ],
+  "cards": [
+    {
+      "team": "iraq",
+      "player": "Amir Al-Ammari",
+      "minute": "6",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "iraq",
+      "on": "Ali Al-Hamadi",
+      "off": "Aymen Hussein",
+      "minute": "26"
+    },
+    {
+      "team": "iraq",
+      "on": "Rebin Sulaka",
+      "off": "Zaid Tahseen",
+      "minute": "60"
+    },
+    {
+      "team": "iraq",
+      "on": "Youssef Amyn",
+      "off": "Zaid Ismael",
+      "minute": "60"
+    },
+    {
+      "team": "france",
+      "on": "Désiré Doué",
+      "off": "Ousmane Dembélé",
+      "minute": "68"
+    },
+    {
+      "team": "france",
+      "on": "Rayan Cherki",
+      "off": "Michael Olise",
+      "minute": "68"
+    },
+    {
+      "team": "iraq",
+      "on": "Aimar Sher",
+      "off": "Amir Al-Ammari",
+      "minute": "68"
+    },
+    {
+      "team": "iraq",
+      "on": "Marko Farji",
+      "off": "Ibrahim Bayesh",
+      "minute": "69"
+    },
+    {
+      "team": "france",
+      "on": "Maghnes Akliouche",
+      "off": "Bradley Barcola",
+      "minute": "83"
+    },
+    {
+      "team": "france",
+      "on": "Malo Gusto",
+      "off": "Jules Koundé",
+      "minute": "83"
+    },
+    {
+      "team": "france",
+      "on": "Marcus Thuram",
+      "off": "Kylian Mbappé",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "William Saliba",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Manu Koné",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Graham Arnold",
+      "starting": [
+        {
+          "name": "Ahmed Basil",
+          "position": "GK",
+          "number": 22
+        },
+        {
+          "name": "Akam Hashim",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Zaid Tahseen",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Amir Al-Ammari",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Merchas Doski",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Hussein Ali",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Zidane Iqbal",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Zaid Ismael",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ibrahim Bayesh",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ahmed Qasim",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Aymen Hussein",
+          "position": "FW",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 56,
+      "shots": 19,
+      "shots_on_target": 5,
+      "corners": 4,
+      "fouls": 8,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 603,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 44,
+      "shots": 4,
+      "shots_on_target": 0,
+      "corners": 2,
+      "fouls": 4,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 481,
+      "pass_accuracy": 86
+    }
+  }
+}

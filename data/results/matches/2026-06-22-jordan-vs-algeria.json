@@ -1,0 +1,264 @@
+{
+  "id": "2026-06-22-jordan-vs-algeria",
+  "date": "2026-06-22",
+  "home": "jordan",
+  "away": "algeria",
+  "home_score": 1,
+  "away_score": 2,
+  "attendance": 68371,
+  "referee": "Slavko Vincici",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760455"
+  ],
+  "goals": [
+    {
+      "team": "jordan",
+      "player": "Nizar Al-Rashdan",
+      "minute": "36",
+      "type": "regular",
+      "assist": "Mousa Al-Tamari"
+    },
+    {
+      "team": "algeria",
+      "player": "Nadhir Benbouali",
+      "minute": "69",
+      "type": "regular",
+      "assist": "Riyad Mahrez"
+    },
+    {
+      "team": "algeria",
+      "player": "Amine Gouiri",
+      "minute": "82",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "algeria",
+      "player": "Ramiz Zerrouki",
+      "minute": "44",
+      "card": "yellow"
+    },
+    {
+      "team": "jordan",
+      "player": "Husam Abu Dahab",
+      "minute": "64",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "algeria",
+      "on": "Nabil Bentaleb",
+      "off": "Ramiz Zerrouki",
+      "minute": "45"
+    },
+    {
+      "team": "algeria",
+      "on": "Nadhir Benbouali",
+      "off": "Hicham Boudaoui",
+      "minute": "45"
+    },
+    {
+      "team": "algeria",
+      "on": "Anis Hadj Moussa",
+      "off": "Riyad Mahrez",
+      "minute": "76"
+    },
+    {
+      "team": "jordan",
+      "on": "Odeh Fakhoury",
+      "off": "Mahmoud Al-Mardi",
+      "minute": "76"
+    },
+    {
+      "team": "jordan",
+      "on": "Ali Azaizeh",
+      "off": "Mousa Al-Tamari",
+      "minute": "84"
+    },
+    {
+      "team": "jordan",
+      "on": "Mohammad Abu Hasheesh",
+      "off": "Mohannad Abu Taha",
+      "minute": "85"
+    },
+    {
+      "team": "algeria",
+      "on": "Jaouen Hadjam",
+      "off": "Rayan Aït-Nouri",
+      "minute": "85"
+    },
+    {
+      "team": "algeria",
+      "on": "Zineddine Belaïd",
+      "off": "Amine Gouiri",
+      "minute": "86"
+    },
+    {
+      "team": "jordan",
+      "on": "Saleem Obaid",
+      "off": "Husam Abu Dahab",
+      "minute": "90+1"
+    },
+    {
+      "team": "jordan",
+      "on": "Mohammed Abu Zraiq",
+      "off": "Ali Olwan",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Jamal Sellami",
+      "starting": [
+        {
+          "name": "Yazeed Abulaila",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Yazan Al-Arab",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Husam Abu Dahab",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Abdallah Nasib",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Noor Al-Rawabdeh",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Nizar Al-Rashdan",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Mohannad Abu Taha",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Ehsan Haddad",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Mousa Al-Tamari",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Mahmoud Al-Mardi",
+          "position": "FW",
+          "number": 13
+        },
+        {
+          "name": "Ali Olwan",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Vladimir Petković",
+      "starting": [
+        {
+          "name": "Luca Zidane",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Ramy Bensebaini",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Aïssa Mandi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Rayan Aït-Nouri",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Ramiz Zerrouki",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Hicham Boudaoui",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Amine Gouiri",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Farès Chaïbi",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Riyad Mahrez",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 28,
+      "shots": 8,
+      "shots_on_target": 4,
+      "corners": 1,
+      "fouls": 11,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 251,
+      "pass_accuracy": 72
+    },
+    "away": {
+      "possession": 72,
+      "shots": 17,
+      "shots_on_target": 8,
+      "corners": 10,
+      "fouls": 6,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 641,
+      "pass_accuracy": 88
+    }
+  }
+}

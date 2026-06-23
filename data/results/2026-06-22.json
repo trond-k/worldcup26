@@ -23,9 +23,9 @@
       "matchday": 2,
       "home": "france",
       "away": "iraq",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Lincoln Financial Field, Philadelphia",
       "note": "Group I matchday 2."
     },
@@ -37,9 +37,9 @@
       "matchday": 2,
       "home": "norway",
       "away": "senegal",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
       "venue": "MetLife Stadium, East Rutherford",
       "note": "Group I matchday 2."
     },
@@ -51,9 +51,9 @@
       "matchday": 2,
       "home": "jordan",
       "away": "algeria",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "completed",
       "venue": "Levi's Stadium, Santa Clara",
       "note": "Group J matchday 2."
     }
