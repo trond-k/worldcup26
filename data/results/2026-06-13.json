@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-13-qatar-vs-switzerland",
+      "kickoff_at": "2026-06-13T15:00:00-04:00",
       "stage": "group",
       "group": "B",
       "matchday": 1,
@@ -11,11 +12,12 @@
       "home_score": 1,
       "away_score": 1,
       "status": "completed",
-      "venue": null,
+      "venue": "Levi's Stadium, Santa Clara",
       "note": "A stoppage-time own goal (Miro Muheim, under pressure from Boualem Khoukhi) earned Qatar a historic first World Cup point against a dominant Switzerland."
     },
     {
       "id": "2026-06-13-brazil-vs-morocco",
+      "kickoff_at": "2026-06-13T18:00:00-04:00",
       "stage": "group",
       "group": "C",
       "matchday": 1,
@@ -24,11 +26,12 @@
       "home_score": 1,
       "away_score": 1,
       "status": "completed",
-      "venue": null,
+      "venue": "MetLife Stadium, East Rutherford",
       "note": "Brazil and Morocco battled to a 1-1 draw on Brazil's tournament entry."
     },
     {
       "id": "2026-06-13-scotland-vs-haiti",
+      "kickoff_at": "2026-06-13T21:00:00-04:00",
       "stage": "group",
       "group": "C",
       "matchday": 1,
@@ -37,8 +40,22 @@
       "home_score": 1,
       "away_score": 0,
       "status": "completed",
-      "venue": null,
+      "venue": "Gillette Stadium, Foxborough",
       "note": "John McGinn's 28th-minute goal gave Scotland victory on their World Cup return."
+    },
+    {
+      "id": "2026-06-13-australia-vs-turkiye",
+      "kickoff_at": "2026-06-14T00:00:00-04:00",
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home": "australia",
+      "away": "turkiye",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
+      "venue": "BC Place, Vancouver",
+      "note": "Goals from Nestory Irankunda and Connor Metcalfe spoiled Türkiye's first World Cup appearance in 24 years."
     }
   ]
 }

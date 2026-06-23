@@ -153,7 +153,9 @@ that date:
 - `home` / `away` reference team slugs; group matches must use teams from that group.
 - `status` is `completed` (integer scores) or `scheduled` (null scores).
 - Knockout matches may add `match_number`, `decision`, `home_penalties` and
-  `away_penalties`; `kickoff_at` is available for an ISO-8601 timestamp.
+  `away_penalties`. Every match has a `kickoff_at` ISO-8601 timestamp sourced
+  from FIFA's official schedule; the stored offset is Eastern Time (`-04:00`),
+  matching FIFA's published schedule convention.
 - Group standings exclude knockout results and use the FIFA 2026 tie-break order.
   Conduct ordering is provisional because team-official cards are not recorded.
 

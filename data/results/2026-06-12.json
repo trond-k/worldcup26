@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-12-canada-vs-bosnia-herzegovina",
+      "kickoff_at": "2026-06-12T15:00:00-04:00",
       "stage": "group",
       "group": "B",
       "matchday": 1,
@@ -11,11 +12,12 @@
       "home_score": 1,
       "away_score": 1,
       "status": "completed",
-      "venue": null,
+      "venue": "BMO Field, Toronto",
       "note": "Canada and Bosnia and Herzegovina shared the points in their Group B opener."
     },
     {
       "id": "2026-06-12-usa-vs-paraguay",
+      "kickoff_at": "2026-06-12T21:00:00-04:00",
       "stage": "group",
       "group": "D",
       "matchday": 1,
@@ -24,7 +26,7 @@
       "home_score": 4,
       "away_score": 1,
       "status": "completed",
-      "venue": null,
+      "venue": "SoFi Stadium, Inglewood",
       "note": "Co-hosts USA opened their campaign with a comfortable win over Paraguay."
     }
   ]

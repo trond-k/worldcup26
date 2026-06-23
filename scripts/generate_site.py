@@ -245,60 +245,36 @@ def select_featured_matches(matches, today):
     return (None, None, [])
 
 
-# Stats shown in each match-card team panel:
-#   (label, value_fn, fmt_fn, better, title_fn)
-# `better` is "high" or "low" — which direction wins the head-to-head highlight.
-# `title_fn` adds a <dt> tooltip (e.g. indicator provenance), or is None.
-CARD_STATS = [
-    ("Squad value", squad_value, fmt_eur, "high", None),
-    ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
-    ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
-    ("Elo rank", lambda t: t.get("elo_rank"), lambda v: f"#{v}" if v else "—", "low",
-     lambda t: ("World Football Elo rank"
-                + (f" (rating {t['elo_rating']})" if t.get("elo_rating") else ""))),
-]
-
-
-def _leads(self_t, opp_t, value_fn, better):
-    """True when self_t beats opp_t on this stat (per `better` direction)."""
-    sv, ov = value_fn(self_t), value_fn(opp_t)
-    if sv is None or ov is None or sv == ov:
-        return False
-    return sv > ov if better == "high" else sv < ov
-
-
-def team_block(slug, by_slug, opponent_slug=None, away=False):
-    """A team panel for a match card: name plus CARD_STATS.
-
-    When opponent_slug is given, the side leading on a stat gets a `card-fav`
-    highlight (the same head-to-head cue used by the odds rows). The away panel
-    is tagged `team away` so the CSS can right-align it toward the card edge.
-    """
+def team_block(slug, by_slug, away=False):
+    """A deliberately compact team-name panel for a match card."""
     cls = "team away" if away else "team"
     t = by_slug.get(slug)
     if not t:
         # Unknown slug — a knockout placeholder like 'Winner Group A'.
         return f'<div class="{cls}"><span class="tname tname-tbd">{esc(team_name(by_slug, slug))}</span></div>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
-    opp = by_slug.get(opponent_slug) if opponent_slug else None
-    rows = []
-    for label, value_fn, fmt_fn, better, title_fn in CARD_STATS:
-        dd_cls = ' class="card-fav"' if opp and _leads(t, opp, value_fn, better) else ""
-        dt_attr = ""
-        if title_fn:
-            tip = title_fn(t)
-            if tip:
-                dt_attr = f' title="{esc(tip)}"'
-        rows.append(
-            f'<div><dt{dt_attr}>{esc(label)}</dt>'
-            f'<dd{dd_cls}>{esc(fmt_fn(value_fn(t)))}</dd></div>'
-        )
-    return (
-        f'<div class="{cls}">'
-        f'<span class="tname">{name_link}</span>'
-        f'<dl class="card-stats">{"".join(rows)}</dl>'
-        '</div>'
-    )
+    return f'<div class="{cls}"><span class="tname">{name_link}</span></div>'
+
+
+def kickoff_time_html(m):
+    """Kickoff as a semantic <time> in the schedule's official Eastern Time."""
+    raw = m.get("kickoff_at")
+    if not raw:
+        return '<span class="muted">Time TBC</span>'
+    try:
+        parsed = datetime.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        eastern = parsed.astimezone(ZoneInfo("America/New_York"))
+        label = eastern.strftime("%H:%M ET")
+        if m.get("date") and eastern.date().isoformat() != m.get("date"):
+            label += f" ({eastern.day} {MONTHS[eastern.month][:3]})"
+    except (ValueError, TypeError):
+        label = raw
+    return f'<time datetime="{esc(raw)}">{esc(label)}</time>'
+
+
+def kickoff_sort_key(m):
+    """Chronological key, with missing times after known kickoffs."""
+    return m.get("kickoff_at") or "9999"
 
 
 # --- odds (two independent models: football & socio-economic) ----------------
@@ -348,7 +324,8 @@ def render_card_odds(m, scores):
             f'{cell("home", "h")}{cell("draw", "d")}{cell("away", "a")}'
             '</div>'
         )
-    return '<div class="mc-odds">' + "".join(lines) + "</div>"
+    return ('<div class="mc-odds"><div class="mc-odds-label">Model outlook</div>'
+            + "".join(lines) + "</div>")
 
 
 def render_match_card(m, by_slug, details, scores=None):
@@ -359,14 +336,21 @@ def render_match_card(m, by_slug, details, scores=None):
         centre = '<span class="vs">vs</span>'
     if m.get("id") in details:
         centre = f'<a class="centre-link" href="match/{esc(m["id"])}.html">{centre}</a>'
-    grp = stage_label(m)
-    grp_html = f'<div class="mc-group">{esc(grp)}</div>' if grp else ""
+    status = "Final" if completed else "Scheduled"
+    header = (f'<div class="mc-head"><strong>{kickoff_time_html(m)}</strong>'
+              f'<span>{status}</span></div>')
+    context = [stage_label(m), m.get("venue")]
+    meta = " <span aria-hidden=\"true\">·</span> ".join(
+        esc(part) for part in context if part
+    )
+    meta_html = f'<div class="mc-meta">{meta}</div>' if meta else ""
     return (
         '<div class="match-card">'
-        f'{grp_html}'
-        f'{team_block(m["home"], by_slug, m["away"])}'
+        f'{header}'
+        f'{team_block(m["home"], by_slug)}'
         f'<div class="centre">{centre}</div>'
-        f'{team_block(m["away"], by_slug, m["home"], away=True)}'
+        f'{team_block(m["away"], by_slug, away=True)}'
+        f'{meta_html}'
         f'{render_card_odds(m, scores)}'
         '</div>'
     )
@@ -413,7 +397,7 @@ def render_day(date, dates, day_matches, by_slug, details, scores, counts):
     body = [f'<h1>Matches <span class="muted">— {esc(pretty_date(date))}</span></h1>']
     body.append(render_date_nav(dates, date, counts))
     body.append('<div class="matchday">')
-    for m in day_matches:
+    for m in sorted(day_matches, key=kickoff_sort_key):
         body.append(render_match_card(m, by_slug, details, scores))
     body.append('</div>')
     return page(f"Matches — {pretty_date(date)}", "\n".join(body),
@@ -444,7 +428,7 @@ def render_index(tournament, by_slug, matches, details, today, scores,
         body.append(f'<h2>{esc(label)} '
                     f'<span class="muted">— {esc(pretty_date(fdate))}</span></h2>')
         body.append('<div class="matchday">')
-        for m in featured:
+        for m in sorted(featured, key=kickoff_sort_key):
             body.append(render_match_card(m, by_slug, details, scores))
         body.append('</div>')
 
@@ -592,8 +576,10 @@ def render_team(team, by_slug, matches, details):
     body.append(render_indicators(team))
 
     # Fixtures for this team.
-    team_matches = [m for m in matches
-                    if team["slug"] in (m.get("home"), m.get("away"))]
+    team_matches = sorted(
+        (m for m in matches if team["slug"] in (m.get("home"), m.get("away"))),
+        key=kickoff_sort_key,
+    )
     if team_matches:
         body.append("<h2>Fixtures</h2>")
         rows = []
@@ -602,11 +588,12 @@ def render_team(team, by_slug, matches, details):
             grp = stage_label(m)
             rows.append([
                 esc(m.get("date", "")),
+                kickoff_time_html(m),
                 esc(grp),
                 match_score_label(m, by_slug, depth=1, link_detail=has_detail),
                 esc("completed" if m.get("status") == "completed" else "scheduled"),
             ])
-        body.append(table(["Date", "Stage", "Match", "Status"], rows))
+        body.append(table(["Date", "Kickoff", "Stage", "Match", "Status"], rows))
 
     body.append("<h2>Squad</h2>")
     body.append(squad_table(team))
@@ -1023,17 +1010,20 @@ def render_results(teams, matches, details, by_slug, standings=None):
     for date in dates:
         body.append(f"<h3>{esc(date)}</h3>")
         rows = []
-        for m in [mm for mm in completed if mm["date"] == date]:
+        for m in sorted((mm for mm in completed if mm["date"] == date),
+                        key=kickoff_sort_key):
             has_detail = m.get("id") in details
             grp = stage_label(m)
             note = m.get("note") or ""
             rows.append([
+                kickoff_time_html(m),
                 match_score_label(m, by_slug, depth=0, link_detail=has_detail),
                 esc(grp),
                 esc(m.get("venue") or ""),
                 esc(note),
             ])
-        body.append(table(["Match", "Stage", "Venue", "Note"], rows, cls="results"))
+        body.append(table(["Kickoff", "Match", "Stage", "Venue", "Note"], rows,
+                          cls="results"))
 
     return page("Standings & results", "\n".join(body), depth=0,
                 active="standings")
@@ -1048,17 +1038,20 @@ def render_schedule(matches, by_slug, details):
             f'See the {link("bracket.html", "bracket")} for the knockout path.</p>']
     dates = sorted({m["date"] for m in matches})
     for date in dates:
-        day = [m for m in matches if m["date"] == date]
+        day = sorted((m for m in matches if m["date"] == date),
+                     key=kickoff_sort_key)
         body.append(f"<h3>{esc(pretty_date(date))}</h3>")
         rows = []
         for m in day:
             has_detail = m.get("id") in details
             rows.append([
+                kickoff_time_html(m),
                 match_score_label(m, by_slug, depth=0, link_detail=has_detail),
                 esc(stage_label(m)),
                 esc(m.get("venue") or ""),
             ])
-        body.append(table(["Match", "Stage", "Venue"], rows, cls="results"))
+        body.append(table(["Kickoff", "Match", "Stage", "Venue"], rows,
+                          cls="results"))
     return page("Fixtures", "\n".join(body), depth=0, active="fixtures")
 
 
@@ -1082,7 +1075,7 @@ def render_bracket(matches, by_slug, details, scores):
         ms = by_stage.get(stage)
         if not ms:
             continue
-        ms = sorted(ms, key=lambda m: (m["date"], m.get("id", "")))
+        ms = sorted(ms, key=kickoff_sort_key)
         body.append(f"<h2>{esc(STAGE_LABELS.get(stage, stage))}</h2>")
         body.append('<div class="matchday">')
         for m in ms:
@@ -1231,6 +1224,8 @@ def render_match(m, detail, by_slug, scores=None):
 
     # Match facts as a labelled key/value grid rather than a flat middot run.
     facts = []
+    if m.get("kickoff_at"):
+        facts.append(("Kickoff", kickoff_time_html(m)))
     if m.get("venue"):
         facts.append(("Venue", esc(m["venue"])))
     if detail.get("attendance"):

@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-17-portugal-vs-dr-congo",
+      "kickoff_at": "2026-06-17T13:00:00-04:00",
       "stage": "group",
       "group": "K",
       "matchday": 1,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-17-england-vs-croatia",
+      "kickoff_at": "2026-06-17T16:00:00-04:00",
       "stage": "group",
       "group": "L",
       "matchday": 1,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-17-ghana-vs-panama",
+      "kickoff_at": "2026-06-17T19:00:00-04:00",
       "stage": "group",
       "group": "L",
       "matchday": 1,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-17-uzbekistan-vs-colombia",
+      "kickoff_at": "2026-06-17T22:00:00-04:00",
       "stage": "group",
       "group": "K",
       "matchday": 1,

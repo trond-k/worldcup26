@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-21-spain-vs-saudi-arabia",
+      "kickoff_at": "2026-06-21T12:00:00-04:00",
       "stage": "group",
       "group": "H",
       "matchday": 2,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-21-belgium-vs-iran",
+      "kickoff_at": "2026-06-21T15:00:00-04:00",
       "stage": "group",
       "group": "G",
       "matchday": 2,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-21-uruguay-vs-cabo-verde",
+      "kickoff_at": "2026-06-21T18:00:00-04:00",
       "stage": "group",
       "group": "H",
       "matchday": 2,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-21-new-zealand-vs-egypt",
+      "kickoff_at": "2026-06-21T21:00:00-04:00",
       "stage": "group",
       "group": "G",
       "matchday": 2,

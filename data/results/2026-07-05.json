@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-07-05-r16-91",
+      "kickoff_at": "2026-07-05T16:00:00-04:00",
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
@@ -17,6 +18,7 @@
     },
     {
       "id": "2026-07-05-r16-92",
+      "kickoff_at": "2026-07-05T20:00:00-04:00",
       "stage": "round-of-16",
       "group": null,
       "matchday": null,

@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-27-panama-vs-england",
+      "kickoff_at": "2026-06-27T17:00:00-04:00",
       "stage": "group",
       "group": "L",
       "matchday": 3,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-27-croatia-vs-ghana",
+      "kickoff_at": "2026-06-27T17:00:00-04:00",
       "stage": "group",
       "group": "L",
       "matchday": 3,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-27-colombia-vs-portugal",
+      "kickoff_at": "2026-06-27T19:30:00-04:00",
       "stage": "group",
       "group": "K",
       "matchday": 3,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-27-dr-congo-vs-uzbekistan",
+      "kickoff_at": "2026-06-27T19:30:00-04:00",
       "stage": "group",
       "group": "K",
       "matchday": 3,
@@ -55,6 +59,7 @@
     },
     {
       "id": "2026-06-27-algeria-vs-austria",
+      "kickoff_at": "2026-06-27T22:00:00-04:00",
       "stage": "group",
       "group": "J",
       "matchday": 3,
@@ -68,6 +73,7 @@
     },
     {
       "id": "2026-06-27-jordan-vs-argentina",
+      "kickoff_at": "2026-06-27T22:00:00-04:00",
       "stage": "group",
       "group": "J",
       "matchday": 3,

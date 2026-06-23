@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-11-mexico-vs-south-africa",
+      "kickoff_at": "2026-06-11T15:00:00-04:00",
       "stage": "group",
       "group": "A",
       "matchday": 1,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-11-south-korea-vs-czechia",
+      "kickoff_at": "2026-06-11T22:00:00-04:00",
       "stage": "group",
       "group": "A",
       "matchday": 1,

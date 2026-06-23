@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-25-curacao-vs-cote-divoire",
+      "kickoff_at": "2026-06-25T16:00:00-04:00",
       "stage": "group",
       "group": "E",
       "matchday": 3,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-25-ecuador-vs-germany",
+      "kickoff_at": "2026-06-25T16:00:00-04:00",
       "stage": "group",
       "group": "E",
       "matchday": 3,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-25-japan-vs-sweden",
+      "kickoff_at": "2026-06-25T19:00:00-04:00",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-25-tunisia-vs-netherlands",
+      "kickoff_at": "2026-06-25T19:00:00-04:00",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -55,6 +59,7 @@
     },
     {
       "id": "2026-06-25-turkiye-vs-usa",
+      "kickoff_at": "2026-06-25T22:00:00-04:00",
       "stage": "group",
       "group": "D",
       "matchday": 3,
@@ -68,6 +73,7 @@
     },
     {
       "id": "2026-06-25-paraguay-vs-australia",
+      "kickoff_at": "2026-06-25T22:00:00-04:00",
       "stage": "group",
       "group": "D",
       "matchday": 3,

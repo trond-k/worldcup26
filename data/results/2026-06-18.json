@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-18-czechia-vs-south-africa",
+      "kickoff_at": "2026-06-18T12:00:00-04:00",
       "stage": "group",
       "group": "A",
       "matchday": 2,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-18-switzerland-vs-bosnia-herzegovina",
+      "kickoff_at": "2026-06-18T15:00:00-04:00",
       "stage": "group",
       "group": "B",
       "matchday": 2,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-18-canada-vs-qatar",
+      "kickoff_at": "2026-06-18T18:00:00-04:00",
       "stage": "group",
       "group": "B",
       "matchday": 2,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-18-mexico-vs-south-korea",
+      "kickoff_at": "2026-06-18T21:00:00-04:00",
       "stage": "group",
       "group": "A",
       "matchday": 2,

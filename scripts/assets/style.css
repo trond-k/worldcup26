@@ -143,8 +143,8 @@ thead th { background: var(--thead); border-bottom: 2px solid var(--border); }
 tbody tr:nth-child(even) { background: var(--zebra); }
 td:first-child, th:first-child { white-space: normal; }
 
-table.squad td:nth-child(2), table.results td:first-child,
-table.results td:last-child { white-space: normal; }
+table.squad td:nth-child(2), table.results td:nth-child(2),
+table.results td:nth-child(4), table.results td:last-child { white-space: normal; }
 table.standings td, table.standings th { text-align: center; }
 table.standings td:first-child, table.standings th:first-child { text-align: left; }
 table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-align: right; }
@@ -202,33 +202,34 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   padding: 0.9rem 0.8rem;
   background: var(--zebra);
 }
-.match-card .mc-group {
+.match-card .mc-head {
   grid-column: 1 / -1;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+}
+.match-card .mc-head strong { color: var(--fg); }
+.match-card .mc-head > span {
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-bottom: 0.2rem;
 }
-.match-card .team { display: flex; flex-direction: column; gap: 0.3rem; }
+.match-card .team { align-self: center; padding: 0.45rem 0; }
 .match-card .team.away { text-align: right; }
 .match-card .tname { font-weight: 600; line-height: 1.2; }
 .match-card .tname-tbd { font-weight: 500; font-style: italic; color: var(--muted, #777); }
-.match-card dl.card-stats { margin: 0.2rem 0 0; display: block; }
-.match-card dl.card-stats div { margin: 0.1rem 0; }
-.match-card dl.card-stats dt {
+.match-card .mc-meta {
+  grid-column: 1 / -1;
+  text-align: center;
   color: var(--muted);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  font-size: 0.76rem;
+  line-height: 1.35;
 }
-.match-card dl.card-stats dd {
-  margin: 0;
-  font-variant-numeric: tabular-nums;
-  font-weight: 600;
-}
-.match-card dl.card-stats dd.card-fav { color: var(--accent); }
 .match-card .centre {
   display: flex;
   flex-direction: column;
@@ -250,6 +251,14 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
+}
+.mc-odds-label {
+  margin-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 .mc-odds-line {
   display: grid;

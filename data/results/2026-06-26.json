@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-26-norway-vs-france",
+      "kickoff_at": "2026-06-26T15:00:00-04:00",
       "stage": "group",
       "group": "I",
       "matchday": 3,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-26-senegal-vs-iraq",
+      "kickoff_at": "2026-06-26T15:00:00-04:00",
       "stage": "group",
       "group": "I",
       "matchday": 3,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-26-cabo-verde-vs-saudi-arabia",
+      "kickoff_at": "2026-06-26T20:00:00-04:00",
       "stage": "group",
       "group": "H",
       "matchday": 3,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-26-uruguay-vs-spain",
+      "kickoff_at": "2026-06-26T20:00:00-04:00",
       "stage": "group",
       "group": "H",
       "matchday": 3,
@@ -55,6 +59,7 @@
     },
     {
       "id": "2026-06-26-egypt-vs-iran",
+      "kickoff_at": "2026-06-26T23:00:00-04:00",
       "stage": "group",
       "group": "G",
       "matchday": 3,
@@ -68,6 +73,7 @@
     },
     {
       "id": "2026-06-26-new-zealand-vs-belgium",
+      "kickoff_at": "2026-06-26T23:00:00-04:00",
       "stage": "group",
       "group": "G",
       "matchday": 3,

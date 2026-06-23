@@ -92,6 +92,7 @@ playbook, in priority order:
 
 | Use | Source | Link | Notes |
 |---|---|---|---|
+| Fixture dates, venues and kickoff times | FIFA official match schedule | [FIFA World Cup 2026 match schedule (PDF)](https://digitalhub.fifa.com/asset/4b5d4417-3343-4732-9cdf-14b6662af407/FWC26-Match-Schedule_English.pdf) | `kickoff_at` stores the schedule's Eastern Time kickoffs as ISO-8601 timestamps with an explicit `-04:00` offset. |
 | Score, events, lineups, statistics, referee, attendance | ESPN JSON API | [ESPN Soccer](https://www.espn.com/soccer/) | Automated input used by `harvest.py`; the exact summary endpoint is stored per match. |
 | Fixture and disputed-result confirmation | FIFA Match Centre | [FIFA World Cup 2026](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026) | Official verification source. |
 | Shirt-number and lineup cross-check | Wikipedia group pages | [2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) | Secondary source; may lag a few hours. |

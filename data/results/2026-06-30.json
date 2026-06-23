@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-30-r32-77",
+      "kickoff_at": "2026-06-30T17:00:00-04:00",
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
@@ -17,6 +18,7 @@
     },
     {
       "id": "2026-06-30-r32-78",
+      "kickoff_at": "2026-06-30T13:00:00-04:00",
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
@@ -31,6 +33,7 @@
     },
     {
       "id": "2026-06-30-r32-79",
+      "kickoff_at": "2026-06-30T21:00:00-04:00",
       "stage": "round-of-32",
       "group": null,
       "matchday": null,

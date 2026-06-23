@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-22-argentina-vs-austria",
+      "kickoff_at": "2026-06-22T13:00:00-04:00",
       "stage": "group",
       "group": "J",
       "matchday": 2,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-22-france-vs-iraq",
+      "kickoff_at": "2026-06-22T17:00:00-04:00",
       "stage": "group",
       "group": "I",
       "matchday": 2,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-22-norway-vs-senegal",
+      "kickoff_at": "2026-06-22T20:00:00-04:00",
       "stage": "group",
       "group": "I",
       "matchday": 2,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-22-jordan-vs-algeria",
+      "kickoff_at": "2026-06-22T23:00:00-04:00",
       "stage": "group",
       "group": "J",
       "matchday": 2,

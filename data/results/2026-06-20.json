@@ -3,6 +3,7 @@
   "matches": [
     {
       "id": "2026-06-20-netherlands-vs-sweden",
+      "kickoff_at": "2026-06-20T13:00:00-04:00",
       "stage": "group",
       "group": "F",
       "matchday": 2,
@@ -16,6 +17,7 @@
     },
     {
       "id": "2026-06-20-germany-vs-cote-divoire",
+      "kickoff_at": "2026-06-20T16:00:00-04:00",
       "stage": "group",
       "group": "E",
       "matchday": 2,
@@ -29,6 +31,7 @@
     },
     {
       "id": "2026-06-20-ecuador-vs-curacao",
+      "kickoff_at": "2026-06-20T20:00:00-04:00",
       "stage": "group",
       "group": "E",
       "matchday": 2,
@@ -42,6 +45,7 @@
     },
     {
       "id": "2026-06-20-tunisia-vs-japan",
+      "kickoff_at": "2026-06-21T00:00:00-04:00",
       "stage": "group",
       "group": "F",
       "matchday": 2,
