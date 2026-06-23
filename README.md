@@ -31,12 +31,15 @@ docs/                  # GENERATED — do not edit by hand (run the scripts)
   stats.md             # market-value rankings and totals
   results.md           # match results + standings (gitignored; published via site/results.html)
   favourites.md        # favourite/underdog comparison models (see Favourites below)
+  player-ages.md       # full player-age dataset: rosters + age aggregates
+  player-ages.csv      # machine-readable player-age dataset (one row per player)
 scripts/
   validate.py          # structural validation (CI-friendly, exits non-zero on error)
   generate_markdown.py # regenerate docs/ from the JSON
   stats.py             # compute aggregate market-value stats → docs/stats.md
   generate_results.py  # results + computed standings → docs/results.md
   favourites.py        # model rankings → docs/favourites.md
+  generate_player_ages.py  # full player-age dataset → docs/player-ages.{md,csv}
   odds.py              # the two-model scoring engine (self-test: python3 scripts/odds.py)
   harvest.py           # harvest scores and match detail from ESPN
   harvest_market_values.py  # refresh market_value_eur/age from Transfermarkt API
@@ -179,6 +182,7 @@ python3 scripts/generate_markdown.py   # rebuild docs/ from the JSON
 python3 scripts/stats.py               # rebuild docs/stats.md
 python3 scripts/generate_results.py    # rebuild docs/results.md (results + standings)
 python3 scripts/favourites.py          # rebuild docs/favourites.md (model rankings)
+python3 scripts/generate_player_ages.py # rebuild the full player-age dataset (docs/player-ages.{md,csv})
 python3 scripts/odds.py                # run the scoring-engine self-test
 python3 scripts/generate_site.py       # build the static website into site/
 ```

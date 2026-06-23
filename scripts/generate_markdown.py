@@ -101,8 +101,9 @@ def render_index(tournament):
     lines.append("")
     lines.append("See [favourites.md](favourites.md) for the favourite/underdog "
                  "odds models, [stats.md](stats.md) for aggregate market-value "
-                 "rankings, and [results.md](results.md) for match results and "
-                 "live standings.")
+                 "rankings, [player-ages.md](player-ages.md) for the full "
+                 "player-age dataset, and [results.md](results.md) for match "
+                 "results and live standings.")
     lines.append("")
     return "\n".join(lines)
 
