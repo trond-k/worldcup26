@@ -532,6 +532,8 @@ def render_group(letter, slugs, by_slug, standings):
 # Each row: (label, json key, fmt_fn, source, how-to-read).
 INDICATOR_GROUPS = [
     ("Economy", [
+        ("GNI per capita (PPP)", "gni_per_capita_ppp_usd", fmt_usd,
+         "UNDP HDR (2021 PPP $)", "purchasing-power-adjusted, higher = richer"),
         ("GDP growth", "gdp_growth_pct", lambda v: fmt_num(v, 1, "%"),
          "World Bank", "annual %"),
         ("Inflation", "inflation_pct", lambda v: fmt_num(v, 1, "%"),
