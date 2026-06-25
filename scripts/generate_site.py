@@ -750,6 +750,18 @@ def render_stats(teams):
                 for i, t in enumerate(sorted(pc, key=lambda x: x["gnp_per_capita_usd"], reverse=True), 1)]
         body.append(table(["Rank", "Team", "Group", "GNP per capita", "Year"], rows))
 
+    ppp = [t for t in teams if t.get("gni_per_capita_ppp_usd") is not None]
+    if ppp:
+        body.append("<h3>By GNI per capita (PPP)</h3>")
+        body.append('<p class="muted">Purchasing-power-adjusted income '
+                    '(UNDP HDR 2025, 2021 PPP $) — a fairer cross-country '
+                    'comparison than the Atlas figure above.</p>')
+        rows = [[str(i), link(f"team/{t['slug']}.html", t["name"]),
+                 esc(t.get("group", "")), esc(fmt_usd(t["gni_per_capita_ppp_usd"])),
+                 "2023"]
+                for i, t in enumerate(sorted(ppp, key=lambda x: x["gni_per_capita_ppp_usd"], reverse=True), 1)]
+        body.append(table(["Rank", "Team", "Group", "GNI/cap PPP", "Year"], rows))
+
     return page("Statistics", "\n".join(body), depth=0, active="insights")
 
 
