@@ -245,12 +245,12 @@ def select_featured_matches(matches, today):
     return (None, None, [])
 
 
-# Per-team indicators shown beneath each name on a match card.
+# Match-card indicators shown as a head-to-head comparison grid.
 # Each row: (label, value_fn, fmt_fn, better-direction, title_fn|None).
 CARD_STATS = [
     ("Squad value", squad_value, fmt_eur, "high", None),
     ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
-    ("GNP/cap PPP", lambda t: t.get("gni_per_capita_ppp_usd"), fmt_usd, "high",
+    ("GNI/cap PPP", lambda t: t.get("gni_per_capita_ppp_usd"), fmt_usd, "high",
      lambda t: "GNI per capita at purchasing power parity (UNDP HDR 2025, 2021 PPP $, 2023)"),
     ("Elo rank", lambda t: t.get("elo_rank"), lambda v: f"#{v}" if v else "—", "low",
      lambda t: ("World Football Elo rank"
@@ -266,36 +266,100 @@ def _leads(self_t, opp_t, value_fn, better):
     return sv > ov if better == "high" else sv < ov
 
 
-def team_block(slug, by_slug, opponent_slug=None, away=False):
-    """A team panel for a match card: name plus CARD_STATS.
-
-    When opponent_slug is given, the side leading on a stat gets a `card-fav`
-    highlight (the same head-to-head cue used by the odds rows). The away panel
-    is tagged `team away` so the CSS can right-align it toward the card edge.
-    """
-    cls = "team away" if away else "team"
+def team_name_html(slug, by_slug):
+    """A linked team name, or a muted placeholder for unresolved bracket slots."""
     t = by_slug.get(slug)
     if not t:
-        # Unknown slug — a knockout placeholder like 'Winner Group A'.
-        return f'<div class="{cls}"><span class="tname tname-tbd">{esc(team_name(by_slug, slug))}</span></div>'
+        return f'<span class="tname tname-tbd">{esc(team_name(by_slug, slug))}</span>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
-    opp = by_slug.get(opponent_slug) if opponent_slug else None
+    return f'<span class="tname">{name_link}</span>'
+
+
+def inline_list(items):
+    """Human-readable list: 'A', 'A and B', or 'A, B and C'."""
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return f'{", ".join(items[:-1])} and {items[-1]}'
+
+
+def summary_stat_label(label):
+    """Short labels for the generated card contrast sentence."""
+    return {
+        "Squad value": "squad value",
+        "Citizens": "population",
+        "GNI/cap PPP": "GNI per capita",
+        "Elo rank": "Elo rank",
+    }.get(label, label)
+
+
+def render_contrast_summary(home_t, away_t):
+    """One-sentence account of which side leads each card indicator."""
+    home_edges = []
+    away_edges = []
+    for label, value_fn, _fmt_fn, better, _title_fn in CARD_STATS:
+        short = summary_stat_label(label)
+        if _leads(home_t, away_t, value_fn, better):
+            home_edges.append(short)
+        elif _leads(away_t, home_t, value_fn, better):
+            away_edges.append(short)
+    if not home_edges and not away_edges:
+        return ""
+
+    pieces = []
+    if home_edges:
+        pieces.append(f'{home_t["name"]} leads {inline_list(home_edges)}')
+    if away_edges:
+        pieces.append(f'{away_t["name"]} leads {inline_list(away_edges)}')
+    return "; ".join(pieces) + "."
+
+
+def render_indicator_comparison(home_slug, away_slug, by_slug):
+    """Shared match-card indicator grid: home value | label | away value."""
+    home_t, away_t = by_slug.get(home_slug), by_slug.get(away_slug)
+    if not home_t or not away_t:
+        return ""
+
     rows = []
     for label, value_fn, fmt_fn, better, title_fn in CARD_STATS:
-        dd_cls = ' class="card-fav"' if opp and _leads(t, opp, value_fn, better) else ""
-        dt_attr = ""
+        home_cls = "compare-value home"
+        away_cls = "compare-value away"
+        if _leads(home_t, away_t, value_fn, better):
+            home_cls += " card-fav"
+        elif _leads(away_t, home_t, value_fn, better):
+            away_cls += " card-fav"
+        title_attr = ""
         if title_fn:
-            tip = title_fn(t)
-            if tip:
-                dt_attr = f' title="{esc(tip)}"'
+            home_tip, away_tip = title_fn(home_t), title_fn(away_t)
+            tips = []
+            if home_tip and home_tip == away_tip:
+                tips.append(home_tip)
+            elif home_tip:
+                tips.append(f'{home_t["name"]}: {home_tip}')
+            if away_tip and away_tip != home_tip:
+                tips.append(f'{away_t["name"]}: {away_tip}')
+            if tips:
+                title_attr = f' title="{esc("; ".join(tips))}"'
         rows.append(
-            f'<div><dt{dt_attr}>{esc(label)}</dt>'
-            f'<dd{dd_cls}>{esc(fmt_fn(value_fn(t)))}</dd></div>'
+            '<div class="compare-row" role="row">'
+            f'<span class="{home_cls}" role="cell">{esc(fmt_fn(value_fn(home_t)))}</span>'
+            f'<span class="compare-label" role="rowheader"{title_attr}>{esc(label)}</span>'
+            f'<span class="{away_cls}" role="cell">{esc(fmt_fn(value_fn(away_t)))}</span>'
+            '</div>'
         )
+
+    summary = render_contrast_summary(home_t, away_t)
+    summary_html = f'<p class="mc-summary">{esc(summary)}</p>' if summary else ""
     return (
-        f'<div class="{cls}">'
-        f'<span class="tname">{name_link}</span>'
-        f'<dl class="card-stats">{"".join(rows)}</dl>'
+        '<div class="mc-contrast">'
+        '<div class="mc-section-label">Socio-economic contrast</div>'
+        f'{summary_html}'
+        '<div class="compare-grid" role="table" aria-label="Match indicators">'
+        f'{"".join(rows)}'
+        '</div>'
         '</div>'
     )
 
@@ -348,24 +412,31 @@ def render_card_odds(m, scores):
     mo = match_model_odds(m, scores)
     if not mo:
         return ""
-    lines = [
-        '<div class="mc-odds-line mc-odds-head">'
-        '<span class="mco-model"></span>'
-        '<span class="mco-h">Home</span><span class="mco-d">Draw</span>'
-        '<span class="mco-a">Away</span></div>'
-    ]
+    lines = []
     for key, label in ODDS_MODELS:
         o = mo[key]
         fav = max(("home", "draw", "away"), key=lambda k: o[k])
 
-        def cell(k, css):
+        def value(k, css, name):
             klass = f"mco-{css}" + (" mco-fav" if k == fav else "")
-            return f'<span class="{klass}">{round(o[k] * 100)}%</span>'
+            return f'<span class="{klass}">{esc(name)} {round(o[k] * 100)}%</span>'
+
+        segs = []
+        for k, css in (("home", "h"), ("draw", "d"), ("away", "a")):
+            seg_cls = f"mco-seg mco-{css}" + (" mco-fav" if k == fav else "")
+            segs.append(f'<span class="{seg_cls}" style="width: {o[k] * 100:.1f}%"></span>')
 
         lines.append(
-            '<div class="mc-odds-line">'
+            '<div class="mc-odds-row">'
             f'<span class="mco-model">{esc(label)}</span>'
-            f'{cell("home", "h")}{cell("draw", "d")}{cell("away", "a")}'
+            f'<span class="mco-bar" aria-label="{esc(label)} model: home '
+            f'{round(o["home"] * 100)}%, draw {round(o["draw"] * 100)}%, away '
+            f'{round(o["away"] * 100)}%">{"".join(segs)}</span>'
+            '<span class="mco-values">'
+            f'{value("home", "h", "Home")}'
+            f'{value("draw", "d", "Draw")}'
+            f'{value("away", "a", "Away")}'
+            '</span>'
             '</div>'
         )
     return ('<div class="mc-odds"><div class="mc-odds-label">Model outlook</div>'
@@ -381,20 +452,24 @@ def render_match_card(m, by_slug, details, scores=None):
     if m.get("id") in details:
         centre = f'<a class="centre-link" href="match/{esc(m["id"])}.html">{centre}</a>'
     status = "Final" if completed else "Scheduled"
-    header = (f'<div class="mc-head"><strong>{kickoff_time_html(m)}</strong>'
-              f'<span>{status}</span></div>')
+    card_cls = "match-card is-completed" if completed else "match-card is-scheduled"
+    header = (f'<div class="mc-head"><span class="mc-kickoff">{kickoff_time_html(m)}</span>'
+              f'<span class="mc-status">{status}</span></div>')
     context = [stage_label(m), m.get("venue")]
     meta = " <span aria-hidden=\"true\">·</span> ".join(
         esc(part) for part in context if part
     )
     meta_html = f'<div class="mc-meta">{meta}</div>' if meta else ""
     return (
-        '<div class="match-card">'
+        f'<div class="{card_cls}">'
         f'{header}'
-        f'{team_block(m["home"], by_slug, m["away"])}'
+        '<div class="mc-matchup">'
+        f'<div class="mc-team home">{team_name_html(m["home"], by_slug)}</div>'
         f'<div class="centre">{centre}</div>'
-        f'{team_block(m["away"], by_slug, m["home"], away=True)}'
+        f'<div class="mc-team away">{team_name_html(m["away"], by_slug)}</div>'
+        '</div>'
         f'{meta_html}'
+        f'{render_indicator_comparison(m["home"], m["away"], by_slug)}'
         f'{render_card_odds(m, scores)}'
         '</div>'
     )
