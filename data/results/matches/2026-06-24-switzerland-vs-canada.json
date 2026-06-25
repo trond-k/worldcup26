@@ -1,0 +1,270 @@
+{
+  "id": "2026-06-24-switzerland-vs-canada",
+  "date": "2026-06-24",
+  "home": "switzerland",
+  "away": "canada",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 52497,
+  "referee": "Ramon Abatti Abel",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760463"
+  ],
+  "goals": [
+    {
+      "team": "switzerland",
+      "player": "Rubén Vargas",
+      "minute": "46",
+      "type": "regular",
+      "assist": "Johan Manzambi"
+    },
+    {
+      "team": "switzerland",
+      "player": "Johan Manzambi",
+      "minute": "57",
+      "type": "regular",
+      "assist": "Breel Embolo"
+    },
+    {
+      "team": "canada",
+      "player": "Promise David",
+      "minute": "76",
+      "type": "regular",
+      "assist": "Nathan Saliba"
+    }
+  ],
+  "cards": [
+    {
+      "team": "canada",
+      "player": "Cyle Larin",
+      "minute": "32",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Granit Xhaka",
+      "minute": "32",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Liam Millar",
+      "minute": "87",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "canada",
+      "on": "Stephen Eustáquio",
+      "off": "Mathieu Choinière",
+      "minute": "58"
+    },
+    {
+      "team": "canada",
+      "on": "Tani Oluwaseyi",
+      "off": "Cyle Larin",
+      "minute": "58"
+    },
+    {
+      "team": "canada",
+      "on": "Liam Millar",
+      "off": "Ali Ahmed",
+      "minute": "58"
+    },
+    {
+      "team": "switzerland",
+      "on": "Michel Aebischer",
+      "off": "Djibril Sow",
+      "minute": "74"
+    },
+    {
+      "team": "switzerland",
+      "on": "Silvan Widmer",
+      "off": "Luca Jaquez",
+      "minute": "74"
+    },
+    {
+      "team": "canada",
+      "on": "Promise David",
+      "off": "Tajon Buchanan",
+      "minute": "74"
+    },
+    {
+      "team": "switzerland",
+      "on": "Dan Ndoye",
+      "off": "Rubén Vargas",
+      "minute": "80"
+    },
+    {
+      "team": "canada",
+      "on": "Jacob Shaffelburg",
+      "off": "Richie Laryea",
+      "minute": "83"
+    },
+    {
+      "team": "switzerland",
+      "on": "Christian Fassnacht",
+      "off": "Johan Manzambi",
+      "minute": "85"
+    },
+    {
+      "team": "switzerland",
+      "on": "Cedric Itten",
+      "off": "Breel Embolo",
+      "minute": "85"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Murat Yakin",
+      "starting": [
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Luca Jaquez",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Rubén Vargas",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "MF",
+          "number": 15
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Jesse Marsch",
+      "starting": [
+        {
+          "name": "Maxime Crépeau",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Derek Cornelius",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Luc de Fougerolles",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Richie Laryea",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Alistair Johnston",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Mathieu Choinière",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Nathan Saliba",
+          "position": "MF",
+          "number": 25
+        },
+        {
+          "name": "Ali Ahmed",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Cyle Larin",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Jonathan David",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 55,
+      "shots": 6,
+      "shots_on_target": 4,
+      "corners": 2,
+      "fouls": 19,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 443,
+      "pass_accuracy": 83
+    },
+    "away": {
+      "possession": 45,
+      "shots": 13,
+      "shots_on_target": 7,
+      "corners": 7,
+      "fouls": 13,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 339,
+      "pass_accuracy": 80
+    }
+  }
+}

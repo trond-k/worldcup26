@@ -1,0 +1,244 @@
+{
+  "id": "2026-06-23-colombia-vs-dr-congo",
+  "date": "2026-06-23",
+  "home": "colombia",
+  "away": "dr-congo",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 45358,
+  "referee": "Maurizio Mariani",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760459"
+  ],
+  "goals": [
+    {
+      "team": "colombia",
+      "player": "Daniel Muñoz",
+      "minute": "76",
+      "type": "regular",
+      "assist": "Juan Fernando Quintero"
+    }
+  ],
+  "cards": [
+    {
+      "team": "colombia",
+      "player": "Jhon Lucumí",
+      "minute": "56",
+      "card": "yellow"
+    },
+    {
+      "team": "dr-congo",
+      "player": "Charles Pickel",
+      "minute": "90+3",
+      "card": "yellow"
+    },
+    {
+      "team": "colombia",
+      "player": "Jefferson Lerma",
+      "minute": "90+4",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "dr-congo",
+      "on": "Noah Sadiki",
+      "off": "Ngal'ayel Mukau",
+      "minute": "45"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Simon Banza",
+      "off": "Cédric Bakambu",
+      "minute": "57"
+    },
+    {
+      "team": "colombia",
+      "on": "Jhon Córdoba",
+      "off": "Luis Suárez",
+      "minute": "58"
+    },
+    {
+      "team": "colombia",
+      "on": "Juan Fernando Quintero",
+      "off": "James Rodríguez",
+      "minute": "58"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Joris Kayembe",
+      "off": "Arthur Masuaku",
+      "minute": "72"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Charles Pickel",
+      "off": "Edo Kayembe",
+      "minute": "72"
+    },
+    {
+      "team": "colombia",
+      "on": "Richard Ríos",
+      "off": "Jhon Arias",
+      "minute": "77"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Nathanaël Mbuku",
+      "off": "Samuel Moutoussamy",
+      "minute": "82"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Néstor Lorenzo",
+      "starting": [
+        {
+          "name": "Camilo Vargas",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Jhon Arias",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Luis Suárez",
+          "position": "FW",
+          "number": 25
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "James Rodríguez",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "manager": "Sébastien Desabre",
+      "starting": [
+        {
+          "name": "Lionel Mpasi",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Steve Kapuadi",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Chancel Mbemba",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Arthur Masuaku",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Samuel Moutoussamy",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Edo Kayembe",
+          "position": "MF",
+          "number": 25
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Yoane Wissa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Cédric Bakambu",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 64,
+      "shots": 20,
+      "shots_on_target": 9,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 7,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 541,
+      "pass_accuracy": 87
+    },
+    "away": {
+      "possession": 36,
+      "shots": 7,
+      "shots_on_target": 1,
+      "corners": 4,
+      "fouls": 16,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 8,
+      "passes": 299,
+      "pass_accuracy": 76
+    }
+  }
+}

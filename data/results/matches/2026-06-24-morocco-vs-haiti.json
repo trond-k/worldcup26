@@ -1,0 +1,291 @@
+{
+  "id": "2026-06-24-morocco-vs-haiti",
+  "date": "2026-06-24",
+  "home": "morocco",
+  "away": "haiti",
+  "home_score": 4,
+  "away_score": 2,
+  "attendance": 68239,
+  "referee": "Danny Makkelie",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760464"
+  ],
+  "goals": [
+    {
+      "team": "haiti",
+      "player": "Yassine Bounou",
+      "minute": "10",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "morocco",
+      "player": "Achraf Hakimi",
+      "minute": "39",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "haiti",
+      "player": "Wilson Isidor",
+      "minute": "43",
+      "type": "regular",
+      "assist": "Jean-Kévin Duverne"
+    },
+    {
+      "team": "morocco",
+      "player": "Ismael Saibari",
+      "minute": "45+1",
+      "type": "regular",
+      "assist": "Achraf Hakimi"
+    },
+    {
+      "team": "morocco",
+      "player": "Soufiane Rahimi",
+      "minute": "78",
+      "type": "regular",
+      "assist": "Chadi Riad"
+    },
+    {
+      "team": "morocco",
+      "player": "Gessime Yassine",
+      "minute": "89",
+      "type": "regular",
+      "assist": "Soufiane Rahimi"
+    }
+  ],
+  "cards": [
+    {
+      "team": "haiti",
+      "player": "Johny Placide",
+      "minute": "79",
+      "card": "yellow"
+    },
+    {
+      "team": "haiti",
+      "player": "Duckens Nazon",
+      "minute": "80",
+      "card": "yellow"
+    },
+    {
+      "team": "haiti",
+      "player": "Josué Casimir",
+      "minute": "90+3",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "haiti",
+      "on": "Duckens Nazon",
+      "off": "Ruben Providence",
+      "minute": "67"
+    },
+    {
+      "team": "haiti",
+      "on": "Louicius Deedson",
+      "off": "Wilson Isidor",
+      "minute": "67"
+    },
+    {
+      "team": "morocco",
+      "on": "Soufiane Rahimi",
+      "off": "Ismael Saibari",
+      "minute": "70"
+    },
+    {
+      "team": "morocco",
+      "on": "Azzedine Ounahi",
+      "off": "Brahim Díaz",
+      "minute": "70"
+    },
+    {
+      "team": "morocco",
+      "on": "Gessime Yassine",
+      "off": "Ayoub El Kaabi",
+      "minute": "70"
+    },
+    {
+      "team": "haiti",
+      "on": "Carlens Arcus",
+      "off": "Jean-Kévin Duverne",
+      "minute": "80"
+    },
+    {
+      "team": "haiti",
+      "on": "Dominique Simon",
+      "off": "Danley Jean Jacques",
+      "minute": "80"
+    },
+    {
+      "team": "morocco",
+      "on": "Noussair Mazraoui",
+      "off": "Anass Salah-Eddine",
+      "minute": "83"
+    },
+    {
+      "team": "morocco",
+      "on": "Samir El Mourabet",
+      "off": "Neil El Aynaoui",
+      "minute": "83"
+    },
+    {
+      "team": "haiti",
+      "on": "Frantzdy Pierrot",
+      "off": "Lenny Joseph",
+      "minute": "83"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Chadi Riad",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Redouane Halhal",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Anass Salah-Eddine",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Sofyan Amrabat",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ayoub El Kaabi",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "manager": "Sébastien Migné",
+      "starting": [
+        {
+          "name": "Johny Placide",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Hannes Delcroix",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Ricardo Adé",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Martin Expérience",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Jean-Kévin Duverne",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Jean-Ricner Bellegarde",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Danley Jean Jacques",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Ruben Providence",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Josué Casimir",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Lenny Joseph",
+          "position": "FW",
+          "number": 16
+        },
+        {
+          "name": "Wilson Isidor",
+          "position": "FW",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 69,
+      "shots": 22,
+      "shots_on_target": 11,
+      "corners": 9,
+      "fouls": 10,
+      "offsides": 5,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 541,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 31,
+      "shots": 9,
+      "shots_on_target": 2,
+      "corners": 1,
+      "fouls": 18,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 8,
+      "passes": 247,
+      "pass_accuracy": 80
+    }
+  }
+}

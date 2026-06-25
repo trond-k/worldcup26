@@ -1,0 +1,270 @@
+{
+  "id": "2026-06-24-scotland-vs-brazil",
+  "date": "2026-06-24",
+  "home": "scotland",
+  "away": "brazil",
+  "home_score": 0,
+  "away_score": 3,
+  "attendance": 64478,
+  "referee": "César Arturo Ramos Palazuelos",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760465"
+  ],
+  "goals": [
+    {
+      "team": "brazil",
+      "player": "Vinícius Júnior",
+      "minute": "7",
+      "type": "regular",
+      "assist": "Rayan"
+    },
+    {
+      "team": "brazil",
+      "player": "Vinícius Júnior",
+      "minute": "45+3",
+      "type": "regular",
+      "assist": "Bruno Guimarães"
+    },
+    {
+      "team": "brazil",
+      "player": "Matheus Cunha",
+      "minute": "60",
+      "type": "regular",
+      "assist": "Bruno Guimarães"
+    }
+  ],
+  "cards": [
+    {
+      "team": "brazil",
+      "player": "Danilo",
+      "minute": "62",
+      "card": "yellow"
+    },
+    {
+      "team": "brazil",
+      "player": "Fabinho",
+      "minute": "82",
+      "card": "yellow"
+    },
+    {
+      "team": "scotland",
+      "player": "Ryan Christie",
+      "minute": "89",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "scotland",
+      "on": "Kieran Tierney",
+      "off": "Andy Robertson",
+      "minute": "45"
+    },
+    {
+      "team": "brazil",
+      "on": "Fabinho",
+      "off": "Casemiro",
+      "minute": "65"
+    },
+    {
+      "team": "brazil",
+      "on": "Gabriel Martinelli",
+      "off": "Lucas Paquetá",
+      "minute": "66"
+    },
+    {
+      "team": "brazil",
+      "on": "Neymar",
+      "off": "Matheus Cunha",
+      "minute": "76"
+    },
+    {
+      "team": "scotland",
+      "on": "Anthony Ralston",
+      "off": "Nathan Patterson",
+      "minute": "82"
+    },
+    {
+      "team": "brazil",
+      "on": "Endrick",
+      "off": "Rayan",
+      "minute": "82"
+    },
+    {
+      "team": "brazil",
+      "on": "Alex Sandro",
+      "off": "Douglas Santos",
+      "minute": "82"
+    },
+    {
+      "team": "scotland",
+      "on": "Ryan Christie",
+      "off": "Ben Gannon-Doak",
+      "minute": "82"
+    },
+    {
+      "team": "scotland",
+      "on": "Findlay Curtis",
+      "off": "John McGinn",
+      "minute": "90+1"
+    },
+    {
+      "team": "scotland",
+      "on": "Ché Adams",
+      "off": "Lawrence Shankland",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Steve Clarke",
+      "starting": [
+        {
+          "name": "Angus Gunn",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Scott McKenna",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Jack Hendry",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Andy Robertson",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nathan Patterson",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Kenny McLean",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Lawrence Shankland",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "John McGinn",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Ben Gannon-Doak",
+          "position": "MF",
+          "number": 17
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Carlo Ancelotti",
+      "starting": [
+        {
+          "name": "Alisson Becker",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marquinhos",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Douglas Santos",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Danilo",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Casemiro",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Lucas Paquetá",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Matheus Cunha",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Vinícius Júnior",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Rayan",
+          "position": "FW",
+          "number": 26
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 46,
+      "shots": 14,
+      "shots_on_target": 5,
+      "corners": 7,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 500,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 54,
+      "shots": 21,
+      "shots_on_target": 9,
+      "corners": 7,
+      "fouls": 11,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 605,
+      "pass_accuracy": 93
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "2026-06-24-czechia-vs-mexico",
+  "date": "2026-06-24",
+  "home": "czechia",
+  "away": "mexico",
+  "home_score": 0,
+  "away_score": 3,
+  "attendance": 80824,
+  "referee": "Yael Falcón Pérez",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760467"
+  ],
+  "goals": [
+    {
+      "team": "mexico",
+      "player": "Mateo Chávez",
+      "minute": "55",
+      "type": "regular",
+      "assist": "Luis Romo"
+    },
+    {
+      "team": "mexico",
+      "player": "Julián Quiñones",
+      "minute": "61",
+      "type": "regular",
+      "assist": "Jorge Sánchez"
+    },
+    {
+      "team": "mexico",
+      "player": "Álvaro Fidalgo",
+      "minute": "90+4",
+      "type": "regular",
+      "assist": "Roberto Alvarado"
+    }
+  ],
+  "cards": [
+    {
+      "team": "mexico",
+      "player": "Edson Álvarez",
+      "minute": "64",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "czechia",
+      "on": "Lukás Provod",
+      "off": "Denis Visinský",
+      "minute": "56"
+    },
+    {
+      "team": "mexico",
+      "on": "Santiago Gimenez",
+      "off": "Guillermo Martínez",
+      "minute": "63"
+    },
+    {
+      "team": "mexico",
+      "on": "Obed Vargas",
+      "off": "Luis Romo",
+      "minute": "63"
+    },
+    {
+      "team": "czechia",
+      "on": "Patrik Schick",
+      "off": "Adam Hlozek",
+      "minute": "64"
+    },
+    {
+      "team": "czechia",
+      "on": "Tomás Soucek",
+      "off": "Tomás Holes",
+      "minute": "64"
+    },
+    {
+      "team": "mexico",
+      "on": "Álvaro Fidalgo",
+      "off": "Gilberto Mora",
+      "minute": "72"
+    },
+    {
+      "team": "mexico",
+      "on": "Guillermo Ochoa",
+      "off": "Raúl Rangel",
+      "minute": "78"
+    },
+    {
+      "team": "mexico",
+      "on": "Jesús Gallardo",
+      "off": "Mateo Chávez",
+      "minute": "78"
+    },
+    {
+      "team": "czechia",
+      "on": "Tomás Chorý",
+      "off": "Lukás Cerv",
+      "minute": "87"
+    },
+    {
+      "team": "czechia",
+      "on": "Alexandr Sojka",
+      "off": "Tomás Soucek",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Miroslav Koubek",
+      "starting": [
+        {
+          "name": "Matej Kovár",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Robin Hranác",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ladislav Krejcí",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Tomás Holes",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Michal Sadílek",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Lukás Cerv",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "David Doudera",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Vladimír Coufal",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Adam Hlozek",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Denis Visinský",
+          "position": "FW",
+          "number": 26
+        },
+        {
+          "name": "Pavel Sulc",
+          "position": "FW",
+          "number": 15
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Javier Aguirre",
+      "starting": [
+        {
+          "name": "Raúl Rangel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Israel Reyes",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "César Montes",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Mateo Chávez",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Jorge Sánchez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Edson Álvarez",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Luis Romo",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Gilberto Mora",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Guillermo Martínez",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Julián Quiñones",
+          "position": "FW",
+          "number": 16
+        },
+        {
+          "name": "Roberto Alvarado",
+          "position": "FW",
+          "number": 25
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 52,
+      "shots": 13,
+      "shots_on_target": 1,
+      "corners": 5,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 398,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 48,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 1,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 386,
+      "pass_accuracy": 85
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "id": "2026-06-23-panama-vs-croatia",
+  "date": "2026-06-23",
+  "home": "panama",
+  "away": "croatia",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 43036,
+  "referee": "Pierre Atcho",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760460"
+  ],
+  "goals": [
+    {
+      "team": "croatia",
+      "player": "Ante Budimir",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Josip Stanisic"
+    }
+  ],
+  "cards": [
+    {
+      "team": "panama",
+      "player": "Édgar Yoel Bárcenas",
+      "minute": "61",
+      "card": "yellow"
+    },
+    {
+      "team": "croatia",
+      "player": "Petar Sucic",
+      "minute": "90+2",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "croatia",
+      "on": "Ante Budimir",
+      "off": "Petar Musa",
+      "minute": "45"
+    },
+    {
+      "team": "croatia",
+      "on": "Andrej Kramaric",
+      "off": "Josko Gvardiol",
+      "minute": "45"
+    },
+    {
+      "team": "croatia",
+      "on": "Luka Sucic",
+      "off": "Marco Pasalic",
+      "minute": "72"
+    },
+    {
+      "team": "croatia",
+      "on": "Petar Sucic",
+      "off": "Mateo Kovacic",
+      "minute": "72"
+    },
+    {
+      "team": "panama",
+      "on": "Cecilio Waterman",
+      "off": "Jiovany Ramos",
+      "minute": "77"
+    },
+    {
+      "team": "croatia",
+      "on": "Mario Pasalic",
+      "off": "Luka Modric",
+      "minute": "81"
+    },
+    {
+      "team": "panama",
+      "on": "Azarias Londoño",
+      "off": "José Fajardo",
+      "minute": "83"
+    },
+    {
+      "team": "panama",
+      "on": "Éric Davis",
+      "off": "César Blackman",
+      "minute": "90"
+    },
+    {
+      "team": "panama",
+      "on": "Tomás Rodríguez",
+      "off": "Édgar Yoel Bárcenas",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Thomas Christiansen",
+      "starting": [
+        {
+          "name": "Orlando Mosquera",
+          "position": "GK",
+          "number": 22
+        },
+        {
+          "name": "José Córdoba",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Andrés Andrade",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Jiovany Ramos",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "César Blackman",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Édgar Yoel Bárcenas",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Carlos Harvey",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "José Luis Rodríguez",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Cristian Martínez",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "José Fajardo",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Zlatko Dalic",
+      "starting": [
+        {
+          "name": "Dominik Livakovic",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Josip Sutalo",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Josko Gvardiol",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Josip Stanisic",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mateo Kovacic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Luka Modric",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Petar Musa",
+          "position": "FW",
+          "number": 26
+        },
+        {
+          "name": "Ivan Perisic",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Marco Pasalic",
+          "position": "MF",
+          "number": 24
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 42,
+      "shots": 8,
+      "shots_on_target": 1,
+      "corners": 7,
+      "fouls": 19,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 352,
+      "pass_accuracy": 79
+    },
+    "away": {
+      "possession": 58,
+      "shots": 6,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 12,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 512,
+      "pass_accuracy": 84
+    }
+  }
+}

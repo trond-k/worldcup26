@@ -1,0 +1,271 @@
+{
+  "id": "2026-06-24-bosnia-herzegovina-vs-qatar",
+  "date": "2026-06-24",
+  "home": "bosnia-herzegovina",
+  "away": "qatar",
+  "home_score": 3,
+  "away_score": 1,
+  "attendance": 66925,
+  "referee": "Jesús Valenzuela",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760462"
+  ],
+  "goals": [
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Kerim Alajbegovic",
+      "minute": "29",
+      "type": "regular",
+      "assist": "Ivan Basic"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Mahmoud Abunada",
+      "minute": "34",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "qatar",
+      "player": "Hassan Al-Haydos",
+      "minute": "42",
+      "type": "regular",
+      "assist": "Edmílson Junior"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Ermin Mahmic",
+      "minute": "80",
+      "type": "regular",
+      "assist": "Dennis Hadzikadunic"
+    }
+  ],
+  "cards": [
+    {
+      "team": "qatar",
+      "player": "Ahmed Fathy",
+      "minute": "78",
+      "card": "yellow"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Ermin Mahmic",
+      "minute": "82",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Benjamin Tahirovic",
+      "off": "Ivan Sunjic",
+      "minute": "45"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Amar Memic",
+      "off": "Arjan Malic",
+      "minute": "45"
+    },
+    {
+      "team": "qatar",
+      "on": "Abdulaziz Hatem",
+      "off": "Jassem Gaber",
+      "minute": "45"
+    },
+    {
+      "team": "qatar",
+      "on": "Ahmed Al-Ganehi",
+      "off": "Hassan Al-Haydos",
+      "minute": "56"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Dennis Hadzikadunic",
+      "off": "Nikola Katic",
+      "minute": "63"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Ermin Mahmic",
+      "off": "Edin Dzeko",
+      "minute": "64"
+    },
+    {
+      "team": "qatar",
+      "on": "Almoez Ali",
+      "off": "Karim Boudiaf",
+      "minute": "72"
+    },
+    {
+      "team": "qatar",
+      "on": "Ahmed Alaaeldin",
+      "off": "Edmílson Junior",
+      "minute": "79"
+    },
+    {
+      "team": "qatar",
+      "on": "Mohamed Manai",
+      "off": "Ahmed Fathy",
+      "minute": "79"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Dzenis Burnic",
+      "off": "Kerim Alajbegovic",
+      "minute": "82"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Sergej Barbarez",
+      "starting": [
+        {
+          "name": "Nikola Vasilj",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Stjepan Radeljic",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Nikola Katic",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Sead Kolasinac",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Arjan Malic",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Ivan Sunjic",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Ivan Basic",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Kerim Alajbegovic",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Esmir Bajraktarevic",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Edin Dzeko",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Julen Lopetegui",
+      "starting": [
+        {
+          "name": "Mahmoud Abunada",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Issa Laye",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Boualem Khoukhi",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Sultan Al-Brake",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Pedro Miguel",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Ahmed Fathy",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Karim Boudiaf",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Jassem Gaber",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Akram Afif",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Hassan Al-Haydos",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Edmílson Junior",
+          "position": "FW",
+          "number": 8
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 54,
+      "shots": 14,
+      "shots_on_target": 5,
+      "corners": 5,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 515,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 46,
+      "shots": 9,
+      "shots_on_target": 3,
+      "corners": 5,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 434,
+      "pass_accuracy": 85
+    }
+  }
+}

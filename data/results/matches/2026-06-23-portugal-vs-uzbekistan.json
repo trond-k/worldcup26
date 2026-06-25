@@ -1,0 +1,278 @@
+{
+  "id": "2026-06-23-portugal-vs-uzbekistan",
+  "date": "2026-06-23",
+  "home": "portugal",
+  "away": "uzbekistan",
+  "home_score": 5,
+  "away_score": 0,
+  "attendance": 68777,
+  "referee": "Jalal Jayed",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760461"
+  ],
+  "goals": [
+    {
+      "team": "portugal",
+      "player": "Cristiano Ronaldo",
+      "minute": "6",
+      "type": "regular",
+      "assist": "João Cancelo"
+    },
+    {
+      "team": "portugal",
+      "player": "Nuno Mendes",
+      "minute": "17",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "portugal",
+      "player": "Cristiano Ronaldo",
+      "minute": "39",
+      "type": "regular",
+      "assist": "Bruno Fernandes"
+    },
+    {
+      "team": "portugal",
+      "player": "Abduvohid Nematov",
+      "minute": "60",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "portugal",
+      "player": "Rafael Leão",
+      "minute": "87",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "uzbekistan",
+      "player": "Odiljon Xamrobekov",
+      "minute": "14",
+      "card": "yellow"
+    },
+    {
+      "team": "portugal",
+      "player": "Renato Veiga",
+      "minute": "68",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "uzbekistan",
+      "on": "Khojiakbar Alijonov",
+      "off": "Sherzod Nasrullaev",
+      "minute": "45"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Akmal Mozgovoy",
+      "off": "Odiljon Xamrobekov",
+      "minute": "45"
+    },
+    {
+      "team": "portugal",
+      "on": "Nélson Semedo",
+      "off": "João Cancelo",
+      "minute": "45"
+    },
+    {
+      "team": "portugal",
+      "on": "Francisco Conceição",
+      "off": "Pedro Neto",
+      "minute": "45"
+    },
+    {
+      "team": "portugal",
+      "on": "Francisco Trincão",
+      "off": "João Félix",
+      "minute": "63"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Igor Sergeev",
+      "off": "Abbosbek Fayzullaev",
+      "minute": "73"
+    },
+    {
+      "team": "portugal",
+      "on": "Bernardo Silva",
+      "off": "João Neves",
+      "minute": "76"
+    },
+    {
+      "team": "portugal",
+      "on": "Rafael Leão",
+      "off": "Vitinha",
+      "minute": "83"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Ruslanbek Jiyanov",
+      "off": "Behruzjon Karimov",
+      "minute": "90+2"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Sherzod Esanov",
+      "off": "Otabek Shukurov",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Roberto Martínez",
+      "starting": [
+        {
+          "name": "Diogo Costa",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "João Cancelo",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Vitinha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "João Neves",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "João Félix",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Fabio Cannavaro",
+      "starting": [
+        {
+          "name": "Abduvohid Nematov",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Abdulla Abdullaev",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Rustam Ashurmatov",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Otabek Shukurov",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Odiljon Xamrobekov",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Sherzod Nasrullaev",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Behruzjon Karimov",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Eldor Shomurodov",
+          "position": "FW",
+          "number": 14
+        },
+        {
+          "name": "Abbosbek Fayzullaev",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Azizjon Ganiev",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 66,
+      "shots": 17,
+      "shots_on_target": 9,
+      "corners": 3,
+      "fouls": 14,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 624,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 34,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 15,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 327,
+      "pass_accuracy": 80
+    }
+  }
+}

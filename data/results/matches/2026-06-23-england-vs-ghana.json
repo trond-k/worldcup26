@@ -1,0 +1,236 @@
+{
+  "id": "2026-06-23-england-vs-ghana",
+  "date": "2026-06-23",
+  "home": "england",
+  "away": "ghana",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 63983,
+  "referee": "Martínez, Héctor",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760458"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "england",
+      "player": "Declan Rice",
+      "minute": "41",
+      "card": "yellow"
+    },
+    {
+      "team": "ghana",
+      "player": "Iñaki Williams",
+      "minute": "60",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "england",
+      "on": "Bukayo Saka",
+      "off": "Anthony Gordon",
+      "minute": "65"
+    },
+    {
+      "team": "england",
+      "on": "Nico O'Reilly",
+      "off": "Djed Spence",
+      "minute": "66"
+    },
+    {
+      "team": "ghana",
+      "on": "Fatawu Issahaku",
+      "off": "Iñaki Williams",
+      "minute": "66"
+    },
+    {
+      "team": "ghana",
+      "on": "Prince Adu",
+      "off": "Jordan Ayew",
+      "minute": "67"
+    },
+    {
+      "team": "england",
+      "on": "Morgan Rogers",
+      "off": "Jude Bellingham",
+      "minute": "73"
+    },
+    {
+      "team": "england",
+      "on": "Eberechi Eze",
+      "off": "Elliot Anderson",
+      "minute": "74"
+    },
+    {
+      "team": "england",
+      "on": "Marcus Rashford",
+      "off": "Noni Madueke",
+      "minute": "83"
+    },
+    {
+      "team": "ghana",
+      "on": "Kojo Peprah Oppong",
+      "off": "Marvin Senaya",
+      "minute": "87"
+    },
+    {
+      "team": "ghana",
+      "on": "Baba Rahman",
+      "off": "Prince Adu",
+      "minute": "90+5"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Djed Spence",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Reece James",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "MF",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Carlos Queiroz",
+      "starting": [
+        {
+          "name": "Benjamin Asare",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Jerome Opoku",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Jonas Adjetey",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Thomas Partey",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Kwasi Sibo",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "position": "MF",
+          "number": 3
+        },
+        {
+          "name": "Antoine Semenyo",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Iñaki Williams",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Jordan Ayew",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 79,
+      "shots": 19,
+      "shots_on_target": 3,
+      "corners": 9,
+      "fouls": 14,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 633,
+      "pass_accuracy": 93
+    },
+    "away": {
+      "possession": 21,
+      "shots": 2,
+      "shots_on_target": 1,
+      "corners": 2,
+      "fouls": 24,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 172,
+      "pass_accuracy": 74
+    }
+  }
+}
