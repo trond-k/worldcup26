@@ -21,6 +21,7 @@
     "coach": { "type": ["string", "null"] },
     "gnp_usd": { "type": ["integer", "null"], "minimum": 0, "description": "Gross National Income (World Bank, current US$), the modern equivalent of GNP" },
     "gnp_per_capita_usd": { "type": ["integer", "null"], "minimum": 0, "description": "GNI per capita (World Bank Atlas method, current US$)" },
+    "gni_per_capita_ppp_usd": { "type": ["integer", "null"], "minimum": 0, "description": "GNI per capita at purchasing power parity (UNDP HDR 2025, 2021 PPP $; reference year 2023). Null where the source lacks an entry (Curaçao)." },
     "gnp_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026 },
     "population": { "type": ["integer", "null"], "minimum": 0, "description": "Total population (World Bank; ONS for England/Scotland)" },
     "population_year": { "type": ["integer", "null"], "minimum": 2010, "maximum": 2026 },

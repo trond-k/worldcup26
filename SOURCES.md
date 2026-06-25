@@ -46,6 +46,7 @@ indicators in this section are descriptive only.
 |---|---|---|---|---|---|
 | Gross National Income (total) | `gnp_usd` | World Bank, GNI Atlas method (current US$) | [NY.GNP.ATLS.CD](https://data.worldbank.org/indicator/NY.GNP.ATLS.CD) | 2024 | Labelled "GNP" in the dataset. England/Scotland use UK ONS regional GDP-based estimates. |
 | GNI per capita | `gnp_per_capita_usd` | World Bank, GNI per capita Atlas method (current US$) | [NY.GNP.PCAP.CD](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD) | 2024 | |
+| GNI per capita (PPP) | `gni_per_capita_ppp_usd` | UNDP, Human Development Report 2025, Statistical Annex Table 1 (2021 PPP $) | [UNDP HDI](https://hdr.undp.org/data-center/human-development-index) | 2023 | Purchasing-power-adjusted income; fairer cross-country comparison than the Atlas figure. Normalized by `convert_hdi.py`, applied by `seed_hdi.py`, and shown on every match card (replaced the Atlas GNI/capita there). Null for Curaçao (no UNDP entry). |
 | Total population | `population` | World Bank | [SP.POP.TOTL](https://data.worldbank.org/indicator/SP.POP.TOTL) | mostly 2024 | ONS mid-2023 for England & Scotland; latest available for Curaçao. |
 | GDP growth (annual %) | `gdp_growth_pct` | World Bank | [NY.GDP.MKTP.KD.ZG](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG) | 2023 | |
 | Inflation, consumer prices (annual %) | `inflation_pct` | World Bank | [FP.CPI.TOTL.ZG](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG) | 2023 | |

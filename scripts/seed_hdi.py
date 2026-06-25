@@ -18,25 +18,40 @@ HDI_YEAR = 2023
 
 
 def load_hdi(path=CSV_PATH):
-    with open(path, newline="", encoding="utf-8-sig") as fh:
-        return {row["country"]: float(row["hdi"]) for row in csv.DictReader(fh)
-                if row.get("country") and row.get("hdi")}
-
-
-def with_hdi(team, value):
-    """Return a copy with hdi_year next to hdi, preserving readable key order."""
+    """country -> {"hdi": float, "ppp": int|None} from the normalized CSV."""
     out = {}
-    inserted_year = False
+    with open(path, newline="", encoding="utf-8-sig") as fh:
+        for row in csv.DictReader(fh):
+            if not (row.get("country") and row.get("hdi")):
+                continue
+            ppp = row.get("gni_per_capita_ppp")
+            out[row["country"]] = {
+                "hdi": float(row["hdi"]),
+                "ppp": int(ppp) if ppp else None,
+            }
+    return out
+
+
+def with_hdi(team, hdi, ppp):
+    """Return a copy with hdi/hdi_year set and gni_per_capita_ppp_usd placed next
+    to the economic fields, preserving readable key order."""
+    out = {}
+    inserted_hdi_year = False
     for key, current in team.items():
+        if key in ("hdi_year", "gni_per_capita_ppp_usd"):
+            continue  # re-inserted at canonical positions below
+        out[key] = current
+        if key == "gnp_per_capita_usd":
+            out["gni_per_capita_ppp_usd"] = ppp
         if key == "hdi":
-            out[key] = value
-            out["hdi_year"] = HDI_YEAR if value is not None else None
-            inserted_year = True
-        elif key != "hdi_year":
-            out[key] = current
-    if not inserted_year:
-        out["hdi"] = value
-        out["hdi_year"] = HDI_YEAR if value is not None else None
+            out[key] = hdi
+            out["hdi_year"] = HDI_YEAR if hdi is not None else None
+            inserted_hdi_year = True
+    if "gni_per_capita_ppp_usd" not in out:
+        out["gni_per_capita_ppp_usd"] = ppp
+    if not inserted_hdi_year:
+        out["hdi"] = hdi
+        out["hdi_year"] = HDI_YEAR if hdi is not None else None
     return out
 
 
@@ -50,20 +65,25 @@ def main():
     updates = []
     for summary in load_all_teams():
         source_name = ALIASES.get(summary["name"], summary["name"])
-        value = values.get(source_name)
-        if value is None and summary["slug"] != "curacao":
+        rec = values.get(source_name)
+        if rec is None and summary["slug"] != "curacao":
             missing.append(f"{summary['name']} -> {source_name}")
             continue
+        hdi = rec["hdi"] if rec else None
+        ppp = rec["ppp"] if rec else None
         old = summary.get("hdi")
-        if old != value or summary.get("hdi_year") != (HDI_YEAR if value is not None else None):
-            changes.append((summary["slug"], old, value))
+        old_ppp = summary.get("gni_per_capita_ppp_usd")
+        if (old != hdi or old_ppp != ppp
+                or summary.get("hdi_year") != (HDI_YEAR if hdi is not None else None)):
+            changes.append((summary["slug"], old, hdi, old_ppp, ppp))
             path = team_path(summary["slug"])
-            updates.append((path, with_hdi(load_json(path), value)))
+            updates.append((path, with_hdi(load_json(path), hdi, ppp)))
 
     if missing:
         sys.exit("unmatched HDI countries: " + ", ".join(missing))
-    for slug, old, new in changes:
-        print(f"{slug:22s} {old!s:>5} -> {new!s:<5} ({HDI_YEAR})")
+    for slug, old, hdi, old_ppp, ppp in changes:
+        print(f"{slug:22s} hdi {old!s:>5} -> {hdi!s:<5} | "
+              f"ppp {old_ppp!s:>7} -> {ppp!s:<7} ({HDI_YEAR})")
     if apply:
         for path, team in updates:
             atomic_write_json(path, team)

@@ -250,7 +250,8 @@ def select_featured_matches(matches, today):
 CARD_STATS = [
     ("Squad value", squad_value, fmt_eur, "high", None),
     ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
-    ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
+    ("GNP/cap PPP", lambda t: t.get("gni_per_capita_ppp_usd"), fmt_usd, "high",
+     lambda t: "GNI per capita at purchasing power parity (UNDP HDR 2025, 2021 PPP $, 2023)"),
     ("Elo rank", lambda t: t.get("elo_rank"), lambda v: f"#{v}" if v else "—", "low",
      lambda t: ("World Football Elo rank"
                 + (f" (rating {t['elo_rating']})" if t.get("elo_rating") else ""))),
