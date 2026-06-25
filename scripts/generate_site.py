@@ -245,15 +245,58 @@ def select_featured_matches(matches, today):
     return (None, None, [])
 
 
-def team_block(slug, by_slug, away=False):
-    """A deliberately compact team-name panel for a match card."""
+# Per-team indicators shown beneath each name on a match card.
+# Each row: (label, value_fn, fmt_fn, better-direction, title_fn|None).
+CARD_STATS = [
+    ("Squad value", squad_value, fmt_eur, "high", None),
+    ("Citizens", lambda t: t.get("population"), fmt_pop, "high", None),
+    ("GNP/capita", lambda t: t.get("gnp_per_capita_usd"), fmt_usd, "high", None),
+    ("Elo rank", lambda t: t.get("elo_rank"), lambda v: f"#{v}" if v else "—", "low",
+     lambda t: ("World Football Elo rank"
+                + (f" (rating {t['elo_rating']})" if t.get("elo_rating") else ""))),
+]
+
+
+def _leads(self_t, opp_t, value_fn, better):
+    """True when self_t beats opp_t on this stat (per `better` direction)."""
+    sv, ov = value_fn(self_t), value_fn(opp_t)
+    if sv is None or ov is None or sv == ov:
+        return False
+    return sv > ov if better == "high" else sv < ov
+
+
+def team_block(slug, by_slug, opponent_slug=None, away=False):
+    """A team panel for a match card: name plus CARD_STATS.
+
+    When opponent_slug is given, the side leading on a stat gets a `card-fav`
+    highlight (the same head-to-head cue used by the odds rows). The away panel
+    is tagged `team away` so the CSS can right-align it toward the card edge.
+    """
     cls = "team away" if away else "team"
     t = by_slug.get(slug)
     if not t:
         # Unknown slug — a knockout placeholder like 'Winner Group A'.
         return f'<div class="{cls}"><span class="tname tname-tbd">{esc(team_name(by_slug, slug))}</span></div>'
     name_link = link(f"team/{t['slug']}.html", t["name"])
-    return f'<div class="{cls}"><span class="tname">{name_link}</span></div>'
+    opp = by_slug.get(opponent_slug) if opponent_slug else None
+    rows = []
+    for label, value_fn, fmt_fn, better, title_fn in CARD_STATS:
+        dd_cls = ' class="card-fav"' if opp and _leads(t, opp, value_fn, better) else ""
+        dt_attr = ""
+        if title_fn:
+            tip = title_fn(t)
+            if tip:
+                dt_attr = f' title="{esc(tip)}"'
+        rows.append(
+            f'<div><dt{dt_attr}>{esc(label)}</dt>'
+            f'<dd{dd_cls}>{esc(fmt_fn(value_fn(t)))}</dd></div>'
+        )
+    return (
+        f'<div class="{cls}">'
+        f'<span class="tname">{name_link}</span>'
+        f'<dl class="card-stats">{"".join(rows)}</dl>'
+        '</div>'
+    )
 
 
 def kickoff_time_html(m):
@@ -347,9 +390,9 @@ def render_match_card(m, by_slug, details, scores=None):
     return (
         '<div class="match-card">'
         f'{header}'
-        f'{team_block(m["home"], by_slug)}'
+        f'{team_block(m["home"], by_slug, m["away"])}'
         f'<div class="centre">{centre}</div>'
-        f'{team_block(m["away"], by_slug, away=True)}'
+        f'{team_block(m["away"], by_slug, m["home"], away=True)}'
         f'{meta_html}'
         f'{render_card_odds(m, scores)}'
         '</div>'

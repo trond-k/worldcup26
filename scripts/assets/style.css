@@ -219,10 +219,30 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.match-card .team { align-self: center; padding: 0.45rem 0; }
+.match-card .team {
+  align-self: center;
+  padding: 0.45rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 .match-card .team.away { text-align: right; }
 .match-card .tname { font-weight: 600; line-height: 1.2; }
 .match-card .tname-tbd { font-weight: 500; font-style: italic; color: var(--muted, #777); }
+.match-card dl.card-stats { margin: 0.2rem 0 0; display: block; }
+.match-card dl.card-stats div { margin: 0.1rem 0; }
+.match-card dl.card-stats dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.match-card dl.card-stats dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.match-card dl.card-stats dd.card-fav { color: var(--accent); }
 .match-card .mc-meta {
   grid-column: 1 / -1;
   text-align: center;
