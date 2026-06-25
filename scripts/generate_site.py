@@ -275,48 +275,6 @@ def team_name_html(slug, by_slug):
     return f'<span class="tname">{name_link}</span>'
 
 
-def inline_list(items):
-    """Human-readable list: 'A', 'A and B', or 'A, B and C'."""
-    if not items:
-        return ""
-    if len(items) == 1:
-        return items[0]
-    if len(items) == 2:
-        return f"{items[0]} and {items[1]}"
-    return f'{", ".join(items[:-1])} and {items[-1]}'
-
-
-def summary_stat_label(label):
-    """Short labels for the generated card contrast sentence."""
-    return {
-        "Squad value": "squad value",
-        "Citizens": "population",
-        "GNI/cap PPP": "GNI per capita",
-        "Elo rank": "Elo rank",
-    }.get(label, label)
-
-
-def render_contrast_summary(home_t, away_t):
-    """One-sentence account of which side leads each card indicator."""
-    home_edges = []
-    away_edges = []
-    for label, value_fn, _fmt_fn, better, _title_fn in CARD_STATS:
-        short = summary_stat_label(label)
-        if _leads(home_t, away_t, value_fn, better):
-            home_edges.append(short)
-        elif _leads(away_t, home_t, value_fn, better):
-            away_edges.append(short)
-    if not home_edges and not away_edges:
-        return ""
-
-    pieces = []
-    if home_edges:
-        pieces.append(f'{home_t["name"]} leads {inline_list(home_edges)}')
-    if away_edges:
-        pieces.append(f'{away_t["name"]} leads {inline_list(away_edges)}')
-    return "; ".join(pieces) + "."
-
-
 def render_indicator_comparison(home_slug, away_slug, by_slug):
     """Shared match-card indicator grid: home value | label | away value."""
     home_t, away_t = by_slug.get(home_slug), by_slug.get(away_slug)
@@ -351,12 +309,8 @@ def render_indicator_comparison(home_slug, away_slug, by_slug):
             '</div>'
         )
 
-    summary = render_contrast_summary(home_t, away_t)
-    summary_html = f'<p class="mc-summary">{esc(summary)}</p>' if summary else ""
     return (
         '<div class="mc-contrast">'
-        '<div class="mc-section-label">Socio-economic contrast</div>'
-        f'{summary_html}'
         '<div class="compare-grid" role="table" aria-label="Match indicators">'
         f'{"".join(rows)}'
         '</div>'

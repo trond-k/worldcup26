@@ -8,8 +8,6 @@
   --muted: #5c6670;
   --accent: #1a5fb4;
   --advantage: #9a6414;
-  --advantage-bg: #fff2d8;
-  --advantage-border: #f1c77a;
   --border: #e2e6ea;
   --thead: #f4f6f8;
   --zebra: #fafbfc;
@@ -32,8 +30,6 @@
     --muted: #9aa4af;
     --accent: #7fb0ef;
     --advantage: #f2c36b;
-    --advantage-bg: rgba(242, 195, 107, 0.13);
-    --advantage-border: rgba(242, 195, 107, 0.42);
     --border: #2b3037;
     --thead: #1d2127;
     --zebra: #1a1e23;
@@ -270,7 +266,6 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   padding-top: 0.65rem;
   border-top: 1px solid var(--border);
 }
-.mc-section-label,
 .mc-odds-label {
   margin-bottom: 0.35rem;
   color: var(--muted);
@@ -278,12 +273,6 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-}
-.match-card .mc-summary {
-  margin: 0 0 0.55rem;
-  color: var(--fg);
-  font-size: 0.8rem;
-  line-height: 1.35;
 }
 .compare-grid {
   display: grid;
@@ -305,18 +294,11 @@ table.match-stats td:nth-child(2), table.match-stats td:nth-child(3) { text-alig
 }
 .compare-value {
   min-width: 0;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  padding: 0.05rem 0.35rem;
   font-weight: 700;
 }
 .compare-value.home { justify-self: start; text-align: left; }
 .compare-value.away { justify-self: end; text-align: right; }
-.compare-value.card-fav {
-  border-color: var(--advantage-border);
-  background: var(--advantage-bg);
-  color: var(--advantage);
-}
+.compare-value.card-fav { color: var(--advantage); }
 
 /* Two-model odds (match cards) */
 .match-card .mc-odds {
