@@ -1,0 +1,276 @@
+{
+  "id": "2026-06-25-ecuador-vs-germany",
+  "date": "2026-06-25",
+  "home": "ecuador",
+  "away": "germany",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 80663,
+  "referee": "Tori Penso",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760468"
+  ],
+  "goals": [
+    {
+      "team": "germany",
+      "player": "Leroy Sané",
+      "minute": "2",
+      "type": "regular",
+      "assist": "Florian Wirtz"
+    },
+    {
+      "team": "ecuador",
+      "player": "Nilson Angulo",
+      "minute": "9",
+      "type": "regular",
+      "assist": "Pedro Vite"
+    },
+    {
+      "team": "ecuador",
+      "player": "Gonzalo Plata",
+      "minute": "77",
+      "type": "regular",
+      "assist": "Kevin Rodríguez"
+    }
+  ],
+  "cards": [
+    {
+      "team": "ecuador",
+      "player": "Piero Hincapié",
+      "minute": "43",
+      "card": "yellow"
+    },
+    {
+      "team": "germany",
+      "player": "Aleksandar Pavlovic",
+      "minute": "44",
+      "card": "yellow"
+    },
+    {
+      "team": "ecuador",
+      "player": "Alan Franco",
+      "minute": "50",
+      "card": "yellow"
+    },
+    {
+      "team": "ecuador",
+      "player": "Gonzalo Plata",
+      "minute": "89",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "germany",
+      "on": "Angelo Stiller",
+      "off": "Aleksandar Pavlovic",
+      "minute": "45"
+    },
+    {
+      "team": "germany",
+      "on": "Deniz Undav",
+      "off": "Kai Havertz",
+      "minute": "60"
+    },
+    {
+      "team": "germany",
+      "on": "Malick Thiaw",
+      "off": "Joshua Kimmich",
+      "minute": "60"
+    },
+    {
+      "team": "ecuador",
+      "on": "Kevin Rodríguez",
+      "off": "Enner Valencia",
+      "minute": "64"
+    },
+    {
+      "team": "ecuador",
+      "on": "Ángelo Preciado",
+      "off": "Alan Franco",
+      "minute": "64"
+    },
+    {
+      "team": "germany",
+      "on": "Maximilian Beier",
+      "off": "Felix Nmecha",
+      "minute": "64"
+    },
+    {
+      "team": "ecuador",
+      "on": "Pervis Estupiñán",
+      "off": "Piero Hincapié",
+      "minute": "71"
+    },
+    {
+      "team": "germany",
+      "on": "Pascal Gross",
+      "off": "Florian Wirtz",
+      "minute": "73"
+    },
+    {
+      "team": "ecuador",
+      "on": "Félix Torres",
+      "off": "John Yeboah",
+      "minute": "85"
+    },
+    {
+      "team": "ecuador",
+      "on": "Jordy Caicedo",
+      "off": "Nilson Angulo",
+      "minute": "85"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Sebastián Beccacece",
+      "starting": [
+        {
+          "name": "Hernán Galíndez",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Joel Ordóñez",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Alan Franco",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Pedro Vite",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Nilson Angulo",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "John Yeboah",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Enner Valencia",
+          "position": "FW",
+          "number": 13
+        },
+        {
+          "name": "Gonzalo Plata",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Julian Nagelsmann",
+      "starting": [
+        {
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Aleksandar Pavlovic",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "David Raum",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Leroy Sané",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Kai Havertz",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Jamal Musiala",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 39,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 3,
+      "fouls": 15,
+      "offsides": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 378,
+      "pass_accuracy": 83
+    },
+    "away": {
+      "possession": 61,
+      "shots": 11,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 592,
+      "pass_accuracy": 87
+    }
+  }
+}

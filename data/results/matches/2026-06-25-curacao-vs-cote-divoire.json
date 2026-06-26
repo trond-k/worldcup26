@@ -1,0 +1,263 @@
+{
+  "id": "2026-06-25-curacao-vs-cote-divoire",
+  "date": "2026-06-25",
+  "home": "curacao",
+  "away": "cote-divoire",
+  "home_score": 0,
+  "away_score": 2,
+  "attendance": 68324,
+  "referee": "Glenn Nyberg",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760473"
+  ],
+  "goals": [
+    {
+      "team": "cote-divoire",
+      "player": "Nicolas Pépé",
+      "minute": "7",
+      "type": "regular",
+      "assist": "Yan Diomande"
+    },
+    {
+      "team": "cote-divoire",
+      "player": "Nicolas Pépé",
+      "minute": "64",
+      "type": "regular",
+      "assist": "Ibrahim Sangaré"
+    }
+  ],
+  "cards": [
+    {
+      "team": "cote-divoire",
+      "player": "Nicolas Pépé",
+      "minute": "35",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Juninho Bacuna",
+      "minute": "75",
+      "card": "yellow"
+    },
+    {
+      "team": "curacao",
+      "player": "Gervane Kastaneer",
+      "minute": "83",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "cote-divoire",
+      "on": "Christ Inao Oulaï",
+      "off": "Amad Diallo",
+      "minute": "45"
+    },
+    {
+      "team": "curacao",
+      "on": "Jeremy Antonisse",
+      "off": "Livano Comenencia",
+      "minute": "61"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Oumar Diakité",
+      "off": "Ange-Yoan Bonny",
+      "minute": "67"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Elye Wahi",
+      "off": "Nicolas Pépé",
+      "minute": "67"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Bazoumana Touré",
+      "off": "Yan Diomande",
+      "minute": "67"
+    },
+    {
+      "team": "curacao",
+      "on": "Gervane Kastaneer",
+      "off": "Juriën Gaari",
+      "minute": "77"
+    },
+    {
+      "team": "curacao",
+      "on": "Tyrese Noslin",
+      "off": "Deveron Fonville",
+      "minute": "77"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Jean Michaël Seri",
+      "off": "Franck Kessié",
+      "minute": "77"
+    },
+    {
+      "team": "curacao",
+      "on": "Shurandy Sambo",
+      "off": "Joshua Brenet",
+      "minute": "90"
+    },
+    {
+      "team": "curacao",
+      "on": "Brandley Kuwas",
+      "off": "Jürgen Locadia",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Dick Advocaat",
+      "starting": [
+        {
+          "name": "Eloy Room",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Armando Obispo",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Deveron Fonville",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Juriën Gaari",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Sherel Floranus",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Joshua Brenet",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Leandro Bacuna",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Livano Comenencia",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Juninho Bacuna",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Tahith Chong",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Jürgen Locadia",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Emerse Faé",
+      "starting": [
+        {
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Ousmane Diomande",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Christopher Operi",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Guela Doué",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Nicolas Pépé",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Franck Kessié",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ibrahim Sangaré",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Ange-Yoan Bonny",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Yan Diomande",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "MF",
+          "number": 15
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 37,
+      "shots": 11,
+      "shots_on_target": 2,
+      "corners": 4,
+      "fouls": 11,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 355,
+      "pass_accuracy": 83
+    },
+    "away": {
+      "possession": 63,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 6,
+      "fouls": 6,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 624,
+      "pass_accuracy": 89
+    }
+  }
+}

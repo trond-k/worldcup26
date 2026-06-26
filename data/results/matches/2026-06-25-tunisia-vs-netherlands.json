@@ -1,0 +1,258 @@
+{
+  "id": "2026-06-25-tunisia-vs-netherlands",
+  "date": "2026-06-25",
+  "home": "tunisia",
+  "away": "netherlands",
+  "home_score": 1,
+  "away_score": 3,
+  "attendance": 68391,
+  "referee": "Katia Itzel García",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760472"
+  ],
+  "goals": [
+    {
+      "team": "netherlands",
+      "player": "Ellyes Skhiri",
+      "minute": "3",
+      "type": "own_goal",
+      "assist": null
+    },
+    {
+      "team": "netherlands",
+      "player": "Brian Brobbey",
+      "minute": "7",
+      "type": "regular",
+      "assist": "Virgil van Dijk"
+    },
+    {
+      "team": "tunisia",
+      "player": "Hazem Mastouri",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Hannibal Mejbri"
+    },
+    {
+      "team": "netherlands",
+      "player": "Jan Paul van Hecke",
+      "minute": "62",
+      "type": "regular",
+      "assist": "Tijjani Reijnders"
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "tunisia",
+      "on": "Mohamed Hadj Mahmoud",
+      "off": "Rani Khedira",
+      "minute": "67"
+    },
+    {
+      "team": "tunisia",
+      "on": "Elias Achouri",
+      "off": "Anis Slimane",
+      "minute": "68"
+    },
+    {
+      "team": "tunisia",
+      "on": "Mortadha Ben Ouanes",
+      "off": "Mohamed Amine Ben Hamida",
+      "minute": "68"
+    },
+    {
+      "team": "netherlands",
+      "on": "Teun Koopmeiners",
+      "off": "Frenkie de Jong",
+      "minute": "72"
+    },
+    {
+      "team": "netherlands",
+      "on": "Justin Kluivert",
+      "off": "Tijjani Reijnders",
+      "minute": "72"
+    },
+    {
+      "team": "netherlands",
+      "on": "Crysencio Summerville",
+      "off": "Donyell Malen",
+      "minute": "72"
+    },
+    {
+      "team": "tunisia",
+      "on": "Firas Chaouat",
+      "off": "Ismaël Gharbi",
+      "minute": "75"
+    },
+    {
+      "team": "netherlands",
+      "on": "Memphis Depay",
+      "off": "Brian Brobbey",
+      "minute": "77"
+    },
+    {
+      "team": "netherlands",
+      "on": "Noa Lang",
+      "off": "Cody Gakpo",
+      "minute": "84"
+    },
+    {
+      "team": "tunisia",
+      "on": "Sebastian Tounekti",
+      "off": "Hazem Mastouri",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Sabri Lamouchi",
+      "starting": [
+        {
+          "name": "Aymen Dahmen",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Ellyes Skhiri",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Mohamed Amine Ben Hamida",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Montassar Talbi",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Ali Abdi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Yan Valery",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Rani Khedira",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Ismaël Gharbi",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Hannibal Mejbri",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Anis Slimane",
+          "position": "MF",
+          "number": 25
+        },
+        {
+          "name": "Hazem Mastouri",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Ronald Koeman",
+      "starting": [
+        {
+          "name": "Bart Verbruggen",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Nathan Aké",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Denzel Dumfries",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Brian Brobbey",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Donyell Malen",
+          "position": "FW",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 29,
+      "shots": 10,
+      "shots_on_target": 4,
+      "corners": 4,
+      "fouls": 11,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 258,
+      "pass_accuracy": 77
+    },
+    "away": {
+      "possession": 71,
+      "shots": 20,
+      "shots_on_target": 7,
+      "corners": 6,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 647,
+      "pass_accuracy": 93
+    }
+  }
+}

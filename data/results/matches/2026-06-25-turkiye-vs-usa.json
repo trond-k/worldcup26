@@ -1,0 +1,272 @@
+{
+  "id": "2026-06-25-turkiye-vs-usa",
+  "date": "2026-06-25",
+  "home": "turkiye",
+  "away": "usa",
+  "home_score": 3,
+  "away_score": 2,
+  "attendance": 70492,
+  "referee": "Mustapha Ghorbal",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760470"
+  ],
+  "goals": [
+    {
+      "team": "usa",
+      "player": "Auston Trusty",
+      "minute": "3",
+      "type": "regular",
+      "assist": "Sebastian Berhalter"
+    },
+    {
+      "team": "turkiye",
+      "player": "Arda Güler",
+      "minute": "10",
+      "type": "regular",
+      "assist": "Baris Alper Yilmaz"
+    },
+    {
+      "team": "turkiye",
+      "player": "Baris Alper Yilmaz",
+      "minute": "31",
+      "type": "regular",
+      "assist": "Orkun Kökçü"
+    },
+    {
+      "team": "usa",
+      "player": "Sebastian Berhalter",
+      "minute": "49",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "turkiye",
+      "player": "Kaan Ayhan",
+      "minute": "90+8",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "usa",
+      "player": "Sebastian Berhalter",
+      "minute": "19",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "usa",
+      "on": "Christian Pulisic",
+      "off": "Timothy Weah",
+      "minute": "58"
+    },
+    {
+      "team": "usa",
+      "on": "Sergiño Dest",
+      "off": "Giovanni Reyna",
+      "minute": "76"
+    },
+    {
+      "team": "usa",
+      "on": "Alejandro Zendejas",
+      "off": "Brenden Aaronson",
+      "minute": "77"
+    },
+    {
+      "team": "usa",
+      "on": "Alex Freeman",
+      "off": "Joe Scally",
+      "minute": "77"
+    },
+    {
+      "team": "turkiye",
+      "on": "Çaglar Söyüncü",
+      "off": "Zeki Çelik",
+      "minute": "84"
+    },
+    {
+      "team": "turkiye",
+      "on": "Can Uzun",
+      "off": "Kenan Yildiz",
+      "minute": "84"
+    },
+    {
+      "team": "usa",
+      "on": "Malik Tillman",
+      "off": "Weston McKennie",
+      "minute": "86"
+    },
+    {
+      "team": "turkiye",
+      "on": "Kaan Ayhan",
+      "off": "Orkun Kökçü",
+      "minute": "88"
+    },
+    {
+      "team": "turkiye",
+      "on": "Mert Müldür",
+      "off": "Oguz Aydin",
+      "minute": "90+2"
+    },
+    {
+      "team": "turkiye",
+      "on": "Irfan Can Kahveci",
+      "off": "Baris Alper Yilmaz",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Vincenzo Montella",
+      "starting": [
+        {
+          "name": "Ugurcan Çakir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Ozan Kabak",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Abdülkerim Bardakçi",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Zeki Çelik",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Orkun Kökçü",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Salih Özcan",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Eren Elmali",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Oguz Aydin",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Baris Alper Yilmaz",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Arda Güler",
+          "position": "FW",
+          "number": 8
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Mauricio Pochettino",
+      "starting": [
+        {
+          "name": "Matt Turner",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Miles Robinson",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Auston Trusty",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Joe Scally",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Sebastian Berhalter",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Giovanni Reyna",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ricardo Pepi",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Brenden Aaronson",
+          "position": "FW",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 47,
+      "shots": 9,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": 13,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 434,
+      "pass_accuracy": 77
+    },
+    "away": {
+      "possession": 53,
+      "shots": 18,
+      "shots_on_target": 7,
+      "corners": 9,
+      "fouls": 13,
+      "offsides": 5,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 471,
+      "pass_accuracy": 85
+    }
+  }
+}

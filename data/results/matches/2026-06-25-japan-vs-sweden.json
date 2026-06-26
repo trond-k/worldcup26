@@ -1,0 +1,263 @@
+{
+  "id": "2026-06-25-japan-vs-sweden",
+  "date": "2026-06-25",
+  "home": "japan",
+  "away": "sweden",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 70137,
+  "referee": "Iván Arcides Barton Cisneros",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760471"
+  ],
+  "goals": [
+    {
+      "team": "japan",
+      "player": "Daizen Maeda",
+      "minute": "56",
+      "type": "regular",
+      "assist": "Ritsu Doan"
+    },
+    {
+      "team": "sweden",
+      "player": "Anthony Elanga",
+      "minute": "62",
+      "type": "regular",
+      "assist": "Viktor Gyökeres"
+    }
+  ],
+  "cards": [
+    {
+      "team": "sweden",
+      "player": "Isak Hien",
+      "minute": "32",
+      "card": "yellow"
+    },
+    {
+      "team": "japan",
+      "player": "Shogo Taniguchi",
+      "minute": "77",
+      "card": "yellow"
+    },
+    {
+      "team": "sweden",
+      "player": "Viktor Gyökeres",
+      "minute": "85",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "sweden",
+      "on": "Lucas Bergvall",
+      "off": "Isak Hien",
+      "minute": "37"
+    },
+    {
+      "team": "japan",
+      "on": "Shogo Taniguchi",
+      "off": "Kou Itakura",
+      "minute": "39"
+    },
+    {
+      "team": "japan",
+      "on": "Koki Ogawa",
+      "off": "Ayase Ueda",
+      "minute": "66"
+    },
+    {
+      "team": "japan",
+      "on": "Junya Ito",
+      "off": "Ritsu Doan",
+      "minute": "67"
+    },
+    {
+      "team": "sweden",
+      "on": "Daniel Svensson",
+      "off": "Alexander Bernhardsson",
+      "minute": "75"
+    },
+    {
+      "team": "sweden",
+      "on": "Ken Sema",
+      "off": "Elliot Stroud",
+      "minute": "75"
+    },
+    {
+      "team": "japan",
+      "on": "Yuto Nagatomo",
+      "off": "Keito Nakamura",
+      "minute": "75"
+    },
+    {
+      "team": "japan",
+      "on": "Tsuyoshi Watanabe",
+      "off": "Ayumu Seko",
+      "minute": "75"
+    },
+    {
+      "team": "sweden",
+      "on": "Carl Starfelt",
+      "off": "Victor Lindelöf",
+      "minute": "87"
+    },
+    {
+      "team": "sweden",
+      "on": "Benjamin Nygren",
+      "off": "Gabriel Gudmundsson",
+      "minute": "88"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Hajime Moriyasu",
+      "starting": [
+        {
+          "name": "Zion Suzuki",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Kou Itakura",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Hiroki Ito",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Daichi Kamada",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Keito Nakamura",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Yukinari Sugawara",
+          "position": "MF",
+          "number": 2
+        },
+        {
+          "name": "Ayase Ueda",
+          "position": "FW",
+          "number": 18
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "manager": "Graham Potter",
+      "starting": [
+        {
+          "name": "Jacob Widell Zetterström",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Isak Hien",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Gustaf Lagerbielke",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Yasin Ayari",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "MF",
+          "number": 3
+        },
+        {
+          "name": "Elliot Stroud",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "FW",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 52,
+      "shots": 8,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": 20,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 445,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": 48,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 8,
+      "fouls": 11,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 395,
+      "pass_accuracy": 79
+    }
+  }
+}

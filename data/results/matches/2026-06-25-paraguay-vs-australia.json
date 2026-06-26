@@ -1,0 +1,230 @@
+{
+  "id": "2026-06-25-paraguay-vs-australia",
+  "date": "2026-06-25",
+  "home": "paraguay",
+  "away": "australia",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 68827,
+  "referee": "Clément Turpin",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760469"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "australia",
+      "player": "Jackson Irvine",
+      "minute": "46",
+      "card": "yellow"
+    },
+    {
+      "team": "paraguay",
+      "player": "Diego Gómez",
+      "minute": "77",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "paraguay",
+      "on": "Maurício",
+      "off": "Alexandro Maidana",
+      "minute": "45"
+    },
+    {
+      "team": "australia",
+      "on": "Ajdin Hrustic",
+      "off": "Cristian Volpato",
+      "minute": "58"
+    },
+    {
+      "team": "paraguay",
+      "on": "Alex Arce",
+      "off": "Gabriel Ávalos",
+      "minute": "67"
+    },
+    {
+      "team": "paraguay",
+      "on": "José Canale",
+      "off": "Omar Alderete",
+      "minute": "84"
+    },
+    {
+      "team": "australia",
+      "on": "Paul Okon-Engstler",
+      "off": "Jackson Irvine",
+      "minute": "84"
+    },
+    {
+      "team": "australia",
+      "on": "Tete Yengi",
+      "off": "Nestory Irankunda",
+      "minute": "84"
+    },
+    {
+      "team": "paraguay",
+      "on": "Damián Bobadilla",
+      "off": "Diego Gómez",
+      "minute": "90+2"
+    },
+    {
+      "team": "paraguay",
+      "on": "Júnior Alonso",
+      "off": "Matías Galarza",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-3-2",
+      "manager": "Gustavo Alfaro",
+      "starting": [
+        {
+          "name": "Orlando Gil",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Gustavo Gómez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gustavo Velázquez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Alexandro Maidana",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Juan Jose Cáceres",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Andrés Cubas",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Matías Galarza",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Diego Gómez",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Gabriel Ávalos",
+          "position": "FW",
+          "number": 21
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Tony Popovic",
+      "starting": [
+        {
+          "name": "Patrick Beach",
+          "position": "GK",
+          "number": 18
+        },
+        {
+          "name": "Harry Souttar",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Lucas Herrington",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jackson Irvine",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Aiden O'Neill",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Aziz Behich",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Jordan Bos",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Nestory Irankunda",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Connor Metcalfe",
+          "position": "FW",
+          "number": 8
+        },
+        {
+          "name": "Cristian Volpato",
+          "position": "FW",
+          "number": 20
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 44,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 1,
+      "fouls": 9,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 426,
+      "pass_accuracy": 77
+    },
+    "away": {
+      "possession": 56,
+      "shots": 12,
+      "shots_on_target": 5,
+      "corners": 3,
+      "fouls": 6,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 537,
+      "pass_accuracy": 82
+    }
+  }
+}
