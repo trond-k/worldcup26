@@ -7,14 +7,15 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-83",
-      "away": "winner-match-84",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "portugal",
+      "away": "spain",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "completed",
       "venue": "AT&T Stadium, Arlington",
       "note": "Round of 16 — Match 93.",
-      "match_number": 93
+      "match_number": 93,
+      "decision": "regular"
     },
     {
       "id": "2026-07-06-r16-94",
@@ -22,14 +23,15 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-81",
-      "away": "winner-match-82",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "usa",
+      "away": "belgium",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "completed",
       "venue": "Lumen Field, Seattle",
       "note": "Round of 16 — Match 94.",
-      "match_number": 94
+      "match_number": 94,
+      "decision": "regular"
     }
   ]
 }

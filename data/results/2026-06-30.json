@@ -7,14 +7,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-i",
-      "away": "third-cdfgh",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "france",
+      "away": "sweden",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "completed",
       "venue": "MetLife Stadium, East Rutherford",
       "note": "Round of 32 — Match 77.",
-      "match_number": 77
+      "match_number": 77,
+      "decision": "regular"
     },
     {
       "id": "2026-06-30-r32-78",
@@ -22,14 +23,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "runner-up-group-e",
-      "away": "runner-up-group-i",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "cote-divoire",
+      "away": "norway",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "completed",
       "venue": "AT&T Stadium, Arlington",
       "note": "Round of 32 — Match 78.",
-      "match_number": 78
+      "match_number": 78,
+      "decision": "regular"
     },
     {
       "id": "2026-06-30-r32-79",
@@ -37,14 +39,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-a",
-      "away": "third-cefhi",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "mexico",
+      "away": "ecuador",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Estadio Azteca, Mexico City",
       "note": "Round of 32 — Match 79.",
-      "match_number": 79
+      "match_number": 79,
+      "decision": "regular"
     }
   ]
 }

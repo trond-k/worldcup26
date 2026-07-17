@@ -7,14 +7,17 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-e",
-      "away": "third-abcdf",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "germany",
+      "away": "paraguay",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Gillette Stadium, Foxborough",
       "note": "Round of 32 — Match 74.",
-      "match_number": 74
+      "match_number": 74,
+      "decision": "penalties",
+      "home_penalties": 3,
+      "away_penalties": 4
     },
     {
       "id": "2026-06-29-r32-75",
@@ -22,14 +25,17 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-f",
-      "away": "runner-up-group-c",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "netherlands",
+      "away": "morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Estadio BBVA, Monterrey",
       "note": "Round of 32 — Match 75.",
-      "match_number": 75
+      "match_number": 75,
+      "decision": "penalties",
+      "home_penalties": 2,
+      "away_penalties": 3
     },
     {
       "id": "2026-06-29-r32-76",
@@ -37,14 +43,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-c",
-      "away": "runner-up-group-f",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "brazil",
+      "away": "japan",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "completed",
       "venue": "NRG Stadium, Houston",
       "note": "Round of 32 — Match 76.",
-      "match_number": 76
+      "match_number": 76,
+      "decision": "regular"
     }
   ]
 }

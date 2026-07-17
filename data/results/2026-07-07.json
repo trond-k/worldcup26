@@ -7,14 +7,15 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-86",
-      "away": "winner-match-88",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "argentina",
+      "away": "egypt",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "completed",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "note": "Round of 16 — Match 95.",
-      "match_number": 95
+      "match_number": 95,
+      "decision": "regular"
     },
     {
       "id": "2026-07-07-r16-96",
@@ -22,14 +23,17 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-85",
-      "away": "winner-match-87",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "switzerland",
+      "away": "colombia",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "completed",
       "venue": "BC Place, Vancouver",
       "note": "Round of 16 — Match 96.",
-      "match_number": 96
+      "match_number": 96,
+      "decision": "penalties",
+      "home_penalties": 4,
+      "away_penalties": 3
     }
   ]
 }

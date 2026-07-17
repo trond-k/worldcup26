@@ -7,14 +7,15 @@
       "stage": "quarter-final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-93",
-      "away": "winner-match-94",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "spain",
+      "away": "belgium",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "completed",
       "venue": "SoFi Stadium, Inglewood",
       "note": "Quarter-final — Match 98.",
-      "match_number": 98
+      "match_number": 98,
+      "decision": "regular"
     }
   ]
 }

@@ -7,14 +7,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "runner-up-group-k",
-      "away": "runner-up-group-l",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "portugal",
+      "away": "croatia",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "completed",
       "venue": "BMO Field, Toronto",
       "note": "Round of 32 — Match 83.",
-      "match_number": 83
+      "match_number": 83,
+      "decision": "regular"
     },
     {
       "id": "2026-07-02-r32-84",
@@ -22,14 +23,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-h",
-      "away": "runner-up-group-j",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "spain",
+      "away": "austria",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "completed",
       "venue": "SoFi Stadium, Inglewood",
       "note": "Round of 32 — Match 84.",
-      "match_number": 84
+      "match_number": 84,
+      "decision": "regular"
     },
     {
       "id": "2026-07-02-r32-85",
@@ -37,14 +39,15 @@
       "stage": "round-of-32",
       "group": null,
       "matchday": null,
-      "home": "winner-group-b",
-      "away": "third-efgij",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "switzerland",
+      "away": "algeria",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
       "venue": "BC Place, Vancouver",
       "note": "Round of 32 — Match 85.",
-      "match_number": 85
+      "match_number": 85,
+      "decision": "regular"
     }
   ]
 }

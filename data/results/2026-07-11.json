@@ -7,14 +7,15 @@
       "stage": "quarter-final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-91",
-      "away": "winner-match-92",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "norway",
+      "away": "england",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "completed",
       "venue": "Hard Rock Stadium, Miami Gardens",
       "note": "Quarter-final — Match 99.",
-      "match_number": 99
+      "match_number": 99,
+      "decision": "extra-time"
     },
     {
       "id": "2026-07-11-qf-100",
@@ -22,14 +23,15 @@
       "stage": "quarter-final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-95",
-      "away": "winner-match-96",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "argentina",
+      "away": "switzerland",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Arrowhead Stadium, Kansas City",
       "note": "Quarter-final — Match 100.",
-      "match_number": 100
+      "match_number": 100,
+      "decision": "extra-time"
     }
   ]
 }

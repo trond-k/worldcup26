@@ -7,14 +7,15 @@
       "stage": "quarter-final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-89",
-      "away": "winner-match-90",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "france",
+      "away": "morocco",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "completed",
       "venue": "Gillette Stadium, Foxborough",
       "note": "Quarter-final — Match 97.",
-      "match_number": 97
+      "match_number": 97,
+      "decision": "regular"
     }
   ]
 }
