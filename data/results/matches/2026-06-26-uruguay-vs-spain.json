@@ -1,0 +1,262 @@
+{
+  "id": "2026-06-26-uruguay-vs-spain",
+  "date": "2026-06-26",
+  "home": "uruguay",
+  "away": "spain",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 45065,
+  "referee": "Ismail Elfath",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760479"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Álex Baena",
+      "minute": "42",
+      "type": "regular",
+      "assist": "Marcos Llorente"
+    }
+  ],
+  "cards": [
+    {
+      "team": "spain",
+      "player": "Álex Baena",
+      "minute": "46",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Juan Manuel Sanabria",
+      "minute": "54",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Guillermo Varela",
+      "minute": "58",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Nicolás de la Cruz",
+      "minute": "90+3",
+      "card": "yellow"
+    },
+    {
+      "team": "uruguay",
+      "player": "Agustín Canobbio",
+      "minute": "90+5",
+      "card": "red"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "uruguay",
+      "on": "Nicolás de la Cruz",
+      "off": "Manuel Ugarte",
+      "minute": "45"
+    },
+    {
+      "team": "uruguay",
+      "on": "Sergio Rochet",
+      "off": "Fernando Muslera",
+      "minute": "45"
+    },
+    {
+      "team": "uruguay",
+      "on": "Federico Viñas",
+      "off": "Federico Valverde",
+      "minute": "57"
+    },
+    {
+      "team": "spain",
+      "on": "Fabián Ruiz",
+      "off": "Pedri",
+      "minute": "60"
+    },
+    {
+      "team": "spain",
+      "on": "Dani Olmo",
+      "off": "Mikel Merino",
+      "minute": "60"
+    },
+    {
+      "team": "spain",
+      "on": "Yéremy Pino",
+      "off": "Álex Baena",
+      "minute": "66"
+    },
+    {
+      "team": "uruguay",
+      "on": "Brian Rodríguez",
+      "off": "Juan Manuel Sanabria",
+      "minute": "70"
+    },
+    {
+      "team": "spain",
+      "on": "Nico Williams",
+      "off": "Lamine Yamal",
+      "minute": "76"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Mikel Oyarzabal",
+      "minute": "76"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-4-1",
+      "manager": "Marcelo Bielsa",
+      "starting": [
+        {
+          "name": "Fernando Muslera",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Mathías Olivera",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Sebastián Cáceres",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Manuel Ugarte",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Juan Manuel Sanabria",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Guillermo Varela",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Maxi Araújo",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Agustín Canobbio",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Darwin Núñez",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Mikel Merino",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Pedri",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 33,
+      "shots": 5,
+      "shots_on_target": 1,
+      "corners": 1,
+      "fouls": 14,
+      "offsides": 5,
+      "yellow_cards": 3,
+      "red_cards": 1,
+      "saves": 0,
+      "passes": 301,
+      "pass_accuracy": 76
+    },
+    "away": {
+      "possession": 67,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 6,
+      "fouls": 14,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 622,
+      "pass_accuracy": 89
+    }
+  }
+}

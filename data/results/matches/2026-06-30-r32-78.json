@@ -1,0 +1,247 @@
+{
+  "id": "2026-06-30-r32-78",
+  "date": "2026-06-30",
+  "home": "cote-divoire",
+  "away": "norway",
+  "home_score": 1,
+  "away_score": 2,
+  "attendance": 69665,
+  "referee": "Jesús Valenzuela",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760490"
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "player": "Antonio Nusa",
+      "minute": "39",
+      "type": "regular",
+      "assist": "Martin Ødegaard"
+    },
+    {
+      "team": "cote-divoire",
+      "player": "Amad Diallo",
+      "minute": "74",
+      "type": "regular",
+      "assist": "Nicolas Pépé"
+    },
+    {
+      "team": "norway",
+      "player": "Erling Haaland",
+      "minute": "86",
+      "type": "regular",
+      "assist": "Patrick Berg"
+    }
+  ],
+  "cards": [
+    {
+      "team": "norway",
+      "player": "Antonio Nusa",
+      "minute": "45+1",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "cote-divoire",
+      "on": "Amad Diallo",
+      "off": "Christ Inao Oulaï",
+      "minute": "60"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Elye Wahi",
+      "off": "Ange-Yoan Bonny",
+      "minute": "60"
+    },
+    {
+      "team": "norway",
+      "on": "Andreas Schjelderup",
+      "off": "Antonio Nusa",
+      "minute": "71"
+    },
+    {
+      "team": "norway",
+      "on": "Oscar Bobb",
+      "off": "Alexander Sørloth",
+      "minute": "71"
+    },
+    {
+      "team": "norway",
+      "on": "Fredrik Aursnes",
+      "off": "Marcus Holmgren Pedersen",
+      "minute": "83"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Oumar Diakité",
+      "off": "Nicolas Pépé",
+      "minute": "87"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Evann Guessand",
+      "off": "Yan Diomande",
+      "minute": "90+3"
+    },
+    {
+      "team": "cote-divoire",
+      "on": "Bazoumana Touré",
+      "off": "Ghislain Konan",
+      "minute": "90+3"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-4-1",
+      "manager": "Emerse Faé",
+      "starting": [
+        {
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Ibrahim Sangaré",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Ghislain Konan",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Guela Doué",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Christ Inao Oulaï",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Franck Kessié",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Yan Diomande",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Nicolas Pépé",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Ange-Yoan Bonny",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {
+          "name": "Ørjan Nyland",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Torbjørn Heggem",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Marcus Holmgren Pedersen",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Sander Berge",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Patrick Berg",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Erling Haaland",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Antonio Nusa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 47,
+      "shots": 14,
+      "shots_on_target": 5,
+      "corners": 14,
+      "fouls": 6,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 401,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": 53,
+      "shots": 9,
+      "shots_on_target": 4,
+      "corners": 3,
+      "fouls": 7,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 474,
+      "pass_accuracy": 88
+    }
+  },
+  "decision": "regular"
+}

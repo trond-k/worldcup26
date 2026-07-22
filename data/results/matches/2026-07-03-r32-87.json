@@ -1,0 +1,263 @@
+{
+  "id": "2026-07-03-r32-87",
+  "date": "2026-07-03",
+  "home": "colombia",
+  "away": "ghana",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 69045,
+  "referee": "Clément Turpin",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760501"
+  ],
+  "goals": [
+    {
+      "team": "colombia",
+      "player": "Jhon Arias",
+      "minute": "14",
+      "type": "regular",
+      "assist": "Luis Suárez"
+    }
+  ],
+  "cards": [
+    {
+      "team": "colombia",
+      "player": "Jhon Arias",
+      "minute": "12",
+      "card": "yellow"
+    },
+    {
+      "team": "ghana",
+      "player": "Caleb Yirenkyi",
+      "minute": "49",
+      "card": "yellow"
+    },
+    {
+      "team": "ghana",
+      "player": "Fatawu Issahaku",
+      "minute": "66",
+      "card": "yellow"
+    },
+    {
+      "team": "ghana",
+      "player": "Alidu Seidu",
+      "minute": "76",
+      "card": "yellow"
+    },
+    {
+      "team": "colombia",
+      "player": "Richard Ríos",
+      "minute": "78",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "colombia",
+      "on": "Luis Suárez",
+      "off": "Jhon Córdoba",
+      "minute": "8"
+    },
+    {
+      "team": "ghana",
+      "on": "Alidu Seidu",
+      "off": "Marvin Senaya",
+      "minute": "13"
+    },
+    {
+      "team": "colombia",
+      "on": "Richard Ríos",
+      "off": "James Rodríguez",
+      "minute": "45"
+    },
+    {
+      "team": "ghana",
+      "on": "Fatawu Issahaku",
+      "off": "Iñaki Williams",
+      "minute": "62"
+    },
+    {
+      "team": "ghana",
+      "on": "Elisha Owusu",
+      "off": "Kwasi Sibo",
+      "minute": "62"
+    },
+    {
+      "team": "colombia",
+      "on": "Juan Fernando Quintero",
+      "off": "Jhon Arias",
+      "minute": "73"
+    },
+    {
+      "team": "ghana",
+      "on": "Ernest Nuamah",
+      "off": "Jordan Ayew",
+      "minute": "79"
+    },
+    {
+      "team": "ghana",
+      "on": "Prince Adu",
+      "off": "Caleb Yirenkyi",
+      "minute": "79"
+    },
+    {
+      "team": "colombia",
+      "on": "Jáminton Campaz",
+      "off": "Luis Díaz",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Néstor Lorenzo",
+      "starting": [
+        {
+          "name": "Camilo Vargas",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Jhon Arias",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Jhon Córdoba",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "James Rodríguez",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Carlos Queiroz",
+      "starting": [
+        {
+          "name": "Lawrence Ati Zigi",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Jerome Opoku",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Derrick Luckassen",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Thomas Partey",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Kwasi Sibo",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "position": "MF",
+          "number": 3
+        },
+        {
+          "name": "Antoine Semenyo",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Iñaki Williams",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Jordan Ayew",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 61,
+      "shots": 20,
+      "shots_on_target": 8,
+      "corners": 3,
+      "fouls": 14,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 586,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 39,
+      "shots": 8,
+      "shots_on_target": 0,
+      "corners": 2,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 7,
+      "passes": 376,
+      "pass_accuracy": 83
+    }
+  },
+  "decision": "regular"
+}

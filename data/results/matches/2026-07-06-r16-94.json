@@ -1,0 +1,279 @@
+{
+  "id": "2026-07-06-r16-94",
+  "date": "2026-07-06",
+  "home": "usa",
+  "away": "belgium",
+  "home_score": 1,
+  "away_score": 4,
+  "attendance": 66925,
+  "referee": "Adham Mohammad",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760507"
+  ],
+  "goals": [
+    {
+      "team": "belgium",
+      "player": "Charles De Ketelaere",
+      "minute": "9",
+      "type": "regular",
+      "assist": "Nicolas Raskin"
+    },
+    {
+      "team": "usa",
+      "player": "Malik Tillman",
+      "minute": "31",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "belgium",
+      "player": "Charles De Ketelaere",
+      "minute": "33",
+      "type": "regular",
+      "assist": "Leandro Trossard"
+    },
+    {
+      "team": "belgium",
+      "player": "Hans Vanaken",
+      "minute": "57",
+      "type": "regular",
+      "assist": "Charles De Ketelaere"
+    },
+    {
+      "team": "belgium",
+      "player": "Romelu Lukaku",
+      "minute": "90+3",
+      "type": "regular",
+      "assist": "Hans Vanaken"
+    }
+  ],
+  "cards": [
+    {
+      "team": "usa",
+      "player": "Weston McKennie",
+      "minute": "35",
+      "card": "yellow"
+    },
+    {
+      "team": "usa",
+      "player": "Malik Tillman",
+      "minute": "69",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "belgium",
+      "on": "Hans Vanaken",
+      "off": "Amadou Onana",
+      "minute": "21"
+    },
+    {
+      "team": "usa",
+      "on": "Giovanni Reyna",
+      "off": "Sergiño Dest",
+      "minute": "45"
+    },
+    {
+      "team": "usa",
+      "on": "Sebastian Berhalter",
+      "off": "Christian Pulisic",
+      "minute": "59"
+    },
+    {
+      "team": "belgium",
+      "on": "Jérémy Doku",
+      "off": "Dodi Lukébakio",
+      "minute": "67"
+    },
+    {
+      "team": "belgium",
+      "on": "Romelu Lukaku",
+      "off": "Charles De Ketelaere",
+      "minute": "67"
+    },
+    {
+      "team": "usa",
+      "on": "Ricardo Pepi",
+      "off": "Tyler Adams",
+      "minute": "72"
+    },
+    {
+      "team": "belgium",
+      "on": "Alexis Saelemaekers",
+      "off": "Leandro Trossard",
+      "minute": "89"
+    },
+    {
+      "team": "belgium",
+      "on": "Axel Witsel",
+      "off": "Nicolas Raskin",
+      "minute": "89"
+    },
+    {
+      "team": "usa",
+      "on": "Max Arfsten",
+      "off": "Antonee Robinson",
+      "minute": "90+2"
+    },
+    {
+      "team": "usa",
+      "on": "Haji Wright",
+      "off": "Folarin Balogun",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Mauricio Pochettino",
+      "starting": [
+        {
+          "name": "Matt Freese",
+          "position": "GK",
+          "number": 24
+        },
+        {
+          "name": "Tim Ream",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Chris Richards",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Tyler Adams",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Malik Tillman",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Folarin Balogun",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Sergiño Dest",
+          "position": "FW",
+          "number": 2
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Nicolas Raskin",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Amadou Onana",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Dodi Lukébakio",
+          "position": "MF",
+          "number": 14
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 56,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 527,
+      "pass_accuracy": 87
+    },
+    "away": {
+      "possession": 44,
+      "shots": 15,
+      "shots_on_target": 7,
+      "corners": 5,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 414,
+      "pass_accuracy": 81
+    }
+  },
+  "decision": "regular"
+}

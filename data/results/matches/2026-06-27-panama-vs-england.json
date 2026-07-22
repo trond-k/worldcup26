@@ -1,0 +1,263 @@
+{
+  "id": "2026-06-27-panama-vs-england",
+  "date": "2026-06-27",
+  "home": "panama",
+  "away": "england",
+  "home_score": 0,
+  "away_score": 2,
+  "attendance": 80663,
+  "referee": "Abdulrahman Al-Jassim",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760485"
+  ],
+  "goals": [
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "62",
+      "type": "regular",
+      "assist": "Bukayo Saka"
+    },
+    {
+      "team": "england",
+      "player": "Harry Kane",
+      "minute": "67",
+      "type": "regular",
+      "assist": "Jude Bellingham"
+    }
+  ],
+  "cards": [
+    {
+      "team": "panama",
+      "player": "José Fajardo",
+      "minute": "53",
+      "card": "yellow"
+    },
+    {
+      "team": "england",
+      "player": "Jarell Quansah",
+      "minute": "60",
+      "card": "yellow"
+    },
+    {
+      "team": "panama",
+      "player": "Andrés Andrade",
+      "minute": "84",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "panama",
+      "on": "José Fajardo",
+      "off": "Tomás Rodríguez",
+      "minute": "45"
+    },
+    {
+      "team": "england",
+      "on": "Djed Spence",
+      "off": "Jarell Quansah",
+      "minute": "63"
+    },
+    {
+      "team": "england",
+      "on": "Noni Madueke",
+      "off": "Bukayo Saka",
+      "minute": "63"
+    },
+    {
+      "team": "england",
+      "on": "Eberechi Eze",
+      "off": "Jude Bellingham",
+      "minute": "71"
+    },
+    {
+      "team": "panama",
+      "on": "Ismael Díaz",
+      "off": "Édgar Yoel Bárcenas",
+      "minute": "71"
+    },
+    {
+      "team": "panama",
+      "on": "Azarias Londoño",
+      "off": "José Luis Rodríguez",
+      "minute": "71"
+    },
+    {
+      "team": "england",
+      "on": "Jordan Henderson",
+      "off": "Elliot Anderson",
+      "minute": "84"
+    },
+    {
+      "team": "england",
+      "on": "Ollie Watkins",
+      "off": "Harry Kane",
+      "minute": "84"
+    },
+    {
+      "team": "panama",
+      "on": "Alberto Quintero",
+      "off": "Carlos Harvey",
+      "minute": "88"
+    },
+    {
+      "team": "panama",
+      "on": "Éric Davis",
+      "off": "Jorge Gutiérrez",
+      "minute": "88"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Thomas Christiansen",
+      "starting": [
+        {
+          "name": "Orlando Mosquera",
+          "position": "GK",
+          "number": 22
+        },
+        {
+          "name": "José Córdoba",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Andrés Andrade",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Fidel Escobar",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Jorge Gutiérrez",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Édgar Yoel Bárcenas",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Carlos Harvey",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "José Luis Rodríguez",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Cristian Martínez",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Tomás Rodríguez",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Nico O'Reilly",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 33,
+      "shots": 13,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 16,
+      "offsides": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 268,
+      "pass_accuracy": 75
+    },
+    "away": {
+      "possession": 67,
+      "shots": 17,
+      "shots_on_target": 6,
+      "corners": 7,
+      "fouls": 13,
+      "offsides": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 558,
+      "pass_accuracy": 88
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "2026-07-06-r16-93",
+  "date": "2026-07-06",
+  "home": "portugal",
+  "away": "spain",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 70649,
+  "referee": "Anthony Taylor",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760506"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Mikel Merino",
+      "minute": "90+1",
+      "type": "regular",
+      "assist": "Ferran Torres"
+    }
+  ],
+  "cards": [
+    {
+      "team": "portugal",
+      "player": "Bernardo Silva",
+      "minute": "89",
+      "card": "yellow"
+    },
+    {
+      "team": "portugal",
+      "player": "Renato Veiga",
+      "minute": "90+4",
+      "card": "yellow"
+    },
+    {
+      "team": "spain",
+      "player": "Ferran Torres",
+      "minute": "90+8",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "portugal",
+      "on": "Nélson Semedo",
+      "off": "Nuno Mendes",
+      "minute": "56"
+    },
+    {
+      "team": "portugal",
+      "on": "Diogo Dalot",
+      "off": "João Cancelo",
+      "minute": "71"
+    },
+    {
+      "team": "portugal",
+      "on": "Rafael Leão",
+      "off": "João Félix",
+      "minute": "71"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Álex Baena",
+      "minute": "75"
+    },
+    {
+      "team": "portugal",
+      "on": "Francisco Conceição",
+      "off": "Pedro Neto",
+      "minute": "83"
+    },
+    {
+      "team": "portugal",
+      "on": "Bernardo Silva",
+      "off": "Vitinha",
+      "minute": "83"
+    },
+    {
+      "team": "spain",
+      "on": "Fabián Ruiz",
+      "off": "Pedri",
+      "minute": "85"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "85"
+    },
+    {
+      "team": "spain",
+      "on": "Borja Iglesias",
+      "off": "Mikel Oyarzabal",
+      "minute": "90+7"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Roberto Martínez",
+      "starting": [
+        {
+          "name": "Diogo Costa",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "João Cancelo",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "João Neves",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Vitinha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "João Félix",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Pedri",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 45,
+      "shots": 10,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 9,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 427,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 55,
+      "shots": 15,
+      "shots_on_target": 6,
+      "corners": 7,
+      "fouls": 13,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 530,
+      "pass_accuracy": 88
+    }
+  },
+  "decision": "regular"
+}

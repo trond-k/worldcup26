@@ -1,0 +1,303 @@
+{
+  "id": "2026-07-05-r16-92",
+  "date": "2026-07-05",
+  "home": "mexico",
+  "away": "england",
+  "home_score": 2,
+  "away_score": 3,
+  "attendance": 80824,
+  "referee": "Alireza Faghani",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760505"
+  ],
+  "goals": [
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "36",
+      "type": "regular",
+      "assist": "Bukayo Saka"
+    },
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "38",
+      "type": "regular",
+      "assist": "Harry Kane"
+    },
+    {
+      "team": "mexico",
+      "player": "Julián Quiñones",
+      "minute": "42",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "england",
+      "player": "Harry Kane",
+      "minute": "60",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "mexico",
+      "player": "Raúl Jiménez",
+      "minute": "69",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "england",
+      "player": "Declan Rice",
+      "minute": "1",
+      "card": "yellow"
+    },
+    {
+      "team": "england",
+      "player": "Jarell Quansah",
+      "minute": "54",
+      "card": "red"
+    },
+    {
+      "team": "england",
+      "player": "Marc Guéhi",
+      "minute": "68",
+      "card": "yellow"
+    },
+    {
+      "team": "mexico",
+      "player": "Jorge Sánchez",
+      "minute": "71",
+      "card": "yellow"
+    },
+    {
+      "team": "england",
+      "player": "Nico O'Reilly",
+      "minute": "72",
+      "card": "yellow"
+    },
+    {
+      "team": "mexico",
+      "player": "Johan Vásquez",
+      "minute": "90+8",
+      "card": "yellow"
+    },
+    {
+      "team": "england",
+      "player": "Jordan Henderson",
+      "minute": "90+8",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "mexico",
+      "on": "Edson Álvarez",
+      "off": "César Montes",
+      "minute": "45"
+    },
+    {
+      "team": "england",
+      "on": "John Stones",
+      "off": "Bukayo Saka",
+      "minute": "57"
+    },
+    {
+      "team": "mexico",
+      "on": "Santiago Gimenez",
+      "off": "Gilberto Mora",
+      "minute": "61"
+    },
+    {
+      "team": "mexico",
+      "on": "Brian Gutiérrez",
+      "off": "Luis Romo",
+      "minute": "61"
+    },
+    {
+      "team": "england",
+      "on": "Djed Spence",
+      "off": "Nico O'Reilly",
+      "minute": "74"
+    },
+    {
+      "team": "england",
+      "on": "Dan Burn",
+      "off": "Elliot Anderson",
+      "minute": "75"
+    },
+    {
+      "team": "mexico",
+      "on": "Álvaro Fidalgo",
+      "off": "Jorge Sánchez",
+      "minute": "79"
+    },
+    {
+      "team": "mexico",
+      "on": "Guillermo Martínez",
+      "off": "Julián Quiñones",
+      "minute": "81"
+    },
+    {
+      "team": "england",
+      "on": "Morgan Rogers",
+      "off": "Harry Kane",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Javier Aguirre",
+      "starting": [
+        {
+          "name": "Raúl Rangel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Johan Vásquez",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "César Montes",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jesús Gallardo",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Jorge Sánchez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Érik Lira",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Luis Romo",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Gilberto Mora",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Raúl Jiménez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Julián Quiñones",
+          "position": "FW",
+          "number": 16
+        },
+        {
+          "name": "Roberto Alvarado",
+          "position": "FW",
+          "number": 25
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Nico O'Reilly",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 67,
+      "shots": 20,
+      "shots_on_target": 5,
+      "corners": 12,
+      "fouls": 14,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 453,
+      "pass_accuracy": 92
+    },
+    "away": {
+      "possession": 33,
+      "shots": 6,
+      "shots_on_target": 5,
+      "corners": 2,
+      "fouls": 7,
+      "offsides": 0,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "saves": 3,
+      "passes": 244,
+      "pass_accuracy": 80
+    }
+  },
+  "decision": "regular"
+}

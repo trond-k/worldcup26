@@ -1,0 +1,271 @@
+{
+  "id": "2026-07-11-qf-99",
+  "date": "2026-07-11",
+  "home": "norway",
+  "away": "england",
+  "home_score": 1,
+  "away_score": 2,
+  "attendance": 64478,
+  "referee": "Clément Turpin",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760512"
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "player": "Andreas Schjelderup",
+      "minute": "36",
+      "type": "regular",
+      "assist": "Martin Ødegaard"
+    },
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "45+2",
+      "type": "regular",
+      "assist": "Anthony Gordon"
+    },
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "93",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "norway",
+      "player": "Kristoffer Ajer",
+      "minute": "117",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "england",
+      "on": "Bukayo Saka",
+      "off": "Noni Madueke",
+      "minute": "45"
+    },
+    {
+      "team": "england",
+      "on": "Eberechi Eze",
+      "off": "Declan Rice",
+      "minute": "45"
+    },
+    {
+      "team": "norway",
+      "on": "Fredrik Aursnes",
+      "off": "Julian Ryerson",
+      "minute": "60"
+    },
+    {
+      "team": "norway",
+      "on": "Oscar Bobb",
+      "off": "Alexander Sørloth",
+      "minute": "68"
+    },
+    {
+      "team": "norway",
+      "on": "Antonio Nusa",
+      "off": "Andreas Schjelderup",
+      "minute": "68"
+    },
+    {
+      "team": "england",
+      "on": "Reece James",
+      "off": "Anthony Gordon",
+      "minute": "71"
+    },
+    {
+      "team": "england",
+      "on": "Djed Spence",
+      "off": "Nico O'Reilly",
+      "minute": "86"
+    },
+    {
+      "team": "england",
+      "on": "Morgan Rogers",
+      "off": "Ezri Konsa",
+      "minute": "89"
+    },
+    {
+      "team": "norway",
+      "on": "Marcus Holmgren Pedersen",
+      "off": "David Møller Wolfe",
+      "minute": "90"
+    },
+    {
+      "team": "norway",
+      "on": "Leo Østigard",
+      "off": "Torbjørn Heggem",
+      "minute": "90"
+    },
+    {
+      "team": "norway",
+      "on": "Jørgen Strand Larsen",
+      "off": "Erling Haaland",
+      "minute": "105"
+    },
+    {
+      "team": "england",
+      "on": "Dan Burn",
+      "off": "Jude Bellingham",
+      "minute": "111"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {
+          "name": "Ørjan Nyland",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Torbjørn Heggem",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Julian Ryerson",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Sander Berge",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Patrick Berg",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Erling Haaland",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Andreas Schjelderup",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "John Stones",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico O'Reilly",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "MF",
+          "number": 20
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 48,
+      "shots": 13,
+      "shots_on_target": 4,
+      "corners": 7,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 577,
+      "pass_accuracy": 86
+    },
+    "away": {
+      "possession": 52,
+      "shots": 14,
+      "shots_on_target": 8,
+      "corners": 4,
+      "fouls": 8,
+      "offsides": 5,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 628,
+      "pass_accuracy": 90
+    }
+  },
+  "decision": "extra-time"
+}

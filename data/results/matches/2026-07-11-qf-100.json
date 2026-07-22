@@ -1,0 +1,302 @@
+{
+  "id": "2026-07-11-qf-100",
+  "date": "2026-07-11",
+  "home": "argentina",
+  "away": "switzerland",
+  "home_score": 3,
+  "away_score": 1,
+  "attendance": 69045,
+  "referee": "João Pinheiro",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760513"
+  ],
+  "goals": [
+    {
+      "team": "argentina",
+      "player": "Alexis Mac Allister",
+      "minute": "10",
+      "type": "regular",
+      "assist": "Lionel Messi"
+    },
+    {
+      "team": "switzerland",
+      "player": "Dan Ndoye",
+      "minute": "67",
+      "type": "regular",
+      "assist": "Ricardo Rodríguez"
+    },
+    {
+      "team": "argentina",
+      "player": "Julián Álvarez",
+      "minute": "112",
+      "type": "regular",
+      "assist": "José Manuel López"
+    },
+    {
+      "team": "argentina",
+      "player": "Lautaro Martínez",
+      "minute": "120+1",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "switzerland",
+      "player": "Breel Embolo",
+      "minute": "44",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Breel Embolo",
+      "minute": "72",
+      "card": "second-yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Thiago Almada",
+      "minute": "97",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Lautaro Martínez",
+      "minute": "98",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "José Manuel López",
+      "minute": "114",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "argentina",
+      "on": "Nico González",
+      "off": "Nicolás Tagliafico",
+      "minute": "78"
+    },
+    {
+      "team": "argentina",
+      "on": "Lautaro Martínez",
+      "off": "Rodrigo De Paul",
+      "minute": "85"
+    },
+    {
+      "team": "argentina",
+      "on": "Gonzalo Montiel",
+      "off": "Nahuel Molina",
+      "minute": "85"
+    },
+    {
+      "team": "switzerland",
+      "on": "Silvan Widmer",
+      "off": "Djibril Sow",
+      "minute": "86"
+    },
+    {
+      "team": "switzerland",
+      "on": "Zeki Amdouni",
+      "off": "Dan Ndoye",
+      "minute": "86"
+    },
+    {
+      "team": "switzerland",
+      "on": "Miro Muheim",
+      "off": "Fabian Rieder",
+      "minute": "86"
+    },
+    {
+      "team": "switzerland",
+      "on": "Eray Cömert",
+      "off": "Ricardo Rodríguez",
+      "minute": "90+5"
+    },
+    {
+      "team": "argentina",
+      "on": "Thiago Almada",
+      "off": "Enzo Fernández",
+      "minute": "90"
+    },
+    {
+      "team": "switzerland",
+      "on": "Ardon Jashari",
+      "off": "Denis Zakaria",
+      "minute": "96"
+    },
+    {
+      "team": "argentina",
+      "on": "Nicolás Otamendi",
+      "off": "Cristian Romero",
+      "minute": "105"
+    },
+    {
+      "team": "argentina",
+      "on": "José Manuel López",
+      "off": "Leandro Paredes",
+      "minute": "110"
+    },
+    {
+      "team": "switzerland",
+      "on": "Rubén Vargas",
+      "off": "Remo Freuler",
+      "minute": "115"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-3-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Leandro Paredes",
+          "position": null,
+          "number": 5
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Murat Yakin",
+      "starting": [
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Fabian Rieder",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "MF",
+          "number": 15
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 59,
+      "shots": 22,
+      "shots_on_target": 7,
+      "corners": 8,
+      "fouls": 14,
+      "offsides": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 691,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 41,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 2,
+      "fouls": 18,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "saves": 4,
+      "passes": 474,
+      "pass_accuracy": 84
+    }
+  },
+  "decision": "extra-time"
+}

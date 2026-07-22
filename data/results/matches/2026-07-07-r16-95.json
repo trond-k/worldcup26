@@ -1,0 +1,285 @@
+{
+  "id": "2026-07-07-r16-95",
+  "date": "2026-07-07",
+  "home": "argentina",
+  "away": "egypt",
+  "home_score": 3,
+  "away_score": 2,
+  "attendance": 68239,
+  "referee": "Francois Letexier",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760509"
+  ],
+  "goals": [
+    {
+      "team": "egypt",
+      "player": "Yasser Ibrahim",
+      "minute": "15",
+      "type": "regular",
+      "assist": "Marawan Attia"
+    },
+    {
+      "team": "egypt",
+      "player": "Mostafa Zico",
+      "minute": "67",
+      "type": "regular",
+      "assist": "Haissem Hassan"
+    },
+    {
+      "team": "argentina",
+      "player": "Cristian Romero",
+      "minute": "79",
+      "type": "regular",
+      "assist": "Lionel Messi"
+    },
+    {
+      "team": "argentina",
+      "player": "Lionel Messi",
+      "minute": "83",
+      "type": "regular",
+      "assist": "Gonzalo Montiel"
+    },
+    {
+      "team": "argentina",
+      "player": "Enzo Fernández",
+      "minute": "90+2",
+      "type": "regular",
+      "assist": "Lautaro Martínez"
+    }
+  ],
+  "cards": [
+    {
+      "team": "egypt",
+      "player": "Mostafa Shoubir",
+      "minute": "90+3",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Hamdy Fathy",
+      "minute": "90+4",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Marawan Attia",
+      "minute": "90+8",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Haissem Hassan",
+      "minute": "90+12",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "egypt",
+      "on": "Hamdy Fathy",
+      "off": "Emam Ashour",
+      "minute": "45"
+    },
+    {
+      "team": "argentina",
+      "on": "Nico González",
+      "off": "Nicolás Tagliafico",
+      "minute": "66"
+    },
+    {
+      "team": "argentina",
+      "on": "Lautaro Martínez",
+      "off": "Rodrigo De Paul",
+      "minute": "66"
+    },
+    {
+      "team": "argentina",
+      "on": "Gonzalo Montiel",
+      "off": "Nahuel Molina",
+      "minute": "73"
+    },
+    {
+      "team": "egypt",
+      "on": "Trézéguet",
+      "off": "Haissem Hassan",
+      "minute": "73"
+    },
+    {
+      "team": "egypt",
+      "on": "Omar Marmoush",
+      "off": "Mostafa Zico",
+      "minute": "80"
+    },
+    {
+      "team": "argentina",
+      "on": "Facundo Medina",
+      "off": "Julián Álvarez",
+      "minute": "90+5"
+    },
+    {
+      "team": "argentina",
+      "on": "Nicolás Otamendi",
+      "off": "Cristian Romero",
+      "minute": "90+5"
+    },
+    {
+      "team": "egypt",
+      "on": "Zizo",
+      "off": "Mohanad Lashin",
+      "minute": "90+6"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-3-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Leandro Paredes",
+          "position": null,
+          "number": 5
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Hossam Hassan",
+      "starting": [
+        {
+          "name": "Mostafa Shoubir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Ramy Rabia",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Karim Hafez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Mohamed Hany",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marawan Attia",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Mohanad Lashin",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Emam Ashour",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Haissem Hassan",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Mostafa Zico",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 64,
+      "shots": 19,
+      "shots_on_target": 7,
+      "corners": 6,
+      "fouls": 13,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 602,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 36,
+      "shots": 5,
+      "shots_on_target": 2,
+      "corners": 1,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 349,
+      "pass_accuracy": 82
+    }
+  },
+  "decision": "regular"
+}

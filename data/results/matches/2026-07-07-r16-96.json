@@ -1,0 +1,269 @@
+{
+  "id": "2026-07-07-r16-96",
+  "date": "2026-07-07",
+  "home": "switzerland",
+  "away": "colombia",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 52497,
+  "referee": "Iván Arcides Barton Cisneros",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760508"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "switzerland",
+      "player": "Granit Xhaka",
+      "minute": "51",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Denis Zakaria",
+      "minute": "59",
+      "card": "yellow"
+    },
+    {
+      "team": "colombia",
+      "player": "Luis Suárez",
+      "minute": "60",
+      "card": "yellow"
+    },
+    {
+      "team": "colombia",
+      "player": "Davinson Sánchez",
+      "minute": "95",
+      "card": "yellow"
+    },
+    {
+      "team": "switzerland",
+      "player": "Miro Muheim",
+      "minute": "105",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "switzerland",
+      "on": "Djibril Sow",
+      "off": "Ardon Jashari",
+      "minute": "45"
+    },
+    {
+      "team": "colombia",
+      "on": "Juan Fernando Quintero",
+      "off": "James Rodríguez",
+      "minute": "66"
+    },
+    {
+      "team": "colombia",
+      "on": "Jáminton Campaz",
+      "off": "Jhon Arias",
+      "minute": "66"
+    },
+    {
+      "team": "switzerland",
+      "on": "Miro Muheim",
+      "off": "Ricardo Rodríguez",
+      "minute": "71"
+    },
+    {
+      "team": "colombia",
+      "on": "Richard Ríos",
+      "off": "Jefferson Lerma",
+      "minute": "82"
+    },
+    {
+      "team": "colombia",
+      "on": "Cucho Hernández",
+      "off": "Luis Suárez",
+      "minute": "82"
+    },
+    {
+      "team": "switzerland",
+      "on": "Silvan Widmer",
+      "off": "Denis Zakaria",
+      "minute": "87"
+    },
+    {
+      "team": "switzerland",
+      "on": "Cedric Itten",
+      "off": "Breel Embolo",
+      "minute": "87"
+    },
+    {
+      "team": "switzerland",
+      "on": "Rubén Vargas",
+      "off": "Dan Ndoye",
+      "minute": "90+2"
+    },
+    {
+      "team": "switzerland",
+      "on": "Zeki Amdouni",
+      "off": "Fabian Rieder",
+      "minute": "103"
+    },
+    {
+      "team": "colombia",
+      "on": "Yerry Mina",
+      "off": "Jhon Lucumí",
+      "minute": "119"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Murat Yakin",
+      "starting": [
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ardon Jashari",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Fabian Rieder",
+          "position": "MF",
+          "number": 22
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-1-1",
+      "manager": "Néstor Lorenzo",
+      "starting": [
+        {
+          "name": "Camilo Vargas",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Jhon Arias",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Luis Suárez",
+          "position": "FW",
+          "number": 25
+        },
+        {
+          "name": "James Rodríguez",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 53,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 22,
+      "offsides": 5,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 631,
+      "pass_accuracy": 87
+    },
+    "away": {
+      "possession": 47,
+      "shots": 15,
+      "shots_on_target": 3,
+      "corners": 7,
+      "fouls": 21,
+      "offsides": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 547,
+      "pass_accuracy": 83
+    }
+  },
+  "decision": "penalties",
+  "home_penalties": 4,
+  "away_penalties": 3
+}

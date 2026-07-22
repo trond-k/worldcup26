@@ -1,0 +1,289 @@
+{
+  "id": "2026-06-27-dr-congo-vs-uzbekistan",
+  "date": "2026-06-27",
+  "home": "dr-congo",
+  "away": "uzbekistan",
+  "home_score": 3,
+  "away_score": 1,
+  "attendance": 68239,
+  "referee": "Felix Zwayer",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760482"
+  ],
+  "goals": [
+    {
+      "team": "uzbekistan",
+      "player": "Eldor Shomurodov",
+      "minute": "10",
+      "type": "regular",
+      "assist": "Akmal Mozgovoy"
+    },
+    {
+      "team": "dr-congo",
+      "player": "Yoane Wissa",
+      "minute": "68",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "dr-congo",
+      "player": "Fiston Mayele",
+      "minute": "78",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "dr-congo",
+      "player": "Yoane Wissa",
+      "minute": "90+1",
+      "type": "regular",
+      "assist": "Meschack Elia"
+    }
+  ],
+  "cards": [
+    {
+      "team": "dr-congo",
+      "player": "Noah Sadiki",
+      "minute": "21",
+      "card": "yellow"
+    },
+    {
+      "team": "uzbekistan",
+      "player": "Abdukodir Khusanov",
+      "minute": "43",
+      "card": "yellow"
+    },
+    {
+      "team": "dr-congo",
+      "player": "Nathanaël Mbuku",
+      "minute": "45+5",
+      "card": "yellow"
+    },
+    {
+      "team": "uzbekistan",
+      "player": "Sherzod Nasrullaev",
+      "minute": "48",
+      "card": "yellow"
+    },
+    {
+      "team": "dr-congo",
+      "player": "Samuel Moutoussamy",
+      "minute": "62",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "dr-congo",
+      "on": "Fiston Mayele",
+      "off": "Cédric Bakambu",
+      "minute": "51"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Odiljon Xamrobekov",
+      "off": "Otabek Shukurov",
+      "minute": "59"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Azizjon Ganiev",
+      "off": "Dostonbek Khamdamov",
+      "minute": "59"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Meschack Elia",
+      "off": "Nathanaël Mbuku",
+      "minute": "72"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Théo Bongonda",
+      "off": "Brian Cipenga",
+      "minute": "72"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Ngal'ayel Mukau",
+      "off": "Samuel Moutoussamy",
+      "minute": "72"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Oston Urunov",
+      "off": "Abbosbek Fayzullaev",
+      "minute": "73"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Jamshid Iskanderov",
+      "off": "Akmal Mozgovoy",
+      "minute": "82"
+    },
+    {
+      "team": "uzbekistan",
+      "on": "Igor Sergeev",
+      "off": "Jakhongir Urozov",
+      "minute": "82"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Joris Kayembe",
+      "off": "Arthur Masuaku",
+      "minute": "83"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Sébastien Desabre",
+      "starting": [
+        {
+          "name": "Lionel Mpasi",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Chancel Mbemba",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Arthur Masuaku",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Noah Sadiki",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Samuel Moutoussamy",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Brian Cipenga",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Nathanaël Mbuku",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Yoane Wissa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Cédric Bakambu",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Fabio Cannavaro",
+      "starting": [
+        {
+          "name": "Abduvohid Nematov",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jakhongir Urozov",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Rustam Ashurmatov",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Otabek Shukurov",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Akmal Mozgovoy",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Sherzod Nasrullaev",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Khojiakbar Alijonov",
+          "position": "MF",
+          "number": 3
+        },
+        {
+          "name": "Eldor Shomurodov",
+          "position": "FW",
+          "number": 14
+        },
+        {
+          "name": "Abbosbek Fayzullaev",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Dostonbek Khamdamov",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 58,
+      "shots": 19,
+      "shots_on_target": 4,
+      "corners": 2,
+      "fouls": 6,
+      "offsides": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 485,
+      "pass_accuracy": 82
+    },
+    "away": {
+      "possession": 42,
+      "shots": 3,
+      "shots_on_target": 1,
+      "corners": 4,
+      "fouls": 16,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 355,
+      "pass_accuracy": 76
+    }
+  }
+}

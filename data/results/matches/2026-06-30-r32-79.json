@@ -1,0 +1,270 @@
+{
+  "id": "2026-06-30-r32-79",
+  "date": "2026-06-30",
+  "home": "mexico",
+  "away": "ecuador",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 80824,
+  "referee": "Slavko Vincici",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760491"
+  ],
+  "goals": [
+    {
+      "team": "mexico",
+      "player": "Julián Quiñones",
+      "minute": "22",
+      "type": "regular",
+      "assist": "Roberto Alvarado"
+    },
+    {
+      "team": "mexico",
+      "player": "Raúl Jiménez",
+      "minute": "31",
+      "type": "regular",
+      "assist": "Julián Quiñones"
+    }
+  ],
+  "cards": [
+    {
+      "team": "ecuador",
+      "player": "Alan Franco",
+      "minute": "45+1",
+      "card": "yellow"
+    },
+    {
+      "team": "ecuador",
+      "player": "Kendry Páez",
+      "minute": "90+3",
+      "card": "yellow"
+    },
+    {
+      "team": "ecuador",
+      "player": "Piero Hincapié",
+      "minute": "90+5",
+      "card": "red"
+    },
+    {
+      "team": "ecuador",
+      "player": "Moisés Caicedo",
+      "minute": "90+9",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "ecuador",
+      "on": "Ángelo Preciado",
+      "off": "Joel Ordóñez",
+      "minute": "45"
+    },
+    {
+      "team": "ecuador",
+      "on": "Yaimar Medina",
+      "off": "Alan Franco",
+      "minute": "45"
+    },
+    {
+      "team": "mexico",
+      "on": "Brian Gutiérrez",
+      "off": "Gilberto Mora",
+      "minute": "58"
+    },
+    {
+      "team": "ecuador",
+      "on": "Kevin Rodríguez",
+      "off": "Enner Valencia",
+      "minute": "59"
+    },
+    {
+      "team": "mexico",
+      "on": "Obed Vargas",
+      "off": "Luis Romo",
+      "minute": "73"
+    },
+    {
+      "team": "mexico",
+      "on": "Santiago Gimenez",
+      "off": "Raúl Jiménez",
+      "minute": "74"
+    },
+    {
+      "team": "ecuador",
+      "on": "Jordy Caicedo",
+      "off": "John Yeboah",
+      "minute": "79"
+    },
+    {
+      "team": "ecuador",
+      "on": "Kendry Páez",
+      "off": "Nilson Angulo",
+      "minute": "79"
+    },
+    {
+      "team": "mexico",
+      "on": "Orbelín Pineda",
+      "off": "Julián Quiñones",
+      "minute": "80"
+    },
+    {
+      "team": "mexico",
+      "on": "Israel Reyes",
+      "off": "Roberto Alvarado",
+      "minute": "80"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Javier Aguirre",
+      "starting": [
+        {
+          "name": "Raúl Rangel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Johan Vásquez",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "César Montes",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jesús Gallardo",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Jorge Sánchez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Érik Lira",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Luis Romo",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Gilberto Mora",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Raúl Jiménez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Julián Quiñones",
+          "position": "FW",
+          "number": 16
+        },
+        {
+          "name": "Roberto Alvarado",
+          "position": "FW",
+          "number": 25
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Sebastián Beccacece",
+      "starting": [
+        {
+          "name": "Hernán Galíndez",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Joel Ordóñez",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Alan Franco",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Pedro Vite",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Nilson Angulo",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "John Yeboah",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Enner Valencia",
+          "position": "FW",
+          "number": 13
+        },
+        {
+          "name": "Gonzalo Plata",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 43,
+      "shots": 15,
+      "shots_on_target": 3,
+      "corners": 3,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 316,
+      "pass_accuracy": 78
+    },
+    "away": {
+      "possession": 57,
+      "shots": 7,
+      "shots_on_target": 1,
+      "corners": 8,
+      "fouls": 14,
+      "offsides": 1,
+      "yellow_cards": 3,
+      "red_cards": 1,
+      "saves": 1,
+      "passes": 410,
+      "pass_accuracy": 83
+    }
+  },
+  "decision": "regular"
+}

@@ -1,0 +1,266 @@
+{
+  "id": "2026-07-03-r32-88",
+  "date": "2026-07-03",
+  "home": "australia",
+  "away": "egypt",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 70244,
+  "referee": "Gustavo Tejera",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760499"
+  ],
+  "goals": [
+    {
+      "team": "egypt",
+      "player": "Emam Ashour",
+      "minute": "13",
+      "type": "regular",
+      "assist": "Karim Hafez"
+    },
+    {
+      "team": "australia",
+      "player": "Mohamed Hany",
+      "minute": "55",
+      "type": "own_goal",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "egypt",
+      "player": "Haissem Hassan",
+      "minute": "105",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Yasser Ibrahim",
+      "minute": "120",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "australia",
+      "on": "Kai Trewin",
+      "off": "Jordan Bos",
+      "minute": "45"
+    },
+    {
+      "team": "egypt",
+      "on": "Haissem Hassan",
+      "off": "Mostafa Zico",
+      "minute": "67"
+    },
+    {
+      "team": "egypt",
+      "on": "Hossam Abdelmaguid",
+      "off": "Hamdy Fathy",
+      "minute": "67"
+    },
+    {
+      "team": "australia",
+      "on": "Ajdin Hrustic",
+      "off": "Cristian Volpato",
+      "minute": "74"
+    },
+    {
+      "team": "australia",
+      "on": "Mohamed Toure",
+      "off": "Nestory Irankunda",
+      "minute": "74"
+    },
+    {
+      "team": "egypt",
+      "on": "Trézéguet",
+      "off": "Karim Hafez",
+      "minute": "80"
+    },
+    {
+      "team": "australia",
+      "on": "Paul Okon-Engstler",
+      "off": "Aiden O'Neill",
+      "minute": "90"
+    },
+    {
+      "team": "australia",
+      "on": "Awer Mabil",
+      "off": "Connor Metcalfe",
+      "minute": "90"
+    },
+    {
+      "team": "egypt",
+      "on": "Hamza Abdelkarim",
+      "off": "Omar Marmoush",
+      "minute": "105"
+    },
+    {
+      "team": "australia",
+      "on": "Mathew Ryan",
+      "off": "Patrick Beach",
+      "minute": "119"
+    },
+    {
+      "team": "egypt",
+      "on": "Mahmoud Saber",
+      "off": "Marawan Attia",
+      "minute": "120+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Tony Popovic",
+      "starting": [
+        {
+          "name": "Patrick Beach",
+          "position": "GK",
+          "number": 18
+        },
+        {
+          "name": "Harry Souttar",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Lucas Herrington",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Aiden O'Neill",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Jackson Irvine",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Aziz Behich",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Jordan Bos",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Nestory Irankunda",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Connor Metcalfe",
+          "position": "FW",
+          "number": 8
+        },
+        {
+          "name": "Cristian Volpato",
+          "position": "FW",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Hossam Hassan",
+      "starting": [
+        {
+          "name": "Mostafa Shoubir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Ramy Rabia",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Karim Hafez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Mohamed Hany",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marawan Attia",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Hamdy Fathy",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Omar Marmoush",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Emam Ashour",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Mostafa Zico",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 42,
+      "shots": 16,
+      "shots_on_target": 1,
+      "corners": 4,
+      "fouls": 12,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 505,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 58,
+      "shots": 14,
+      "shots_on_target": 3,
+      "corners": 7,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 722,
+      "pass_accuracy": 85
+    }
+  },
+  "decision": "penalties",
+  "home_penalties": 2,
+  "away_penalties": 4
+}

@@ -1,0 +1,273 @@
+{
+  "id": "2026-06-27-algeria-vs-austria",
+  "date": "2026-06-27",
+  "home": "algeria",
+  "away": "austria",
+  "home_score": 3,
+  "away_score": 3,
+  "attendance": 69045,
+  "referee": "Ilgiz Tantashev",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760484"
+  ],
+  "goals": [
+    {
+      "team": "austria",
+      "player": "Marko Arnautovic",
+      "minute": "28",
+      "type": "regular",
+      "assist": "David Alaba"
+    },
+    {
+      "team": "algeria",
+      "player": "Rafik Belghali",
+      "minute": "45",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "austria",
+      "player": "Marcel Sabitzer",
+      "minute": "55",
+      "type": "regular",
+      "assist": "Konrad Laimer"
+    },
+    {
+      "team": "algeria",
+      "player": "Riyad Mahrez",
+      "minute": "60",
+      "type": "regular",
+      "assist": "Houssem Aouar"
+    },
+    {
+      "team": "algeria",
+      "player": "Riyad Mahrez",
+      "minute": "90+3",
+      "type": "regular",
+      "assist": "Houssem Aouar"
+    },
+    {
+      "team": "austria",
+      "player": "Sasa Kalajdzic",
+      "minute": "90+6",
+      "type": "regular",
+      "assist": "Michael Gregoritsch"
+    }
+  ],
+  "cards": [
+    {
+      "team": "austria",
+      "player": "Marko Arnautovic",
+      "minute": "11",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "austria",
+      "on": "Michael Gregoritsch",
+      "off": "Marko Arnautovic",
+      "minute": "45"
+    },
+    {
+      "team": "austria",
+      "on": "Florian Grillitsch",
+      "off": "Xaver Schlager",
+      "minute": "45"
+    },
+    {
+      "team": "austria",
+      "on": "Paul Wanner",
+      "off": "Romano Schmid",
+      "minute": "45"
+    },
+    {
+      "team": "austria",
+      "on": "Kevin Danso",
+      "off": "David Alaba",
+      "minute": "62"
+    },
+    {
+      "team": "algeria",
+      "on": "Rayan Aït-Nouri",
+      "off": "Jaouen Hadjam",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Zineddine Belaïd",
+      "off": "Amine Gouiri",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Samir Chergui",
+      "off": "Rafik Belghali",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Farès Ghedjemis",
+      "off": "Houssem Aouar",
+      "minute": "90+4"
+    },
+    {
+      "team": "austria",
+      "on": "Sasa Kalajdzic",
+      "off": "Phillipp Mwene",
+      "minute": "90+5"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Vladimir Petković",
+      "starting": [
+        {
+          "name": "Oussama Benbot",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Ramy Bensebaini",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Aïssa Mandi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jaouen Hadjam",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Farès Chaïbi",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Amine Gouiri",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Houssem Aouar",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Riyad Mahrez",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Ralf Rangnick",
+      "starting": [
+        {
+          "name": "Alexander Schlager",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "David Alaba",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Philipp Lienhart",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Phillipp Mwene",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Romano Schmid",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Nicolas Seiwald",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Marko Arnautovic",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "MF",
+          "number": 20
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 65,
+      "shots": 12,
+      "shots_on_target": 5,
+      "corners": 0,
+      "fouls": 3,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 754,
+      "pass_accuracy": 94
+    },
+    "away": {
+      "possession": 35,
+      "shots": 10,
+      "shots_on_target": 3,
+      "corners": 3,
+      "fouls": 7,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 396,
+      "pass_accuracy": 87
+    }
+  }
+}

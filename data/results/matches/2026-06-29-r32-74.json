@@ -1,0 +1,284 @@
+{
+  "id": "2026-06-29-r32-74",
+  "date": "2026-06-29",
+  "home": "germany",
+  "away": "paraguay",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 63945,
+  "referee": "Jalal Jayed",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760489"
+  ],
+  "goals": [
+    {
+      "team": "paraguay",
+      "player": "Julio Enciso",
+      "minute": "42",
+      "type": "regular",
+      "assist": "Matías Galarza"
+    },
+    {
+      "team": "germany",
+      "player": "Kai Havertz",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Florian Wirtz"
+    }
+  ],
+  "cards": [
+    {
+      "team": "paraguay",
+      "player": "Andrés Cubas",
+      "minute": "65",
+      "card": "yellow"
+    },
+    {
+      "team": "germany",
+      "player": "Kai Havertz",
+      "minute": "106",
+      "card": "yellow"
+    },
+    {
+      "team": "germany",
+      "player": "Jamal Musiala",
+      "minute": "115",
+      "card": "yellow"
+    },
+    {
+      "team": "paraguay",
+      "player": "Matías Galarza",
+      "minute": "117",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "germany",
+      "on": "Leon Goretzka",
+      "off": "Felix Nmecha",
+      "minute": "45"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gustavo Caballero",
+      "off": "Gabriel Ávalos",
+      "minute": "55"
+    },
+    {
+      "team": "paraguay",
+      "on": "Maurício",
+      "off": "Julio Enciso",
+      "minute": "57"
+    },
+    {
+      "team": "germany",
+      "on": "Jamal Musiala",
+      "off": "Deniz Undav",
+      "minute": "63"
+    },
+    {
+      "team": "germany",
+      "on": "Waldemar Anton",
+      "off": "Aleksandar Pavlovic",
+      "minute": "79"
+    },
+    {
+      "team": "germany",
+      "on": "Nick Woltemade",
+      "off": "Leroy Sané",
+      "minute": "88"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gustavo Velázquez",
+      "off": "Miguel Almirón",
+      "minute": "90"
+    },
+    {
+      "team": "paraguay",
+      "on": "Braian Ojeda",
+      "off": "Juan Jose Cáceres",
+      "minute": "99"
+    },
+    {
+      "team": "paraguay",
+      "on": "Antonio Sanabria",
+      "off": "Damián Bobadilla",
+      "minute": "99"
+    },
+    {
+      "team": "germany",
+      "on": "Nadiem Amiri",
+      "off": "Florian Wirtz",
+      "minute": "110"
+    },
+    {
+      "team": "germany",
+      "on": "Malick Thiaw",
+      "off": "Antonio Rüdiger",
+      "minute": "110"
+    },
+    {
+      "team": "paraguay",
+      "on": "Fabián Balbuena",
+      "off": "Júnior Alonso",
+      "minute": "120+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Julian Nagelsmann",
+      "starting": [
+        {
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Aleksandar Pavlovic",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Leroy Sané",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Deniz Undav",
+          "position": "FW",
+          "number": 26
+        },
+        {
+          "name": "Kai Havertz",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Gustavo Alfaro",
+      "starting": [
+        {
+          "name": "Orlando Gill",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "José Canale",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Gustavo Gómez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Júnior Alonso",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Juan Jose Cáceres",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Andrés Cubas",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Damián Bobadilla",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Matías Galarza",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Miguel Almirón",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Gabriel Ávalos",
+          "position": "FW",
+          "number": 21
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 76,
+      "shots": 21,
+      "shots_on_target": 6,
+      "corners": 16,
+      "fouls": 18,
+      "offsides": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 805,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 24,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 6,
+      "fouls": 12,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 255,
+      "pass_accuracy": 63
+    }
+  },
+  "decision": "penalties",
+  "home_penalties": 3,
+  "away_penalties": 4
+}

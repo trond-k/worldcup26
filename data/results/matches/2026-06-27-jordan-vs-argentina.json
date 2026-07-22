@@ -1,0 +1,277 @@
+{
+  "id": "2026-06-27-jordan-vs-argentina",
+  "date": "2026-06-27",
+  "home": "jordan",
+  "away": "argentina",
+  "home_score": 1,
+  "away_score": 3,
+  "attendance": 70649,
+  "referee": "Istvan Kovacs",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760483"
+  ],
+  "goals": [
+    {
+      "team": "argentina",
+      "player": "Giovani Lo Celso",
+      "minute": "19",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "argentina",
+      "player": "Lautaro Martínez",
+      "minute": "31",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "jordan",
+      "player": "Mousa Al-Tamari",
+      "minute": "55",
+      "type": "regular",
+      "assist": "Ehsan Haddad"
+    },
+    {
+      "team": "argentina",
+      "player": "Lionel Messi",
+      "minute": "80",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "jordan",
+      "player": "Mohannad Abu Taha",
+      "minute": "17",
+      "card": "yellow"
+    },
+    {
+      "team": "jordan",
+      "player": "Yazan Al-Arab",
+      "minute": "64",
+      "card": "yellow"
+    },
+    {
+      "team": "jordan",
+      "player": "Mohammed Abu Zraiq",
+      "minute": "90+4",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "jordan",
+      "on": "Mahmoud Al-Mardi",
+      "off": "Odeh Fakhoury",
+      "minute": "45"
+    },
+    {
+      "team": "jordan",
+      "on": "Mousa Al-Tamari",
+      "off": "Ali Azaizeh",
+      "minute": "45"
+    },
+    {
+      "team": "argentina",
+      "on": "Thiago Almada",
+      "off": "Giovani Lo Celso",
+      "minute": "60"
+    },
+    {
+      "team": "argentina",
+      "on": "Lionel Messi",
+      "off": "Lautaro Martínez",
+      "minute": "60"
+    },
+    {
+      "team": "argentina",
+      "on": "Alexis Mac Allister",
+      "off": "Nico Paz",
+      "minute": "61"
+    },
+    {
+      "team": "argentina",
+      "on": "Valentín Barco",
+      "off": "Giuliano Simeone",
+      "minute": "71"
+    },
+    {
+      "team": "jordan",
+      "on": "Amer Jamous",
+      "off": "Nizar Al-Rashdan",
+      "minute": "76"
+    },
+    {
+      "team": "argentina",
+      "on": "José Manuel López",
+      "off": "Julián Álvarez",
+      "minute": "82"
+    },
+    {
+      "team": "jordan",
+      "on": "Mohammed Abu Zraiq",
+      "off": "Ali Olwan",
+      "minute": "90"
+    },
+    {
+      "team": "jordan",
+      "on": "Saleem Obaid",
+      "off": "Husam Abu Dahab",
+      "minute": "90"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Jamal Sellami",
+      "starting": [
+        {
+          "name": "Yazeed Abulaila",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Yazan Al-Arab",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Husam Abu Dahab",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Abdallah Nasib",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Noor Al-Rawabdeh",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Nizar Al-Rashdan",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Mohannad Abu Taha",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Ehsan Haddad",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Odeh Fakhoury",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Ali Olwan",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Ali Azaizeh",
+          "position": "FW",
+          "number": 24
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Marcos Senesi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Exequiel Palacios",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Leandro Paredes",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Nico Paz",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Giovani Lo Celso",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Lautaro Martínez",
+          "position": "FW",
+          "number": 22
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 27,
+      "shots": 5,
+      "shots_on_target": 1,
+      "corners": 2,
+      "fouls": 13,
+      "offsides": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 285,
+      "pass_accuracy": 80
+    },
+    "away": {
+      "possession": 73,
+      "shots": 12,
+      "shots_on_target": 4,
+      "corners": 6,
+      "fouls": 7,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 801,
+      "pass_accuracy": 92
+    }
+  }
+}

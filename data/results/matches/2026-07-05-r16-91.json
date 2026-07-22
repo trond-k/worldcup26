@@ -1,0 +1,247 @@
+{
+  "id": "2026-07-05-r16-91",
+  "date": "2026-07-05",
+  "home": "brazil",
+  "away": "norway",
+  "home_score": 1,
+  "away_score": 2,
+  "attendance": 80663,
+  "referee": "Ismail Elfath",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760504"
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "player": "Erling Haaland",
+      "minute": "79",
+      "type": "regular",
+      "assist": "Andreas Schjelderup"
+    },
+    {
+      "team": "norway",
+      "player": "Erling Haaland",
+      "minute": "90",
+      "type": "regular",
+      "assist": "Andreas Schjelderup"
+    },
+    {
+      "team": "brazil",
+      "player": "Neymar",
+      "minute": "90+10",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "brazil",
+      "player": "Neymar",
+      "minute": "90+6",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "norway",
+      "on": "Oscar Bobb",
+      "off": "Alexander Sørloth",
+      "minute": "45"
+    },
+    {
+      "team": "norway",
+      "on": "Andreas Schjelderup",
+      "off": "Antonio Nusa",
+      "minute": "45"
+    },
+    {
+      "team": "brazil",
+      "on": "Endrick",
+      "off": "Matheus Cunha",
+      "minute": "58"
+    },
+    {
+      "team": "norway",
+      "on": "Fredrik Aursnes",
+      "off": "Julian Ryerson",
+      "minute": "63"
+    },
+    {
+      "team": "brazil",
+      "on": "Neymar",
+      "off": "Gabriel Martinelli",
+      "minute": "67"
+    },
+    {
+      "team": "brazil",
+      "on": "Danilo Santos",
+      "off": "Rayan",
+      "minute": "67"
+    },
+    {
+      "team": "brazil",
+      "on": "Éderson",
+      "off": "Bruno Guimarães",
+      "minute": "79"
+    },
+    {
+      "team": "norway",
+      "on": "Leo Østigard",
+      "off": "David Møller Wolfe",
+      "minute": "90+5"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Carlo Ancelotti",
+      "starting": [
+        {
+          "name": "Alisson Becker",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marquinhos",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Douglas Santos",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Danilo",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Casemiro",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Rayan",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Vinícius Júnior",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Matheus Cunha",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {
+          "name": "Ørjan Nyland",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Torbjørn Heggem",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Julian Ryerson",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Sander Berge",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Patrick Berg",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Erling Haaland",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Antonio Nusa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 34,
+      "shots": 14,
+      "shots_on_target": 4,
+      "corners": 5,
+      "fouls": 7,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 331,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 66,
+      "shots": 9,
+      "shots_on_target": 5,
+      "corners": 5,
+      "fouls": 6,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 681,
+      "pass_accuracy": 91
+    }
+  },
+  "decision": "regular"
+}

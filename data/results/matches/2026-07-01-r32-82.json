@@ -1,0 +1,291 @@
+{
+  "id": "2026-07-01-r32-82",
+  "date": "2026-07-01",
+  "home": "belgium",
+  "away": "senegal",
+  "home_score": 3,
+  "away_score": 2,
+  "attendance": 66925,
+  "referee": "Martínez, Héctor",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760493"
+  ],
+  "goals": [
+    {
+      "team": "senegal",
+      "player": "Habib Diarra",
+      "minute": "24",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "senegal",
+      "player": "Ismaïla Sarr",
+      "minute": "51",
+      "type": "regular",
+      "assist": "Moussa Niakhaté"
+    },
+    {
+      "team": "belgium",
+      "player": "Romelu Lukaku",
+      "minute": "86",
+      "type": "regular",
+      "assist": "Thomas Meunier"
+    },
+    {
+      "team": "belgium",
+      "player": "Youri Tielemans",
+      "minute": "89",
+      "type": "regular",
+      "assist": "Leandro Trossard"
+    },
+    {
+      "team": "belgium",
+      "player": "Youri Tielemans",
+      "minute": "120+5",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "belgium",
+      "player": "Brandon Mechele",
+      "minute": "64",
+      "card": "yellow"
+    },
+    {
+      "team": "senegal",
+      "player": "Lamine Camara",
+      "minute": "67",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "belgium",
+      "on": "Romelu Lukaku",
+      "off": "Charles De Ketelaere",
+      "minute": "45"
+    },
+    {
+      "team": "belgium",
+      "on": "Dodi Lukébakio",
+      "off": "Jérémy Doku",
+      "minute": "56"
+    },
+    {
+      "team": "belgium",
+      "on": "Nicolas Raskin",
+      "off": "Kevin De Bruyne",
+      "minute": "56"
+    },
+    {
+      "team": "belgium",
+      "on": "Diego Moreira",
+      "off": "Hans Vanaken",
+      "minute": "63"
+    },
+    {
+      "team": "senegal",
+      "on": "Lamine Camara",
+      "off": "Pape Gueye",
+      "minute": "66"
+    },
+    {
+      "team": "senegal",
+      "on": "Ibrahim Mbaye",
+      "off": "Iliman Ndiaye",
+      "minute": "73"
+    },
+    {
+      "team": "senegal",
+      "on": "Pape Matar Sarr",
+      "off": "Habib Diarra",
+      "minute": "73"
+    },
+    {
+      "team": "belgium",
+      "on": "Thomas Meunier",
+      "off": "Maxim De Cuyper",
+      "minute": "78"
+    },
+    {
+      "team": "senegal",
+      "on": "Nicolas Jackson",
+      "off": "Sadio Mané",
+      "minute": "94"
+    },
+    {
+      "team": "senegal",
+      "on": "El Hadji Malick Diouf",
+      "off": "Ismail Jakobs",
+      "minute": "94"
+    },
+    {
+      "team": "senegal",
+      "on": "Bara Sapoko Ndiaye",
+      "off": "Idrissa Gueye",
+      "minute": "96"
+    },
+    {
+      "team": "belgium",
+      "on": "Amadou Onana",
+      "off": "Leandro Trossard",
+      "minute": "109"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Jérémy Doku",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Pape Thiaw",
+      "starting": [
+        {
+          "name": "Mory Diaw",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Moussa Niakhaté",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Pathé Ciss",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ismail Jakobs",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Krépin Diatta",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Idrissa Gueye",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "MF",
+          "number": 26
+        },
+        {
+          "name": "Habib Diarra",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Ismaïla Sarr",
+          "position": "FW",
+          "number": 18
+        },
+        {
+          "name": "Sadio Mané",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "position": "FW",
+          "number": 13
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 52,
+      "shots": 19,
+      "shots_on_target": 5,
+      "corners": 4,
+      "fouls": 22,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 701,
+      "pass_accuracy": 86
+    },
+    "away": {
+      "possession": 48,
+      "shots": 19,
+      "shots_on_target": 5,
+      "corners": 2,
+      "fouls": 12,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 639,
+      "pass_accuracy": 84
+    }
+  },
+  "decision": "extra-time"
+}

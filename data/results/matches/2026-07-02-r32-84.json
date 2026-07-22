@@ -1,0 +1,259 @@
+{
+  "id": "2026-07-02-r32-84",
+  "date": "2026-07-02",
+  "home": "spain",
+  "away": "austria",
+  "home_score": 3,
+  "away_score": 0,
+  "attendance": 70492,
+  "referee": "Glenn Nyberg",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760497"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Mikel Oyarzabal",
+      "minute": "36",
+      "type": "regular",
+      "assist": "Marc Cucurella"
+    },
+    {
+      "team": "spain",
+      "player": "Pedro Porro",
+      "minute": "66",
+      "type": "regular",
+      "assist": "Álex Baena"
+    },
+    {
+      "team": "spain",
+      "player": "Mikel Oyarzabal",
+      "minute": "89",
+      "type": "regular",
+      "assist": "Marc Cucurella"
+    }
+  ],
+  "cards": [
+    {
+      "team": "austria",
+      "player": "Stefan Posch",
+      "minute": "83",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "austria",
+      "on": "Florian Grillitsch",
+      "off": "Xaver Schlager",
+      "minute": "45"
+    },
+    {
+      "team": "austria",
+      "on": "Carney Chukwuemeka",
+      "off": "Nicolas Seiwald",
+      "minute": "45"
+    },
+    {
+      "team": "austria",
+      "on": "Sasa Kalajdzic",
+      "off": "Romano Schmid",
+      "minute": "60"
+    },
+    {
+      "team": "austria",
+      "on": "Marko Arnautovic",
+      "off": "Michael Gregoritsch",
+      "minute": "60"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Álex Baena",
+      "minute": "71"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "71"
+    },
+    {
+      "team": "spain",
+      "on": "Gavi",
+      "off": "Lamine Yamal",
+      "minute": "85"
+    },
+    {
+      "team": "austria",
+      "on": "Alexander Prass",
+      "off": "Stefan Posch",
+      "minute": "85"
+    },
+    {
+      "team": "spain",
+      "on": "Fabián Ruiz",
+      "off": "Pedri",
+      "minute": "90+3"
+    },
+    {
+      "team": "spain",
+      "on": "Marc Pubill",
+      "off": "Aymeric Laporte",
+      "minute": "90+3"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Pedri",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Ralf Rangnick",
+      "starting": [
+        {
+          "name": "Alexander Schlager",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "David Alaba",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Paul Wanner",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Nicolas Seiwald",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Michael Gregoritsch",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Romano Schmid",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 64,
+      "shots": 23,
+      "shots_on_target": 10,
+      "corners": 9,
+      "fouls": 8,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 629,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 36,
+      "shots": 5,
+      "shots_on_target": 0,
+      "corners": 0,
+      "fouls": 15,
+      "offsides": 5,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 347,
+      "pass_accuracy": 82
+    }
+  },
+  "decision": "regular"
+}

@@ -7,14 +7,15 @@
       "stage": "semi-final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-97",
-      "away": "winner-match-98",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "france",
+      "away": "spain",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "completed",
       "venue": "AT&T Stadium, Arlington",
       "note": "Semi-final — Match 101.",
-      "match_number": 101
+      "match_number": 101,
+      "decision": "regular"
     }
   ]
 }

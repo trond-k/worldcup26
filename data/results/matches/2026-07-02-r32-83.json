@@ -1,0 +1,265 @@
+{
+  "id": "2026-07-02-r32-83",
+  "date": "2026-07-02",
+  "home": "portugal",
+  "away": "croatia",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 43036,
+  "referee": "Espen Eskas",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760496"
+  ],
+  "goals": [
+    {
+      "team": "croatia",
+      "player": "Ivan Perisic",
+      "minute": "53",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "portugal",
+      "player": "Cristiano Ronaldo",
+      "minute": "68",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "portugal",
+      "player": "Gonçalo Ramos",
+      "minute": "90+4",
+      "type": "regular",
+      "assist": "Rafael Leão"
+    }
+  ],
+  "cards": [
+    {
+      "team": "portugal",
+      "player": "Rúben Dias",
+      "minute": "17",
+      "card": "yellow"
+    },
+    {
+      "team": "croatia",
+      "player": "Luka Modric",
+      "minute": "59",
+      "card": "yellow"
+    },
+    {
+      "team": "croatia",
+      "player": "Ivan Perisic",
+      "minute": "90+8",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "croatia",
+      "on": "Igor Matanovic",
+      "off": "Ante Budimir",
+      "minute": "45"
+    },
+    {
+      "team": "portugal",
+      "on": "Bernardo Silva",
+      "off": "Vitinha",
+      "minute": "62"
+    },
+    {
+      "team": "portugal",
+      "on": "Francisco Conceição",
+      "off": "Pedro Neto",
+      "minute": "63"
+    },
+    {
+      "team": "portugal",
+      "on": "Nélson Semedo",
+      "off": "Bruno Fernandes",
+      "minute": "63"
+    },
+    {
+      "team": "portugal",
+      "on": "Gonçalo Ramos",
+      "off": "João Cancelo",
+      "minute": "63"
+    },
+    {
+      "team": "croatia",
+      "on": "Mario Pasalic",
+      "off": "Martin Baturina",
+      "minute": "68"
+    },
+    {
+      "team": "portugal",
+      "on": "Rúben Neves",
+      "off": "Cristiano Ronaldo",
+      "minute": "81"
+    },
+    {
+      "team": "croatia",
+      "on": "Josko Gvardiol",
+      "off": "Nikola Vlasic",
+      "minute": "90+2"
+    },
+    {
+      "team": "croatia",
+      "on": "Andrej Kramaric",
+      "off": "Mateo Kovacic",
+      "minute": "90+6"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Roberto Martínez",
+      "starting": [
+        {
+          "name": "Diogo Costa",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "João Cancelo",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Vitinha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "João Neves",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Rafael Leão",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Zlatko Dalic",
+      "starting": [
+        {
+          "name": "Dominik Livakovic",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Josip Sutalo",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ivan Perisic",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Josip Stanisic",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Mateo Kovacic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Luka Modric",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Nikola Vlasic",
+          "position": "MF",
+          "number": 13
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 60,
+      "shots": 15,
+      "shots_on_target": 3,
+      "corners": 9,
+      "fouls": 6,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 585,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 40,
+      "shots": 13,
+      "shots_on_target": 6,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 370,
+      "pass_accuracy": 84
+    }
+  },
+  "decision": "regular"
+}

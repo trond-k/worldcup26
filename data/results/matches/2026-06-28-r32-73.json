@@ -1,0 +1,239 @@
+{
+  "id": "2026-06-28-r32-73",
+  "date": "2026-06-28",
+  "home": "south-africa",
+  "away": "canada",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 69237,
+  "referee": "João Pinheiro",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760486"
+  ],
+  "goals": [
+    {
+      "team": "canada",
+      "player": "Stephen Eustáquio",
+      "minute": "90+2",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "canada",
+      "player": "Nathan Saliba",
+      "minute": "54",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Niko Sigur",
+      "minute": "67",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "south-africa",
+      "on": "Thalente Mbatha",
+      "off": "Relebohile Mofokeng",
+      "minute": "45"
+    },
+    {
+      "team": "canada",
+      "on": "Niko Sigur",
+      "off": "Nathan Saliba",
+      "minute": "59"
+    },
+    {
+      "team": "canada",
+      "on": "Luc de Fougerolles",
+      "off": "Moïse Bombito",
+      "minute": "59"
+    },
+    {
+      "team": "canada",
+      "on": "Promise David",
+      "off": "Tani Oluwaseyi",
+      "minute": "70"
+    },
+    {
+      "team": "canada",
+      "on": "Jacob Shaffelburg",
+      "off": "Liam Millar",
+      "minute": "70"
+    },
+    {
+      "team": "canada",
+      "on": "Alphonso Davies",
+      "off": "Tajon Buchanan",
+      "minute": "75"
+    },
+    {
+      "team": "south-africa",
+      "on": "Iqraam Rayners",
+      "off": "Evidence Makgopa",
+      "minute": "86"
+    },
+    {
+      "team": "south-africa",
+      "on": "Tshepang Moremi",
+      "off": "Thapelo Maseko",
+      "minute": "86"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Hugo Broos",
+      "starting": [
+        {
+          "name": "Ronwen Williams",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Mbekezeli Mbokazi",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Ime Okon",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Aubrey Modiba",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Khuliso Mudau",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Relebohile Mofokeng",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Sphephelo Sithole",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Teboho Mokoena",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Evidence Makgopa",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Oswin Appollis",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Thapelo Maseko",
+          "position": "MF",
+          "number": 12
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Jesse Marsch",
+      "starting": [
+        {
+          "name": "Maxime Crépeau",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Derek Cornelius",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Moïse Bombito",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Richie Laryea",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Alistair Johnston",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Stephen Eustáquio",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Nathan Saliba",
+          "position": "MF",
+          "number": 25
+        },
+        {
+          "name": "Liam Millar",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Tani Oluwaseyi",
+          "position": "FW",
+          "number": 12
+        },
+        {
+          "name": "Jonathan David",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 58,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 1,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 554,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 42,
+      "shots": 12,
+      "shots_on_target": 7,
+      "corners": 4,
+      "fouls": 16,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 379,
+      "pass_accuracy": 79
+    }
+  },
+  "decision": "regular"
+}

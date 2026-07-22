@@ -1,0 +1,285 @@
+{
+  "id": "2026-06-26-new-zealand-vs-belgium",
+  "date": "2026-06-26",
+  "home": "new-zealand",
+  "away": "belgium",
+  "home_score": 1,
+  "away_score": 5,
+  "attendance": 52497,
+  "referee": "Adham Mohammad",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760477"
+  ],
+  "goals": [
+    {
+      "team": "belgium",
+      "player": "Leandro Trossard",
+      "minute": "28",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "belgium",
+      "player": "Leandro Trossard",
+      "minute": "50",
+      "type": "regular",
+      "assist": "Hans Vanaken"
+    },
+    {
+      "team": "belgium",
+      "player": "Kevin De Bruyne",
+      "minute": "66",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "new-zealand",
+      "player": "Elijah Just",
+      "minute": "84",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "belgium",
+      "player": "Romelu Lukaku",
+      "minute": "86",
+      "type": "regular",
+      "assist": "Nicolas Raskin"
+    },
+    {
+      "team": "belgium",
+      "player": "Alexis Saelemaekers",
+      "minute": "90+4",
+      "type": "regular",
+      "assist": "Romelu Lukaku"
+    }
+  ],
+  "cards": [
+    {
+      "team": "new-zealand",
+      "player": "Marko Stamenic",
+      "minute": "46",
+      "card": "yellow"
+    },
+    {
+      "team": "new-zealand",
+      "player": "Elijah Just",
+      "minute": "56",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "new-zealand",
+      "on": "Ben Old",
+      "off": "Ryan Thomas",
+      "minute": "45"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Jesse Randall",
+      "off": "Sarpreet Singh",
+      "minute": "45"
+    },
+    {
+      "team": "belgium",
+      "on": "Matias Fernandez-Pardo",
+      "off": "Jérémy Doku",
+      "minute": "56"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Michael Boxall",
+      "off": "Tim Payne",
+      "minute": "64"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Callum McCowatt",
+      "off": "Joe Bell",
+      "minute": "64"
+    },
+    {
+      "team": "belgium",
+      "on": "Alexis Saelemaekers",
+      "off": "Leandro Trossard",
+      "minute": "72"
+    },
+    {
+      "team": "belgium",
+      "on": "Amadou Onana",
+      "off": "Kevin De Bruyne",
+      "minute": "72"
+    },
+    {
+      "team": "new-zealand",
+      "on": "Francis de Vries",
+      "off": "Liberato Cacace",
+      "minute": "79"
+    },
+    {
+      "team": "belgium",
+      "on": "Romelu Lukaku",
+      "off": "Charles De Ketelaere",
+      "minute": "85"
+    },
+    {
+      "team": "belgium",
+      "on": "Nicolas Raskin",
+      "off": "Youri Tielemans",
+      "minute": "85"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Darren Bazeley",
+      "starting": [
+        {
+          "name": "Max Crocombe",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Tyler Bindon",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Finn Surman",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Liberato Cacace",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Tim Payne",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Ryan Thomas",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Marko Stamenic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Joe Bell",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Chris Wood",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Elijah Just",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Sarpreet Singh",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Jérémy Doku",
+          "position": "MF",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 46,
+      "shots": 6,
+      "shots_on_target": 2,
+      "corners": 5,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 436,
+      "pass_accuracy": 85
+    },
+    "away": {
+      "possession": 54,
+      "shots": 35,
+      "shots_on_target": 10,
+      "corners": 8,
+      "fouls": 7,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 525,
+      "pass_accuracy": 88
+    }
+  }
+}

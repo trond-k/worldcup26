@@ -1,0 +1,252 @@
+{
+  "id": "2026-06-30-r32-77",
+  "date": "2026-06-30",
+  "home": "france",
+  "away": "sweden",
+  "home_score": 3,
+  "away_score": 0,
+  "attendance": 80663,
+  "referee": "Danny Makkelie",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760492"
+  ],
+  "goals": [
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "45",
+      "type": "regular",
+      "assist": "Ousmane Dembélé"
+    },
+    {
+      "team": "france",
+      "player": "Bradley Barcola",
+      "minute": "53",
+      "type": "regular",
+      "assist": "Michael Olise"
+    },
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "74",
+      "type": "regular",
+      "assist": "Michael Olise"
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "sweden",
+      "on": "Taha Ali",
+      "off": "Elliot Stroud",
+      "minute": "66"
+    },
+    {
+      "team": "sweden",
+      "on": "Besfort Zeneli",
+      "off": "Lucas Bergvall",
+      "minute": "66"
+    },
+    {
+      "team": "france",
+      "on": "Désiré Doué",
+      "off": "Ousmane Dembélé",
+      "minute": "75"
+    },
+    {
+      "team": "france",
+      "on": "Malo Gusto",
+      "off": "Jules Koundé",
+      "minute": "75"
+    },
+    {
+      "team": "france",
+      "on": "Theo Hernández",
+      "off": "Lucas Digne",
+      "minute": "78"
+    },
+    {
+      "team": "sweden",
+      "on": "Mattias Svanberg",
+      "off": "Daniel Svensson",
+      "minute": "82"
+    },
+    {
+      "team": "sweden",
+      "on": "Benjamin Nygren",
+      "off": "Yasin Ayari",
+      "minute": "82"
+    },
+    {
+      "team": "france",
+      "on": "Jean-Philippe Mateta",
+      "off": "Kylian Mbappé",
+      "minute": "85"
+    },
+    {
+      "team": "france",
+      "on": "Rayan Cherki",
+      "off": "Michael Olise",
+      "minute": "85"
+    },
+    {
+      "team": "sweden",
+      "on": "Gustaf Nilsson",
+      "off": "Alexander Isak",
+      "minute": "89"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "William Saliba",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Graham Potter",
+      "starting": [
+        {
+          "name": "Jacob Widell Zetterström",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gustaf Lagerbielke",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Daniel Svensson",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Yasin Ayari",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Elliot Stroud",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "FW",
+          "number": 17
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 61,
+      "shots": 25,
+      "shots_on_target": 12,
+      "corners": 9,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 551,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 39,
+      "shots": 8,
+      "shots_on_target": 3,
+      "corners": 1,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 9,
+      "passes": 350,
+      "pass_accuracy": 79
+    }
+  },
+  "decision": "regular"
+}

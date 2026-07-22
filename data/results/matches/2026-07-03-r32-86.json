@@ -1,0 +1,285 @@
+{
+  "id": "2026-07-03-r32-86",
+  "date": "2026-07-03",
+  "home": "argentina",
+  "away": "cabo-verde",
+  "home_score": 3,
+  "away_score": 2,
+  "attendance": 64478,
+  "referee": "Drew Fischer",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760500"
+  ],
+  "goals": [
+    {
+      "team": "argentina",
+      "player": "Lionel Messi",
+      "minute": "29",
+      "type": "regular",
+      "assist": "Lisandro Martínez"
+    },
+    {
+      "team": "cabo-verde",
+      "player": "Deroy Duarte",
+      "minute": "59",
+      "type": "regular",
+      "assist": "Ryan Mendes"
+    },
+    {
+      "team": "argentina",
+      "player": "Lisandro Martínez",
+      "minute": "92",
+      "type": "regular",
+      "assist": "Alexis Mac Allister"
+    },
+    {
+      "team": "cabo-verde",
+      "player": "Sidny Lopes Cabral",
+      "minute": "103",
+      "type": "regular",
+      "assist": "Yannick Semedo"
+    },
+    {
+      "team": "argentina",
+      "player": "Diney Borges",
+      "minute": "111",
+      "type": "own_goal",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "cabo-verde",
+      "player": "Kevin Pina",
+      "minute": "68",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Gonzalo Montiel",
+      "minute": "115",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "argentina",
+      "on": "Julián Álvarez",
+      "off": "Lautaro Martínez",
+      "minute": "63"
+    },
+    {
+      "team": "argentina",
+      "on": "Nico González",
+      "off": "Thiago Almada",
+      "minute": "64"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Jamiro Monteiro",
+      "off": "Laros Duarte",
+      "minute": "67"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Dailon Livramento",
+      "off": "Nuno da Costa",
+      "minute": "67"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Willy Semedo",
+      "off": "Ryan Mendes",
+      "minute": "80"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Hélio Varela",
+      "off": "Jovane Cabral",
+      "minute": "80"
+    },
+    {
+      "team": "argentina",
+      "on": "Leandro Paredes",
+      "off": "Rodrigo De Paul",
+      "minute": "84"
+    },
+    {
+      "team": "argentina",
+      "on": "Nicolás Tagliafico",
+      "off": "Facundo Medina",
+      "minute": "86"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Yannick Semedo",
+      "off": "Deroy Duarte",
+      "minute": "100"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Gilson Benchimol",
+      "off": "Kevin Pina",
+      "minute": "100"
+    },
+    {
+      "team": "argentina",
+      "on": "Gonzalo Montiel",
+      "off": "Nahuel Molina",
+      "minute": "104"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Thiago Almada",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Lautaro Martínez",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Pedro Brito (Bubista)",
+      "starting": [
+        {
+          "name": "Vozinha",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Diney Borges",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Pico Lopes",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Kevin Pina",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Sidny Lopes Cabral",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Steven Moreira",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Deroy Duarte",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Laros Duarte",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Jovane Cabral",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Ryan Mendes",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Nuno da Costa",
+          "position": "FW",
+          "number": 21
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 64,
+      "shots": 22,
+      "shots_on_target": 10,
+      "corners": 8,
+      "fouls": 13,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 850,
+      "pass_accuracy": 92
+    },
+    "away": {
+      "possession": 36,
+      "shots": 16,
+      "shots_on_target": 5,
+      "corners": 8,
+      "fouls": 12,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 8,
+      "passes": 476,
+      "pass_accuracy": 86
+    }
+  },
+  "decision": "extra-time"
+}

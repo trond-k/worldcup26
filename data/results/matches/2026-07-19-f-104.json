@@ -1,0 +1,287 @@
+{
+  "id": "2026-07-19-f-104",
+  "date": "2026-07-19",
+  "home": "spain",
+  "away": "argentina",
+  "home_score": 1,
+  "away_score": 0,
+  "attendance": 80663,
+  "referee": "Slavko Vincici",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760517"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Ferran Torres",
+      "minute": "106",
+      "type": "regular",
+      "assist": "Nico Williams"
+    }
+  ],
+  "cards": [
+    {
+      "team": "argentina",
+      "player": "Lisandro Martínez",
+      "minute": "41",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Leandro Paredes",
+      "minute": "52",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Enzo Fernández",
+      "minute": "82",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Cristian Romero",
+      "minute": "90+2",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Enzo Fernández",
+      "minute": "90+3",
+      "card": "second-yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Alexis Mac Allister",
+      "minute": "111",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "argentina",
+      "on": "Nicolás Otamendi",
+      "off": "Lisandro Martínez",
+      "minute": "44"
+    },
+    {
+      "team": "argentina",
+      "on": "Leandro Paredes",
+      "off": "Nico González",
+      "minute": "45"
+    },
+    {
+      "team": "argentina",
+      "on": "Nahuel Molina",
+      "off": "Gonzalo Montiel",
+      "minute": "58"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Mikel Oyarzabal",
+      "minute": "62"
+    },
+    {
+      "team": "spain",
+      "on": "Pedri",
+      "off": "Fabián Ruiz",
+      "minute": "62"
+    },
+    {
+      "team": "argentina",
+      "on": "Facundo Medina",
+      "off": "Cristian Romero",
+      "minute": "70"
+    },
+    {
+      "team": "argentina",
+      "on": "Giuliano Simeone",
+      "off": "Rodrigo De Paul",
+      "minute": "70"
+    },
+    {
+      "team": "spain",
+      "on": "Nico Williams",
+      "off": "Álex Baena",
+      "minute": "75"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "75"
+    },
+    {
+      "team": "spain",
+      "on": "Martín Zubimendi",
+      "off": "Rodri",
+      "minute": "99"
+    },
+    {
+      "team": "spain",
+      "on": "Eric García",
+      "off": "Aymeric Laporte",
+      "minute": "99"
+    },
+    {
+      "team": "argentina",
+      "on": "Marcos Senesi",
+      "off": "Julián Álvarez",
+      "minute": "102"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Fabián Ruiz",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gonzalo Montiel",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Nico González",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 65,
+      "shots": 20,
+      "shots_on_target": 12,
+      "corners": 9,
+      "fouls": 21,
+      "offsides": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 853,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 35,
+      "shots": 2,
+      "shots_on_target": 0,
+      "corners": 4,
+      "fouls": 25,
+      "offsides": 1,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "saves": 11,
+      "passes": 464,
+      "pass_accuracy": 77
+    }
+  },
+  "decision": "extra-time"
+}

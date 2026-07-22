@@ -1,0 +1,271 @@
+{
+  "id": "2026-07-10-qf-98",
+  "date": "2026-07-10",
+  "home": "spain",
+  "away": "belgium",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 70492,
+  "referee": "Michael Oliver",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760511"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Fabián Ruiz",
+      "minute": "30",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "belgium",
+      "player": "Charles De Ketelaere",
+      "minute": "41",
+      "type": "regular",
+      "assist": "Timothy Castagne"
+    },
+    {
+      "team": "spain",
+      "player": "Mikel Merino",
+      "minute": "88",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "spain",
+      "player": "Pau Cubarsí",
+      "minute": "43",
+      "card": "yellow"
+    },
+    {
+      "team": "belgium",
+      "player": "Kevin De Bruyne",
+      "minute": "85",
+      "card": "yellow"
+    },
+    {
+      "team": "spain",
+      "player": "Aymeric Laporte",
+      "minute": "90+3",
+      "card": "yellow"
+    },
+    {
+      "team": "belgium",
+      "player": "Axel Witsel",
+      "minute": "90+5",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Álex Baena",
+      "minute": "55"
+    },
+    {
+      "team": "spain",
+      "on": "Pedri",
+      "off": "Fabián Ruiz",
+      "minute": "55"
+    },
+    {
+      "team": "belgium",
+      "on": "Axel Witsel",
+      "off": "Leandro Trossard",
+      "minute": "60"
+    },
+    {
+      "team": "belgium",
+      "on": "Romelu Lukaku",
+      "off": "Hans Vanaken",
+      "minute": "60"
+    },
+    {
+      "team": "belgium",
+      "on": "Joaquin Seys",
+      "off": "Maxim De Cuyper",
+      "minute": "61"
+    },
+    {
+      "team": "belgium",
+      "on": "Senne Lammens",
+      "off": "Thibaut Courtois",
+      "minute": "71"
+    },
+    {
+      "team": "spain",
+      "on": "Nico Williams",
+      "off": "Mikel Oyarzabal",
+      "minute": "79"
+    },
+    {
+      "team": "belgium",
+      "on": "Alexis Saelemaekers",
+      "off": "Kevin De Bruyne",
+      "minute": "86"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "86"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Fabián Ruiz",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Rudi Garcia",
+      "starting": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Nicolas Raskin",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "FW",
+          "number": 17
+        },
+        {
+          "name": "Jérémy Doku",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 68,
+      "shots": 17,
+      "shots_on_target": 8,
+      "corners": 5,
+      "fouls": 13,
+      "offsides": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 664,
+      "pass_accuracy": 90
+    },
+    "away": {
+      "possession": 32,
+      "shots": 5,
+      "shots_on_target": 2,
+      "corners": 1,
+      "fouls": 18,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 312,
+      "pass_accuracy": 78
+    }
+  },
+  "decision": "regular"
+}

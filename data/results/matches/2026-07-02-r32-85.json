@@ -1,0 +1,258 @@
+{
+  "id": "2026-07-02-r32-85",
+  "date": "2026-07-02",
+  "home": "switzerland",
+  "away": "algeria",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 52497,
+  "referee": "Yael Falcón Pérez",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760498"
+  ],
+  "goals": [
+    {
+      "team": "switzerland",
+      "player": "Breel Embolo",
+      "minute": "10",
+      "type": "regular",
+      "assist": "Johan Manzambi"
+    },
+    {
+      "team": "switzerland",
+      "player": "Dan Ndoye",
+      "minute": "46",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "algeria",
+      "player": "Farès Chaïbi",
+      "minute": "36",
+      "card": "yellow"
+    },
+    {
+      "team": "algeria",
+      "player": "Hicham Boudaoui",
+      "minute": "72",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "algeria",
+      "on": "Jaouen Hadjam",
+      "off": "Houssem Aouar",
+      "minute": "58"
+    },
+    {
+      "team": "algeria",
+      "on": "Amine Gouiri",
+      "off": "Ramiz Zerrouki",
+      "minute": "58"
+    },
+    {
+      "team": "switzerland",
+      "on": "Fabian Rieder",
+      "off": "Rubén Vargas",
+      "minute": "71"
+    },
+    {
+      "team": "switzerland",
+      "on": "Noah Okafor",
+      "off": "Johan Manzambi",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Hicham Boudaoui",
+      "off": "Nabil Bentaleb",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Anis Hadj Moussa",
+      "off": "Riyad Mahrez",
+      "minute": "71"
+    },
+    {
+      "team": "algeria",
+      "on": "Adil Boulbina",
+      "off": "Rafik Belghali",
+      "minute": "82"
+    },
+    {
+      "team": "switzerland",
+      "on": "Zeki Amdouni",
+      "off": "Breel Embolo",
+      "minute": "83"
+    },
+    {
+      "team": "switzerland",
+      "on": "Silvan Widmer",
+      "off": "Denis Zakaria",
+      "minute": "87"
+    },
+    {
+      "team": "switzerland",
+      "on": "Michel Aebischer",
+      "off": "Dan Ndoye",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Murat Yakin",
+      "starting": [
+        {
+          "name": "Gregor Kobel",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Rubén Vargas",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "MF",
+          "number": 11
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Vladimir Petković",
+      "starting": [
+        {
+          "name": "Luca Zidane",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Ramy Bensebaini",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Aïssa Mandi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Rayan Aït-Nouri",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Farès Chaïbi",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ramiz Zerrouki",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "FW",
+          "number": 22
+        },
+        {
+          "name": "Houssem Aouar",
+          "position": "FW",
+          "number": 8
+        },
+        {
+          "name": "Riyad Mahrez",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 44,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 4,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 438,
+      "pass_accuracy": 81
+    },
+    "away": {
+      "possession": 56,
+      "shots": 8,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 12,
+      "offsides": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 563,
+      "pass_accuracy": 85
+    }
+  },
+  "decision": "regular"
+}

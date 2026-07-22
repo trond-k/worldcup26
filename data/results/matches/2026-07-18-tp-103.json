@@ -1,0 +1,301 @@
+{
+  "id": "2026-07-18-tp-103",
+  "date": "2026-07-18",
+  "home": "france",
+  "away": "england",
+  "home_score": 4,
+  "away_score": 6,
+  "attendance": 64478,
+  "referee": "Jesús Valenzuela",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760516"
+  ],
+  "goals": [
+    {
+      "team": "england",
+      "player": "Declan Rice",
+      "minute": "3",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "england",
+      "player": "Ezri Konsa",
+      "minute": "18",
+      "type": "regular",
+      "assist": "Declan Rice"
+    },
+    {
+      "team": "england",
+      "player": "Bukayo Saka",
+      "minute": "37",
+      "type": "regular",
+      "assist": "Marcus Rashford"
+    },
+    {
+      "team": "england",
+      "player": "Bukayo Saka",
+      "minute": "45+1",
+      "type": "regular",
+      "assist": "Eberechi Eze"
+    },
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "48",
+      "type": "regular",
+      "assist": "Michael Olise"
+    },
+    {
+      "team": "france",
+      "player": "Bradley Barcola",
+      "minute": "54",
+      "type": "regular",
+      "assist": "Kylian Mbappé"
+    },
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "66",
+      "type": "regular",
+      "assist": "Michael Olise"
+    },
+    {
+      "team": "england",
+      "player": "Bukayo Saka",
+      "minute": "87",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "90+6",
+      "type": "regular",
+      "assist": "Dayot Upamecano"
+    },
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "90+8",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [],
+  "substitutions": [
+    {
+      "team": "france",
+      "on": "Ousmane Dembélé",
+      "off": "Rayan Cherki",
+      "minute": "45"
+    },
+    {
+      "team": "france",
+      "on": "Bradley Barcola",
+      "off": "Désiré Doué",
+      "minute": "45"
+    },
+    {
+      "team": "france",
+      "on": "Lucas Digne",
+      "off": "Theo Hernández",
+      "minute": "45"
+    },
+    {
+      "team": "france",
+      "on": "Dayot Upamecano",
+      "off": "Ibrahima Konaté",
+      "minute": "45"
+    },
+    {
+      "team": "england",
+      "on": "Ollie Watkins",
+      "off": "Marcus Rashford",
+      "minute": "45"
+    },
+    {
+      "team": "england",
+      "on": "Elliot Anderson",
+      "off": "Ivan Toney",
+      "minute": "79"
+    },
+    {
+      "team": "england",
+      "on": "Jude Bellingham",
+      "off": "Eberechi Eze",
+      "minute": "79"
+    },
+    {
+      "team": "england",
+      "on": "Reece James",
+      "off": "Jarell Quansah",
+      "minute": "83"
+    },
+    {
+      "team": "france",
+      "on": "Jules Koundé",
+      "off": "Malo Gusto",
+      "minute": "90+1"
+    },
+    {
+      "team": "england",
+      "on": "Trevoh Chalobah",
+      "off": "Marc Guéhi",
+      "minute": "90+3"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Theo Hernández",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Malo Gusto",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Rayan Cherki",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Warren Zaïre-Emery",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Désiré Doué",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Dean Henderson",
+          "position": "GK",
+          "number": 13
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Djed Spence",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Ivan Toney",
+          "position": "FW",
+          "number": 22
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 46,
+      "shots": 19,
+      "shots_on_target": 9,
+      "corners": 3,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 445,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 54,
+      "shots": 19,
+      "shots_on_target": 11,
+      "corners": 4,
+      "fouls": 8,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 518,
+      "pass_accuracy": 91
+    }
+  },
+  "decision": "regular"
+}

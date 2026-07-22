@@ -1,0 +1,258 @@
+{
+  "id": "2026-06-27-croatia-vs-ghana",
+  "date": "2026-06-27",
+  "home": "croatia",
+  "away": "ghana",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 68324,
+  "referee": "Drew Fischer",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760480"
+  ],
+  "goals": [
+    {
+      "team": "croatia",
+      "player": "Petar Sucic",
+      "minute": "31",
+      "type": "regular",
+      "assist": "Mateo Kovacic"
+    },
+    {
+      "team": "ghana",
+      "player": "Derrick Luckassen",
+      "minute": "73",
+      "type": "regular",
+      "assist": "Ernest Nuamah"
+    },
+    {
+      "team": "croatia",
+      "player": "Nikola Vlasic",
+      "minute": "83",
+      "type": "regular",
+      "assist": "Luka Modric"
+    }
+  ],
+  "cards": [
+    {
+      "team": "croatia",
+      "player": "Ivan Perisic",
+      "minute": "68",
+      "card": "yellow"
+    },
+    {
+      "team": "ghana",
+      "player": "Kojo Peprah Oppong",
+      "minute": "90+4",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "ghana",
+      "on": "Kojo Peprah Oppong",
+      "off": "Jonas Adjetey",
+      "minute": "45"
+    },
+    {
+      "team": "ghana",
+      "on": "Fatawu Issahaku",
+      "off": "Elisha Owusu",
+      "minute": "45"
+    },
+    {
+      "team": "croatia",
+      "on": "Igor Matanovic",
+      "off": "Ante Budimir",
+      "minute": "66"
+    },
+    {
+      "team": "ghana",
+      "on": "Brandon Thomas-Asante",
+      "off": "Jordan Ayew",
+      "minute": "71"
+    },
+    {
+      "team": "ghana",
+      "on": "Ernest Nuamah",
+      "off": "Kamaldeen Sulemana",
+      "minute": "71"
+    },
+    {
+      "team": "croatia",
+      "on": "Mario Pasalic",
+      "off": "Mateo Kovacic",
+      "minute": "78"
+    },
+    {
+      "team": "ghana",
+      "on": "Caleb Yirenkyi",
+      "off": "Kwasi Sibo",
+      "minute": "85"
+    },
+    {
+      "team": "croatia",
+      "on": "Josko Gvardiol",
+      "off": "Nikola Vlasic",
+      "minute": "88"
+    },
+    {
+      "team": "croatia",
+      "on": "Marco Pasalic",
+      "off": "Martin Baturina",
+      "minute": "88"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Zlatko Dalic",
+      "starting": [
+        {
+          "name": "Dominik Livakovic",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Josip Sutalo",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ivan Perisic",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Josip Stanisic",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Mateo Kovacic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Luka Modric",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Nikola Vlasic",
+          "position": "MF",
+          "number": 13
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Carlos Queiroz",
+      "starting": [
+        {
+          "name": "Benjamin Asare",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Derrick Luckassen",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Jonas Adjetey",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Thomas Partey",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Kwasi Sibo",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Elisha Owusu",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Kamaldeen Sulemana",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Antoine Semenyo",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Jordan Ayew",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 53,
+      "shots": 8,
+      "shots_on_target": 4,
+      "corners": 3,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 523,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 47,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 2,
+      "fouls": 13,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 455,
+      "pass_accuracy": 88
+    }
+  }
+}

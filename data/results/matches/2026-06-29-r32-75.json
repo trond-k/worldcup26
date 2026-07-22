@@ -1,0 +1,260 @@
+{
+  "id": "2026-06-29-r32-75",
+  "date": "2026-06-29",
+  "home": "netherlands",
+  "away": "morocco",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 51243,
+  "referee": "Wilton Pereira Sampaio",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760488"
+  ],
+  "goals": [
+    {
+      "team": "netherlands",
+      "player": "Cody Gakpo",
+      "minute": "72",
+      "type": "regular",
+      "assist": "Crysencio Summerville"
+    },
+    {
+      "team": "morocco",
+      "player": "Issa Diop",
+      "minute": "90+1",
+      "type": "regular",
+      "assist": "Chemsdine Talbi"
+    }
+  ],
+  "cards": [
+    {
+      "team": "morocco",
+      "player": "Issa Diop",
+      "minute": "47",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "netherlands",
+      "on": "Teun Koopmeiners",
+      "off": "Nathan Aké",
+      "minute": "71"
+    },
+    {
+      "team": "netherlands",
+      "on": "Wout Weghorst",
+      "off": "Brian Brobbey",
+      "minute": "71"
+    },
+    {
+      "team": "morocco",
+      "on": "Anass Salah-Eddine",
+      "off": "Chadi Riad",
+      "minute": "75"
+    },
+    {
+      "team": "morocco",
+      "on": "Gessime Yassine",
+      "off": "Brahim Díaz",
+      "minute": "79"
+    },
+    {
+      "team": "morocco",
+      "on": "Samir El Mourabet",
+      "off": "Ayyoub Bouaddi",
+      "minute": "79"
+    },
+    {
+      "team": "morocco",
+      "on": "Soufiane Rahimi",
+      "off": "Azzedine Ounahi",
+      "minute": "86"
+    },
+    {
+      "team": "netherlands",
+      "on": "Jorrel Hato",
+      "off": "Micky van de Ven",
+      "minute": "86"
+    },
+    {
+      "team": "netherlands",
+      "on": "Quinten Timber",
+      "off": "Ryan Gravenberch",
+      "minute": "86"
+    },
+    {
+      "team": "morocco",
+      "on": "Chemsdine Talbi",
+      "off": "Bilal El Khannouss",
+      "minute": "87"
+    },
+    {
+      "team": "netherlands",
+      "on": "Marten de Roon",
+      "off": "Frenkie de Jong",
+      "minute": "110"
+    },
+    {
+      "team": "netherlands",
+      "on": "Justin Kluivert",
+      "off": "Cody Gakpo",
+      "minute": "113"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "manager": "Ronald Koeman",
+      "starting": [
+        {
+          "name": "Bart Verbruggen",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nathan Aké",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Denzel Dumfries",
+          "position": "MF",
+          "number": 22
+        },
+        {
+          "name": "Brian Brobbey",
+          "position": "FW",
+          "number": 19
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Crysencio Summerville",
+          "position": "FW",
+          "number": 24
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Chadi Riad",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Issa Diop",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 30,
+      "shots": 6,
+      "shots_on_target": 2,
+      "corners": 5,
+      "fouls": 18,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 371,
+      "pass_accuracy": 79
+    },
+    "away": {
+      "possession": 70,
+      "shots": 11,
+      "shots_on_target": 5,
+      "corners": 8,
+      "fouls": 15,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 879,
+      "pass_accuracy": 91
+    }
+  },
+  "decision": "penalties",
+  "home_penalties": 2,
+  "away_penalties": 3
+}

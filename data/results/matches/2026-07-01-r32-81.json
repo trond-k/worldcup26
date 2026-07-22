@@ -1,0 +1,246 @@
+{
+  "id": "2026-07-01-r32-81",
+  "date": "2026-07-01",
+  "home": "usa",
+  "away": "bosnia-herzegovina",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 68827,
+  "referee": "Raphael Claus",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760494"
+  ],
+  "goals": [
+    {
+      "team": "usa",
+      "player": "Folarin Balogun",
+      "minute": "45",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "usa",
+      "player": "Malik Tillman",
+      "minute": "82",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "usa",
+      "player": "Folarin Balogun",
+      "minute": "64",
+      "card": "red"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "player": "Stjepan Radeljic",
+      "minute": "80",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Esmir Bajraktarevic",
+      "off": "Armin Gigovic",
+      "minute": "51"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Benjamin Tahirovic",
+      "off": "Ivan Sunjic",
+      "minute": "51"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Ermin Mahmic",
+      "off": "Edin Dzeko",
+      "minute": "51"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Haris Tabakovic",
+      "off": "Sead Kolasinac",
+      "minute": "75"
+    },
+    {
+      "team": "bosnia-herzegovina",
+      "on": "Amar Memic",
+      "off": "Nikola Katic",
+      "minute": "75"
+    },
+    {
+      "team": "usa",
+      "on": "Sebastian Berhalter",
+      "off": "Sergiño Dest",
+      "minute": "87"
+    },
+    {
+      "team": "usa",
+      "on": "Ricardo Pepi",
+      "off": "Christian Pulisic",
+      "minute": "88"
+    },
+    {
+      "team": "usa",
+      "on": "Giovanni Reyna",
+      "off": "Weston McKennie",
+      "minute": "90+5"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Mauricio Pochettino",
+      "starting": [
+        {
+          "name": "Matt Freese",
+          "position": "GK",
+          "number": 24
+        },
+        {
+          "name": "Tim Ream",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Chris Richards",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Tyler Adams",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Malik Tillman",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Folarin Balogun",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Sergiño Dest",
+          "position": "FW",
+          "number": 2
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "manager": "Sergej Barbarez",
+      "starting": [
+        {
+          "name": "Nikola Vasilj",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Stjepan Radeljic",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Nikola Katic",
+          "position": "DF",
+          "number": 18
+        },
+        {
+          "name": "Sead Kolasinac",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Amar Dedic",
+          "position": "DF",
+          "number": 7
+        },
+        {
+          "name": "Ivan Sunjic",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Kerim Alajbegovic",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Armin Gigovic",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Edin Dzeko",
+          "position": "FW",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 48,
+      "shots": 8,
+      "shots_on_target": 2,
+      "corners": 4,
+      "fouls": 7,
+      "offsides": 3,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "saves": 3,
+      "passes": 415,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 52,
+      "shots": 10,
+      "shots_on_target": 3,
+      "corners": 3,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 447,
+      "pass_accuracy": 82
+    }
+  },
+  "decision": "regular"
+}

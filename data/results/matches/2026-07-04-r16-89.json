@@ -1,0 +1,233 @@
+{
+  "id": "2026-07-04-r16-89",
+  "date": "2026-07-04",
+  "home": "paraguay",
+  "away": "france",
+  "home_score": 0,
+  "away_score": 1,
+  "attendance": 68324,
+  "referee": "Ilgiz Tantashev",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760503"
+  ],
+  "goals": [
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "70",
+      "type": "penalty",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "france",
+      "player": "Bradley Barcola",
+      "minute": "19",
+      "card": "yellow"
+    },
+    {
+      "team": "france",
+      "player": "Manu Koné",
+      "minute": "81",
+      "card": "yellow"
+    },
+    {
+      "team": "france",
+      "player": "Michael Olise",
+      "minute": "90+7",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "paraguay",
+      "on": "José Canale",
+      "off": "Omar Alderete",
+      "minute": "58"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gustavo Caballero",
+      "off": "Julio Enciso",
+      "minute": "61"
+    },
+    {
+      "team": "france",
+      "on": "Désiré Doué",
+      "off": "Bradley Barcola",
+      "minute": "61"
+    },
+    {
+      "team": "paraguay",
+      "on": "Maurício",
+      "off": "Diego Gómez",
+      "minute": "71"
+    },
+    {
+      "team": "paraguay",
+      "on": "Gabriel Ávalos",
+      "off": "Miguel Almirón",
+      "minute": "71"
+    },
+    {
+      "team": "france",
+      "on": "Rayan Cherki",
+      "off": "Ousmane Dembélé",
+      "minute": "84"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "5-4-1",
+      "manager": "Gustavo Alfaro",
+      "starting": [
+        {
+          "name": "Orlando Gill",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Gustavo Gómez",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Gustavo Velázquez",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Júnior Alonso",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Juan Jose Cáceres",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Andrés Cubas",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Diego Gómez",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Matías Galarza",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Miguel Almirón",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "William Saliba",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Manu Koné",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 24,
+      "shots": 5,
+      "shots_on_target": 1,
+      "corners": 2,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 183,
+      "pass_accuracy": 54
+    },
+    "away": {
+      "possession": 76,
+      "shots": 15,
+      "shots_on_target": 5,
+      "corners": 12,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 569,
+      "pass_accuracy": 90
+    }
+  },
+  "decision": "regular"
+}

@@ -1,0 +1,246 @@
+{
+  "id": "2026-07-09-qf-97",
+  "date": "2026-07-09",
+  "home": "france",
+  "away": "morocco",
+  "home_score": 2,
+  "away_score": 0,
+  "attendance": 63811,
+  "referee": "Facundo Tello",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760510"
+  ],
+  "goals": [
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "60",
+      "type": "regular",
+      "assist": "Désiré Doué"
+    },
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "66",
+      "type": "regular",
+      "assist": "Kylian Mbappé"
+    }
+  ],
+  "cards": [
+    {
+      "team": "morocco",
+      "player": "Issa Diop",
+      "minute": "63",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "morocco",
+      "on": "Soufiane Rahimi",
+      "off": "Bilal El Khannouss",
+      "minute": "62"
+    },
+    {
+      "team": "morocco",
+      "on": "Sofyan Amrabat",
+      "off": "Ayyoub Bouaddi",
+      "minute": "62"
+    },
+    {
+      "team": "france",
+      "on": "Warren Zaïre-Emery",
+      "off": "Manu Koné",
+      "minute": "71"
+    },
+    {
+      "team": "morocco",
+      "on": "Zakaria El Ouahdi",
+      "off": "Anass Salah-Eddine",
+      "minute": "74"
+    },
+    {
+      "team": "morocco",
+      "on": "Gessime Yassine",
+      "off": "Brahim Díaz",
+      "minute": "74"
+    },
+    {
+      "team": "france",
+      "on": "Jean-Philippe Mateta",
+      "off": "Kylian Mbappé",
+      "minute": "77"
+    },
+    {
+      "team": "france",
+      "on": "Bradley Barcola",
+      "off": "Désiré Doué",
+      "minute": "77"
+    },
+    {
+      "team": "morocco",
+      "on": "Amine Sbaï",
+      "off": "Chemsdine Talbi",
+      "minute": "85"
+    },
+    {
+      "team": "france",
+      "on": "Malo Gusto",
+      "off": "Jules Koundé",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "William Saliba",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Manu Koné",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Désiré Doué",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Issa Diop",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Anass Salah-Eddine",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "FW",
+          "number": 23
+        },
+        {
+          "name": "Chemsdine Talbi",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 48,
+      "shots": 22,
+      "shots_on_target": 8,
+      "corners": 5,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 486,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 52,
+      "shots": 5,
+      "shots_on_target": 1,
+      "corners": 5,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 526,
+      "pass_accuracy": 86
+    }
+  },
+  "decision": "regular"
+}

@@ -7,14 +7,15 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-74",
-      "away": "winner-match-77",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "paraguay",
+      "away": "france",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "completed",
       "venue": "Lincoln Financial Field, Philadelphia",
       "note": "Round of 16 — Match 89.",
-      "match_number": 89
+      "match_number": 89,
+      "decision": "regular"
     },
     {
       "id": "2026-07-04-r16-90",
@@ -22,14 +23,15 @@
       "stage": "round-of-16",
       "group": null,
       "matchday": null,
-      "home": "winner-match-73",
-      "away": "winner-match-75",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "canada",
+      "away": "morocco",
+      "home_score": 0,
+      "away_score": 3,
+      "status": "completed",
       "venue": "NRG Stadium, Houston",
       "note": "Round of 16 — Match 90.",
-      "match_number": 90
+      "match_number": 90,
+      "decision": "regular"
     }
   ]
 }

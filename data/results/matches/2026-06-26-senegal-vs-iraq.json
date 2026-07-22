@@ -1,0 +1,296 @@
+{
+  "id": "2026-06-26-senegal-vs-iraq",
+  "date": "2026-06-26",
+  "home": "senegal",
+  "away": "iraq",
+  "home_score": 5,
+  "away_score": 0,
+  "attendance": 43036,
+  "referee": "Anthony Taylor",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760474"
+  ],
+  "goals": [
+    {
+      "team": "senegal",
+      "player": "Habib Diarra",
+      "minute": "4",
+      "type": "regular",
+      "assist": "Abdoulaye Seck"
+    },
+    {
+      "team": "senegal",
+      "player": "Ismaïla Sarr",
+      "minute": "56",
+      "type": "regular",
+      "assist": "Lamine Camara"
+    },
+    {
+      "team": "senegal",
+      "player": "Pape Gueye",
+      "minute": "59",
+      "type": "regular",
+      "assist": "Ismaïla Sarr"
+    },
+    {
+      "team": "senegal",
+      "player": "Pape Gueye",
+      "minute": "71",
+      "type": "regular",
+      "assist": "Iliman Ndiaye"
+    },
+    {
+      "team": "senegal",
+      "player": "Iliman Ndiaye",
+      "minute": "82",
+      "type": "regular",
+      "assist": "Pape Gueye"
+    }
+  ],
+  "cards": [
+    {
+      "team": "iraq",
+      "player": "Rebin Sulaka",
+      "minute": "13",
+      "card": "red"
+    },
+    {
+      "team": "senegal",
+      "player": "Abdoulaye Seck",
+      "minute": "18",
+      "card": "yellow"
+    },
+    {
+      "team": "iraq",
+      "player": "Amir Al-Ammari",
+      "minute": "75",
+      "card": "yellow"
+    },
+    {
+      "team": "senegal",
+      "player": "Pape Gueye",
+      "minute": "81",
+      "card": "yellow"
+    },
+    {
+      "team": "iraq",
+      "player": "Merchas Doski",
+      "minute": "90",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "iraq",
+      "on": "Munaf Younus",
+      "off": "Ahmed Qasim",
+      "minute": "16"
+    },
+    {
+      "team": "iraq",
+      "on": "Jalal Hassan",
+      "off": "Ahmed Basil",
+      "minute": "45"
+    },
+    {
+      "team": "senegal",
+      "on": "Iliman Ndiaye",
+      "off": "Ibrahim Mbaye",
+      "minute": "57"
+    },
+    {
+      "team": "senegal",
+      "on": "Nicolas Jackson",
+      "off": "Lamine Camara",
+      "minute": "57"
+    },
+    {
+      "team": "senegal",
+      "on": "Pape Gueye",
+      "off": "Habib Diarra",
+      "minute": "57"
+    },
+    {
+      "team": "iraq",
+      "on": "Ahmed Maknazi",
+      "off": "Ali Jasim",
+      "minute": "58"
+    },
+    {
+      "team": "iraq",
+      "on": "Hashim Ali",
+      "off": "Ali Al-Hamadi",
+      "minute": "58"
+    },
+    {
+      "team": "senegal",
+      "on": "Pathé Ciss",
+      "off": "Abdoulaye Seck",
+      "minute": "58"
+    },
+    {
+      "team": "iraq",
+      "on": "Kevin Yakob",
+      "off": "Zidane Iqbal",
+      "minute": "67"
+    },
+    {
+      "team": "senegal",
+      "on": "Assane Diao",
+      "off": "Ismaïla Sarr",
+      "minute": "81"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Pape Thiaw",
+      "starting": [
+        {
+          "name": "Mory Diaw",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Moussa Niakhaté",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Abdoulaye Seck",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ismail Jakobs",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Krépin Diatta",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Idrissa Gueye",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Habib Diarra",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Ismaïla Sarr",
+          "position": "FW",
+          "number": 18
+        },
+        {
+          "name": "Sadio Mané",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Ibrahim Mbaye",
+          "position": "FW",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Graham Arnold",
+      "starting": [
+        {
+          "name": "Ahmed Basil",
+          "position": "GK",
+          "number": 22
+        },
+        {
+          "name": "Akam Hashim",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Rebin Sulaka",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Merchas Doski",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Frans Putros",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Ali Jasim",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Amir Al-Ammari",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Zidane Iqbal",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Ali Al-Hamadi",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Ibrahim Bayesh",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Ahmed Qasim",
+          "position": "MF",
+          "number": 11
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 69,
+      "shots": 28,
+      "shots_on_target": 12,
+      "corners": 12,
+      "fouls": 10,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 590,
+      "pass_accuracy": 88
+    },
+    "away": {
+      "possession": 31,
+      "shots": 6,
+      "shots_on_target": 1,
+      "corners": 3,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "saves": 7,
+      "passes": 266,
+      "pass_accuracy": 69
+    }
+  }
+}

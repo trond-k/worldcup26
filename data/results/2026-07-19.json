@@ -7,14 +7,15 @@
       "stage": "final",
       "group": null,
       "matchday": null,
-      "home": "winner-match-101",
-      "away": "winner-match-102",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home": "spain",
+      "away": "argentina",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "completed",
       "venue": "MetLife Stadium, East Rutherford",
       "note": "Final — Match 104.",
-      "match_number": 104
+      "match_number": 104,
+      "decision": "extra-time"
     }
   ]
 }

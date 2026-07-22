@@ -1,0 +1,259 @@
+{
+  "id": "2026-07-01-r32-80",
+  "date": "2026-07-01",
+  "home": "england",
+  "away": "dr-congo",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 68239,
+  "referee": "Adham Mohammad",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760495"
+  ],
+  "goals": [
+    {
+      "team": "dr-congo",
+      "player": "Brian Cipenga",
+      "minute": "7",
+      "type": "regular",
+      "assist": "Chancel Mbemba"
+    },
+    {
+      "team": "england",
+      "player": "Harry Kane",
+      "minute": "75",
+      "type": "regular",
+      "assist": "Anthony Gordon"
+    },
+    {
+      "team": "england",
+      "player": "Harry Kane",
+      "minute": "86",
+      "type": "regular",
+      "assist": "Anthony Gordon"
+    }
+  ],
+  "cards": [
+    {
+      "team": "england",
+      "player": "Jude Bellingham",
+      "minute": "19",
+      "card": "yellow"
+    },
+    {
+      "team": "dr-congo",
+      "player": "Noah Sadiki",
+      "minute": "28",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "england",
+      "on": "Bukayo Saka",
+      "off": "Noni Madueke",
+      "minute": "61"
+    },
+    {
+      "team": "england",
+      "on": "Anthony Gordon",
+      "off": "Marcus Rashford",
+      "minute": "61"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Meschack Elia",
+      "off": "Nathanaël Mbuku",
+      "minute": "64"
+    },
+    {
+      "team": "england",
+      "on": "Eberechi Eze",
+      "off": "Djed Spence",
+      "minute": "70"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Théo Bongonda",
+      "off": "Brian Cipenga",
+      "minute": "76"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Edo Kayembe",
+      "off": "Ngal'ayel Mukau",
+      "minute": "76"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Joris Kayembe",
+      "off": "Arthur Masuaku",
+      "minute": "89"
+    },
+    {
+      "team": "dr-congo",
+      "on": "Fiston Mayele",
+      "off": "Samuel Moutoussamy",
+      "minute": "89"
+    },
+    {
+      "team": "england",
+      "on": "John Stones",
+      "off": "Declan Rice",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Nico O'Reilly",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Djed Spence",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "MF",
+          "number": 20
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "manager": "Sébastien Desabre",
+      "starting": [
+        {
+          "name": "Lionel Mpasi",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Chancel Mbemba",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Arthur Masuaku",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Samuel Moutoussamy",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Noah Sadiki",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Yoane Wissa",
+          "position": "FW",
+          "number": 20
+        },
+        {
+          "name": "Brian Cipenga",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Nathanaël Mbuku",
+          "position": "FW",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 60,
+      "shots": 16,
+      "shots_on_target": 7,
+      "corners": 5,
+      "fouls": 10,
+      "offsides": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 517,
+      "pass_accuracy": 91
+    },
+    "away": {
+      "possession": 40,
+      "shots": 7,
+      "shots_on_target": 2,
+      "corners": 3,
+      "fouls": 12,
+      "offsides": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 365,
+      "pass_accuracy": 82
+    }
+  },
+  "decision": "regular"
+}

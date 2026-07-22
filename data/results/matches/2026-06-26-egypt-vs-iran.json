@@ -1,0 +1,275 @@
+{
+  "id": "2026-06-26-egypt-vs-iran",
+  "date": "2026-06-26",
+  "home": "egypt",
+  "away": "iran",
+  "home_score": 1,
+  "away_score": 1,
+  "attendance": 66925,
+  "referee": "Szymon Marciniak",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760476"
+  ],
+  "goals": [
+    {
+      "team": "egypt",
+      "player": "Mahmoud Saber",
+      "minute": "5",
+      "type": "regular",
+      "assist": "Trézéguet"
+    },
+    {
+      "team": "iran",
+      "player": "Ramin Rezaeian",
+      "minute": "14",
+      "type": "regular",
+      "assist": null
+    }
+  ],
+  "cards": [
+    {
+      "team": "iran",
+      "player": "Hossein Kanani",
+      "minute": "19",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Mahmoud Saber",
+      "minute": "20",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Yasser Ibrahim",
+      "minute": "42",
+      "card": "yellow"
+    },
+    {
+      "team": "iran",
+      "player": "Ali Nemati",
+      "minute": "43",
+      "card": "yellow"
+    },
+    {
+      "team": "iran",
+      "player": "Saeid Ezatolahi",
+      "minute": "79",
+      "card": "yellow"
+    },
+    {
+      "team": "egypt",
+      "player": "Mohanad Lashin",
+      "minute": "90+2",
+      "card": "yellow"
+    },
+    {
+      "team": "iran",
+      "player": "Shoja Khalilzadeh",
+      "minute": "90+4",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "egypt",
+      "on": "Yasser Ibrahim",
+      "off": "Mohamed Abdelmoneim",
+      "minute": "14"
+    },
+    {
+      "team": "iran",
+      "on": "Saleh Hardani",
+      "off": "Hossein Kanani",
+      "minute": "45"
+    },
+    {
+      "team": "egypt",
+      "on": "Marawan Attia",
+      "off": "Mahmoud Saber",
+      "minute": "45"
+    },
+    {
+      "team": "egypt",
+      "on": "Omar Marmoush",
+      "off": "Emam Ashour",
+      "minute": "45"
+    },
+    {
+      "team": "egypt",
+      "on": "Zizo",
+      "off": "Mohamed Salah",
+      "minute": "57"
+    },
+    {
+      "team": "iran",
+      "on": "Shahriyar Moghanloo",
+      "off": "Saman Ghoddos",
+      "minute": "67"
+    },
+    {
+      "team": "egypt",
+      "on": "Hamza Abdelkarim",
+      "off": "Mostafa Zico",
+      "minute": "76"
+    },
+    {
+      "team": "iran",
+      "on": "Alireza Jahanbakhsh",
+      "off": "Mohammad Mohebbi",
+      "minute": "90+1"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Hossam Hassan",
+      "starting": [
+        {
+          "name": "Mostafa Shoubir",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Mohamed Abdelmoneim",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Ramy Rabia",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Ahmed Fatouh",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Mohamed Hany",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Mahmoud Saber",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Mohanad Lashin",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Mostafa Zico",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Trézéguet",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Emam Ashour",
+          "position": "MF",
+          "number": 8
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-4-1",
+      "manager": "Amir Ghalenoei",
+      "starting": [
+        {
+          "name": "Alireza Beiranvand",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Shoja Khalilzadeh",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Ali Nemati",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Hossein Kanani",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Milad Mohammadi",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Ramin Rezaeian",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Saeid Ezatolahi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Mohammad Ghorbani",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Mohammad Mohebbi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Saman Ghoddos",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Mehdi Taremi",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 61,
+      "shots": 15,
+      "shots_on_target": 3,
+      "corners": 8,
+      "fouls": 11,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 589,
+      "pass_accuracy": 87
+    },
+    "away": {
+      "possession": 39,
+      "shots": 13,
+      "shots_on_target": 4,
+      "corners": 2,
+      "fouls": 16,
+      "offsides": 3,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 367,
+      "pass_accuracy": 77
+    }
+  }
+}

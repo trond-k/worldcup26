@@ -1,0 +1,236 @@
+{
+  "id": "2026-06-27-colombia-vs-portugal",
+  "date": "2026-06-27",
+  "home": "colombia",
+  "away": "portugal",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 64478,
+  "referee": "Alireza Faghani",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760481"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "colombia",
+      "player": "Gustavo Puerta",
+      "minute": "86",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "portugal",
+      "on": "Diogo Dalot",
+      "off": "João Cancelo",
+      "minute": "45"
+    },
+    {
+      "team": "portugal",
+      "on": "João Neves",
+      "off": "Rúben Neves",
+      "minute": "45"
+    },
+    {
+      "team": "colombia",
+      "on": "Richard Ríos",
+      "off": "Jefferson Lerma",
+      "minute": "60"
+    },
+    {
+      "team": "colombia",
+      "on": "Luis Suárez",
+      "off": "Jhon Córdoba",
+      "minute": "60"
+    },
+    {
+      "team": "portugal",
+      "on": "Rafael Leão",
+      "off": "João Félix",
+      "minute": "70"
+    },
+    {
+      "team": "portugal",
+      "on": "Samú Costa",
+      "off": "Vitinha",
+      "minute": "70"
+    },
+    {
+      "team": "colombia",
+      "on": "Kevin Castaño",
+      "off": "Jhon Arias",
+      "minute": "76"
+    },
+    {
+      "team": "colombia",
+      "on": "Juan Fernando Quintero",
+      "off": "James Rodríguez",
+      "minute": "76"
+    },
+    {
+      "team": "colombia",
+      "on": "Daniel Muñoz",
+      "off": "Santiago Arias",
+      "minute": "87"
+    },
+    {
+      "team": "portugal",
+      "on": "Matheus Nunes",
+      "off": "Nuno Mendes",
+      "minute": "90+2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Néstor Lorenzo",
+      "starting": [
+        {
+          "name": "Camilo Vargas",
+          "position": "GK",
+          "number": 12
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "DF",
+          "number": 23
+        },
+        {
+          "name": "Deiver Machado",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Santiago Arias",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Jhon Arias",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Jhon Córdoba",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "James Rodríguez",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Roberto Martínez",
+      "starting": [
+        {
+          "name": "Diogo Costa",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "João Cancelo",
+          "position": "DF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Vitinha",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Rúben Neves",
+          "position": "MF",
+          "number": 21
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "João Félix",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "MF",
+          "number": 18
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 55,
+      "shots": 24,
+      "shots_on_target": 6,
+      "corners": 5,
+      "fouls": 12,
+      "offsides": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 544,
+      "pass_accuracy": 89
+    },
+    "away": {
+      "possession": 45,
+      "shots": 13,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 6,
+      "offsides": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 6,
+      "passes": 446,
+      "pass_accuracy": 91
+    }
+  }
+}

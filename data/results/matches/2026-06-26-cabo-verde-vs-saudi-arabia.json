@@ -1,0 +1,254 @@
+{
+  "id": "2026-06-26-cabo-verde-vs-saudi-arabia",
+  "date": "2026-06-26",
+  "home": "cabo-verde",
+  "away": "saudi-arabia",
+  "home_score": 0,
+  "away_score": 0,
+  "attendance": 68278,
+  "referee": "Francois Letexier",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760478"
+  ],
+  "goals": [],
+  "cards": [
+    {
+      "team": "saudi-arabia",
+      "player": "Saud Abdulhamid",
+      "minute": "4",
+      "card": "yellow"
+    },
+    {
+      "team": "cabo-verde",
+      "player": "Wagner Pina",
+      "minute": "8",
+      "card": "yellow"
+    },
+    {
+      "team": "saudi-arabia",
+      "player": "Nasser Al-Dawsari",
+      "minute": "67",
+      "card": "yellow"
+    },
+    {
+      "team": "saudi-arabia",
+      "player": "Feras Al-Brikan",
+      "minute": "90+3",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "saudi-arabia",
+      "on": "Ali Lajami",
+      "off": "Hassan Al-Tambakti",
+      "minute": "33"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Musab Al-Juwayr",
+      "off": "Abdullah Al-Khaibari",
+      "minute": "45"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Nuno da Costa",
+      "off": "Dailon Livramento",
+      "minute": "61"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Hélio Varela",
+      "off": "Willy Semedo",
+      "minute": "61"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Mohammed Abu Al-Shamat",
+      "off": "Salem Al-Dawsari",
+      "minute": "66"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Abdullah Al-Hamdan",
+      "off": "Sultan Mandash",
+      "minute": "66"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Laros Duarte",
+      "off": "Jamiro Monteiro",
+      "minute": "71"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Garry Rodrigues",
+      "off": "Ryan Mendes",
+      "minute": "71"
+    },
+    {
+      "team": "saudi-arabia",
+      "on": "Moteb Al-Harbi",
+      "off": "Nawaf Boushal",
+      "minute": "82"
+    },
+    {
+      "team": "cabo-verde",
+      "on": "Steven Moreira",
+      "off": "Wagner Pina",
+      "minute": "90+4"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-1-4-1",
+      "manager": "Pedro Brito (Bubista)",
+      "starting": [
+        {
+          "name": "Vozinha",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Diney Borges",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Pico Lopes",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Kevin Pina",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "João Paulo",
+          "position": "DF",
+          "number": 8
+        },
+        {
+          "name": "Wagner Pina",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Jamiro Monteiro",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Deroy Duarte",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Willy Semedo",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Ryan Mendes",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Dailon Livramento",
+          "position": "FW",
+          "number": 19
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "manager": "Georgios Donis",
+      "starting": [
+        {
+          "name": "Mohammed Al-Owais",
+          "position": "GK",
+          "number": 21
+        },
+        {
+          "name": "Hassan Al-Tambakti",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Abdulelah Al-Amri",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Nawaf Boushal",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Nasser Al-Dawsari",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Abdullah Al-Khaibari",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Salem Al-Dawsari",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Sultan Mandash",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Mohamed Kanno",
+          "position": "FW",
+          "number": 23
+        },
+        {
+          "name": "Feras Al-Brikan",
+          "position": "FW",
+          "number": 9
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 51,
+      "shots": 15,
+      "shots_on_target": 2,
+      "corners": 4,
+      "fouls": 10,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 451,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 49,
+      "shots": 7,
+      "shots_on_target": 3,
+      "corners": 2,
+      "fouls": 16,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 2,
+      "passes": 444,
+      "pass_accuracy": 81
+    }
+  }
+}

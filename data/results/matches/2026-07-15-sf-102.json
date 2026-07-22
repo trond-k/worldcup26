@@ -1,0 +1,277 @@
+{
+  "id": "2026-07-15-sf-102",
+  "date": "2026-07-15",
+  "home": "england",
+  "away": "argentina",
+  "home_score": 1,
+  "away_score": 2,
+  "attendance": 68239,
+  "referee": "Ismail Elfath",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760515"
+  ],
+  "goals": [
+    {
+      "team": "england",
+      "player": "Anthony Gordon",
+      "minute": "55",
+      "type": "regular",
+      "assist": "Morgan Rogers"
+    },
+    {
+      "team": "argentina",
+      "player": "Enzo Fernández",
+      "minute": "85",
+      "type": "regular",
+      "assist": "Lionel Messi"
+    },
+    {
+      "team": "argentina",
+      "player": "Lautaro Martínez",
+      "minute": "90+2",
+      "type": "regular",
+      "assist": "Lionel Messi"
+    }
+  ],
+  "cards": [
+    {
+      "team": "england",
+      "player": "Elliot Anderson",
+      "minute": "37",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Lisandro Martínez",
+      "minute": "42",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Cristian Romero",
+      "minute": "51",
+      "card": "yellow"
+    },
+    {
+      "team": "argentina",
+      "player": "Rodrigo De Paul",
+      "minute": "90+4",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "argentina",
+      "on": "Nico González",
+      "off": "Leandro Paredes",
+      "minute": "64"
+    },
+    {
+      "team": "england",
+      "on": "Ezri Konsa",
+      "off": "Anthony Gordon",
+      "minute": "72"
+    },
+    {
+      "team": "argentina",
+      "on": "Gonzalo Montiel",
+      "off": "Nahuel Molina",
+      "minute": "72"
+    },
+    {
+      "team": "argentina",
+      "on": "Rodrigo De Paul",
+      "off": "Giuliano Simeone",
+      "minute": "72"
+    },
+    {
+      "team": "argentina",
+      "on": "Nicolás Otamendi",
+      "off": "Lisandro Martínez",
+      "minute": "72"
+    },
+    {
+      "team": "argentina",
+      "on": "Lautaro Martínez",
+      "off": "Nicolás Tagliafico",
+      "minute": "81"
+    },
+    {
+      "team": "england",
+      "on": "Dan Burn",
+      "off": "Reece James",
+      "minute": "82"
+    },
+    {
+      "team": "england",
+      "on": "Nico O'Reilly",
+      "off": "Declan Rice",
+      "minute": "82"
+    },
+    {
+      "team": "england",
+      "on": "Ivan Toney",
+      "off": "John Stones",
+      "minute": "90+6"
+    },
+    {
+      "team": "england",
+      "on": "Marcus Rashford",
+      "off": "Djed Spence",
+      "minute": "90+6"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Thomas Tuchel",
+      "starting": [
+        {
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "John Stones",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Djed Spence",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Reece James",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Declan Rice",
+          "position": "MF",
+          "number": 4
+        },
+        {
+          "name": "Harry Kane",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "MF",
+          "number": 17
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-1-4-1",
+      "manager": "Lionel Scaloni",
+      "starting": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "DF",
+          "number": 6
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Leandro Paredes",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "MF",
+          "number": 9
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 36,
+      "shots": 5,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 11,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 325,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 64,
+      "shots": 15,
+      "shots_on_target": 5,
+      "corners": 6,
+      "fouls": 15,
+      "offsides": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 588,
+      "pass_accuracy": 91
+    }
+  },
+  "decision": "regular"
+}

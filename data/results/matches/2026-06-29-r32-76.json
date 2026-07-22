@@ -1,0 +1,277 @@
+{
+  "id": "2026-06-29-r32-76",
+  "date": "2026-06-29",
+  "home": "brazil",
+  "away": "japan",
+  "home_score": 2,
+  "away_score": 1,
+  "attendance": 68777,
+  "referee": "Maurizio Mariani",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760487"
+  ],
+  "goals": [
+    {
+      "team": "japan",
+      "player": "Kaishu Sano",
+      "minute": "29",
+      "type": "regular",
+      "assist": null
+    },
+    {
+      "team": "brazil",
+      "player": "Casemiro",
+      "minute": "56",
+      "type": "regular",
+      "assist": "Gabriel Magalhães"
+    },
+    {
+      "team": "brazil",
+      "player": "Gabriel Martinelli",
+      "minute": "90+5",
+      "type": "regular",
+      "assist": "Bruno Guimarães"
+    }
+  ],
+  "cards": [
+    {
+      "team": "japan",
+      "player": "Kaishu Sano",
+      "minute": "12",
+      "card": "yellow"
+    },
+    {
+      "team": "brazil",
+      "player": "Casemiro",
+      "minute": "14",
+      "card": "yellow"
+    },
+    {
+      "team": "japan",
+      "player": "Daichi Kamada",
+      "minute": "45",
+      "card": "yellow"
+    },
+    {
+      "team": "brazil",
+      "player": "Danilo",
+      "minute": "48",
+      "card": "yellow"
+    },
+    {
+      "team": "japan",
+      "player": "Junnosuke Suzuki",
+      "minute": "84",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "brazil",
+      "on": "Endrick",
+      "off": "Lucas Paquetá",
+      "minute": "45"
+    },
+    {
+      "team": "brazil",
+      "on": "Gabriel Martinelli",
+      "off": "Matheus Cunha",
+      "minute": "66"
+    },
+    {
+      "team": "japan",
+      "on": "Junnosuke Suzuki",
+      "off": "Keito Nakamura",
+      "minute": "66"
+    },
+    {
+      "team": "japan",
+      "on": "Yukinari Sugawara",
+      "off": "Ritsu Doan",
+      "minute": "66"
+    },
+    {
+      "team": "japan",
+      "on": "Shuto Machino",
+      "off": "Junya Ito",
+      "minute": "78"
+    },
+    {
+      "team": "japan",
+      "on": "Ao Tanaka",
+      "off": "Daichi Kamada",
+      "minute": "78"
+    },
+    {
+      "team": "brazil",
+      "on": "Fabinho",
+      "off": "Casemiro",
+      "minute": "90+3"
+    },
+    {
+      "team": "japan",
+      "on": "Koki Ogawa",
+      "off": "Daizen Maeda",
+      "minute": "90+7"
+    },
+    {
+      "team": "brazil",
+      "on": "Danilo Santos",
+      "off": "Bruno Guimarães",
+      "minute": "90+8"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Carlo Ancelotti",
+      "starting": [
+        {
+          "name": "Alisson Becker",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Marquinhos",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Douglas Santos",
+          "position": "DF",
+          "number": 16
+        },
+        {
+          "name": "Danilo",
+          "position": "DF",
+          "number": 13
+        },
+        {
+          "name": "Casemiro",
+          "position": "MF",
+          "number": 5
+        },
+        {
+          "name": "Lucas Paquetá",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Matheus Cunha",
+          "position": "FW",
+          "number": 9
+        },
+        {
+          "name": "Vinícius Júnior",
+          "position": "FW",
+          "number": 7
+        },
+        {
+          "name": "Rayan",
+          "position": "FW",
+          "number": 26
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "manager": "Hajime Moriyasu",
+      "starting": [
+        {
+          "name": "Zion Suzuki",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Shogo Taniguchi",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Hiroki Ito",
+          "position": "DF",
+          "number": 21
+        },
+        {
+          "name": "Takehiro Tomiyasu",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Daichi Kamada",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Keito Nakamura",
+          "position": "MF",
+          "number": 13
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Ayase Ueda",
+          "position": "FW",
+          "number": 18
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Junya Ito",
+          "position": "FW",
+          "number": 14
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 69,
+      "shots": 19,
+      "shots_on_target": 7,
+      "corners": 6,
+      "fouls": 4,
+      "offsides": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 682,
+      "pass_accuracy": 92
+    },
+    "away": {
+      "possession": 31,
+      "shots": 5,
+      "shots_on_target": 2,
+      "corners": 2,
+      "fouls": 13,
+      "offsides": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "saves": 4,
+      "passes": 313,
+      "pass_accuracy": 83
+    }
+  },
+  "decision": "regular"
+}

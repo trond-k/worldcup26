@@ -1,0 +1,301 @@
+{
+  "id": "2026-07-04-r16-90",
+  "date": "2026-07-04",
+  "home": "canada",
+  "away": "morocco",
+  "home_score": 0,
+  "away_score": 3,
+  "attendance": 68777,
+  "referee": "Michael Oliver",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760502"
+  ],
+  "goals": [
+    {
+      "team": "morocco",
+      "player": "Azzedine Ounahi",
+      "minute": "50",
+      "type": "regular",
+      "assist": "Achraf Hakimi"
+    },
+    {
+      "team": "morocco",
+      "player": "Azzedine Ounahi",
+      "minute": "82",
+      "type": "regular",
+      "assist": "Brahim Díaz"
+    },
+    {
+      "team": "morocco",
+      "player": "Soufiane Rahimi",
+      "minute": "90+8",
+      "type": "regular",
+      "assist": "Brahim Díaz"
+    }
+  ],
+  "cards": [
+    {
+      "team": "morocco",
+      "player": "Redouane Halhal",
+      "minute": "20",
+      "card": "yellow"
+    },
+    {
+      "team": "morocco",
+      "player": "Achraf Hakimi",
+      "minute": "40",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Richie Laryea",
+      "minute": "40",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Jonathan David",
+      "minute": "43",
+      "card": "yellow"
+    },
+    {
+      "team": "morocco",
+      "player": "Azzedine Ounahi",
+      "minute": "45",
+      "card": "yellow"
+    },
+    {
+      "team": "morocco",
+      "player": "Bilal El Khannouss",
+      "minute": "45+6",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Luc de Fougerolles",
+      "minute": "49",
+      "card": "yellow"
+    },
+    {
+      "team": "canada",
+      "player": "Cyle Larin",
+      "minute": "67",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "morocco",
+      "on": "Soufiane Rahimi",
+      "off": "Ismael Saibari",
+      "minute": "22"
+    },
+    {
+      "team": "morocco",
+      "on": "Chemsdine Talbi",
+      "off": "Bilal El Khannouss",
+      "minute": "63"
+    },
+    {
+      "team": "morocco",
+      "on": "Sofyan Amrabat",
+      "off": "Ayyoub Bouaddi",
+      "minute": "63"
+    },
+    {
+      "team": "canada",
+      "on": "Cyle Larin",
+      "off": "Tani Oluwaseyi",
+      "minute": "63"
+    },
+    {
+      "team": "canada",
+      "on": "Promise David",
+      "off": "Ali Ahmed",
+      "minute": "78"
+    },
+    {
+      "team": "canada",
+      "on": "Jacob Shaffelburg",
+      "off": "Richie Laryea",
+      "minute": "78"
+    },
+    {
+      "team": "morocco",
+      "on": "Marwane Saadane",
+      "off": "Issa Diop",
+      "minute": "87"
+    },
+    {
+      "team": "morocco",
+      "on": "Samir El Mourabet",
+      "off": "Azzedine Ounahi",
+      "minute": "87"
+    },
+    {
+      "team": "canada",
+      "on": "Jonathan Osorio",
+      "off": "Niko Sigur",
+      "minute": "87"
+    },
+    {
+      "team": "canada",
+      "on": "Jayden Nelson",
+      "off": "Tajon Buchanan",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "manager": "Jesse Marsch",
+      "starting": [
+        {
+          "name": "Maxime Crépeau",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Luc de Fougerolles",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Moïse Bombito",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Richie Laryea",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Alistair Johnston",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Stephen Eustáquio",
+          "position": "MF",
+          "number": 7
+        },
+        {
+          "name": "Niko Sigur",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Ali Ahmed",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "MF",
+          "number": 17
+        },
+        {
+          "name": "Tani Oluwaseyi",
+          "position": "FW",
+          "number": 12
+        },
+        {
+          "name": "Jonathan David",
+          "position": "FW",
+          "number": 10
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Mohamed Ouahbi",
+      "starting": [
+        {
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "number": 1
+        },
+        {
+          "name": "Redouane Halhal",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Issa Diop",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "DF",
+          "number": 2
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "MF",
+          "number": 24
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "MF",
+          "number": 23
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "MF",
+          "number": 10
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 45,
+      "shots": 10,
+      "shots_on_target": 3,
+      "corners": 11,
+      "fouls": 24,
+      "offsides": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "saves": 1,
+      "passes": 359,
+      "pass_accuracy": 76
+    },
+    "away": {
+      "possession": 55,
+      "shots": 5,
+      "shots_on_target": 4,
+      "corners": 1,
+      "fouls": 14,
+      "offsides": 3,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 473,
+      "pass_accuracy": 82
+    }
+  },
+  "decision": "regular"
+}

@@ -1,0 +1,278 @@
+{
+  "id": "2026-06-26-norway-vs-france",
+  "date": "2026-06-26",
+  "home": "norway",
+  "away": "france",
+  "home_score": 1,
+  "away_score": 4,
+  "attendance": 64146,
+  "referee": "Michael Oliver",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760475"
+  ],
+  "goals": [
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "7",
+      "type": "regular",
+      "assist": "Kylian Mbappé"
+    },
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "20",
+      "type": "regular",
+      "assist": "Kylian Mbappé"
+    },
+    {
+      "team": "norway",
+      "player": "Thelo Aasgaard",
+      "minute": "21",
+      "type": "regular",
+      "assist": "Andreas Schjelderup"
+    },
+    {
+      "team": "france",
+      "player": "Ousmane Dembélé",
+      "minute": "32",
+      "type": "regular",
+      "assist": "Aurélien Tchouaméni"
+    },
+    {
+      "team": "france",
+      "player": "Désiré Doué",
+      "minute": "90+4",
+      "type": "regular",
+      "assist": "Bradley Barcola"
+    }
+  ],
+  "cards": [
+    {
+      "team": "norway",
+      "player": "Patrick Berg",
+      "minute": "10",
+      "card": "yellow"
+    },
+    {
+      "team": "france",
+      "player": "Aurélien Tchouaméni",
+      "minute": "74",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "norway",
+      "on": "Morten Thorsby",
+      "off": "Kristian Thorstvedt",
+      "minute": "45"
+    },
+    {
+      "team": "norway",
+      "on": "Marcus Holmgren Pedersen",
+      "off": "Fredrik André Bjørkan",
+      "minute": "45"
+    },
+    {
+      "team": "france",
+      "on": "Rayan Cherki",
+      "off": "Michael Olise",
+      "minute": "65"
+    },
+    {
+      "team": "france",
+      "on": "Bradley Barcola",
+      "off": "Ousmane Dembélé",
+      "minute": "65"
+    },
+    {
+      "team": "norway",
+      "on": "Sondre Langas",
+      "off": "Henrik Falchener",
+      "minute": "66"
+    },
+    {
+      "team": "france",
+      "on": "Ibrahima Konaté",
+      "off": "Dayot Upamecano",
+      "minute": "76"
+    },
+    {
+      "team": "norway",
+      "on": "Antonio Nusa",
+      "off": "Oscar Bobb",
+      "minute": "83"
+    },
+    {
+      "team": "norway",
+      "on": "Jens Petter Hauge",
+      "off": "Andreas Schjelderup",
+      "minute": "83"
+    },
+    {
+      "team": "france",
+      "on": "Malo Gusto",
+      "off": "Jules Koundé",
+      "minute": "87"
+    },
+    {
+      "team": "france",
+      "on": "Jean-Philippe Mateta",
+      "off": "Kylian Mbappé",
+      "minute": "87"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "manager": "Ståle Solbakken",
+      "starting": [
+        {
+          "name": "Egil Selvik",
+          "position": "GK",
+          "number": 13
+        },
+        {
+          "name": "Leo Østigard",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Henrik Falchener",
+          "position": "DF",
+          "number": 25
+        },
+        {
+          "name": "Fredrik André Bjørkan",
+          "position": "DF",
+          "number": 15
+        },
+        {
+          "name": "Fredrik Aursnes",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Patrick Berg",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Thelo Aasgaard",
+          "position": "MF",
+          "number": 19
+        },
+        {
+          "name": "Kristian Thorstvedt",
+          "position": "MF",
+          "number": 18
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "position": "FW",
+          "number": 11
+        },
+        {
+          "name": "Andreas Schjelderup",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Oscar Bobb",
+          "position": "FW",
+          "number": 22
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "DF",
+          "number": 26
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Theo Hernández",
+          "position": "DF",
+          "number": 19
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Manu Koné",
+          "position": "MF",
+          "number": 6
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Désiré Doué",
+          "position": "MF",
+          "number": 20
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 43,
+      "shots": 10,
+      "shots_on_target": 4,
+      "corners": 4,
+      "fouls": 9,
+      "offsides": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 5,
+      "passes": 421,
+      "pass_accuracy": 81
+    },
+    "away": {
+      "possession": 57,
+      "shots": 18,
+      "shots_on_target": 9,
+      "corners": 5,
+      "fouls": 11,
+      "offsides": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 555,
+      "pass_accuracy": 86
+    }
+  }
+}

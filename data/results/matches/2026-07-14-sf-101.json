@@ -1,0 +1,264 @@
+{
+  "id": "2026-07-14-sf-101",
+  "date": "2026-07-14",
+  "home": "france",
+  "away": "spain",
+  "home_score": 0,
+  "away_score": 2,
+  "attendance": 70176,
+  "referee": "Iván Arcides Barton Cisneros",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=760514"
+  ],
+  "goals": [
+    {
+      "team": "spain",
+      "player": "Mikel Oyarzabal",
+      "minute": "22",
+      "type": "penalty",
+      "assist": null
+    },
+    {
+      "team": "spain",
+      "player": "Pedro Porro",
+      "minute": "58",
+      "type": "regular",
+      "assist": "Dani Olmo"
+    }
+  ],
+  "cards": [
+    {
+      "team": "france",
+      "player": "Adrien Rabiot",
+      "minute": "9",
+      "card": "yellow"
+    },
+    {
+      "team": "spain",
+      "player": "Marc Cucurella",
+      "minute": "31",
+      "card": "yellow"
+    },
+    {
+      "team": "france",
+      "player": "Kylian Mbappé",
+      "minute": "86",
+      "card": "yellow"
+    }
+  ],
+  "substitutions": [
+    {
+      "team": "france",
+      "on": "Maxence Lacroix",
+      "off": "William Saliba",
+      "minute": "30"
+    },
+    {
+      "team": "france",
+      "on": "Manu Koné",
+      "off": "Adrien Rabiot",
+      "minute": "45"
+    },
+    {
+      "team": "france",
+      "on": "Désiré Doué",
+      "off": "Bradley Barcola",
+      "minute": "57"
+    },
+    {
+      "team": "france",
+      "on": "Theo Hernández",
+      "off": "Lucas Digne",
+      "minute": "72"
+    },
+    {
+      "team": "france",
+      "on": "Rayan Cherki",
+      "off": "Michael Olise",
+      "minute": "72"
+    },
+    {
+      "team": "spain",
+      "on": "Ferran Torres",
+      "off": "Mikel Oyarzabal",
+      "minute": "74"
+    },
+    {
+      "team": "spain",
+      "on": "Mikel Merino",
+      "off": "Dani Olmo",
+      "minute": "78"
+    },
+    {
+      "team": "spain",
+      "on": "Pedri",
+      "off": "Fabián Ruiz",
+      "minute": "78"
+    },
+    {
+      "team": "spain",
+      "on": "Marcos Llorente",
+      "off": "Pedro Porro",
+      "minute": "84"
+    },
+    {
+      "team": "spain",
+      "on": "Nico Williams",
+      "off": "Álex Baena",
+      "minute": "84"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "starting": [
+        {
+          "name": "Mike Maignan",
+          "position": "GK",
+          "number": 16
+        },
+        {
+          "name": "William Saliba",
+          "position": "DF",
+          "number": 17
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "DF",
+          "number": 4
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "DF",
+          "number": 3
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "DF",
+          "number": 5
+        },
+        {
+          "name": "Michael Olise",
+          "position": "MF",
+          "number": 11
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "MF",
+          "number": 14
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "FW",
+          "number": 10
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "MF",
+          "number": 12
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "MF",
+          "number": 7
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "manager": "Luis de la Fuente",
+      "starting": [
+        {
+          "name": "Unai Simón",
+          "position": "GK",
+          "number": 23
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "DF",
+          "number": 14
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "DF",
+          "number": 22
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "DF",
+          "number": 24
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "DF",
+          "number": 12
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "MF",
+          "number": 10
+        },
+        {
+          "name": "Fabián Ruiz",
+          "position": "MF",
+          "number": 8
+        },
+        {
+          "name": "Rodri",
+          "position": "MF",
+          "number": 16
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "FW",
+          "number": 21
+        },
+        {
+          "name": "Álex Baena",
+          "position": "MF",
+          "number": 15
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "MF",
+          "number": 19
+        }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 49,
+      "shots": 10,
+      "shots_on_target": 3,
+      "corners": 7,
+      "fouls": 11,
+      "offsides": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "saves": 0,
+      "passes": 472,
+      "pass_accuracy": 84
+    },
+    "away": {
+      "possession": 51,
+      "shots": 10,
+      "shots_on_target": 2,
+      "corners": 1,
+      "fouls": 12,
+      "offsides": 5,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "saves": 3,
+      "passes": 502,
+      "pass_accuracy": 85
+    }
+  },
+  "decision": "regular"
+}
